@@ -3,7 +3,7 @@ name: Daily hydrology paper brief
 on:
   schedule:
     # 00:37 UTC is 08:37 China Standard Time.
-    - cron: "37 * * * *"
+    - cron: "37 22 * * *"
   workflow_dispatch:
 
 permissions:
