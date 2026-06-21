@@ -36,6 +36,7 @@ JOURNALS = {
     "Nature Climate Change": "1758-6798",
     "Nature Geoscience": "1752-0908",
     "Nature Communications": "2041-1723",
+    "Communications Earth & Environment": "2662-4435",
     "Nature Sustainability": "2398-9629",
     "Nature Water": "2731-6084",
     "Geoscientific Model Development": "1991-9603",
