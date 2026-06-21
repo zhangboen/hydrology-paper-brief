@@ -5,6 +5,7 @@ import re
 import smtplib
 import ssl
 import time
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
@@ -19,8 +20,11 @@ LOGGER = logging.getLogger("hydrology_paper_brief")
 
 SENT_DOIS_PATH = Path("sent_dois.json")
 CROSSREF_API = "https://api.crossref.org/journals/{issn}/works"
+ARXIV_API = "https://export.arxiv.org/api/query"
 ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
+ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "20"))
+MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
 
 JOURNALS = {
     "Water Resources Research": "1944-7973",
@@ -134,7 +138,57 @@ HYDROLOGY_CONTEXT_KEYWORDS = (
     "basin",
     "water resources",
     "hydroclimate",
+    "hydroclimatic",
+    "climate",
+    "climate change",
+    "climate model",
+    "climate extreme",
+    "meteorology",
+    "atmospheric",
+    "earth system",
+    "sea surface temperature",
+    "sst",
 )
+
+ARXIV_CATEGORIES = (
+    "cs.LG",
+    "stat.ML",
+    "cs.AI",
+    "eess.SP",
+    "eess.IV",
+    "physics.ao-ph",
+    "physics.geo-ph",
+)
+
+ARXIV_ML_QUERY_TERMS = (
+    "machine",
+    "learning",
+    "deep",
+    "neural",
+    "transformer",
+    "data-driven",
+)
+
+ARXIV_HYDROCLIMATE_QUERY_TERMS = (
+    "climate",
+    "hydrology",
+    "hydrological",
+    "hydroclimate",
+    "flood",
+    "drought",
+    "precipitation",
+    "streamflow",
+    "runoff",
+    "soil",
+    "meteorology",
+    "atmospheric",
+    "sst",
+)
+
+ARXIV_NS = {
+    "atom": "http://www.w3.org/2005/Atom",
+    "arxiv": "http://arxiv.org/schemas/atom",
+}
 
 
 @dataclass(frozen=True)
@@ -148,6 +202,10 @@ class Paper:
     topic: str
     topic_rank: int
     abstract: str
+
+
+def clean_whitespace(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def get_required_env(name: str) -> str:
@@ -201,6 +259,94 @@ def clean_abstract(raw_abstract: str) -> str:
     text = unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
     return text or "No abstract available from Crossref."
+
+
+def clean_arxiv_text(raw_text: str | None) -> str:
+    if not raw_text:
+        return ""
+    return clean_whitespace(raw_text)
+
+
+def arxiv_identifier(entry_id: str) -> str:
+    identifier = entry_id.rstrip("/").rsplit("/", 1)[-1]
+    identifier = re.sub(r"v\d+$", "", identifier)
+    return f"arxiv:{identifier.lower()}"
+
+
+def arxiv_date(value: str) -> str:
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        return value or "Unknown"
+
+
+def arxiv_published_datetime(value: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def arxiv_categories(entry: ET.Element) -> list[str]:
+    return [
+        category.attrib.get("term", "")
+        for category in entry.findall("atom:category", ARXIV_NS)
+        if category.attrib.get("term")
+    ]
+
+
+def searchable_arxiv_text(entry: ET.Element) -> str:
+    title = clean_arxiv_text(entry.findtext("atom:title", default="", namespaces=ARXIV_NS))
+    summary = clean_arxiv_text(entry.findtext("atom:summary", default="", namespaces=ARXIV_NS))
+    categories = " ".join(arxiv_categories(entry))
+    return f"{title} {summary} {categories}".lower()
+
+
+def is_arxiv_hydroclimate_ml_match(entry: ET.Element) -> bool:
+    searchable_text = searchable_arxiv_text(entry)
+    categories = set(arxiv_categories(entry))
+    has_ml = (
+        any(keyword in searchable_text for keyword in MACHINE_LEARNING_KEYWORDS)
+        or bool(categories.intersection({"cs.LG", "stat.ML", "cs.AI"}))
+    )
+    has_hydroclimate = any(keyword in searchable_text for keyword in HYDROLOGY_CONTEXT_KEYWORDS)
+    return has_ml and has_hydroclimate
+
+
+def paper_from_arxiv_entry(entry: ET.Element) -> Paper | None:
+    entry_id = clean_arxiv_text(entry.findtext("atom:id", default="", namespaces=ARXIV_NS))
+    if not entry_id:
+        return None
+
+    title = clean_arxiv_text(entry.findtext("atom:title", default="Untitled", namespaces=ARXIV_NS))
+    summary = clean_arxiv_text(entry.findtext("atom:summary", default="", namespaces=ARXIV_NS))
+    published = clean_arxiv_text(entry.findtext("atom:published", default="", namespaces=ARXIV_NS))
+    authors = [
+        clean_arxiv_text(author.findtext("atom:name", default="", namespaces=ARXIV_NS))
+        for author in entry.findall("atom:author", ARXIV_NS)
+    ]
+    authors = [author for author in authors if author]
+    if len(authors) > 8:
+        authors = authors[:8] + ["et al."]
+
+    primary_category = entry.find("arxiv:primary_category", ARXIV_NS)
+    primary_category_name = (
+        primary_category.attrib.get("term", "arXiv")
+        if primary_category is not None
+        else "arXiv"
+    )
+
+    return Paper(
+        title=title or "Untitled",
+        authors=", ".join(authors) if authors else "Unknown",
+        journal=f"arXiv ({primary_category_name})",
+        publication_date=arxiv_date(published),
+        doi=arxiv_identifier(entry_id),
+        url=entry_id.replace("http://", "https://"),
+        topic="arXiv hydroclimate machine learning",
+        topic_rank=4,
+        abstract=summary or "No abstract available from arXiv.",
+    )
 
 
 def crossref_date(item: dict[str, Any]) -> str:
@@ -360,6 +506,85 @@ def fetch_recent_journal_articles(
     return recent_items
 
 
+def fetch_recent_arxiv_entries(
+    session: requests.Session,
+    from_datetime: datetime,
+    until_datetime: datetime,
+) -> list[ET.Element]:
+    from_stamp = from_datetime.strftime("%Y%m%d%H%M")
+    until_stamp = until_datetime.strftime("%Y%m%d%H%M")
+    category_query = " OR ".join(f"cat:{category}" for category in ARXIV_CATEGORIES)
+    ml_query = " OR ".join(f"all:{term}" for term in ARXIV_ML_QUERY_TERMS)
+    hydroclimate_query = " OR ".join(
+        f"all:{term}" for term in ARXIV_HYDROCLIMATE_QUERY_TERMS
+    )
+    params = {
+        "search_query": (
+            f"(({category_query}) OR ({ml_query})) AND "
+            f"({hydroclimate_query}) AND "
+            f"submittedDate:[{from_stamp} TO {until_stamp}]"
+        ),
+        "start": 0,
+        "max_results": ROWS_PER_ARXIV_QUERY,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+    }
+
+    LOGGER.info(
+        "Searching arXiv from %s to %s across %s categories.",
+        from_stamp,
+        until_stamp,
+        len(ARXIV_CATEGORIES),
+    )
+    response = session.get(ARXIV_API, params=params, timeout=30)
+    response.raise_for_status()
+    root = ET.fromstring(response.content)
+    entries = root.findall("atom:entry", ARXIV_NS)
+
+    recent_entries = []
+    for entry in entries:
+        published = arxiv_published_datetime(
+            clean_arxiv_text(entry.findtext("atom:published", default="", namespaces=ARXIV_NS))
+        )
+        if published is None or published >= from_datetime:
+            recent_entries.append(entry)
+
+    LOGGER.info("Found %s arXiv entry/entries before keyword filtering.", len(recent_entries))
+    return recent_entries
+
+
+def fetch_arxiv_candidate_papers(
+    session: requests.Session,
+    from_datetime: datetime,
+    until_datetime: datetime,
+) -> list[Paper]:
+    try:
+        entries = fetch_recent_arxiv_entries(
+            session=session,
+            from_datetime=from_datetime,
+            until_datetime=until_datetime,
+        )
+    except (requests.RequestException, ET.ParseError) as exc:
+        LOGGER.exception("arXiv request failed: %s", exc)
+        return []
+
+    papers_by_identifier: dict[str, Paper] = {}
+    for entry in entries:
+        if not is_arxiv_hydroclimate_ml_match(entry):
+            continue
+        paper = paper_from_arxiv_entry(entry)
+        if paper:
+            papers_by_identifier[paper.doi] = paper
+
+    papers = sorted(
+        papers_by_identifier.values(),
+        key=lambda paper: (paper.publication_date, paper.title),
+        reverse=True,
+    )
+    LOGGER.info("Collected %s arXiv hydroclimate-ML candidate paper(s).", len(papers))
+    return papers[:MAX_ARXIV_PAPERS]
+
+
 def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     until_datetime = datetime.now(timezone.utc)
     from_datetime = until_datetime - timedelta(hours=24)
@@ -374,6 +599,12 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     )
 
     papers_by_doi: dict[str, Paper] = {}
+    for paper in fetch_arxiv_candidate_papers(
+        session=session,
+        from_datetime=from_datetime,
+        until_datetime=until_datetime,
+    ):
+        papers_by_doi[paper.doi] = paper
 
     for journal_name, issn in JOURNALS.items():
         try:
@@ -415,14 +646,15 @@ def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX
 def build_email_body(papers: list[Paper]) -> str:
     if not papers:
         return (
-            "No new papers matched the ranked topics in Crossref for the last 24 hours, "
+            "No new papers matched the ranked Crossref topics or arXiv hydroclimate-ML filter "
+            "for the last 24 hours, "
             "or all matching papers have already been sent."
         )
 
     lines = [
         f"Hydrology paper brief for {datetime.now(timezone.utc).date().isoformat()}",
-        f"Selected {len(papers)} paper(s) by ranked topic priority from recent Crossref results.",
-        "Topic priority: flood; climate extreme events; drought; hydrological machine learning; SWOT.",
+        f"Selected {len(papers)} paper(s) by ranked topic priority from recent Crossref and arXiv results.",
+        "Topic priority: flood; climate extreme events; drought; hydrological machine learning; arXiv hydroclimate machine learning; SWOT.",
         "",
     ]
 
@@ -434,7 +666,7 @@ def build_email_body(papers: list[Paper]) -> str:
                 f"Authors: {paper.authors}",
                 f"Journal: {paper.journal}",
                 f"Publication date: {paper.publication_date}",
-                f"DOI: {paper.doi}",
+                f"Identifier: {paper.doi}",
                 f"URL: {paper.url}",
                 f"Abstract: {paper.abstract}",
                 "",
@@ -496,7 +728,7 @@ def main() -> None:
         sent_dois.update(paper.doi for paper in selected)
         save_sent_dois(sent_dois)
     else:
-        LOGGER.info("No new DOI(s) to add to %s.", SENT_DOIS_PATH)
+        LOGGER.info("No new identifier(s) to add to %s.", SENT_DOIS_PATH)
 
 
 if __name__ == "__main__":

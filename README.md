@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 24 hours in Crossref, selects up to 20 new papers by ranked topic priority, and sends an email brief every day at 09:00 China Standard Time.
+This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 20 new papers by ranked topic priority, and sends an email brief every day at 09:00 China Standard Time.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -38,6 +38,23 @@ The script searches titles, abstracts, and Crossref subjects, then prioritizes m
 3. drought
 4. hydrological machine learning
 5. SWOT
+
+## arXiv Preprint Filter
+
+The script also queries recent arXiv submissions from these categories:
+
+- `cs.LG`
+- `stat.ML`
+- `cs.AI`
+- `eess.SP`
+- `eess.IV`
+- `physics.ao-ph`
+- `physics.geo-ph`
+
+It keeps arXiv papers only when the title, abstract, or categories match both:
+
+- machine-learning context, such as machine learning, deep learning, artificial intelligence, neural network, LSTM, transformer, or data-driven methods
+- hydroclimate context, such as hydrology, flood, streamflow, runoff, precipitation, drought, soil moisture, water resources, hydroclimate, climate change, meteorology, Earth system, or sea surface temperature
 
 ## Files
 
@@ -85,11 +102,11 @@ Run the automation:
 python main.py
 ```
 
-By default, the script asks Crossref for up to 200 recent items per journal and selects up to 20 papers. You can override these with `ROWS_PER_JOURNAL` and `MAX_PAPERS`.
+By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 20 papers total. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
 
 
 ## How Duplicate Prevention Works
 
-After a successful email with selected papers, the script writes sent DOIs to `sent_dois.json`. The GitHub Actions workflow commits this file back to the repository so future scheduled runs can skip papers that have already been emailed.
+After a successful email with selected papers, the script writes sent identifiers to `sent_dois.json`. Crossref papers use DOI identifiers, and arXiv papers use `arxiv:<id>` identifiers. The GitHub Actions workflow commits this file back to the repository so future scheduled runs can skip papers that have already been emailed.
 
 If no new matching papers are found, the script sends a short email saying there are no new unsent results and does not modify `sent_dois.json`.
