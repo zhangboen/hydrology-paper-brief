@@ -15,12 +15,17 @@ The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in
 - Nature
 - Science
 - Science Advances
+- PNAS
 - Nature Climate Change
 - Nature Geoscience
 - Nature Communications
 - Nature Sustainability
 - Nature Water
 - Geoscientific Model Development
+- Bulletin of the American Meteorological Society
+- Journal of Climate
+- Journal of Hydrology
+- Remote Sensing of Environment
 - Hydrology and Earth System Sciences
 
 ## Ranked Topics

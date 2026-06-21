@@ -32,12 +32,17 @@ JOURNALS = {
     "Nature": "1476-4687",
     "Science": "1095-9203",
     "Science Advances": "2375-2548",
+    "PNAS": "1091-6490",
     "Nature Climate Change": "1758-6798",
     "Nature Geoscience": "1752-0908",
     "Nature Communications": "2041-1723",
     "Nature Sustainability": "2398-9629",
     "Nature Water": "2731-6084",
     "Geoscientific Model Development": "1991-9603",
+    "Bulletin of the American Meteorological Society": "1520-0477",
+    "Journal of Climate": "1520-0442",
+    "Journal of Hydrology": "0022-1694",
+    "Remote Sensing of Environment": "1879-0704",
     "Hydrology and Earth System Sciences": "1607-7938",
 }
 
