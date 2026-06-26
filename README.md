@@ -69,7 +69,7 @@ Create these repository secrets before enabling the workflow:
 
 | Secret | Value |
 | --- | --- |
-| `RECIPIENT_EMAIL` | `zhangben@mail.sysu.edu.cn` |
+| `RECIPIENT_EMAIL` | `zhangboenvip@gmail.com` |
 | `CONTACT_EMAIL` | Your contact email for Crossref polite API use |
 | `SMTP_USER` | `893001879@qq.com` |
 | `SMTP_PASSWORD` | Your regenerated QQ SMTP authorization code |
