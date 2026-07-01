@@ -69,7 +69,7 @@ Create these repository secrets before enabling the workflow:
 
 | Secret | Value |
 | --- | --- |
-| `RECIPIENT_EMAIL` | `zhangboenvip@gmail.com` |
+| `RECIPIENT_EMAIL` | `boenzhang.gis@outlook.com` |
 | `CONTACT_EMAIL` | Your contact email for Crossref polite API use |
 | `SMTP_USER` | `893001879@qq.com` |
 | `SMTP_PASSWORD` | Your regenerated QQ SMTP authorization code |
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 Set environment variables:
 
 ```bash
-export RECIPIENT_EMAIL="zhangben@mail.sysu.edu.cn"
+export RECIPIENT_EMAIL="boenzhang.gis@outlook.com"
 export CONTACT_EMAIL="your-contact-email@example.com"
 export SMTP_USER="893001879@qq.com"
 export SMTP_PASSWORD="your-regenerated-smtp-authorization-code"
