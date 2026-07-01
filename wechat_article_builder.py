@@ -99,8 +99,9 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
                 "content": (
                     "For each paper, return a JSON object with key papers. "
                     "papers must be an array with exactly one object per input paper, in the same order. "
-                    "Each object must have keys: chinese_title, section_label, summary. "
-                    "section_label should be a short Chinese phrase for the numbered section, without numbering. "
+                    "Each object must have keys: chinese_title, summary. "
+                    "chinese_title must be a faithful Chinese translation of the paper title, not a generic label "
+                    "such as research background, research purpose, or research method. "
                     "Here are the papers:\n"
                     + json.dumps(payload, ensure_ascii=False)
                 ),
@@ -149,15 +150,14 @@ def build_wechat_html(papers: list[WeChatPaper], entries: list[dict], run_date: 
     for idx, (paper, entry) in enumerate(zip(papers, entries), start=1):
         abbrev = journal_abbreviation(paper.journal)
         chinese_title = str(entry["chinese_title"]).strip()
-        section_label = str(entry.get("section_label") or "文献速览").strip()
+        section_title = f"{chinese_title} | {abbrev}"
         summary = str(entry["summary"]).strip()
         url = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi and not paper.doi.startswith("arxiv:") else "")
         link = f'<a href="{html.escape(url)}" style="color:#2878b5; text-decoration:underline;">{html.escape(url)}</a>' if url else ""
         parts.extend(
             [
-                f"<section style=\"margin: 16px 0 8px; padding: 8px 12px; background:#eef5f8; color:#2c5364; font-weight:700;\">{idx:02d}｜{html.escape(section_label)}</section>",
+                f"<section style=\"margin: 16px 0 8px; padding: 8px 12px; background:#eef5f8; color:#2c5364; font-weight:700; line-height:1.55;\">{idx:02d}｜{html.escape(section_title)}</section>",
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
-                f"<p style=\"margin:0 0 6px;\"><strong>中文标题：</strong>{html.escape(chinese_title)} | {html.escape(abbrev)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Journal：</strong>{html.escape(paper.journal)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
