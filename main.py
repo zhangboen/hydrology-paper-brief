@@ -26,6 +26,8 @@ ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
 MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
+CROSSREF_MAX_ATTEMPTS = max(1, int(os.getenv("CROSSREF_MAX_ATTEMPTS", "3")))
+CROSSREF_RETRY_SLEEP_SECONDS = float(os.getenv("CROSSREF_RETRY_SLEEP_SECONDS", "3"))
 
 JOURNALS = {
     "Water Resources Research": "1944-7973",
@@ -484,8 +486,32 @@ def fetch_recent_journal_articles(
         until_date.isoformat(),
     )
 
-    response = session.get(url, params=params, timeout=30)
-    response.raise_for_status()
+    for attempt in range(1, CROSSREF_MAX_ATTEMPTS + 1):
+        try:
+            response = session.get(url, params=params, timeout=30)
+            if response.status_code >= 500 and attempt < CROSSREF_MAX_ATTEMPTS:
+                LOGGER.warning(
+                    "Crossref returned %s for %s; retrying attempt %s/%s.",
+                    response.status_code,
+                    journal_name,
+                    attempt + 1,
+                    CROSSREF_MAX_ATTEMPTS,
+                )
+                time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
+                continue
+            response.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt >= CROSSREF_MAX_ATTEMPTS:
+                raise
+            LOGGER.warning(
+                "Crossref request failed for %s; retrying attempt %s/%s.",
+                journal_name,
+                attempt + 1,
+                CROSSREF_MAX_ATTEMPTS,
+            )
+            time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
+
     payload = response.json()
     items = payload.get("message", {}).get("items", [])
 
@@ -618,7 +644,7 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
                 contact_email=contact_email,
             )
         except requests.RequestException as exc:
-            LOGGER.exception("Crossref request failed for %s: %s", journal_name, exc)
+            LOGGER.warning("Skipping %s after Crossref request failure: %s", journal_name, exc)
             continue
 
         for item in items:
