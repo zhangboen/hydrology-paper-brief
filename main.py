@@ -761,13 +761,17 @@ def main() -> None:
     body = build_email_body(selected)
 
     send_email(subject, body)
-    write_wechat_article(selected, datetime.now(timezone(timedelta(hours=8))))
 
     if selected:
         sent_dois.update(paper.doi for paper in selected)
         save_sent_dois(sent_dois)
     else:
         LOGGER.info("No new identifier(s) to add to %s.", SENT_DOIS_PATH)
+
+    try:
+        write_wechat_article(selected, datetime.now(timezone(timedelta(hours=8))))
+    except Exception as exc:
+        LOGGER.exception("WeChat HTML generation failed after email delivery: %s", exc)
 
 
 if __name__ == "__main__":
