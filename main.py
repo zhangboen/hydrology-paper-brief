@@ -15,8 +15,6 @@ from typing import Any
 
 import requests
 
-from wechat_article_builder import write_wechat_article
-
 
 LOGGER = logging.getLogger("hydrology_paper_brief")
 
@@ -710,6 +708,30 @@ def send_email(subject: str, body: str) -> None:
     LOGGER.info("Email sent successfully.")
 
 
+def write_selected_papers(papers: list[Paper], run_date: datetime) -> None:
+    if not papers:
+        LOGGER.info("No selected papers to write.")
+        return
+
+    OUTPUTS_DIR.mkdir(exist_ok=True)
+    date_stamp = run_date.date().isoformat()
+    output_path = OUTPUTS_DIR / f"selected-papers-{date_stamp}.json"
+    output_path.write_text(
+        json.dumps(
+            {
+                "generated_at": run_date.isoformat(),
+                "paper_count": len(papers),
+                "papers": [paper.__dict__ for paper in papers],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    LOGGER.info("Wrote selected paper data to %s.", output_path)
+
+
 def main() -> None:
     logging.basicConfig(
         level=os.getenv("LOG_LEVEL", "INFO").upper(),
@@ -730,23 +752,9 @@ def main() -> None:
     if selected:
         sent_dois.update(paper.doi for paper in selected)
         save_sent_dois(sent_dois)
+        write_selected_papers(selected, datetime.now(timezone(timedelta(hours=8))))
     else:
         LOGGER.info("No new identifier(s) to add to %s.", SENT_DOIS_PATH)
-
-    try:
-        wrote_wechat_article = write_wechat_article(
-            selected,
-            datetime.now(timezone(timedelta(hours=8))),
-            OUTPUTS_DIR,
-        )
-        if wrote_wechat_article:
-            LOGGER.info("Wrote WeChat HTML article to %s.", OUTPUTS_DIR)
-        elif selected:
-            LOGGER.warning("Skipped WeChat HTML generation; OPENAI_API_KEY may be missing.")
-        else:
-            LOGGER.info("No selected papers; skipping WeChat HTML generation.")
-    except Exception as exc:
-        LOGGER.exception("WeChat HTML generation failed after email delivery: %s", exc)
 
 
 if __name__ == "__main__":

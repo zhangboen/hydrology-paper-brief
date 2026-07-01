@@ -33,9 +33,15 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: python main.py
+
+      - name: Generate WeChat HTML article
+        if: success()
+        continue-on-error: true
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
-        run: python main.py
+        run: python generate_wechat_post.py
 
       - name: Upload generated WeChat article
         if: always()

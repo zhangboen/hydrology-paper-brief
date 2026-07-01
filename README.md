@@ -58,7 +58,8 @@ It keeps arXiv papers only when the title, abstract, or categories match both:
 
 ## Files
 
-- `main.py` - Crossref/arXiv search, ranked topic selection, abstract formatting, duplicate tracking, SMTP email sending, and WeChat HTML generation.
+- `main.py` - Crossref/arXiv search, ranked topic selection, abstract formatting, duplicate tracking, SMTP email sending, and selected-paper JSON export.
+- `generate_wechat_post.py` - Reads the selected-paper JSON and generates the WeChat HTML article.
 - `wechat_article_builder.py` - OpenAI-backed Chinese title/summary generation and WeChat-compatible HTML layout.
 - `requirements.txt` - Python dependencies.
 - `.github/workflows/daily.yml` - Scheduled GitHub Actions automation.
