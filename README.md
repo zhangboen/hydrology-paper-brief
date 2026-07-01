@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 20 new papers by ranked topic priority, and sends an email brief every day at 09:00 China Standard Time.
+This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 50 new papers by ranked topic priority, and sends an email brief every day at 09:00 China Standard Time.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -102,7 +102,7 @@ Run the automation:
 python main.py
 ```
 
-By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 20 papers total. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
+By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 50 papers total. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
 
 
 ## How Duplicate Prevention Works

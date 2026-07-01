@@ -23,7 +23,7 @@ CROSSREF_API = "https://api.crossref.org/journals/{issn}/works"
 ARXIV_API = "https://export.arxiv.org/api/query"
 ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
-MAX_PAPERS = int(os.getenv("MAX_PAPERS", "20"))
+MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
 MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
 
 JOURNALS = {
