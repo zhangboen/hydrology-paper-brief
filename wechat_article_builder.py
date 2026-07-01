@@ -4,7 +4,8 @@ import html
 import json
 import os
 from dataclasses import asdict
-from datetime import date
+from datetime import date, datetime
+from pathlib import Path
 from typing import Protocol
 
 from openai import OpenAI
@@ -133,3 +134,36 @@ def build_wechat_html(papers: list[WeChatPaper], entries: list[dict], run_date: 
     parts.append("</section>")
     html_body = "\n".join(part.strip() for part in parts if part.strip())
     return title, digest, html_body
+
+
+def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_dir: Path) -> bool:
+    if not papers:
+        return False
+    if not os.getenv("OPENAI_API_KEY"):
+        return False
+
+    outputs_dir.mkdir(exist_ok=True)
+    entries = generate_chinese_entries(papers)
+    title, digest, html = build_wechat_html(papers, entries, run_date.date())
+
+    date_stamp = run_date.date().isoformat()
+    html_path = outputs_dir / f"wechat-post-{date_stamp}.html"
+    metadata_path = outputs_dir / f"wechat-post-{date_stamp}.json"
+
+    html_path.write_text(html, encoding="utf-8")
+    metadata_path.write_text(
+        json.dumps(
+            {
+                "title": title,
+                "digest": digest,
+                "paper_count": len(papers),
+                "generated_at": run_date.isoformat(),
+                "html_path": str(html_path),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    return True
