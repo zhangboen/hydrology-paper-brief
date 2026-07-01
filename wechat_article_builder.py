@@ -156,12 +156,11 @@ def build_wechat_html(papers: list[WeChatPaper], entries: list[dict], run_date: 
         link = f'<a href="{html.escape(url)}" style="color:#2878b5; text-decoration:underline;">{html.escape(url)}</a>' if url else ""
         parts.extend(
             [
-                f"<section style=\"margin: 16px 0 8px; padding: 8px 12px; background:#eef5f8; color:#2c5364; font-weight:700; line-height:1.55;\">{idx:02d}｜{html.escape(section_title)}</section>",
+                f"<section style=\"margin:18px 0 10px; padding:10px 12px; background:linear-gradient(90deg,#d9edf7 0%,#eef7fb 58%,#ffffff 100%); color:#17324d; font-weight:700; line-height:1.55; border-left:5px solid #2878b5; border-bottom:1px solid #b9d7e8; box-shadow:0 2px 8px rgba(40,120,181,0.12);\">{idx:02d}｜{html.escape(section_title)}</section>",
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
-                f"<p style=\"margin:0 0 6px;\"><strong>Journal：</strong>{html.escape(paper.journal)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
-                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #b9d7e8;\">{html.escape(summary)}</p>",
+                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\">{html.escape(summary)}</p>",
             ]
         )
 
