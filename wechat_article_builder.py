@@ -34,6 +34,7 @@ PAPER_FIELDS = (
     "topic_rank",
     "abstract",
 )
+OPENAI_WECHAT_BATCH_SIZE = max(1, int(os.getenv("OPENAI_WECHAT_BATCH_SIZE", "10")))
 
 
 JOURNAL_ABBREVIATIONS = {
@@ -78,13 +79,7 @@ def paper_to_dict(paper: WeChatPaper) -> dict:
     return {field: getattr(paper, field, "") for field in PAPER_FIELDS}
 
 
-def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        raise RuntimeError("Missing OPENAI_API_KEY secret.")
-
-    client = OpenAI(api_key=api_key)
-    model = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
+def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeChatPaper]) -> list[dict]:
     payload = [paper_to_dict(paper) for paper in papers]
     response = client.chat.completions.create(
         model=model,
@@ -102,7 +97,9 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
             {
                 "role": "user",
                 "content": (
-                    "For each paper, return an array of objects with keys: chinese_title, section_label, summary. "
+                    "For each paper, return a JSON object with key papers. "
+                    "papers must be an array with exactly one object per input paper, in the same order. "
+                    "Each object must have keys: chinese_title, section_label, summary. "
                     "section_label should be a short Chinese phrase for the numbered section, without numbering. "
                     "Here are the papers:\n"
                     + json.dumps(payload, ensure_ascii=False)
@@ -118,7 +115,23 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
     else:
         entries = data.get("papers") or data.get("entries") or []
     if len(entries) != len(papers):
-        raise RuntimeError("OpenAI response did not include one entry per paper.")
+        raise RuntimeError(
+            f"OpenAI response included {len(entries)} entrie(s) for {len(papers)} paper(s)."
+        )
+    return entries
+
+
+def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing OPENAI_API_KEY secret.")
+
+    client = OpenAI(api_key=api_key)
+    model = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
+    entries: list[dict] = []
+    for start in range(0, len(papers), OPENAI_WECHAT_BATCH_SIZE):
+        batch = papers[start : start + OPENAI_WECHAT_BATCH_SIZE]
+        entries.extend(generate_chinese_entries_batch(client, model, batch))
     return entries
 
 
