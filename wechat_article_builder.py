@@ -3,7 +3,7 @@ from __future__ import annotations
 import html
 import json
 import os
-from dataclasses import asdict
+from dataclasses import asdict, is_dataclass
 from datetime import date, datetime
 from pathlib import Path
 from typing import Protocol
@@ -21,6 +21,19 @@ class WeChatPaper(Protocol):
     topic: str
     topic_rank: int
     abstract: str
+
+
+PAPER_FIELDS = (
+    "title",
+    "authors",
+    "journal",
+    "publication_date",
+    "doi",
+    "url",
+    "topic",
+    "topic_rank",
+    "abstract",
+)
 
 
 JOURNAL_ABBREVIATIONS = {
@@ -57,6 +70,14 @@ def journal_abbreviation(journal: str) -> str:
     return "".join(word[0].upper() for word in words[:5])
 
 
+def paper_to_dict(paper: WeChatPaper) -> dict:
+    if is_dataclass(paper):
+        return asdict(paper)
+    if isinstance(paper, dict):
+        return {field: paper.get(field, "") for field in PAPER_FIELDS}
+    return {field: getattr(paper, field, "") for field in PAPER_FIELDS}
+
+
 def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
@@ -64,7 +85,7 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
 
     client = OpenAI(api_key=api_key)
     model = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
-    payload = [asdict(paper) for paper in papers]
+    payload = [paper_to_dict(paper) for paper in papers]
     response = client.chat.completions.create(
         model=model,
         temperature=0.2,
