@@ -15,10 +15,13 @@ from typing import Any
 
 import requests
 
+from wechat_article_builder import build_wechat_html, generate_chinese_entries
+
 
 LOGGER = logging.getLogger("hydrology_paper_brief")
 
 SENT_DOIS_PATH = Path("sent_dois.json")
+OUTPUTS_DIR = Path("outputs")
 CROSSREF_API = "https://api.crossref.org/journals/{issn}/works"
 ARXIV_API = "https://export.arxiv.org/api/query"
 ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
@@ -707,6 +710,41 @@ def send_email(subject: str, body: str) -> None:
     LOGGER.info("Email sent successfully.")
 
 
+def write_wechat_article(papers: list[Paper], run_date: datetime) -> None:
+    if not papers:
+        LOGGER.info("No selected papers; skipping WeChat HTML generation.")
+        return
+    if not os.getenv("OPENAI_API_KEY"):
+        LOGGER.warning("OPENAI_API_KEY is not set; skipping WeChat HTML generation.")
+        return
+
+    OUTPUTS_DIR.mkdir(exist_ok=True)
+    entries = generate_chinese_entries(papers)
+    title, digest, html = build_wechat_html(papers, entries, run_date.date())
+
+    date_stamp = run_date.date().isoformat()
+    html_path = OUTPUTS_DIR / f"wechat-post-{date_stamp}.html"
+    metadata_path = OUTPUTS_DIR / f"wechat-post-{date_stamp}.json"
+
+    html_path.write_text(html, encoding="utf-8")
+    metadata_path.write_text(
+        json.dumps(
+            {
+                "title": title,
+                "digest": digest,
+                "paper_count": len(papers),
+                "generated_at": run_date.isoformat(),
+                "html_path": str(html_path),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    LOGGER.info("Wrote WeChat HTML article to %s.", html_path)
+
+
 def main() -> None:
     logging.basicConfig(
         level=os.getenv("LOG_LEVEL", "INFO").upper(),
@@ -723,6 +761,7 @@ def main() -> None:
     body = build_email_body(selected)
 
     send_email(subject, body)
+    write_wechat_article(selected, datetime.now(timezone(timedelta(hours=8))))
 
     if selected:
         sent_dois.update(paper.doi for paper in selected)

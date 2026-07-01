@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 50 new papers by ranked topic priority, and sends an email brief every day at 09:00 China Standard Time.
+This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 50 new papers by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -58,10 +58,12 @@ It keeps arXiv papers only when the title, abstract, or categories match both:
 
 ## Files
 
-- `main.py` - Crossref search, ranked topic selection, abstract formatting, duplicate tracking, and SMTP email sending.
+- `main.py` - Crossref/arXiv search, ranked topic selection, abstract formatting, duplicate tracking, SMTP email sending, and WeChat HTML generation.
+- `wechat_article_builder.py` - OpenAI-backed Chinese title/summary generation and WeChat-compatible HTML layout.
 - `requirements.txt` - Python dependencies.
 - `.github/workflows/daily.yml` - Scheduled GitHub Actions automation.
 - `sent_dois.json` - Stores sent papers to avoid resending them.
+- `outputs/wechat-post-YYYY-MM-DD.html` - Generated WeChat article HTML.
 
 ## GitHub Secrets
 
@@ -75,7 +77,11 @@ Create these repository secrets before enabling the workflow:
 | `SMTP_PASSWORD` | Your regenerated QQ SMTP authorization code |
 | `SMTP_HOST` | `smtp.qq.com` |
 | `SMTP_PORT` | `465` |
+| `OPENAI_API_KEY` | OpenAI API key for Chinese WeChat title translation and summaries |
+| `OPENAI_MODEL` | Optional; defaults to `gpt-4o-mini` |
 Do not commit SMTP passwords or authorization codes to the repository.
+
+`OPENAI_API_KEY` is required for WeChat HTML generation. If it is missing, the daily email still sends, but the workflow skips `outputs/wechat-post-YYYY-MM-DD.html`.
 
 ## Local Setup
 
@@ -94,6 +100,8 @@ export SMTP_USER="893001879@qq.com"
 export SMTP_PASSWORD="your-regenerated-smtp-authorization-code"
 export SMTP_HOST="smtp.qq.com"
 export SMTP_PORT="465"
+export OPENAI_API_KEY="your-openai-api-key"
+export OPENAI_MODEL="gpt-4o-mini"
 ```
 
 Run the automation:
@@ -102,7 +110,7 @@ Run the automation:
 python main.py
 ```
 
-By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 50 papers total. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
+By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 50 papers total. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
 
 
 ## How Duplicate Prevention Works

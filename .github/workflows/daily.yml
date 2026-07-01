@@ -33,17 +33,26 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
         run: python main.py
+
+      - name: Upload generated WeChat article
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wechat-post-output
+          path: outputs/
 
       - name: Commit updated sent DOI list
         if: always()
         run: |
-          if [ -f sent_dois.json ] && ! git diff --quiet -- sent_dois.json; then
+          if [ -n "$(git status --porcelain -- sent_dois.json outputs/)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add sent_dois.json
-            git commit -m "Update sent DOI list"
+            git add sent_dois.json outputs/
+            git commit -m "Update daily brief outputs"
             git push
           else
-            echo "No sent DOI updates to commit."
+            echo "No daily brief output updates to commit."
           fi

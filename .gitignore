@@ -3,4 +3,7 @@ __pycache__/
 .venv/
 venv/
 work/
-outputs/
+outputs/*
+!outputs/.gitkeep
+!outputs/wechat-post-*.html
+!outputs/wechat-post-*.json
