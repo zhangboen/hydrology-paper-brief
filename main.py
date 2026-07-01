@@ -20,7 +20,8 @@ LOGGER = logging.getLogger("hydrology_paper_brief")
 
 SENT_DOIS_PATH = Path("sent_dois.json")
 OUTPUTS_DIR = Path("outputs")
-CROSSREF_API = "https://api.crossref.org/journals/{issn}/works"
+CROSSREF_JOURNAL_API = "https://api.crossref.org/journals/{issn}/works"
+CROSSREF_WORKS_API = "https://api.crossref.org/works"
 ARXIV_API = "https://export.arxiv.org/api/query"
 ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
@@ -52,6 +53,10 @@ JOURNALS = {
     "Journal of Hydrology": "0022-1694",
     "Remote Sensing of Environment": "1879-0704",
     "Hydrology and Earth System Sciences": "1607-7938",
+}
+
+JOURNAL_FALLBACK_ISSNS = {
+    "Science": ("0036-8075",),
 }
 
 TOPIC_KEYWORDS = (
@@ -465,54 +470,98 @@ def fetch_recent_journal_articles(
 ) -> list[dict[str, Any]]:
     from_date = from_datetime.date()
     until_date = until_datetime.date()
-    params = {
-        "filter": (
-            f"from-pub-date:{from_date.isoformat()},"
-            f"until-pub-date:{until_date.isoformat()},"
-            "type:journal-article"
-        ),
-        "sort": "published",
-        "order": "desc",
-        "rows": ROWS_PER_JOURNAL,
-        "mailto": contact_email,
-    }
+    issns = [issn, *JOURNAL_FALLBACK_ISSNS.get(journal_name, ())]
+    last_error: requests.RequestException | None = None
+    payload: dict[str, Any] | None = None
 
-    url = CROSSREF_API.format(issn=issn)
-    LOGGER.info(
-        "Searching %s (%s) from %s to %s.",
-        journal_name,
-        issn,
-        from_date.isoformat(),
-        until_date.isoformat(),
-    )
+    for source_issn in dict.fromkeys(issns):
+        sources = (
+            (
+                f"journal endpoint ISSN {source_issn}",
+                CROSSREF_JOURNAL_API.format(issn=source_issn),
+                (
+                    f"from-pub-date:{from_date.isoformat()},"
+                    f"until-pub-date:{until_date.isoformat()},"
+                    "type:journal-article"
+                ),
+            ),
+            (
+                f"global works endpoint ISSN {source_issn}",
+                CROSSREF_WORKS_API,
+                (
+                    f"issn:{source_issn},"
+                    f"from-pub-date:{from_date.isoformat()},"
+                    f"until-pub-date:{until_date.isoformat()},"
+                    "type:journal-article"
+                ),
+            ),
+        )
 
-    for attempt in range(1, CROSSREF_MAX_ATTEMPTS + 1):
-        try:
-            response = session.get(url, params=params, timeout=30)
-            if response.status_code >= 500 and attempt < CROSSREF_MAX_ATTEMPTS:
-                LOGGER.warning(
-                    "Crossref returned %s for %s; retrying attempt %s/%s.",
-                    response.status_code,
-                    journal_name,
-                    attempt + 1,
-                    CROSSREF_MAX_ATTEMPTS,
-                )
-                time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
-                continue
-            response.raise_for_status()
-            break
-        except requests.RequestException:
-            if attempt >= CROSSREF_MAX_ATTEMPTS:
-                raise
-            LOGGER.warning(
-                "Crossref request failed for %s; retrying attempt %s/%s.",
+        for source_name, url, filter_value in sources:
+            params = {
+                "filter": filter_value,
+                "sort": "published",
+                "order": "desc",
+                "rows": ROWS_PER_JOURNAL,
+                "mailto": contact_email,
+            }
+            LOGGER.info(
+                "Searching %s via %s from %s to %s.",
                 journal_name,
-                attempt + 1,
-                CROSSREF_MAX_ATTEMPTS,
+                source_name,
+                from_date.isoformat(),
+                until_date.isoformat(),
             )
-            time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
 
-    payload = response.json()
+            for attempt in range(1, CROSSREF_MAX_ATTEMPTS + 1):
+                try:
+                    response = session.get(url, params=params, timeout=30)
+                    if response.status_code >= 500 and attempt < CROSSREF_MAX_ATTEMPTS:
+                        LOGGER.warning(
+                            "Crossref returned %s for %s via %s; retrying attempt %s/%s.",
+                            response.status_code,
+                            journal_name,
+                            source_name,
+                            attempt + 1,
+                            CROSSREF_MAX_ATTEMPTS,
+                        )
+                        time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
+                        continue
+                    response.raise_for_status()
+                    payload = response.json()
+                    break
+                except requests.RequestException as exc:
+                    last_error = exc
+                    if attempt >= CROSSREF_MAX_ATTEMPTS:
+                        LOGGER.warning(
+                            "Crossref source failed for %s via %s after %s attempt(s): %s",
+                            journal_name,
+                            source_name,
+                            CROSSREF_MAX_ATTEMPTS,
+                            exc,
+                        )
+                        break
+                    LOGGER.warning(
+                        "Crossref request failed for %s via %s; retrying attempt %s/%s.",
+                        journal_name,
+                        source_name,
+                        attempt + 1,
+                        CROSSREF_MAX_ATTEMPTS,
+                    )
+                    time.sleep(CROSSREF_RETRY_SLEEP_SECONDS * attempt)
+            else:
+                continue
+
+            if payload is not None:
+                break
+        if payload is not None:
+            break
+
+    if payload is None:
+        if last_error:
+            raise last_error
+        raise RuntimeError(f"No Crossref response payload for {journal_name}.")
+
     items = payload.get("message", {}).get("items", [])
 
     if not isinstance(items, list):
@@ -643,7 +692,7 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
                 until_datetime=until_datetime,
                 contact_email=contact_email,
             )
-        except requests.RequestException as exc:
+        except (requests.RequestException, RuntimeError) as exc:
             LOGGER.warning("Skipping %s after Crossref request failure: %s", journal_name, exc)
             continue
 
