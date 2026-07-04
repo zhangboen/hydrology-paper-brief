@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import json
 import os
+from collections import Counter
 from dataclasses import asdict, is_dataclass
 from datetime import date, datetime
 from pathlib import Path
@@ -136,15 +137,120 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
     return entries
 
 
-def build_wechat_html(papers: list[WeChatPaper], entries: list[dict], run_date: date) -> tuple[str, str, str]:
+THEME_KEYWORDS = {
+    "洪水与复合灾害": ("flood", "inundation", "storm surge", "compound", "hazard"),
+    "干旱与水资源": ("drought", "water scarcity", "water resources", "groundwater"),
+    "极端降水与气候变化": ("precipitation", "rainfall", "extreme", "climate change", "warming"),
+    "水文模型与预报": ("forecast", "prediction", "model", "runoff", "streamflow"),
+    "机器学习与遥感": ("machine learning", "deep learning", "remote sensing", "satellite", "ai"),
+    "生态水文与陆面过程": ("soil moisture", "vegetation", "ecosystem", "land surface", "evapotranspiration"),
+}
+
+
+def infer_daily_themes(papers: list[WeChatPaper], max_themes: int = 3) -> list[str]:
+    counts: Counter[str] = Counter()
+    for paper in papers:
+        text = " ".join(
+            str(value or "").lower()
+            for value in (
+                getattr(paper, "topic", ""),
+                getattr(paper, "title", ""),
+                getattr(paper, "abstract", ""),
+            )
+        )
+        for theme, keywords in THEME_KEYWORDS.items():
+            if any(keyword in text for keyword in keywords):
+                counts[theme] += 1
+    if counts:
+        return [theme for theme, _ in counts.most_common(max_themes)]
+    return ["水文过程", "气候风险", "地球系统变化"][:max_themes]
+
+
+def fallback_daily_intro(papers: list[WeChatPaper]) -> str:
+    themes = infer_daily_themes(papers)
+    journals = Counter(journal_abbreviation(getattr(paper, "journal", "")) for paper in papers)
+    journal_names = [name for name, _ in journals.most_common(3) if name]
+    theme_text = "、".join(themes)
+    journal_text = "、".join(journal_names)
+    if journal_text:
+        return (
+            f"今天的 brief 共筛选出 {len(papers)} 篇水文与水文气候论文，主题集中在{theme_text}。"
+            f"从 {journal_text} 等来源看，今日研究更强调观测、模型与风险应用之间的衔接，"
+            "适合快速把握最新问题意识和方法进展。"
+        )
+    return (
+        f"今天的 brief 共筛选出 {len(papers)} 篇水文与水文气候论文，主题集中在{theme_text}。"
+        "这些工作为理解水文极端、气候影响和流域过程提供了新的证据与方法线索。"
+    )
+
+
+def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_date: date) -> str:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        return fallback_daily_intro(papers)
+
+    try:
+        payload = []
+        for paper, entry in zip(papers[:12], entries[:12]):
+            payload.append(
+                {
+                    "title": getattr(paper, "title", ""),
+                    "journal": getattr(paper, "journal", ""),
+                    "topic": getattr(paper, "topic", ""),
+                    "chinese_title": str(entry.get("chinese_title", "")),
+                    "summary": str(entry.get("summary", ""))[:220],
+                }
+            )
+        response = OpenAI(api_key=api_key).chat.completions.create(
+            model=os.environ.get("OPENAI_MODEL") or "gpt-4o-mini",
+            temperature=0.7,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You write fresh, concise Chinese opening paragraphs for a WeChat literature brief. "
+                        "The paragraph must synthesize today's paper themes and must not reuse generic wording. "
+                        "Return valid JSON only."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        "Write one Chinese opening paragraph for today's hydroclimate paper brief. "
+                        "Requirements: 70-120 Chinese characters; mention the paper count; summarize 2-3 dominant themes "
+                        "from the actual papers; no markdown; no bullet points; avoid the phrase "
+                        "'这些研究共同指向一个核心问题'. "
+                        f"Date: {run_date.isoformat()}. Paper count: {len(papers)}. "
+                        "Return JSON with key intro. Papers:\n"
+                        + json.dumps(payload, ensure_ascii=False)
+                    ),
+                },
+            ],
+            response_format={"type": "json_object"},
+        )
+        content = response.choices[0].message.content or "{}"
+        intro = str(json.loads(content).get("intro", "")).strip()
+    except Exception:
+        intro = ""
+    if not intro:
+        return fallback_daily_intro(papers)
+    return intro
+
+
+def build_wechat_html(
+    papers: list[WeChatPaper],
+    entries: list[dict],
+    run_date: date,
+    intro: str | None = None,
+) -> tuple[str, str, str]:
     title = f"今日水文气候文献简报（{run_date.isoformat()}）"
     digest = f"今日筛选 {len(papers)} 篇水文与水文气候论文，涵盖洪水、干旱、气候极端、机器学习、遥感和水文过程等主题。"
+    intro = intro or fallback_daily_intro(papers)
     parts = [
         "<section style=\"box-sizing:border-box; max-width: 677px; margin: 0 auto; padding: 0 6px; color:#263238; "
         "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',Arial,sans-serif; "
         "line-height:1.68; font-size:15px;\">",
-        f"<p style=\"margin:0 0 14px;\">今天的 brief 共筛选出 <strong style=\"color:#2878b5;\">{len(papers)} 篇</strong> 水文与水文气候论文。"
-        "这些研究共同指向一个核心问题：如何在更高分辨率、更复杂过程和更强不确定性背景下，提高水文与气候风险分析的可解释性和可用性。</p>",
+        f"<p style=\"margin:0 0 14px;\">{html.escape(intro)}</p>",
     ]
 
     for idx, (paper, entry) in enumerate(zip(papers, entries), start=1):
@@ -177,7 +283,8 @@ def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_
 
     outputs_dir.mkdir(exist_ok=True)
     entries = generate_chinese_entries(papers)
-    title, digest, html = build_wechat_html(papers, entries, run_date.date())
+    intro = generate_daily_intro(papers, entries, run_date.date())
+    title, digest, html = build_wechat_html(papers, entries, run_date.date(), intro)
 
     date_stamp = run_date.date().isoformat()
     html_path = outputs_dir / f"wechat-post-{date_stamp}.html"
@@ -190,6 +297,7 @@ def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_
                 "title": title,
                 "digest": digest,
                 "paper_count": len(papers),
+                "intro": intro,
                 "generated_at": run_date.isoformat(),
                 "html_path": str(html_path),
             },
