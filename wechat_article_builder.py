@@ -217,7 +217,7 @@ def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_dat
                     "role": "user",
                     "content": (
                         "Write one Chinese opening paragraph for today's hydroclimate paper brief. "
-                        "Requirements: 70-120 Chinese characters; mention the paper count; summarize 2-3 dominant themes "
+                        "Requirements: 30-50 Chinese characters; mention the paper count; summarize 2-3 dominant themes "
                         "from the actual papers; no markdown; no bullet points; avoid the phrase "
                         "'这些研究共同指向一个核心问题'. "
                         f"Date: {run_date.isoformat()}. Paper count: {len(papers)}. "
