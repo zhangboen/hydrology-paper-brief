@@ -36,8 +36,13 @@ The script searches titles, abstracts, and Crossref subjects, then prioritizes m
 1. flood
 2. climate extreme events
 3. drought
-4. hydrological machine learning
-5. SWOT
+4. evapotranspiration
+5. soil moisture
+6. groundwater and baseflow
+7. snowmelt, including rain-on-snow
+8. compound hydroclimate events, including drought-to-flood transitions
+9. hydrological machine learning
+10. SWOT
 
 ## arXiv Preprint Filter
 
@@ -54,7 +59,7 @@ The script also queries recent arXiv submissions from these categories:
 It keeps arXiv papers only when the title, abstract, or categories match both:
 
 - machine-learning context, such as machine learning, deep learning, artificial intelligence, neural network, LSTM, transformer, or data-driven methods
-- hydroclimate context, such as hydrology, flood, streamflow, runoff, precipitation, drought, soil moisture, water resources, hydroclimate, climate change, meteorology, Earth system, or sea surface temperature
+- hydroclimate context, such as hydrology, flood, streamflow, runoff, precipitation, drought, evapotranspiration, soil moisture, groundwater, baseflow, snowmelt, rain-on-snow, compound events, drought-to-flood transitions, water resources, hydroclimate, climate change, meteorology, Earth system, or sea surface temperature
 
 ## Files
 

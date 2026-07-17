@@ -98,6 +98,41 @@ TOPIC_KEYWORDS = (
         ),
     ),
     (
+        "evapotranspiration",
+        (
+            "evapotranspiration",
+        ),
+    ),
+    (
+        "soil moisture",
+        (
+            "soil moisture",
+        ),
+    ),
+    (
+        "groundwater and baseflow",
+        (
+            "groundwater",
+            "baseflow",
+        ),
+    ),
+    (
+        "snowmelt",
+        (
+            "snowmelt",
+            "rain-on-snow",
+            "rain on snow",
+        ),
+    ),
+    (
+        "compound hydroclimate events",
+        (
+            "compound event",
+            "drought-to-flood",
+            "drought to flood",
+        ),
+    ),
+    (
         "hydrological machine learning",
         (
             "hydrological machine learning",
@@ -141,6 +176,15 @@ HYDROLOGY_CONTEXT_KEYWORDS = (
     "precipitation",
     "drought",
     "soil moisture",
+    "evapotranspiration",
+    "groundwater",
+    "baseflow",
+    "snowmelt",
+    "rain-on-snow",
+    "rain on snow",
+    "compound event",
+    "drought-to-flood",
+    "drought to flood",
     "catchment",
     "watershed",
     "basin",
@@ -187,7 +231,14 @@ ARXIV_HYDROCLIMATE_QUERY_TERMS = (
     "precipitation",
     "streamflow",
     "runoff",
-    "soil",
+    "soil moisture",
+    "evapotranspiration",
+    "groundwater",
+    "baseflow",
+    "snowmelt",
+    "rain-on-snow",
+    "compound event",
+    "drought-to-flood",
     "meteorology",
     "atmospheric",
     "sst",
@@ -730,7 +781,7 @@ def build_email_body(papers: list[Paper]) -> str:
     lines = [
         f"Hydrology paper brief for {datetime.now(timezone.utc).date().isoformat()}",
         f"Selected {len(papers)} paper(s) by ranked topic priority from recent Crossref and arXiv results.",
-        "Topic priority: flood; climate extreme events; drought; hydrological machine learning; arXiv hydroclimate machine learning; SWOT.",
+        "Topic priority: flood; climate extreme events; drought; evapotranspiration; soil moisture; groundwater and baseflow; snowmelt; compound hydroclimate events; hydrological machine learning; SWOT; arXiv hydroclimate machine learning.",
         "",
     ]
 
