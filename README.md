@@ -116,7 +116,7 @@ Run the automation:
 python main.py
 ```
 
-By default, the script asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items, keeps up to 10 arXiv matches, and selects up to 50 papers total. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
+By default, the script searches Crossref over the last 24 hours and arXiv over the last 48 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, and selects up to 50 papers total. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, and `MAX_PAPERS`.
 
 
 ## How Duplicate Prevention Works

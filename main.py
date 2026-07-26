@@ -27,6 +27,9 @@ ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
 MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
+ARXIV_LOOKBACK_HOURS = max(1, int(os.getenv("ARXIV_LOOKBACK_HOURS", "48")))
+ARXIV_MAX_ATTEMPTS = max(1, int(os.getenv("ARXIV_MAX_ATTEMPTS", "3")))
+ARXIV_RETRY_SLEEP_SECONDS = float(os.getenv("ARXIV_RETRY_SLEEP_SECONDS", "3"))
 CROSSREF_MAX_ATTEMPTS = max(1, int(os.getenv("CROSSREF_MAX_ATTEMPTS", "3")))
 CROSSREF_RETRY_SLEEP_SECONDS = float(os.getenv("CROSSREF_RETRY_SLEEP_SECONDS", "3"))
 
@@ -663,9 +666,24 @@ def fetch_recent_arxiv_entries(
         until_stamp,
         len(ARXIV_CATEGORIES),
     )
-    response = session.get(ARXIV_API, params=params, timeout=30)
-    response.raise_for_status()
-    root = ET.fromstring(response.content)
+    for attempt in range(1, ARXIV_MAX_ATTEMPTS + 1):
+        try:
+            response = session.get(ARXIV_API, params=params, timeout=30)
+            response.raise_for_status()
+            root = ET.fromstring(response.content)
+            break
+        except (requests.RequestException, ET.ParseError) as exc:
+            if attempt >= ARXIV_MAX_ATTEMPTS:
+                raise
+            LOGGER.warning(
+                "arXiv request attempt %s/%s failed: %s. Retrying in %s seconds.",
+                attempt,
+                ARXIV_MAX_ATTEMPTS,
+                exc,
+                ARXIV_RETRY_SLEEP_SECONDS,
+            )
+            time.sleep(ARXIV_RETRY_SLEEP_SECONDS)
+
     entries = root.findall("atom:entry", ARXIV_NS)
 
     recent_entries = []
@@ -715,6 +733,7 @@ def fetch_arxiv_candidate_papers(
 def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     until_datetime = datetime.now(timezone.utc)
     from_datetime = until_datetime - timedelta(hours=24)
+    arxiv_from_datetime = until_datetime - timedelta(hours=ARXIV_LOOKBACK_HOURS)
     session = requests.Session()
     session.headers.update(
         {
@@ -728,7 +747,7 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     papers_by_doi: dict[str, Paper] = {}
     for paper in fetch_arxiv_candidate_papers(
         session=session,
-        from_datetime=from_datetime,
+        from_datetime=arxiv_from_datetime,
         until_datetime=until_datetime,
     ):
         papers_by_doi[paper.doi] = paper
