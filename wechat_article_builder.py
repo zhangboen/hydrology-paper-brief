@@ -46,7 +46,7 @@ JOURNAL_ABBREVIATIONS = {
     "Water Resources Research": "WRR",
     "Geophysical Research Letters": "GRL",
     "Nature Communications": "Nat. Commun.",
-    "Communications Earth & Environment": "Commun. Earth Environ.",
+    "Communications Earth & Environment": "CEE",
     "Nature Geoscience": "Nat. Geosci.",
     "Nature Climate Change": "Nat. Clim. Change",
     "Nature Sustainability": "Nat. Sustain.",
@@ -64,12 +64,28 @@ JOURNAL_ABBREVIATIONS = {
 def journal_abbreviation(journal: str) -> str:
     if journal in JOURNAL_ABBREVIATIONS:
         return JOURNAL_ABBREVIATIONS[journal]
+    normalized_journal = journal.strip().casefold()
+    for full_name, abbreviation in JOURNAL_ABBREVIATIONS.items():
+        if full_name.casefold() == normalized_journal:
+            return abbreviation
     if journal.startswith("arXiv"):
         return "arXiv"
     words = [word for word in journal.replace("&", " ").replace(":", " ").split() if word[:1].isalpha()]
     if len(words) <= 3:
         return journal
     return "".join(word[0].upper() for word in words[:5])
+
+
+def normalize_hydrology_terms(text: str) -> str:
+    replacements = {
+        "闪电干旱": "骤旱",
+        "干旱闪电": "骤旱",
+        "闪电洪水": "骤洪",
+        "洪水闪电": "骤洪",
+    }
+    for incorrect, preferred in replacements.items():
+        text = text.replace(incorrect, preferred)
+    return text
 
 
 def paper_to_dict(paper: WeChatPaper) -> dict:
@@ -92,6 +108,8 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
                     "You write concise Chinese hydrology and hydroclimate literature briefs. "
                     "Translate titles faithfully. Summaries must be accurate, 2-3 Chinese sentences, "
                     "and should emphasize research question, data/method, findings, and implications. "
+                    "Use the standard hydrology translations '骤旱' for 'flash drought' and "
+                    "'骤洪' for 'flash flood'; never translate 'flash' as '闪电' in these terms. "
                     "Do not invent information. Return valid JSON only."
                 ),
             },
@@ -120,6 +138,9 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
         raise RuntimeError(
             f"OpenAI response included {len(entries)} entrie(s) for {len(papers)} paper(s)."
         )
+    for entry in entries:
+        entry["chinese_title"] = normalize_hydrology_terms(str(entry.get("chinese_title", "")))
+        entry["summary"] = normalize_hydrology_terms(str(entry.get("summary", "")))
     return entries
 
 
@@ -210,6 +231,7 @@ def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_dat
                     "content": (
                         "You write fresh, concise Chinese opening paragraphs for a WeChat literature brief. "
                         "The paragraph must synthesize today's paper themes and must not reuse generic wording. "
+                        "Use '骤旱' for 'flash drought' and '骤洪' for 'flash flood', never '闪电'. "
                         "Return valid JSON only."
                     ),
                 },
@@ -234,7 +256,7 @@ def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_dat
         intro = ""
     if not intro:
         return fallback_daily_intro(papers)
-    return intro
+    return normalize_hydrology_terms(intro)
 
 
 def build_wechat_html(
