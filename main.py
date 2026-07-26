@@ -12,6 +12,7 @@ from email.message import EmailMessage
 from html import unescape
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 import requests
 
@@ -23,6 +24,8 @@ OUTPUTS_DIR = Path("outputs")
 CROSSREF_JOURNAL_API = "https://api.crossref.org/journals/{issn}/works"
 CROSSREF_WORKS_API = "https://api.crossref.org/works"
 ARXIV_API = "https://export.arxiv.org/api/query"
+OPENALEX_WORKS_API = "https://api.openalex.org/works"
+SEMANTIC_SCHOLAR_PAPER_API = "https://api.semanticscholar.org/graph/v1/paper"
 ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
@@ -32,6 +35,8 @@ ARXIV_MAX_ATTEMPTS = max(1, int(os.getenv("ARXIV_MAX_ATTEMPTS", "3")))
 ARXIV_RETRY_SLEEP_SECONDS = float(os.getenv("ARXIV_RETRY_SLEEP_SECONDS", "3"))
 CROSSREF_MAX_ATTEMPTS = max(1, int(os.getenv("CROSSREF_MAX_ATTEMPTS", "3")))
 CROSSREF_RETRY_SLEEP_SECONDS = float(os.getenv("CROSSREF_RETRY_SLEEP_SECONDS", "3"))
+ABSTRACT_LOOKUP_TIMEOUT_SECONDS = float(os.getenv("ABSTRACT_LOOKUP_TIMEOUT_SECONDS", "15"))
+ABSTRACT_NOT_AVAILABLE = "No abstract available from Crossref, OpenAlex, or Semantic Scholar."
 
 JOURNALS = {
     "Water Resources Research": "1944-7973",
@@ -315,12 +320,110 @@ def text_from_crossref(value: Any) -> str:
 
 def clean_abstract(raw_abstract: str) -> str:
     if not raw_abstract:
-        return "No abstract available from Crossref."
+        return ABSTRACT_NOT_AVAILABLE
 
     text = re.sub(r"<[^>]+>", " ", raw_abstract)
     text = unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text or "No abstract available from Crossref."
+    return text or ABSTRACT_NOT_AVAILABLE
+
+
+def openalex_abstract_from_inverted_index(value: Any) -> str:
+    if not isinstance(value, dict):
+        return ""
+
+    positioned_words: list[tuple[int, str]] = []
+    for word, positions in value.items():
+        if not isinstance(word, str) or not isinstance(positions, list):
+            continue
+        for position in positions:
+            if isinstance(position, int) and position >= 0:
+                positioned_words.append((position, word))
+
+    positioned_words.sort()
+    return clean_whitespace(" ".join(word for _, word in positioned_words))
+
+
+def fetch_openalex_abstract(
+    session: requests.Session,
+    doi: str,
+    contact_email: str,
+) -> str:
+    work_id = quote(f"https://doi.org/{doi}", safe="")
+    params = {"mailto": contact_email}
+    api_key = os.getenv("OPENALEX_API_KEY")
+    if api_key:
+        params["api_key"] = api_key
+
+    response = session.get(
+        f"{OPENALEX_WORKS_API}/{work_id}",
+        params=params,
+        timeout=ABSTRACT_LOOKUP_TIMEOUT_SECONDS,
+    )
+    if response.status_code == 404:
+        return ""
+    response.raise_for_status()
+    return openalex_abstract_from_inverted_index(
+        response.json().get("abstract_inverted_index")
+    )
+
+
+def fetch_semantic_scholar_abstract(
+    session: requests.Session,
+    doi: str,
+) -> str:
+    headers = {}
+    api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
+    if api_key:
+        headers["x-api-key"] = api_key
+
+    paper_id = quote(f"DOI:{doi}", safe="")
+    response = session.get(
+        f"{SEMANTIC_SCHOLAR_PAPER_API}/{paper_id}",
+        params={"fields": "abstract"},
+        headers=headers,
+        timeout=ABSTRACT_LOOKUP_TIMEOUT_SECONDS,
+    )
+    if response.status_code == 404:
+        return ""
+    response.raise_for_status()
+    return clean_whitespace(str(response.json().get("abstract") or ""))
+
+
+def resolve_crossref_abstract(
+    session: requests.Session,
+    item: dict[str, Any],
+    contact_email: str,
+) -> str:
+    crossref_abstract = clean_abstract(text_from_crossref(item.get("abstract")))
+    if crossref_abstract != ABSTRACT_NOT_AVAILABLE:
+        return crossref_abstract
+
+    doi = normalize_doi(text_from_crossref(item.get("DOI")))
+    if not doi:
+        return ABSTRACT_NOT_AVAILABLE
+
+    providers = (
+        ("OpenAlex", lambda: fetch_openalex_abstract(session, doi, contact_email)),
+        ("Semantic Scholar", lambda: fetch_semantic_scholar_abstract(session, doi)),
+    )
+    for provider_name, fetch_abstract in providers:
+        try:
+            abstract = fetch_abstract()
+        except (requests.RequestException, ValueError) as exc:
+            LOGGER.warning(
+                "%s abstract lookup failed for DOI %s: %s",
+                provider_name,
+                doi,
+                exc,
+            )
+            continue
+        if abstract:
+            LOGGER.info("Recovered abstract for DOI %s from %s.", doi, provider_name)
+            return abstract
+
+    LOGGER.info("No abstract found for DOI %s from fallback providers.", doi)
+    return ABSTRACT_NOT_AVAILABLE
 
 
 def clean_arxiv_text(raw_text: str | None) -> str:
@@ -490,6 +593,7 @@ def paper_from_crossref_item(
     fallback_journal: str,
     topic_rank: int,
     topic: str,
+    abstract: str | None = None,
 ) -> Paper | None:
     doi = normalize_doi(text_from_crossref(item.get("DOI")))
     if not doi:
@@ -499,7 +603,7 @@ def paper_from_crossref_item(
     title = text_from_crossref(item.get("title")) or "Untitled"
     journal = text_from_crossref(item.get("container-title")) or fallback_journal
     url = text_from_crossref(item.get("URL")) or f"https://doi.org/{doi}"
-    abstract = clean_abstract(text_from_crossref(item.get("abstract")))
+    abstract = abstract or clean_abstract(text_from_crossref(item.get("abstract")))
 
     return Paper(
         title=title,
@@ -772,7 +876,14 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
                 continue
 
             topic_rank, topic = topic_match
-            paper = paper_from_crossref_item(item, journal_name, topic_rank, topic)
+            abstract = resolve_crossref_abstract(session, item, contact_email)
+            paper = paper_from_crossref_item(
+                item,
+                journal_name,
+                topic_rank,
+                topic,
+                abstract=abstract,
+            )
             if paper:
                 papers_by_doi[paper.doi] = paper
 
