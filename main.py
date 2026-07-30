@@ -158,6 +158,36 @@ TOPIC_KEYWORDS = (
             "surface water and ocean topography",
         ),
     ),
+    (
+        "geomorphology",
+        (
+            "geomorphology",
+            "geomorphological",
+            "fluvial geomorphology",
+            "river morphology",
+            "channel morphology",
+            "landscape evolution",
+            "sediment transport",
+            "sediment connectivity",
+            "river erosion",
+            "channel erosion",
+        ),
+    ),
+    (
+        "hydrography",
+        (
+            "hydrography",
+            "hydrographic",
+            "river network",
+            "drainage network",
+            "stream network",
+            "channel network",
+            "river bathymetry",
+            "channel bathymetry",
+            "river mapping",
+            "waterbody mapping",
+        ),
+    ),
 )
 
 MACHINE_LEARNING_KEYWORDS = (
@@ -208,6 +238,19 @@ HYDROLOGY_CONTEXT_KEYWORDS = (
     "earth system",
     "sea surface temperature",
     "sst",
+    "geomorphology",
+    "geomorphological",
+    "river morphology",
+    "channel morphology",
+    "landscape evolution",
+    "sediment transport",
+    "hydrography",
+    "hydrographic",
+    "river network",
+    "drainage network",
+    "stream network",
+    "river bathymetry",
+    "channel bathymetry",
 )
 
 ARXIV_CATEGORIES = (
@@ -250,6 +293,15 @@ ARXIV_HYDROCLIMATE_QUERY_TERMS = (
     "meteorology",
     "atmospheric",
     "sst",
+    "geomorphology",
+    "geomorphological",
+    "morphodynamics",
+    "sediment transport",
+    "hydrography",
+    "hydrographic",
+    "river network",
+    "drainage network",
+    "river bathymetry",
 )
 
 ARXIV_NS = {
@@ -911,7 +963,7 @@ def build_email_body(papers: list[Paper]) -> str:
     lines = [
         f"Hydrology paper brief for {datetime.now(timezone.utc).date().isoformat()}",
         f"Selected {len(papers)} paper(s) by ranked topic priority from recent Crossref and arXiv results.",
-        "Topic priority: flood; climate extreme events; drought; evapotranspiration; soil moisture; groundwater and baseflow; snowmelt; compound hydroclimate events; hydrological machine learning; SWOT; arXiv hydroclimate machine learning.",
+        "Topic priority: flood; climate extreme events; drought; evapotranspiration; soil moisture; groundwater and baseflow; snowmelt; compound hydroclimate events; hydrological machine learning; SWOT; geomorphology; hydrography; arXiv hydroclimate machine learning.",
         "",
     ]
 

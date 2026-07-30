@@ -43,6 +43,8 @@ The script searches titles, abstracts, and Crossref subjects, then prioritizes m
 8. compound hydroclimate events, including drought-to-flood transitions
 9. hydrological machine learning
 10. SWOT
+11. geomorphology, including fluvial and channel morphology, landscape evolution, sediment transport, and erosion
+12. hydrography, including river, drainage, stream, and channel networks, bathymetry, and waterbody mapping
 
 ## arXiv Preprint Filter
 
@@ -59,7 +61,7 @@ The script also queries recent arXiv submissions from these categories:
 It keeps arXiv papers only when the title, abstract, or categories match both:
 
 - machine-learning context, such as machine learning, deep learning, artificial intelligence, neural network, LSTM, transformer, or data-driven methods
-- hydroclimate context, such as hydrology, flood, streamflow, runoff, precipitation, drought, evapotranspiration, soil moisture, groundwater, baseflow, snowmelt, rain-on-snow, compound events, drought-to-flood transitions, water resources, hydroclimate, climate change, meteorology, Earth system, or sea surface temperature
+- hydroclimate and Earth-surface context, such as hydrology, flood, streamflow, runoff, precipitation, drought, evapotranspiration, soil moisture, groundwater, baseflow, snowmelt, rain-on-snow, compound events, drought-to-flood transitions, water resources, hydroclimate, climate change, meteorology, Earth system, sea surface temperature, geomorphology, sediment transport, hydrography, river networks, or river bathymetry
 
 ## Files
 
