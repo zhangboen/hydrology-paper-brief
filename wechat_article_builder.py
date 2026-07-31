@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import html
 import json
+import logging
 import os
+import time
 from collections import Counter
 from dataclasses import asdict, is_dataclass
 from datetime import date, datetime
@@ -10,6 +12,9 @@ from pathlib import Path
 from typing import Protocol
 
 from openai import OpenAI
+
+
+LOGGER = logging.getLogger("wechat_article_builder")
 
 
 class WeChatPaper(Protocol):
@@ -35,7 +40,11 @@ PAPER_FIELDS = (
     "topic_rank",
     "abstract",
 )
-OPENAI_WECHAT_BATCH_SIZE = max(1, int(os.getenv("OPENAI_WECHAT_BATCH_SIZE", "10")))
+OPENAI_WECHAT_BATCH_SIZE = max(1, int(os.getenv("OPENAI_WECHAT_BATCH_SIZE", "5")))
+OPENAI_WECHAT_MAX_ATTEMPTS = max(1, int(os.getenv("OPENAI_WECHAT_MAX_ATTEMPTS", "3")))
+OPENAI_WECHAT_RETRY_SLEEP_SECONDS = max(
+    0.0, float(os.getenv("OPENAI_WECHAT_RETRY_SLEEP_SECONDS", "2"))
+)
 
 
 JOURNAL_ABBREVIATIONS = {
@@ -98,45 +107,60 @@ def paper_to_dict(paper: WeChatPaper) -> dict:
 
 def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeChatPaper]) -> list[dict]:
     payload = [paper_to_dict(paper) for paper in papers]
-    response = client.chat.completions.create(
-        model=model,
-        temperature=0.2,
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You write concise Chinese hydrology and hydroclimate literature briefs. "
-                    "Translate titles faithfully. Summaries must be accurate, 2-3 Chinese sentences, "
-                    "and should emphasize research question, data/method, findings, and implications. "
-                    "Use the standard hydrology translations '骤旱' for 'flash drought' and "
-                    "'骤洪' for 'flash flood'; never translate 'flash' as '闪电' in these terms. "
-                    "Do not invent information. Return valid JSON only."
-                ),
-            },
-            {
-                "role": "user",
-                "content": (
-                    "For each paper, return a JSON object with key papers. "
-                    "papers must be an array with exactly one object per input paper, in the same order. "
-                    "Each object must have keys: chinese_title, summary. "
-                    "chinese_title must be a faithful Chinese translation of the paper title, not a generic label "
-                    "such as research background, research purpose, or research method. "
-                    "Here are the papers:\n"
-                    + json.dumps(payload, ensure_ascii=False)
-                ),
-            },
-        ],
-        response_format={"type": "json_object"},
-    )
-    content = response.choices[0].message.content or "{}"
-    data = json.loads(content)
-    if isinstance(data, list):
-        entries = data
+    entries: list[dict] = []
+    for attempt in range(1, OPENAI_WECHAT_MAX_ATTEMPTS + 1):
+        response = client.chat.completions.create(
+            model=model,
+            temperature=0.2,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You write concise Chinese hydrology and hydroclimate literature briefs. "
+                        "Translate titles faithfully. Summaries must be accurate, 2-3 Chinese sentences, "
+                        "and should emphasize research question, data/method, findings, and implications. "
+                        "Use the standard hydrology translations '骤旱' for 'flash drought' and "
+                        "'骤洪' for 'flash flood'; never translate 'flash' as '闪电' in these terms. "
+                        "Do not invent information. Return valid JSON only."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        "For each paper, return a JSON object with key papers. "
+                        "papers must be an array with exactly one object per input paper, in the same order. "
+                        "Each object must have keys: chinese_title, summary. "
+                        "chinese_title must be a faithful Chinese translation of the paper title, not a generic label "
+                        "such as research background, research purpose, or research method. "
+                        "Here are the papers:\n"
+                        + json.dumps(payload, ensure_ascii=False)
+                    ),
+                },
+            ],
+            response_format={"type": "json_object"},
+        )
+        content = response.choices[0].message.content or "{}"
+        data = json.loads(content)
+        if isinstance(data, list):
+            entries = data
+        else:
+            entries = data.get("papers") or data.get("entries") or []
+        if len(entries) == len(papers):
+            break
+        if attempt < OPENAI_WECHAT_MAX_ATTEMPTS:
+            LOGGER.warning(
+                "OpenAI response included %s entrie(s) for %s paper(s); retrying batch attempt %s/%s.",
+                len(entries),
+                len(papers),
+                attempt + 1,
+                OPENAI_WECHAT_MAX_ATTEMPTS,
+            )
+            time.sleep(OPENAI_WECHAT_RETRY_SLEEP_SECONDS)
     else:
-        entries = data.get("papers") or data.get("entries") or []
-    if len(entries) != len(papers):
         raise RuntimeError(
-            f"OpenAI response included {len(entries)} entrie(s) for {len(papers)} paper(s)."
+            "OpenAI response included "
+            f"{len(entries)} entrie(s) for {len(papers)} paper(s) after "
+            f"{OPENAI_WECHAT_MAX_ATTEMPTS} attempt(s)."
         )
     for entry in entries:
         entry["chinese_title"] = normalize_hydrology_terms(str(entry.get("chinese_title", "")))
