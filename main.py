@@ -15,6 +15,7 @@ from typing import Any
 from urllib.parse import quote
 
 import requests
+from openai import OpenAI
 
 
 LOGGER = logging.getLogger("hydrology_paper_brief")
@@ -30,13 +31,20 @@ ROWS_PER_JOURNAL = int(os.getenv("ROWS_PER_JOURNAL", "200"))
 ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
 MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
-ARXIV_LOOKBACK_HOURS = max(1, int(os.getenv("ARXIV_LOOKBACK_HOURS", "48")))
+CROSSREF_LOOKBACK_HOURS = max(1, int(os.getenv("CROSSREF_LOOKBACK_HOURS", "48")))
+ARXIV_LOOKBACK_HOURS = max(1, int(os.getenv("ARXIV_LOOKBACK_HOURS", "72")))
 ARXIV_MAX_ATTEMPTS = max(1, int(os.getenv("ARXIV_MAX_ATTEMPTS", "3")))
 ARXIV_RETRY_SLEEP_SECONDS = float(os.getenv("ARXIV_RETRY_SLEEP_SECONDS", "3"))
 CROSSREF_MAX_ATTEMPTS = max(1, int(os.getenv("CROSSREF_MAX_ATTEMPTS", "3")))
 CROSSREF_RETRY_SLEEP_SECONDS = float(os.getenv("CROSSREF_RETRY_SLEEP_SECONDS", "3"))
 ABSTRACT_LOOKUP_TIMEOUT_SECONDS = float(os.getenv("ABSTRACT_LOOKUP_TIMEOUT_SECONDS", "15"))
+ABSTRACT_LOOKUP_MAX_ATTEMPTS = max(1, int(os.getenv("ABSTRACT_LOOKUP_MAX_ATTEMPTS", "3")))
+ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS = max(
+    0.0, float(os.getenv("ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS", "2"))
+)
 ABSTRACT_NOT_AVAILABLE = "No abstract available from Crossref, OpenAlex, or Semantic Scholar."
+OPENAI_RELEVANCE_BATCH_SIZE = max(1, int(os.getenv("OPENAI_RELEVANCE_BATCH_SIZE", "10")))
+OPENAI_RELEVANCE_MAX_ATTEMPTS = max(1, int(os.getenv("OPENAI_RELEVANCE_MAX_ATTEMPTS", "3")))
 
 JOURNALS = {
     "Water Resources Research": "1944-7973",
@@ -459,22 +467,36 @@ def resolve_crossref_abstract(
         ("OpenAlex", lambda: fetch_openalex_abstract(session, doi, contact_email)),
         ("Semantic Scholar", lambda: fetch_semantic_scholar_abstract(session, doi)),
     )
-    for provider_name, fetch_abstract in providers:
-        try:
-            abstract = fetch_abstract()
-        except (requests.RequestException, ValueError) as exc:
-            LOGGER.warning(
-                "%s abstract lookup failed for DOI %s: %s",
-                provider_name,
-                doi,
-                exc,
-            )
-            continue
-        if abstract:
-            LOGGER.info("Recovered abstract for DOI %s from %s.", doi, provider_name)
-            return abstract
+    for attempt in range(1, ABSTRACT_LOOKUP_MAX_ATTEMPTS + 1):
+        LOGGER.info(
+            "Abstract search attempt %s/%s for DOI %s.",
+            attempt,
+            ABSTRACT_LOOKUP_MAX_ATTEMPTS,
+            doi,
+        )
+        for provider_name, fetch_abstract in providers:
+            try:
+                abstract = fetch_abstract()
+            except (requests.RequestException, ValueError) as exc:
+                LOGGER.warning(
+                    "%s abstract lookup failed for DOI %s on attempt %s: %s",
+                    provider_name,
+                    doi,
+                    attempt,
+                    exc,
+                )
+                continue
+            if abstract:
+                LOGGER.info("Recovered abstract for DOI %s from %s.", doi, provider_name)
+                return abstract
+        if attempt < ABSTRACT_LOOKUP_MAX_ATTEMPTS:
+            time.sleep(ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS)
 
-    LOGGER.info("No abstract found for DOI %s from fallback providers.", doi)
+    LOGGER.info(
+        "Stopping abstract search for DOI %s after %s unsuccessful attempt(s).",
+        doi,
+        ABSTRACT_LOOKUP_MAX_ATTEMPTS,
+    )
     return ABSTRACT_NOT_AVAILABLE
 
 
@@ -888,7 +910,7 @@ def fetch_arxiv_candidate_papers(
 
 def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     until_datetime = datetime.now(timezone.utc)
-    from_datetime = until_datetime - timedelta(hours=24)
+    from_datetime = until_datetime - timedelta(hours=CROSSREF_LOOKBACK_HOURS)
     arxiv_from_datetime = until_datetime - timedelta(hours=ARXIV_LOOKBACK_HOURS)
     session = requests.Session()
     session.headers.update(
@@ -945,6 +967,108 @@ def fetch_candidate_papers(contact_email: str) -> list[Paper]:
     return list(papers_by_doi.values())
 
 
+def heuristic_hydroclimate_relevance(paper: Paper) -> bool:
+    """Conservative fallback used only when expert-model evaluation is unavailable."""
+    text = f"{paper.title} {paper.abstract} {paper.topic}".lower()
+    return any(keyword in text for keyword in HYDROLOGY_CONTEXT_KEYWORDS)
+
+
+def filter_hydroclimate_relevant_papers(papers: list[Paper]) -> list[Paper]:
+    """Have a hydroclimate expert model reject clearly unrelated search results."""
+    if not papers:
+        return []
+
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        LOGGER.warning(
+            "OPENAI_API_KEY is unavailable; applying the conservative hydroclimate relevance fallback."
+        )
+        return [paper for paper in papers if heuristic_hydroclimate_relevance(paper)]
+
+    client = OpenAI(api_key=api_key)
+    model = os.getenv("OPENAI_MODEL") or "gpt-4o-mini"
+    kept: list[Paper] = []
+    for start in range(0, len(papers), OPENAI_RELEVANCE_BATCH_SIZE):
+        batch = papers[start : start + OPENAI_RELEVANCE_BATCH_SIZE]
+        payload = [
+            {
+                "index": index,
+                "title": paper.title,
+                "journal": paper.journal,
+                "topic_match": paper.topic,
+                "abstract": "" if paper.abstract == ABSTRACT_NOT_AVAILABLE else paper.abstract,
+            }
+            for index, paper in enumerate(batch)
+        ]
+        decisions: list[dict[str, Any]] = []
+        for attempt in range(1, OPENAI_RELEVANCE_MAX_ATTEMPTS + 1):
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    temperature=0,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": (
+                                "You are a hydroclimate research expert screening literature. "
+                                "Keep papers substantively related to hydrology, hydroclimatology, "
+                                "water resources, hydro-meteorological extremes, land-surface water "
+                                "processes, relevant Earth-surface processes, or methods applied to "
+                                "those topics. Reject papers that only contain an incidental keyword "
+                                "or are clearly outside hydroclimate research. When evidence is limited "
+                                "to a title, judge conservatively but do not reject a clearly relevant title. "
+                                "Return valid JSON only."
+                            ),
+                        },
+                        {
+                            "role": "user",
+                            "content": (
+                                "Evaluate every paper. Return an object with key decisions, containing "
+                                "exactly one object per input in the same order. Each object must contain "
+                                "index, relevant (boolean), and reason (short string). Papers:\n"
+                                + json.dumps(payload, ensure_ascii=False)
+                            ),
+                        },
+                    ],
+                    response_format={"type": "json_object"},
+                )
+                data = json.loads(response.choices[0].message.content or "{}")
+                decisions = data.get("decisions", [])
+                if (
+                    isinstance(decisions, list)
+                    and len(decisions) == len(batch)
+                    and all(isinstance(item, dict) for item in decisions)
+                ):
+                    break
+            except Exception as exc:
+                LOGGER.warning(
+                    "Hydroclimate relevance evaluation attempt %s/%s failed: %s",
+                    attempt,
+                    OPENAI_RELEVANCE_MAX_ATTEMPTS,
+                    exc,
+                )
+            if attempt == OPENAI_RELEVANCE_MAX_ATTEMPTS:
+                decisions = []
+
+        if not decisions:
+            LOGGER.warning("Using conservative relevance fallback for one incomplete batch.")
+            kept.extend(paper for paper in batch if heuristic_hydroclimate_relevance(paper))
+            continue
+
+        for paper, decision in zip(batch, decisions):
+            if decision.get("relevant") is True:
+                kept.append(paper)
+            else:
+                LOGGER.info(
+                    "Excluded as hydroclimate-irrelevant: %s (%s)",
+                    paper.title,
+                    decision.get("reason", "no reason supplied"),
+                )
+
+    LOGGER.info("Expert relevance screening kept %s/%s paper(s).", len(kept), len(papers))
+    return kept
+
+
 def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX_PAPERS) -> list[Paper]:
     unsent = [paper for paper in candidates if paper.doi not in sent_dois]
     LOGGER.info("%s candidate paper(s) remain after excluding sent DOI(s).", len(unsent))
@@ -956,7 +1080,7 @@ def build_email_body(papers: list[Paper]) -> str:
     if not papers:
         return (
             "No new papers matched the ranked Crossref topics or arXiv hydroclimate-ML filter "
-            "for the last 24 hours, "
+            "for the configured recent-search windows, "
             "or all matching papers have already been sent."
         )
 
@@ -1048,7 +1172,7 @@ def main() -> None:
 
     contact_email = get_required_env("CONTACT_EMAIL")
     sent_dois = load_sent_dois()
-    candidates = fetch_candidate_papers(contact_email)
+    candidates = filter_hydroclimate_relevant_papers(fetch_candidate_papers(contact_email))
     selected = select_papers(candidates, sent_dois)
 
     subject_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
