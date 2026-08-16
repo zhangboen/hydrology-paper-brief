@@ -4,10 +4,10 @@ import html
 import json
 import logging
 import os
+import re
 import time
-from collections import Counter
 from dataclasses import asdict, is_dataclass
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Protocol
 
@@ -56,6 +56,7 @@ JOURNAL_ABBREVIATIONS = {
     "Geophysical Research Letters": "GRL",
     "Nature Communications": "Nat. Commun.",
     "Communications Earth & Environment": "CEE",
+    "Communications Earth and Environment": "CEE",
     "Nature Geoscience": "Nat. Geosci.",
     "Nature Climate Change": "Nat. Clim. Change",
     "Nature Sustainability": "Nat. Sustain.",
@@ -91,6 +92,12 @@ def normalize_hydrology_terms(text: str) -> str:
         "干旱闪电": "骤旱",
         "闪电洪水": "骤洪",
         "洪水闪电": "骤洪",
+        "降比例": "降尺度",
+        "下尺度": "降尺度",
+        "向下尺度化": "降尺度",
+        "Downscaling": "降尺度",
+        "downscaling": "降尺度",
+        "CEAE": "CEE",
     }
     for incorrect, preferred in replacements.items():
         text = text.replace(incorrect, preferred)
@@ -121,6 +128,8 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
                         "and should emphasize research question, data/method, findings, and implications. "
                         "Use the standard hydrology translations '骤旱' for 'flash drought' and "
                         "'骤洪' for 'flash flood'; never translate 'flash' as '闪电' in these terms. "
+                        "Translate 'downscaling' as '降尺度'. If an abstract is unavailable, base the "
+                        "summary only on the title and metadata; never mention or allude to the missing abstract. "
                         "Do not invent information. Return valid JSON only."
                     ),
                 },
@@ -164,7 +173,13 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
         )
     for entry in entries:
         entry["chinese_title"] = normalize_hydrology_terms(str(entry.get("chinese_title", "")))
-        entry["summary"] = normalize_hydrology_terms(str(entry.get("summary", "")))
+        summary = normalize_hydrology_terms(str(entry.get("summary", "")))
+        summary = re.sub(
+            r"(?:虽然|尽管)?(?:未|没有)(?:提供|找到|检索到)?摘要[，,：:]?\s*",
+            "",
+            summary,
+        )
+        entry["summary"] = summary.strip()
     return entries
 
 
@@ -182,105 +197,15 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
     return entries
 
 
-THEME_KEYWORDS = {
-    "洪水与复合灾害": ("flood", "inundation", "storm surge", "compound", "hazard"),
-    "干旱与水资源": ("drought", "water scarcity", "water resources", "groundwater"),
-    "极端降水与气候变化": ("precipitation", "rainfall", "extreme", "climate change", "warming"),
-    "水文模型与预报": ("forecast", "prediction", "model", "runoff", "streamflow"),
-    "机器学习与遥感": ("machine learning", "deep learning", "remote sensing", "satellite", "ai"),
-    "生态水文与陆面过程": ("soil moisture", "vegetation", "ecosystem", "land surface", "evapotranspiration"),
-}
-
-
-def infer_daily_themes(papers: list[WeChatPaper], max_themes: int = 3) -> list[str]:
-    counts: Counter[str] = Counter()
-    for paper in papers:
-        text = " ".join(
-            str(value or "").lower()
-            for value in (
-                getattr(paper, "topic", ""),
-                getattr(paper, "title", ""),
-                getattr(paper, "abstract", ""),
-            )
-        )
-        for theme, keywords in THEME_KEYWORDS.items():
-            if any(keyword in text for keyword in keywords):
-                counts[theme] += 1
-    if counts:
-        return [theme for theme, _ in counts.most_common(max_themes)]
-    return ["水文过程", "气候风险", "地球系统变化"][:max_themes]
-
-
-def fallback_daily_intro(papers: list[WeChatPaper]) -> str:
-    themes = infer_daily_themes(papers)
-    journals = Counter(journal_abbreviation(getattr(paper, "journal", "")) for paper in papers)
-    journal_names = [name for name, _ in journals.most_common(3) if name]
-    theme_text = "、".join(themes)
-    journal_text = "、".join(journal_names)
-    if journal_text:
-        return (
-            f"今天的 brief 共筛选出 {len(papers)} 篇水文与水文气候论文，主题集中在{theme_text}。"
-            f"从 {journal_text} 等来源看，今日研究更强调观测、模型与风险应用之间的衔接，"
-            "适合快速把握最新问题意识和方法进展。"
-        )
-    return (
-        f"今天的 brief 共筛选出 {len(papers)} 篇水文与水文气候论文，主题集中在{theme_text}。"
-        "这些工作为理解水文极端、气候影响和流域过程提供了新的证据与方法线索。"
-    )
-
-
 def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_date: date) -> str:
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        return fallback_daily_intro(papers)
-
-    try:
-        payload = []
-        for paper, entry in zip(papers[:12], entries[:12]):
-            payload.append(
-                {
-                    "title": getattr(paper, "title", ""),
-                    "journal": getattr(paper, "journal", ""),
-                    "topic": getattr(paper, "topic", ""),
-                    "chinese_title": str(entry.get("chinese_title", "")),
-                    "summary": str(entry.get("summary", ""))[:220],
-                }
-            )
-        response = OpenAI(api_key=api_key).chat.completions.create(
-            model=os.environ.get("OPENAI_MODEL") or "gpt-4o-mini",
-            temperature=0.7,
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You write fresh, concise Chinese opening paragraphs for a WeChat literature brief. "
-                        "The paragraph must synthesize today's paper themes and must not reuse generic wording. "
-                        "Use '骤旱' for 'flash drought' and '骤洪' for 'flash flood', never '闪电'. "
-                        "Return valid JSON only."
-                    ),
-                },
-                {
-                    "role": "user",
-                    "content": (
-                        "Write one Chinese opening paragraph for today's hydroclimate paper brief. "
-                        "Requirements: 30-50 Chinese characters; mention the paper count; summarize 2-3 dominant themes "
-                        "from the actual papers; no markdown; no bullet points; avoid the phrase "
-                        "'这些研究共同指向一个核心问题'. "
-                        f"Date: {run_date.isoformat()}. Paper count: {len(papers)}. "
-                        "Return JSON with key intro. Papers:\n"
-                        + json.dumps(payload, ensure_ascii=False)
-                    ),
-                },
-            ],
-            response_format={"type": "json_object"},
-        )
-        content = response.choices[0].message.content or "{}"
-        intro = str(json.loads(content).get("intro", "")).strip()
-    except Exception:
-        intro = ""
-    if not intro:
-        return fallback_daily_intro(papers)
-    return normalize_hydrology_terms(intro)
+    del run_date
+    listed_titles = [
+        normalize_hydrology_terms(str(entry.get("chinese_title", "")).strip())
+        for entry in entries
+        if str(entry.get("chinese_title", "")).strip()
+    ]
+    items = "；".join(f"{index}）{title}" for index, title in enumerate(listed_titles, start=1))
+    return f"本期共收录 {len(papers)} 篇水文气候相关论文，题目如下：{items}。"
 
 
 def build_wechat_html(
@@ -291,7 +216,7 @@ def build_wechat_html(
 ) -> tuple[str, str, str]:
     title = f"今日水文气候文献简报（{run_date.isoformat()}）"
     digest = f"今日筛选 {len(papers)} 篇水文与水文气候论文，涵盖洪水、干旱、气候极端、机器学习、遥感和水文过程等主题。"
-    intro = intro or fallback_daily_intro(papers)
+    intro = intro or generate_daily_intro(papers, entries, run_date)
     parts = [
         "<section style=\"box-sizing:border-box; max-width: 677px; margin: 0 auto; padding: 0 6px; color:#263238; "
         "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',Arial,sans-serif; "
@@ -318,7 +243,22 @@ def build_wechat_html(
 
     parts.append("</section>")
     html_body = "\n".join(part.strip() for part in parts if part.strip())
+    html_body = normalize_hydrology_terms(html_body)
+    if "CEAE" in html_body:
+        raise RuntimeError("HTML validation failed: CEE was incorrectly abbreviated as CEAE.")
     return title, digest, html_body
+
+
+def delete_previous_wechat_files(run_date: datetime, outputs_dir: Path) -> list[Path]:
+    previous_stamp = (run_date.date() - timedelta(days=1)).isoformat()
+    removed: list[Path] = []
+    for suffix in ("html", "json"):
+        path = outputs_dir / f"wechat-post-{previous_stamp}.{suffix}"
+        if path.exists():
+            path.unlink()
+            removed.append(path)
+            LOGGER.info("Deleted previous day's WeChat output: %s", path)
+    return removed
 
 
 def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_dir: Path) -> bool:
@@ -353,4 +293,5 @@ def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_
         + "\n",
         encoding="utf-8",
     )
+    delete_previous_wechat_files(run_date, outputs_dir)
     return True

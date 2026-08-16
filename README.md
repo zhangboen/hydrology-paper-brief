@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 24 hours in Crossref, adds arXiv preprints that overlap machine learning and hydroclimate topics, selects up to 50 new papers by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
+This project searches journal articles published in the last 48 hours in Crossref, adds arXiv preprints from the last 72 hours that overlap machine learning and hydroclimate topics, screens every result for expert-level hydroclimate relevance, selects up to 50 new papers by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -118,9 +118,9 @@ Run the automation:
 python main.py
 ```
 
-By default, the script searches Crossref over the last 24 hours and arXiv over the last 48 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, and selects up to 50 papers total. WeChat translation requests use batches of 5 papers and retry an incomplete batch up to 3 times with a 2-second delay. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
+By default, the script searches Crossref over the last 48 hours and arXiv over the last 72 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, screens every candidate from a hydroclimate-expert perspective, and selects up to 50 papers total. WeChat translation requests use batches of 5 papers and retry an incomplete batch up to 3 times with a 2-second delay. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`, then deletes the previous day's WeChat HTML and metadata. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `CROSSREF_LOOKBACK_HOURS`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_RELEVANCE_BATCH_SIZE`, `OPENAI_RELEVANCE_MAX_ATTEMPTS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
 
-For a topic-matched Crossref paper without an abstract, the script queries OpenAlex by DOI and then Semantic Scholar by DOI. If neither service provides an abstract, it keeps an explicit unavailable-abstract message. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS` controls the per-request timeout.
+For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. Translation never states that an abstract is missing. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
 
 
 ## How Duplicate Prevention Works
