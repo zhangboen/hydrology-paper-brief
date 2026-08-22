@@ -4,7 +4,6 @@ import html
 import json
 import logging
 import os
-import re
 import time
 from dataclasses import asdict, is_dataclass
 from datetime import date, datetime, timedelta
@@ -44,6 +43,18 @@ OPENAI_WECHAT_BATCH_SIZE = max(1, int(os.getenv("OPENAI_WECHAT_BATCH_SIZE", "5")
 OPENAI_WECHAT_MAX_ATTEMPTS = max(1, int(os.getenv("OPENAI_WECHAT_MAX_ATTEMPTS", "3")))
 OPENAI_WECHAT_RETRY_SLEEP_SECONDS = max(
     0.0, float(os.getenv("OPENAI_WECHAT_RETRY_SLEEP_SECONDS", "2"))
+)
+CHINESE_TRANSLATION_SYSTEM_PROMPT = (
+    "You translate hydrology and hydroclimate literature into professional academic Chinese. "
+    "Translate each paper title faithfully. Translate each available English abstract completely "
+    "and faithfully into Chinese; do not summarize, shorten, paraphrase away details, or add "
+    "interpretation. Preserve the abstract's sentence-level meaning, research background, methods, "
+    "data, locations, findings, numerical values, uncertainty ranges, qualifications, and implications. "
+    "Use natural academic Chinese while retaining the original logical structure. Use the standard "
+    "hydrology translations '骤旱' for 'flash drought' and '骤洪' for 'flash flood'; never translate "
+    "'flash' as '闪电' in these terms. Translate 'downscaling' as '降尺度'. If the abstract is "
+    "unavailable, set chinese_abstract exactly to '该论文暂无可用摘要。'; do not infer content from "
+    "the title or metadata. Do not invent information. Return valid JSON only."
 )
 
 
@@ -122,25 +133,18 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
             messages=[
                 {
                     "role": "system",
-                    "content": (
-                        "You write concise Chinese hydrology and hydroclimate literature briefs. "
-                        "Translate titles faithfully. Summaries must be accurate, 2-3 Chinese sentences, "
-                        "and should emphasize research question, data/method, findings, and implications. "
-                        "Use the standard hydrology translations '骤旱' for 'flash drought' and "
-                        "'骤洪' for 'flash flood'; never translate 'flash' as '闪电' in these terms. "
-                        "Translate 'downscaling' as '降尺度'. If an abstract is unavailable, base the "
-                        "summary only on the title and metadata; never mention or allude to the missing abstract. "
-                        "Do not invent information. Return valid JSON only."
-                    ),
+                    "content": CHINESE_TRANSLATION_SYSTEM_PROMPT,
                 },
                 {
                     "role": "user",
                     "content": (
                         "For each paper, return a JSON object with key papers. "
                         "papers must be an array with exactly one object per input paper, in the same order. "
-                        "Each object must have keys: chinese_title, summary. "
+                        "Each object must have keys: chinese_title, chinese_abstract. "
                         "chinese_title must be a faithful Chinese translation of the paper title, not a generic label "
                         "such as research background, research purpose, or research method. "
+                        "chinese_abstract must be a complete Chinese translation of the supplied English abstract, "
+                        "not a summary or condensed rewrite. "
                         "Here are the papers:\n"
                         + json.dumps(payload, ensure_ascii=False)
                     ),
@@ -154,7 +158,12 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
             entries = data
         else:
             entries = data.get("papers") or data.get("entries") or []
-        if len(entries) == len(papers):
+        if len(entries) == len(papers) and all(
+            isinstance(entry, dict)
+            and str(entry.get("chinese_title", "")).strip()
+            and str(entry.get("chinese_abstract", "")).strip()
+            for entry in entries
+        ):
             break
         if attempt < OPENAI_WECHAT_MAX_ATTEMPTS:
             LOGGER.warning(
@@ -173,13 +182,10 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
         )
     for entry in entries:
         entry["chinese_title"] = normalize_hydrology_terms(str(entry.get("chinese_title", "")))
-        summary = normalize_hydrology_terms(str(entry.get("summary", "")))
-        summary = re.sub(
-            r"(?:虽然|尽管)?(?:未|没有)(?:提供|找到|检索到)?摘要[，,：:]?\s*",
-            "",
-            summary,
+        chinese_abstract = normalize_hydrology_terms(
+            str(entry.get("chinese_abstract", ""))
         )
-        entry["summary"] = summary.strip()
+        entry["chinese_abstract"] = chinese_abstract.strip()
     return entries
 
 
@@ -228,7 +234,7 @@ def build_wechat_html(
         abbrev = journal_abbreviation(paper.journal)
         chinese_title = str(entry["chinese_title"]).strip()
         section_title = f"{chinese_title} | {abbrev}"
-        summary = str(entry["summary"]).strip()
+        chinese_abstract = str(entry["chinese_abstract"]).strip()
         url = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi and not paper.doi.startswith("arxiv:") else "")
         link = f'<a href="{html.escape(url)}" style="color:#2878b5; text-decoration:underline;">{html.escape(url)}</a>' if url else ""
         parts.extend(
@@ -237,7 +243,7 @@ def build_wechat_html(
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
-                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\">{html.escape(summary)}</p>",
+                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\"><strong>摘要译文：</strong>{html.escape(chinese_abstract)}</p>",
             ]
         )
 

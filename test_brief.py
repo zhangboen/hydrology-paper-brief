@@ -7,6 +7,7 @@ from unittest.mock import Mock, patch
 
 import main
 from wechat_article_builder import (
+    CHINESE_TRANSLATION_SYSTEM_PROMPT,
     build_wechat_html,
     delete_previous_wechat_files,
     generate_daily_intro,
@@ -42,6 +43,12 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertEqual(journal_abbreviation("Communications Earth & Environment"), "CEE")
         self.assertEqual(normalize_hydrology_terms("Downscaling and CEAE"), "降尺度 and CEE")
 
+    def test_prompt_requires_full_abstract_translation(self):
+        prompt = CHINESE_TRANSLATION_SYSTEM_PROMPT.lower()
+        self.assertIn("translate each available english abstract completely", prompt)
+        self.assertIn("do not summarize", prompt)
+        self.assertIn("do not infer content from the title or metadata", prompt)
+
     def test_html_normalizes_downscaling(self):
         paper = SimpleNamespace(
             title="A study",
@@ -52,13 +59,14 @@ class BriefBehaviorTests(unittest.TestCase):
         )
         _, _, body = build_wechat_html(
             [paper],
-            [{"chinese_title": "Downscaling研究", "summary": "downscaling方法"}],
+            [{"chinese_title": "Downscaling研究", "chinese_abstract": "downscaling方法"}],
             datetime(2026, 8, 14).date(),
         )
         self.assertIn("CEE", body)
         self.assertIn("降尺度研究", body)
         self.assertNotIn("CEAE", body)
         self.assertNotIn("downscaling", body.lower())
+        self.assertIn("摘要译文：", body)
 
     def test_deletes_only_previous_day_wechat_files(self):
         run_date = datetime(2026, 8, 14, tzinfo=timezone.utc)

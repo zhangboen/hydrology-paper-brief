@@ -67,7 +67,7 @@ It keeps arXiv papers only when the title, abstract, or categories match both:
 
 - `main.py` - Crossref/arXiv search, ranked topic selection, abstract formatting, duplicate tracking, SMTP email sending, and selected-paper JSON export.
 - `generate_wechat_post.py` - Reads the selected-paper JSON and generates the WeChat HTML article.
-- `wechat_article_builder.py` - OpenAI-backed Chinese title/summary generation and WeChat-compatible HTML layout.
+- `wechat_article_builder.py` - OpenAI-backed Chinese title and full abstract translation with WeChat-compatible HTML layout.
 - `requirements.txt` - Python dependencies.
 - `.github/workflows/daily.yml` - Scheduled GitHub Actions automation.
 - `sent_dois.json` - Stores sent papers to avoid resending them.
@@ -85,7 +85,7 @@ Create these repository secrets before enabling the workflow:
 | `SMTP_PASSWORD` | Your regenerated QQ SMTP authorization code |
 | `SMTP_HOST` | `smtp.qq.com` |
 | `SMTP_PORT` | `465` |
-| `OPENAI_API_KEY` | OpenAI API key for Chinese WeChat title translation and summaries |
+| `OPENAI_API_KEY` | OpenAI API key for Chinese title and full English-abstract translation |
 | `OPENAI_MODEL` | Optional; defaults to `gpt-4o-mini` |
 Do not commit SMTP passwords or authorization codes to the repository.
 
@@ -118,9 +118,9 @@ Run the automation:
 python main.py
 ```
 
-By default, the script searches Crossref over the last 48 hours and arXiv over the last 72 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, screens every candidate from a hydroclimate-expert perspective, and selects up to 50 papers total. WeChat translation requests use batches of 5 papers and retry an incomplete batch up to 3 times with a 2-second delay. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`, then deletes the previous day's WeChat HTML and metadata. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `CROSSREF_LOOKBACK_HOURS`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_RELEVANCE_BATCH_SIZE`, `OPENAI_RELEVANCE_MAX_ATTEMPTS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
+By default, the script searches Crossref over the last 48 hours and arXiv over the last 72 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, screens every candidate from a hydroclimate-expert perspective, and selects up to 50 papers total. WeChat translation requests use batches of 5 papers, translate each available English abstract in full rather than summarizing it, and retry an incomplete batch up to 3 times with a 2-second delay. If no abstract is available after the configured lookups, the article states that no abstract is available instead of inferring content from the title. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`, then deletes the previous day's WeChat HTML and metadata. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `CROSSREF_LOOKBACK_HOURS`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_RELEVANCE_BATCH_SIZE`, `OPENAI_RELEVANCE_MAX_ATTEMPTS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
 
-For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. Translation never states that an abstract is missing. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
+For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. If all providers lack an abstract, the Chinese article reports that no abstract is available and does not generate a title-based summary. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
 
 
 ## How Duplicate Prevention Works
