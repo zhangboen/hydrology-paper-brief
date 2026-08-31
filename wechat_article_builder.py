@@ -4,6 +4,7 @@ import html
 import json
 import logging
 import os
+import re
 import time
 from dataclasses import asdict, is_dataclass
 from datetime import date, datetime, timedelta
@@ -54,7 +55,8 @@ CHINESE_TRANSLATION_SYSTEM_PROMPT = (
     "hydrology translations '骤旱' for 'flash drought' and '骤洪' for 'flash flood'; never translate "
     "'flash' as '闪电' in these terms. Translate 'downscaling' as '降尺度'. If the abstract is "
     "unavailable, set chinese_abstract exactly to '该论文暂无可用摘要。'; do not infer content from "
-    "the title or metadata. Do not invent information. Return valid JSON only."
+    "the title or metadata. Do not add or translate an 'Abstract' heading before the translated text. "
+    "Do not invent information. Return valid JSON only."
 )
 
 
@@ -115,6 +117,10 @@ def normalize_hydrology_terms(text: str) -> str:
     return text
 
 
+def strip_abstract_heading(text: str) -> str:
+    return re.sub(r"^\s*abstract\s*(?:[:\uff1a.\-\u2013\u2014]\s*)?", "", text, count=1, flags=re.IGNORECASE)
+
+
 def paper_to_dict(paper: WeChatPaper) -> dict:
     if is_dataclass(paper):
         return asdict(paper)
@@ -125,6 +131,8 @@ def paper_to_dict(paper: WeChatPaper) -> dict:
 
 def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeChatPaper]) -> list[dict]:
     payload = [paper_to_dict(paper) for paper in papers]
+    for item in payload:
+        item["abstract"] = strip_abstract_heading(str(item.get("abstract", "")))
     entries: list[dict] = []
     for attempt in range(1, OPENAI_WECHAT_MAX_ATTEMPTS + 1):
         response = client.chat.completions.create(
@@ -185,7 +193,13 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
         chinese_abstract = normalize_hydrology_terms(
             str(entry.get("chinese_abstract", ""))
         )
-        entry["chinese_abstract"] = chinese_abstract.strip()
+        entry["chinese_abstract"] = re.sub(
+            r"^\s*(?:Abstract|摘要(?:翻译|译文)?)\s*[:：]?\s*",
+            "",
+            chinese_abstract,
+            count=1,
+            flags=re.IGNORECASE,
+        ).strip()
     return entries
 
 
@@ -243,7 +257,7 @@ def build_wechat_html(
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
-                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\"><strong>摘要译文：</strong>{html.escape(chinese_abstract)}</p>",
+                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\">{html.escape(chinese_abstract)}</p>",
             ]
         )
 

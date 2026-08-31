@@ -13,6 +13,7 @@ from wechat_article_builder import (
     generate_daily_intro,
     journal_abbreviation,
     normalize_hydrology_terms,
+    strip_abstract_heading,
 )
 
 
@@ -48,6 +49,12 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertIn("translate each available english abstract completely", prompt)
         self.assertIn("do not summarize", prompt)
         self.assertIn("do not infer content from the title or metadata", prompt)
+        self.assertIn("do not add or translate an 'abstract' heading", prompt)
+
+    def test_strips_only_leading_abstract_heading(self):
+        self.assertEqual(strip_abstract_heading("Abstract: Flood risk is rising."), "Flood risk is rising.")
+        self.assertEqual(strip_abstract_heading("ABSTRACT—Flood risk is rising."), "Flood risk is rising.")
+        self.assertEqual(strip_abstract_heading("This abstract describes floods."), "This abstract describes floods.")
 
     def test_html_normalizes_downscaling(self):
         paper = SimpleNamespace(
@@ -66,7 +73,8 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertIn("降尺度研究", body)
         self.assertNotIn("CEAE", body)
         self.assertNotIn("downscaling", body.lower())
-        self.assertIn("摘要译文：", body)
+        self.assertNotIn("摘要翻译", body)
+        self.assertNotIn("摘要译文", body)
 
     def test_deletes_only_previous_day_wechat_files(self):
         run_date = datetime(2026, 8, 14, tzinfo=timezone.utc)
