@@ -12,6 +12,7 @@ from wechat_article_builder import (
     build_wechat_html,
     delete_previous_wechat_files,
     generate_daily_intro,
+    generate_chinese_entries_batch,
     journal_abbreviation,
     normalize_hydrology_terms,
     strip_abstract_heading,
@@ -38,7 +39,7 @@ class BriefBehaviorTests(unittest.TestCase):
         intro = generate_daily_intro(papers, entries, datetime(2026, 8, 14).date())
         self.assertEqual(
             intro,
-            "本期共收录 2 篇水文气候相关论文，题目如下：1）洪水风险；2）干旱预测。",
+            "本期共收录 2 篇水文气候相关论文：1）洪水风险；2）干旱预测。",
         )
 
     def test_required_terminology_and_journal_abbreviation(self):
@@ -64,6 +65,7 @@ class BriefBehaviorTests(unittest.TestCase):
             journal="Communications Earth & Environment",
             url="https://example.com",
             doi="10.1234/test",
+            abstract="A downscaling method.",
         )
         _, _, body = build_wechat_html(
             [paper],
@@ -210,6 +212,116 @@ class ScreeningRegressionTests(unittest.TestCase):
                 self.assertEqual(kwargs["model"], expected)
                 self.assertNotIn("temperature", kwargs)
                 self.assertEqual(kwargs["response_format"], {"type": "json_object"})
+
+
+
+class MissingAbstractTests(unittest.TestCase):
+    @staticmethod
+    def paper(abstract):
+        return main.Paper(
+            title="Catchment responses", authors="A. Author", journal="Nature Water",
+            publication_date="2026-09-27", doi="10.1234/test",
+            url="https://doi.org/10.1234/test", topic="hydrology", topic_rank=13,
+            abstract=abstract,
+        )
+
+    @staticmethod
+    def response(entries):
+        return SimpleNamespace(choices=[SimpleNamespace(
+            message=SimpleNamespace(content=json.dumps({"papers": entries}))
+        )])
+
+    def test_missing_abstracts_are_empty_in_translation_payload_and_do_not_retry(self):
+        papers = [
+            self.paper(main.ABSTRACT_NOT_AVAILABLE),
+            self.paper(""),
+            self.paper(None),
+            self.paper("Abstract: Runoff increased by 12%."),
+        ]
+        entries = [
+            {"chinese_title": "流域响应", "chinese_abstract": ""},
+            {"chinese_title": "流域响应", "chinese_abstract": ""},
+            {"chinese_title": "流域响应", "chinese_abstract": ""},
+            {"chinese_title": "流域响应", "chinese_abstract": "径流增加了12%。"},
+        ]
+        client = Mock()
+        client.chat.completions.create.return_value = self.response(entries)
+        result = generate_chinese_entries_batch(client, "gpt-4o-mini", papers)
+        self.assertEqual(result, entries)
+        self.assertEqual(client.chat.completions.create.call_count, 1)
+        request = client.chat.completions.create.call_args.kwargs
+        payload = json.loads(request["messages"][1]["content"].split("Here are the papers:\n")[1])
+        self.assertEqual(
+            [item["abstract"] for item in payload],
+            ["", "", "", "Runoff increased by 12%."],
+        )
+
+    def test_model_notice_or_invented_abstract_is_discarded_when_source_is_missing(self):
+        for output in ("该论文暂无可用摘要。", "No abstract available.", "虚构的研究结论。"):
+            with self.subTest(output=output):
+                client = Mock()
+                client.chat.completions.create.return_value = self.response([
+                    {"chinese_title": "流域响应", "chinese_abstract": output}
+                ])
+                result = generate_chinese_entries_batch(
+                    client, "gpt-4o-mini", [self.paper(main.ABSTRACT_NOT_AVAILABLE)]
+                )
+                self.assertEqual(result[0]["chinese_abstract"], "")
+
+    def test_real_abstract_still_requires_a_translation(self):
+        client = Mock()
+        client.chat.completions.create.side_effect = [
+            self.response([{"chinese_title": "流域响应", "chinese_abstract": ""}]),
+            self.response([{"chinese_title": "流域响应", "chinese_abstract": "径流增加了12%。"}]),
+        ]
+        with patch("wechat_article_builder.time.sleep"):
+            result = generate_chinese_entries_batch(
+                client, "gpt-4o-mini", [self.paper("Runoff increased by 12%.")]
+            )
+        self.assertEqual(client.chat.completions.create.call_count, 2)
+        self.assertEqual(result[0]["chinese_abstract"], "径流增加了12%。")
+
+    def test_html_omits_missing_abstract_block_but_keeps_paper(self):
+        for source in ("", None, main.ABSTRACT_NOT_AVAILABLE):
+            with self.subTest(source=source):
+                _, _, body = build_wechat_html(
+                    [self.paper(source)],
+                    [{"chinese_title": "流域响应", "chinese_abstract": "该论文暂无可用摘要。"}],
+                    datetime(2026, 9, 27).date(),
+                )
+                self.assertIn("流域响应", body)
+                self.assertIn("10.1234/test", body)
+                self.assertNotIn("暂无", body)
+                self.assertNotIn("No abstract", body)
+                self.assertNotIn("border-left:3px", body)
+                self.assertNotIn("题目如下", body)
+        _, _, body = build_wechat_html(
+            [self.paper("Runoff increased by 12%.")],
+            [{"chinese_title": "流域响应", "chinese_abstract": "径流增加了12%。"}],
+            datetime(2026, 9, 27).date(),
+        )
+        self.assertIn("径流增加了12%。", body)
+        self.assertIn("border-left:3px", body)
+
+    def test_email_and_export_do_not_write_missing_abstract_notice(self):
+        for source in ("", None, main.ABSTRACT_NOT_AVAILABLE):
+            with self.subTest(source=source), tempfile.TemporaryDirectory() as directory:
+                paper = self.paper(source)
+                body = main.build_email_body([paper])
+                self.assertIn(paper.title, body)
+                self.assertNotIn("Abstract:", body)
+                self.assertNotIn(main.ABSTRACT_NOT_AVAILABLE, body)
+                with patch.object(main, "OUTPUTS_DIR", Path(directory)):
+                    main.write_selected_papers([paper], datetime(2026, 9, 27, tzinfo=timezone.utc))
+                data = json.loads(
+                    (Path(directory) / "selected-papers-2026-09-27.json").read_text(encoding="utf-8")
+                )
+                self.assertEqual(data["paper_count"], 1)
+                self.assertEqual(data["papers"][0]["abstract"], "")
+        self.assertIn(
+            "Abstract: Runoff increased by 12%.",
+            main.build_email_body([self.paper("Runoff increased by 12%.")]),
+        )
 
 
 if __name__ == "__main__":

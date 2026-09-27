@@ -54,7 +54,8 @@ CHINESE_TRANSLATION_SYSTEM_PROMPT = (
     "Use natural academic Chinese while retaining the original logical structure. Use the standard "
     "hydrology translations '骤旱' for 'flash drought' and '骤洪' for 'flash flood'; never translate "
     "'flash' as '闪电' in these terms. Translate 'downscaling' as '降尺度'. If the abstract is "
-    "unavailable, set chinese_abstract exactly to '该论文暂无可用摘要。'; do not infer content from "
+    "unavailable or empty, set chinese_abstract to an empty string; do not write or translate "
+    "any missing-abstract notice. Do not infer content from "
     "the title or metadata. Do not add or translate an 'Abstract' heading before the translated text. "
     "Do not invent information. Return valid JSON only."
 )
@@ -121,6 +122,22 @@ def strip_abstract_heading(text: str) -> str:
     return re.sub(r"^\s*abstract\s*(?:[:\uff1a.\-\u2013\u2014]\s*)?", "", text, count=1, flags=re.IGNORECASE)
 
 
+def available_abstract(value: str | None) -> str:
+    """Treat empty abstracts and legacy missing-abstract notices as absent."""
+    text = strip_abstract_heading(value or "").strip()
+    marker = text.casefold().rstrip(".。")
+    if (
+        not marker
+        or marker.startswith("no abstract available")
+        or marker in {
+            "no abstract", "abstract not available", "n/a", "none", "null",
+            "该论文暂无可用摘要", "暂无可用摘要", "暂无摘要", "没有摘要", "无摘要",
+        }
+    ):
+        return ""
+    return text
+
+
 def paper_to_dict(paper: WeChatPaper) -> dict:
     if is_dataclass(paper):
         return asdict(paper)
@@ -132,7 +149,7 @@ def paper_to_dict(paper: WeChatPaper) -> dict:
 def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeChatPaper]) -> list[dict]:
     payload = [paper_to_dict(paper) for paper in papers]
     for item in payload:
-        item["abstract"] = strip_abstract_heading(str(item.get("abstract", "")))
+        item["abstract"] = available_abstract(item.get("abstract"))
     entries: list[dict] = []
     for attempt in range(1, OPENAI_WECHAT_MAX_ATTEMPTS + 1):
         response = client.chat.completions.create(
@@ -152,7 +169,8 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
                         "chinese_title must be a faithful Chinese translation of the paper title, not a generic label "
                         "such as research background, research purpose, or research method. "
                         "chinese_abstract must be a complete Chinese translation of the supplied English abstract, "
-                        "not a summary or condensed rewrite. "
+                        "not a summary or condensed rewrite. If the input abstract is empty, "
+                        "return an empty chinese_abstract without a missing-abstract notice. "
                         "Here are the papers:\n"
                         + json.dumps(payload, ensure_ascii=False)
                     ),
@@ -169,8 +187,11 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
         if len(entries) == len(papers) and all(
             isinstance(entry, dict)
             and str(entry.get("chinese_title", "")).strip()
-            and str(entry.get("chinese_abstract", "")).strip()
-            for entry in entries
+            and (
+                not item["abstract"]
+                or available_abstract(entry.get("chinese_abstract"))
+            )
+            for entry, item in zip(entries, payload)
         ):
             break
         if attempt < OPENAI_WECHAT_MAX_ATTEMPTS:
@@ -188,10 +209,10 @@ def generate_chinese_entries_batch(client: OpenAI, model: str, papers: list[WeCh
             f"{len(entries)} entrie(s) for {len(papers)} paper(s) after "
             f"{OPENAI_WECHAT_MAX_ATTEMPTS} attempt(s)."
         )
-    for entry in entries:
+    for entry, item in zip(entries, payload):
         entry["chinese_title"] = normalize_hydrology_terms(str(entry.get("chinese_title", "")))
         chinese_abstract = normalize_hydrology_terms(
-            str(entry.get("chinese_abstract", ""))
+            available_abstract(entry.get("chinese_abstract")) if item["abstract"] else ""
         )
         entry["chinese_abstract"] = re.sub(
             r"^\s*(?:Abstract|摘要(?:翻译|译文)?)\s*[:：]?\s*",
@@ -225,7 +246,7 @@ def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_dat
         if str(entry.get("chinese_title", "")).strip()
     ]
     items = "；".join(f"{index}）{title}" for index, title in enumerate(listed_titles, start=1))
-    return f"本期共收录 {len(papers)} 篇水文气候相关论文，题目如下：{items}。"
+    return f"本期共收录 {len(papers)} 篇水文气候相关论文：{items}。"
 
 
 def build_wechat_html(
@@ -248,7 +269,11 @@ def build_wechat_html(
         abbrev = journal_abbreviation(paper.journal)
         chinese_title = str(entry["chinese_title"]).strip()
         section_title = f"{chinese_title} | {abbrev}"
-        chinese_abstract = str(entry["chinese_abstract"]).strip()
+        chinese_abstract = (
+            available_abstract(entry.get("chinese_abstract"))
+            if available_abstract(getattr(paper, "abstract", ""))
+            else ""
+        )
         url = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi and not paper.doi.startswith("arxiv:") else "")
         link = f'<a href="{html.escape(url)}" style="color:#2878b5; text-decoration:underline;">{html.escape(url)}</a>' if url else ""
         parts.extend(
@@ -257,9 +282,12 @@ def build_wechat_html(
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
-                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\">{html.escape(chinese_abstract)}</p>",
             ]
         )
+        if chinese_abstract:
+            parts.append(
+                f"<p style=\"margin:0 0 16px; padding:10px 12px; background:#fbfcfd; border-left:3px solid #f0b429;\">{html.escape(chinese_abstract)}</p>"
+            )
 
     parts.append("</section>")
     html_body = "\n".join(part.strip() for part in parts if part.strip())

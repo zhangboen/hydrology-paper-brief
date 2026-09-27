@@ -1172,7 +1172,11 @@ def build_email_body(papers: list[Paper]) -> str:
                 f"Publication date: {paper.publication_date}",
                 f"Identifier: {paper.doi}",
                 f"URL: {paper.url}",
-                f"Abstract: {paper.abstract}",
+                *(
+                    [f"Abstract: {paper.abstract}"]
+                    if paper.abstract and paper.abstract != ABSTRACT_NOT_AVAILABLE
+                    else []
+                ),
                 "",
             ]
         )
@@ -1224,7 +1228,15 @@ def write_selected_papers(papers: list[Paper], run_date: datetime) -> None:
             {
                 "generated_at": run_date.isoformat(),
                 "paper_count": len(papers),
-                "papers": [paper.__dict__ for paper in papers],
+                "papers": [
+                    {
+                        **paper.__dict__,
+                        "abstract": (
+                            "" if paper.abstract == ABSTRACT_NOT_AVAILABLE else paper.abstract or ""
+                        ),
+                    }
+                    for paper in papers
+                ],
             },
             ensure_ascii=False,
             indent=2,
