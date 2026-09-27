@@ -75,6 +75,23 @@ JOURNAL_FALLBACK_ISSNS = {
     "Science": ("0036-8075",),
 }
 
+# Explicit portfolio membership avoids treating unrelated journals whose names
+# start with "Science" as Science-family journals.
+PRIORITY_JOURNALS = frozenset(
+    name.casefold()
+    for name in (
+        "Nature",
+        "Science",
+        "Science Advances",
+        "Nature Climate Change",
+        "Nature Geoscience",
+        "Nature Communications",
+        "Communications Earth & Environment",
+        "Nature Sustainability",
+        "Nature Water",
+    )
+)
+
 TOPIC_KEYWORDS = (
     (
         "flood",
@@ -194,6 +211,40 @@ TOPIC_KEYWORDS = (
             "channel bathymetry",
             "river mapping",
             "waterbody mapping",
+        ),
+    ),
+    (
+        "catchment processes and ungauged prediction",
+        (
+            "hydrologic functional diversity",
+            "hydrological functional diversity",
+            "hydrologic functional complexity",
+            "hydrological functional complexity",
+            "catchment classification",
+            "basin classification",
+            "watershed classification",
+            "catchment functional",
+            "rainfall-runoff",
+            "rainfall runoff",
+            "precipitation-runoff",
+            "runoff generation",
+            "streamflow generation",
+            "stormflow",
+            "hydrologic response",
+            "hydrological response",
+            "catchment response",
+            "runoff response",
+            "hydrologic similarity",
+            "hydrological similarity",
+            "catchment similarity",
+            "ungauged catchment",
+            "ungauged basin",
+            "ungauged watershed",
+            "rainfall persistence",
+            "hydrologic model structure",
+            "hydrological model structure",
+            "hydrologic model transferability",
+            "hydrological model transferability",
         ),
     ),
 )
@@ -635,13 +686,15 @@ def format_authors(authors: list[dict[str, Any]] | None) -> str:
 
 
 def searchable_crossref_text(item: dict[str, Any]) -> str:
-    return " ".join(
+    text = " ".join(
         [
             text_from_crossref(item.get("title")),
             clean_abstract(text_from_crossref(item.get("abstract"))),
             text_from_crossref(item.get("subject")),
         ]
     ).lower()
+    # Publisher metadata uses several dash characters in rainfall-runoff phrases.
+    return re.sub(r"\s*[-\u2010-\u2015\u2212]\s*", "-", text)
 
 
 def match_ranked_topic(item: dict[str, Any]) -> tuple[int, str] | None:
@@ -986,7 +1039,8 @@ def filter_hydroclimate_relevant_papers(papers: list[Paper]) -> list[Paper]:
         return [paper for paper in papers if heuristic_hydroclimate_relevance(paper)]
 
     client = OpenAI(api_key=api_key)
-    model = os.getenv("OPENAI_MODEL") or "gpt-4o-mini"
+    model = os.getenv("OPENAI_RELEVANCE_MODEL") or "gpt-5"
+    LOGGER.info("Hydroclimate relevance screening model: %s", model)
     kept: list[Paper] = []
     for start in range(0, len(papers), OPENAI_RELEVANCE_BATCH_SIZE):
         batch = papers[start : start + OPENAI_RELEVANCE_BATCH_SIZE]
@@ -1005,7 +1059,7 @@ def filter_hydroclimate_relevant_papers(papers: list[Paper]) -> list[Paper]:
             try:
                 response = client.chat.completions.create(
                     model=model,
-                    temperature=0,
+                    # GPT-5 does not accept a custom temperature.
                     messages=[
                         {
                             "role": "system",
@@ -1069,11 +1123,25 @@ def filter_hydroclimate_relevant_papers(papers: list[Paper]) -> list[Paper]:
     return kept
 
 
+def journal_priority(journal: str) -> int:
+    """Rank configured Nature/Science portfolio journals before other sources."""
+    normalized = clean_whitespace(unescape(journal)).casefold()
+    return 0 if normalized in PRIORITY_JOURNALS else 1
+
+
 def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX_PAPERS) -> list[Paper]:
     unsent = [paper for paper in candidates if paper.doi not in sent_dois]
     LOGGER.info("%s candidate paper(s) remain after excluding sent DOI(s).", len(unsent))
 
-    return sorted(unsent, key=lambda paper: (paper.topic_rank, paper.publication_date, paper.title))[:limit]
+    return sorted(
+        unsent,
+        key=lambda paper: (
+            journal_priority(paper.journal),
+            paper.topic_rank,
+            paper.publication_date,
+            paper.title,
+        ),
+    )[:limit]
 
 
 def build_email_body(papers: list[Paper]) -> str:
@@ -1086,8 +1154,11 @@ def build_email_body(papers: list[Paper]) -> str:
 
     lines = [
         f"Hydrology paper brief for {datetime.now(timezone.utc).date().isoformat()}",
-        f"Selected {len(papers)} paper(s) by ranked topic priority from recent Crossref and arXiv results.",
-        "Topic priority: flood; climate extreme events; drought; evapotranspiration; soil moisture; groundwater and baseflow; snowmelt; compound hydroclimate events; hydrological machine learning; SWOT; geomorphology; hydrography; arXiv hydroclimate machine learning.",
+        f"Selected {len(papers)} paper(s) by journal priority, then topic priority, from recent Crossref and arXiv results.",
+        "Highest journal priority: Nature, Science, and their configured portfolio journals.",
+        "Crossref topic priority within each journal tier: "
+        + "; ".join(topic for topic, _ in TOPIC_KEYWORDS)
+        + ". arXiv hydroclimate machine learning retains topic priority 4.",
         "",
     ]
 

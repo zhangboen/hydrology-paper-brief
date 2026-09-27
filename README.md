@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 48 hours in Crossref, adds arXiv preprints from the last 72 hours that overlap machine learning and hydroclimate topics, screens every result for expert-level hydroclimate relevance, selects up to 50 new papers by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
+This project searches journal articles published in the last 48 hours in Crossref, adds arXiv preprints from the last 72 hours that overlap machine learning and hydroclimate topics, screens every result for expert-level hydroclimate relevance, selects up to 50 new papers by journal priority followed by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -31,7 +31,11 @@ The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in
 
 ## Ranked Topics
 
-The script searches titles, abstracts, and Crossref subjects, then prioritizes matching papers in this order:
+The script first matches keywords in titles, available Crossref abstracts, and subjects, then screens topic-matched candidates for hydroclimate relevance. Only relevant, unsent papers are eligible.
+
+Nature, Science, and their **currently configured portfolio journals** have the highest journal priority: Science Advances, Nature Climate Change, Nature Geoscience, Nature Communications, Communications Earth & Environment, Nature Sustainability, and Nature Water. These papers precede other journals and arXiv before the daily paper limit is applied. Journal priority does not bypass topic or relevance screening, and does not add other portfolio journals to the search.
+
+Within each journal tier, matching Crossref papers are prioritized in this order:
 
 1. flood
 2. climate extreme events
@@ -45,6 +49,9 @@ The script searches titles, abstracts, and Crossref subjects, then prioritizes m
 10. SWOT
 11. geomorphology, including fluvial and channel morphology, landscape evolution, sediment transport, and erosion
 12. hydrography, including river, drainage, stream, and channel networks, bathymetry, and waterbody mapping
+13. catchment processes and ungauged prediction, including hydrologic functional diversity/complexity, catchment classification, rainfall-runoff relationships, runoff/streamflow generation, stormflow, hydrologic response/similarity, ungauged catchments/basins/watersheds, rainfall persistence, and hydrologic model structure/transferability
+
+The new catchment terms are informed by [Ameli et al. (2026), Nature Water](https://doi.org/10.1038/s44221-026-00699-6). The article's title passes the keyword filter even without an abstract. Hyphens and Unicode dashes (for example, rainfall–runoff) are normalized during matching. Existing arXiv hydroclimate-ML papers retain topic priority 4 within the lower journal tier; ties retain publication-date and title ordering.
 
 ## arXiv Preprint Filter
 
@@ -85,8 +92,12 @@ Create these repository secrets before enabling the workflow:
 | `SMTP_PASSWORD` | Your regenerated QQ SMTP authorization code |
 | `SMTP_HOST` | `smtp.qq.com` |
 | `SMTP_PORT` | `465` |
-| `OPENAI_API_KEY` | OpenAI API key for Chinese title and full English-abstract translation |
-| `OPENAI_MODEL` | Optional; defaults to `gpt-4o-mini` |
+| `OPENAI_API_KEY` | OpenAI API key for relevance screening and Chinese title/full abstract translation |
+| `OPENAI_RELEVANCE_MODEL` | Optional; relevance screening defaults to `gpt-5` |
+| `OPENAI_MODEL` | Optional; Chinese translation defaults to `gpt-4o-mini` |
+
+Relevance screening uses `OPENAI_RELEVANCE_MODEL` independently of the translation model, so an existing `OPENAI_MODEL` secret does not override the `gpt-5` screening default. Leave `OPENAI_RELEVANCE_MODEL` unset or empty to use the default. Screening requests omit custom temperature for GPT-5 compatibility. If the API key is missing or all screening attempts fail, the existing keyword-based relevance fallback still applies.
+
 Do not commit SMTP passwords or authorization codes to the repository.
 
 `OPENAI_API_KEY` is required for WeChat HTML generation. If it is missing, the daily email still sends, but the workflow skips `outputs/wechat-post-YYYY-MM-DD.html`.
@@ -109,6 +120,7 @@ export SMTP_PASSWORD="your-regenerated-smtp-authorization-code"
 export SMTP_HOST="smtp.qq.com"
 export SMTP_PORT="465"
 export OPENAI_API_KEY="your-openai-api-key"
+export OPENAI_RELEVANCE_MODEL="gpt-5"
 export OPENAI_MODEL="gpt-4o-mini"
 ```
 
@@ -122,6 +134,14 @@ By default, the script searches Crossref over the last 48 hours and arXiv over t
 
 For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. If all providers lack an abstract, the Chinese article reports that no abstract is available and does not generate a title-based summary. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
 
+
+## Tests
+
+Run the offline regression tests without sending emails or calling external APIs:
+
+```bash
+python -m unittest -v test_brief.py
+```
 
 ## How Duplicate Prevention Works
 

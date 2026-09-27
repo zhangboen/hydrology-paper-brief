@@ -34,7 +34,7 @@ jobs:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
         run: python main.py
 
       - name: Generate WeChat HTML article
