@@ -1,0 +1,55 @@
+name: Refresh daily WeChat post
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: "Today's run containing the original selected-papers JSON"
+        required: true
+        type: string
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Download today's original selection
+        uses: actions/download-artifact@v4
+        with:
+          name: wechat-post-output
+          path: work/source/
+          run-id: ${{ inputs.source_run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Search, screen, rank, and regenerate today's post
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          source_file=$(find work/source -name 'selected-papers-*.json' | sort | tail -n 1)
+          test -n "$source_file"
+          python refresh_wechat_post.py "$source_file"
+      - name: Upload refreshed outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: wechat-post-output
+          path: outputs/
+      - name: Commit refreshed post and DOI history
+        run: |
+          if [ -n "$(git status --porcelain -- sent_dois.json outputs/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sent_dois.json outputs/
+            git commit -m "Refresh today's paper search and WeChat post"
+            git push
+          fi
