@@ -3,77 +3,77 @@
   "number": 1,
   "status": "prepared",
   "lesson": {
-    "title": "Confident Introductions at Work",
+    "title": "Settling In: Meeting Your New Colleagues",
     "concept": {
       "key": "small_talk_openers",
       "name_en": "Small Talk Openers",
       "name_zh": "闲聊开场白",
-      "explanation_zh": "闲聊开场白是指在与新同事或不太熟悉的人开始对话时，用来打破沉默、建立友好气氛的简单句子或问题。它们帮助你自然地展开对话，而不是直接进入正式话题。比如问候、谈论天气或环境。",
+      "explanation_zh": "初次见面时，可以先提一句双方的共同背景，再问一个容易回答的小问题，让对话自然展开。回应对方说的话，比连续抛出问题更像交流。这里的 small talk 指轻松寒暄，并不等于没有意义的谈话。",
       "examples": [
-        "Hi, how’s your first day going?",
-        "It’s a nice office, isn’t it?",
-        "Have you worked here long?"
+        "I think we've exchanged a few emails. It's nice to finally meet you.",
+        "How's your week going so far?",
+        "I'm still finding my way around. Do you have a favorite lunch spot nearby?"
       ],
-      "common_mistake_zh": "常见错误是直接问一些太私人或正式的问题，例如‘你以前在哪儿工作？’可能让对方感到压力。应改为轻松、开放的问题，如‘你觉得这里的氛围怎么样？’。"
+      "common_mistake_zh": "避免一见面就连续追问薪资、婚姻等私人细节，或把聊天变成面试。询问之前在哪里工作本身并不失礼，关键看关系、语气和时机。先回应一句，再追问一个相关问题：That sounds interesting. How did you get into that?"
     },
     "vocabulary": [
       {
-        "term": "break the ice",
-        "ipa_us": "/breɪk ði aɪs/",
-        "pronunciation_tip_zh": "注意连读，‘break’和‘the’连成‘breɪk ði’",
-        "meaning_zh": "打破冷场，缓和气氛",
-        "explain_in_english": "It means to start a conversation to make people feel more comfortable.",
-        "usage_note_zh": "常用于正式或非正式初次见面时。通常用于谈话或社交场合。",
+        "term": "settle in",
+        "ipa_us": "/ˈsɛtəl ɪn/",
+        "pronunciation_tip_zh": "settle 的重音在第一个音节；第二个音节轻读。in 接着读，不必在两个词之间停顿。",
+        "meaning_zh": "逐渐适应新环境，开始感到自在。",
+        "explain_in_english": "It means to become comfortable in a new place, job, or routine.",
+        "usage_note_zh": "搬家、入职、入住新住处时都能用。How are you settling in? 是关心新同事的自然问法。",
         "examples": [
-          "I told a joke to break the ice at the meeting.",
-          "Asking about the weekend is a good way to break the ice."
+          "How are you settling in at the new office?",
+          "It took me a couple of weeks to settle in."
         ]
       },
       {
-        "term": "get to know someone",
-        "ipa_us": "/ɡɛt tə noʊ ˈsʌmwʌn/",
-        "pronunciation_tip_zh": "注意连读‘get to’发成/ɡɛt tə/",
-        "meaning_zh": "了解某人，熟悉某人",
-        "explain_in_english": "It means to learn about someone’s personality or background.",
-        "usage_note_zh": "在建立友谊或工作关系时常用，语气友好自然。",
+        "term": "show someone the ropes",
+        "ipa_us": "/ʃoʊ ˈsʌmwʌn ðə roʊps/",
+        "pronunciation_tip_zh": "ropes 中的 /oʊ/ 是双元音，结尾 /ps/ 要保留；the 在这里通常弱读为 /ðə/。",
+        "meaning_zh": "带某人熟悉流程，教某人如何上手。",
+        "explain_in_english": "It means to teach someone how things work when they are new to a job or activity.",
+        "usage_note_zh": "常见于同事之间或非正式培训。someone 可换成 me、you、her 等：Could you show me the ropes?",
         "examples": [
-          "I want to get to know my new teammates better.",
-          "We spent time chatting to get to know each other."
+          "Maya showed me the ropes during my first week.",
+          "I'll show you the ropes before you handle a booking on your own."
         ]
       },
       {
-        "term": "make a good impression",
-        "ipa_us": "/meɪk ə ɡʊd ɪmˈprɛʃən/",
-        "pronunciation_tip_zh": "注意‘impression’重音在第二个音节/imˈprɛʃən/",
-        "meaning_zh": "给人留下好印象",
-        "explain_in_english": "It means to behave in a way that others like or respect when they first meet you.",
-        "usage_note_zh": "常用于工作或社交场合，强调第一次见面的表现。",
+        "term": "put a face to the name",
+        "ipa_us": "/pʊt ə feɪs tə ðə neɪm/",
+        "pronunciation_tip_zh": "face 和 name 都含 /eɪ/；a、to、the 通常弱读，主要信息落在 face 和 name 上。",
+        "meaning_zh": "终于把听过或读过的名字与本人对上号。",
+        "explain_in_english": "It means to meet or see someone after already knowing their name, so you can connect the name with a person.",
+        "usage_note_zh": "适合先通过邮件认识、后来首次见面的情况。完全没听过对方名字时不宜这样说。",
         "examples": [
-          "She wants to make a good impression on her new boss.",
-          "Dressing neatly helps you make a good impression."
+          "It's nice to finally put a face to the name after all those emails.",
+          "The team photo helped me put a face to the name."
         ]
       }
     ],
     "scene": {
-      "title": "Introducing Yourself on the First Day at Work",
-      "context_zh": "你第一天到新公司上班，需要主动向同事介绍自己，建立良好关系。",
-      "script_en": "[You]: Hi, I’m Alex, the new marketing assistant. I just started today. Nice to meet you!\n[Colleague]: Hi Alex! Welcome to the team. I’m Sarah. How’s your first day going so far?\n[You]: Pretty good, thanks. The office is really nice. How long have you worked here?\n[Sarah]: About three years now. It’s a great place to work. If you need any help, just ask.\n[You]: Thanks, I appreciate that. I’m looking forward to getting to know everyone.\n[Sarah]: That’s great. We usually have lunch together around noon if you want to join.\n[You]: Sounds good! I’d love to. By the way, what’s the best way to get updates on projects?\n[Sarah]: We use email mostly, but also have a shared chat group. I can add you.\n[You]: Perfect, thanks! I want to make a good impression and contribute as soon as I can.\n[Sarah]: You’re off to a great start. Let me know if you want a tour of the office later.\n[You]: That would be awesome. Thanks, Sarah!\n[Sarah]: No problem. See you at lunch!",
-      "translation_zh": "[你]：你好，我是Alex，新的市场助理。我今天刚开始上班。很高兴认识你！\n[同事]：你好Alex！欢迎加入团队。我是Sarah。你第一天感觉怎么样？\n[你]：挺好的，谢谢。办公室环境很不错。你在这里工作多久了？\n[Sarah]：差不多三年了。这是个很好的工作地方。如果你需要帮助，随时告诉我。\n[你]：谢谢，我很感激。我期待着了解每个人。\n[Sarah]：太好了。我们通常中午一起吃饭，欢迎你加入。\n[你]：听起来不错！我很乐意。顺便问一下，了解项目进展的最好方式是什么？\n[Sarah]：我们主要用电子邮件，也有一个共享聊天群。我可以加你。\n[你]：太好了，谢谢！我想给大家留下好印象，尽快做出贡献。\n[Sarah]：你开局不错。等会儿要不要我带你参观一下办公室？\n[你]：那太好了。谢谢你，Sarah！\n[Sarah]：没问题。午饭见！",
-      "practice_tip_zh": "多练习用闲聊开场白开始对话，比如问问对方工作感受或环境，能帮助你自然地介绍自己并建立友好关系。"
+      "title": "Meeting a Colleague You Have Only Emailed",
+      "context_zh": "你刚加入一个团队，第一次见到之前通过邮件联系过的同事。将方括号里的姓名和团队名称换成自己的信息；Chris 是示例中的同事。",
+      "script_en": "You: Hi, are you Chris? I'm [your name]. We exchanged a few emails about the project last week.\nChris: Oh, hi! It's nice to finally put a face to the name. How are you settling in?\nYou: Pretty well, thanks. Everyone's been welcoming. I'm still figuring out where everything is, though.\nChris: That takes a little time. Have you found the coffee machine yet?\nYou: Yes, thankfully! Finding the meeting rooms is another story. I nearly walked into the wrong one this morning.\nChris: I've done that too. The names are confusing. I can show you around after lunch if you're free.\nYou: That would be great. And could you show me the ropes with the shared calendar? I don't want to book a room that's already taken.\nChris: Of course. It only takes a few minutes. Which team have you joined?\nYou: The [team name] team. I'll be working on a new project with them.\nChris: Sounds interesting. A few of us are getting lunch downstairs. Would you like to come?\nYou: I'd love to. Let me grab my bag.",
+      "translation_zh": "你：你好，你是 Chris 吗？我是[你的名字]。我们上周通过几封邮件讨论过那个项目。\nChris：哦，你好！终于见到本人了。你适应得怎么样？\n你：挺好的，谢谢。大家都很热情。不过，我还在熟悉各个地方的位置。\nChris：这需要一点时间。你找到咖啡机了吗？\n你：找到了，幸好！找会议室可就没那么顺利了。今天早上我差点走错。\nChris：我也犯过这个错。那些名字容易弄混。如果你有空，我午饭后可以带你转转。\n你：那太好了。另外，你能教我怎么用共享日历吗？我可不想预订已经被占用的会议室。\nChris：当然，只需要几分钟。你加入的是哪个团队？\n你：[团队名称]团队。我会和他们一起做一个新项目。\nChris：听起来不错。我们几个人准备去楼下吃午饭。你要一起吗？\n你：好啊。等我拿一下包。",
+      "practice_tip_zh": "先背自己的台词，再根据同事的回应接话。最后把项目、团队和遇到的小困难换成你的真实情况，脱稿说一遍。"
     },
     "reading": {
-      "title": "My First Week at the New Job",
+      "title": "The Seat at the End of the Table",
       "genre": "personal diary",
-      "text_en": "Monday morning was both exciting and nerve-wracking. I walked into the office with my heart beating fast, hoping to make a good impression on my new colleagues. Everyone was friendly, and my manager introduced me to the team. Throughout the day, I tried to break the ice by asking simple questions about the company and my coworkers’ roles. It helped me feel less like the new person and more like part of the team.\n\nBy Wednesday, I was starting to get to know some of my coworkers better. We had lunch together, and they shared tips about the best places to eat nearby. I realized that making friends would be just as important as learning my tasks. It’s easier to ask for help when you feel comfortable around people.\n\nOn Friday, I felt more confident. I had contributed to a small project and even shared some ideas during a meeting. My manager gave me positive feedback, which made me happy. I know there’s still a lot to learn, but this first week showed me that I’m on the right path.\n\nOverall, starting a new job is challenging but rewarding. Taking the time to introduce yourself, ask questions, and build relationships helps turn a nervous beginning into a promising new chapter. I’m excited to see where this journey takes me.",
-      "summary_zh": "作者记录了新工作第一周的经历，描述了初入职场时的紧张和兴奋，通过主动交流和建立关系逐渐适应环境，感受到成长和希望。",
+      "text_en": "On my first morning in the new office, I arrived ten minutes early and spent eight of them trying to open the wrong door. By the time someone let me in, my carefully prepared introduction had disappeared from my mind. I managed my name and a smile. That would have to do.\n\nAt lunchtime, I took my sandwich to an empty seat at the end of a long table. I was about to put on my headphones when a colleague asked whether the seat beside me was taken. Her name was Nina. We had exchanged emails the week before, but this was our first proper conversation. She asked how I was settling in, and I admitted that the building still felt like a maze.\n\nInstead of offering general advice, Nina drew a tiny map on a paper napkin. She marked the kitchen, the quiet meeting room, and the printer that actually worked. Then she showed me the ropes with the booking system on her phone. None of this took more than five minutes, but it changed the afternoon. I no longer felt that every small question would be an interruption.\n\nI kept the napkin in my notebook. A month later, when another new colleague joined us, I noticed him studying the signs outside the lift. I introduced myself and offered to walk with him. I did not have a brilliant opening line. I simply remembered what it felt like to be new, and how much a little practical kindness could help.",
+      "summary_zh": "新同事 Nina 用一张餐巾纸画的小地图和几分钟的实际帮助，让初来乍到的作者安心下来。一个月后，作者将同样的善意传递给另一个新人。",
       "questions": [
         {
-          "question": "What helped the writer feel less like the new person at work?",
-          "answer": "Asking simple questions about the company and coworkers’ roles helped break the ice and made the writer feel less like the new person."
+          "question": "Why did Nina's help make such a difference to the writer?",
+          "answer": "Her specific, practical help made the office easier to navigate and showed the writer that asking small questions was welcome."
         },
         {
-          "question": "Why did the writer think making friends at work is important?",
-          "answer": "Making friends makes it easier to ask for help and feel comfortable, which is important when learning new tasks."
+          "question": "What did the writer do differently when another new colleague arrived?",
+          "answer": "The writer took the initiative to introduce themselves and offer help, remembering how it had felt to be new."
         }
       ]
     }
@@ -85,5 +85,6 @@
     "total_tokens": 2509,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "editorial_review": "Reviewed for teaching accuracy, B2 usefulness, natural dialogue and IPA before first delivery."
 }
