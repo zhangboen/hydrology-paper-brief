@@ -29,7 +29,7 @@ jobs:
     timeout-minutes: 20
     env:
       ENGLISH_RECIPIENT: zhangben@mail.sysu.edu.cn
-      ENGLISH_MODEL: ${{ vars.ENGLISH_MODEL || 'gpt-4o-mini' }}
+      ENGLISH_MODEL: ${{ vars.ENGLISH_MODEL || 'gpt-4.1-mini' }}
       PREVIEW: ${{ inputs.preview || false }}
     steps:
       - name: Check out lesson code

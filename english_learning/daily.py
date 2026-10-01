@@ -56,8 +56,12 @@ SCHEMA = obj(
     vocabulary={"type": "array", "items": obj(
         term=S, ipa_us=S, pronunciation_tip_zh=S, meaning_zh=S,
         explain_in_english=S, usage_note_zh=S, examples=STRINGS)},
-    scene=obj(title=S, context_zh=S, script_en=S, translation_zh=S, practice_tip_zh=S),
-    reading=obj(title=S, genre=S, text_en=S, summary_zh=S,
+    scene=obj(title=S, context_zh=S,
+              script_en={"type": "string", "description": "Full natural English dialogue, 140-210 ENGLISH WORDS, around 12-16 substantial speaking turns. Not a brief outline."},
+              translation_zh=S, practice_tip_zh=S),
+    reading=obj(title=S, genre=S,
+                text_en={"type": "string", "description": "Complete original English reading: 220-300 ENGLISH WORDS in 4 developed paragraphs. Do not summarize or stop after one paragraph."},
+                summary_zh=S,
                 questions={"type": "array", "items": obj(question=S, answer=S)}),
 )
 SYSTEM = """You are an expert English-language teacher writing natural, idiomatic American
@@ -144,10 +148,15 @@ def validate(lesson, history):
             raise ValueError("Provide IPA enclosed in slashes")
         if len(item["examples"]) != 2:
             raise ValueError("Each vocabulary item needs two examples")
-    if not 130 <= word_count(lesson["scene"]["script_en"]) <= 230:
-        raise ValueError("Scene must contain 140-210 words (small counting tolerance allowed)")
-    if not 210 <= word_count(lesson["reading"]["text_en"]) <= 320:
-        raise ValueError("Reading must contain 220-300 words (small counting tolerance allowed)")
+    scene_words = word_count(lesson["scene"]["script_en"])
+    reading_words = word_count(lesson["reading"]["text_en"])
+    length_errors = []
+    if not 130 <= scene_words <= 230:
+        length_errors.append(f"Scene must contain 140-210 English words; received {scene_words}")
+    if not 210 <= reading_words <= 320:
+        length_errors.append(f"Reading must contain 220-300 English words; received {reading_words}")
+    if length_errors:
+        raise ValueError("; ".join(length_errors))
     if len(lesson["reading"]["questions"]) != 2:
         raise ValueError("Reading needs two comprehension questions")
 
@@ -185,7 +194,7 @@ def generate(history, date, usage_path):
     key = os.environ.get("OPENAI_API_KEY", "").strip()
     if not key:
         raise RuntimeError("Missing OPENAI_API_KEY repository secret")
-    model = os.environ.get("ENGLISH_MODEL") or "gpt-4o-mini"
+    model = os.environ.get("ENGLISH_MODEL") or "gpt-4.1-mini"
     n = len(history)
     prompt = {
         "date": date, "level": "IELTS 6.5 / B2", "lesson_number": n + 1,
@@ -197,12 +206,20 @@ def generate(history, date, usage_path):
     usage = {"model": model, "prompt_tokens": 0, "completion_tokens": 0,
              "total_tokens": 0, "reasoning_tokens": 0, "attempts": 0}
     last_error = ""
+    previous_content = None
     for attempt in range(1, 4):
+        messages = [{"role": "system", "content": SYSTEM},
+                    {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)}]
+        if previous_content:
+            messages.extend([
+                {"role": "assistant", "content": previous_content},
+                {"role": "user", "content": f"Revise the complete lesson. Validation errors: {last_error}. "
+                 "Preserve correct sections, repair errors, and return the entire valid JSON. "
+                 "For length errors count ENGLISH WORDS, not characters: aim for 175 scene words and 250 reading words."},
+            ])
         request_body = {
             "model": model, "temperature": 0.7, "max_completion_tokens": 6500,
-            "messages": [{"role": "system", "content": SYSTEM},
-                         {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)
-                          + (f"\nPrevious attempt failed validation: {last_error}. Fix this." if last_error else "")}],
+            "messages": messages,
             "response_format": {"type": "json_schema", "json_schema": {
                 "name": "daily_english_lesson", "strict": True, "schema": SCHEMA}},
         }
@@ -225,7 +242,9 @@ def generate(history, date, usage_path):
             choice = data["choices"][0]
             if choice.get("finish_reason") != "stop" or choice["message"].get("refusal"):
                 raise ValueError("Model returned an incomplete or refused lesson")
-            lesson = json.loads(choice["message"]["content"])
+            previous_content = choice["message"]["content"]
+            lesson = json.loads(previous_content)
+            write_json(usage_path.parent / "last-generated-lesson.json", lesson)
             validate(lesson, history)
             return lesson, usage
         except urllib.error.HTTPError as error:

@@ -17,7 +17,7 @@ this is not a guaranteed exact-time delivery service.
 4. An original 220–300-word reading, rotating genres, with a short Chinese summary
    and two comprehension questions and answers. Real speeches are not reproduced.
 
-Uses `gpt-4o-mini` by default; the repository variable `ENGLISH_MODEL` can override
+Uses `gpt-4.1-mini` by default; the repository variable `ENGLISH_MODEL` can override
 it with a compatible Chat Completions / strict JSON-schema model. Typical generation
 uses one API request. Retries are capped at three total attempts, with 120-second
 request timeouts and backoff. Usage returned by all completed attempts is recorded
