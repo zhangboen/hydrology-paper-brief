@@ -1,0 +1,89 @@
+name: daily-english-learning
+
+on:
+  schedule:
+    # China Standard Time (UTC+8): 06:00; 06:27 is an idempotent recovery check.
+    - cron: "0 22 * * *"
+    - cron: "27 22 * * *"
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "Generate a preview only (no email and no history changes)"
+        type: boolean
+        default: false
+      prepare_only:
+        description: "Save today's lesson for review, but do not send it yet"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-english-learning
+  cancel-in-progress: false
+
+jobs:
+  daily-english:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ENGLISH_RECIPIENT: zhangben@mail.sysu.edu.cn
+      ENGLISH_MODEL: ${{ vars.ENGLISH_MODEL || 'gpt-4o-mini' }}
+      PREVIEW: ${{ inputs.preview || false }}
+    steps:
+      - name: Check out lesson code
+        uses: actions/checkout@v4
+        with:
+          path: code
+          persist-credentials: false
+
+      - name: Check out independent lesson history
+        uses: actions/checkout@v4
+        with:
+          ref: english-learning-state
+          path: english-state
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fix the lesson date in China Standard Time
+        run: |
+          echo "LESSON_DATE=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_ENV"
+
+      - name: Check lesson validation and delivery safeguards
+        run: python -m unittest discover -s code/english_learning -p 'test_*.py' -v
+
+      - name: Prepare or reuse today's lesson
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: |
+          if [ "$PREVIEW" = "true" ]; then
+            python code/english_learning/daily.py prepare --date "$LESSON_DATE" --preview
+          else
+            python code/english_learning/daily.py prepare --date "$LESSON_DATE" --persist
+          fi
+
+      - name: Send the lesson email
+        if: ${{ success() && !inputs.preview && !inputs.prepare_only }}
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: python code/english_learning/daily.py send --date "$LESSON_DATE" --persist
+
+      - name: Save lesson preview and token usage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-english-learning-${{ github.run_id }}
+          path: english-output/
+          if-no-files-found: ignore
+          retention-days: 30
