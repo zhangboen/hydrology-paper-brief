@@ -91,6 +91,12 @@ All readings are your original teaching material. Favor interesting human detail
 over generic motivational cliches. Avoid unsupported news/medical/financial advice.
 Reuse today's vocabulary naturally in the scene or reading when it fits. Do not
 force awkward phrasing. Keep the teaching friendly and useful in 15-20 minutes.
+Aim above basic textbook English: prefer useful B1+/B2 expressions such as 'settle
+in' or 'show someone the ropes' over very basic phrases such as 'get to know'.
+Do not present ordinary questions about previous work as inherently rude or private;
+explain the role of context and tone. Pronunciation tips must accurately describe
+the sounds actually present. Before returning, silently check IPA, naturalness,
+teaching claims, full translation, and whether each example fits its context.
 Do not repeat previously taught concepts (even renamed), vocabulary, scene details,
 or reading themes. Return only the JSON specified by the response schema.
 """
