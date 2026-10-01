@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2026-10-01",
+    "concept_key": "small_talk_openers",
+    "concept_name": "Small Talk Openers",
+    "terms": [
+      "break the ice",
+      "get to know someone",
+      "make a good impression"
+    ],
+    "scene": "Introducing Yourself on the First Day at Work",
+    "reading": "My First Week at the New Job"
+  }
+]

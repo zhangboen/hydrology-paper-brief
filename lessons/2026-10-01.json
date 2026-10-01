@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-01",
+  "number": 1,
+  "status": "prepared",
+  "lesson": {
+    "title": "Confident Introductions at Work",
+    "concept": {
+      "key": "small_talk_openers",
+      "name_en": "Small Talk Openers",
+      "name_zh": "闲聊开场白",
+      "explanation_zh": "闲聊开场白是指在与新同事或不太熟悉的人开始对话时，用来打破沉默、建立友好气氛的简单句子或问题。它们帮助你自然地展开对话，而不是直接进入正式话题。比如问候、谈论天气或环境。",
+      "examples": [
+        "Hi, how’s your first day going?",
+        "It’s a nice office, isn’t it?",
+        "Have you worked here long?"
+      ],
+      "common_mistake_zh": "常见错误是直接问一些太私人或正式的问题，例如‘你以前在哪儿工作？’可能让对方感到压力。应改为轻松、开放的问题，如‘你觉得这里的氛围怎么样？’。"
+    },
+    "vocabulary": [
+      {
+        "term": "break the ice",
+        "ipa_us": "/breɪk ði aɪs/",
+        "pronunciation_tip_zh": "注意连读，‘break’和‘the’连成‘breɪk ði’",
+        "meaning_zh": "打破冷场，缓和气氛",
+        "explain_in_english": "It means to start a conversation to make people feel more comfortable.",
+        "usage_note_zh": "常用于正式或非正式初次见面时。通常用于谈话或社交场合。",
+        "examples": [
+          "I told a joke to break the ice at the meeting.",
+          "Asking about the weekend is a good way to break the ice."
+        ]
+      },
+      {
+        "term": "get to know someone",
+        "ipa_us": "/ɡɛt tə noʊ ˈsʌmwʌn/",
+        "pronunciation_tip_zh": "注意连读‘get to’发成/ɡɛt tə/",
+        "meaning_zh": "了解某人，熟悉某人",
+        "explain_in_english": "It means to learn about someone’s personality or background.",
+        "usage_note_zh": "在建立友谊或工作关系时常用，语气友好自然。",
+        "examples": [
+          "I want to get to know my new teammates better.",
+          "We spent time chatting to get to know each other."
+        ]
+      },
+      {
+        "term": "make a good impression",
+        "ipa_us": "/meɪk ə ɡʊd ɪmˈprɛʃən/",
+        "pronunciation_tip_zh": "注意‘impression’重音在第二个音节/imˈprɛʃən/",
+        "meaning_zh": "给人留下好印象",
+        "explain_in_english": "It means to behave in a way that others like or respect when they first meet you.",
+        "usage_note_zh": "常用于工作或社交场合，强调第一次见面的表现。",
+        "examples": [
+          "She wants to make a good impression on her new boss.",
+          "Dressing neatly helps you make a good impression."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Introducing Yourself on the First Day at Work",
+      "context_zh": "你第一天到新公司上班，需要主动向同事介绍自己，建立良好关系。",
+      "script_en": "[You]: Hi, I’m Alex, the new marketing assistant. I just started today. Nice to meet you!\n[Colleague]: Hi Alex! Welcome to the team. I’m Sarah. How’s your first day going so far?\n[You]: Pretty good, thanks. The office is really nice. How long have you worked here?\n[Sarah]: About three years now. It’s a great place to work. If you need any help, just ask.\n[You]: Thanks, I appreciate that. I’m looking forward to getting to know everyone.\n[Sarah]: That’s great. We usually have lunch together around noon if you want to join.\n[You]: Sounds good! I’d love to. By the way, what’s the best way to get updates on projects?\n[Sarah]: We use email mostly, but also have a shared chat group. I can add you.\n[You]: Perfect, thanks! I want to make a good impression and contribute as soon as I can.\n[Sarah]: You’re off to a great start. Let me know if you want a tour of the office later.\n[You]: That would be awesome. Thanks, Sarah!\n[Sarah]: No problem. See you at lunch!",
+      "translation_zh": "[你]：你好，我是Alex，新的市场助理。我今天刚开始上班。很高兴认识你！\n[同事]：你好Alex！欢迎加入团队。我是Sarah。你第一天感觉怎么样？\n[你]：挺好的，谢谢。办公室环境很不错。你在这里工作多久了？\n[Sarah]：差不多三年了。这是个很好的工作地方。如果你需要帮助，随时告诉我。\n[你]：谢谢，我很感激。我期待着了解每个人。\n[Sarah]：太好了。我们通常中午一起吃饭，欢迎你加入。\n[你]：听起来不错！我很乐意。顺便问一下，了解项目进展的最好方式是什么？\n[Sarah]：我们主要用电子邮件，也有一个共享聊天群。我可以加你。\n[你]：太好了，谢谢！我想给大家留下好印象，尽快做出贡献。\n[Sarah]：你开局不错。等会儿要不要我带你参观一下办公室？\n[你]：那太好了。谢谢你，Sarah！\n[Sarah]：没问题。午饭见！",
+      "practice_tip_zh": "多练习用闲聊开场白开始对话，比如问问对方工作感受或环境，能帮助你自然地介绍自己并建立友好关系。"
+    },
+    "reading": {
+      "title": "My First Week at the New Job",
+      "genre": "personal diary",
+      "text_en": "Monday morning was both exciting and nerve-wracking. I walked into the office with my heart beating fast, hoping to make a good impression on my new colleagues. Everyone was friendly, and my manager introduced me to the team. Throughout the day, I tried to break the ice by asking simple questions about the company and my coworkers’ roles. It helped me feel less like the new person and more like part of the team.\n\nBy Wednesday, I was starting to get to know some of my coworkers better. We had lunch together, and they shared tips about the best places to eat nearby. I realized that making friends would be just as important as learning my tasks. It’s easier to ask for help when you feel comfortable around people.\n\nOn Friday, I felt more confident. I had contributed to a small project and even shared some ideas during a meeting. My manager gave me positive feedback, which made me happy. I know there’s still a lot to learn, but this first week showed me that I’m on the right path.\n\nOverall, starting a new job is challenging but rewarding. Taking the time to introduce yourself, ask questions, and build relationships helps turn a nervous beginning into a promising new chapter. I’m excited to see where this journey takes me.",
+      "summary_zh": "作者记录了新工作第一周的经历，描述了初入职场时的紧张和兴奋，通过主动交流和建立关系逐渐适应环境，感受到成长和希望。",
+      "questions": [
+        {
+          "question": "What helped the writer feel less like the new person at work?",
+          "answer": "Asking simple questions about the company and coworkers’ roles helped break the ice and made the writer feel less like the new person."
+        },
+        {
+          "question": "Why did the writer think making friends at work is important?",
+          "answer": "Making friends makes it easier to ask for help and feel comfortable, which is important when learning new tasks."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 853,
+    "completion_tokens": 1656,
+    "total_tokens": 2509,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}
