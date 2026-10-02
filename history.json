@@ -10,5 +10,17 @@
     ],
     "scene": "Meeting a Colleague You Have Only Emailed",
     "reading": "The Seat at the End of the Table"
+  },
+  {
+    "date": "2026-10-02",
+    "concept_key": "polite_request_modals",
+    "concept_name": "Polite Request Modals",
+    "terms": [
+      "on the side",
+      "make a small change",
+      "customize"
+    ],
+    "scene": "Ordering Coffee and Requesting a Small Change",
+    "reading": "Why I Enjoy Customizing My Coffee"
   }
 ]

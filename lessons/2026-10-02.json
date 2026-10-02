@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-02",
+  "number": 2,
+  "status": "prepared",
+  "lesson": {
+    "title": "Making Requests and Asking for Small Changes at a Coffee Shop",
+    "concept": {
+      "key": "polite_request_modals",
+      "name_en": "Polite Request Modals",
+      "name_zh": "礼貌请求情态助动词",
+      "explanation_zh": "在英语中，使用情态助动词（如 could, would, can, may）来表达礼貌请求非常常见。它们使请求听起来更客气，而不是直接命令。比如说 'Could I have...' 比 'Give me...' 更礼貌。",
+      "examples": [
+        "Could I have a large coffee, please?",
+        "Would you mind adding a little milk?",
+        "Can you make that decaf instead?"
+      ],
+      "common_mistake_zh": "很多学习者直接说 'Give me a coffee'，这听起来很生硬或不礼貌。应该用 'Could I have a coffee, please?' 来表达请求，更加自然和礼貌。"
+    },
+    "vocabulary": [
+      {
+        "term": "on the side",
+        "ipa_us": "/ɑn ðə saɪd/",
+        "pronunciation_tip_zh": "‘on’中的元音是短元音/ɑ/，‘the’发弱读/ðə/，‘side’中的/d/发清晰",
+        "meaning_zh": "另外单独放，分开提供（通常指调料或配料）",
+        "explain_in_english": "It means to have something served separately, not mixed in.",
+        "usage_note_zh": "常用于点餐时请求酱料或配料单独放置，比较正式和日常都适用。",
+        "examples": [
+          "Can I get the dressing on the side?",
+          "I'd like my ketchup on the side, please."
+        ]
+      },
+      {
+        "term": "make a small change",
+        "ipa_us": "/meɪk ə smɔːl ʧeɪnʤ/",
+        "pronunciation_tip_zh": "‘make’中/k/发清晰，‘small’中/ɔː/拉长，‘change’结尾/dʒ/音清晰",
+        "meaning_zh": "做一个小调整或更改",
+        "explain_in_english": "It means to slightly change something, usually an order or plan.",
+        "usage_note_zh": "常用于日常对话中，特别是服务场合，语气轻松礼貌。",
+        "examples": [
+          "Can I make a small change to my order?",
+          "I need to make a small change to our meeting time."
+        ]
+      },
+      {
+        "term": "customize",
+        "ipa_us": "/ˈkʌstəˌmaɪz/",
+        "pronunciation_tip_zh": "重音在第一个音节，‘cus’发/ˈkʌs/，‘tomize’发/təˌmaɪz/",
+        "meaning_zh": "定制，按个人喜好调整",
+        "explain_in_english": "To change something so it fits your personal needs or taste.",
+        "usage_note_zh": "多用于商务和服务场合，正式和非正式均可。",
+        "examples": [
+          "I like to customize my coffee with almond milk.",
+          "They offer many ways to customize your sandwich."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Ordering Coffee and Requesting a Small Change",
+      "context_zh": "在咖啡店点咖啡时，顾客想礼貌地请求对订单做一个小调整。",
+      "script_en": "Barista: Good morning! What can I get started for you today?\nCustomer: Hi, could I have a medium cappuccino, please?\nBarista: Of course! Would you like it with whole milk or skim milk?\nCustomer: Actually, could I make a small change? Can I have it with oat milk on the side instead?\nBarista: Sure thing! So you want the oat milk separate, right?\nCustomer: Yes, exactly. Also, could you customize it with a little less foam?\nBarista: No problem, I’ll make it with light foam. Anything else for you today?\nCustomer: Yes, can I get a blueberry muffin as well?\nBarista: Absolutely. That’ll be $7.50. How would you like to pay?\nCustomer: I’ll pay by card. Here you go.\nBarista: Thanks! Your order will be ready shortly.\nCustomer: Thank you so much for your help!\nBarista: You’re very welcome! Enjoy your coffee and muffin.",
+      "translation_zh": "咖啡师：早上好！今天想喝点什么？\n顾客：你好，我可以要一杯中杯卡布奇诺吗？\n咖啡师：当然！您想要全脂牛奶还是脱脂牛奶？\n顾客：其实，我可以做一个小调整吗？可以把燕麦奶放在旁边吗？\n咖啡师：没问题！所以您是想把燕麦奶分开放，对吗？\n顾客：是的，正是这样。另外，可以帮我定制一下，少放一点奶泡吗？\n咖啡师：没问题，我会做成少奶泡的。今天还需要别的吗？\n顾客：是的，我还要一个蓝莓松饼。\n咖啡师：好的。总共是7.5美元。您想怎么付款？\n顾客：我用卡支付。给您。\n咖啡师：谢谢！您的订单马上就好。\n顾客：非常感谢您的帮助！\n咖啡师：不客气！祝您享用咖啡和松饼。",
+      "practice_tip_zh": "多多模仿对话中的礼貌请求句型，练习用 could 和 would 来表达自己的需求，这样说话会更自然得体。"
+    },
+    "reading": {
+      "title": "Why I Enjoy Customizing My Coffee",
+      "genre": "short reflective essay",
+      "text_en": "Every morning, I look forward to my trip to the local coffee shop. It’s not just about the coffee itself but the small rituals and personal touches that make the experience special. I enjoy customizing my coffee because it allows me to start the day feeling in control and comforted. For example, asking for oat milk on the side or less foam might seem like small changes, but they make a big difference to my taste and mood.\n\nCustomizing also gives me a chance to connect with the baristas. When I ask politely, they often smile and seem happy to help, which adds a friendly atmosphere. It’s a small way to brighten the start of my day. Plus, I’ve learned some new vocabulary and phrases by practicing these requests regularly, which helps me feel more confident speaking English.\n\nSometimes, making a small change to my order can be a little awkward if I don’t phrase it politely. Using words like \"could\" or \"would\" helps keep the conversation smooth and pleasant. I find that this polite approach works well not only in coffee shops but also in other places like restaurants and stores.\n\nIn the end, these small requests make my coffee break feel more personal and enjoyable. They help me settle into my day with a positive mindset. So, I highly recommend trying to customize your order next time. It’s a simple way to make your daily routine a little more special and tailored to you.",
+      "summary_zh": "作者喜欢定制咖啡，因为这让他感到控制感和舒适，也能与咖啡师建立友好关系。礼貌地提出小调整不仅让咖啡更合口味，也让日常更愉快。",
+      "questions": [
+        {
+          "question": "Why does the author enjoy customizing their coffee?",
+          "answer": "Because it allows them to feel in control and comforted, and makes the experience more personal and enjoyable."
+        },
+        {
+          "question": "How does using polite language affect the interaction with baristas?",
+          "answer": "It helps keep the conversation smooth and pleasant, and baristas often respond positively to polite requests."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 3689,
+    "completion_tokens": 3225,
+    "total_tokens": 6914,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
