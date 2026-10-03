@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "number": 3,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Using Polite Complaints in Hotel Situations",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 6705,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-03T08:53:05.936463+08:00"
 }
