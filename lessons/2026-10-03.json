@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-03",
+  "number": 3,
+  "status": "prepared",
+  "lesson": {
+    "title": "Using Polite Complaints in Hotel Situations",
+    "concept": {
+      "key": "polite_complaints",
+      "name_en": "Polite Complaints",
+      "name_zh": "礼貌抱怨",
+      "explanation_zh": "礼貌抱怨指的是在表达不满或问题时使用委婉、尊重的语言，避免直接或粗鲁，让对方更愿意帮助解决问题。",
+      "examples": [
+        "I'm sorry to bother you, but there's a small issue with my room.",
+        "I wonder if you could help me with a problem in my reservation.",
+        "Would it be possible to change my room? The air conditioning isn't working."
+      ],
+      "common_mistake_zh": "错误的抱怨方式是直接说“Your room is terrible!”或“Fix this now!”这样会让服务人员感觉不舒服。正确做法是用礼貌的语气表达，比如“I was wondering if you could assist me with something.”"
+    },
+    "vocabulary": [
+      {
+        "term": "issue",
+        "ipa_us": "/ˈɪʃu/",
+        "pronunciation_tip_zh": "重音在第一个音节，'ish'发/ɪʃ/，'u'发/ju/。",
+        "meaning_zh": "问题，事项",
+        "explain_in_english": "An issue is a problem or something that needs attention.",
+        "usage_note_zh": "常用于正式或半正式场合，表达问题时比problem更委婉。",
+        "examples": [
+          "There is an issue with my room's heating.",
+          "Can you help me with this issue?"
+        ]
+      },
+      {
+        "term": "assist",
+        "ipa_us": "/əˈsɪst/",
+        "pronunciation_tip_zh": "重音在第二个音节，'as'发弱音/ə/，'sist'发/sɪst/。",
+        "meaning_zh": "帮助，协助",
+        "explain_in_english": "To assist means to help someone do something.",
+        "usage_note_zh": "正式和商务场合常用，比help更正式。",
+        "examples": [
+          "Could you assist me with my luggage?",
+          "The staff assisted the guests quickly."
+        ]
+      },
+      {
+        "term": "wonder if",
+        "ipa_us": "/ˈwʌndər ɪf/",
+        "pronunciation_tip_zh": "'wonder'重音在第一个音节，连读时/ər ɪf/轻快衔接。",
+        "meaning_zh": "想知道是否（用于礼貌地提出请求或疑问）",
+        "explain_in_english": "Used to politely ask or request something you are unsure about.",
+        "usage_note_zh": "常用于礼貌表达请求或询问，比直接问更客气。",
+        "examples": [
+          "I wonder if you could change my room.",
+          "I wonder if there is a good restaurant nearby."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Checking into a Hotel with a Room Issue",
+      "context_zh": "在酒店办理入住时，发现房间有问题，需要礼貌地向前台反映。",
+      "script_en": "Clerk: Good afternoon! Welcome to the Grand City Hotel. How can I help you today?\nGuest: Hello! I just checked into room 502, but I was wondering if you could assist me. There's an issue with the air conditioning; it doesn't seem to be working.\nClerk: I'm sorry to hear that. Let me check if we have another room available.\nGuest: Thank you, I appreciate your help.\nClerk: We do have a room on the 7th floor. Would you like to move there?\nGuest: That sounds perfect. Also, could you let me know if breakfast is included?\nClerk: Yes, breakfast is included from 7 to 10 a.m. in the lobby restaurant.\nGuest: Great! Thanks for your assistance.\nClerk: You're welcome! If you need anything else, please don't hesitate to ask.\nGuest: Will do. Have a nice day!",
+      "translation_zh": "前台：下午好！欢迎来到大城市酒店。今天我能为您做些什么？\n客人：你好！我刚刚入住了502号房，但我想知道您是否能帮我一下。空调有点问题，好像不工作了。\n前台：很抱歉听到这个。我来查查看是否有其他房间。\n客人：谢谢，我很感激您的帮助。\n前台：我们有一间在7楼的房间。您想换过去吗？\n客人：听起来很完美。另外，请问早餐包含在内吗？\n前台：是的，早餐在早上7点至10点于大堂餐厅供应。\n客人：太好了！谢谢您的帮助。\n前台：不客气！如果您还有什么需要，请随时告诉我们。\n客人：一定会的。祝您有美好的一天！",
+      "practice_tip_zh": "反复练习礼貌抱怨的表达，尝试用不同的词汇替换“issue”和“assist”，提高灵活度。"
+    },
+    "reading": {
+      "title": "Why Polite Complaints Make a Difference",
+      "genre": "original short speech",
+      "text_en": "When staying at a hotel, sometimes things don't go perfectly — the air conditioning might break, the Wi-Fi might be slow, or the room might not be exactly what you expected. How you express your concerns can make a big difference in how the staff responds and how quickly your problem is solved. Using polite complaints, such as \"I was wondering if you could help me with...\" or \"There seems to be a small issue with...\", shows respect and makes the staff more willing to assist you.\n\nDirect or harsh complaints like \"This room is terrible!\" or \"Fix this now!\" may cause defensiveness or delay in service, as staff might feel criticized. Instead, softening your language by adding phrases like \"I'm sorry to bother you\" or \"Would it be possible to...\" helps create a positive and cooperative atmosphere. This approach often leads to faster and better solutions because the staff feels appreciated rather than attacked.\n\nHotel employees work hard to make your stay comfortable. They handle many guests every day and appreciate when you communicate clearly but kindly. Practicing polite complaints will not only solve problems more smoothly but also improve your overall travel experience and your relationship with the hotel staff.\n\nNext time you face a problem during your hotel stay, try to use polite expressions. This small effort can turn a frustrating situation into a positive one, making your stay more enjoyable and stress-free. Remember, kindness and respect go a long way, even when things don’t go as planned.",
+      "summary_zh": "这篇短文讲述了在酒店遇到问题时使用礼貌抱怨的重要性。礼貌表达能让工作人员更愿意帮助解决问题，从而提高服务质量和旅行体验。",
+      "questions": [
+        {
+          "question": "Why are polite complaints more effective in a hotel setting?",
+          "answer": "Because they show respect, making staff more willing to help and leading to faster, better solutions."
+        },
+        {
+          "question": "What phrases can soften a complaint to make it more polite?",
+          "answer": "Phrases like \"I was wondering if you could help me...\", \"I'm sorry to bother you\", and \"Would it be possible to...\" soften complaints."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 3718,
+    "completion_tokens": 2987,
+    "total_tokens": 6705,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

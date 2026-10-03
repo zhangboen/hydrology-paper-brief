@@ -22,5 +22,17 @@
     ],
     "scene": "Ordering Coffee and Requesting a Small Change",
     "reading": "Why I Enjoy Customizing My Coffee"
+  },
+  {
+    "date": "2026-10-03",
+    "concept_key": "polite_complaints",
+    "concept_name": "Polite Complaints",
+    "terms": [
+      "issue",
+      "assist",
+      "wonder if"
+    ],
+    "scene": "Checking into a Hotel with a Room Issue",
+    "reading": "Why Polite Complaints Make a Difference"
   }
 ]
