@@ -34,5 +34,17 @@
     ],
     "scene": "Checking into a Hotel with a Room Issue",
     "reading": "Why Polite Complaints Make a Difference"
+  },
+  {
+    "date": "2026-10-04",
+    "concept_key": "open_account_collocations",
+    "concept_name": "Open Account Collocations",
+    "terms": [
+      "checking account",
+      "savings account",
+      "direct deposit"
+    ],
+    "scene": "Opening a Checking Account at the Bank",
+    "reading": "My First Day Opening a Bank Account"
   }
 ]

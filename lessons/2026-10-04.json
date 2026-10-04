@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-04",
+  "number": 4,
+  "status": "prepared",
+  "lesson": {
+    "title": "Using Collocations with \"Open\" in Banking",
+    "concept": {
+      "key": "open_account_collocations",
+      "name_en": "Open Account Collocations",
+      "name_zh": "关于“open”的固定搭配",
+      "explanation_zh": "在银行业务中，“open”常和特定名词搭配，表达“开设账户”或“开始服务”。这些搭配是地道表达，非直译。常见搭配有：open an account（开账户）、open a savings account（开储蓄账户）、open a checking account（开支票账户）、open online banking（开通网银）等。正确使用这些搭配能让表达更自然。",
+      "examples": [
+        "I want to open a savings account today.",
+        "She opened an online banking account last week.",
+        "Can you help me open a checking account?"
+      ],
+      "common_mistake_zh": "错误：*I want to open a bank.*（想开一家银行）\n正确：I want to open a bank account.（开一个银行账户）\n解释：“bank”是银行机构，不能直接跟“open”表示开户，必须是“bank account”。"
+    },
+    "vocabulary": [
+      {
+        "term": "checking account",
+        "ipa_us": "/ˈʧɛkɪŋ əˌkaʊnt/",
+        "pronunciation_tip_zh": "重音在第一个词开头，checking的'check'发音清晰，注意连读",
+        "meaning_zh": "支票账户，常用于日常支付和取款的银行账户",
+        "explain_in_english": "A checking account is a bank account you use for daily payments and withdrawals.",
+        "usage_note_zh": "正式和非正式场合均可使用，银行业务常用词。",
+        "examples": [
+          "I deposited my paycheck into my checking account.",
+          "She uses her checking account to pay bills online."
+        ]
+      },
+      {
+        "term": "savings account",
+        "ipa_us": "/ˈseɪvɪŋz əˌkaʊnt/",
+        "pronunciation_tip_zh": "注意savings复数形式发音，重音在第一个音节",
+        "meaning_zh": "储蓄账户，用来存钱并获得利息的银行账户",
+        "explain_in_english": "A savings account is a bank account where you save money and earn interest.",
+        "usage_note_zh": "银行正式用语，适合谈理财和存款。",
+        "examples": [
+          "I opened a savings account to save for my vacation.",
+          "Savings accounts usually have higher interest rates than checking accounts."
+        ]
+      },
+      {
+        "term": "direct deposit",
+        "ipa_us": "/dəˈrɛkt dɪˈpɑzɪt/",
+        "pronunciation_tip_zh": "direct的'rect'发/k/音，deposit重音在第二个音节",
+        "meaning_zh": "直接存款，工资等款项直接存入银行账户",
+        "explain_in_english": "Direct deposit means your salary is sent straight into your bank account.",
+        "usage_note_zh": "常用于职场和银行场合，正式用语。",
+        "examples": [
+          "My employer uses direct deposit to pay my salary.",
+          "Setting up direct deposit is faster than getting paper checks."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Opening a Checking Account at the Bank",
+      "context_zh": "客户到银行柜台开设支票账户，咨询相关服务和流程。",
+      "script_en": "Customer: Hi, I'd like to open a checking account, please.\nBank Teller: Of course! Do you have any bank accounts with us already?\nCustomer: No, this will be my first one here.\nBank Teller: Great! We offer a few types of checking accounts. Are you interested in any specific features?\nCustomer: I want to make direct deposits and write checks.\nBank Teller: Perfect. Our standard checking account includes both. You'll also get a debit card.\nCustomer: How do I set up direct deposit?\nBank Teller: You can provide your employer with a direct deposit form, which we’ll give you today.\nCustomer: Sounds good. What about online banking?\nBank Teller: We can help you open online banking today, so you can manage your account from your phone or computer.\nCustomer: That would be very convenient.\nBank Teller: Do you have any ID and proof of address with you?\nCustomer: Yes, here’s my driver’s license and a utility bill.\nBank Teller: Perfect. Let me start the application for you.\nCustomer: Thank you. How long will it take to get my debit card?\nBank Teller: Usually, it arrives within 7 to 10 business days by mail.\nCustomer: Great. Can I still use my account before that?\nBank Teller: Yes, you can access your account online and make transfers immediately.\nCustomer: Excellent. I’m glad I came in today.",
+      "translation_zh": "客户：您好，我想开一个支票账户。\n银行柜员：当然！您之前有我们银行的账户吗？\n客户：没有，这是我在这里的第一个账户。\n银行柜员：太好了！我们有几种支票账户。您对哪些功能感兴趣？\n客户：我想设立直接存款，并且能开支票。\n银行柜员：很棒。我们的标准支票账户都包括这些服务。您还会获得一张借记卡。\n客户：我该如何设立直接存款？\n银行柜员：您可以拿着我们今天给您的直接存款表格给您的雇主。\n客户：听起来不错。网银呢？\n银行柜员：我们可以帮您今天开通网银，这样您就可以通过手机或电脑管理账户。\n客户：那很方便。\n银行柜员：请问您带身份证和地址证明了吗？\n客户：带了，这是我的驾照和水电费账单。\n银行柜员：太好了，我帮您开始申请。\n客户：谢谢。多久能收到借记卡？\n银行柜员：通常7到10个工作日内邮寄到您手中。\n客户：很好。卡没到之前能用账户吗？\n银行柜员：可以，您可以马上在线访问账户并进行转账。\n客户：太好了。今天来真是明智的选择。",
+      "practice_tip_zh": "反复朗读对话，注意“open a checking account”“direct deposit”等搭配发音和语调，模拟实际银行对话场景，增强记忆。"
+    },
+    "reading": {
+      "title": "My First Day Opening a Bank Account",
+      "genre": "first-person monologue",
+      "text_en": "When I moved to the U.S., opening a bank account was one of my first priorities. I knew I needed a checking account to pay bills and receive my salary through direct deposit. At the bank, the teller was very helpful and explained the different account options clearly. I chose a standard checking account because it allowed me to write checks and use a debit card easily. The process was smoother than I expected, especially when I provided my ID and proof of address. They also helped me set up online banking, which made managing my money much more convenient. During the application, I asked questions about fees and minimum balances to make sure I understood all the terms. The teller patiently explained everything, which made me feel confident. I appreciated that they offered advice on how to avoid common mistakes, like overdrawing the account or missing payments. After finishing the paperwork, I was given all the necessary documents and instructions for future reference. Looking back, I’m glad I took the time to understand the options and ask questions. It made me feel more confident about handling my finances here. If you’re opening a bank account for the first time, don’t hesitate to ask about features like direct deposit or online banking. It can really save you time and make your life easier. Also, remember to bring proper identification and proof of address to avoid delays. Overall, the experience was positive and gave me peace of mind as I settled into my new life.",
+      "summary_zh": "作者描述了自己搬到美国后开设银行账户的经历，包括选择支票账户、直接存款和网银服务，询问费用和注意事项，使理财更方便和安心。",
+      "questions": [
+        {
+          "question": "Why did the author choose a standard checking account?",
+          "answer": "Because it allowed writing checks and using a debit card easily."
+        },
+        {
+          "question": "What advice does the author give to people opening a bank account for the first time?",
+          "answer": "To ask about features like direct deposit or online banking and bring proper ID and proof of address to avoid delays."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 3906,
+    "completion_tokens": 3333,
+    "total_tokens": 7239,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
