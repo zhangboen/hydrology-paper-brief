@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-05",
+  "number": 5,
+  "status": "prepared",
+  "lesson": {
+    "title": "Asking About a Gym Membership: Understanding 'Membership Options'",
+    "concept": {
+      "key": "membership_options",
+      "name_en": "Membership Options",
+      "name_zh": "会员选择",
+      "explanation_zh": "在询问健身房会员资格时，了解和区分不同的会员选项非常重要，比如月度会员、年费会员、家庭会员等。通过清楚地表达你想了解的会员类型，可以更有效地获得所需信息。",
+      "examples": [
+        "What are the different membership options you offer?",
+        "Can you explain the benefits of each membership type?",
+        "Is there a discount if I sign up for an annual membership?"
+      ],
+      "common_mistake_zh": "很多人会把'membership options'误说成'membership choices'，但在健身房这种场合，使用'membership options'更自然和专业。"
+    },
+    "vocabulary": [
+      {
+        "term": "membership option",
+        "ipa_us": "/ˈmɛm.bɚ.ʃɪp ˈɑp.ʃən/",
+        "pronunciation_tip_zh": "重音在'mem'和'op'，连读时'ship'和'option'之间轻微停顿。",
+        "meaning_zh": "会员选择，会员方案",
+        "explain_in_english": "It means the different types of gym memberships you can choose from.",
+        "usage_note_zh": "常用在健身房、俱乐部等服务场合，正式且常见。",
+        "examples": [
+          "I’m interested in the monthly membership option.",
+          "Does the annual membership option include personal training?"
+        ]
+      },
+      {
+        "term": "sign up",
+        "ipa_us": "/saɪn ʌp/",
+        "pronunciation_tip_zh": "'sign'中的'g'不发音，'up'轻读。",
+        "meaning_zh": "报名，注册",
+        "explain_in_english": "It means to officially join or register for something, like a gym.",
+        "usage_note_zh": "日常生活和工作中都很常用，口语和书面都合适。",
+        "examples": [
+          "I want to sign up for the new yoga class.",
+          "Did you sign up for the gym membership yesterday?"
+        ]
+      },
+      {
+        "term": "discount",
+        "ipa_us": "/ˈdɪs.kaʊnt/",
+        "pronunciation_tip_zh": "重音在第一个音节'dis'，'count'读得清楚。",
+        "meaning_zh": "折扣，优惠",
+        "explain_in_english": "It means a reduction in price, so you pay less than the usual cost.",
+        "usage_note_zh": "购物、服务、销售场合常用，正式和非正式都适合。",
+        "examples": [
+          "Is there a discount for students?",
+          "They offered a discount if I sign up before the end of the month."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking About Gym Membership Options",
+      "context_zh": "在健身房前台询问不同的会员方案。",
+      "script_en": "Receptionist: Hello! Welcome to FitLife Gym. How can I help you today?\nYou: Hi! I’m thinking about joining the gym. Can you tell me what membership options you have?\nReceptionist: Sure! We offer monthly, quarterly, and annual memberships. Each has different benefits.\nYou: What’s included in the monthly membership?\nReceptionist: The monthly membership gives you full access to all gym equipment and group classes.\nYou: And the annual membership?\nReceptionist: The annual membership has a 10% discount and includes two free personal training sessions.\nYou: That sounds good. Do I need to sign up in person, or can I do it online?\nReceptionist: You can sign up either way. If you sign up online, we’ll send you a welcome package by email.\nYou: Great! Is there a student discount available?\nReceptionist: Yes, students get 15% off any membership option with a valid student ID.\nYou: Perfect. I’ll think about it and probably sign up this week. Thanks for your help!\nReceptionist: You’re welcome! Let me know if you have any other questions.",
+      "translation_zh": "接待员：你好！欢迎来到FitLife健身房。今天我能帮你什么吗？\n你：你好！我在考虑加入健身房。你能告诉我你们有哪些会员选择吗？\n接待员：当然！我们提供月度、季度和年度会员，每种都有不同的福利。\n你：月度会员包括什么？\n接待员：月度会员可以完全使用所有健身设备和团体课程。\n你：那年度会员呢？\n接待员：年度会员有10%的折扣，还包括两次免费的私人训练课程。\n你：听起来不错。我需要亲自报名吗，还是可以在线报名？\n接待员：两种方式都可以。如果你在线报名，我们会通过电子邮件发送欢迎礼包。\n你：太好了！学生有折扣吗？\n接待员：有的，学生凭有效学生证享有任何会员方案15%的折扣。\n你：完美。我会考虑一下，可能这周报名。谢谢你的帮助！\n接待员：不客气！如果有其他问题，随时告诉我。",
+      "practice_tip_zh": "把对话录音后跟读，注意提问和回答时的语调变化，练习自然流畅地询问会员方案。"
+    },
+    "reading": {
+      "title": "Finding the Right Gym Membership",
+      "genre": "short story",
+      "text_en": "When Emily moved to a new city, one of her first priorities was finding a gym where she could stay healthy and motivated. She visited several gyms nearby, asking about their membership options and what made each one unique.\n\nOne gym offered a very low monthly fee, but it had limited group classes and fewer pieces of equipment. Another gym was more expensive but included personal training sessions and modern equipment. Emily considered how often she would realistically go and what she wanted from the gym experience.\n\nShe took her time to compare the benefits and costs carefully. She realized that signing up for an annual membership with a discount would save her money over time. However, she also wanted flexibility in case her schedule changed, so she asked if she could switch membership types later.\n\nThe staff were very helpful and explained that members could upgrade or downgrade their plans anytime without extra fees. This flexibility made Emily feel more confident about joining. She decided to sign up for the quarterly membership first, planning to upgrade to an annual plan after she settled into her new routine.\n\nEmily’s story shows how asking the right questions and understanding membership options can help anyone make a better decision when choosing a gym. By balancing cost, benefits, and flexibility, she found a membership that fit her lifestyle and budget perfectly.",
+      "summary_zh": "艾米丽搬到新城市后，优先考虑找到一个能保持健康和动力的健身房。她比较了多家健身房的会员方案和设施，发现年费会员虽然贵但有折扣且更划算，同时还希望灵活更换方案。健身房工作人员说明可以随时更改计划，这让她更有信心。最终她选择了季度会员，计划适应后再升级。故事说明了了解会员选项的重要性。",
+      "questions": [
+        {
+          "question": "What factors did Emily consider when choosing a gym membership?",
+          "answer": "Emily considered the cost, benefits like personal training, group classes, and the flexibility to change membership types later."
+        },
+        {
+          "question": "Why did Emily start with a quarterly membership instead of an annual one?",
+          "answer": "She wanted flexibility to adjust her membership after settling into her new routine before committing to a longer plan."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 4010,
+    "completion_tokens": 3130,
+    "total_tokens": 7140,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

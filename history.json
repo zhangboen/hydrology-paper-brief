@@ -46,5 +46,17 @@
     ],
     "scene": "Opening a Checking Account at the Bank",
     "reading": "My First Day Opening a Bank Account"
+  },
+  {
+    "date": "2026-10-05",
+    "concept_key": "membership_options",
+    "concept_name": "Membership Options",
+    "terms": [
+      "membership option",
+      "sign up",
+      "discount"
+    ],
+    "scene": "Asking About Gym Membership Options",
+    "reading": "Finding the Right Gym Membership"
   }
 ]
