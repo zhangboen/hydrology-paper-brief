@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "number": 5,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Asking About a Gym Membership: Understanding 'Membership Options'",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7140,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-05T08:23:14.631840+08:00"
 }
