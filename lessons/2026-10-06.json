@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "number": 6,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Finding an Item and Checking Out at a Supermarket",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7579,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-06T10:01:38.006623+08:00"
 }
