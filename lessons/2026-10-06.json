@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-06",
+  "number": 6,
+  "status": "prepared",
+  "lesson": {
+    "title": "Finding an Item and Checking Out at a Supermarket",
+    "concept": {
+      "key": "asking_for_help_in_stores",
+      "name_en": "Asking for Help in Stores",
+      "name_zh": "在商店中寻求帮助",
+      "explanation_zh": "当你在商店里找不到想要的东西时，如何礼貌且有效地向店员求助。这包括适当的表达方式和用词，帮助你顺利找到商品。",
+      "examples": [
+        "Excuse me, could you help me find the cereal aisle?",
+        "Hi, do you know where the baking supplies are?",
+        "Sorry to bother you, but I'm looking for gluten-free bread."
+      ],
+      "common_mistake_zh": "常见错误是直接说“Where is …?”，显得不够礼貌。正确的表达应该加上礼貌用语，比如“Could you please tell me where … is?”。"
+    },
+    "vocabulary": [
+      {
+        "term": "aisle",
+        "ipa_us": "/aɪl/",
+        "pronunciation_tip_zh": "注意双元音 /aɪ/，像汉语“艾”的音，末尾轻轻发 /l/ 音。",
+        "meaning_zh": "（商店中的）通道，过道",
+        "explain_in_english": "An aisle is a passage between shelves in a store.",
+        "usage_note_zh": "常用在购物或超市场景，正式或非正式都适用。",
+        "examples": [
+          "The cereal aisle is on the left side of the store.",
+          "I walked down the aisle looking for the cleaning products."
+        ]
+      },
+      {
+        "term": "checkout counter",
+        "ipa_us": "/ˈtʃɛkˌaʊt ˈkaʊntər/",
+        "pronunciation_tip_zh": "注意连读，'checkout'中/t/和/ʃ/紧接，'counter'重音在第一个音节。",
+        "meaning_zh": "结账柜台",
+        "explain_in_english": "The place in a store where you pay for your items.",
+        "usage_note_zh": "购物时必到的地方，正式非正式均可。",
+        "examples": [
+          "I waited in line at the checkout counter.",
+          "She forgot her wallet at the checkout counter."
+        ]
+      },
+      {
+        "term": "price tag",
+        "ipa_us": "/praɪs tæg/",
+        "pronunciation_tip_zh": "'price'中的 /praɪs/ 注意双元音 /aɪ/，'tag'的 /æ/ 发音像汉语“啊”的音。",
+        "meaning_zh": "价格标签",
+        "explain_in_english": "A small label showing the price of a product.",
+        "usage_note_zh": "购物时查看商品价格常用词汇，适合所有正式和非正式场合。",
+        "examples": [
+          "Check the price tag before you put it in your cart.",
+          "The price tag says $5, but the cashier charged me $7."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Finding Gluten-Free Items and Checking Out",
+      "context_zh": "在超市寻找无麸质食品并结账的自然对话。",
+      "script_en": "Customer: Excuse me, could you help me find the gluten-free bread?\nStore Clerk: Sure! It’s in aisle 5, next to the organic products.\nCustomer: Thanks! Also, do you know if the price tag there is accurate? Sometimes prices on shelves are different.\nStore Clerk: Good question. Usually, the price tags are correct, but if you want, I can double-check at the checkout counter for you.\nCustomer: That would be great, thanks. By the way, do you accept credit cards here?\nStore Clerk: Yes, we do. You can pay at any checkout counter.\nCustomer: Perfect. I’ll grab a few items and head over.\n(After shopping)\nCustomer: Hi, I’m ready to check out.\nCashier: Hello! Did you find everything you needed?\nCustomer: Yes, thank you. Can you confirm the price of this bread?\nCashier: Let me scan it for you. It’s $4.99.\nCustomer: Great, thanks. Here’s my card.\nCashier: Thank you. Your total is $24.50. Have a nice day!\nCustomer: You too! Thanks for your help.",
+      "translation_zh": "顾客：打扰一下，您能帮我找到无麸质面包吗？\n店员：当然！在5号过道，靠近有机产品那边。\n顾客：谢谢！另外，您知道那里的价格标签准确吗？有时候货架上的价格不同。\n店员：好问题。通常价格标签是正确的，但如果您愿意，我可以帮您在结账柜台再确认一下。\n顾客：那太好了，谢谢。顺便问一下，这里接受信用卡吗？\n店员：是的，我们接受。您可以在任何结账柜台付款。\n顾客：太好了。我拿几样东西就去结账。\n（购物后）\n顾客：您好，我准备结账了。\n收银员：您好！您找到需要的东西了吗？\n顾客：找到了，谢谢。您能确认一下这面包的价格吗？\n收银员：让我给您扫描一下。是4.99美元。\n顾客：太好了，谢谢。这是我的卡。\n收银员：谢谢。您的总共是24.50美元。祝您有美好的一天！\n顾客：您也是！谢谢您的帮助。",
+      "practice_tip_zh": "练习时，尝试将对话中的礼貌用语如'excuse me'和'could you help me'熟记并自然使用，这样在真实购物时你会更有信心开口求助。"
+    },
+    "reading": {
+      "title": "A Letter to My Friend About a Supermarket Experience",
+      "genre": "informal letter",
+      "text_en": "Hi Alex,\n\nI hope you’re doing well! I wanted to tell you about my last visit to GreenMart, the new supermarket that opened near my apartment. I was looking for some gluten-free items because my doctor recommended I try to avoid gluten. At first, I couldn’t find the gluten-free bread, and the price tags on some shelves were a bit confusing. I wasn’t sure if the prices were correct.\n\nSo, I asked a store clerk for help. She was very friendly and quickly showed me where the gluten-free section was. She also explained that sometimes prices on shelves don’t match the checkout prices, so it’s a good idea to ask if you want to be sure. That was helpful because I didn’t want any surprises when paying.\n\nWhen I finished shopping, I went to the checkout counter. The cashier greeted me warmly and even double-checked the price of the bread for me. Paying by credit card was easy, and the total was exactly what I expected.\n\nOverall, it was a positive experience. I’m glad I asked for help instead of wandering around confused. It reminded me that being polite and clear when you ask questions really makes a difference. Next time you visit, I think you’ll find the store easy to navigate, especially if you ask the staff for help.\n\nHope to catch up soon!\n\nBest,\n[Your Name]",
+      "summary_zh": "这是一封写给朋友的非正式信，讲述作者在新开的超市购物时，如何寻找无麸质食品、询问价格标签和结账的经历。作者强调了礼貌求助的重要性，并鼓励朋友下次也试试。",
+      "questions": [
+        {
+          "question": "Why did the writer ask a store clerk for help?",
+          "answer": "Because they couldn’t find the gluten-free bread and were unsure about the accuracy of the price tags."
+        },
+        {
+          "question": "What advice did the store clerk give about the price tags?",
+          "answer": "The clerk said that sometimes the prices on shelves don’t match the checkout prices, so it’s good to ask to be sure."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 4249,
+    "completion_tokens": 3330,
+    "total_tokens": 7579,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
