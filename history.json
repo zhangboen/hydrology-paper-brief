@@ -70,5 +70,17 @@
     ],
     "scene": "Finding Gluten-Free Items and Checking Out",
     "reading": "A Letter to My Friend About a Supermarket Experience"
+  },
+  {
+    "date": "2026-10-08",
+    "concept_key": "polite_recommendations",
+    "concept_name": "Polite Recommendations",
+    "terms": [
+      "recommend",
+      "might like",
+      "have you tried"
+    ],
+    "scene": "Recommending a Dish to a Friend at a Restaurant",
+    "reading": "The Science Behind Food Preferences"
   }
 ]

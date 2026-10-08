@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-08",
+  "number": 7,
+  "status": "prepared",
+  "lesson": {
+    "title": "Making Polite Recommendations at a Restaurant",
+    "concept": {
+      "key": "polite_recommendations",
+      "name_en": "Polite Recommendations",
+      "name_zh": "礼貌推荐",
+      "explanation_zh": "在餐厅中，当你想建议别人点某道菜或者饮料时，使用礼貌推荐表达可以让对话更自然和友好。常用表达有“I recommend...”，“You might like...”，或者“Have you tried...”。这样说既表达了你的建议，又不会让对方感到压力。",
+      "examples": [
+        "I recommend the grilled salmon; it’s very fresh today.",
+        "You might like the mushroom risotto if you enjoy creamy dishes.",
+        "Have you tried the chef’s special pasta? It’s delicious."
+      ],
+      "common_mistake_zh": "很多人说“Eat this, it’s good.”，听起来太直接、不礼貌。正确的说法是“I recommend trying this; it’s very good.”"
+    },
+    "vocabulary": [
+      {
+        "term": "recommend",
+        "ipa_us": "/ˌrɛkəˈmɛnd/",
+        "pronunciation_tip_zh": "重音在第三个音节，连读'rek-uh-MEND'",
+        "meaning_zh": "推荐，建议",
+        "explain_in_english": "I say this because I think it is good for you or you will like it.",
+        "usage_note_zh": "正式和非正式场合都常用，尤其是在给建议时。例：餐厅点菜时推荐菜品。",
+        "examples": [
+          "I recommend the chicken soup; it’s very tasty.",
+          "She recommended the new movie to me."
+        ]
+      },
+      {
+        "term": "might like",
+        "ipa_us": "/maɪt laɪk/",
+        "pronunciation_tip_zh": "‘might’的t音轻微，连接后面‘like’发‘laɪk’",
+        "meaning_zh": "可能喜欢",
+        "explain_in_english": "I think you could enjoy this, but I’m not sure.",
+        "usage_note_zh": "用来表达建议时比较委婉，适合不确定对方喜好的情况。",
+        "examples": [
+          "You might like the cheesecake if you prefer sweet desserts.",
+          "He might like the salad because it’s fresh."
+        ]
+      },
+      {
+        "term": "have you tried",
+        "ipa_us": "/hæv ju traɪd/",
+        "pronunciation_tip_zh": "‘have you’连读像‘hav-ju’，‘tried’发/traɪd/",
+        "meaning_zh": "你尝试过……吗？",
+        "explain_in_english": "I’m asking if you have experienced this food or item before.",
+        "usage_note_zh": "常用来引出推荐，适合朋友、同事间轻松对话。",
+        "examples": [
+          "Have you tried the new burger here?",
+          "Have you tried adding lemon to the tea?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Recommending a Dish to a Friend at a Restaurant",
+      "context_zh": "你和朋友一起在餐厅点餐，想礼貌地推荐一道你觉得不错的菜品。",
+      "script_en": "Anna: Have you decided what to order yet?\nBen: Not really. Everything looks good, but I’m a bit unsure.\nAnna: I recommend the grilled chicken. It’s really juicy and flavorful. I tried it last time, and it was excellent.\nBen: That sounds great. I was thinking about the steak, but maybe I'll try your suggestion. How’s the portion size?\nAnna: It’s a good size, and it comes with a side of vegetables. Also, you might like the garlic mashed potatoes as a side; they’re creamy and tasty.\nBen: Thanks for the tip! I’ve heard good things about the house salad here too. Have you tried it?\nAnna: Yes, I have. It’s fresh and has a nice dressing that isn’t too heavy.\nBen: Perfect, I’ll get that too. By the way, do you want to share a dessert later?\nAnna: Sure! The chocolate lava cake is amazing. I highly recommend it.\nBen: Sounds delicious! Thanks for your recommendations. I’m excited to try everything.\nAnna: No problem! Let’s enjoy our meal and catch up.",
+      "translation_zh": "安娜：你决定点什么了吗？\n本：还没有，菜单看起来都不错，但我有点不确定。\n安娜：我推荐烤鸡，肉质多汁又有味道。我上次尝过，非常好吃。\n本：听起来不错。我本来想点牛排，但也许我试试你的推荐。份量怎么样？\n安娜：份量很足，还配有蔬菜。你可能会喜欢蒜泥土豆泥，奶油味浓，很好吃。\n本：谢谢建议！我也听说这里的招牌沙拉不错。你尝过吗？\n安娜：尝过，沙拉很新鲜，调味不重，很合适。\n本：太好了，我也点一个。顺便问一下，等会儿想不想一起分享甜点？\n安娜：好啊！巧克力熔岩蛋糕很棒，我强烈推荐。\n本：听起来很美味！谢谢你的推荐，我很期待尝试这些菜。\n安娜：没问题！我们好好享受这顿饭，聊聊近况吧。",
+      "practice_tip_zh": "尝试用‘I recommend...’, ‘You might like...’, ‘Have you tried...’来推荐你喜欢的食物或饮料。多听多模仿，增加表达自信。"
+    },
+    "reading": {
+      "title": "The Science Behind Food Preferences",
+      "genre": "popular-science vignette",
+      "text_en": "Why do we prefer some foods over others? It turns out that many factors influence our taste preferences, from biology to culture. Our taste buds detect five basic flavors: sweet, sour, salty, bitter, and umami. These signals travel to the brain, where personal experiences and memories also play a big role. For example, if you had a positive experience eating a certain dish, you're more likely to enjoy it again.\n\nCulture shapes what foods we find familiar and comforting. Someone raised in Italy might enjoy pasta more than someone who grew up eating rice as a staple. Additionally, genetics can influence sensitivity to certain tastes, such as bitterness, which affects individual preferences.\n\nThe environment and mood also impact our food choices. Stress or excitement can change appetite or craving for specific flavors. Moreover, social situations, like dining with friends, might encourage trying new foods because shared experiences often make food taste better.\n\nUnderstanding these factors helps chefs create dishes that appeal to different customers. It also explains why recommendations from friends can be so effective; personal connections add trust and positive expectations to the food experience. So next time you get a suggestion from a friend at a restaurant, remember that it’s backed by both science and social trust. This shows how our complex relationship with food goes beyond just taste — it’s about who we are and the connections we share with others around the table.",
+      "summary_zh": "为什么我们喜欢某些食物而不是其他？这与生物学、文化、经历和环境都有关系。味蕾感知基本味道，大脑结合记忆影响偏好。文化和基因也起作用，环境和心情则改变食欲。朋友的推荐因为信任而有效。",
+      "questions": [
+        {
+          "question": "What are the five basic flavors our taste buds detect?",
+          "answer": "Sweet, sour, salty, bitter, and umami."
+        },
+        {
+          "question": "Why are recommendations from friends effective?",
+          "answer": "Because personal connections add trust and positive expectations to the food experience."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 7053,
+    "completion_tokens": 4517,
+    "total_tokens": 11570,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
