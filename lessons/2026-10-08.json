@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "number": 7,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Making Polite Recommendations at a Restaurant",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 11570,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-08T09:30:52.050198+08:00"
 }
