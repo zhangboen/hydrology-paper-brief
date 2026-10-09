@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "number": 8,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Making Small Talk with a Neighbor: Expressing Interest and Building Rapport",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 3039,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "accepted_at": "2026-10-09T09:39:25.512175+08:00"
 }
