@@ -82,5 +82,17 @@
     ],
     "scene": "Recommending a Dish to a Friend at a Restaurant",
     "reading": "The Science Behind Food Preferences"
+  },
+  {
+    "date": "2026-10-09",
+    "concept_key": "expressing_interest_in_small_talk",
+    "concept_name": "Expressing Interest in Small Talk",
+    "terms": [
+      "neighborly",
+      "small talk",
+      "break the ice"
+    ],
+    "scene": "Meeting Your New Neighbor for the First Time",
+    "reading": "Exploring a New City: My Weekend Adventure"
   }
 ]

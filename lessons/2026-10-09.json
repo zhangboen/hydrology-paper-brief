@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-09",
+  "number": 8,
+  "status": "prepared",
+  "lesson": {
+    "title": "Making Small Talk with a Neighbor: Expressing Interest and Building Rapport",
+    "concept": {
+      "key": "expressing_interest_in_small_talk",
+      "name_en": "Expressing Interest in Small Talk",
+      "name_zh": "在闲聊中表达兴趣",
+      "explanation_zh": "在与邻居或陌生人进行闲聊时，表达对对方话题的兴趣非常重要。这样可以让对话更自然、友好，也能建立良好的人际关系。方法包括使用简短的肯定词、提问以及回应对方的信息。",
+      "examples": [
+        "That's interesting! How long have you lived here?",
+        "Oh, really? Tell me more about that.",
+        "I love that idea. What do you like most about this neighborhood?"
+      ],
+      "common_mistake_zh": "许多学习者在闲聊时只回答简单的“yes”或“no”，没有表达出兴趣或继续话题。改正方法是在回答时加上简短的评论或提问，例如：将“yes”改为“Yes, I really enjoy the park nearby. Do you go there often?”。"
+    },
+    "vocabulary": [
+      {
+        "term": "neighborly",
+        "ipa_us": "/ˈneɪbɚrli/",
+        "pronunciation_tip_zh": "重音在第一音节，邻接n和e时连读自然",
+        "meaning_zh": "邻居般的，友好的",
+        "explain_in_english": "It means acting friendly and kind to the people who live near you.",
+        "usage_note_zh": "常用于描述人与人之间的友好关系，正式或非正式场合都适用。",
+        "examples": [
+          "She has a very neighborly attitude, always ready to help.",
+          "The neighborly gesture made everyone feel welcome at the block party."
+        ]
+      },
+      {
+        "term": "small talk",
+        "ipa_us": "/smɔːl tɔːk/",
+        "pronunciation_tip_zh": "small的l音清晰，talk中t发清音，两个词连读流畅",
+        "meaning_zh": "闲聊，寒暄",
+        "explain_in_english": "Small talk is a light conversation about everyday things to be polite or friendly.",
+        "usage_note_zh": "非常常见的口语表达，任何社交场合都使用。",
+        "examples": [
+          "We made small talk about the weather while waiting in line.",
+          "Small talk helps break the ice when meeting new people."
+        ]
+      },
+      {
+        "term": "break the ice",
+        "ipa_us": "/breɪk ði aɪs/",
+        "pronunciation_tip_zh": "break重音，the发/ði/时与后面元音aɪs连读",
+        "meaning_zh": "打破沉默，缓和气氛",
+        "explain_in_english": "To start a conversation and make people feel comfortable.",
+        "usage_note_zh": "常用于描述社交场合开始交流的行为，口语和正式场合均可。",
+        "examples": [
+          "A joke can help break the ice at a party.",
+          "Asking about hobbies is a good way to break the ice."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Meeting Your New Neighbor for the First Time",
+      "context_zh": "你刚搬到新公寓，第一次遇见隔壁的邻居，想通过闲聊建立友好关系。",
+      "script_en": "You: Hi, I just moved in next door. I'm Alex. Nice to meet you!\nNeighbor: Hi Alex, I'm Jamie. Welcome to the building! How are you settling in?\nYou: Thanks! It's going well so far. I really like the neighborhood. How long have you lived here?\nNeighbor: I've been here about five years. It's a quiet and friendly place.\nYou: That sounds great. Have you found any good spots to eat nearby?\nNeighbor: Yes, there's a great café around the corner. You should definitely check it out.\nYou: I will, thanks! By the way, do you know if there’s a community event coming up?\nNeighbor: Actually, yes. There's a block party next weekend. It’s a good chance to meet more neighbors.\nYou: That sounds perfect. I’d love to come. Thanks for telling me!\nNeighbor: No problem. If you ever need anything, just knock on my door.\nYou: I appreciate that. Looking forward to getting to know everyone.\nNeighbor: Same here. See you around, Alex!",
+      "translation_zh": "你：嗨，我刚搬到隔壁。我叫Alex。很高兴认识你！\n邻居：嗨，Alex，我是Jamie。欢迎来到这里！你适应得怎么样？\n你：谢谢！到目前为止还不错。我很喜欢这个社区。你在这里住了多久？\n邻居：我已经住了大约五年。这里是个安静友好的地方。\n你：听起来很好。你发现附近有好吃的地方吗？\n邻居：有，拐角有一家很棒的咖啡馆。你一定要去试试。\n你：我会的，谢谢！顺便问一下，你知道附近有没有社区活动吗？\n邻居：实际上有。下周末有个街区派对。这是认识更多邻居的好机会。\n你：听起来很棒。我很想去。谢谢告诉我！\n邻居：没问题。如果你需要什么，随时敲我的门。\n你：我很感激。期待认识大家。\n邻居：我也是。回头见，Alex！",
+      "practice_tip_zh": "练习时尝试模仿对话中的语气和节奏，特别是表达兴趣和提问的部分。可以自己录音或与朋友角色扮演，帮助记忆和自然表达。"
+    },
+    "reading": {
+      "title": "Exploring a New City: My Weekend Adventure",
+      "genre": "travel journal",
+      "text_en": "Last weekend, I decided to spend some time exploring a new city nearby. I arrived early Saturday morning, eager to see what the city had to offer. My first stop was a local farmers market, where I enjoyed fresh fruits and chatted with friendly vendors. The atmosphere was lively, and it was a great way to get a feel for the community.\nAfter the market, I walked to a nearby park. It was a beautiful day, sunny with a gentle breeze. I found a nice spot under a tree to relax and read my book. While there, I struck up a small talk with a couple sitting next to me. We shared stories about our favorite places in the city, which gave me some great ideas for other places to visit.\nIn the afternoon, I visited a museum known for its art exhibits. The paintings and sculptures were impressive and showed a rich history of the area. I spent a few hours soaking in the culture and learning something new. It was a peaceful and inspiring experience.\nBefore heading back home, I stopped by a cozy café recommended by the museum staff. I tried a local specialty coffee and a slice of pie, which was delicious. Reflecting on the day, I felt grateful for the opportunity to explore and connect with new people. It reminded me how travel can open your mind and heart to different experiences.",
+      "summary_zh": "这篇游记讲述了作者在附近一座新城市度过周末的经历，包括逛农贸市场、在公园闲聊、参观博物馆和品尝当地咖啡。通过探索和与人交流，作者感受到了旅行带来的新鲜和启发。",
+      "questions": [
+        {
+          "question": "What activity helped the writer get a feel for the community?",
+          "answer": "Visiting the local farmers market and chatting with vendors helped the writer get a feel for the community."
+        },
+        {
+          "question": "How did the writer connect with others during the visit?",
+          "answer": "The writer made small talk with a couple in the park, sharing stories about favorite places in the city."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 1386,
+    "completion_tokens": 1653,
+    "total_tokens": 3039,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}
