@@ -179,13 +179,19 @@ class EvidenceTests(unittest.TestCase):
 
     def test_websearch_request_and_malformed_response_fallback(self):
         client = Mock()
-        client.responses.create.return_value = SimpleNamespace(output_text='not JSON')
+        searched = Mock(output_text='not JSON, but search evidence')
+        searched.model_dump.return_value = {'output': []}
+        client.responses.create.side_effect = [searched, SimpleNamespace(output_text='not JSON')]
         with self.assertRaises(ValueError):
-            am.lookup_chinese_information(client, Mock(), paper(), metadata())
-        kw = client.responses.create.call_args.kwargs
-        self.assertEqual(kw['tools'], [{'type': 'web_search'}])
-        self.assertEqual(kw['tool_choice'], 'required')
-        self.assertNotIn('temperature', kw)
+            am.search_author_information(client, 'request')
+        search_kw = client.responses.create.call_args_list[0].kwargs
+        self.assertEqual(search_kw['tools'], [{'type': 'web_search'}])
+        self.assertEqual(search_kw['tool_choice'], 'required')
+        self.assertNotIn('text', search_kw)
+        extract_kw = client.responses.create.call_args_list[1].kwargs
+        self.assertNotIn('tools', extract_kw)
+        self.assertTrue(extract_kw['text']['format']['strict'])
+        self.assertNotIn('temperature', search_kw)
 
 
 if __name__ == '__main__':
