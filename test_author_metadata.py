@@ -153,6 +153,30 @@ class EvidenceTests(unittest.TestCase):
         ]}
         self.assertEqual(am.source_urls(response), {self.url})
 
+    def test_tracking_parameters_do_not_reject_real_source(self):
+        fact = self.fact('张乙', '张乙 教授')
+        result = am.verify_fact(fact, {self.url+'?utm_source=openai'}, Mock(),
+                                {self.url: '张乙 教授 two@second.edu'}, author=metadata()['authors'][1])
+        self.assertIsNotNone(result)
+        self.assertNotEqual(am.canonical_url(self.url+'?id=1'), am.canonical_url(self.url+'?id=2'))
+
+    def test_official_profile_requires_matching_email_and_title_name(self):
+        m = metadata()
+        a = m['authors'][1]
+        a.pop('name_zh')
+        a.pop('title_zh')
+        url = 'https://science.second.edu/people/two'
+        page = '<title>张乙-乙大学科学学院</title><h1>张乙</h1><p>职称：副教授 邮箱：two@second.edu</p>'
+        with patch.object(am, 'get_document', return_value=page):
+            am.extract_official_profiles(m, {url}, Mock())
+        self.assertEqual(a['name_zh'], '张乙')
+        self.assertEqual(a['title_zh'], '副教授')
+        a.pop('name_zh')
+        a.pop('title_zh')
+        with patch.object(am, 'get_document', return_value=page.replace('two@', 'other@')):
+            am.extract_official_profiles(m, {url}, Mock())
+        self.assertNotIn('name_zh', a)
+
     def test_websearch_request_and_malformed_response_fallback(self):
         client = Mock()
         client.responses.create.return_value = SimpleNamespace(output_text='not JSON')
