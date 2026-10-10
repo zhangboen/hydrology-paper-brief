@@ -186,7 +186,7 @@ Chinese translations, source URLs, and verified evidence for audit.
 Run all offline tests:
 
 ```bash
-python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py
+python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py
 ```
 
 The separate **Validate paper brief** workflow runs offline checks on code changes.
@@ -206,3 +206,18 @@ python -m unittest -v test_brief.py
 After a successful email with selected papers, the script writes sent identifiers to `sent_dois.json`. Crossref papers use DOI identifiers, and arXiv papers use `arxiv:<id>` identifiers. The GitHub Actions workflow commits this file back to the repository so future scheduled runs can skip papers that have already been emailed.
 
 If no new matching papers are found, the script sends a short email saying there are no new unsent results and does not modify `sent_dois.json`.
+
+## Remote Sensing of Environment discovery
+
+RSE uses print ISSN `0034-4257` for Crossref retrieval, with electronic ISSN
+`1879-0704` as a fallback. Its records are discovered by DOI creation date,
+not print publication date, because newly available records often carry future
+issue months. The RSE recovery window defaults to 14 days (`RSE_LOOKBACK_HOURS=336`);
+existing sent-DOI deduplication prevents repeat delivery. Empty successful queries
+also try fallback endpoints/ISSNs, and cursor pagination retrieves the full window.
+Publication dates remain as supplied by the publisher in the brief. Other journals'
+discovery windows and the existing topic/relevance filters are unchanged.
+
+Run `python validate_rse_discovery.py` for a read-only live Crossref check. It
+writes a discovery report, including candidates matching the existing keywords,
+without sending mail or changing the sent-DOI list.

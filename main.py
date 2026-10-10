@@ -34,6 +34,7 @@ ROWS_PER_ARXIV_QUERY = int(os.getenv("ROWS_PER_ARXIV_QUERY", "200"))
 MAX_PAPERS = int(os.getenv("MAX_PAPERS", "50"))
 MAX_ARXIV_PAPERS = int(os.getenv("MAX_ARXIV_PAPERS", "10"))
 CROSSREF_LOOKBACK_HOURS = max(1, int(os.getenv("CROSSREF_LOOKBACK_HOURS", "48")))
+RSE_LOOKBACK_HOURS = max(1, int(os.getenv("RSE_LOOKBACK_HOURS", "336")))
 ARXIV_LOOKBACK_HOURS = max(1, int(os.getenv("ARXIV_LOOKBACK_HOURS", "72")))
 ARXIV_MAX_ATTEMPTS = max(1, int(os.getenv("ARXIV_MAX_ATTEMPTS", "3")))
 ARXIV_RETRY_SLEEP_SECONDS = float(os.getenv("ARXIV_RETRY_SLEEP_SECONDS", "3"))
@@ -69,11 +70,12 @@ JOURNALS = {
     "Bulletin of the American Meteorological Society": "1520-0477",
     "Journal of Climate": "1520-0442",
     "Journal of Hydrology": "0022-1694",
-    "Remote Sensing of Environment": "1879-0704",
+    "Remote Sensing of Environment": "0034-4257",
     "Hydrology and Earth System Sciences": "1607-7938",
 }
 
 JOURNAL_FALLBACK_ISSNS = {
+    "Remote Sensing of Environment": ("1879-0704",),
     "Science": ("0036-8075",),
 }
 
@@ -743,6 +745,12 @@ def fetch_recent_journal_articles(
     until_datetime: datetime,
     contact_email: str,
 ) -> list[dict[str, Any]]:
+    is_rse = journal_name == "Remote Sensing of Environment"
+    if is_rse:
+        # Elsevier often supplies only a future print month. Discover new DOI
+        # records independently of that date and recover recent missed papers.
+        from_datetime = min(from_datetime, until_datetime - timedelta(hours=RSE_LOOKBACK_HOURS))
+    date_filter = "created" if is_rse else "pub"
     from_date = from_datetime.date()
     until_date = until_datetime.date()
     issns = [issn, *JOURNAL_FALLBACK_ISSNS.get(journal_name, ())]
@@ -755,8 +763,8 @@ def fetch_recent_journal_articles(
                 f"journal endpoint ISSN {source_issn}",
                 CROSSREF_JOURNAL_API.format(issn=source_issn),
                 (
-                    f"from-pub-date:{from_date.isoformat()},"
-                    f"until-pub-date:{until_date.isoformat()},"
+                    f"from-{date_filter}-date:{from_date.isoformat()},"
+                    f"until-{date_filter}-date:{until_date.isoformat()},"
                     "type:journal-article"
                 ),
             ),
@@ -765,8 +773,8 @@ def fetch_recent_journal_articles(
                 CROSSREF_WORKS_API,
                 (
                     f"issn:{source_issn},"
-                    f"from-pub-date:{from_date.isoformat()},"
-                    f"until-pub-date:{until_date.isoformat()},"
+                    f"from-{date_filter}-date:{from_date.isoformat()},"
+                    f"until-{date_filter}-date:{until_date.isoformat()},"
                     "type:journal-article"
                 ),
             ),
@@ -775,11 +783,13 @@ def fetch_recent_journal_articles(
         for source_name, url, filter_value in sources:
             params = {
                 "filter": filter_value,
-                "sort": "published",
+                "sort": "created" if is_rse else "published",
                 "order": "desc",
                 "rows": ROWS_PER_JOURNAL,
                 "mailto": contact_email,
             }
+            if is_rse:
+                params["cursor"] = "*"
             LOGGER.info(
                 "Searching %s via %s from %s to %s.",
                 journal_name,
@@ -827,9 +837,9 @@ def fetch_recent_journal_articles(
             else:
                 continue
 
-            if payload is not None:
+            if payload is not None and (not is_rse or payload.get("message", {}).get("items")):
                 break
-        if payload is not None:
+        if payload is not None and (not is_rse or payload.get("message", {}).get("items")):
             break
 
     if payload is None:
@@ -842,6 +852,31 @@ def fetch_recent_journal_articles(
     if not isinstance(items, list):
         LOGGER.warning("Unexpected Crossref response shape for %s.", journal_name)
         return []
+
+    if is_rse:
+        # Follow cursor pages so the recovery window is not truncated at rows.
+        message = payload.get("message", {})
+        total = message.get("total-results", len(items))
+        cursor = message.get("next-cursor")
+        seen_cursors = set()
+        while len(items) < total:
+            if not cursor or cursor in seen_cursors:
+                raise RuntimeError("Incomplete RSE Crossref pagination")
+            seen_cursors.add(cursor)
+            params["cursor"] = cursor
+            page_response = session.get(url, params=params, timeout=30)
+            page_response.raise_for_status()
+            page = page_response.json().get("message", {})
+            next_items = page.get("items", [])
+            if not next_items:
+                raise RuntimeError("Crossref returned an incomplete RSE page")
+            items.extend(next_items)
+            cursor = page.get("next-cursor")
+        items = list({normalize_doi(item.get("DOI", "")): item for item in items if item.get("DOI")}.values())
+        LOGGER.info("Found %s article(s) in %s by DOI creation date before keyword filtering.", len(items), journal_name)
+        # Publication dates may be older or in future issues; neither is a
+        # reason to reject a DOI created within the requested discovery window.
+        return items
 
     recent_items = []
     for item in items:
