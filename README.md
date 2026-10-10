@@ -166,8 +166,9 @@ omitted, and junior titles are never promoted. Lookup failures fall back to the
 available metadata and do not prevent sending the brief.
 
 Web enrichment uses the existing `OPENAI_API_KEY`, with model `gpt-4.1-mini` by
-default (`OPENAI_AUTHOR_MODEL` may override it). It makes one search request per
-uncached selected paper, which adds API/search usage. Successful metadata is
+default (`OPENAI_AUTHOR_MODEL` may override it). It makes one publication search per
+uncached selected paper and, when needed, one targeted profile/translation search,
+which adds API/search usage. Successful metadata is
 cached for 30 days in `outputs/author-metadata-cache.json`; the existing workflow
 commits this with other outputs. Selected-paper JSON preserves raw affiliations,
 Chinese translations, source URLs, and verified evidence for audit.
