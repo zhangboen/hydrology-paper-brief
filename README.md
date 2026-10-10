@@ -186,7 +186,7 @@ Chinese translations, source URLs, and verified evidence for audit.
 Run all offline tests:
 
 ```bash
-python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py
+python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py
 ```
 
 The separate **Validate paper brief** workflow runs offline checks on code changes.
@@ -221,3 +221,19 @@ discovery windows and the existing topic/relevance filters are unchanged.
 Run `python validate_rse_discovery.py` for a read-only live Crossref check. It
 writes a discovery report, including candidates matching the existing keywords,
 without sending mail or changing the sent-DOI list.
+
+## Direct inclusion for Nature/Science portfolio and PNAS
+
+All articles retrieved from the configured Nature/Science portfolio journals and
+PNAS bypass keyword filtering. The pipeline retrieves available abstracts and asks
+GPT to judge hydroclimate relevance from their meaning. Relevant unsent papers are
+included ahead of other sources, even if their count alone exceeds `MAX_PAPERS`.
+A nonpositive `MAX_PAPERS` still disables selection. PNAS's full Crossref journal
+names are recognized as aliases. If GPT review is unavailable after retries, the
+run stops before sending rather than keyword-filtering or accepting unreviewed
+papers from these venues. Other journals retain their existing keyword gates.
+
+The configured portfolio consists of Nature, Science, Science Advances, Nature
+Climate Change, Nature Geoscience, Nature Communications, Communications Earth &
+Environment, Nature Sustainability and Nature Water. This rule does not add new
+journals to the discovery list.

@@ -38,7 +38,7 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - name: Offline regression tests
-        run: python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py
+        run: python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py
       - name: Live author metadata validation
         if: github.event_name == 'workflow_dispatch' && inputs.live_metadata
         env:
