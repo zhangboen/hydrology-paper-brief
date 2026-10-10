@@ -15,7 +15,7 @@ on:
         default: false
 
       live_selection:
-        description: 'Validate GPT selection using archived real JoH papers (no email)'
+        description: 'Validate GPT selection using real Crossref JoH papers (no email)'
         type: boolean
         default: false
 

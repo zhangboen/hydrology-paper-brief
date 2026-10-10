@@ -1,0 +1,76 @@
+{
+  "source": "https://api.crossref.org/journals/0022-1694/works",
+  "retrieved_at": "2026-10-10",
+  "papers": [
+    {
+      "doi": "10.1016/j.jhydrol.2026.136432",
+      "title": "Recirculated and fresh submarine groundwater discharge fluxes of dissolved carbon in a temperate seagrass lagoon",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136380",
+      "title": "A digital twin framework for real-time probabilistic forecasting of permeable pavement performance",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136417",
+      "title": "Emergence of macroscopic hydraulic behaviors from data: a hybrid physics-AI universal differential equation framework for spatio-temporal soil moisture dynamics",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136502",
+      "title": "The effect of macropore flow on nitrogen migration and transformation in layered media structure bioretention systems",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136447",
+      "title": "A coupled flood forecasting framework of HYDRUS-1D and Xinanjiang models based on the transfer of physically-based soil moisture fields",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136385",
+      "title": "Strategies for correcting nonstationary resistivity–water content relations in time-lapse electrical resistivity tomography",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136543",
+      "title": "From end-of-pipe detention to source–process regulation: multi-objective optimization of gray–green infrastructure for urban flood mitigation",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136431",
+      "title": "Explainable method for advanced early-warning of hypoxic events in estuaries: coupling Kolmogorov-Arnold networks with self-attention mechanism",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136517",
+      "title": "Pore-network structure and transport responses across textures and salinization levels in seasonally frozen saline soils: evidence from CT scanning and lattice Boltzmann simulations",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136556",
+      "title": "Nonlinear sea level rise and storm surge interactions amplify future coastal flood hazards in the world’s largest urban delta",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136479",
+      "title": "Dynamic risk assessment of water inrush from coal seam roof by coupling numerical modeling of groundwater flow and static risk model: a case study in Southwest China",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136343",
+      "title": "Decoding dissolved oxygen dynamics using ensemble machine learning models: insights across multi-regional rivers",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136436",
+      "title": "Multi-scale mapping of GDEs from remote sensing and field surveys in the Urumqi River–Chaiwopu Basin",
+      "abstract": ""
+    },
+    {
+      "doi": "10.1016/j.jhydrol.2026.136476",
+      "title": "Effect of land reclamation on denitrification processes in intertidal zones of beach aquifers",
+      "abstract": ""
+    }
+  ]
+}
