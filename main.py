@@ -17,6 +17,7 @@ from urllib.parse import quote
 import requests
 from openai import OpenAI
 from author_metadata import crossref_authors, display_authors, enrich_selected_papers
+from joh_selection import choose_interesting_joh
 
 
 LOGGER = logging.getLogger("hydrology_paper_brief")
@@ -1119,6 +1120,8 @@ def journal_priority(journal: str) -> int:
 
 
 def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX_PAPERS) -> list[Paper]:
+    if limit <= 0:
+        return []
     unsent = [paper for paper in candidates if paper.doi not in sent_dois]
     LOGGER.info("%s candidate paper(s) remain after excluding sent DOI(s).", len(unsent))
 
@@ -1131,6 +1134,9 @@ def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX
             paper.title,
         ),
     )
+    joh = [p for p in ranked if clean_whitespace(unescape(p.journal)).casefold() == "journal of hydrology"]
+    # Keep other journals' placement, but fill JoH slots using expert choices/order.
+    expert_joh = iter(choose_interesting_joh(joh, OUTPUTS_DIR)) if len(joh) > 10 else None
     selected = []
     hydrology_count = 0
     for paper in ranked:
@@ -1140,6 +1146,8 @@ def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX
             if hydrology_count >= 10:
                 continue
             hydrology_count += 1
+            if expert_joh is not None:
+                paper = next(expert_joh)
         selected.append(paper)
     return selected
 
@@ -1154,9 +1162,9 @@ def build_email_body(papers: list[Paper]) -> str:
 
     lines = [
         f"Hydrology paper brief for {datetime.now(timezone.utc).date().isoformat()}",
-        f"Selected {len(papers)} paper(s) by journal priority, then topic priority, from recent Crossref and arXiv results.",
+        f"Selected {len(papers)} paper(s) from recent Crossref and arXiv results; Journal of Hydrology uses GPT expert selection when there are more than ten candidates.",
         "Highest journal priority: Nature, Science, and their configured portfolio journals.",
-        "Crossref topic priority within each journal tier: "
+        "Crossref topic priority within each journal tier (Journal of Hydrology overflow is selected by GPT): "
         + "; ".join(topic for topic, _ in TOPIC_KEYWORDS)
         + ". arXiv hydroclimate machine learning retains topic priority 4.",
         "",

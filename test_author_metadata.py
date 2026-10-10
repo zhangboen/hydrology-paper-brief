@@ -35,12 +35,14 @@ def metadata():
 
 
 class SelectionTests(unittest.TestCase):
-    def test_hydrology_cap_uses_keyword_ranking_and_fills_global_limit(self):
+    def test_hydrology_cap_uses_expert_choices_and_fills_global_limit(self):
         joh = [paper(doi=f'10.1/j{i}', topic_rank=20-i) for i in range(20)]
         other = [paper(doi=f'10.1/o{i}', journal='HESS', topic_rank=50) for i in range(8)]
-        selected = main.select_papers(joh+other, set(), 15)
+        with patch.object(main, 'choose_interesting_joh', return_value=joh[:10]) as choose:
+            selected = main.select_papers(joh+other, set(), 15)
+        self.assertEqual(len(choose.call_args.args[0]), 20)
         self.assertEqual(len(selected), 15)
-        self.assertEqual([p.topic_rank for p in selected if p.journal == 'Journal of Hydrology'], list(range(1, 11)))
+        self.assertEqual([p.topic_rank for p in selected if p.journal == 'Journal of Hydrology'], list(range(20, 10, -1)))
         self.assertEqual(sum(p.journal == 'HESS' for p in selected), 5)
 
     def test_exact_ten_kept_and_regional_studies_not_capped(self):
@@ -51,10 +53,12 @@ class SelectionTests(unittest.TestCase):
     def test_sent_excluded_before_cap_and_priority_unchanged(self):
         joh = [paper(doi=f'10.1/j{i}', journal=' Journal of HYDROLOGY ', topic_rank=i) for i in range(15)]
         priority = paper(journal='Nature', doi='10.1/nature', topic_rank=99)
-        selected = main.select_papers(joh+[priority], {p.doi for p in joh[:4]})
+        with patch.object(main, 'choose_interesting_joh', return_value=joh[5:15]) as choose:
+            selected = main.select_papers(joh+[priority], {p.doi for p in joh[:4]})
+        self.assertEqual({p.doi for p in choose.call_args.args[0]}, {p.doi for p in joh[4:]})
         self.assertEqual(selected[0], priority)
         self.assertEqual(len(selected), 11)
-        self.assertEqual(selected[-1].topic_rank, 13)
+        self.assertEqual(selected[-1].topic_rank, 14)
         self.assertEqual(main.select_papers(joh, set(), 0), [])
 
 

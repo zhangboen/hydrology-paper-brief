@@ -139,8 +139,18 @@ The daily introduction lists the translated titles directly after the paper coun
 
 ## Author information and Journal of Hydrology limit
 
-Each daily selection includes at most **10 Journal of Hydrology papers**, selected
-using the existing ranked keyword topics before applying the overall paper limit.
+Each daily selection includes at most **10 Journal of Hydrology papers**. When
+there are more than ten eligible unsent candidates, GPT reads all their titles and
+available abstracts as a hydroclimatologist and chooses the ten most scientifically
+interesting papers. It weighs scientific insight, novelty, methodological advances,
+implications and a varied selection, without using the existing keyword hierarchy.
+At ten or fewer, all remain eligible without this additional API call. Discovery
+and relevance filters remain in place, and the overall daily paper limit still applies.
+The selector uses `OPENAI_RELEVANCE_MODEL` (default `gpt-5`) and the existing API key.
+It saves the candidates, model and Chinese selection reasons to
+`outputs/joh-selection-YYYY-MM-DD.json`. Malformed choices and API failures are
+retried up to three times; persistent failure stops the run before sending mail,
+rather than silently reverting to keyword selection.
 The cap applies to the unsent candidates in the existing 48-hour discovery window;
 it does not affect Journal of Hydrology: Regional Studies. Papers omitted by the
 cap are not marked as sent. Existing Nature/Science priority is preserved.
@@ -176,7 +186,7 @@ Chinese translations, source URLs, and verified evidence for audit.
 Run all offline tests:
 
 ```bash
-python -m unittest -v test_brief.py test_author_metadata.py
+python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py
 ```
 
 The separate **Validate paper brief** workflow runs offline checks on code changes.
