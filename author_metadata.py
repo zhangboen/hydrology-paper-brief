@@ -463,7 +463,11 @@ def extract_official_profiles(meta, consulted, session):
         brand = next((part for part in domain if part not in {'edu', 'ac', 'cn', 'org', 'com', 'mail', 'student', 'students'}), '')
         if brand in {'gmail', 'qq', 'outlook', 'hotmail', '163', '126', 'yahoo'}:
             continue
-        candidates = sorted({canonical_url(u) for u in consulted if brand and brand in (urlparse(u).hostname or '').split('.') and public_url(u)})[:5]
+        candidates = {canonical_url(u) for u in consulted if brand and brand in (urlparse(u).hostname or '').split('.') and public_url(u)}
+        # Search may return many campus homepages. Prioritize faculty/detail pages
+        # so the bounded request budget is spent on actual biography candidates.
+        candidates = sorted(candidates, key=lambda u: (
+            not bool(re.search(r'/info/|/people/|/faculty/|/teacher/|/profile/', urlparse(u).path, re.I)), u))[:5]
         for url in candidates:
             try:
                 soup = BeautifulSoup(get_document(session, url), 'html.parser')

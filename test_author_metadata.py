@@ -177,6 +177,19 @@ class EvidenceTests(unittest.TestCase):
             am.extract_official_profiles(m, {url}, Mock())
         self.assertNotIn('name_zh', a)
 
+    def test_profile_pages_prioritized_over_campus_homepages(self):
+        m = metadata()
+        a = m['authors'][1]
+        a.pop('name_zh')
+        a.pop('title_zh')
+        url = 'https://zscience.second.edu/info/10/20.htm'
+        consulted = {f'https://a{i}.second.edu/' for i in range(8)} | {url}
+        page = '<title>张乙-乙大学科学学院</title><p>张乙 职称：研究员 邮箱：two@second.edu</p>'
+        with patch.object(am, 'get_document', side_effect=lambda session, u: page if u == url else '<title>大学首页</title>'):
+            am.extract_official_profiles(m, consulted, Mock())
+        self.assertEqual(a['name_zh'], '张乙')
+        self.assertEqual(a['title_zh'], '研究员')
+
     def test_websearch_request_and_malformed_response_fallback(self):
         client = Mock()
         searched = Mock(output_text='not JSON, but search evidence')
