@@ -94,5 +94,17 @@
     ],
     "scene": "Meeting Your New Neighbor for the First Time",
     "reading": "Exploring a New City: My Weekend Adventure"
+  },
+  {
+    "date": "2026-10-10",
+    "concept_key": "polite_time_change_requests",
+    "concept_name": "Polite Time Change Requests",
+    "terms": [
+      "reschedule",
+      "postpone",
+      "Would you mind if..."
+    ],
+    "scene": "Calling a Colleague to Reschedule a Meeting",
+    "reading": "A Busy Week and the Importance of Flexibility"
   }
 ]
