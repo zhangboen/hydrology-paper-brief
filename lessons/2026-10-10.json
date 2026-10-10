@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "number": 9,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Rescheduling a Work Meeting: Polite Time Change Requests",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7400,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-10T09:26:58.827503+08:00"
 }
