@@ -137,7 +137,52 @@ For a topic-matched Crossref paper without an abstract, the script searches Open
 
 The daily introduction lists the translated titles directly after the paper count, without “题目如下”.
 
-## Tests
+## Author information and Journal of Hydrology limit
+
+Each daily selection includes at most **10 Journal of Hydrology papers**, selected
+using the existing ranked keyword topics before applying the overall paper limit.
+The cap applies to the unsent candidates in the existing 48-hour discovery window;
+it does not affect Journal of Hydrology: Regional Studies. Papers omitted by the
+cap are not marked as sent. Existing Nature/Science priority is preserved.
+
+Full author lists are retained in `author_details`. When a paper has more than
+eight authors, the visible byline includes the first two authors plus **all known
+corresponding authors**, in publication order and without repeating a person.
+An `et al.` suffix indicates omitted authors. If correspondence cannot be verified,
+only the first two are shown; the last author is never assumed to be corresponding.
+
+After Authors, both email and WeChat HTML include `作者信息：`. Corresponding teams
+are joined with `联合`; a different first listed publication affiliation is appended
+with `第一单位是…`. Multiple affiliations are retained. The first numbered/listed
+publication affiliation is kept separately from the first author's affiliation.
+Missing correspondence is explicitly reported without inventing a team.
+
+`author_metadata.py` combines Crossref's full authors, DOI-specific OpenAlex
+authorships, Copernicus publisher XML, and a Responses API web search. Publication
+affiliations are used, not present-day employment. Chinese personal names and
+titles require supporting source text and identity evidence (email/ORCID or full
+name plus affiliation). Unverified names remain in English; unknown titles are
+omitted, and junior titles are never promoted. Lookup failures fall back to the
+available metadata and do not prevent sending the brief.
+
+Web enrichment uses the existing `OPENAI_API_KEY`, with model `gpt-4.1-mini` by
+default (`OPENAI_AUTHOR_MODEL` may override it). It makes one search request per
+uncached selected paper, which adds API/search usage. Successful metadata is
+cached for 30 days in `outputs/author-metadata-cache.json`; the existing workflow
+commits this with other outputs. Selected-paper JSON preserves raw affiliations,
+Chinese translations, source URLs, and verified evidence for audit.
+
+Run all offline tests:
+
+```bash
+python -m unittest -v test_brief.py test_author_metadata.py
+```
+
+The separate **Validate paper brief** workflow runs offline checks on code changes.
+Its optional manual live validation checks one public HESS paper using the existing
+API secret, saves JSON/HTML artifacts, and does **not** send mail or mark papers sent.
+
+## Existing regression tests
 
 Run the offline regression tests without sending emails or calling external APIs:
 

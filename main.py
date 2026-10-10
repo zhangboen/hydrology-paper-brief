@@ -6,7 +6,7 @@ import smtplib
 import ssl
 import time
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from html import unescape
@@ -16,6 +16,7 @@ from urllib.parse import quote
 
 import requests
 from openai import OpenAI
+from author_metadata import crossref_authors, display_authors, enrich_selected_papers
 
 
 LOGGER = logging.getLogger("hydrology_paper_brief")
@@ -380,6 +381,9 @@ class Paper:
     topic: str
     topic_rank: int
     abstract: str
+    author_details: list[dict] = field(default_factory=list)
+    author_info: str = ""
+    author_metadata: dict = field(default_factory=dict)
 
 
 def clean_whitespace(text: str) -> str:
@@ -616,8 +620,6 @@ def paper_from_arxiv_entry(entry: ET.Element) -> Paper | None:
         for author in entry.findall("atom:author", ARXIV_NS)
     ]
     authors = [author for author in authors if author]
-    if len(authors) > 8:
-        authors = authors[:8] + ["et al."]
 
     primary_category = entry.find("arxiv:primary_category", ARXIV_NS)
     primary_category_name = (
@@ -628,7 +630,7 @@ def paper_from_arxiv_entry(entry: ET.Element) -> Paper | None:
 
     return Paper(
         title=title or "Untitled",
-        authors=", ".join(authors) if authors else "Unknown",
+        authors=display_authors([{"name": name} for name in authors]),
         journal=f"arXiv ({primary_category_name})",
         publication_date=arxiv_date(published),
         doi=arxiv_identifier(entry_id),
@@ -636,6 +638,7 @@ def paper_from_arxiv_entry(entry: ET.Element) -> Paper | None:
         topic="arXiv hydroclimate machine learning",
         topic_rank=4,
         abstract=summary or "No abstract available from arXiv.",
+        author_details=[{"name": name, "affiliations": [], "is_corresponding": False} for name in authors],
     )
 
 
@@ -667,22 +670,7 @@ def crossref_publication_date(item: dict[str, Any]) -> datetime | None:
 
 
 def format_authors(authors: list[dict[str, Any]] | None) -> str:
-    if not authors:
-        return "Unknown"
-
-    names = []
-    for author in authors[:8]:
-        given = author.get("given", "").strip()
-        family = author.get("family", "").strip()
-        name = " ".join(part for part in (given, family) if part)
-        if name:
-            names.append(name)
-
-    if not names:
-        return "Unknown"
-    if len(authors) > len(names):
-        names.append("et al.")
-    return ", ".join(names)
+    return display_authors(crossref_authors(authors or []))
 
 
 def searchable_crossref_text(item: dict[str, Any]) -> str:
@@ -735,6 +723,7 @@ def paper_from_crossref_item(
     return Paper(
         title=title,
         authors=format_authors(item.get("author")),
+        author_details=crossref_authors(item.get("author") or []),
         journal=journal,
         publication_date=crossref_date(item),
         doi=doi,
@@ -1133,7 +1122,7 @@ def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX
     unsent = [paper for paper in candidates if paper.doi not in sent_dois]
     LOGGER.info("%s candidate paper(s) remain after excluding sent DOI(s).", len(unsent))
 
-    return sorted(
+    ranked = sorted(
         unsent,
         key=lambda paper: (
             journal_priority(paper.journal),
@@ -1141,7 +1130,18 @@ def select_papers(candidates: list[Paper], sent_dois: set[str], limit: int = MAX
             paper.publication_date,
             paper.title,
         ),
-    )[:limit]
+    )
+    selected = []
+    hydrology_count = 0
+    for paper in ranked:
+        if len(selected) >= max(0, limit):
+            break
+        if clean_whitespace(unescape(paper.journal)).casefold() == "journal of hydrology":
+            if hydrology_count >= 10:
+                continue
+            hydrology_count += 1
+        selected.append(paper)
+    return selected
 
 
 def build_email_body(papers: list[Paper]) -> str:
@@ -1168,6 +1168,7 @@ def build_email_body(papers: list[Paper]) -> str:
                 f"{index}. {paper.title}",
                 f"Ranked topic: {paper.topic} (priority {paper.topic_rank})",
                 f"Authors: {paper.authors}",
+                f"作者信息：{paper.author_info or '通讯作者及单位暂未核实。'}",
                 f"Journal: {paper.journal}",
                 f"Publication date: {paper.publication_date}",
                 f"Identifier: {paper.doi}",
@@ -1257,6 +1258,7 @@ def main() -> None:
     sent_dois = load_sent_dois()
     candidates = filter_hydroclimate_relevant_papers(fetch_candidate_papers(contact_email))
     selected = select_papers(candidates, sent_dois)
+    selected = enrich_selected_papers(selected, contact_email, OUTPUTS_DIR)
 
     subject_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     subject = f"Daily hydrology paper brief - {subject_date}"

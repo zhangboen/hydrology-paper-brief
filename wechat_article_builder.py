@@ -281,6 +281,7 @@ def build_wechat_html(
                 f"<section style=\"margin:18px 0 10px; padding:10px 12px; background:linear-gradient(90deg,#d9edf7 0%,#eef7fb 58%,#ffffff 100%); color:#17324d; font-weight:700; line-height:1.55; border-left:5px solid #2878b5; border-bottom:1px solid #b9d7e8; box-shadow:0 2px 8px rgba(40,120,181,0.12);\">{idx:02d}｜{html.escape(section_title)}</section>",
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
+                f"<p style=\"margin:0 0 6px;\"><strong>作者信息：</strong>{html.escape(getattr(paper, 'author_info', '') or '通讯作者及单位暂未核实。')}</p>",
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
             ]
         )

@@ -1,0 +1,42 @@
+name: Validate paper brief
+
+on:
+  push:
+    paths:
+      - '*.py'
+      - 'requirements.txt'
+      - '.github/workflows/validate.yml'
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      live_metadata:
+        description: 'Validate one public HESS paper with web search (no email)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Offline regression tests
+        run: python -m unittest -v test_brief.py test_author_metadata.py
+      - name: Live author metadata validation
+        if: github.event_name == 'workflow_dispatch' && inputs.live_metadata
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: python validate_author_metadata.py
+      - uses: actions/upload-artifact@v4
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.live_metadata
+        with:
+          name: author-metadata-validation
+          path: validation-output/
