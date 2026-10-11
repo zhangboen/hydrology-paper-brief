@@ -135,7 +135,7 @@ By default, the script searches Crossref over the last 48 hours and arXiv over t
 For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. If all providers lack an abstract, the email and Chinese article omit the abstract section. Missing-abstract notices are not sent for translation, and no title-based summary is generated. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
 
 
-The daily introduction lists the translated titles directly after the paper count, without “题目如下”.
+The WeChat article starts directly with the first paper. No paper-count/title-list introduction is generated.
 
 ## Author information and Journal of Hydrology limit
 
@@ -161,18 +161,13 @@ corresponding authors**, in publication order and without repeating a person.
 An `et al.` suffix indicates omitted authors. If correspondence cannot be verified,
 only the first two are shown; the last author is never assumed to be corresponding.
 
-After Authors, both email and WeChat HTML include `作者信息：`. Corresponding teams
-are joined with `联合`; a different first listed publication affiliation is appended
-with `第一单位是…`. Multiple affiliations are retained. The first numbered/listed
-publication affiliation is kept separately from the first author's affiliation.
-Missing correspondence is explicitly reported without inventing a team.
+After Authors, both email and WeChat HTML show `作者信息：` when affiliation information is available. Each corresponding author is represented by their first publication affiliation. A verified Chinese name and title are shown as a team; otherwise only the affiliation is displayed. Multiple corresponding entries are joined with `联合`. If the first author's first affiliation differs from the displayed corresponding affiliations, it is appended as `第一作者单位：…`. Comparisons use first affiliations only, not secondary affiliations or the publication's first numbered institution. Full affiliations remain in stored metadata. If correspondence or its affiliation is unavailable, a known first-author affiliation is shown with its label; if neither is available, the line is omitted. No unverified-information placeholder is displayed.
 
 `author_metadata.py` combines Crossref's full authors, DOI-specific OpenAlex
 authorships, Copernicus publisher XML, and a Responses API web search. Publication
 affiliations are used, not present-day employment. Chinese personal names and
 titles require supporting source text and identity evidence (email/ORCID or full
-name plus affiliation). Unverified names remain in English; unknown titles are
-omitted, and junior titles are never promoted. Lookup failures fall back to the
+name plus affiliation). Unverified names or titles result in an affiliation-only entry, and junior titles are never promoted. Lookup failures fall back to the
 available metadata and do not prevent sending the brief.
 
 Web enrichment uses the existing `OPENAI_API_KEY`, with model `gpt-4.1-mini` by

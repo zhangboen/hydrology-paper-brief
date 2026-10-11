@@ -1250,7 +1250,7 @@ def build_email_body(papers: list[Paper]) -> str:
                  if paper.topic == "journal-based relevance review"
                  else f"Ranked topic: {paper.topic} (priority {paper.topic_rank})"),
                 f"Authors: {paper.authors}",
-                f"作者信息：{paper.author_info or '通讯作者及单位暂未核实。'}",
+                *([f"作者信息：{paper.author_info}"] if paper.author_info else []),
                 f"Journal: {paper.journal}",
                 f"Publication date: {paper.publication_date}",
                 f"Identifier: {paper.doi}",

@@ -93,12 +93,33 @@ class AuthorTests(unittest.TestCase):
         self.assertEqual(m['authors'][1]['orcid'], 'https://orcid.org/0000-0001')
 
     def test_joint_teams_and_different_first_affiliation(self):
-        self.assertEqual(am.format_author_info(metadata()), '乙大学科学学院张乙教授团队联合丙研究所李丙研究员团队；第一单位是甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(metadata()), '乙大学科学学院张乙教授团队联合丙研究所李丙研究员团队；第一作者单位：甲大学水文研究所。')
         m = metadata()
         m['authors'][1]['affiliations'].append(m['first_affiliation'])
-        self.assertNotIn('第一单位是', am.format_author_info(m))
+        self.assertIn('第一作者单位：甲大学水文研究所', am.format_author_info(m))
+        # Publication affiliation #1 is not necessarily first author's first unit.
+        m['authors'][0]['affiliations'] = m['authors'][1]['affiliations'][:1]
+        self.assertNotIn('第一作者单位', am.format_author_info(m))
         m['authors'] = []
-        self.assertNotIn('团队', am.format_author_info(m))
+        self.assertEqual(am.format_author_info(m), '')
+
+    def test_unverified_team_shows_only_correspondent_first_unit(self):
+        m = metadata()
+        m['authors'] = m['authors'][:2]
+        m['authors'][1].pop('name_zh')
+        m['authors'][1]['affiliations'].append('Secondary Institute')
+        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所。')
+        m['authors'][1]['name_zh'] = '张乙'
+        m['authors'][1].pop('title_zh')
+        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所。')
+
+    def test_missing_correspondent_unit_uses_labeled_first_author_unit(self):
+        m = metadata()
+        m['authors'] = m['authors'][:2]
+        m['authors'][1]['affiliations'] = []
+        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所。')
+        m['authors'][1]['is_corresponding'] = False
+        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所。')
 
     def test_email_html_author_info_immediately_after_authors_and_escaped(self):
         p = paper(author_info=am.format_author_info(metadata())+'<script>')
@@ -115,7 +136,8 @@ class AuthorTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, patch.dict(am.os.environ, {}, clear=True), patch.object(am, 'lookup_metadata', side_effect=ValueError()):
             result = am.enrich_selected_papers([p], 'test@example.org', Path(directory))
         self.assertEqual(result[0].authors, 'A 0, A 1, et al.')
-        self.assertIn('暂未核实', result[0].author_info)
+        self.assertEqual(result[0].author_info, '')
+        self.assertNotIn('作者信息', main.build_email_body(result))
 
 
 class EvidenceTests(unittest.TestCase):

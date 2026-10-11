@@ -11,7 +11,6 @@ from wechat_article_builder import (
     CHINESE_TRANSLATION_SYSTEM_PROMPT,
     build_wechat_html,
     delete_previous_wechat_files,
-    generate_daily_intro,
     generate_chinese_entries_batch,
     journal_abbreviation,
     normalize_hydrology_terms,
@@ -32,15 +31,6 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertEqual(result, main.ABSTRACT_NOT_AVAILABLE)
         self.assertEqual(openalex.call_count, 3)
         self.assertEqual(semantic.call_count, 3)
-
-    def test_intro_lists_every_translated_title(self):
-        papers = [SimpleNamespace(), SimpleNamespace()]
-        entries = [{"chinese_title": "洪水风险"}, {"chinese_title": "干旱预测"}]
-        intro = generate_daily_intro(papers, entries, datetime(2026, 8, 14).date())
-        self.assertEqual(
-            intro,
-            "本期共收录 2 篇水文气候相关论文：1）洪水风险；2）干旱预测。",
-        )
 
     def test_required_terminology_and_journal_abbreviation(self):
         self.assertEqual(journal_abbreviation("Communications Earth & Environment"), "CEE")
@@ -78,6 +68,10 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertNotIn("downscaling", body.lower())
         self.assertNotIn("摘要翻译", body)
         self.assertNotIn("摘要译文", body)
+        self.assertNotIn("本期共收录", body)
+        self.assertEqual(body.count('降尺度研究'), 1)
+        self.assertNotIn("暂未核实", body)
+        self.assertNotIn("作者信息", body)
 
     def test_deletes_only_previous_day_wechat_files(self):
         run_date = datetime(2026, 8, 14, tzinfo=timezone.utc)

@@ -238,31 +238,17 @@ def generate_chinese_entries(papers: list[WeChatPaper]) -> list[dict]:
     return entries
 
 
-def generate_daily_intro(papers: list[WeChatPaper], entries: list[dict], run_date: date) -> str:
-    del run_date
-    listed_titles = [
-        normalize_hydrology_terms(str(entry.get("chinese_title", "")).strip())
-        for entry in entries
-        if str(entry.get("chinese_title", "")).strip()
-    ]
-    items = "；".join(f"{index}）{title}" for index, title in enumerate(listed_titles, start=1))
-    return f"本期共收录 {len(papers)} 篇水文气候相关论文：{items}。"
-
-
 def build_wechat_html(
     papers: list[WeChatPaper],
     entries: list[dict],
     run_date: date,
-    intro: str | None = None,
 ) -> tuple[str, str, str]:
     title = f"今日水文气候文献简报（{run_date.isoformat()}）"
     digest = f"今日筛选 {len(papers)} 篇水文与水文气候论文，涵盖洪水、干旱、气候极端、机器学习、遥感和水文过程等主题。"
-    intro = intro or generate_daily_intro(papers, entries, run_date)
     parts = [
         "<section style=\"box-sizing:border-box; max-width: 677px; margin: 0 auto; padding: 0 6px; color:#263238; "
         "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',Arial,sans-serif; "
         "line-height:1.68; font-size:15px;\">",
-        f"<p style=\"margin:0 0 14px;\">{html.escape(intro)}</p>",
     ]
 
     for idx, (paper, entry) in enumerate(zip(papers, entries), start=1):
@@ -281,7 +267,8 @@ def build_wechat_html(
                 f"<section style=\"margin:18px 0 10px; padding:10px 12px; background:linear-gradient(90deg,#d9edf7 0%,#eef7fb 58%,#ffffff 100%); color:#17324d; font-weight:700; line-height:1.55; border-left:5px solid #2878b5; border-bottom:1px solid #b9d7e8; box-shadow:0 2px 8px rgba(40,120,181,0.12);\">{idx:02d}｜{html.escape(section_title)}</section>",
                 f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
-                f"<p style=\"margin:0 0 6px;\"><strong>作者信息：</strong>{html.escape(getattr(paper, 'author_info', '') or '通讯作者及单位暂未核实。')}</p>",
+                *([f"<p style=\"margin:0 0 6px;\"><strong>作者信息：</strong>{html.escape(paper.author_info)}</p>"]
+                  if getattr(paper, 'author_info', '') else []),
                 f"<p style=\"margin:0 0 6px;\"><strong>文章链接：</strong>{link}</p>",
             ]
         )
@@ -318,8 +305,7 @@ def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_
 
     outputs_dir.mkdir(exist_ok=True)
     entries = generate_chinese_entries(papers)
-    intro = generate_daily_intro(papers, entries, run_date.date())
-    title, digest, html = build_wechat_html(papers, entries, run_date.date(), intro)
+    title, digest, html = build_wechat_html(papers, entries, run_date.date())
 
     date_stamp = run_date.date().isoformat()
     html_path = outputs_dir / f"wechat-post-{date_stamp}.html"
@@ -332,7 +318,6 @@ def write_wechat_article(papers: list[WeChatPaper], run_date: datetime, outputs_
                 "title": title,
                 "digest": digest,
                 "paper_count": len(papers),
-                "intro": intro,
                 "generated_at": run_date.isoformat(),
                 "html_path": str(html_path),
             },
