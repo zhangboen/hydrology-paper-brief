@@ -1,0 +1,246 @@
+{
+  "source_run": "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38098403001",
+  "source_date": "2026-10-11",
+  "papers": [
+    {
+      "number": 1,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s43247-026-03872-7",
+        "title": "Arctic climate tipping points under delayed CO2 emissions mitigation",
+        "authors": "You-Ting Wu, Michael Previdi, Anastasia Romanou, Paul Lerner, Lorenzo M. Polvani",
+        "journal": "Communications Earth &amp; Environment",
+        "publication_date": "2026-10-10",
+        "url": "https://doi.org/10.1038/s43247-026-03872-7",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 2,
+      "expected_relevant": false,
+      "paper": {
+        "doi": "10.1038/s43247-026-04136-0",
+        "title": "Assessing the potential and cost of enhanced rock weathering in China",
+        "authors": "Zeyu Wang, Fei Teng, David M. Reiner",
+        "journal": "Communications Earth &amp; Environment",
+        "publication_date": "2026-10-10",
+        "url": "https://doi.org/10.1038/s43247-026-04136-0",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 3,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s43247-026-04150-2",
+        "title": "Land-atmosphere feedback amplifies circulation-dominant fire weather risk over eastern Siberia",
+        "authors": "Dongping Bai, Haipeng Yu, Kangjie Ma, Ruixia Guo, Yuling Hu, Zekui Jiang, Haojie Wu, Mengjing Fu",
+        "journal": "Communications Earth &amp; Environment",
+        "publication_date": "2026-10-10",
+        "url": "https://doi.org/10.1038/s43247-026-04150-2",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 4,
+      "expected_relevant": false,
+      "paper": {
+        "doi": "10.1038/s43247-026-04140-4",
+        "title": "Onset of zircon decomposition during saprolitic weathering",
+        "authors": "Martin Yan Hei Li, Mei-Fu Zhou",
+        "journal": "Communications Earth &amp; Environment",
+        "publication_date": "2026-10-10",
+        "url": "https://doi.org/10.1038/s43247-026-04140-4",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Abstract Zircon is conventionally considered as refractory in supergene environments, enabling the preservation of geochemical records for tracing various Earth’s processes and the use of the zircon structure as a nuclear waste form. However, how refractory zircon is during weathering, especially when crystalline and in an early stage of weathering, is unknown. In this study, we demonstrate that crystalline zircon would start to weather during an early-stage saprolitic weathering. Nano-scale examination reveals that weathering of zircon proceeds through dissolution of primary, crystalline zircon and precipitation of secondary, amorphous zircon. Non-formula elements, like U, Th and heavy rare earth elements, are uptake and structurally incorporated in this process. Thereby, metamictisation of the zircon would accelerate and eventually promote the dissolution of zircon. In supergene environments, zircon would steadily weather, calling for further evaluation on the geological and environmental applications of zircon."
+      }
+    },
+    {
+      "number": 5,
+      "expected_relevant": false,
+      "paper": {
+        "doi": "10.1038/s41467-026-78433-9",
+        "title": "Environmentally Relevant Concentrations of Nanomaterials Drive Photochemical Production of Reactive Species and Pollutant Degradation in Surface Waters",
+        "authors": "Joshua Quinn, Aidan McClure, Pierre Herckes, Paul Westerhoff",
+        "journal": "Nature Communications",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1038/s41467-026-78433-9",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Reactive intermediates in surface waters are widely attributed to dissolved organic matter (DOM). Natural, incidental, or engineered nanomaterials simultaneously occur at parts per billion and can function as photocatalysts, yet the photochemical role of nanomaterials at environmentally relevant concentrations remains overlooked in surface water photochemistry. Here, we quantify reactive intermediates from TiO2 nanomaterials (1–100 μg L−1) and DOM (1–5 mgC L−1) under 222, 265, and 365 nm. Despite lower concentrations relative to DOM, TiO2 produces hydroxyl radical (HO•) rates 10× to 100× higher per unit mass, resulting in comparable HO• formation. DOM plus nanomaterial mixtures shows synergistic behavior, with HO• formation 16-21% above additive predictions. DOM has limited impact in the degradation of 6PPD-quinone whereas nanomaterials enhanced its degradation due to elevated [HO•]ss. These results demonstrate nanomaterials can contribute to or exceed DOM in HO• driven micropollutant degradation in surface waters or engineered ultraviolet-light water treatment systems. Environmentally relevant nanomaterial concentrations can rival dissolved organic matter in driving pollutant transformation under sunlight or UV-based water treatment."
+      }
+    },
+    {
+      "number": 6,
+      "expected_relevant": false,
+      "paper": {
+        "doi": "10.1126/sciadv.aef9368",
+        "title": "Hydration channel engineering in Tröger’s base-POP membranes for mono/multivalent cation and anion discrimination",
+        "authors": "Haopan Sun, Ning Gan, et al.",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.aef9368",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Sustainable recovery of critical resources from complex aqueous streams is constrained by membranes that fail to combine rapid ion transport with precise mono/multivalent discrimination. Here, we report Tröger’s base-derived porous organic polymer (POP) membranes with rigid, covalently crosslinked microporous frameworks that stabilize angstrom-scale transport channels while suppressing hydration-induced swelling. These membranes render rapid monovalent-ion transport with near-complete exclusion of multivalent cations and anions, including Mg 2+ , Al 3+ , SO 4 2− , and PO 4 3− . Experiments and simulations show that steric confinement, dehydration penalties, and electrostatic interactions cooperatively raise migration barriers for multivalent ions in confined channels. The membranes achieve comprehensive mono/multivalent discrimination across both cationic and anionic systems. In multistage electrodialysis, they enable stage-amplified lithium enrichment from high-Mg brines with stable long-term operation and downstream recovery of crystalline Li 2 CO 3 . They also facilitate high-purity NaCl enrichment from simulated seawater. Overall, this platform offers a durable and energy-efficient route to selective resource recovery from complex aqueous streams."
+      }
+    },
+    {
+      "number": 7,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1126/sciadv.adz2555",
+        "title": "Ocean circulation changes rather than global warming drove temperature trends across the Miocene Climatic Optimum",
+        "authors": "Evi Wubben, Xiaoqing Liu, et al.",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.adz2555",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Early-to-Middle Miocene [23 to 13.8 million years ago (Ma)] climates were ∼6° to 9°C warmer than today. Around 16.9 Ma, benthic foraminiferal oxygen isotope (δ 18 O) records suggest pronounced warming, known as the Miocene Climatic Optimum (MCO) onset. However, explaining this putative global warming with carbon dioxide (CO 2 ) forcing faces challenges in terms of timing and forcing magnitude. Our new biomarker-based ocean temperature records, combined with published data, reveal no substantial mean global upper ocean warming across the MCO. Instead, temperature changes differ considerably between sites, with some regions showing cooling. Climate model sensitivity tests indicate that these patterns are best explained by ocean circulation changes, likely due to gateway changes and Antarctic ice sheet variations. This suggests that the MCO signature is better attributed to ocean circulation changes rather than a CO 2 -driven global warming event. The δ 18 O signal therefore represents warmer deepwater sourcing and/or reduced Antarctic glacial volume, resolving the longstanding challenge of explaining MCO warming without a pronounced CO 2 rise."
+      }
+    },
+    {
+      "number": 8,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1126/sciadv.ady9406",
+        "title": "Predicting regional gray swans via translocation: AI weather models and Dubai’s unprecedented 2024 rainfall",
+        "authors": "Y. Sun, Pedram Hassanzadeh, Tiffany Shaw, Hamid A. Pahlavan, Adam Marchakitus",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.ady9406",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Artificial intelligence (AI) models have transformed weather forecasting, but their skill for unprecedented weather extremes is unclear. Here, we analyze GraphCast, AIFS, and FuXi forecasts of the unprecedented 2024 Dubai storm, which had twice the training set’s highest rainfall in that region. GraphCast and AIFS accurately forecast this event up to 8 days ahead. FuXi forecasts the event but underestimates the rainfall. Fine-tuning and receptive field analyses suggest that these models’ success stems from “translocation”: learning from comparable/stronger dynamically similar events in other regions during training. Evidence of “extrapolation” (learning from weaker events) is not found. Even events within the global distribution’s tail are poorly forecasted, which is not only due to data imbalance (generalization error) but also spectral bias (optimization error). These findings demonstrate the potential of AI models to forecast “regional” gray swans and the opportunity to improve them through understanding the mechanisms behind their successes/limitations."
+      }
+    },
+    {
+      "number": 9,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1126/sciadv.aeb1692",
+        "title": "Record-setting heavy precipitation occurrence in 2024",
+        "authors": "Chad W. Thackeray, Jesse Norris, Alex Hall, Mark D. Zelinka, Stephen Po-Chedley",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.aeb1692",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Precipitation extremes have increased globally in recent decades, consistent with a warming climate. We find that 2024 experienced a record-high frequency of heavy (≥99th percentile; F P≥99 ) precipitation events globally based on MSWEP (Multi-Source Weighted-Ensemble Precipitation) observations from 1979 to 2025. This extends a long-term trend of ∼0.03%/decade in F P≥99 , with similar but more uncertain increases for the 99.9th percentile. Unlike prior high F P≥99 years, 2024’s record was more globally distributed and emerged from a distinct seasonal evolution. El Niño and rare concurrent multi-basin tropical ocean warmth drove elevated extremes early in the year, before lagged global tropospheric responses and long-term warming sustained and amplified extremes through boreal summer. Climate models indicate that years with 2024-level F P≥99 typically require either stronger El Niño forcing or concurrent multi-basin sea surface temperature (SST) anomalies. Diagnostic projections within constrained ensemble members suggest that ∼40% of the 2024 anomaly aligns with global mean temperatures and ∼20% with El Niño variability, with some of the remainder linked to basin-scale SST structure."
+      }
+    },
+    {
+      "number": 10,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1016/j.rse.2026.115720",
+        "title": "Extent and dynamics of tropical flooded forests with multi-year SAR composites and altimetry",
+        "authors": "Paul Senty, Cécile Kittel, Fabrice Papa, Rasmus Fensholt, Monica Coppo Frias, Stéphanie Horion",
+        "journal": "Remote Sensing of Environment",
+        "publication_date": "2027-1",
+        "url": "https://doi.org/10.1016/j.rse.2026.115720",
+        "topic": "flood",
+        "topic_rank": 1,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 11,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "arxiv:2610.11211",
+        "title": "Event-Aware Spatiotemporal Precipitation Forecasting with Geographic Context and Physics-Guided Regularization",
+        "authors": "Yiping Hong, Xinyu Wang, Sameh Abdulah",
+        "journal": "arXiv (stat.AP)",
+        "publication_date": "2026-10-08",
+        "url": "https://arxiv.org/abs/2610.11211v1",
+        "topic": "arXiv hydroclimate machine learning",
+        "topic_rank": 4,
+        "abstract": "Hourly precipitation forecasting involves several distinct statistical challenges, including spatially varying predictor-precipitation relationships, a strongly imbalanced precipitation distribution, and progressive degradation of precipitation event skill with increasing lead time. We develop a spatiotemporal forecasting framework that addresses these challenges through three complementary components: explicit geographic representation, event-aware learning for imbalanced precipitation, and weak asymmetric regularization derived from the atmospheric water budget. The physical information is treated as an asymmetric constraint rather than as an additional prediction target, designed to discourage physically unsupported precipitation attenuation without replacing the data-driven forecast. Experiments using ERA5 data across regional, enlarged domain, and spatial subset settings show that explicit geographic information improves spatial field prediction, while event-aware learning provides the most consistent gains in detecting moderate and heavy precipitation events. Physical regularization has a more selective effect, mainly reducing systematic underprediction over the enlarged domain while improving longer lead precipitation event prediction in the spatial subset experiment. These results indicate that the benefit of physical guidance depends on the available data regime and becomes most apparent when data-driven precipitation information deteriorates with increasing lead time."
+      }
+    },
+    {
+      "number": 12,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "arxiv:2610.12189",
+        "title": "Just Weather Scoring: Efficient End-to-end Nowcasting with Distributional Diffusion",
+        "authors": "Jannik Wiese, Johannes Schusterbauer, Tommaso Martorella, Björn Ommer",
+        "journal": "arXiv (cs.LG)",
+        "publication_date": "2026-10-08",
+        "url": "https://arxiv.org/abs/2610.12189v1",
+        "topic": "arXiv hydroclimate machine learning",
+        "topic_rank": 4,
+        "abstract": "Generative diffusion models are well-suited for probabilistic precipitation nowcasting, but existing approaches often rely on separately trained compression or deterministic forecasting components and remain costly at inference due to iterative denoising. We introduce Just Weather Scoring (JWS), a single-stage, end-to-end diffusion model which addresses both issues by forecasting directly in radar space and enabling few-step generation. Radar-space modeling greatly simplifies training and inference and eliminates uncertainty arising from lossy compression. JWS combines Masked Asynchronous Diffusion, a timestep-sampling scheme that preserves clean context while adapting diffusion training to high-dimensional spatio-temporal data, with a simple scoring-rule objective that aligns training with probabilistic forecasting and unlocks few-step generation. On the SEVIR and MeteoNet benchmarks, JWS achieves state-of-the-art probabilistic forecasting performance at reduced training and inference cost. Even our smallest model remains competitive using substantially fewer parameters and more than 17x faster inference."
+      }
+    },
+    {
+      "number": 13,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "arxiv:2610.11883",
+        "title": "legoESM: a modular, differentiable, multiscale, AI-ready Earth system model built with AI agents",
+        "authors": "Pierre Gentine, Dhruv Balwada, et al.",
+        "journal": "arXiv (physics.ao-ph)",
+        "publication_date": "2026-10-08",
+        "url": "https://arxiv.org/abs/2610.11883v1",
+        "topic": "arXiv hydroclimate machine learning",
+        "topic_rank": 4,
+        "abstract": "Earth system models (ESMs) have grown tremendously in realism, yet key uncertainties persist in the climate response to greenhouse-gas forcing, particularly due to cloud radiative feedbacks. In addition, their software architecture was not designed for accelerator hardware or modern artificial intelligence (AI). Here we present legoESM, a composable, differentiable, multiscale ESM written in JAX. It builds on decades of community-developed parameterizations and numerical methods, recast in a unified framework by AI coding agents under a human-specified scientific contract and verified through benchmarking. Dynamical cores, physics schemes, grids, complexity levels and components are swappable like building blocks, and can use conventional physics or machine-learned emulators. A single code base spans metre-scale large-eddy simulation to global simulations and weather to climate. End-to-end differentiability enables gradient-based calibration, variational data assimilation and online training. legoESM modular architecture enables systematic evaluation of diverse model variants to explore structural uncertainty and test hypotheses. legoESM produces realistic simulations across scales, reduces land-surface temperature bias through gradient-based calibration, and scales efficiently on GPUs to kilometer-scale simulations. It offers an open, community infrastructure for hypothesis testing, research and teaching in Earth sciences and a template for multiscale physical systems."
+      }
+    },
+    {
+      "number": 14,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1029/2025jd046279",
+        "title": "Revisiting and Improving Soil Surface Resistance Schemes for Land Surface Modeling",
+        "authors": "Zhuo Liu, Hua Yuan, et al.",
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1029/2025jd046279",
+        "topic": "evapotranspiration",
+        "topic_rank": 4,
+        "abstract": "Abstract Accurate representation of soil evaporation is critical for understanding land‐atmosphere interactions and improving climate simulations, where soil surface resistance plays a key regulatory role. However, existing schemes differ substantially and lack systematic evaluation. We compared five typical schemes and found large discrepancies in soil surface resistance values and site‐level simulations. Under intermediate soil wetness, different schemes showed over tenfold differences and had differing sensitivity parameters. Incorporating these schemes into the Common Land Model (CoLM) markedly altered soil wetness, evaporation, energy fluxes and ecosystem productivity, with mean soil wetness increasing by approximately 5%–35% and evaporation decreasing by approximately 9%–73% in summer. Using FLUXNET data and machine learning (XGBoost), we identified sand volume fraction as a key driver of β (a factor reflecting evaporation suppression calculated from soil resistance, with smaller values indicating stronger suppression). Building on Sellers et al. (1992, https://doi.org/10.1029/92jd01096 ) (S92), widely adopted for its simplicity and effectiveness in simulating latent heat flux and soil moisture, we incorporated this parameter to develop S92_sand, which better reproduced observation‐derived β than the typical schemes. When implemented in CoLM, S92_sand reduced mean absolute error and root mean square error (RMSE) of soil wetness by approximately 10% at evaporation‐dominant sites compared to S92. Regional assessments across China using GLEAM v4.2a demonstrated its superiority over the original S92 scheme, mitigating systematic overestimation of soil evaporation and reducing RMSE across 90% of the region, with improvements up to 1 mm day −1 over the Qinghai‐Tibet Plateau and the North China Plain. The simulations of soil wetness and evapotranspiration also showed noticeable regional improvements. This study provides new insights into soil surface resistance and advances land surface modeling of soil evaporation."
+      }
+    },
+    {
+      "number": 15,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1016/j.rse.2026.115715",
+        "title": "Effectiveness of multi-source merged soil moisture products using different triple collocation methods: A comprehensive assessment incorporating spatial similarity evaluation framework",
+        "authors": "Meng Cao, Min Chen, Jeffrey P. Walker",
+        "journal": "Remote Sensing of Environment",
+        "publication_date": "2027-1",
+        "url": "https://doi.org/10.1016/j.rse.2026.115715",
+        "topic": "soil moisture",
+        "topic_rank": 5,
+        "abstract": "Evaluation of soil moisture products and data merging efforts have commonly focused on their performance in representing temporal dynamics, while overlooking the capacity of the products to capture spatial patterns. In this study, a spatial evaluation framework based on the Structural Similarity Index (SSIM) was for the first time introduced to assess the behavior of soil moisture products. Meanwhile, a modified temporal-spatial triple collocation (TC) merging method that accounts for local spatial errors (referred to as TC_2D_local) was proposed for merging multi-source soil moisture. Three widely used soil moisture products, i.e. Soil Moisture Active Passive (SMAP), Advanced SCATterometer (ASCAT), and ERA5-Land, as well as their merged products based on three TC approaches, including the traditional TC (TC_temporal), a global two-dimensional TC (TC_2D), and the new TC_2D_local, were evaluated and compared from both temporal and spatial perspectives, using conventional metrics (R, RMSE, Bias, ubRMSE), together with SSIM and its component indices, i.e. Similarity in Mean (SIM), Similarity in Variance (SIV) and Similarity in Pattern (SIP). Soil moisture from International Soil Moisture Network (ISMN), agricultural stations and China Meteorological Administration Land Data Assimilation System (CLDAS) were used for validation. The results revealed the distinct behavior of the three parent products in capturing temporal dynamics and spatial patterns of soil moisture over China. SMAP achieved the lowest RMSE and highest SSIM in western China, while ERA5-Land was superior in southeastern China in both temporal and spatial evaluation, with larger values of R and SSIM. Although ASCAT exhibited a less satisfactory temporal performance with lower R and higher RMSE, it better characterized the spatial variability of soil moisture with higher SIV across China. All of the TC merged products demonstrated improvements with a reduced RMSE and Bias, while the two 2D TC approaches that incorporated spatial error information outperformed TC_temporal. However, TC_2D performed better in the eastern part of China, featured by relatively uniform underlying conditions, whereas TC_2D_local yielded lower RMSE and Bias in western China, which has more sophisticated environmental conditions. SSIM-based spatial evaluation further revealed a consistent superiority of TC_2D_local over TC_temporal and TC_2D, achieving SIM > 0.95, SIV > 0.9, SIP >0.95 and SSIM >0.8 across most of the study area, with the most pronounced improvements in western China. This study demonstrated the effectiveness of two-dimensional TC for merging multi-source soil moisture products, particularly the TC_2D_local for environmentally heterogeneous regions. It was highlighted that the spatial similarity evaluation framework could provide a new perspective and additional insights into the performance of soil moisture products, potentially benefiting their applications such as hydrological modelling and agricultural drought monitoring, which requires accurate representation of spatial soil moisture patterns."
+      }
+    },
+    {
+      "number": 16,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1016/j.rse.2026.115714",
+        "title": "Towards continental-scale SWOT-based modeling of reservoir operations",
+        "authors": "Elyssa L. Collins, Augusto Getirana, Sujay Kumar, Yeosang Yoon, Chi-Hsiang Huang, Huilin Gao, Fuad Yassin",
+        "journal": "Remote Sensing of Environment",
+        "publication_date": "2026-12",
+        "url": "https://doi.org/10.1016/j.rse.2026.115714",
+        "topic": "SWOT",
+        "topic_rank": 10,
+        "abstract": "The advent of reservoir models has enabled the monitoring and prediction of reservoir operations (inflow, storage, and release); however, the in situ operation data used for model parameterization is spatially scarce. In this study, we evaluate reservoir monitoring capabilities by leveraging observations from multiple satellite missions to reconstruct reservoir operations, optimize reservoir model parameters, and simulate operations. For reservoirs in the US and Brazil, we design a set of experiments relying on different combinations of in situ , satellite, and hydrologically modeled data sources as reservoir model inputs to characterize the error of satellite- and model-informed reservoir operations. We also make the first attempt to evaluate the use of the Surface Water and Ocean Topography (SWOT) satellite mission data record for reservoir optimization and simulation. Our results show that simulated storages (median nRMSE ≤ 0.30–0.50; represents maximum across experiments for each country and altimetry dataset) perform significantly better across all experiments than simulated releases (median nRMSE ≤ 0.68–0.94). Accuracy of simulated releases is strongly dependent on the quality of the inflow time series: using in situ inflow (median KGE = 0.56–0.68) for reservoir modeling has greater accuracy than hydrologically modeled inflow (median KGE = −0.19–0.15). However, when simulating operations based on altimetry and modeled inflow, 42–67% of reservoirs improve in release KGE compared to simulations without reservoir operations. Overall, our study demonstrates the potential of SWOT and other satellite altimeters for continental-scale reservoir storage monitoring, and that improving inflow simulations is crucial for release monitoring."
+      }
+    }
+  ]
+}

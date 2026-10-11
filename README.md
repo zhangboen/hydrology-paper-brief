@@ -1,6 +1,6 @@
 # Daily Hydrology Paper Brief
 
-This project searches journal articles published in the last 48 hours in Crossref, adds arXiv preprints from the last 72 hours that overlap machine learning and hydroclimate topics, screens every result for expert-level hydroclimate relevance, selects up to 50 new papers by journal priority followed by ranked topic priority, sends an email brief, and generates a WeChat-ready HTML article every day.
+This project discovers recent journal articles through Crossref and arXiv preprints overlapping machine learning and hydroclimate, reviews their scientific relevance with GPT, sends an email brief, and generates a WeChat-ready HTML article every day. Most journals use a 48-hour discovery window; RSE uses DOI creation dates over 14 days, and arXiv uses 72 hours. The daily limit defaults to 50, with relevant unsent Nature/Science portfolio and PNAS papers exempt from that cap.
 
 The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in China.
 
@@ -31,9 +31,9 @@ The GitHub Actions workflow runs at `01:00 UTC`, which corresponds to `09:00` in
 
 ## Ranked Topics
 
-The script first matches keywords in titles, available Crossref abstracts, and subjects, then screens topic-matched candidates for hydroclimate relevance. Only relevant, unsent papers are eligible.
+For ordinary journals, the script matches keywords in titles, available Crossref abstracts, and subjects before GPT relevance review. Configured Nature/Science portfolio journals and PNAS bypass this keyword gate. All candidates must pass the same scientific relevance review; only relevant, unsent papers are eligible.
 
-Nature, Science, and their **currently configured portfolio journals** have the highest journal priority: Science Advances, Nature Climate Change, Nature Geoscience, Nature Communications, Communications Earth & Environment, Nature Sustainability, and Nature Water. These papers precede other journals and arXiv before the daily paper limit is applied. Journal priority does not bypass topic or relevance screening, and does not add other portfolio journals to the search.
+Nature, Science, and their **currently configured portfolio journals** have the highest journal priority: Science Advances, Nature Climate Change, Nature Geoscience, Nature Communications, Communications Earth & Environment, Nature Sustainability, and Nature Water. Together with PNAS, these papers precede other journals and arXiv and are exempt from the daily cap. They bypass keyword screening but never scientific relevance review. This does not add other portfolio journals to the search.
 
 Within each journal tier, matching Crossref papers are prioritized in this order:
 
@@ -96,11 +96,11 @@ Create these repository secrets before enabling the workflow:
 | `OPENAI_RELEVANCE_MODEL` | Optional; relevance screening defaults to `gpt-5` |
 | `OPENAI_MODEL` | Optional; Chinese translation defaults to `gpt-4o-mini` |
 
-Relevance screening uses `OPENAI_RELEVANCE_MODEL` independently of the translation model, so an existing `OPENAI_MODEL` secret does not override the `gpt-5` screening default. Leave `OPENAI_RELEVANCE_MODEL` unset or empty to use the default. Screening requests omit custom temperature for GPT-5 compatibility. If the API key is missing or all screening attempts fail, the existing keyword-based relevance fallback still applies.
+Relevance screening uses `OPENAI_RELEVANCE_MODEL` independently of the translation model, so an existing `OPENAI_MODEL` secret does not override the `gpt-5` screening default. Leave `OPENAI_RELEVANCE_MODEL` unset or empty to use the default. Screening requests omit custom temperature for GPT-5 compatibility. If the API key is missing or all screening attempts fail, the run stops before sending email. Keyword matches cannot replace semantic review for any journal.
 
 Do not commit SMTP passwords or authorization codes to the repository.
 
-`OPENAI_API_KEY` is required for WeChat HTML generation. If it is missing, the daily email still sends, but the workflow skips `outputs/wechat-post-YYYY-MM-DD.html`.
+`OPENAI_API_KEY` is required for candidate relevance screening and WeChat HTML generation. A missing key prevents a candidate-containing brief from being sent.
 
 ## Local Setup
 
@@ -130,7 +130,7 @@ Run the automation:
 python main.py
 ```
 
-By default, the script searches Crossref over the last 48 hours and arXiv over the last 72 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, screens every candidate from a hydroclimate-expert perspective, and selects up to 50 papers total. WeChat translation requests use batches of 5 papers, translate each available English abstract in full rather than summarizing it, and retry an incomplete batch up to 3 times with a 2-second delay. If no abstract is available after the configured lookups, the paper remains listed but the abstract paragraph is omitted, with no missing-abstract notice or title-based summary. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`, then deletes the previous day's WeChat HTML and metadata. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `CROSSREF_LOOKBACK_HOURS`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_RELEVANCE_BATCH_SIZE`, `OPENAI_RELEVANCE_MAX_ATTEMPTS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
+By default, the script searches Crossref over the last 48 hours and arXiv over the last 72 hours. It asks Crossref for up to 200 recent items per journal, asks arXiv for up to 200 recent items with up to 3 request attempts, keeps up to 10 arXiv matches, screens every candidate from a hydroclimate-expert perspective, and selects up to 50 papers, except that all relevant unsent priority-venue papers remain eligible above this cap. RSE uses the separate 14-day DOI-creation window described below. WeChat translation requests use batches of 5 papers, translate each available English abstract in full rather than summarizing it, and retry an incomplete batch up to 3 times with a 2-second delay. If no abstract is available after the configured lookups, the paper remains listed but the abstract paragraph is omitted, with no missing-abstract notice or title-based summary. It writes the WeChat article to `outputs/wechat-post-YYYY-MM-DD.html` and metadata to `outputs/wechat-post-YYYY-MM-DD.json`, then deletes the previous day's WeChat HTML and metadata. You can override these with `ROWS_PER_JOURNAL`, `ROWS_PER_ARXIV_QUERY`, `CROSSREF_LOOKBACK_HOURS`, `ARXIV_LOOKBACK_HOURS`, `ARXIV_MAX_ATTEMPTS`, `ARXIV_RETRY_SLEEP_SECONDS`, `MAX_ARXIV_PAPERS`, `MAX_PAPERS`, `OPENAI_RELEVANCE_BATCH_SIZE`, `OPENAI_RELEVANCE_MAX_ATTEMPTS`, `OPENAI_WECHAT_BATCH_SIZE`, `OPENAI_WECHAT_MAX_ATTEMPTS`, and `OPENAI_WECHAT_RETRY_SLEEP_SECONDS`.
 
 For a topic-matched Crossref paper without an abstract, the script searches OpenAlex and Semantic Scholar up to three times and then stops looking. If all providers lack an abstract, the email and Chinese article omit the abstract section. Missing-abstract notices are not sent for translation, and no title-based summary is generated. Both services work without a key for light use; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` environment variables are supported, and `ABSTRACT_LOOKUP_TIMEOUT_SECONDS`, `ABSTRACT_LOOKUP_MAX_ATTEMPTS`, and `ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS` control the lookup behavior.
 
@@ -186,7 +186,7 @@ Chinese translations, source URLs, and verified evidence for audit.
 Run all offline tests:
 
 ```bash
-python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py
+python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py test_relevance_rules.py
 ```
 
 The separate **Validate paper brief** workflow runs offline checks on code changes.
@@ -237,3 +237,32 @@ The configured portfolio consists of Nature, Science, Science Advances, Nature
 Climate Change, Nature Geoscience, Nature Communications, Communications Earth &
 Environment, Nature Sustainability and Nature Water. This rule does not add new
 journals to the discovery list.
+
+## Scientific relevance and decision audit
+
+The shared scope is defined in `relevance_rules.py`. Inclusion requires the primary
+question or main results to directly concern the natural water cycle, physical
+weather/climate, land-atmosphere interactions, hydrometeorological extremes,
+water-resources systems, or methods demonstrated on these processes.
+
+Standalone membrane/material design, pollutant reaction kinetics, mineral/crystal
+alteration, and carbon-removal technology potential or cost studies are excluded
+unless their main results directly analyze an included process. Mentioning water,
+climate benefits, environmental applications, or future hydrological modeling is
+insufficient. This is not a spatial-scale cutoff: pore-scale infiltration or soil
+hydraulics can qualify, while a national-scale carbon-removal cost study may not.
+
+A clearly relevant title can suffice when no abstract is available; ambiguous
+cases are excluded for insufficient evidence. The reason identifies title-only
+judgments. These standards apply equally to Nature/Science portfolio and PNAS.
+
+Every accepted and rejected decision is logged and saved, along with its input,
+model, prompt and rule version, to `outputs/relevance-review-YYYY-MM-DD.json`.
+This audit precedes sent-DOI exclusion and final daily selection, so a positive
+relevance decision does not necessarily mean a paper was emailed. Partial decisions
+are retained if a later batch fails. Invalid responses are retried; persistent
+failure stops the run before email instead of falling back to keywords.
+
+The optional `live_relevance` input in **Validate paper brief** replays the 16 real
+papers from 2026-10-11 against expected scope decisions using the existing API key.
+It saves review/comparison artifacts without sending email or updating sent DOIs.
