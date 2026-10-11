@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "number": 10,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Giving and Asking for Directions Using Public Transport",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7705,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-11T08:37:59.843274+08:00"
 }
