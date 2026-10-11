@@ -22,14 +22,16 @@ class RefreshTests(unittest.TestCase):
                 patch.object(main, "get_required_env", return_value="test@example.com"),
                 patch.object(main, "load_sent_dois", return_value={"today", "earlier"}),
                 patch.object(main, "fetch_candidate_papers", return_value=[earlier, new, today]) as search,
-                patch.object(main, "filter_hydroclimate_relevant_papers", side_effect=lambda p: p) as screen,
+                patch.object(main, "filter_hydroclimate_relevant_papers", side_effect=lambda p, **kw: p) as screen,
+                patch.object(main, "enrich_selected_papers", side_effect=lambda p, *args: p) as enrich,
                 patch.object(refresh, "write_wechat_article", return_value=True) as write,
                 patch.object(main, "write_selected_papers") as export,
                 patch.object(main, "save_sent_dois") as save,
             ):
                 self.assertEqual(refresh.refresh(source, now), [today, new])
                 search.assert_called_once()
-                screen.assert_called_once_with([earlier, new, today])
+                screen.assert_called_once_with([earlier, new, today], audit_dir=main.OUTPUTS_DIR)
+                enrich.assert_called_once_with([today, new], 'test@example.com', main.OUTPUTS_DIR)
                 write.assert_called_once_with([today, new], now, main.OUTPUTS_DIR)
                 export.assert_called_once_with([today, new], now)
                 save.assert_called_once_with({"today", "earlier", "new"})

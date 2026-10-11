@@ -26,10 +26,12 @@ def refresh(source_path: Path, now: datetime | None = None) -> list[brief.Paper]
     excluded_dois = sent_dois - todays_dois
     logging.info("Allowing %s of today's papers to be reconsidered.", len(todays_dois))
     candidates = brief.fetch_candidate_papers(brief.get_required_env("CONTACT_EMAIL"))
-    relevant = brief.filter_hydroclimate_relevant_papers(candidates)
+    relevant = brief.filter_hydroclimate_relevant_papers(candidates, audit_dir=brief.OUTPUTS_DIR)
     selected = brief.select_papers(relevant, excluded_dois)
     if not selected:
         raise RuntimeError("Fresh search selected no papers; retaining the existing post.")
+    selected = brief.enrich_selected_papers(
+        selected, brief.get_required_env("CONTACT_EMAIL"), brief.OUTPUTS_DIR)
     if not write_wechat_article(selected, now, brief.OUTPUTS_DIR):
         raise RuntimeError("WeChat generation did not complete; retaining sent DOI history.")
     brief.write_selected_papers(selected, now)
