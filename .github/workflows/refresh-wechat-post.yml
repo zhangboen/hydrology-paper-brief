@@ -7,6 +7,10 @@ on:
         description: "Today's run containing the original selected-papers JSON"
         required: true
         type: string
+      replay_source:
+        description: "Reapply current rules to the exact original edition (no new search)"
+        type: boolean
+        default: false
 
 permissions:
   actions: read
@@ -35,10 +39,15 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          REPLAY_SOURCE: ${{ inputs.replay_source }}
         run: |
           source_file=$(find work/source -name 'selected-papers-*.json' | sort | tail -n 1)
           test -n "$source_file"
-          python refresh_wechat_post.py "$source_file"
+          if [ "$REPLAY_SOURCE" = "true" ]; then
+            python refresh_wechat_post.py "$source_file" --replay-source
+          else
+            python refresh_wechat_post.py "$source_file"
+          fi
       - name: Upload refreshed outputs
         uses: actions/upload-artifact@v4
         with:

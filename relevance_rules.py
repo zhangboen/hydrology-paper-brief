@@ -1,6 +1,6 @@
 """Scientific scope for the daily hydrology/hydroclimate brief."""
 
-RULE_VERSION = '2026-10-11-core-processes-v1'
+RULE_VERSION = '2026-10-11-core-processes-v2'
 
 SYSTEM_PROMPT = """You are a hydroclimatologist selecting research for a hydrology
 and physical climate science literature brief. Apply the following scope to EVERY
@@ -37,6 +37,23 @@ analysis of an included process/system is demonstrated:
   mentioning possible future soil-river modeling is insufficient.
 - Pure ecology, biology, human health, pollution chemistry, or generic AI without
   a central demonstrated connection to the included processes/systems.
+- Volcanology, seismicity, crustal deformation or eruption prediction, even when
+  their explanation involves hydrothermal fluids, condensation or soil gas fluxes.
+  Fluid physics serving a geological-hazard question alone is outside this brief.
+- Atmospheric pollution chemistry, VOC emissions, chemical-source inventories or
+  air-quality assessment, even if temperature controls emissions or eddy covariance
+  measures surface-atmosphere exchange. These are not water/energy exchange studies.
+- Organism respiration, isotope fractionation, primary productivity or marine
+  blooms/biomass alone. Carbon/oxygen budgets or climate sensitivity do not establish
+  a direct water-cycle or physical-climate contribution.
+
+Apply BOTH tests: (1) the PRIMARY question is an included hydrological or physical
+climate question, and (2) the supplied text demonstrates that contribution. A
+process merely being affected by temperature/climate, or containing water, carbon,
+soil, isotopes or surface-atmosphere fluxes, does not pass these tests. For coupled
+biological/carbon processes, require an explicit water/energy/climate-dynamics
+analysis; do not invent such a connection. When only a title is available, a title
+about blooms or productivity cannot establish ocean-atmosphere dynamics by itself.
 
 Do NOT exclude studies just because their spatial scale is microscopic or local:
 pore-scale mechanisms explaining infiltration, soil hydraulic properties, or

@@ -181,7 +181,7 @@ Chinese translations, source URLs, and verified evidence for audit.
 Run all offline tests:
 
 ```bash
-python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py test_relevance_rules.py
+python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py test_relevance_rules.py test_refresh.py
 ```
 
 The separate **Validate paper brief** workflow runs offline checks on code changes.
@@ -258,6 +258,17 @@ relevance decision does not necessarily mean a paper was emailed. Partial decisi
 are retained if a later batch fails. Invalid responses are retried; persistent
 failure stops the run before email instead of falling back to keywords.
 
-The optional `live_relevance` input in **Validate paper brief** replays the 16 real
-papers from 2026-10-11 against expected scope decisions using the existing API key.
+The optional `live_relevance` input in **Validate paper brief** replays the original 16 papers plus four boundary cases
+from 2026-10-11 against expected scope decisions using the existing API key.
 It saves review/comparison artifacts without sending email or updating sent DOIs.
+
+The scope also excludes standalone volcanology/seismicity, atmospheric pollution
+chemistry/VOC source inventories, organism respiration/isotope fractionation, and
+blooms/productivity without a demonstrated water-cycle or physical-climate result.
+Being affected by temperature or involving fluids/carbon is not sufficient.
+
+**Refresh daily WeChat post** can set `replay_source=true` to apply the latest
+screening, author enrichment and formatting to the exact original daily edition.
+This retains the original candidate set instead of using a moving search window.
+The default refresh still searches again. Both modes save the relevance audit and
+generate HTML; neither sends email or publishes to the WeChat backend.

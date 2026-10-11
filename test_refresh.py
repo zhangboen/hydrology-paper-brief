@@ -2,6 +2,7 @@ import json
 import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
+from dataclasses import asdict, replace
 from pathlib import Path
 from unittest.mock import patch
 
@@ -10,6 +11,29 @@ import refresh_wechat_post as refresh
 
 
 class RefreshTests(unittest.TestCase):
+    def test_replay_reviews_exact_source_and_exports_enriched_papers(self):
+        paper = main.Paper('Original', '', 'Nature Water', '2026-09-27', 'today', '', '', 13, '')
+        enriched = replace(paper, author_info='Example University。')
+        now = datetime(2026, 9, 27, tzinfo=timezone(timedelta(hours=8)))
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / 'selected.json'
+            source.write_text(json.dumps({'generated_at': now.isoformat(), 'papers': [asdict(paper)]}))
+            with (
+                patch.object(main, 'load_sent_dois', return_value={'today', 'earlier'}),
+                patch.object(main, 'get_required_env', return_value='test@example.com'),
+                patch.object(main, 'fetch_candidate_papers') as search,
+                patch.object(main, 'filter_hydroclimate_relevant_papers', side_effect=lambda p, **kw: p) as screen,
+                patch.object(main, 'enrich_selected_papers', return_value=[enriched]),
+                patch.object(refresh, 'write_wechat_article', return_value=True) as write,
+                patch.object(main, 'write_selected_papers') as export,
+                patch.object(main, 'save_sent_dois'),
+            ):
+                self.assertEqual(refresh.refresh(source, now, replay_source=True), [enriched])
+                search.assert_not_called()
+                screen.assert_called_once_with([paper], audit_dir=main.OUTPUTS_DIR)
+                write.assert_called_once_with([enriched], now, main.OUTPUTS_DIR)
+                export.assert_called_once_with([enriched], now)
+
     def test_refresh_reconsiders_today_but_excludes_earlier_papers(self):
         today = main.Paper("Today", "", "Nature Water", "2026-09-27", "today", "", "", 13, "")
         earlier = main.Paper("Earlier", "", "Nature", "2026-09-26", "earlier", "", "", 1, "")

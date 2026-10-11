@@ -24,6 +24,7 @@ def run():
         comparisons.append(result)
         print(json.dumps(result, ensure_ascii=False), flush=True)
     report = {'source_run': fixture['source_run'], 'rule_version': audit['rule_version'],
+              'additional_source_runs': fixture.get('additional_source_runs', []),
               'model': audit['model'], 'kept_count': len(kept), 'comparisons': comparisons}
     (output / 'relevance-regression.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     assert all(row['match'] for row in comparisons), 'Scientific relevance mismatch; see saved review and comparison.'

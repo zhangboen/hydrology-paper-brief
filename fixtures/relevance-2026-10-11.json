@@ -241,6 +241,73 @@
         "topic_rank": 10,
         "abstract": "The advent of reservoir models has enabled the monitoring and prediction of reservoir operations (inflow, storage, and release); however, the in situ operation data used for model parameterization is spatially scarce. In this study, we evaluate reservoir monitoring capabilities by leveraging observations from multiple satellite missions to reconstruct reservoir operations, optimize reservoir model parameters, and simulate operations. For reservoirs in the US and Brazil, we design a set of experiments relying on different combinations of in situ , satellite, and hydrologically modeled data sources as reservoir model inputs to characterize the error of satellite- and model-informed reservoir operations. We also make the first attempt to evaluate the use of the Surface Water and Ocean Topography (SWOT) satellite mission data record for reservoir optimization and simulation. Our results show that simulated storages (median nRMSE ≤ 0.30–0.50; represents maximum across experiments for each country and altimetry dataset) perform significantly better across all experiments than simulated releases (median nRMSE ≤ 0.68–0.94). Accuracy of simulated releases is strongly dependent on the quality of the inflow time series: using in situ inflow (median KGE = 0.56–0.68) for reservoir modeling has greater accuracy than hydrologically modeled inflow (median KGE = −0.19–0.15). However, when simulating operations based on altimetry and modeled inflow, 42–67% of reservoirs improve in release KGE compared to simulations without reservoir operations. Overall, our study demonstrates the potential of SWOT and other satellite altimeters for continental-scale reservoir storage monitoring, and that improving inflow simulations is crucial for release monitoring."
       }
+    },
+    {
+      "number": 17,
+      "expected_relevant": false,
+      "source_run": "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784",
+      "paper": {
+        "doi": "10.1038/s41467-026-78603-9",
+        "title": "Asymmetric bloom lengthening drives high-latitude ocean chlorophyll accumulation imbalance",
+        "authors": "Zhenhua Zhang, Peng Chen, Cedric Jamet, Siqi Zhang, Kun Shi, Delu Pan",
+        "journal": "Nature Communications",
+        "publication_date": "2026-10-11",
+        "url": "https://doi.org/10.1038/s41467-026-78603-9",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 18,
+      "expected_relevant": false,
+      "source_run": "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784",
+      "paper": {
+        "doi": "10.1073/pnas.2619911123",
+        "title": "Multiple-oxygen isotope constraints on aerobic respiration and gross primary productivity",
+        "authors": "Eleanor R. Hughes, Kevin M. Sutherland, David T. Johnston",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "publication_date": "2026-10-13",
+        "url": "https://doi.org/10.1073/pnas.2619911123",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Primary production on land and in the surface ocean is a critical component of Earth’s carbon and oxygen cycles, controlling the uptake of CO 2 and the release of O 2 to the atmosphere. Quantitative estimates of these O 2 and CO 2 fluxes remain challenging. Of the methods used, the triple-oxygen-isotope analysis of O 2 is considered to provide the most robust in situ estimate of gross productivity. However, this method relies on one key assumption—that the oxygen isotope fractionation of aerobic respiration is constant—and recent experimental studies have shown that it can vary significantly. When applied to the same calculation of gross productivity, the experimentally determined variation in fractionation could produce > 100% error. In this work, the mechanistic origin of the variation in respiratory fractionation is explored using experiments on the model organism Escherichia coli . These experiments suggest that the fractionation is strongly correlated with the cell-specific O 2 consumption rate, weakly correlated with the dissolved-O 2 concentration, and may also depend on the identity of the terminal oxidase enzyme used to reduce O 2 . Modeling suggests that these influences on fractionation are likely to be important in the marine water column, and could produce up to ± 120% error in estimates of gross productivity made using triple-oxygen-isotope analyses. This error may be significantly reduced through concurrent analyses of the “clumped” (multiply substituted) isotopologue abundances in O 2 ."
+      }
+    },
+    {
+      "number": 19,
+      "expected_relevant": false,
+      "source_run": "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784",
+      "paper": {
+        "doi": "10.1126/sciadv.aei8075",
+        "title": "Escalating soil CO\n                    <sub>2</sub>\n                    degassing correlates with ground uplift and seismicity during the ongoing unrest of Campi Flegrei (2005–2025)",
+        "authors": "Giulio Bini, Giovanni Chiodini, et al.",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.aei8075",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "The mechanism driving accelerating unrest at the densely populated Campi Flegrei caldera since 2005 remains debated. Analyzing an unprecedented two-decade geochemical dataset, we show that escalating soil CO 2 fluxes closely tracks caldera uplift, revealing magmatic fluid pressurization at 3- to 4-kilometer depth and heating as the fundamental driver of the unrest. A critical magmatic gas pulse occurred between 2018 and 2022 specifically focused this outgassing beneath the Solfatara crater. Thermodynamic modeling demonstrates that an increasing mass of ascending fluid pressurizes the hydrothermal system, forcing vapor condensation within the upper kilometer. This condensation transfers latent heat to the crust. We calculate that this released thermal energy is an order of magnitude greater than that required for the 1.6-meter uplift since 2005. Ultimately, this fluid pressurization and heating drive accelerating deformation and seismicity; alongside the 2021 emergence of seismic sequences with short inter-event times, it directly signals an escalating phreatic or magmatic eruption risk."
+      }
+    },
+    {
+      "number": 20,
+      "expected_relevant": false,
+      "source_run": "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784",
+      "paper": {
+        "doi": "10.1126/sciadv.aef9622",
+        "title": "Surface temperatures drive strong seasonality in urban reactive carbon emissions",
+        "authors": "Michael P. Vermeuel, Dylan B. Millet, et al.",
+        "journal": "Science Advances",
+        "publication_date": "2026-10-9",
+        "url": "https://doi.org/10.1126/sciadv.aef9622",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Urban air quality is affected by diverse volatile organic compounds (VOCs), and prior studies reveal a need to understand their seasonal sources. We combine high-resolution mass spectrometry with eddy covariance to quantify VOC fluxes from an urban/suburban New York site during summer and winter. Emissions are strongly seasonal: During summer, twice as many VOCs undergo surface-atmosphere exchange, and molar and reactivity-based fluxes are 2 to 4× higher than in winter. Temperature-dependent emissions from volatile chemical products (VCPs), vegetation, and residences dominate during summer. Ethanol alone accounts for ∼25% of the total flux. During winter, temperature-dependent emissions are reduced and traffic sources dominate. An updated inventory agrees with summer observations within 40% but overestimates winter fluxes by >2.5×. The winter discrepancy reflects overestimated VCP/cooking emissions and missing temperature-dependent volatilization. Results highlight the need to account for seasonal and temperature-dependent urban emissions to support pollution and mitigation assessment in the context of global change."
+      }
     }
+  ],
+  "additional_source_runs": [
+    "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784"
   ]
 }
