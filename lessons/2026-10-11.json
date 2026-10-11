@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-11",
+  "number": 10,
+  "status": "prepared",
+  "lesson": {
+    "title": "Giving and Asking for Directions Using Public Transport",
+    "concept": {
+      "key": "using_prepositions_for_directions",
+      "name_en": "Using Prepositions to Give Directions",
+      "name_zh": "使用介词给出方向",
+      "explanation_zh": "在英语中，描述方向时，介词非常重要。我们通常用介词如 'next to'（紧挨着）、'across from'（在对面）、'between'（在…之间）、'on the corner of'（在拐角处）来清楚地告诉别人地点。正确使用介词可以让听者更容易理解路线。",
+      "examples": [
+        "The bus stop is next to the library.",
+        "The subway entrance is across from the supermarket.",
+        "The coffee shop is between the bank and the post office."
+      ],
+      "common_mistake_zh": "很多人会把 'next to' 和 'beside' 混用，但在口语中，'next to' 更常用且自然。错误例句： 'The bus stop is beside the library.'（虽然意思对，但听起来不够地道。）正确说法是： 'The bus stop is next to the library.'。"
+    },
+    "vocabulary": [
+      {
+        "term": "transfer",
+        "ipa_us": "/ˈtrænsfɚ/",
+        "pronunciation_tip_zh": "重音在第一音节，末尾的 -er 发 /ɚ/ 音，类似 'fur' 中的音",
+        "meaning_zh": "换乘",
+        "explain_in_english": "It means to change from one bus or train to another during your trip.",
+        "usage_note_zh": "常用于公共交通环境，正式或非正式场合都适用。例： 'You need to transfer at Main Street station.' ",
+        "examples": [
+          "I have to transfer buses to get to work.",
+          "The subway map shows where to transfer between lines."
+        ]
+      },
+      {
+        "term": "route",
+        "ipa_us": "/ruːt/",
+        "pronunciation_tip_zh": "重音在唯一音节，元音发长 /uː/，类似中文 '路' 的音",
+        "meaning_zh": "路线，线路",
+        "explain_in_english": "The path or direction a bus or train follows.",
+        "usage_note_zh": "常用于谈论交通、公路或旅行计划，正式和非正式都可以。",
+        "examples": [
+          "Which route does this bus take?",
+          "The fastest route is through downtown."
+        ]
+      },
+      {
+        "term": "fare",
+        "ipa_us": "/fɛr/",
+        "pronunciation_tip_zh": "重音在唯一音节，元音发 /ɛ/，类似中文 '费' 的开头音",
+        "meaning_zh": "车费，票价",
+        "explain_in_english": "The money you pay to ride a bus, train, or taxi.",
+        "usage_note_zh": "常用于日常交通支付场景，正式和非正式均适用。",
+        "examples": [
+          "The fare to the airport is $3.",
+          "You can pay your fare with a card or cash."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking for Directions to the Nearest Subway Station",
+      "context_zh": "你在一个不熟悉的城市，想找到最近的地铁站，向路人问路。",
+      "script_en": "You: Excuse me, could you help me? I'm looking for the nearest subway station.\nLocal: Sure! The subway station is just across from the city park.\nYou: Across from the city park? So I just need to cross the street?\nLocal: Yes, exactly. Then walk straight for two blocks, and you'll see the entrance on your right.\nYou: Great, thanks! Do I need to transfer to another line there?\nLocal: No, this line goes directly downtown.\nYou: Perfect. Also, do you know how much the fare is?\nLocal: It's $2.50 if you pay with a card.\nYou: Thanks a lot for your help!\nLocal: You're welcome. Enjoy your trip!\nYou: By the way, is there a bus stop nearby if I want to explore other parts of the city?\nLocal: Yes, there's a bus stop next to the park entrance. You can take the number 10 bus from there.\nYou: That sounds convenient. How often does the bus come?\nLocal: Usually every 15 minutes during the day.\nYou: Thanks again! This really helps me feel more confident about getting around here.",
+      "translation_zh": "你：打扰一下，你能帮我吗？我在找最近的地铁站。\n当地人：当然！地铁站就在市政公园的对面。\n你：在市政公园对面？那我只需要过马路吗？\n当地人：是的，没错。然后直走两个街区，入口就在你的右边。\n你：太好了，谢谢！我需要在那里换乘别的线路吗？\n当地人：不需要，这条线路直接通往市中心。\n你：太好了。另外，你知道车费是多少吗？\n当地人：如果用卡支付，是2.5美元。\n你：非常感谢你的帮助！\n当地人：不客气，祝你旅途愉快！\n你：顺便问一下，如果我想去城市的其他地方，有附近的公交车站吗？\n当地人：有，公园入口旁边有一个公交车站。你可以乘坐10路公交车。\n你：那很方便。公交车多久一班？\n当地人：白天通常每15分钟一班。\n你：再次感谢！这真的让我对在这里出行更有信心了。",
+      "practice_tip_zh": "反复练习这段对话，特别注意介词短语的发音和用法。尝试用自己的城市替换地点练习口语。"
+    },
+    "reading": {
+      "title": "The Unexpected Journey on the City Bus",
+      "genre": "short reflective essay",
+      "text_en": "Last summer, I found myself on a city bus during rush hour, unsure of where to get off. I had planned to visit a friend across town, but the bus routes were confusing. I asked the driver politely if I should transfer at the next stop. He smiled and gave clear directions, explaining the route and the fare. This small interaction taught me the importance of asking questions when you're unsure. Sometimes, a simple question can save you a lot of trouble.\n\nAs I looked out the window, I noticed how many people rely on public transport daily. Each person seemed to have their own story, their own destination. It made me appreciate the convenience of buses and trains, even if they sometimes seem complicated.\n\nBy the time I reached my stop and said thank you to the driver, I felt more confident about using public transport in this unfamiliar city. The experience showed me that even when you feel lost, asking for help and paying attention can turn a confusing journey into an opportunity to learn.\n\nNow, I try to remember key words like 'transfer,' 'fare,' and 'route' and use them whenever I travel. These words help me communicate better and make my trips smoother. This little experience has changed how I see public transport forever, turning what once was a challenge into something I now enjoy and understand more deeply.",
+      "summary_zh": "作者回忆了一次在城市公交上的经历，起初对路线不熟悉，但通过礼貌询问司机获得了帮助。这个经历让作者意识到问问题的重要性，也让他更加欣赏公共交通的便利，并学会了相关词汇以便更好地使用公共交通工具。",
+      "questions": [
+        {
+          "question": "What did the author learn from asking the bus driver questions?",
+          "answer": "The author learned that asking questions can save trouble and make the journey easier."
+        },
+        {
+          "question": "Why does the author appreciate public transport more after this experience?",
+          "answer": "Because they noticed how many people depend on it and realized it can be convenient despite seeming complicated."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 4582,
+    "completion_tokens": 3123,
+    "total_tokens": 7705,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
