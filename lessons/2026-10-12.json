@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-12",
+  "number": 11,
+  "status": "prepared",
+  "lesson": {
+    "title": "Returning an Item to a Shop: Polite and Clear Communication",
+    "concept": {
+      "key": "return_policy_phrases",
+      "name_en": "Return Policy Phrases",
+      "name_zh": "退货政策用语",
+      "explanation_zh": "退货政策用语指的是在商店退货时常用的表达方式，帮助顾客礼貌、清楚地说明退货原因和请求退款或换货。掌握这些表达可以让交流更顺畅，避免误会。常用句型包括表达商品问题、询问退款或换货流程。",
+      "examples": [
+        "I'd like to return this item because it doesn't fit.",
+        "Can I get a refund for this product?",
+        "What is your return policy for electronics?"
+      ],
+      "common_mistake_zh": "常见错误是直接说“I want to return it.”，显得不够礼貌。更自然的表达是“I'd like to return this item.”或“I'm wondering if I could return this.”"
+    },
+    "vocabulary": [
+      {
+        "term": "refund",
+        "ipa_us": "/ˈriː.fʌnd/",
+        "pronunciation_tip_zh": "重音在第一个音节，注意'r'音清晰发出",
+        "meaning_zh": "退款",
+        "explain_in_english": "Money you get back when you return something you bought.",
+        "usage_note_zh": "常用于商店、服务场合，正式或半正式语境均适用。",
+        "examples": [
+          "I need a refund because the shirt is damaged.",
+          "Can you tell me how long it takes to get a refund?"
+        ]
+      },
+      {
+        "term": "exchange",
+        "ipa_us": "/ɪksˈtʃeɪndʒ/",
+        "pronunciation_tip_zh": "重音在第二个音节，注意'ch'发/tʃ/音",
+        "meaning_zh": "换货",
+        "explain_in_english": "To return an item and get a different one instead.",
+        "usage_note_zh": "购物时常用，礼貌表达换货请求。",
+        "examples": [
+          "I'd like to exchange this jacket for a smaller size.",
+          "Is it possible to exchange this for another color?"
+        ]
+      },
+      {
+        "term": "receipt",
+        "ipa_us": "/rɪˈsit/",
+        "pronunciation_tip_zh": "重音在第二个音节，注意's'发/s/音",
+        "meaning_zh": "收据，购买凭证",
+        "explain_in_english": "A paper you get after buying something that shows what you paid.",
+        "usage_note_zh": "购物和退货时必备，正式且常用词。",
+        "examples": [
+          "Do you have the receipt for this purchase?",
+          "You need a receipt to return or exchange items."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Returning a Defective Headphones Set",
+      "context_zh": "在电子产品商店，顾客发现买的耳机有问题，想要退货。",
+      "script_en": "Customer: Hi, I bought these headphones last week, but they don't work properly. Could I return them?\nSalesperson: I'm sorry to hear that. Do you have the receipt with you?\nCustomer: Yes, here it is.\nSalesperson: Thank you. Can you tell me what the problem is?\nCustomer: The sound cuts out sometimes, and the volume controls don't respond.\nSalesperson: I see. We can offer you a refund or an exchange. Which would you prefer?\nCustomer: I'd prefer an exchange for the same model if possible.\nSalesperson: No problem. Let me check our stock.\nCustomer: Thanks. Also, how long does the exchange process usually take?\nSalesperson: It usually takes just a few minutes. I'll prepare everything right away.\nCustomer: Great, I appreciate your help.\nSalesperson: You're welcome. If you have any other issues, please let us know.",
+      "translation_zh": "顾客：您好，我上周买的这副耳机有问题，可以退货吗？\n店员：很抱歉听到这个消息。您带收据了吗？\n顾客：有的，在这里。\n店员：谢谢。您能说说具体是什么问题吗？\n顾客：声音有时会断断续续，而且音量控制也没反应。\n店员：我明白了。我们可以给您退款或者换货，您想要哪种？\n顾客：如果可以的话，我想换同一型号的。\n店员：没问题，我帮您查一下库存。\n顾客：谢谢。另外换货一般需要多长时间？\n店员：通常只要几分钟，我这就帮您准备。\n顾客：太好了，感谢您的帮助。\n店员：不客气，如果还有问题，请告诉我们。",
+      "practice_tip_zh": "反复朗读对话，注意用礼貌语气表达退货请求和说明问题，帮助你在真实场合更自信地交流。"
+    },
+    "reading": {
+      "title": "How Clear Communication Helps When Returning Items",
+      "genre": "original short speech",
+      "text_en": "Returning an item to a store can sometimes feel stressful, but clear and polite communication makes the process smoother for everyone involved. When you approach the staff, start with a friendly greeting and a gentle statement like \"I'd like to return this item.\" This sounds more respectful than just saying \"I want to return it,\" which can seem abrupt or demanding.\n\nAlways explain the reason why you want to return the product. For example, you might say, \"The product is defective,\" or \"It doesn't fit me well.\" Providing this information helps the staff understand your situation quickly and offer the right solution. Be ready to show your receipt, as it proves your purchase and speeds up the process. If you don’t have the receipt, explain honestly, but understand that the store’s policy might be different.\n\nAsk about the store’s return policy politely. You can say, \"Could you please tell me if I can get a refund or if I can exchange the item?\" Knowing your options clears up confusion and helps you decide what to do. When you want your money back, use the word \"refund.\" If you want a different product, say \"exchange.\"\n\nFinally, remain calm and respectful even if you’re frustrated. This attitude encourages helpful and friendly responses from the staff. Good communication not only solves problems faster but also leaves a positive impression, which can be useful if you shop there again in the future.",
+      "summary_zh": "本演讲讲述了在商店退货时，如何通过清晰且礼貌的交流让过程更顺利。包括使用合适的表达说明退货原因，准备收据，以及了解退款和换货的区别。保持冷静和尊重能让问题更快解决。",
+      "questions": [
+        {
+          "question": "What is a polite way to start when you want to return an item?",
+          "answer": "Say \"I'd like to return this item\" instead of \"I want to return it.\""
+        },
+        {
+          "question": "Why is it important to stay calm and respectful during the return process?",
+          "answer": "Because it encourages helpful and friendly responses from the staff and helps solve problems faster."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 4686,
+    "completion_tokens": 2922,
+    "total_tokens": 7608,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

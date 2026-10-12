@@ -118,5 +118,17 @@
     ],
     "scene": "Asking for Directions to the Nearest Subway Station",
     "reading": "The Unexpected Journey on the City Bus"
+  },
+  {
+    "date": "2026-10-12",
+    "concept_key": "return_policy_phrases",
+    "concept_name": "Return Policy Phrases",
+    "terms": [
+      "refund",
+      "exchange",
+      "receipt"
+    ],
+    "scene": "Returning a Defective Headphones Set",
+    "reading": "How Clear Communication Helps When Returning Items"
   }
 ]
