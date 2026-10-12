@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "number": 11,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Returning an Item to a Shop: Polite and Clear Communication",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7608,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-12T08:54:50.363157+08:00"
 }
