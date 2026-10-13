@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "number": 12,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Booking an Appointment by Phone: Confirming Details Clearly",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 7779,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-13T10:48:35.309540+08:00"
 }
