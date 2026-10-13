@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-13",
+  "number": 12,
+  "status": "prepared",
+  "lesson": {
+    "title": "Booking an Appointment by Phone: Confirming Details Clearly",
+    "concept": {
+      "key": "confirming_appointment_details",
+      "name_en": "Confirming Appointment Details",
+      "name_zh": "确认预约细节",
+      "explanation_zh": "当你通过电话预约时，确认所有重要信息非常关键，比如日期、时间、地点和联系方式。这样可以避免误会和重复预约。通常在通话结束前，礼貌地重复一次预约细节，确保双方理解一致。",
+      "examples": [
+        "So, just to confirm, your appointment is on Friday at 3 pm, right?",
+        "Can you please confirm the address for the appointment?",
+        "Let me repeat the details to make sure I got everything right."
+      ],
+      "common_mistake_zh": "很多学习者在预约电话结束时没有确认细节，导致记错时间或地点。正确做法是主动复述预约信息，例如：“让我确认一下，您的预约时间是下周三上午10点，对吗？”"
+    },
+    "vocabulary": [
+      {
+        "term": "appointment",
+        "ipa_us": "/əˈpɔɪntmənt/",
+        "pronunciation_tip_zh": "重音在第二个音节 'pɔɪ'，注意连读 't' 变轻",
+        "meaning_zh": "预约，约会",
+        "explain_in_english": "An arrangement to meet someone at a specific time.",
+        "usage_note_zh": "正式或工作场合常用，电话预约时非常重要。",
+        "examples": [
+          "I have an appointment with the doctor tomorrow.",
+          "Can we schedule an appointment for next Monday?"
+        ]
+      },
+      {
+        "term": "confirm",
+        "ipa_us": "/kənˈfɜrm/",
+        "pronunciation_tip_zh": "重音在第二个音节 'fɜrm'，注意中间的轻声 'n'",
+        "meaning_zh": "确认，证实",
+        "explain_in_english": "To make sure something is correct or definite.",
+        "usage_note_zh": "用于正式和非正式场合，电话中核实信息时常用。",
+        "examples": [
+          "Please confirm your attendance by email.",
+          "I want to confirm the meeting time."
+        ]
+      },
+      {
+        "term": "hold on",
+        "ipa_us": "/hoʊld ɑn/",
+        "pronunciation_tip_zh": "连读明显，'hold' 中的 'd' 几乎不发音，'on' 重音弱",
+        "meaning_zh": "请稍等，电话用语",
+        "explain_in_english": "A polite way to ask someone to wait a moment, especially on the phone.",
+        "usage_note_zh": "电话对话中非常常见，表示暂停但不挂断。",
+        "examples": [
+          "Hold on, I'll check the schedule.",
+          "Could you hold on for a second, please?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Calling to Book a Dentist Appointment",
+      "context_zh": "在电话中联系牙医诊所预约洗牙服务。需要确认时间和地址。",
+      "script_en": "Receptionist: Good morning, Bright Smile Dental Clinic. How may I help you?\nCaller: Hi, I'd like to make an appointment for a dental cleaning.\nReceptionist: Sure, when would you like to come in?\nCaller: Do you have any openings next Wednesday morning?\nReceptionist: Let me check. Yes, we have 9:00 AM or 11:00 AM available.\nCaller: 9:00 AM works for me.\nReceptionist: Great. May I have your full name, please?\nCaller: It's Li Wei.\nReceptionist: Thank you, Li Wei. Just to confirm, your appointment is next Wednesday at 9:00 AM for a dental cleaning.\nCaller: Yes, that's right.\nReceptionist: Our clinic is located at 123 Main Street. Will you need directions?\nCaller: No, I know the area. What's your cancellation policy?\nReceptionist: We ask for a 24-hour notice to cancel or reschedule.\nCaller: Understood. Thank you for your help.\nReceptionist: You're welcome. We look forward to seeing you then. Have a great day!",
+      "translation_zh": "接待员：早上好，光明牙科诊所。请问有什么可以帮您？\n来电者：你好，我想预约洗牙。\n接待员：好的，您想什么时候来？\n来电者：下周三上午有空吗？\n接待员：我查一下。是的，9点和11点都有空。\n来电者：9点可以。\n接待员：好的，请告诉我您的全名。\n来电者：我叫李伟。\n接待员：谢谢，李伟。确认一下，您的预约是下周三上午9点，洗牙服务。\n来电者：是的，没错。\n接待员：我们诊所地址是主街123号。需要我告诉您怎么走吗？\n来电者：不需要，我知道那附近。你们的取消政策是怎样的？\n接待员：我们要求取消或改期需提前24小时通知。\n来电者：明白了，谢谢你的帮助。\n接待员：不客气，期待您的光临。祝您有美好的一天！",
+      "practice_tip_zh": "练习时，尝试在不同预约场景中复述预约信息，这样更能牢牢记住如何确认细节。"
+    },
+    "reading": {
+      "title": "My Experience Booking a Health Check-up",
+      "genre": "first-person monologue",
+      "text_en": "Last month, I decided it was time for my annual health check-up. I called the clinic early in the morning, hoping to get a convenient time slot that would fit well with my work schedule. The receptionist answered quickly and was very polite. She asked about my preferred date and time, so I asked if they had any openings on the following Friday afternoon. She checked the system and said yes, there was availability at 2:00 PM or 4:00 PM. I chose the 2:00 PM appointment. After providing my full name and phone number, I made sure to confirm the appointment details one more time before ending the call. This step felt very important to me because I had previously missed an appointment due to a misunderstanding about the time. On the day of the check-up, I arrived a little early and was greeted warmly by the clinic staff. The nurse took my blood pressure and explained each test clearly before the doctor came in. The doctor was very thorough and answered all my questions patiently. Overall, the whole experience reminded me how important it is to communicate clearly when booking appointments. It’s a small step that can save a lot of trouble later. Now, I always confirm details and write them down immediately after making any appointment to avoid any confusion.",
+      "summary_zh": "作者分享了自己通过电话预约体检的经历，强调了确认预约细节的重要性，以及良好沟通带来的顺利体验。",
+      "questions": [
+        {
+          "question": "Why did the author confirm the appointment details before ending the call?",
+          "answer": "Because they had previously missed an appointment due to a misunderstanding, so confirming helped avoid mistakes."
+        },
+        {
+          "question": "What did the author do after arriving at the clinic?",
+          "answer": "They arrived early, were greeted warmly, and the doctor and nurse explained the tests clearly."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 4809,
+    "completion_tokens": 2970,
+    "total_tokens": 7779,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

@@ -130,5 +130,17 @@
     ],
     "scene": "Returning a Defective Headphones Set",
     "reading": "How Clear Communication Helps When Returning Items"
+  },
+  {
+    "date": "2026-10-13",
+    "concept_key": "confirming_appointment_details",
+    "concept_name": "Confirming Appointment Details",
+    "terms": [
+      "appointment",
+      "confirm",
+      "hold on"
+    ],
+    "scene": "Calling to Book a Dentist Appointment",
+    "reading": "My Experience Booking a Health Check-up"
   }
 ]
