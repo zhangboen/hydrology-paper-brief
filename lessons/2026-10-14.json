@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "number": 13,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "How to Politely Ask a Colleague for Help",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 3258,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "accepted_at": "2026-10-14T08:48:56.062315+08:00"
 }
