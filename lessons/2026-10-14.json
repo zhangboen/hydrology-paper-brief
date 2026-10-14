@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-14",
+  "number": 13,
+  "status": "prepared",
+  "lesson": {
+    "title": "How to Politely Ask a Colleague for Help",
+    "concept": {
+      "key": "polite_help_requests",
+      "name_en": "Polite Help Requests",
+      "name_zh": "礼貌请求帮助",
+      "explanation_zh": "在工作或日常生活中，当你需要同事的帮助时，用礼貌的表达方式请求可以使对方更愿意帮忙，并保持良好的关系。常用表达包括：\"Could you please...\", \"Would you mind...\", \"I was wondering if you could...\"等。这样的话语既表达了请求，也显示了尊重。",
+      "examples": [
+        "Could you please help me with this report?",
+        "Would you mind explaining this part to me?",
+        "I was wondering if you could check these numbers for accuracy."
+      ],
+      "common_mistake_zh": "错误：直接说\"Help me with this.\"（太直接，显得无礼）。\n正确：说\"Could you help me with this, please?\"（更礼貌）。"
+    },
+    "vocabulary": [
+      {
+        "term": "Could you please",
+        "ipa_us": "/kʊd juː ˈpliːz/",
+        "pronunciation_tip_zh": "注意连读，'Could you'中的'd'和'y'连在一起发音。重读'please'。",
+        "meaning_zh": "请问您能……吗？（礼貌请求）",
+        "explain_in_english": "I use this phrase to politely ask someone to do something for me.",
+        "usage_note_zh": "正式或半正式场合都适用，尤其是请求帮助时。常用于职场。",
+        "examples": [
+          "Could you please send me the file by noon?",
+          "Could you please explain this to me?"
+        ]
+      },
+      {
+        "term": "Would you mind",
+        "ipa_us": "/wʊd juː maɪnd/",
+        "pronunciation_tip_zh": "'Would you'连读，注意'mind'的轻辅音结尾。重读'mind'。",
+        "meaning_zh": "您介意……吗？（非常礼貌的请求）",
+        "explain_in_english": "I use this phrase to politely ask if something is okay with someone.",
+        "usage_note_zh": "适合非常礼貌的请求，语气比'Could you please'更委婉。",
+        "examples": [
+          "Would you mind helping me with this task?",
+          "Would you mind if I borrow your notes?"
+        ]
+      },
+      {
+        "term": "I was wondering if",
+        "ipa_us": "/aɪ wəz ˈwʌndərɪŋ ɪf/",
+        "pronunciation_tip_zh": "注意连读，'was'和'wondering'轻声连接。重读'wondering'。",
+        "meaning_zh": "我想知道是否……（委婉提出请求或问题）",
+        "explain_in_english": "I use this phrase to softly ask for something or ask a question.",
+        "usage_note_zh": "适合在不确定或需要委婉表达时使用，职场和日常生活均可。",
+        "examples": [
+          "I was wondering if you could review this document.",
+          "I was wondering if you have time for a quick meeting."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking a Colleague for Help with a Presentation",
+      "context_zh": "你需要做一个重要的工作演示，但对PPT设计不太有把握，想礼貌地请求同事帮忙。",
+      "script_en": "Anna: Hi John, do you have a minute? I was wondering if you could help me with my presentation. \nJohn: Sure, Anna. What do you need help with? \nAnna: I'm not very confident about the slide design and formatting. Could you please take a look and give me some advice? \nJohn: Of course! Send me the file, and I’ll check it out after lunch. \nAnna: Thanks a lot! I really appreciate your help. \nJohn: No problem. Happy to assist. \nAnna: Also, would you mind helping me practice the speech tomorrow? \nJohn: I’d be glad to. Just let me know when. \nAnna: Great! I’ll send you an invite for 3 pm. \nJohn: Sounds good. Looking forward to it. \nAnna: Thanks again, John. You’re a lifesaver! \nJohn: Anytime, Anna. Good luck with your presentation!",
+      "translation_zh": "安娜：嗨，约翰，你有空吗？我想知道你是否能帮我看看我的演示。\n约翰：当然，安娜。你需要什么帮助？\n安娜：我对幻灯片的设计和格式不太自信。你能帮我看看并给些建议吗？\n约翰：没问题！把文件发给我，我午饭后看看。\n安娜：非常感谢！我真的很感激你的帮助。\n约翰：没事，乐意帮忙。\n安娜：另外，你介意明天帮我练习演讲吗？\n约翰：我很乐意。告诉我时间。\n安娜：太好了！我会发个三点的邀请给你。\n约翰：好的，期待。\n安娜：再次感谢你，约翰。你真是救星！\n约翰：随时，安娜。祝你演讲成功！",
+      "practice_tip_zh": "练习时，可以先模仿对话中的礼貌请求表达，注意语气的温和和清晰，帮助建立自信。"
+    },
+    "reading": {
+      "title": "A Small Favor That Made a Big Difference",
+      "genre": "short story",
+      "text_en": "Last year, I had a big project due at work, and I was feeling overwhelmed. I knew the deadline was tight, and I wasn’t sure I could finish everything alone. One afternoon, I decided to ask my colleague, Mark, for help. I wasn’t sure how he would react, so I used a polite way to ask. I said, \"Mark, would you mind helping me with this project? I would really appreciate it.\" To my surprise, Mark agreed right away and even offered to help me with some parts I didn’t expect. With his support, I finished the project on time and learned a lot from the experience. This small favor made a big difference not only for the project but also for our teamwork. Since then, I always try to ask for help politely and offer my help to others as well. It’s amazing how kindness and respect can improve work relationships and results. Now, when a colleague seems busy, I might say, \"Could you please let me know when you have time to talk?\" or \"I was wondering if you could give me some advice on this.\" These polite requests open doors to better communication and cooperation. Asking for help is not a weakness; it’s a smart way to work better and build trust.",
+      "summary_zh": "这篇短文讲述了作者如何礼貌地向同事请求帮助，最终顺利完成项目的经历。文中强调了礼貌请求帮助的重要性及其对工作关系和合作的积极影响。",
+      "questions": [
+        {
+          "question": "How did Mark respond when the author asked for help politely?",
+          "answer": "Mark agreed right away and even offered extra help."
+        },
+        {
+          "question": "Why does the author think asking for help politely is important?",
+          "answer": "Because it improves communication, teamwork, and builds trust."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 1699,
+    "completion_tokens": 1559,
+    "total_tokens": 3258,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}

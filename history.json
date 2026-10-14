@@ -142,5 +142,17 @@
     ],
     "scene": "Calling to Book a Dentist Appointment",
     "reading": "My Experience Booking a Health Check-up"
+  },
+  {
+    "date": "2026-10-14",
+    "concept_key": "polite_help_requests",
+    "concept_name": "Polite Help Requests",
+    "terms": [
+      "Could you please",
+      "Would you mind",
+      "I was wondering if"
+    ],
+    "scene": "Asking a Colleague for Help with a Presentation",
+    "reading": "A Small Favor That Made a Big Difference"
   }
 ]
