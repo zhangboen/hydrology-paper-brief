@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-15",
+  "number": 14,
+  "status": "prepared",
+  "lesson": {
+    "title": "Explaining Your Research to Non-Specialists: Simplifying Complex Ideas",
+    "concept": {
+      "key": "simplifying_explanations",
+      "name_en": "Simplifying Explanations",
+      "name_zh": "简化解释",
+      "explanation_zh": "简化解释是指用简单、清晰的语言来说明复杂的研究内容，使非专业人士也能理解。避免使用专业术语或用容易理解的词汇替代专业词汇。这样能有效地沟通你的研究成果。",
+      "examples": [
+        "My research is about how plants grow faster using special light. (instead of complex botanical terms)",
+        "I study how computers recognize faces by teaching them with many pictures.",
+        "Basically, my work helps make batteries last longer, so phones don't run out of power quickly."
+      ],
+      "common_mistake_zh": "错误：直接使用专业术语，如“我的研究涉及基因编辑技术的CRISPR-Cas9系统。”\n正确：简单说“我研究一种新方法，可以改变植物的基因让它们更健康。”"
+    },
+    "vocabulary": [
+      {
+        "term": "layman's terms",
+        "ipa_us": "/ˈleɪmənz tɜrmz/",
+        "pronunciation_tip_zh": "重音在第一个词的第一个音节，连读时'terms'的's'轻声",
+        "meaning_zh": "通俗易懂的语言",
+        "explain_in_english": "It means explaining something complicated in simple words that anyone can understand.",
+        "usage_note_zh": "常用于正式或半正式场合，帮助听众理解专业内容。",
+        "examples": [
+          "Can you explain your project in layman's terms?",
+          "The doctor explained the diagnosis in layman's terms so I could understand."
+        ]
+      },
+      {
+        "term": "break it down",
+        "ipa_us": "/breɪk ɪt daʊn/",
+        "pronunciation_tip_zh": "'break' 的尾音/k/连读到'it'，'down'重音在第一个音节",
+        "meaning_zh": "把复杂的事情分解成简单的部分",
+        "explain_in_english": "To explain something step by step in an easy way.",
+        "usage_note_zh": "口语中常用，适合朋友或同事之间的解释。",
+        "examples": [
+          "Let me break it down for you so it's easier to follow.",
+          "She broke down the data into smaller pieces to explain it clearly."
+        ]
+      },
+      {
+        "term": "in simple terms",
+        "ipa_us": "/ɪn ˈsɪmpəl tɜrmz/",
+        "pronunciation_tip_zh": "'simple'重音在第一个音节，'terms'的's'轻声",
+        "meaning_zh": "用简单的话说",
+        "explain_in_english": "Explaining something using easy and clear words.",
+        "usage_note_zh": "适用于正式和非正式场合，强调简洁清楚。",
+        "examples": [
+          "In simple terms, this means the system saves energy.",
+          "He explained the process in simple terms during the meeting."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Explaining Your Research at a Community Event",
+      "context_zh": "你参加一个社区活动，需要用简单的语言向对科学不熟悉的听众介绍你的研究。",
+      "script_en": "Speaker: Hi everyone, thanks for coming to the community science day! Today, I want to share a little about my research lab work. I study how different types of light affect plant growth. This is important because it can help farmers grow more food in less time.\nListener: That sounds really interesting! How does the light help the plants?\nSpeaker: Great question! Basically, some lights give energy to plants, which helps them grow faster and stronger. It's kind of like giving plants vitamins.\nListener: Oh, I see. So, you’re helping plants get healthier?\nSpeaker: Exactly! By using the right kind of light, plants can be healthier and produce more vegetables like tomatoes and lettuce.\nListener: That makes sense. Do you think this could help with food shortages?\nSpeaker: Yes, it has the potential to help farmers grow more food efficiently, which could be a big help in many places.\nListener: Thanks for explaining all this in simple terms. It really helps me understand.\nSpeaker: You’re welcome! I’m happy to share my work and make it easier to understand.",
+      "translation_zh": "演讲者：大家好，感谢你们来参加社区科学日活动！今天，我想分享一下我实验室的研究工作。我研究不同种类的光如何影响植物生长。这很重要，因为它能帮助农民更快地种出更多食物。\n听众：听起来很有趣！光是怎么帮助植物的？\n演讲者：好问题！基本上，某些光给植物能量，帮助它们长得更快更强壮。这有点像给植物吃维生素。\n听众：哦，我明白了。就是说你帮助植物更健康？\n演讲者：没错！通过使用合适的光，植物能更健康，产出更多像番茄和生菜这样的蔬菜。\n听众：这很有道理。你觉得这能帮助解决食物短缺问题吗？\n演讲者：是的，它有潜力帮助农民更有效地种出更多食物，这在很多地方都会有很大帮助。\n听众：谢谢你用简单的语言解释，这让我更容易理解。\n演讲者：不客气！我很高兴分享我的工作，让大家更容易理解。",
+      "practice_tip_zh": "练习时，可以先用自己的话讲述研究内容，再用‘layman's terms’等表达简化给朋友或家人听，帮助记忆和应用。"
+    },
+    "reading": {
+      "title": "A Letter to a Friend About My Research",
+      "genre": "informal letter",
+      "text_en": "Dear Alex,\nI hope you're doing well! I wanted to tell you more about my research because I know you’re curious but not a science expert. My work focuses on how different types of light affect plant growth. In simple terms, I study which lights help plants grow faster and healthier. Imagine how farmers could grow more food if they use the right kind of light.\nSometimes, I have to explain my research in layman's terms because not everyone understands technical words. I usually break it down by comparing it to things we see every day, like vitamins for plants. This makes it easier for people to understand and get interested.\nLast week, I spoke at a community event where many people came to learn about science. I explained my work in simple terms, and I could see their faces light up when they realized how important light is for plants and food production. It was exciting to share my passion in a way that everyone could understand.\nI also try to use examples that relate to daily life. For example, I compare plant growth to how we need good food and rest to stay healthy. This helps people connect with the topic more easily. I think explaining things clearly is the best way to help others appreciate science.\nI wish you could come to one of these events sometime! Maybe next time! If you want to know more about my work or have any questions, please let me know.\nTake care,\n[Your Name]",
+      "summary_zh": "这是一封写给朋友的非正式信，作者用通俗易懂的语言解释了自己的植物生长光照研究，并分享了向公众介绍研究的经历和感受。",
+      "questions": [
+        {
+          "question": "Why does the writer use layman's terms when explaining the research?",
+          "answer": "Because not everyone understands technical words, so using layman's terms makes it easier for people to understand."
+        },
+        {
+          "question": "How did people react at the community event when they learned about the research?",
+          "answer": "People’s faces lit up, showing they understood the importance of light for plants and food production."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 8519,
+    "completion_tokens": 4693,
+    "total_tokens": 13212,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
