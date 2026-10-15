@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "number": 14,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Explaining Your Research to Non-Specialists: Simplifying Complex Ideas",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 13212,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-15T08:16:05.612625+08:00"
 }
