@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "number": 15,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Collecting a Parcel: Asking for Help and Clarifying Details",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 8689,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-16T08:01:00.372764+08:00"
 }
