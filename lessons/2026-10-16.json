@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-16",
+  "number": 15,
+  "status": "prepared",
+  "lesson": {
+    "title": "Collecting a Parcel: Asking for Help and Clarifying Details",
+    "concept": {
+      "key": "parcel_collection_phrases",
+      "name_en": "Parcel Collection Phrases",
+      "name_zh": "取包裹常用表达",
+      "explanation_zh": "在快递或邮局取包裹时，了解如何用英语礼貌地询问包裹状态、确认信息以及表达感谢非常重要。常用表达包括询问包裹是否到了（\"Has my parcel arrived?\"）、确认身份（\"Can I have your ID, please?\"）以及表达感谢（\"Thank you for your help.\"）。这些表达帮助你顺利领取包裹，避免误会。",
+      "examples": [
+        "Has my parcel arrived yet?",
+        "Can I have your ID, please?",
+        "Thank you for your help."
+      ],
+      "common_mistake_zh": "很多学习者在询问包裹状态时，直接说\"Is my parcel here?\"。虽然能被理解，但更自然的表达是\"Has my parcel arrived?\"，因为这里强调包裹到达的动作，而不是静止状态。"
+    },
+    "vocabulary": [
+      {
+        "term": "parcel locker",
+        "ipa_us": "/ˈpɑːr.səl ˈlɑː.kɚ/",
+        "pronunciation_tip_zh": "注意'parcel'中第一个音节重读，'locker'两个音节，重音在第一音节，连读时略带轻声",
+        "meaning_zh": "包裹自助取货柜",
+        "explain_in_english": "A secure box where you can pick up your packages anytime without talking to someone.",
+        "usage_note_zh": "常用于现代快递服务，如亚马逊或邮政提供的自助服务，正式和日常都适用。",
+        "examples": [
+          "I picked up my parcel from the parcel locker last night.",
+          "The parcel locker is convenient because it's open 24/7."
+        ]
+      },
+      {
+        "term": "tracking number",
+        "ipa_us": "/ˈtræk.ɪŋ ˈnʌm.bɚ/",
+        "pronunciation_tip_zh": "'tracking'重音在第一个音节，'number'重音在第一个音节，连读时n和b之间有轻微停顿",
+        "meaning_zh": "快递追踪号码",
+        "explain_in_english": "A special code you use to check where your shipment is.",
+        "usage_note_zh": "在快递和邮寄过程中非常常用，正式和非正式场合皆可。",
+        "examples": [
+          "Can you give me the tracking number for my package?",
+          "I checked the tracking number and the parcel is out for delivery."
+        ]
+      },
+      {
+        "term": "signature required",
+        "ipa_us": "/ˈsɪɡ.nə.tʃɚ rɪˈkwaɪɚd/",
+        "pronunciation_tip_zh": "'signature'重音在第一个音节，'required'重音在第二个音节，发音连贯",
+        "meaning_zh": "需要签收",
+        "explain_in_english": "A note that you must sign to receive the package.",
+        "usage_note_zh": "快递服务中用来说明必须有人签字，正式文件和快递通知常见。",
+        "examples": [
+          "This package is signature required, so someone must be home.",
+          "The delivery failed because no one was there to sign the signature required parcel."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "At the Post Office to Collect a Parcel",
+      "context_zh": "一个人在邮局取包裹，向工作人员确认包裹信息。",
+      "script_en": "Customer: Hi, I came to collect a parcel today. Has it arrived yet?\nClerk: Let me check for you. Could you please provide your tracking number?\nCustomer: Sure, it’s 123456789.\nClerk: Thanks. Yes, your parcel has arrived. Do you have a photo ID with you?\nCustomer: Yes, here it is.\nClerk: Perfect. This particular parcel requires a signature upon collection. Please sign here.\nCustomer: All done. Thank you. By the way, I heard there’s a parcel locker nearby. Could you tell me more about it?\nClerk: Absolutely. There’s a parcel locker just outside the post office entrance. It’s very useful because you can pick up parcels anytime, even after hours.\nCustomer: That sounds convenient. How will I know when my next parcel arrives?\nClerk: You’ll get an email with the tracking number and a code to open the locker.\nCustomer: Great! That will make things easier. Thanks for your help today.\nClerk: You’re welcome! Have a great day!",
+      "translation_zh": "顾客：你好，我今天来取包裹。包裹到了吗？\n工作人员：让我帮您查一下。请告诉我您的快递追踪号码好吗？\n顾客：好的，是123456789。\n工作人员：谢谢。是的，您的包裹已经到了。您带有照片的身份证吗？\n顾客：有，给您。\n工作人员：很好。这个包裹需要签收。请您在这里签字。\n顾客：签好了，谢谢。顺便问一下，我听说附近有个包裹自助取货柜。能跟我介绍一下吗？\n工作人员：当然。邮局门口外面就有一个包裹自助取货柜，非常方便，因为您可以随时取包裹，甚至是下班后。\n顾客：听起来很方便。那我怎么知道下次包裹到了呢？\n工作人员：您会收到一封电子邮件，里面有追踪号码和打开取货柜的密码。\n顾客：太好了！这会让事情简单多了。谢谢你的帮助。\n工作人员：不客气！祝您有美好的一天！",
+      "practice_tip_zh": "练习时，尝试使用自己真实或想象的快递信息，模拟与工作人员的对话，练习如何询问包裹状态、确认身份和了解自助取货柜的使用。"
+    },
+    "reading": {
+      "title": "How Parcel Lockers Are Changing Delivery",
+      "genre": "popular-science vignette",
+      "text_en": "Parcel lockers are becoming increasingly popular as a solution to the challenges of modern delivery services. These secure boxes are placed in convenient locations such as apartment buildings, supermarkets, and post offices. They allow recipients to pick up packages at any time, day or night, without needing to wait for a delivery person. The growth of online shopping has driven the demand for such services, as customers seek more flexibility and security when receiving their parcels.\n\nThe operation of parcel lockers is simple yet efficient. When a delivery arrives, the package is placed inside an empty locker, and the recipient receives a notification with a unique code. This code unlocks the locker, enabling the recipient to collect the package at their convenience. This system reduces missed deliveries and improves parcel security since only the person with the code can open the locker.\n\nOne concern is how older adults or those less comfortable with technology manage using parcel lockers. To solve this, many providers offer clear instructions and customer service support. Some lockers have touchscreen interfaces that guide users step-by-step through the pickup process, making it accessible to everyone regardless of their technical skills.\n\nBesides convenience, parcel lockers also contribute positively to the environment. By reducing the number of repeated delivery attempts, they lower fuel consumption and decrease emissions from delivery vehicles. As more people recognize these benefits, parcel lockers are expected to become an essential part of urban life and online shopping in the future.",
+      "summary_zh": "包裹自助取货柜因其方便、安全以及环保优势，正成为现代快递的新趋势。它们通过技术和服务让用户随时取件，减少配送失误和环境污染。",
+      "questions": [
+        {
+          "question": "What makes parcel lockers convenient for package pickup?",
+          "answer": "They allow people to pick up packages anytime without waiting for a delivery person."
+        },
+        {
+          "question": "How do parcel lockers help reduce environmental impact?",
+          "answer": "They reduce repeated delivery attempts, which lowers fuel use and vehicle emissions."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 5359,
+    "completion_tokens": 3330,
+    "total_tokens": 8689,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

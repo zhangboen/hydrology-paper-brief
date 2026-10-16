@@ -166,5 +166,17 @@
     ],
     "scene": "Explaining Your Research at a Community Event",
     "reading": "A Letter to a Friend About My Research"
+  },
+  {
+    "date": "2026-10-16",
+    "concept_key": "parcel_collection_phrases",
+    "concept_name": "Parcel Collection Phrases",
+    "terms": [
+      "parcel locker",
+      "tracking number",
+      "signature required"
+    ],
+    "scene": "At the Post Office to Collect a Parcel",
+    "reading": "How Parcel Lockers Are Changing Delivery"
   }
 ]
