@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
   "number": 16,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Handling Flight Delays: Staying Calm and Communicating Clearly",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 3487,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "accepted_at": "2026-10-17T08:06:43.671114+08:00"
 }
