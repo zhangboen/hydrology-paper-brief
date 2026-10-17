@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-18",
+  "number": 17,
+  "status": "prepared",
+  "lesson": {
+    "title": "Viewing an Apartment: Asking About Details and Negotiating",
+    "concept": {
+      "key": "asking_for_details_and_negotiating",
+      "name_en": "Asking for Details and Negotiating",
+      "name_zh": "询问细节与谈判",
+      "explanation_zh": "在看房时，询问房屋的具体细节（如租金、设施、维修情况等）以及适当的谈判技巧非常重要。要用礼貌的方式提出问题，表达你的需求和关注点，同时也可以尝试协商租金或合同条款。",
+      "examples": [
+        "Can you tell me more about the utilities included in the rent?",
+        "Is it possible to negotiate the monthly rent if I sign a longer lease?",
+        "What kind of maintenance services do you provide?"
+      ],
+      "common_mistake_zh": "错误：直接说“我想要更低的租金”，显得不礼貌。改正：可以说“我想知道是否有可能根据租期调整租金？”这样更委婉。"
+    },
+    "vocabulary": [
+      {
+        "term": "lease agreement",
+        "ipa_us": "/lis əˈgri mənt/",
+        "pronunciation_tip_zh": "注意 'lease' 的长‘i’音和重音在第二个词的第二个音节",
+        "meaning_zh": "租赁合同",
+        "explain_in_english": "A lease agreement is a contract you sign to rent an apartment for a certain time.",
+        "usage_note_zh": "正式场合，如签订住房或办公场所租赁合同时使用。常见于法律和房产领域。",
+        "examples": [
+          "Before moving in, you need to sign the lease agreement.",
+          "The lease agreement explains the rules for using the apartment."
+        ]
+      },
+      {
+        "term": "security deposit",
+        "ipa_us": "/sɪˈkjʊr ɪ ti dɪˈpɑz ɪt/",
+        "pronunciation_tip_zh": "注意 'security' 的第三个音节重读，'deposit' 重音在第二个音节",
+        "meaning_zh": "押金",
+        "explain_in_english": "A security deposit is money you pay before moving in to cover any damage.",
+        "usage_note_zh": "常用于租房和租赁合同中，属于正式用语。",
+        "examples": [
+          "The landlord asked for a security deposit equal to one month’s rent.",
+          "You will get your security deposit back if the apartment is in good condition."
+        ]
+      },
+      {
+        "term": "walk-through",
+        "ipa_us": "/ˈwɔk θru/",
+        "pronunciation_tip_zh": "连读，注意 'walk' 的结尾k音和 'through' 的θ音",
+        "meaning_zh": "看房检查；验房",
+        "explain_in_english": "A walk-through is a careful inspection of the apartment before moving in or out.",
+        "usage_note_zh": "适用于租房或买房过程中，表示对房屋的详细检查。",
+        "examples": [
+          "We did a walk-through to check for any damages before signing the lease.",
+          "The landlord will schedule a walk-through when you move out."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking About Utilities and Negotiating Rent",
+      "context_zh": "你正在看一套公寓，向房东询问水电和网络等费用是否包含在租金里，并尝试谈判降低租金。",
+      "script_en": "Tenant: Hi, I really like this apartment. Could you tell me if utilities like water and electricity are included in the rent?\nLandlord: Hello! Thanks for your interest. No, utilities are separate, so you would pay those monthly based on usage.\nTenant: I see. What about internet? Is there a provider already set up?\nLandlord: Yes, the building has a contract with one internet provider. You just need to sign up with them.\nTenant: Okay, that’s good to know. Also, I was wondering if there’s any flexibility on the rent if I sign a longer lease, maybe 12 months?\nLandlord: If you commit to a year, I could offer a small discount of about 5% off the monthly rent.\nTenant: That sounds reasonable. Could you please send me a copy of the lease agreement to review?\nLandlord: Sure, I’ll email it to you by the end of the day.\nTenant: Great, thank you. One last question — is a security deposit required?\nLandlord: Yes, it’s equal to one month’s rent, refundable if everything is in good condition.\nTenant: Perfect. I look forward to reading the lease and doing a walk-through before moving in.\nLandlord: Absolutely. Let me know if you have any other questions.",
+      "translation_zh": "租客：你好，我很喜欢这套公寓。请问水电等费用包含在租金里吗？\n房东：你好！谢谢你的关注。水电是单独收费的，根据用量每月支付。\n租客：明白了。那网络怎么样？已经有供应商了吗？\n房东：是的，楼里和一个网络供应商有合同，你只需和他们签约。\n租客：好的，这我知道了。另外，如果我签12个月的长租，租金有没有商量的余地？\n房东：如果你签一年，我可以给你5%左右的折扣。\n租客：听起来不错。你能发份租赁合同给我看看吗？\n房东：当然，今天下班前我会发邮件给你。\n租客：太好了，谢谢。最后一个问题，押金需要交吗？\n房东：需要，是一个月的租金，如果房子没问题会退还。\n租客：很好。我期待阅读合同，搬进来前也会做验房。\n房东：没问题。如果还有问题，随时告诉我。",
+      "practice_tip_zh": "多练习用礼貌的方式询问细节和表达自己的需求，尤其是用条件句谈判租金，比如“If I sign a longer lease, could we discuss the rent?” 这样既专业又友好。"
+    },
+    "reading": {
+      "title": "My First Week in the New Apartment",
+      "genre": "personal diary",
+      "text_en": "Moving into my new apartment has been an exciting yet challenging experience. The first day was all about unpacking boxes and trying to figure out where everything should go. I spent some time doing a walk-through with the landlord to check for any issues and make sure everything was working properly. It gave me peace of mind knowing that the heating and water systems were in good shape.\n\nOne thing I quickly learned is to ask about what utilities are included in the rent. At first, I thought water and electricity were part of the monthly payment, but I found out I need to pay those separately. Also, the internet setup was a bit confusing until I realized the building has a preferred provider, which made signing up easier.\n\nNegotiating the lease agreement was something I hadn’t expected. I asked if a longer lease would lower the rent, and the landlord kindly offered a small discount. It felt good to communicate openly and find a deal that worked for both of us. Signing the lease felt like a big step towards settling in.\n\nNow that I’m here, I plan to explore the neighborhood and meet some neighbors. Having a comfortable home base makes everything feel more stable and exciting. I look forward to many happy days in this apartment.",
+      "summary_zh": "作者描述了搬入新公寓的第一周经历，包括验房、询问水电和网络费用、租期谈判以及适应新环境的感受。",
+      "questions": [
+        {
+          "question": "What did the writer do during the walk-through with the landlord?",
+          "answer": "They checked for any issues and made sure everything was working properly."
+        },
+        {
+          "question": "How did the landlord respond to the request about lowering the rent?",
+          "answer": "The landlord offered a small discount for signing a longer lease."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 1958,
+    "completion_tokens": 1658,
+    "total_tokens": 3616,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}

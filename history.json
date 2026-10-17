@@ -190,5 +190,17 @@
     ],
     "scene": "Asking at the Help Desk About a Flight Delay",
     "reading": "Unexpected Delays: A Traveler’s Story"
+  },
+  {
+    "date": "2026-10-18",
+    "concept_key": "asking_for_details_and_negotiating",
+    "concept_name": "Asking for Details and Negotiating",
+    "terms": [
+      "lease agreement",
+      "security deposit",
+      "walk-through"
+    ],
+    "scene": "Asking About Utilities and Negotiating Rent",
+    "reading": "My First Week in the New Apartment"
   }
 ]
