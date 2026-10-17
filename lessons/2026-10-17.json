@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-17",
+  "number": 16,
+  "status": "prepared",
+  "lesson": {
+    "title": "Handling Flight Delays: Staying Calm and Communicating Clearly",
+    "concept": {
+      "key": "expressing_understanding_and_patience",
+      "name_en": "Expressing Understanding and Patience",
+      "name_zh": "表达理解与耐心",
+      "explanation_zh": "在航班延误等令人焦虑的情境中，表达理解和耐心能帮助缓解紧张氛围。用礼貌和积极的语言表达自己既显示你的情绪控制能力，也更容易获得工作人员的帮助。常用表达包括“I understand the situation”，“Thank you for your help”，“I appreciate your efforts”等。",
+      "examples": [
+        "I understand the situation and appreciate your efforts to help us.",
+        "Thank you for keeping us informed about the delay.",
+        "I know this is difficult, but I appreciate your patience."
+      ],
+      "common_mistake_zh": "在抱怨时直接表达不满，容易让对方防备。改正：用“Could you please help me understand the delay?”代替“Why is this flight delayed again?”，更礼貌且有效。"
+    },
+    "vocabulary": [
+      {
+        "term": "layover",
+        "ipa_us": "/ˈleɪˌoʊvər/",
+        "pronunciation_tip_zh": "重音在第一音节“LAY”，两个元音连读，末尾的'r'发轻音。",
+        "meaning_zh": "中途停留，转机时间",
+        "explain_in_english": "A layover is the time you wait between flights when traveling to another place.",
+        "usage_note_zh": "常用于机场和旅行场景，正式或非正式均可。",
+        "examples": [
+          "We have a two-hour layover in Chicago before the next flight.",
+          "The layover was longer than expected, so we explored the airport shops."
+        ]
+      },
+      {
+        "term": "boarding gate",
+        "ipa_us": "/ˈbɔrdɪŋ ɡeɪt/",
+        "pronunciation_tip_zh": "“boarding”重音在第一音节“BORD”，连读时'd'音清晰；“gate”发长元音“GATE”，注意元音连贯。",
+        "meaning_zh": "登机口",
+        "explain_in_english": "The boarding gate is the place at the airport where passengers get on the plane.",
+        "usage_note_zh": "机场常用词，正式场合和口语均适用。",
+        "examples": [
+          "Please wait at the boarding gate until your flight is called.",
+          "The boarding gate was changed, so we had to walk to a different terminal."
+        ]
+      },
+      {
+        "term": "flight status",
+        "ipa_us": "/flaɪt ˈsteɪtəs/",
+        "pronunciation_tip_zh": "“flight”中“fl”连读，元音是长“ai”音；“status”重音在第一音节“STAY”，第二音节轻读。",
+        "meaning_zh": "航班状态，航班信息",
+        "explain_in_english": "Flight status tells you if your flight is on time, delayed, or canceled.",
+        "usage_note_zh": "在机场或旅行查询时经常使用，正式和非正式都适用。",
+        "examples": [
+          "I checked the flight status online before leaving for the airport.",
+          "The flight status showed a two-hour delay due to weather conditions."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking at the Help Desk About a Flight Delay",
+      "context_zh": "在机场航班延误时，旅客向服务台询问最新情况并表示理解与耐心。",
+      "script_en": "Passenger: Excuse me, could you please tell me the current flight status for Flight 278 to New York?\nAgent: Of course. Let me check that for you. It looks like the flight is delayed by about two hours due to weather.\nPassenger: I see, thank you for the update. Is there a new boarding gate, or do we use the same one?\nAgent: The boarding gate remains the same, Gate 15. We'll start boarding once the plane arrives.\nPassenger: Understood. Also, is there any information about the layover if the delay causes us to miss the connection?\nAgent: If you miss your connecting flight, the airline will rebook you on the next available flight. Please check with the gate agents for assistance.\nPassenger: Thank you very much. I appreciate your help and patience with all our questions.\nAgent: You're welcome! Feel free to ask if you need anything else.\nPassenger: Will do. Thanks again.",
+      "translation_zh": "旅客：打扰一下，您能告诉我飞往纽约的278航班最新状态吗？\n工作人员：当然，我帮您查一下。由于天气原因，航班延误大约两个小时。\n旅客：明白了，谢谢您的更新。登机口有变化吗，还是用同一个？\n工作人员：登机口没变，还是15号登机口。飞机一到我们就开始登机。\n旅客：知道了。如果延误导致错过转机，有相关信息吗？\n工作人员：如果错过转机，航空公司会帮您重新安排下一班可用航班。请您到登机口工作人员那里寻求帮助。\n旅客：非常感谢。我很感激您耐心解答我们的问题。\n工作人员：不用谢！如果还有需要，随时问我。\n旅客：好的，谢谢您。",
+      "practice_tip_zh": "练习时注意用礼貌且积极的语言表达理解和感谢，能让沟通更顺畅，也缓解紧张情绪。"
+    },
+    "reading": {
+      "title": "Unexpected Delays: A Traveler’s Story",
+      "genre": "travel journal",
+      "text_en": "Last summer, I was traveling from San Francisco to New York for a business meeting when my flight was unexpectedly delayed. At first, I felt frustrated because I had carefully planned my schedule, but then I reminded myself that delays happen and staying calm is the best approach. While waiting at the boarding gate, I talked with fellow passengers and learned they had similar experiences. Sharing stories helped pass the time and made the situation feel less stressful.\n\nThe airline staff kept us informed about the flight status and offered snacks and water, which I appreciated. Although the delay was inconvenient, their kindness made a difference. I also used the extra time to review my presentation and prepare for the meeting ahead. When the plane finally boarded, the pilot apologized for the delay and explained the cause was a technical check, which made me feel safer.\n\nDuring the layover in Chicago, I had just enough time to get a quick coffee and stretch my legs. I realized that sometimes travel delays give unexpected opportunities to slow down and rest. When I arrived in New York, I was a bit tired but ready to give my presentation with a calm and positive attitude.\n\nThis experience taught me that patience and understanding go a long way, especially when things don’t go as planned. Instead of focusing on frustration, looking for small positive moments can help make travel delays easier to handle. Next time, I will remember to stay flexible and keep a polite attitude with airline staff and fellow travelers.",
+      "summary_zh": "作者分享一次航班延误的经历，强调了保持冷静和耐心的重要性。通过与他人交流和积极面对，旅行中的不便变得更容易接受。",
+      "questions": [
+        {
+          "question": "What did the author do to pass the time during the delay?",
+          "answer": "The author talked with fellow passengers, shared stories, reviewed a presentation, and prepared for the meeting."
+        },
+        {
+          "question": "How did the airline staff help passengers during the delay?",
+          "answer": "They kept passengers informed about flight status and offered snacks and water."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 1894,
+    "completion_tokens": 1593,
+    "total_tokens": 3487,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}

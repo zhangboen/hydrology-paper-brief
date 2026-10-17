@@ -178,5 +178,17 @@
     ],
     "scene": "At the Post Office to Collect a Parcel",
     "reading": "How Parcel Lockers Are Changing Delivery"
+  },
+  {
+    "date": "2026-10-17",
+    "concept_key": "expressing_understanding_and_patience",
+    "concept_name": "Expressing Understanding and Patience",
+    "terms": [
+      "layover",
+      "boarding gate",
+      "flight status"
+    ],
+    "scene": "Asking at the Help Desk About a Flight Delay",
+    "reading": "Unexpected Delays: A Traveler’s Story"
   }
 ]
