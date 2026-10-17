@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
   "number": 17,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Viewing an Apartment: Asking About Details and Negotiating",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 3616,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "accepted_at": "2026-10-18T07:42:42.203229+08:00"
 }
