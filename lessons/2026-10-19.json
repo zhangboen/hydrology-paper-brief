@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "number": 18,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Giving Clear and Concise Updates in Team Meetings",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 8875,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-19T07:52:09.942504+08:00"
 }
