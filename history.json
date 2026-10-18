@@ -202,5 +202,17 @@
     ],
     "scene": "Asking About Utilities and Negotiating Rent",
     "reading": "My First Week in the New Apartment"
+  },
+  {
+    "date": "2026-10-19",
+    "concept_key": "concise_updates",
+    "concept_name": "Concise Updates",
+    "terms": [
+      "progress update",
+      "key points",
+      "on track"
+    ],
+    "scene": "Giving a Short Update in a Weekly Team Meeting",
+    "reading": "Why Concise Communication Matters in Meetings"
   }
 ]

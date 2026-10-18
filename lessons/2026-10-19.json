@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-19",
+  "number": 18,
+  "status": "prepared",
+  "lesson": {
+    "title": "Giving Clear and Concise Updates in Team Meetings",
+    "concept": {
+      "key": "concise_updates",
+      "name_en": "Concise Updates",
+      "name_zh": "简洁汇报",
+      "explanation_zh": "在团队会议中，简洁汇报指的是用简短、明确的句子快速传达你负责的工作进展或最新情况。这样做可以节省时间，让团队成员更容易理解和跟进。通常要避免太多细节或不相关信息，只说重点。",
+      "examples": [
+        "I completed the client report and sent it to the manager yesterday.",
+        "The design team is currently testing the new prototype.",
+        "We faced some delays due to supplier issues, but the project is back on track now."
+      ],
+      "common_mistake_zh": "常见错误是报告时讲得太详细或绕弯子，导致信息量大但难以抓住重点。纠正方法是先想清楚最重要的三点，再用简单句表达。"
+    },
+    "vocabulary": [
+      {
+        "term": "progress update",
+        "ipa_us": "/ˈprɑːɡrɛs ˈʌpˌdeɪt/",
+        "pronunciation_tip_zh": "注意progress的重音在第一音节，update的重音在第一音节，连读时'progress update'读作/ˈprɑːɡrɛs ˈʌpˌdeɪt/",
+        "meaning_zh": "进展更新",
+        "explain_in_english": "It means telling others how far your work has gone, like sharing the latest status.",
+        "usage_note_zh": "在职场会议中非常常用，正式或非正式场合均适合。常用来开头汇报。",
+        "examples": [
+          "Let me give you a quick progress update on the project.",
+          "During the meeting, she shared a progress update about the marketing campaign."
+        ]
+      },
+      {
+        "term": "key points",
+        "ipa_us": "/ki pɔɪnts/",
+        "pronunciation_tip_zh": "key 的发音是/ki/，清晰读出k音，points中的t一般轻读或省略，听起来像/ki pɔɪnts/",
+        "meaning_zh": "关键点，重点",
+        "explain_in_english": "These are the most important facts or ideas you want to share.",
+        "usage_note_zh": "汇报或写作时用来强调重点，正式和非正式场合都常用。",
+        "examples": [
+          "Please focus on the key points during your presentation.",
+          "I summarized the key points from the meeting notes."
+        ]
+      },
+      {
+        "term": "on track",
+        "ipa_us": "/ɑn træk/",
+        "pronunciation_tip_zh": "on的n音要轻轻连接到track，发成/ɑn træk/，稍快连读更自然。",
+        "meaning_zh": "按计划进行",
+        "explain_in_english": "It means things are going well and as planned.",
+        "usage_note_zh": "常用于工作项目或目标的进展描述，口语和书面语均适用。",
+        "examples": [
+          "The project is on track to be finished by next week.",
+          "Despite some challenges, we are still on track for the deadline."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Giving a Short Update in a Weekly Team Meeting",
+      "context_zh": "这是一个在每周团队会议上做简短工作汇报的场景。",
+      "script_en": "Manager: Let's start the meeting. Alex, can you give us a quick progress update on your tasks?\nAlex: Sure. I’ve completed the first draft of the report and sent it to the review team yesterday.\nManager: Great. Any challenges so far?\nAlex: We had a small delay because of missing data, but it’s resolved now. So, overall, the project is back on track.\nManager: Good to hear. What are the key points we should focus on next?\nAlex: Next, I’ll work on incorporating the feedback and preparing the final version by Friday.\nTeam Member: Do you need any help from us?\nAlex: Not at the moment, but I’ll reach out if necessary.\nManager: Thanks for the clear update, Alex. Keep us posted.\nTeam Member 2: Also, if you need input on the budget section, let me know. I have some ideas.\nAlex: Thanks, I’ll definitely consider that. It might help improve the report.\nManager: Excellent. Let’s move on to the next agenda item.",
+      "translation_zh": "经理：我们开始会议。Alex，你能简短汇报一下你的工作进展吗？\nAlex：当然。我已经完成了报告的初稿，昨天发给了审核团队。\n经理：很好。到目前为止有遇到什么挑战吗？\nAlex：我们之前因为数据缺失有一点延迟，但现在已经解决了。所以总体来看，项目恢复按计划进行。\n经理：听到这个消息很高兴。接下来我们应该关注哪些关键点？\nAlex：接下来我会根据反馈修改报告，并在周五前准备好最终版本。\n团队成员：你需要我们帮忙吗？\nAlex：目前不需要，如果需要我会联系大家。\n经理：谢谢你清晰的汇报，Alex。请继续保持更新。\n团队成员2：另外，如果你需要预算部分的意见，告诉我。我有一些想法。\nAlex：谢谢，我会考虑的。那可能会让报告更好。\n经理：很好。我们继续下一个议程项目。",
+      "practice_tip_zh": "练习时，先写下你想说的三个重点，再用简单句练习。录音听自己是否简洁明了，反复练习提高自信。"
+    },
+    "reading": {
+      "title": "Why Concise Communication Matters in Meetings",
+      "genre": "short reflective essay",
+      "text_en": "In many workplaces, meetings are an essential part of how teams stay coordinated and informed. However, the value of meetings often depends on how clearly and briefly people share their updates. Concise communication means delivering your message in a way that is easy to understand and gets to the point quickly. When team members provide concise updates, meetings run more smoothly and everyone can focus on making decisions rather than sifting through unnecessary details.\n\nOne reason concise updates are important is because they respect everyone's time. In busy offices, long-winded reports can cause meetings to drag on and reduce productivity. By sticking to the key points, presenters help keep the meeting efficient and engaging. Another benefit is that concise updates reduce confusion. When information is clear and well-organized, it’s easier for listeners to remember and act on it.\n\nMastering concise communication also improves your professional image. Colleagues and managers appreciate team members who can express progress clearly without wasting time. It shows confidence and good preparation. However, being concise doesn’t mean leaving out important information. It’s about choosing the right details that matter most to your audience.\n\nIn practice, preparing a short outline before your update can help. Think about what your listeners need to know and plan your three main points. During the meeting, speak slowly and clearly, and watch for signals that your audience understands. With practice, giving concise updates becomes a valuable skill that benefits both you and your team. Remember, the goal is to inform and engage your listeners, not overwhelm them with too much information. Keeping your update clear and brief makes meetings more productive and shows respect for everyone’s time.",
+      "summary_zh": "本文反思了在会议中简洁汇报的重要性。简洁沟通节省时间，减少混乱，并提升专业形象。作者建议准备三点要点，清晰表达，逐渐练习提高这项技能。",
+      "questions": [
+        {
+          "question": "Why is concise communication important in meetings?",
+          "answer": "It saves time, makes meetings more efficient, and helps everyone focus on decisions without confusion."
+        },
+        {
+          "question": "What is one practical tip to prepare for giving concise updates?",
+          "answer": "Prepare a short outline with the three main points you want to share before the meeting."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 5666,
+    "completion_tokens": 3209,
+    "total_tokens": 8875,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
