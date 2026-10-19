@@ -19,6 +19,20 @@ from wechat_article_builder import (
 
 
 class BriefBehaviorTests(unittest.TestCase):
+    def test_subscript_titles_are_readable_in_new_and_archived_papers(self):
+        from title_formatting import clean_title
+        for raw in ['CO<sub>2</sub> release', 'CO&lt;sub&gt;2&lt;/sub&gt; release',
+                    'CO\n <sub>2</sub>\n release']:
+            self.assertEqual(clean_title(raw), 'CO₂ release')
+        p = SimpleNamespace(title='CO<sub>2</sub> release', authors='A', journal='Nature',
+                            doi='10.1/example', url='', author_info='', abstract='')
+        _, _, body = build_wechat_html([p], [{'chinese_title':'CO<sub>2</sub>释放',
+                                            'chinese_abstract':''}], datetime.now().date())
+        self.assertIn('CO₂ release', body)
+        self.assertIn('CO₂释放', body)
+        self.assertNotIn('&lt;sub&gt;', body)
+
+
     def test_missing_abstract_stops_after_three_attempts(self):
         session = Mock()
         item = {"DOI": "10.1234/test"}

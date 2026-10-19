@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Protocol
 
 from openai import OpenAI
+from title_formatting import clean_title
 
 
 LOGGER = logging.getLogger("wechat_article_builder")
@@ -253,7 +254,7 @@ def build_wechat_html(
 
     for idx, (paper, entry) in enumerate(zip(papers, entries), start=1):
         abbrev = journal_abbreviation(paper.journal)
-        chinese_title = str(entry["chinese_title"]).strip()
+        chinese_title = clean_title(entry["chinese_title"])
         section_title = f"{chinese_title} | {abbrev}"
         chinese_abstract = (
             available_abstract(entry.get("chinese_abstract"))
@@ -265,7 +266,7 @@ def build_wechat_html(
         parts.extend(
             [
                 f"<section style=\"margin:18px 0 10px; padding:10px 12px; background:linear-gradient(90deg,#d9edf7 0%,#eef7fb 58%,#ffffff 100%); color:#17324d; font-weight:700; line-height:1.55; border-left:5px solid #2878b5; border-bottom:1px solid #b9d7e8; box-shadow:0 2px 8px rgba(40,120,181,0.12);\">{idx:02d}｜{html.escape(section_title)}</section>",
-                f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(paper.title)}</h2>",
+                f"<h2 style=\"margin:10px 0 6px; color:#162b3c; font-size:18px; line-height:1.42;\">{html.escape(clean_title(paper.title))}</h2>",
                 f"<p style=\"margin:0 0 6px;\"><strong>Authors：</strong>{html.escape(paper.authors)}</p>",
                 *([f"<p style=\"margin:0 0 6px;\"><strong>作者信息：</strong>{html.escape(paper.author_info)}</p>"]
                   if getattr(paper, 'author_info', '') else []),

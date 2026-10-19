@@ -16,6 +16,7 @@ from urllib.parse import quote
 
 import requests
 from openai import OpenAI
+from title_formatting import clean_title
 from author_metadata import crossref_authors, display_authors, enrich_selected_papers
 from joh_selection import choose_interesting_joh
 from relevance_rules import SYSTEM_PROMPT as RELEVANCE_SYSTEM_PROMPT, RULE_VERSION as RELEVANCE_RULE_VERSION
@@ -399,6 +400,9 @@ class Paper:
     author_details: list[dict] = field(default_factory=list)
     author_info: str = ""
     author_metadata: dict = field(default_factory=dict)
+
+    def __post_init__(self):
+        object.__setattr__(self, 'title', clean_title(self.title))
 
 
 def clean_whitespace(text: str) -> str:
