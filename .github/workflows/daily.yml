@@ -5,9 +5,16 @@ on:
     # 00:37 UTC is 08:37 China Standard Time.
     - cron: "37 21 * * *"
   workflow_dispatch:
+    inputs:
+      refresh_source_run_id:
+        description: "Today's original run to refresh under current rules"
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   send-brief:
@@ -25,6 +32,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Download original edition for same-day refresh
+        if: github.event_name == 'workflow_dispatch' && inputs.refresh_source_run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: wechat-post-output
+          path: work/source/
+          run-id: ${{ inputs.refresh_source_run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Send daily email brief
         env:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
@@ -35,10 +51,20 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
-        run: python main.py
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          REFRESH_SOURCE_RUN_ID: ${{ inputs.refresh_source_run_id }}
+        run: |
+          if [ -n "$REFRESH_SOURCE_RUN_ID" ]; then
+            source_file=$(find work/source -name 'selected-papers-*.json' | sort | tail -n 1)
+            test -n "$source_file"
+            python refresh_wechat_post.py "$source_file"
+            python -c "import main as b; from generate_wechat_post import latest_selected_papers_path, load_selected_papers; from datetime import datetime, timezone, timedelta; stamp=datetime.now(timezone(timedelta(hours=8))).strftime('%Y-%m-%d'); b.send_email('Daily hydrology paper brief - '+stamp+' (updated)', b.build_email_body(load_selected_papers(latest_selected_papers_path())))"
+          else
+            python main.py
+          fi
 
       - name: Generate WeChat HTML article
-        if: success()
+        if: success() && inputs.refresh_source_run_id == ''
         continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
