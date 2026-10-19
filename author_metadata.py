@@ -528,7 +528,7 @@ def format_author_info(meta):
     same_unit = any(norm(first) == norm(a) or norm(translations.get(first, first)) == norm(translations.get(a, a)) for a in corresponding_units)
     if first and not same_unit:
         text += ('；' if text else '') + '第一作者单位：' + translations.get(first, first)
-    return text+'。' if text else ''
+    return text
 
 
 def enrich_selected_papers(papers, contact_email, outputs_dir):

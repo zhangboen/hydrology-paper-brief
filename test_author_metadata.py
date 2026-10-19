@@ -93,7 +93,7 @@ class AuthorTests(unittest.TestCase):
         self.assertEqual(m['authors'][1]['orcid'], 'https://orcid.org/0000-0001')
 
     def test_joint_teams_and_different_first_affiliation(self):
-        self.assertEqual(am.format_author_info(metadata()), '乙大学科学学院张乙教授团队联合丙研究所李丙研究员团队；第一作者单位：甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(metadata()), '乙大学科学学院张乙教授团队联合丙研究所李丙研究员团队；第一作者单位：甲大学水文研究所')
         m = metadata()
         m['authors'][1]['affiliations'].append(m['first_affiliation'])
         self.assertIn('第一作者单位：甲大学水文研究所', am.format_author_info(m))
@@ -108,18 +108,18 @@ class AuthorTests(unittest.TestCase):
         m['authors'] = m['authors'][:2]
         m['authors'][1].pop('name_zh')
         m['authors'][1]['affiliations'].append('Secondary Institute')
-        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所')
         m['authors'][1]['name_zh'] = '张乙'
         m['authors'][1].pop('title_zh')
-        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(m), '乙大学科学学院；第一作者单位：甲大学水文研究所')
 
     def test_missing_correspondent_unit_uses_labeled_first_author_unit(self):
         m = metadata()
         m['authors'] = m['authors'][:2]
         m['authors'][1]['affiliations'] = []
-        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所')
         m['authors'][1]['is_corresponding'] = False
-        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所。')
+        self.assertEqual(am.format_author_info(m), '第一作者单位：甲大学水文研究所')
 
     def test_email_html_author_info_immediately_after_authors_and_escaped(self):
         p = paper(author_info=am.format_author_info(metadata())+'<script>')
