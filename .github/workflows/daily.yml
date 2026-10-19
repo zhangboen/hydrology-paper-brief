@@ -11,6 +11,11 @@ on:
         type: string
         required: false
         default: ''
+      refresh_extra_run_id:
+        description: "Optional additional run from today to retain in the updated edition"
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -41,6 +46,15 @@ jobs:
           run-id: ${{ inputs.refresh_source_run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Download additional same-day edition
+        if: github.event_name == 'workflow_dispatch' && inputs.refresh_extra_run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: wechat-post-output
+          path: work/extra/
+          run-id: ${{ inputs.refresh_extra_run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Send daily email brief
         env:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
@@ -53,11 +67,18 @@ jobs:
           OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           REFRESH_SOURCE_RUN_ID: ${{ inputs.refresh_source_run_id }}
+          REFRESH_EXTRA_RUN_ID: ${{ inputs.refresh_extra_run_id }}
         run: |
           if [ -n "$REFRESH_SOURCE_RUN_ID" ]; then
             source_file=$(find work/source -name 'selected-papers-*.json' | sort | tail -n 1)
             test -n "$source_file"
-            python refresh_wechat_post.py "$source_file"
+            if [ -n "$REFRESH_EXTRA_RUN_ID" ]; then
+              extra_file=$(find work/extra -name 'selected-papers-*.json' | sort | tail -n 1)
+              test -n "$extra_file"
+              python refresh_wechat_post.py "$source_file" --merge-source "$extra_file"
+            else
+              python refresh_wechat_post.py "$source_file"
+            fi
             python -c "import main as b; from generate_wechat_post import latest_selected_papers_path, load_selected_papers; from datetime import datetime, timezone, timedelta; stamp=datetime.now(timezone(timedelta(hours=8))).strftime('%Y-%m-%d'); b.send_email('Daily hydrology paper brief - '+stamp+' (updated)', b.build_email_body(load_selected_papers(latest_selected_papers_path())))"
           else
             python main.py

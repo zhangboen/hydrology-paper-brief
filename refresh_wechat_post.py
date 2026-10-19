@@ -10,7 +10,7 @@ import main as brief
 from wechat_article_builder import write_wechat_article
 
 
-def refresh(source_path: Path, now: datetime | None = None, replay_source: bool = False) -> list[brief.Paper]:
+def refresh(source_path: Path, now: datetime | None = None, replay_source: bool = False, additional_source_paths=()) -> list[brief.Paper]:
     now = now or datetime.now(timezone(timedelta(hours=8)))
     today = now.astimezone(timezone(timedelta(hours=8))).date()
     source = json.loads(source_path.read_text(encoding="utf-8"))
@@ -22,6 +22,16 @@ def refresh(source_path: Path, now: datetime | None = None, replay_source: bool 
     papers = source["papers"]
     if not isinstance(papers, list):
         raise ValueError("Source papers must be a list.")
+    sources = [source_path]
+    papers = list(papers)
+    for extra_path in additional_source_paths:
+        extra_path = Path(extra_path)
+        extra = json.loads(extra_path.read_text(encoding="utf-8"))
+        extra_date = datetime.fromisoformat(extra["generated_at"]).astimezone(timezone(timedelta(hours=8))).date()
+        if extra_date != today:
+            raise ValueError("Additional selection is not from today")
+        papers.extend(extra["papers"])
+        sources.append(extra_path)
     todays_dois = {brief.normalize_doi(paper["doi"]) for paper in papers}
     sent_dois = brief.load_sent_dois()
     excluded_dois = sent_dois - todays_dois
@@ -33,6 +43,29 @@ def refresh(source_path: Path, now: datetime | None = None, replay_source: bool 
         candidates = [brief.Paper(**{k: v for k, v in paper.items() if k in paper_fields}) for paper in papers]
     else:
         candidates = brief.fetch_candidate_papers(brief.get_required_env("CONTACT_EMAIL"))
+        # A moving search window must not lose the original edition or rejected
+        # candidates that are being reconsidered under updated scientific rules.
+        restored = {}
+        for path in sources:
+            audit_path = path.parent / f"relevance-review-{today.isoformat()}.json"
+            if audit_path.exists():
+                audit = json.loads(audit_path.read_text(encoding="utf-8"))
+                for entry in audit.get("decisions", []):
+                    doi = brief.normalize_doi(entry["doi"])
+                    restored[doi] = brief.Paper(
+                        title=entry["title"], authors="", journal=entry["journal"],
+                        publication_date="", doi=doi, url="https://doi.org/" + doi,
+                        topic="archived same-day candidate", topic_rank=0,
+                        abstract=entry.get("abstract", ""))
+        paper_fields = {field.name for field in fields(brief.Paper)}
+        for entry in papers:
+            if "title" in entry:
+                item = brief.Paper(**{k: v for k, v in entry.items() if k in paper_fields})
+                restored[item.doi] = item
+        # Fresh discovery carries more complete current bibliographic metadata.
+        restored.update({item.doi: item for item in candidates})
+        candidates = list(restored.values())
+        logging.info("Reviewing %s merged current and archived candidates.", len(candidates))
     relevant = brief.filter_hydroclimate_relevant_papers(candidates, audit_dir=brief.OUTPUTS_DIR)
     selected = brief.select_papers(relevant, excluded_dois)
     if not selected:
@@ -52,5 +85,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("source_path", type=Path)
     parser.add_argument("--replay-source", action="store_true", help="Review the exact original edition rather than searching again.")
+    parser.add_argument("--merge-source", action="append", type=Path, default=[])
     args = parser.parse_args()
-    refresh(args.source_path, replay_source=args.replay_source)
+    refresh(args.source_path, replay_source=args.replay_source, additional_source_paths=args.merge_source)

@@ -60,6 +60,32 @@ class RefreshTests(unittest.TestCase):
                 export.assert_called_once_with([today, new], now)
                 save.assert_called_once_with({"today", "earlier", "new"})
 
+    def test_refresh_restores_archived_rejections_and_merges_today_editions(self):
+        original = main.Paper('Original', '', 'Nature', '', 'original', '', '', 0, '')
+        recent = replace(original, title='Recent', doi='recent')
+        now = datetime(2026, 9, 27, tzinfo=timezone(timedelta(hours=8)))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first, second = root/'first.json', root/'second.json'
+            for path, item in [(first, original), (second, recent)]:
+                path.write_text(json.dumps({'generated_at': now.isoformat(), 'papers': [asdict(item)]}))
+            (root/'relevance-review-2026-09-27.json').write_text(json.dumps({'decisions': [
+                {'doi': 'rejected', 'title': 'Climate choices', 'journal': 'Nature', 'abstract': '', 'relevant': False}]}))
+            with (
+                patch.object(main, 'load_sent_dois', return_value={'original', 'recent', 'historical'}),
+                patch.object(main, 'get_required_env', return_value='test@example.com'),
+                patch.object(main, 'fetch_candidate_papers', return_value=[]),
+                patch.object(main, 'filter_hydroclimate_relevant_papers', side_effect=lambda p, **kw: p) as screen,
+                patch.object(main, 'enrich_selected_papers', side_effect=lambda p, *args: p),
+                patch.object(refresh, 'write_wechat_article', return_value=True),
+                patch.object(main, 'write_selected_papers'),
+                patch.object(main, 'save_sent_dois') as save,
+            ):
+                result = refresh.refresh(first, now, additional_source_paths=[second])
+                self.assertEqual({p.doi for p in result}, {'original', 'recent', 'rejected'})
+                self.assertEqual(len(screen.call_args.args[0]), 3)
+                save.assert_called_once_with({'original', 'recent', 'rejected', 'historical'})
+
     def test_generation_failure_preserves_doi_history(self):
         now = datetime(2026, 9, 27, tzinfo=timezone(timedelta(hours=8)))
         with tempfile.TemporaryDirectory() as directory:
