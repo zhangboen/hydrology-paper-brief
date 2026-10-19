@@ -305,9 +305,130 @@
         "topic_rank": 0,
         "abstract": "Urban air quality is affected by diverse volatile organic compounds (VOCs), and prior studies reveal a need to understand their seasonal sources. We combine high-resolution mass spectrometry with eddy covariance to quantify VOC fluxes from an urban/suburban New York site during summer and winter. Emissions are strongly seasonal: During summer, twice as many VOCs undergo surface-atmosphere exchange, and molar and reactivity-based fluxes are 2 to 4× higher than in winter. Temperature-dependent emissions from volatile chemical products (VCPs), vegetation, and residences dominate during summer. Ethanol alone accounts for ∼25% of the total flux. During winter, temperature-dependent emissions are reduced and traffic sources dominate. An updated inventory agrees with summer observations within 40% but overestimates winter fluxes by >2.5×. The winter discrepancy reflects overestimated VCP/cooking emissions and missing temperature-dependent volatilization. Results highlight the need to account for seasonal and temperature-dependent urban emissions to support pollution and mitigation assessment in the context of global change."
       }
+    },
+    {
+      "number": 21,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1029/2026gl124051",
+        "title": "Interpretable Machine Learning Reveals Global Nonlinear Responses of Soil Respiration to Climate",
+        "authors": "",
+        "journal": "Geophysical Research Letters",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1029/2026gl124051",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Abstract Soil respiration ( R s ) is a major component of the global carbon cycle, yet its responses to environmental drivers remain poorly constrained. Using 8,111 observations and a SHAP‐interpreted Random Forest model, we identified global response patterns for key environmental drivers of R s . Temperature contributions showed a peaked association with a descriptive maximum of 27.7°C, precipitation contributions plateaued at high values, and leaf area index contributions increased approximately linearly. These results provide a global, data‐driven characterization of peaked temperature and saturating precipitation associations, including how their shapes and supported ranges vary among climate zones. Our results indicate that monotonic assumptions in Earth system models may overlook important nonlinearities and potentially bias estimates of terrestrial carbon flux responses to seasonal climate extremes. Interpretable machine learning therefore provides a transparent framework for evaluating and improving the representation of soil carbon dynamics under climate change."
+      }
+    },
+    {
+      "number": 22,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s41558-026-02775-x",
+        "title": "Climate choices and attention are shaped more by politics than weather",
+        "authors": "",
+        "journal": "Nature Climate Change",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s41558-026-02775-x",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 23,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s41467-026-78677-5",
+        "title": "Explainable artificial intelligence reveals spatially divergent effects of global change on mammals",
+        "authors": "",
+        "journal": "Nature Communications",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s41467-026-78677-5",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Abstract Understanding how global change reshapes species distributions remains a central challenge in ecology, yet most global assessments treat environmental drivers as static, uniform, or aggregate influences. This obscures where, why, and how specific drivers generate ecological risk or opportunity. Here, we apply explainable machine learning to assess how climate averages, variability, extremes, and land cover are projected to reshape future distributions of 1,992 terrestrial mammals. Using Shapley Additive Explanations with species distribution models, we quantify the directional contribution of 16 environmental drivers and track how these contributions change over space and time. We propose two ecological diagnostics, directional turnovers and favorability shifts, that reveal where drivers switch from favorable to unfavorable, or the reverse, and where their influence strengthens or weakens without sign reversal. While not designed to infer causation, our framework assesses whether projected spatial patterns align with ecological expectations. We show that climate extremes impose intense but spatially restricted impacts, temperature-related drivers dominate exposure patterns, particularly for specialist species, and the same driver can impose risk in one region while creating opportunity in another. By decomposing projected biodiversity change into driver-specific signatures, our framework advances biodiversity forecasting toward a more actionable understanding of ecological risk and opportunity."
+      }
+    },
+    {
+      "number": 24,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1073/pnas.2526451123",
+        "title": "A neural operator framework for data-driven discovery of stability and receptivity in physical systems",
+        "authors": "",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1073/pnas.2526451123",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Understanding how complex systems respond to perturbations, such as whether they will remain stable or what their most sensitive patterns are, is a fundamental challenge across science and engineering. Traditional stability and receptivity (resolvent) analyses are powerful but rely on known equations and linearization, limiting their use in nonlinear or poorly modeled systems. Here, we introduce a data-driven framework that automatically identifies stability properties of both equilibrium points and periodic orbits, as well as optimal forcing responses from observation data alone, without requiring governing equations. By training a neural network as a dynamics emulator and using automatic differentiation to extract its Jacobian, we can perform stability and receptivity analyses directly from data. We demonstrate the method on systems of increasing complexity, from canonical models to high-dimensional fluid flows and a real-world climate dataset, employing model reduction where needed and successfully identifying dominant instability modes and optimal input–output structures, even in strongly nonlinear regimes. By leveraging a neural network emulator, we readily obtain a nonlinear representation of system dynamics while additionally retrieving intricate dynamical patterns that were previously difficult to resolve. This equation-free methodology establishes a broadly applicable tool for analyzing complex, high-dimensional datasets, with potential relevance to grand challenges in fields such as climate science, neuroscience, and fluid engineering."
+      }
+    },
+    {
+      "number": 25,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s41558-026-02765-z",
+        "title": "Political affiliation impacts climate attention and choice beyond extreme weather exposure",
+        "authors": "",
+        "journal": "Nature Climate Change",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s41558-026-02765-z",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": "Abstract Political polarization and increasing exposure to extreme weather can shape public engagement with climate change, yet the underlying psychological mechanisms remain unclear. In this Registered Report, we examine how political affiliation, extreme weather exposure and subjective attribution influence climate-relevant information search and decision-making in a US sample ( N = 1,451). We combined a process-tracing paradigm within an incentivized decision task involving real carbon emissions with objective data on extreme weather exposure. Democrats attended more to carbon emission information and made more pro-climate choices than Republicans, with no evidence of moderation by objective extreme weather exposure. The subjective attribution of extreme weather to climate change was associated with greater attention to carbon information, more pro-climate choices and moderated the effects of exposure on both outcomes. These findings highlight the importance of political affiliation in climate-relevant decision-making and suggest that extreme weather effects depend less on exposure itself than on how these experiences are interpreted."
+      }
+    },
+    {
+      "number": 26,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s41467-026-78686-4",
+        "title": "Real-time economic disruption and recovery from Atlantic hurricanes across the US",
+        "authors": "",
+        "journal": "Nature Communications",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s41467-026-78686-4",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 27,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s44221-026-00737-3",
+        "title": "Risk-financing systems must adapt to a changing hydrological reality",
+        "authors": "",
+        "journal": "Nature Water",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s44221-026-00737-3",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
+    },
+    {
+      "number": 28,
+      "expected_relevant": true,
+      "paper": {
+        "doi": "10.1038/s43247-026-04085-8",
+        "title": "Symbiotic nitrogen fixation sustains carbon sinks under warming Tibetan permafrost region",
+        "authors": "",
+        "journal": "Communications Earth &amp; Environment",
+        "publication_date": "2026-10-16",
+        "url": "https://doi.org/10.1038/s43247-026-04085-8",
+        "topic": "journal-based relevance review",
+        "topic_rank": 0,
+        "abstract": ""
+      }
     }
   ],
   "additional_source_runs": [
-    "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784"
+    "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/38107558784",
+    "https://github.com/zhangboen/hydrology-paper-brief/actions/runs/39177245995"
   ]
 }

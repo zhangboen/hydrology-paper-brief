@@ -28,6 +28,18 @@ class DirectInclusionTests(unittest.TestCase):
             match.assert_not_called()
             abstract.assert_called_once()
 
+    def test_climate_impact_titles_reach_semantic_review_in_ordinary_journals(self):
+        # Do not let the discovery gate undo the expanded scientific scope.
+        titles = [
+            'Interpretable Machine Learning Reveals Global Nonlinear Responses of Soil Respiration to Climate',
+            'Climate choices and attention are shaped more by politics than weather',
+            'Climate extremes reshape future mammal distributions',
+        ]
+        for title in titles:
+            with self.subTest(title=title):
+                self.assertIsNotNone(main.match_ranked_topic({'title': [title]}))
+        self.assertIsNone(main.match_ranked_topic({'title': ['Molecular architecture of cell walls']}))
+
     def test_other_journals_still_require_keyword_match(self):
         with patch.object(main, 'JOURNALS', {'Remote Sensing of Environment': '0034-4257'}), \
              patch.object(main, 'fetch_arxiv_candidate_papers', return_value=[]), \

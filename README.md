@@ -51,6 +51,8 @@ Within each journal tier, matching Crossref papers are prioritized in this order
 12. hydrography, including river, drainage, stream, and channel networks, bathymetry, and waterbody mapping
 13. catchment processes and ungauged prediction, including hydrologic functional diversity/complexity, catchment classification, rainfall-runoff relationships, runoff/streamflow generation, stormflow, hydrologic response/similarity, ungauged catchments/basins/watersheds, rainfall persistence, and hydrologic model structure/transferability
 
+14. climate change impacts and responses, including climate-driven ecosystem/carbon responses and social responses to extreme weather; candidates still require semantic review
+
 The new catchment terms are informed by [Ameli et al. (2026), Nature Water](https://doi.org/10.1038/s44221-026-00699-6). The article's title passes the keyword filter even without an abstract. Hyphens and Unicode dashes (for example, rainfall–runoff) are normalized during matching. Existing arXiv hydroclimate-ML papers retain topic priority 4 within the lower journal tier; ties retain publication-date and title ordering.
 
 ## arXiv Preprint Filter
@@ -235,37 +237,37 @@ journals to the discovery list.
 
 ## Scientific relevance and decision audit
 
-The shared scope is defined in `relevance_rules.py`. Inclusion requires the primary
-question or main results to directly concern the natural water cycle, physical
-weather/climate, land-atmosphere interactions, hydrometeorological extremes,
-water-resources systems, or methods demonstrated on these processes.
+The shared scope is defined in `relevance_rules.py`. Since 2026-10-19 the
+brief covers hydrological and physical climate processes AND substantive climate
+impacts and responses. Included routes also cover:
 
-Standalone membrane/material design, pollutant reaction kinetics, mineral/crystal
-alteration, and carbon-removal technology potential or cost studies are excluded
-unless their main results directly analyze an included process. Mentioning water,
-climate benefits, environmental applications, or future hydrological modeling is
-insufficient. This is not a spatial-scale cutoff: pore-scale infiltration or soil
-hydraulics can qualify, while a national-scale carbon-removal cost study may not.
+- Climate-driven ecosystem/carbon-cycle responses, including soil respiration,
+  warming/permafrost carbon sinks and nitrogen-carbon coupling.
+- Climate averages, variability and extremes affecting biodiversity, species
+  distributions and ecosystem resilience.
+- Extreme-weather experience, subjective attribution, political affiliation,
+  climate attention, behavior and choices, plus disaster impacts and risk financing.
+- General AI/numerical methods demonstrated on real climate data, even when the
+  same paper also demonstrates non-climate applications.
 
-A clearly relevant title can suffice when no abstract is available; ambiguous
-cases are excluded for insufficient evidence. The reason identifies title-only
-judgments. These standards apply equally to Nature/Science portfolio and PNAS.
+Research Briefings and relevant comments/reviews are eligible. A clear title can
+suffice without an abstract; reasons must explicitly identify title-only evidence.
+Climate must be a substantive question, result or application, not an incidental
+background claim. Standalone materials, medical/molecular biology, generic AI,
+mineral alteration, energy technology costs, ordinary-temperature VOC chemistry
+and geological-hazard studies remain excluded without an included contribution.
+All journals use the same scope; portfolio status does not imply relevance.
 
 Every accepted and rejected decision is logged and saved, along with its input,
 model, prompt and rule version, to `outputs/relevance-review-YYYY-MM-DD.json`.
-This audit precedes sent-DOI exclusion and final daily selection, so a positive
-relevance decision does not necessarily mean a paper was emailed. Partial decisions
-are retained if a later batch fails. Invalid responses are retried; persistent
-failure stops the run before email instead of falling back to keywords.
+This precedes sent-DOI exclusion and final daily selection. Partial decisions are
+retained if a later batch fails; persistent invalid/API responses stop before email.
 
-The optional `live_relevance` input in **Validate paper brief** replays the original 16 papers plus four boundary cases
-from 2026-10-11 against expected scope decisions using the existing API key.
-It saves review/comparison artifacts without sending email or updating sent DOIs.
-
-The scope also excludes standalone volcanology/seismicity, atmospheric pollution
-chemistry/VOC source inventories, organism respiration/isotope fractionation, and
-blooms/productivity without a demonstrated water-cycle or physical-climate result.
-Being affected by temperature or involving fluids/carbon is not sufficient.
+The optional `live_relevance` input in **Validate paper brief** replays 28 real
+papers: 20 earlier process/boundary cases plus eight positive climate-impacts,
+behavior, briefing and methods cases from the 2026-10-19 audit. These include the
+three user-specified DOIs and the previously missed PNAS methods paper. It saves
+review/comparison artifacts without sending email or updating sent DOI records.
 
 **Refresh daily WeChat post** can set `replay_source=true` to apply the latest
 screening, author enrichment and formatting to the exact original daily edition.

@@ -255,6 +255,14 @@ TOPIC_KEYWORDS = (
             "hydrological model transferability",
         ),
     ),
+    (
+        "climate change impacts and responses",
+        (
+            "climate", "warming", "extreme weather", "heat wave",
+            "carbon cycle", "soil respiration", "ecosystem respiration",
+            "permafrost", "climate adaptation", "climate attribution",
+        ),
+    ),
 )
 
 MACHINE_LEARNING_KEYWORDS = (

@@ -26,7 +26,7 @@ on:
         default: false
 
       live_relevance:
-        description: 'Review 2026-10-11 papers under strict scientific scope (no email)'
+        description: 'Review 28 process and climate-impact regression cases (no email)'
         type: boolean
         default: false
 
