@@ -11,6 +11,11 @@ import refresh_wechat_post as refresh
 
 
 class RefreshTests(unittest.TestCase):
+    def setUp(self):
+        recovery = patch.object(main, 'recover_missing_paper_abstracts', side_effect=lambda papers, contact: papers)
+        recovery.start()
+        self.addCleanup(recovery.stop)
+
     def test_replay_reviews_exact_source_and_exports_enriched_papers(self):
         paper = main.Paper('Original', '', 'Nature Water', '2026-09-27', 'today', '', '', 13, '')
         enriched = replace(paper, author_info='Example University。')

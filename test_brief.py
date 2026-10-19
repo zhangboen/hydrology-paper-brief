@@ -33,18 +33,20 @@ class BriefBehaviorTests(unittest.TestCase):
         self.assertNotIn('&lt;sub&gt;', body)
 
 
-    def test_missing_abstract_stops_after_three_attempts(self):
+    def test_empty_abstracts_move_to_next_provider_without_repeating(self):
         session = Mock()
         item = {"DOI": "10.1234/test"}
         with (
             patch.object(main, "fetch_openalex_abstract", return_value="") as openalex,
             patch.object(main, "fetch_semantic_scholar_abstract", return_value="") as semantic,
+            patch.object(main.abstract_sources, "fetch_publisher", return_value=main.abstract_sources.AbstractResult()),
+            patch.object(main.abstract_sources, "fetch_europe_pmc", return_value=main.abstract_sources.AbstractResult()),
             patch.object(main.time, "sleep"),
         ):
             result = main.resolve_crossref_abstract(session, item, "test@example.com")
         self.assertEqual(result, main.ABSTRACT_NOT_AVAILABLE)
-        self.assertEqual(openalex.call_count, 3)
-        self.assertEqual(semantic.call_count, 3)
+        self.assertEqual(openalex.call_count, 1)
+        self.assertEqual(semantic.call_count, 1)
 
     def test_required_terminology_and_journal_abbreviation(self):
         self.assertEqual(journal_abbreviation("Communications Earth & Environment"), "CEE")

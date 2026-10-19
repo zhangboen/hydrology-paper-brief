@@ -7,10 +7,12 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import main as brief
+import abstract_sources
 from wechat_article_builder import write_wechat_article
 
 
 def refresh(source_path: Path, now: datetime | None = None, replay_source: bool = False, additional_source_paths=()) -> list[brief.Paper]:
+    abstract_sources.configure_cache(brief.OUTPUTS_DIR / "abstract-cache.json")
     now = now or datetime.now(timezone(timedelta(hours=8)))
     today = now.astimezone(timezone(timedelta(hours=8))).date()
     source = json.loads(source_path.read_text(encoding="utf-8"))
@@ -66,6 +68,7 @@ def refresh(source_path: Path, now: datetime | None = None, replay_source: bool 
         restored.update({item.doi: item for item in candidates})
         candidates = list(restored.values())
         logging.info("Reviewing %s merged current and archived candidates.", len(candidates))
+    candidates = brief.recover_missing_paper_abstracts(candidates, brief.get_required_env("CONTACT_EMAIL"))
     relevant = brief.filter_hydroclimate_relevant_papers(candidates, audit_dir=brief.OUTPUTS_DIR)
     selected = brief.select_papers(relevant, excluded_dois)
     if not selected:

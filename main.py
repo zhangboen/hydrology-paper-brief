@@ -6,7 +6,7 @@ import smtplib
 import ssl
 import time
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from html import unescape
@@ -15,6 +15,7 @@ from typing import Any
 from urllib.parse import quote
 
 import requests
+import abstract_sources
 from openai import OpenAI
 from title_formatting import clean_title
 from author_metadata import crossref_authors, display_authors, enrich_selected_papers
@@ -47,7 +48,7 @@ ABSTRACT_LOOKUP_MAX_ATTEMPTS = max(1, int(os.getenv("ABSTRACT_LOOKUP_MAX_ATTEMPT
 ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS = max(
     0.0, float(os.getenv("ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS", "2"))
 )
-ABSTRACT_NOT_AVAILABLE = "No abstract available from Crossref, OpenAlex, or Semantic Scholar."
+ABSTRACT_NOT_AVAILABLE = "No abstract available from publisher or configured literature databases."
 OPENAI_RELEVANCE_BATCH_SIZE = max(1, int(os.getenv("OPENAI_RELEVANCE_BATCH_SIZE", "10")))
 OPENAI_RELEVANCE_MAX_ATTEMPTS = max(1, int(os.getenv("OPENAI_RELEVANCE_MAX_ATTEMPTS", "3")))
 
@@ -400,6 +401,9 @@ class Paper:
     author_details: list[dict] = field(default_factory=list)
     author_info: str = ""
     author_metadata: dict = field(default_factory=dict)
+    abstract_source: str = ""
+    abstract_kind: str = "abstract"
+    abstract_url: str = ""
 
     def __post_init__(self):
         object.__setattr__(self, 'title', clean_title(self.title))
@@ -537,41 +541,32 @@ def resolve_crossref_abstract(
     if not doi:
         return ABSTRACT_NOT_AVAILABLE
 
-    providers = (
-        ("OpenAlex", lambda: fetch_openalex_abstract(session, doi, contact_email)),
-        ("Semantic Scholar", lambda: fetch_semantic_scholar_abstract(session, doi)),
-    )
-    for attempt in range(1, ABSTRACT_LOOKUP_MAX_ATTEMPTS + 1):
-        LOGGER.info(
-            "Abstract search attempt %s/%s for DOI %s.",
-            attempt,
-            ABSTRACT_LOOKUP_MAX_ATTEMPTS,
-            doi,
-        )
-        for provider_name, fetch_abstract in providers:
-            try:
-                abstract = fetch_abstract()
-            except (requests.RequestException, ValueError) as exc:
-                LOGGER.warning(
-                    "%s abstract lookup failed for DOI %s on attempt %s: %s",
-                    provider_name,
-                    doi,
-                    attempt,
-                    exc,
-                )
-                continue
-            if abstract:
-                LOGGER.info("Recovered abstract for DOI %s from %s.", doi, provider_name)
-                return abstract
-        if attempt < ABSTRACT_LOOKUP_MAX_ATTEMPTS:
-            time.sleep(ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS)
+    result = abstract_sources.recover(
+        session, doi, item,
+        [("OpenAlex", lambda: fetch_openalex_abstract(session, doi, contact_email)),
+         ("Semantic Scholar", lambda: fetch_semantic_scholar_abstract(session, doi))],
+        attempts=ABSTRACT_LOOKUP_MAX_ATTEMPTS,
+        timeout=ABSTRACT_LOOKUP_TIMEOUT_SECONDS,
+        sleep_seconds=ABSTRACT_LOOKUP_RETRY_SLEEP_SECONDS)
+    return result.text or ABSTRACT_NOT_AVAILABLE
 
-    LOGGER.info(
-        "Stopping abstract search for DOI %s after %s unsuccessful attempt(s).",
-        doi,
-        ABSTRACT_LOOKUP_MAX_ATTEMPTS,
-    )
-    return ABSTRACT_NOT_AVAILABLE
+
+def recover_missing_paper_abstracts(papers, contact_email):
+    """Retry incomplete archived selections without replacing existing text."""
+    recovered = []
+    with requests.Session() as session:
+        for paper in papers:
+            if (paper.abstract and paper.abstract != ABSTRACT_NOT_AVAILABLE) or paper.doi.startswith('arxiv:'):
+                recovered.append(paper)
+                continue
+            text = resolve_crossref_abstract(session, {'DOI': paper.doi, 'URL': paper.url}, contact_email)
+            if text == ABSTRACT_NOT_AVAILABLE:
+                recovered.append(paper)
+                continue
+            evidence = abstract_sources.provenance(paper.doi)
+            recovered.append(replace(paper, abstract=text, abstract_source=evidence.source,
+                                     abstract_kind=evidence.kind, abstract_url=evidence.url))
+    return recovered
 
 
 def clean_arxiv_text(raw_text: str | None) -> str:
@@ -739,7 +734,12 @@ def paper_from_crossref_item(
     url = text_from_crossref(item.get("URL")) or f"https://doi.org/{doi}"
     abstract = abstract or clean_abstract(text_from_crossref(item.get("abstract")))
 
+    evidence = abstract_sources.provenance(doi)
+    recovered = evidence.text == abstract
     return Paper(
+        abstract_source=evidence.source if recovered else ("Crossref" if abstract and abstract != ABSTRACT_NOT_AVAILABLE else ""),
+        abstract_kind=evidence.kind if recovered else "abstract",
+        abstract_url=evidence.url if recovered else "",
         title=title,
         authors=format_authors(item.get("author")),
         author_details=crossref_authors(item.get("author") or []),
@@ -1109,6 +1109,7 @@ def filter_hydroclimate_relevant_papers(papers: list[Paper], audit_dir: Path | N
                 "index": index,
                 "title": paper.title,
                 "journal": paper.journal,
+                "content_kind": paper.abstract_kind,
                 "abstract": "" if paper.abstract == ABSTRACT_NOT_AVAILABLE else paper.abstract,
             }
             for index, paper in enumerate(batch)
@@ -1169,6 +1170,8 @@ def filter_hydroclimate_relevant_papers(papers: list[Paper], audit_dir: Path | N
         for paper, decision in zip(batch, decisions):
             audit["decisions"].append({
                 "doi": paper.doi, "title": paper.title, "journal": paper.journal,
+                "abstract_source": paper.abstract_source, "abstract_kind": paper.abstract_kind,
+                "abstract_url": paper.abstract_url,
                 "abstract": "" if paper.abstract == ABSTRACT_NOT_AVAILABLE else paper.abstract or "",
                 "evidence_basis": "title_and_abstract" if paper.abstract and paper.abstract != ABSTRACT_NOT_AVAILABLE else "title_only",
                 "relevant": decision["relevant"], "reason": decision["reason"].strip(),
@@ -1268,7 +1271,7 @@ def build_email_body(papers: list[Paper]) -> str:
                 f"Identifier: {paper.doi}",
                 f"URL: {paper.url}",
                 *(
-                    [f"Abstract: {paper.abstract}"]
+                    [f"{'Publisher summary' if getattr(paper, 'abstract_kind', 'abstract') == 'publisher_summary' else 'Abstract'}: {paper.abstract}"]
                     if paper.abstract and paper.abstract != ABSTRACT_NOT_AVAILABLE
                     else []
                 ),
@@ -1348,6 +1351,7 @@ def main() -> None:
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
     )
 
+    abstract_sources.configure_cache(OUTPUTS_DIR / "abstract-cache.json")
     contact_email = get_required_env("CONTACT_EMAIL")
     sent_dois = load_sent_dois()
     candidates = filter_hydroclimate_relevant_papers(fetch_candidate_papers(contact_email), audit_dir=OUTPUTS_DIR)

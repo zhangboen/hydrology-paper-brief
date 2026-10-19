@@ -274,3 +274,29 @@ screening, author enrichment and formatting to the exact original daily edition.
 This retains the original candidate set instead of using a moving search window.
 The default refresh still searches again. Both modes save the relevance audit and
 generate HTML; neither sends email or publishes to the WeChat backend.
+
+
+## Abstract recovery and provenance (2026-10-19)
+
+Abstract lookup now tries Crossref metadata, a 30-day DOI cache, the publisher's
+DOI-verified article page, Europe PMC core records, OpenAlex and Semantic Scholar.
+The publisher parser requires an exact DOI match, prioritizes explicit abstract
+sections/metadata, and does not use social-media/SEO snippets as abstracts.
+Nature comments, interviews, editorials and Research Briefings may provide an
+official standfirst rather than a formal abstract: these are stored separately as
+`abstract_kind=publisher_summary` and labeled Publisher summary in email.
+Selected paper JSON and relevance audits record source, kind and source URL.
+
+Only successful results are cached in `outputs/abstract-cache.json`, preserved by
+the daily output commit. Missing abstracts are not permanently cached: new papers
+can be retried after indexing catches up. Empty results immediately advance to the
+next provider. Transient transport/server errors use bounded exponential retries;
+HTTP 401/403/429 disables that provider (or publisher host) for the remainder of
+the run, avoiding repeated requests against a shared quota or access block.
+
+Optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` repository secrets are
+forwarded to the corresponding providers. No key is required for publisher or
+Europe PMC recovery. The `live_abstracts` validation input checks seven articles
+that lacked text in the original 2026-10-19 edition without sending email, changing
+sent DOI records or creating a WeChat draft. Reports retain recovered original
+text and provenance and distinguish full abstracts from official summaries.

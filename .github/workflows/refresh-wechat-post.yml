@@ -36,6 +36,8 @@ jobs:
       - name: Search, screen, rank, and regenerate today's post
         env:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}

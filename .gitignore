@@ -7,3 +7,5 @@ outputs/*
 !outputs/.gitkeep
 !outputs/wechat-post-*.html
 !outputs/wechat-post-*.json
+
+!outputs/abstract-cache.json

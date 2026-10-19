@@ -10,6 +10,10 @@ on:
   pull_request:
   workflow_dispatch:
     inputs:
+      live_abstracts:
+        description: 'Recover seven missing abstracts/official summaries without sending email'
+        type: boolean
+        default: false
       live_metadata:
         description: 'Validate one public HESS paper with web search (no email)'
         type: boolean
@@ -44,7 +48,14 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - name: Offline regression tests
-        run: python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py test_relevance_rules.py test_refresh.py
+        run: python -m unittest -v test_brief.py test_author_metadata.py test_joh_selection.py test_rse_discovery.py test_priority_screening.py test_relevance_rules.py test_refresh.py test_abstract_sources.py
+      - name: Live abstract availability validation
+        if: github.event_name == 'workflow_dispatch' && inputs.live_abstracts
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: python validate_abstract_sources.py
       - name: Live author metadata validation
         if: github.event_name == 'workflow_dispatch' && inputs.live_metadata
         env:
@@ -69,7 +80,7 @@ jobs:
           OPENAI_RELEVANCE_MODEL: ${{ secrets.OPENAI_RELEVANCE_MODEL }}
         run: python validate_relevance_rules.py
       - uses: actions/upload-artifact@v4
-        if: always() && github.event_name == 'workflow_dispatch' && (inputs.live_metadata || inputs.live_selection || inputs.live_rse || inputs.live_relevance)
+        if: always() && github.event_name == 'workflow_dispatch' && (inputs.live_abstracts || inputs.live_metadata || inputs.live_selection || inputs.live_rse || inputs.live_relevance)
         with:
           name: author-metadata-validation
           path: validation-output/
