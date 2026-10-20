@@ -47,5 +47,250 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-78423-x",
     "checked_at": "2026-10-19T08:59:45.919038+00:00"
+  },
+  "10.1038/d41586-026-03315-5": {
+    "text": "Researchers working on climate change, diversity, transgender health and international aid have turned to lawsuits, private donors and alternative topics to keep their projects going.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03315-5",
+    "checked_at": "2026-10-20T00:37:07.865176+00:00"
+  },
+  "10.1038/d41586-026-03275-w": {
+    "text": "A Nature investigation identified more than 30 requests since 2024 to US universities in a campaign questioning climate attribution science.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03275-w",
+    "checked_at": "2026-10-20T00:37:08.466307+00:00"
+  },
+  "10.1038/d41586-026-02623-0": {
+    "text": "More than 20 years after Hurricane Katrina, universities in New Orleans have learnt what it takes to rebuild from ruin — including what gets in the way.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02623-0",
+    "checked_at": "2026-10-20T00:37:08.911623+00:00"
+  },
+  "10.1038/d41586-026-03228-3": {
+    "text": "Although worries are growing about AI's potential to blunt reasoning skills, research has uncovered ways to keep the brain sharp. Listen to an audio version of a recent Nature Feature.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03228-3",
+    "checked_at": "2026-10-20T00:37:09.505427+00:00"
+  },
+  "10.1038/d41586-026-03237-2": {
+    "text": "Scientists improve photon-collecting device that could be used to connect multiple quantum-computing arrays.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03237-2",
+    "checked_at": "2026-10-20T00:37:10.108649+00:00"
+  },
+  "10.1038/d41586-026-03265-y": {
+    "text": "Different effects of low-dose psychedelics on sustained attention in women and men deserve further investigation.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03265-y",
+    "checked_at": "2026-10-20T00:37:10.536520+00:00"
+  },
+  "10.1038/d41586-026-03309-3": {
+    "text": "Analysing national research systems by using open-access data and new methods can help countries to learn from each other.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03309-3",
+    "checked_at": "2026-10-20T00:37:10.966330+00:00"
+  },
+  "10.1038/d41586-026-03312-8": {
+    "text": "Neuroscience is mapping changes in the brain during pregnancy. What they mean for future health is yet to be pinned down.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03312-8",
+    "checked_at": "2026-10-20T00:37:13.380498+00:00"
+  },
+  "10.1038/d41586-026-03313-7": {
+    "text": "Large language models can mimic thought and feeling with uncanny skill. But evidence from neuroscience suggests that intelligence alone is not enough for subjective experience.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03313-7",
+    "checked_at": "2026-10-20T00:37:14.622975+00:00"
+  },
+  "10.1038/s41586-026-11293-x": {
+    "text": "Revealing how distributed cortical circuits coordinate behavior in freely moving animals remains a central challenge in systems neuroscience, constrained by limited fields of view, low throughput, and the tethering required by current miniaturized microscopes 1-4 . Here, we present Airscope, a wireless mesoscope delivering 4 μm lateral resolution across a 6 mm field of view at 12.5 Hz, weighing 1.0 gram. An aspheric-lens design achieves a 2.84× shorter total track length than previous miniaturized microscopes 1,2,5,6 while matching the neuron yield of benchtop one-photon mesoscopes; a tailored wireless link supports cable-free calcium imaging from >8,500 neurons per animal (25‑fold increase). Paired with a zero-shot behavior analyzer, Airscope enables cortical imaging across rich behavioral conditions, including room-scale enriched arenas, swimming assays, and multi-organ implantation, with concurrent recording from multiple animals. Using Airscope, we demonstrate versatile applications of untethered cortical imaging across diverse behavioral paradigms. We identify cortical activity patterns across multiple dorsal regions that correlate with behavioral signatures of social dominance, and show dorsal-cortical population activity prospectively decodes competition outcomes across paired animals. We observe reward-location-associated cortical activity patterns during maze exploration, and characterize Granger-causal influence from spinal cord to cortex during fear conditioning, enabled by simultaneous brain-spinal recordings. By uniting large-scale, cellular-resolution recording with unconstrained behavior, Airscope makes naturalistic, multi-animal cortical recording experimentally practical, and provides a broadly accessible technology for systems neuroscience.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11293-x",
+    "checked_at": "2026-10-20T00:37:15.469568+00:00"
+  },
+  "10.1038/s41558-026-02770-2": {
+    "text": "A resilient society must prepare not only for common harms but also for uncommon vulnerabilities, such as rare disease where the consequences leave no room for failure. Ensuring that people with rare diseases have reliable access to essential care is crucial for fairness and safety in a changing climate.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41558-026-02770-2",
+    "checked_at": "2026-10-20T00:37:18.769715+00:00"
+  },
+  "10.1038/s41561-026-02135-6": {
+    "text": "Dryland ecosystems store large amounts of both soil organic and inorganic carbon, yet the responses of soil inorganic carbon to global environmental change remain largely overlooked despite the potential vulnerability of this carbon pool. Here we aim to determine how soil inorganic and organic carbon respond to multiple global change drivers (warming, reactive nitrogen input and altered precipitation) using an 8-year field manipulation experiment in a semi-arid grassland and a meta-analysis based on 44 observations. We found that altered precipitation has no effect on soil inorganic carbon, but warming and nitrogen input interactively affect it. Specifically, nitrogen input alone does not affect soil inorganic carbon, but it increases soil inorganic carbon loss (~9.1%) when combined with climate warming. This inorganic carbon loss co-occurs with enhanced microbial nitrogen mineralization and nitrification, suggesting that enhancement of proton production due to nitrification controls soil inorganic carbon dissolution and persistence. Furthermore, both the field study and meta-analysis show that nitrogen input and/or warming induce contrasting changes in soil inorganic and organic carbon, suggesting a trade-off between soil inorganic and organic carbon under these two major global change drivers. These results highlight the need to account for the vulnerability of soil inorganic carbon when predicting dryland carbon dynamics under future climate change scenarios.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41561-026-02135-6",
+    "checked_at": "2026-10-20T00:37:19.885006+00:00"
+  },
+  "10.1038/s41561-026-02124-9": {
+    "text": "Uncritical extrapolation of soil erosion models developed in the Global North to Global South settings for which they were not designed reflects and perpetuates neocolonial biases in geoscience. To build a more accurate and equitable understanding of land degradation, we must rethink erosion research.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41561-026-02124-9",
+    "checked_at": "2026-10-20T00:37:20.343786+00:00"
+  },
+  "10.1038/s41467-026-78685-5": {
+    "text": "The quality of the barrier layer (BL) directly determines the long-term stability of thermoelectric (TE) modules. Conventional BLs struggle to simultaneously achieve thermal expansion matching with TE materials and robust diffusion-blocking capability. Here we show a bimetallic multilayer BL strategy that ensures thermal expansion matching while constructing a controllable interfacial stress field to inhibit element diffusion. Taking skutterudite (SKD) as an example, we construct a BL with alternating Nb and Cu layers, in which Nb serves as the primary diffusion barrier, while Cu tailors the effective thermal expansion behavior and regulates the stress field at the SKD/Nb interface via Nb/Cu back stress, thereby achieving mechanical stability and a strong diffusion-blocking effect. After aging at 823 K for 60 days, the SKD/Nb-Cu interface remains intact and maintains a low contact resistivity ( < 1 μΩ·cm²). Furthermore, the strategy proves effective in Bi 2 Te 3 - and GeTe-based TE systems, demonstrating its universality.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78685-5",
+    "checked_at": "2026-10-20T00:37:22.047704+00:00"
+  },
+  "10.1038/s41467-026-78814-0": {
+    "text": "The cyclin-dependent kinase CDK11 is an understudied kinase that has been the subject of conflicting reports regarding its function in cancer. Here, we combine genetic and pharmacological approaches to demonstrate that CDK11 is a critical regulator of cancer cell survival that is required for RNA splicing and the expression of homologous recombination genes. Inhibition of CDK11 disrupts genome stability, promotes the retention of intronic sequences in mature mRNAs, and induces synthetic lethality with PARP inhibitors. Through integrative analysis of functional genomics datasets, we identify heterozygous deletions of chromosome 1p36 - which encompasses CDK11 and its activating cyclin CCNL2 - as a recurrent and predictive biomarker of sensitivity to CDK11 inhibition. To assess the therapeutic potential of CDK11, we establish a genetically-engineered mouse model that allows us to differentiate between the on-target and off-target effects of CDK11 inhibitors in vivo. Using this platform, we demonstrate that MEL-495R, an orally bioavailable CDK11 inhibitor, induces widespread on-target toxicity, revealing a narrow therapeutic index. Experiments with a chemically distinct CDK11 inhibitor similarly reveal minimal anti-cancer activity at tolerable doses. Together, these findings define CDK11 as a core cancer dependency, uncover a chromosomal deletion that sensitizes tumors to CDK11 inhibition, demonstrate that on-target toxicity limits the efficacy of CDK11-targeting therapies, and provide a generalizable strategy for deconvolving drug efficacy and toxicity in vivo for novel oncology targets.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78814-0",
+    "checked_at": "2026-10-20T00:37:22.469539+00:00"
+  },
+  "10.1038/s41467-026-78852-8": {
+    "text": "Hosts and their microbiomes coexist in a shared environment, engaging in dynamic interactions that are essential to maintaining health and modulating disease processes. To fully understand these interactions, spatially resolved and unbiased approaches are needed to map gene expression from both host and microbial cells within their native tissue context. Here, we present microDBiT, a spatial transcriptomic platform that enables simultaneous, high-resolution profiling of host and bacterial RNAs, including both mRNA and rRNA. Using microDBiT, we mapped the spatial distribution of host and microbial transcripts in the ileum and colon of germ-free mice, gnotobiotic mice colonized with a defined gut microbial community, and specific pathogen-free mice treated with dextran sulfate sodium (DSS) to induce colitis. We observed location-specific transcriptomic alterations in both host and bacterial cells in response to colonization and during inflammation. These results demonstrate the utility of microDBiT for dissecting host-microbiome interactions at high resolution and provide new insights into immune responses, spatial microbial localization, and microbiome-associated disease processes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78852-8",
+    "checked_at": "2026-10-20T00:37:23.987659+00:00"
+  },
+  "10.1038/s41467-026-78435-7": {
+    "text": "Gasdermin pores formed by the processed N-terminal domain of gasdermin family members induce pyroptotic cell death and are involved in multiple diseases. Gasdermin B (GSDMB) is cleaved by granzyme-A (GZMA) from killer lymphocytes, triggering pyroptosis in targeted cancer cells to enhance antitumor immunity. Previous research has indicated that the substrate specificity of GZMA is determined by interactions outside the catalytic site, but the molecular mechanism by which the exosite of GZMA recognizes GSDMB is not well understood. Here we report the cryo-EM structure of human GSDMB in complex with GZMA, revealing the specific recognition of GSDMB-CTD by GZMA. Several association interfaces between GSDMB-CTD and the GZMA monomer or the GZMA dimeric interface were uncovered, in addition to the cleavage sequence bound to the GZMA active site. These contacts function as exosites and present GSDMB substrate to the adjacent GZMA for trans -cleavage. Our results suggest that GZMA specifically recognizes and cleaves GSDMB in a GZMA dimerization interface-dependent manner, implying that a similar mechanism may be applicable to other physiological substrates of granzymes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78435-7",
+    "checked_at": "2026-10-20T00:37:24.383603+00:00"
+  },
+  "10.1038/s41467-026-78609-3": {
+    "text": "A common feature of temperate phages is their ability to protect their host bacteria from a second phage infection. This protection occurs during the lysogenic state, when the phages remain as prophages integrated into the bacterial chromosome and express genes that defend both the host and themselves against predation. Here, we report a prophage-encoded anti-phage defence system that inhibits DNA packaging of invading phages in Listeria monocytogenes . This system includes a defence protein, TerI, and two self-immunity proteins, anti-TerI1 and anti-TerI2. TerI targets the terminase complex of invading phages to prevent DNA translocation into procapsids, without halting the lytic cycle, thereby releasing unpacked, non-infectious procapsids upon bacterial lysis. Conversely, the self-immunity proteins, anti-TerI1 and anti-TerI2, counteract TerI during prophage induction, thereby facilitating virion production. We found that the prophage-encoded anti-phage defence system, TERi, is common in Listeria phages, offering population-level host protection without compromising the prophage’s lytic lifecycle.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78609-3",
+    "checked_at": "2026-10-20T00:37:24.936278+00:00"
+  },
+  "10.1038/s41467-026-78462-4": {
+    "text": "Periprosthetic joint infection (PJI) is a devastating complication of total joint arthroplasty, mainly caused by bacterial biofilm formation and antibiotic resistance. Traditional static surfaces rely on contact killing-based bactericidal properties and cannot reliably clear mature biofilms. In this study, we fabricate a remote-activated dynamic biomimetic system, namely a movable magnetic topographic surface (MMTS). Here we show that under the exposure of external electromagnetic field (EMF), the anchored Janus nano-heterodimers oscillate periodically to mechanically disrupt bacterial membranes and eradicates biofilms of Staphylococcus aureus and Escherichia coli . This mechanical force can also activates Piezo1 mechanosensitive ion channel in bone marrow mesenchymal stem cells (BMSCs), inducing calcium oscillations, upregulating gene expression of Runx2 and BMP2, and enhancing extracellular matrix mineralization. In vivo, MMTS combined with EMF exposure eliminates local infection and promoted osseointegration. This remote-activated dynamic biomimetic strategy offers a promising multifunctional platform for PJI treatment, and improved implant osteointegration in clinical orthopedics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78462-4",
+    "checked_at": "2026-10-20T00:37:25.529847+00:00"
+  },
+  "10.1038/s41467-026-78766-5": {
+    "text": "Predictive biomarkers are increasingly used to guide clinical trial design, diagnosis, and management of patients with neurodegenerative diseases. We profiled plasma from 632 ALS patients and 160 healthy controls using the NULISA CNS and Inflammation Panels and applied eXtreme Gradient Boosting (XGBoost) with nested cross-validation and SHapley Additive exPlanations (SHAP) to identify disease-associated proteins. A 12-protein candidate panel was refined using SHAP feature importance and absolute quantification, then evaluated in an independent validation cohort (144 ALS, 37 controls). We identified a final 10-protein panel (NEFL, FOLR1, pTau-181, TREM1, VEGFA, NEFH, CALCA, NRGN, LAMP3, and PTX3) that achieved high classification performance (balanced accuracy 98.3%; AUC 0.992). Model performance was driven by plasma proteomic signatures rather than clinical variables and was not dependent on neurofilament light chain alone. Representing over 750 ALS cases, this study supports development of a clinically deployable blood-based ALS screening tool.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78766-5",
+    "checked_at": "2026-10-20T00:37:25.928654+00:00"
+  },
+  "10.1038/s41467-026-78269-3": {
+    "text": "Many complex networks display remarkable resilience under external perturbations, internal failures and environmental changes, yet they can swiftly deteriorate into dysfunction upon the removal of a few keystone nodes. Discovering formulas that measure network resilience offers the potential to prevent catastrophic collapses—from species extinctions to financial crises—with profound implications for real-world systems. Existing resilience metrics are typically designed to characterize topological properties, whereas in many real systems resilience is defined by the dynamics imposed on the network; consequently, metrics that explicitly incorporate dynamical state information are expected to be better suited for identifying keystone nodes in such settings. Here, we report an automatic method for resilience metric discovery, which learns from how machine learning model solves a complicated network dismantling problem and symbolizes its network attack strategies into mathematical formulas. This proposed self-inductive approach discovers a resilience formula that accounts for both topology and dynamics, highlighting how the correlation between node degree and state shapes overall network resilience. Additionally, our approach discovers formulas that refine existing well-established resilience metrics with over 37.5% improvement in accuracy, significantly advancing human understanding of complex networks with machine learning.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78269-3",
+    "checked_at": "2026-10-20T00:37:27.245117+00:00"
+  },
+  "10.1038/s41467-026-77278-6": {
+    "text": "Imbalanced skeletal muscle mitochondrial dynamics contribute to the onset and progression of type 2 diabetes (T2D) by mechanisms that remain incompletely understood. Here, we examined the role of Mitochondrial Rho GTPase 1 (Miro1), an outer mitochondrial membrane enzyme, in regulating skeletal muscle insulin action and glucose homeostasis in type 2 diabetes (T2D). In a cross-sectional clinical study, we show that Miro1 accumulates in the skeletal muscle of patients with obesity and T2D, which was further replicated in mouse models of T2D. This accumulation is explained by inadequate insulin-mediated interaction between AKT and Miro1 at the outer mitochondrial membrane. In a randomized controlled trial (NCT02977442), we show that exercise training relieves skeletal muscle Miro1 accumulation while improving insulin sensitivity in patients with T2D. Muscle-specific Miro1 deletion improves oxidative capacity and insulin sensitivity in mice and cells. Taken together, these data support a key regulatory role for skeletal muscle Miro1 in the pathophysiology of T2D. ClinicalTrials.gov Identifier: NCT02977442",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77278-6",
+    "checked_at": "2026-10-20T00:37:27.909303+00:00"
+  },
+  "10.1038/s41467-026-78568-9": {
+    "text": "Human societies are drawing on wild species for food, fuel, medicines, and recreation. Yet, it remains unclear whether different types of human use target species with common or unique ecological roles. Here we show that humans use a fourth (26%) of the freshwater fish species and these species occupy almost half (45.2%) of the global spectrum of fish morphological diversity. Yet, used species harbour unique trait combinations, that differ according to the way humans use the species such as fisheries, aquaculture, game fish and aquarium. Moreover, the species targeted by humans are characterised by traits that are predominantly associated with threatened species. By simulating the extinction of threatened species used by humans, we revealed a pronounced and non-random erosion of the morphological spectrum. Understanding the trait-based impacts of human use is thus essential to buffer human impact on natural resources. Conservation should therefore safeguard threatened species but also preserve irreplaceable trait combinations that support unique ecological strategies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78568-9",
+    "checked_at": "2026-10-20T00:37:28.544615+00:00"
+  },
+  "10.1038/s41467-026-78356-5": {
+    "text": "Individual variation in human attractiveness to mosquitoes critically influences vector-borne disease transmission, and this phenomenon arises from multiple underlying factors. This study integrated human skin microbiome profiling, non-human primate in situ intervention, and volatilomics to uncover a microbial-mediated mechanism underlying host-specific mosquito repellency. Bacillus species were identified as a microbial signature associated with reduced mosquito attraction in humans. Targeted Intervention of B. licheniformis and B. paralicheniformi s on primate skin was sufficient to significantly reduce mosquito attraction, thereby establishing a causal microbial contribution beyond descriptive correlations. Mechanistic analyses revealed that Bacillus enrichment reprogrammed the skin volatilome, specifically increasing the abundance of aromatic and fatty acid-derived effectors, such as p-Cresol and decanoic acid, which are associated with repellency phenotypes. Together, these findings revealed a potential role of skin commensals in shaping mosquito host-seeking behavior, providing a molecular basis for microbiome-informed and bio-inspired strategies for mosquito disease control.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78356-5",
+    "checked_at": "2026-10-20T00:37:29.054261+00:00"
+  },
+  "10.1038/s41467-026-78624-4": {
+    "text": "This study introduces a highly efficient, transition-metal-free method for upcycling polystyrene (PS) waste using alkali metal hydrides, specifically KH, as a catalyst. Operating under mild conditions (130 °C, 1 bar H₂, 3 hours), KH achieves an impressive 93.2% yield of gaseous products and alkylbenzenes, with 95.8% selectivity toward alkylbenzenes. The production rate of 313.3 mmol carbon /g KH /h is approximately 2.6 times higher than noble-metal catalysts operating at much higher temperatures (280 °C). This versatile approach is effective on diverse real-life PS waste. Mechanistically, depolymerization is driven by a synergy between direct hydride-induced H δ+ (C) abstraction and K + ···π interactions with adjacent phenyl rings. This interaction elongates the C(sp³)–C(sp³) bonds, facilitating targeted cleavage into alkylbenzenes. Ultimately, this work establishes hydride catalysis as an energy-efficient platform for plastic depolymerization, providing crucial insights for designing mild-condition catalysts to address the global plastic waste crisis.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78624-4",
+    "checked_at": "2026-10-20T00:37:30.741708+00:00"
+  },
+  "10.1038/s41467-026-78724-1": {
+    "text": "Capacitive energy storage under high operating temperatures and electric fields exceeds the limits of most commercial polymers. While crosslinking can, in principle, enhance electro-thermal stability of polymers, conventional approaches remain severely constrained by their reliance on polymer-specific chemistries and often introduce defects that compromise insulation. Herein we present a polymer-agnostic crosslinking platform based on nitrene-mediated C–H insertion, enabling substantial performance and stability improvement across chemically diverse commercial dielectric polymers. Using polyetherimide as a benchmark, the crosslinked film delivers a discharged energy density of 6.0 J cm −3 with >90% efficiency at 200 °C, along with robust cycling stability ( > 1 × 10 5 cycles) under harsh operational conditions (at 500 MV m −1 ) and a projected service lifetime of 60 years under standard industrial fields. This work establishes a facile and practical pathway to upgrade existing industrial polymers for reliable operation under harsh environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78724-1",
+    "checked_at": "2026-10-20T00:37:31.162551+00:00"
+  },
+  "10.1038/s41467-026-78759-4": {
+    "text": "The exponential growth of global data volume is driving an urgent need for novel storage medium. Deoxyribonucleic Acid (DNA), nature’s genetic repository, presents a transformative solution with data storage density and lifespan orders of magnitude higher than conventional media. However, scaling DNA storage has been hindered by the complexity of codec algorithms, the generation of biochemically problematic sequences, and the absence of robust architecture for large-scale data. We present DNA-SaM, a system integrating highly efficient encoding, stringent biochemical constraint checks, and a storage unit distribution paradigm facilitated by a two-tiered indexing architecture. DNA-SaM demonstrates linear encoding time complexity and substantially reduced encoding time compared with representative approaches by in silico analysis. Critically, it proactively excludes sequences such as homopolymer runs, tandem repeats, and potential promoter motifs that could interfere with downstream biochemical processes, showing improved compatibility with in vitro and in vivo applications. It is further validated by practical data storage both in vitro and in vivo with a 100% success rate. On the basis of its encoding scheme and sequence design space, DNA-SaM could theoretically store data exceeding 2 70 petabytes (PB), marking an advancement in the scalability of DNA-based data storage.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78759-4",
+    "checked_at": "2026-10-20T00:37:31.727104+00:00"
+  },
+  "10.1038/s41467-026-78833-x": {
+    "text": "Over-the-counter hearing aids may improve access to hearing care, but the level of support older adults need remains uncertain. In this multicenter, three-arm, pragmatic randomized controlled trial at ten community health centers in three Chinese cities, 322 adults aged 50 years or older with untreated bilateral hearing loss were randomly assigned (1:1:1) to self-fitting ( n = 108), primary care physician support ( n = 107), or remote audiologist support ( n = 107). Outcome assessors and statisticians were masked. The primary outcome was hearing aid benefit on the Abbreviated Profile of Hearing Aid Benefit at 3 months. Here we show that both supported models produce greater benefit than self-fitting, with adjusted mean differences of 12.20 (95% confidence interval 7.18 to 17.22) for remote support and 9.71 (4.74 to 14.67) for primary care physician support. Hearing-related quality of life, satisfaction, speech recognition and device use also favor supported care, and differences persist at 12 months. One participant in the self-fitting group died of stroke. No intervention-related serious adverse events occurred. At 12 months, incremental costs per quality-adjusted life-year gained are $167.16 for physician support and $361.17 for remote support. Structured support improves the effectiveness of over-the-counter hearing aids in older adults. Chinese Clinical Trial Registry: ChiCTR2400086117.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78833-x",
+    "checked_at": "2026-10-20T00:37:32.306460+00:00"
+  },
+  "10.1038/s41467-026-78594-7": {
+    "text": "Controlling crystallization can tailor crystal properties, yet directing the supramolecular organization of small bio-based molecules remains challenging because of their configurational diversity and chemical complexity. Here, we direct the self-assembly of birch-bark-derived betulin (BT), a nonionic triterpene, into twisted supramolecular nanoribbons (BT_S). By interrupting classical nanolayer restacking and coupling interfacial dynamics with amphiphilic balance, surfactant- and salt-mediated antisolvent crystallization perturbs growth symmetry and biases directional molecular packing. The resulting twisted nanoribbons exhibit defined dimensions (width ~200 nm, thickness ~50 nm and ∼3.6 μm pitch) and aligned BT nanolayers with ~1.3 nm interlayer spacing. Polarization-resolved optical coherence tomography reveals depth-resolved mesoscale polarization anisotropy and links ribbon topology to effective refractive index and linear and circular birefringence. Molecular dynamics simulations support cooperative twisting driven by hydrophobic interactions and London dispersion forces. This crystallization-mediated strategy enables multiscale periodicity and tunable optical anisotropy, expanding opportunities for sustainable soft photonic and optoelectronic materials derived from biomolecules.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78594-7",
+    "checked_at": "2026-10-20T00:37:33.697282+00:00"
+  },
+  "10.1038/s41467-026-78413-z": {
+    "text": "Immune checkpoint inhibitors plus gemcitabine and cisplatin (GC) are standard first-line treatment for advanced biliary tract cancer (BTC). Here we report BicureX (ChiCTR2300073023), a single-centre, open-label, single-arm phase II trial of cadonilimab, an anti-PD-1/CTLA-4 bispecific antibody, plus GC for unresectable locally advanced or metastatic BTC. Patients received up to eight combination cycles followed by cadonilimab maintenance. The primary endpoint was objective response rate (ORR) per Response Evaluation Criteria in Solid Tumours version 1.1 (RECIST v1.1); secondary endpoints included disease control rate (DCR), duration of response (DoR), progression-free survival (PFS), overall survival (OS), and safety. Sixty-one patients were enrolled. At a median follow-up of 23.5 months, ORR was 55.7% (34/61; 95% confidence interval, 42.4–68.5%), meeting the prespecified Simon two-stage efficacy criterion. DCR was 85.2%, median DoR 6.1 months, PFS 8.0 months, and OS 15.6 months. Grade ≥3 adverse events (AEs) occurred in 68.9% and grade ≥3 immune-related adverse events (irAEs) in 18.0%; no death was adjudicated as treatment-related. Proteomics identified a post-hoc exploratory three-protein response-associated signal without significance after false discovery rate correction. These findings support further randomized evaluation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78413-z",
+    "checked_at": "2026-10-20T00:37:34.093473+00:00"
+  },
+  "10.1038/s44221-026-00715-9": {
+    "text": "Ion-selective separations are essential for water treatment and resource circularity, yet conventional selectivity metrics provide limited practical value. We present an integrative framework that standardizes the evaluation across different separation technologies, where selectivity, purity and water recovery can be visualized on a single plot. To demonstrate the necessity of this framework, we analyse the selective performance of electrodialysis and membrane capacitive deionization (MCDI), and we reveal their different selective separation behaviour. We further identify two advantages unique to MCDI: (1) electrode-enhanced selectivity and (2) cyclic operation enabling infinite selectivity, allowing complete removal of target ions while achieving zero removal of competing ions, based on distinct ions’ absorption/desorption dynamics. By mapping electrodialysis and MCDI separation results using the proposed framework, we demonstrate the advantages of a flexible analysis of different removal regimes in a concise manner and a unified visualization of selectivity and removal/recovery ratios.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00715-9",
+    "checked_at": "2026-10-20T00:37:35.579381+00:00"
+  },
+  "10.1038/s44221-026-00740-8": {
+    "text": "The human right to water is well established in law, but putting it into practice remains difficult across diverse hydrological, social and governance contexts. A proactive, contextual approach can link water-security and governance conditions to challenges in realizing the right. This can help to anticipate problems before harm occurs and strengthen existing due-diligence and stewardship processes.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s44221-026-00740-8",
+    "checked_at": "2026-10-20T00:37:36.021041+00:00"
+  },
+  "10.1016/j.rse.2026.115738": {
+    "text": "Landsat has provided an indispensable foundation for field-scale evapotranspiration (ET) mapping but is constrained by its overpass temporal frequency. Although integrating additional thermal data offers a pathway to bridge this gap, the magnitude of improvement varies across observation characteristics and surface context and remains less understood. Here, ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) is used as an additional thermal source on top of the Landsat baseline to evaluate the value of more frequent thermal observations for improving field-scale ET time series. We implemented a Google Earth Engine -based Disaggregated Atmosphere-Land Exchange Inverse + Data Mining Sharpener framework to generate a Landsat-based ET baseline and enhanced it with ECOSTRESS observations. The resulting ET data was validated across 25 flux-tower sites spanning diverse land-cover types and climate zones across the contiguous United States. When integrated with Landsat, the addition of ECOSTRESS observations reduced interpolation errors and improved temporal consistency across most sites. However, improvements in ET time series agreement depended strongly on (1) the extent to which ECOSTRESS reduced effective Landsat sampling gaps and (2) the accuracy of overpass-day ECOSTRESS ET retrievals. Improvements were largest when ECOSTRESS shortened Landsat observation gaps by ~50% and maintained high scene quality. ECOSTRESS overpass time also influenced performance, with acquisitions between 10:00–14:00 producing most reliable ET estimates. These results support developing methods with multi-satellite observations to strengthen field-scale ET and help address the key knowledge gap regarding the value of increased thermal observations.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-20T00:37:38.735150+00:00"
+  },
+  "10.1016/j.rse.2026.115720": {
+    "text": "Flood dynamics regulate greenhouse gas emissions from tropical flooded forests, but monitoring flooding beneath dense canopies is challenging. We introduce a L-band SAR approach that uses more than a decade of ALOS-2 PALSAR-2 observations to detect sub-canopy flooding at 100 m resolution across the Amazon and Congo rainforests. We generate multi-year composites of HH and HV backscatter that represent low-, intermediate-, and high-water stages. These hydrological stages are defined locally using over 7000 satellite altimetry time series, accounting for the large variability in the timings of high-water conditions across both rainforests. Flooded forests display a characteristic dual-polarization signature: HV backscatter is comparable to that of non-flooded forests, while HH backscatter is higher due to double-bounce scattering. Quantifying deviations in the HH-HV space, we determine the extent of flooded forests at high-water stage and estimate their seasonal dynamics using a discrete stage-count metric, informing on the number of hydrological stages at which a pixel is classified as flooded forest. Multi-year compositing reduces speckle noise relative to single scenes, enabling the detection of narrow floodplains, while the local definition of high-water conditions improves the representation of high-water conditions across the two rainforests. We estimate approximately 827,000 km 2 of flooded forests under typical high-water conditions, ~687,000 km 2 in the Amazon and ~ 140,000 km 2 in the Congo rainforest. In the Amazon basin, agreement with estimates from Hess et al. (2015), Rosenqvist et al. (2020) and Fleischmann et al. (2022) varies spatially, with high agreement in wide floodplains (e.g., Solimões and Purus rivers), lower agreement along narrower floodplains, and substantial discrepancies in sparsely vegetated areas, partly explained by differences in forest definitions. In the Cuvette Centrale, our estimates show spatial consistency with the estimated extent of peat swamp forests by Crezee et al. (2022), although our flooded forest extent is more spatially restricted. We also found a good correlation between our stage-count map and the microtopography of the Solimões floodplain. By resolving both the extent and seasonal dynamics of flooded forests at 100 m resolution, these maps can support ecological, hydrological, and carbon studies in tropical forests.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-20T00:37:39.306187+00:00"
+  },
+  "10.1016/j.rse.2026.115715": {
+    "text": "Evaluation of soil moisture products and data merging efforts have commonly focused on their performance in representing temporal dynamics, while overlooking the capacity of the products to capture spatial patterns. In this study, a spatial evaluation framework based on the Structural Similarity Index (SSIM) was for the first time introduced to assess the behavior of soil moisture products. Meanwhile, a modified temporal-spatial triple collocation (TC) merging method that accounts for local spatial errors (referred to as TC_2D_local) was proposed for merging multi-source soil moisture. Three widely used soil moisture products, i.e. Soil Moisture Active Passive (SMAP), Advanced SCATterometer (ASCAT), and ERA5-Land, as well as their merged products based on three TC approaches, including the traditional TC (TC_temporal), a global two-dimensional TC (TC_2D), and the new TC_2D_local, were evaluated and compared from both temporal and spatial perspectives, using conventional metrics (R, RMSE, Bias, ubRMSE), together with SSIM and its component indices, i.e. Similarity in Mean (SIM), Similarity in Variance (SIV) and Similarity in Pattern (SIP). Soil moisture from International Soil Moisture Network (ISMN), agricultural stations and China Meteorological Administration Land Data Assimilation System (CLDAS) were used for validation. The results revealed the distinct behavior of the three parent products in capturing temporal dynamics and spatial patterns of soil moisture over China. SMAP achieved the lowest RMSE and highest SSIM in western China, while ERA5-Land was superior in southeastern China in both temporal and spatial evaluation, with larger values of R and SSIM. Although ASCAT exhibited a less satisfactory temporal performance with lower R and higher RMSE, it better characterized the spatial variability of soil moisture with higher SIV across China. All of the TC merged products demonstrated improvements with a reduced RMSE and Bias, while the two 2D TC approaches that incorporated spatial error information outperformed TC_temporal. However, TC_2D performed better in the eastern part of China, featured by relatively uniform underlying conditions, whereas TC_2D_local yielded lower RMSE and Bias in western China, which has more sophisticated environmental conditions. SSIM-based spatial evaluation further revealed a consistent superiority of TC_2D_local over TC_temporal and TC_2D, achieving SIM > 0.95, SIV > 0.9, SIP >0.95 and SSIM >0.8 across most of the study area, with the most pronounced improvements in western China. This study demonstrated the effectiveness of two-dimensional TC for merging multi-source soil moisture products, particularly the TC_2D_local for environmentally heterogeneous regions. It was highlighted that the spatial similarity evaluation framework could provide a new perspective and additional insights into the performance of soil moisture products, potentially benefiting their applications such as hydrological modelling and agricultural drought monitoring, which requires accurate representation of spatial soil moisture patterns.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-20T00:37:39.746655+00:00"
   }
 }
