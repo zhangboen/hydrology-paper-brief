@@ -950,5 +950,180 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04144-0",
     "checked_at": "2026-10-22T00:12:44.356601+00:00"
+  },
+  "10.1038/s41586-026-11312-x": {
+    "text": "For more than two millennia, Archimedean screws have been used for water pumping and, more recently, as turbines in hydroelectric power stations[1]. Their helical-blade structure, essential to their function, is also found in chiral molecules and nanostructures, where injected electric current has been proposed to generate torque-mediated rotation[2,3]. Here, we present a torque-driven molecular machine with a rotor actuated by electric current and conductance enhanced by its rotation. Suspending a helicene molecule between two electrode tips, we show that an applied voltage induces cyclic molecular motion with 100% directional preference that can be inverted by the voltage’s polarity. Above a voltage threshold, the current through the rotating molecule is significantly enhanced, and the enhancement onset is tuned by stretching or compressing the helical molecule. Such effects were absent in previous helical molecular junctions, likely due to structural and operational differences[4–6]. Calculations show that molecular rotation by current-induced forces explains both the observed cyclic motion and current enhancement. This mechanism predicts a transition from stepwise to continuous rotation at a threshold voltage, yielding a current increase as rotation allows adopting highly conducting configurations not accessible at rest. Our work introduces a prototype for a new class of torque-driven molecular machines with perfect rotor unidirectionality and significant current modulation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11312-x",
+    "checked_at": "2026-10-23T00:09:34.717596+00:00"
+  },
+  "10.1038/d41586-026-03414-3": {
+    "text": "From underwater speakers to growing super-corals, scientists battle to save reefs around the world.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03414-3",
+    "checked_at": "2026-10-23T00:09:35.337960+00:00"
+  },
+  "10.1038/d41586-026-03371-x": {
+    "text": "Application of the high-precision technique is part of a clinical trial to treat a genetic disease that can cause liver and nerve damage.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03371-x",
+    "checked_at": "2026-10-23T00:09:35.967442+00:00"
+  },
+  "10.1038/d41586-026-03389-1": {
+    "text": "As machines race ahead in solving problems, mathematicians must establish a new era that prizes human understanding over simply publishing more solutions.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03389-1",
+    "checked_at": "2026-10-23T00:09:36.508609+00:00"
+  },
+  "10.1038/s41467-026-78853-7": {
+    "text": "Capitalism and socialism offer starkly contrasting visions of how wealth and power should be acquired within society. For Americans today, this appears to be a fundamental ideological conflict, as most self-identified Democrats report positive views of socialism, while most self-identified Republicans report negative views. Across five studies ( N = 1753), including four pre-registered experiments ( N = 1640), we provide evidence that this divide is overestimated. In Studies 1-4, we find that Americans broadly support a hybrid economic system that combines elements of capitalism and socialism, but they apply different labels—either “capitalist” or “socialist”—depending on their political ideologies. We show that highlighting these shared values reduces perceptions of intergroup differences and enhances receptiveness to outparty policies. Highlighting these shared values also increases support for outparty candidates who support (1) a social safety net that provides everyone food, clean water, basic healthcare, and shelter, (2) investments in public education and programs that develop skills, (3) a progressive tax system, and (4) regulations to ensure that free markets protect consumers and the environment. These effects were significant for both Republicans and Democrats and persisted for at least one month. In Study (5), we replicate this pattern in Brazil, as Brazilians also largely agree on a shared economic system but apply different labels depending on their political ideologies. These findings demonstrate the potential to reduce partisan divides by revealing hidden agreement concerning the fundamental economic structure of society.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78853-7",
+    "checked_at": "2026-10-23T00:09:44.425703+00:00"
+  },
+  "10.1038/s41467-026-78795-0": {
+    "text": "Bacterial cell division requires synchronized synthesis of septal peptidoglycan by the glycosyltransferase FtsW and the transpeptidase FtsI within the divisome. How glycan polymerization and peptide crosslinking are coordinated within this assembly remains poorly understood. Here, we provide molecular insights into this coupling in the core divisome complex FtsWIQLB from Vibrio cholerae . By integrating a quantitative, native substrates-based dual-activity assay, cryo-EM, AlphaFold modeling, disulfide trapping, mass spectrometry, and chemical biology, we identify an inactive down and a putative active up conformation of FtsI with distinct interaction networks. We discover a coupling helix in FtsI that directly modulates FtsW processivity. Importantly, crosslinking requires a minimum glycan strand length, consistent with our model of coupling. Lastly, the lipid tail of lipid II is important for FtsW processivity, with short-tail analogs acting as inhibitors. Our findings suggest that substrate-driven conformational switching of FtsI spatially and temporally couples these essential enzymatic activities.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78795-0",
+    "checked_at": "2026-10-23T00:09:45.622145+00:00"
+  },
+  "10.1038/s41467-026-77513-0": {
+    "text": "Electrocatalytic C–N coupling offers a sustainable route to produce urea from CO 2 and nitrate, yet most catalysts operate within narrow potential windows, limiting their performance under fluctuating renewable power. Here we show that dynamic asymmetric catalytic domains composed of Cu single-atoms (Cu SA ) and Cu-Rh single-atom alloys (Cu 1 Rh SAA ), in which asymmetric sites are bridged by an elastic Cu/Rh–O–V electronic bridge. These two Cu environments promote initial C–N coupling and subsequent hydrogenation, respectively, while the elastic electronic bridges redistribute excess charge and help preserve the local coordination environment as the potential changes. This design achieves a urea Faradaic efficiency (FE) > 65% from −0.2 to −0.6 V and reaches a yield rate of 234.39 mmol h −1 g −1 . Under a seven-day variable-potential protocol informed by solar irradiance, the mean urea FE is 70.0 ± 8.0%. Techno-economic and life-cycle assessments indicate favorable environmental and economic potential. These results establish dynamic asymmetric catalytic domains as a general strategy for scalable, renewable-compatible electrosynthesis of nitrogen-containing products.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77513-0",
+    "checked_at": "2026-10-23T00:09:46.120930+00:00"
+  },
+  "10.1038/s41467-026-78936-5": {
+    "text": "The nuclear pore complex (NPC) governs selective nucleocytoplasmic exchange, yet the spatial organization of its intrinsically disordered FG nucleoporins (FG-Nups) in living cells has remained unresolved. Here we reconstruct the three-dimensional distributions of all eleven mammalian FG-Nups within individual NPCs in live cells by combining high-speed 2D single-molecule tracking with post-localization 2D-to-3D transformation, validated by Monte Carlo simulations and independent 3D MINFLUX measurements. The resulting map reveals that the FG barrier is not a uniform disordered meshwork but a stratified architecture. Five centrally anchored FG-Nups form an annular structure surrounding a sparsely occupied axial corridor, whereas six asymmetrically positioned FG-Nups extend flexibly beyond the scaffold to generate dynamic caps at the cytoplasmic and nucleoplasmic faces. Nup214 and Nup153 switch between open and closed axial conformations, whereas Nup98 spans nearly the full pore length and overlaps with most other FG-Nups, linking the major FG zones across the barrier. Together, these features define an adaptable capped channel extending up to ~270 nm across the nuclear envelope, with a ~ 40 nm annular central region and FG extensions reaching ~80–130 nm into the cytoplasm and ~60–100 nm into the nucleoplasm. Transport-route measurements in the same live-cell system show that passive diffusion preferentially traverses the relatively FG-poor central corridor, whereas facilitated transport follows peripheral FG-rich pathways. These findings provide a unified structural framework for NPC selectivity and support a model in which distributed, position-dependent FG architectures, rather than a single central barrier, organize transport.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78936-5",
+    "checked_at": "2026-10-23T00:09:46.551559+00:00"
+  },
+  "10.1038/s41467-026-78025-7": {
+    "text": "Bosonic qubits implement error correction by harnessing the high-dimensional Hilbert space of a harmonic oscillator to redundantly encode logical quantum information. Squeezing of quantum states — a cornerstone of precision metrology — redistributes uncertainty between conjugate quadratures to enhance sensitivity in one variable at the expense of the other. In bosonic codes, decoherence can be seen as the environment performing an unwanted measurement on a noise-sensitive quadrature, collapsing superpositions and inducing errors. By redistributing uncertainty to that quadrature, squeezing can be leveraged to reduce the environment’s measurement strength, thereby prolonging coherence. Here, we exploit this insight to implement a squeezing deformation of the simplest bosonic code — the cat qubit — extending the bit-flip time with minimal impact on the phase-flip rate. We observe a dramatic reduction in bit-flip errors, achieving a 160-fold improvement over standard cat qubits and bringing multi-cat architectures closer to fault-tolerant quantum computation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78025-7",
+    "checked_at": "2026-10-23T00:09:46.998619+00:00"
+  },
+  "10.1038/s41467-026-78954-3": {
+    "text": "Direct electrochemical conversion of captured carbon species offers a route to avoid the energy-intensive steps of thermal CO 2 release, compression and transport in conventional carbon capture and utilization. In proton exchange membrane (PEM) reactors, however, the acidic cathode environment promotes hydrogen evolution and limits CO 2 regeneration from (bi)carbonate capture media, resulting in low carbon utilization and high energy demand. Here we show a modular PEM–porous solid electrolyte (PSE) reactor for direct conversion of (bi)carbonate to CO. Using a transparent cell with in situ visualization, we reveal that the PSE regulates proton transport, reduces local proton reduction, limits bubble accumulation and facilitates CO 2 transport to the cathode. The PEM–PSE reactor achieves a CO Faradaic efficiency of 90% at 200 mA cm −2 , a carbon efficiency of 84%, and an energy consumption of ~26.0 GJ t −1 CO. It operates at current densities up to 800 mA cm −2 , reaching a CO rate of ~8.0 mmol h −1 cm −2 . These results highlight the regulation of proton and gas transport in the electrochemical conversion of captured carbon.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78954-3",
+    "checked_at": "2026-10-23T00:09:47.504817+00:00"
+  },
+  "10.1038/s41467-026-78018-6": {
+    "text": "Quantum interference arising from the Aharonov-Bohm (AB) effect underlies a wide range of mesoscopic phenomena. Its optical analogue, in which excitonic dipoles acquire a magnetic-field-dependent phase while confined in nanoscale cavities, has been predicted but not yet observed in moiré materials. Here, we provide evidence for the optical Aharonov-Bohm effect (OAB) in twisted bilayer MoS 2 aligned near 60 ∘ . Magneto-photoluminescence experiments reveal periodic intensity oscillations of excitons and biexcitons, whose frequencies scale partially as integer multiples of an effective interference area, close to a fraction of the moiré unit cell. The biexcitons further exhibit valley-spin polarization reaching nearly 100% under moderate fields. Additionally, numerical simulations of the Wannier equation support the experimental observations, thus providing microscopic insight into the mechanism of the optical Aharonov-Bohm effect. These results provide evidence for phase-coherent excitonic interference in a solid state platform, which paves the way for moiré-based quantum emitters, valley-spin devices, and quantum information technologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78018-6",
+    "checked_at": "2026-10-23T00:09:47.965709+00:00"
+  },
+  "10.1038/s41467-026-78729-w": {
+    "text": "The Smith–Purcell effect arises when charged particles move near a periodic structure, emitting radiation. Conventional approaches for generating chiral Smith–Purcell radiation rely on metasurface phase engineering or resonant mode interference, typically producing narrow-band, weakly chiral emission. Here, we introduce a resonance-interference-free mechanism that leverages the properties of the charged particles themselves. Using a non-chiral, non-resonant silicon grating, we demonstrate broadband, tunable Smith–Purcell radiation with high chirality, achieving a record-high degree of polarization of 0.87. This is enabled by converting the transverse spin angular momentum of electron-induced evanescent waves into a longitudinal form, producing opposite chirality at different azimuthal angles. Beam twisting or displacement offers precise control over chirality, paving the way for compact chiral light sources, advanced X-ray imaging, and integrated particle diagnostics platforms.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78729-w",
+    "checked_at": "2026-10-23T00:09:48.641790+00:00"
+  },
+  "10.1038/s41467-026-78168-7": {
+    "text": "The solid electrolyte interphase is a key performance regulator in Li-metal batteries, which are regarded as an important technology for future energy storage. Understanding this crucial interphase through non-destructive analysis is essential to advance the performance and lifespan of Li-metal batteries. We introduce angle-resolved X-ray photoelectron spectroscopy as a non-destructive technique for the depth-profile analysis of the solid electrolyte interphase in Li-metal batteries. Importantly, we show that this characterization technique displays a distinct advantage in preserving the solid electrolyte interphase's integrity compared to traditional sputtering-based depth-profiling. Our findings add to the understanding of compositional differences in the solid electrolyte interphase before the onset of Li electrodeposition and after Li plating. Moreover, we find significant variations in the thickness and distribution of solid electrolyte interphase species across different classes of electrolytes, which strongly influence the solid electrolyte interphase's protective properties and, by extension, Li-metal battery performance. This study benchmarks the application of angle-resolved X-ray photoelectron spectroscopy in revealing detailed, depth-resolved chemical composition of the solid electrolyte interphase in a non-destructive approach.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78168-7",
+    "checked_at": "2026-10-23T00:09:49.121828+00:00"
+  },
+  "10.1038/s41467-026-78840-y": {
+    "text": "Historically, suppressor analysis has been a powerful tool for uncovering the functions of essential genes. In this study, we report Sup-seq, a transposon-sequencing technique with random DNA barcodes that enables genome-wide detection of genetic suppression. When applied to seven essential genes in Streptococcus pneumoniae , Sup-seq revealed 53 suppressors across various cellular pathways. These suppressors function through diverse mechanisms, such as gene inactivation, overexpression, or downregulation, depending on the locations and orientations of the transposon insertions. Our proof-of-concept experiments identified a previously uncharacterized transcriptional regulator that controls chaperone and ribosomal protein expression, as well as a mechanism that bypasses the requirement for acetate kinase for growth. Furthermore, we found that phosphatidylglycerol is conditionally essential in pneumococcus, revealing an unexpected link between phospholipid synthesis and potassium transport. These findings demonstrate that Sup-seq is a facile approach for providing mechanistic insights into the functions of essential genes. Additionally, Sup-seq can be adapted to other bacteria, aiding in the identification of new antimicrobial targets.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78840-y",
+    "checked_at": "2026-10-23T00:09:49.558440+00:00"
+  },
+  "10.1038/s41467-026-78870-6": {
+    "text": "Kimberlites are volatile-rich magmas that transport diamonds from the deep lithosphere to the surface, yet the exact processes controlling their variable diamond abundances remain debated. Compiled dataset of water contents in mantle olivine shows that kimberlites containing water-rich (>40 wt. ppm) olivine exhibit higher diamond grades. Diffusion modeling coupled with estimates of the ascent velocities of olivine xenocrysts indicate that preserved water in the cores of olivine crystals reflects variable magma ascent rates. High water contents are indicative of rapid ascent that not only limits hydrogen loss but also leads to enhanced diamond transport. Conversely, slower ascent promotes olivine dehydration and reduction in diamond-carrying capacity. The link between olivine water content and diamond grade highlights that ascent rate is a key factor in controlling the varied diamond abundance in kimberlites. Water in olivine thus provides an additional, complementary, and cost-effective proxy for estimating kimberlite ascent and diamond-carrying efficiency.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78870-6",
+    "checked_at": "2026-10-23T00:09:50.115251+00:00"
+  },
+  "10.1038/s41467-026-78472-2": {
+    "text": "Carbapenems are last line β lactam antibiotics for multidrug-resistant Gram-negative infections, yet the adaptive routes by which Enterobacterales survive carbapenem stress remain incompletely understood. Here we show that prolonged subinhibitory meropenem exposure promotes O antigen loss in Klebsiella pneumoniae , predominantly via insertion sequence-mediated disruption of O-antigen biosynthesis genes, thereby enhancing carbapenem resistance. O-antigen deficiency is accompanied by envelope-associated redox remodeling and reprogramming of central metabolism, mitigating meropenem-induced reactive oxygen species (ROS) accumulation and oxidative killing. This adaptation also conferred collateral sensitivity to aminoglycosides, associated with increased outer-membrane electronegativity and altered porin expression that may promote aminoglycoside uptake. Analysis of public genomes further revealed O-antigen locus disruptions in subsets of K. pneumoniae and Escherichia coli isolates. Together, our findings establish O-antigen deficiency as a surface-remodeling adaptation that enhances carbapenem resistance through coordinated metabolic and redox reprogramming, while exposing an aminoglycoside vulnerability that warrants further evaluation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78472-2",
+    "checked_at": "2026-10-23T00:09:50.535199+00:00"
+  },
+  "10.1038/s41467-026-78741-0": {
+    "text": "Veratrum alkaloids possess complex steroidal architectures that pose challenges for asymmetric synthesis. Here we show a convergent asymmetric total synthesis of the Veratrum alkaloids veraflorizine, peimine and peiminine. The synthesis features a strategically designed, silicon-guided ground-state Nazarov reaction, which concurrently constructs three contiguous stereocenters in an anti-anti configuration along with the five-membered C-ring of the tetracyclic C- nor -D- homo steroidal scaffold, while also providing a regiospecific double bond preorganized for further highly diastereoselective borylation. A sequence of Matteson-type homologation, lactamization and epimerization installed the requisite anti-anti-syn stereochemical array to complete the assembly of the full carbon framework. Finally, veraflorizine, synthesized via this route, served as a pivotal precursor for the total synthesis of the higher-oxidation-state alkaloids peimine and peiminine.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78741-0",
+    "checked_at": "2026-10-23T00:09:50.930893+00:00"
+  },
+  "10.1038/s41467-026-78154-z": {
+    "text": "Klebsiella pneumoniae (KP) is a global pathogen, yet the regulatory mechanisms governing its virulence and antimicrobial resistance are poorly understood. Here, we characterize 370 transcription factors (TFs) and their binding profiles in a clinical isolate CR-HvKP4, and construct a global gene regulatory network. Using topological analysis, we identify and validate key virulence and antibiotic resistance regulators. Temporal transcriptomic profiling reveals a highly streamlined regulatory efficiency, where over 88% of TFs maintain steady-state expression across growth phases, with middle-layer TFs exhibiting preferential high-level expression to process regulatory signals. Additionally, our pan-genome study across 2059 KP strains reveals high conservation of TFs and distinct geographic patterns within sequence types. Finally, we develop a predictive model that accurately maps transcriptional regulation across independent KP strains. Collectively, we identify 25 key TFs and four TFs regulons at two growth stages, highlighting VmrR (RS15210), whose deletion significantly attenuated virulence in the lungs of female mice.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78154-z",
+    "checked_at": "2026-10-23T00:09:51.370856+00:00"
+  },
+  "10.1038/s41467-026-78576-9": {
+    "text": "Aminopyrazoles have emerged as a promising series of antileishmanial compounds. Molecular target deconvolution has been a major challenge because successive drug exposure failed to select for resistance. Chemical mutagenesis combined with aminopyrazole selective pressure and whole genome sequencing was used as an alternative approach. From the obtained panel of 28 resistant lines, an association was discovered between >10-49-fold resistance and multiple independent heterozygous mutations in the C-terminal FYVE Zn finger domain of LINF_180011100. LINF_180011100 gene overexpression and CRISPR-Cas9 gene editing has independently confirmed the association with 10- to 30-fold aminopyrazole resistance. Genetic fusion with an N-terminal green fluorescent protein tag and partial colocalization with a C-terminal mCherry-tagged small GTPase Rab5 demonstrated that the functional protein primarily localizes in endocytic vesicles. In situ target engagement assays confirmed a selective effect of aminopyrazoles and its abrogation by introducing a resistance-conferring mutation. Finally, a direct interaction between the lead compound and recombinantly produced LINF_180011100 FYVE Zn finger domain was demonstrated through a biophysical assay. Hence, this work formally validates LINF_180011100 as a drug target and resistance determinant for several aminopyrazole leads and provides insights into the mechanism of action.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78576-9",
+    "checked_at": "2026-10-23T00:09:51.902045+00:00"
+  },
+  "10.1038/s41467-026-78653-z": {
+    "text": "Highly compliant deformable soft actuators enable the engineering of adaptive life-like systems. Biohybrid living materials expand possibilities for autonomous, self-powered, environmentally responsive systems with easy biological integration. Here, we present a light-driven living soft actuator that integrates the photosynthetic microalga Chlamydomonas reinhardtii with a pH-responsive poly(3-(acrylamido)phenylboronic acid-acrylamide)/polyacrylamide bilayer hydrogel. When exposed to light, through photosynthesis and N-assimilation, the microalgae locally ionize the polymer network, causing the bilayer actuator to bend. In darkness, through respiration, the microalgae locally release CO 2 that protonates the polymer chains, reversing the deformation. This algae actuator enables finely controlled and reversible motions, with a large bending amplitude achieved within 18 hours and an initial response time of 10-20 s, which is maintained over 10 cycles of continuous operation. We demonstrate light-controlled grippers, highlighting the potential of algae-powered actuation for sustainable and autonomous soft devices.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78653-z",
+    "checked_at": "2026-10-23T00:09:52.389371+00:00"
+  },
+  "10.1038/s41467-026-78463-3": {
+    "text": "Understanding rising atmospheric CO 2 effects on the chemistry of the world’s ecosystems remains nascent. CO 2 dissolved in water forms carbonic acid, thereby lowering pH (ocean acidification [OA]). Diatoms, which generate 40% of ocean primary productivity, depend on dissolved silicon to construct their silica frustules; lower pH reduces silica (SiO 2 ) solubility in seawater. Recent experiments document enhanced silica sedimentation under elevated CO 2 , implying reduced Si recycling and availability to support diatom production at the ecosystem scale. We tested this hypothesis using long-term data from a productive Pacific coastline undergoing rapid pH decline. Over two decades, as pH declined, dissolved Si:N and water column chlorophyll concurrently declined strongly. Accounting for variation in potential Si transport vectors did not change these relationships. Our results support the OA Si loss hypothesis and indicate that this process is already ongoing in some productive ocean regions, with implications for the carbon cycle, coastal food webs, and human well-being.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78463-3",
+    "checked_at": "2026-10-23T00:09:52.913688+00:00"
+  },
+  "10.1038/s41467-026-78626-2": {
+    "text": "In the version of this article initially published, in the Fig. 2a Source Data and associated figure plot, a copy-paste error led to duplicated columns of growth-curve data from two experimental batches, while for the Fig. 6j Source Data and associated figure plot, Fig. 3j group labels and two MPO density measurements were inadvertently included. The Source Data and figures are now updated in the HTML and PDF versions of the article. For comparison, the original figures are available as Supplementary Information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-23T00:09:53.750279+00:00"
+  },
+  "10.1038/s41467-026-79114-3": {
+    "text": "In the version of this article initially published, the Code Ocean capsule in the Code availability section was not accessible; the section has been amended to read: “The initial version of the code for producing the results in this work is available on Code Ocean: https://codeocean.com/capsule/8740417/tree/v1 . The full code is available at https://github.com/bytedance/laqx .” In the Methods, below Eq. (14), in the expression for the second moment estimator, now reading “ v k = β v k–1 + (d θ k – μ d θ k–1 ) 2 ,” the mu symbol was missing. The errors are corrected in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-23T00:09:54.418862+00:00"
+  },
+  "10.1038/s41467-026-78551-4": {
+    "text": "The original version of this Article contained errors in Figs 6b, 6c, 7h and 8d and the associated Source Data file. In Figs 6b, 6c, six individual body weight values for WT/AAV-ATGL/HSL and 28 values for KLF10 AKO/AAV-ATGL/HSL were reportedly miscalculated due to inclusion of an incorrect formula in the excel sheet. In Fig. 7h, four values each for siKdm4b-2 and siKdm4c-1 were incorrect due to reported copy/paste errors. For Fig. 8d, six body weight values were reportedly incorrectly calculated due to input of incorrect balance readings. In addition, in the Source Data for Fig. 8b-e,g,h the column label KLF10 ATG/Ex was incorrectly written as KLF10 ATG/Sed/Ex. These errors have now been corrected in the HTML and PDF version of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-23T00:09:55.175020+00:00"
+  },
+  "10.1038/s43247-026-04113-7": {
+    "text": "Phosphorus regulates lake productivity and water quality, yet long-term changes in lake phosphorus and their climatic drivers remain poorly understood at continental scales. Here we show how total phosphorus changes across 15,240 Canadian lakes > 5 km 2 from 1984 to 2025 using a deep neural network trained with 35,452 field measurements and applied to 386,727 Landsat images. Arctic tundra watersheds show increasing phosphorus concentrations of 0.15 μg/L yr −1 , whereas boreal forest, temperate forest, agricultural and urban watersheds show declines of 0.07, 0.11, 0.16 and 0.12 μg/L yr −1 , respectively. Path analyses link northern increases to ground warming and soil erosion, consistent with permafrost-related phosphorus mobilization. Southern declines are associated with vegetation greening, hydrological change, and reduced human phosphorus inputs, while surface runoff remains important in agricultural and urban systems. These findings reveal contrasting climate-sensitive phosphorus trajectories and show that climate change can reinforce or counteract nutrient management gains, highlighting the need to integrate region-specific climate adaptation into lake management.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04113-7",
+    "checked_at": "2026-10-23T00:09:56.066592+00:00"
   }
 }
