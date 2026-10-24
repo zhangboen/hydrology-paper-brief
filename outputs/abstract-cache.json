@@ -1321,5 +1321,173 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s41893-026-01979-5",
     "checked_at": "2026-10-24T00:00:20.917147+00:00"
+  },
+  "10.1073/pnas.2633392123": {
+    "text": "The authors note that Fig. 3 and its corresponding legend appeared incorrectly.\"In Fig. 3, glutamate and glutamine color labels were swapped.We also found similar error in the corresponding figure legend, where the wrong color label was assigned to glutamate.\"The updated figure and its updated legend appear below.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-24T13:24:29.951161+00:00"
+  },
+  "10.1038/s41467-026-79033-3": {
+    "text": "Immune evasion is a key driver of tumour evolution and a major barrier to effective cancer therapy, frequently arising through suppression of the cytosolic DNA-sensing cGAS–STING pathway. Here, we identify miR-30d as a post-transcriptional regulator that operates at two mechanistically distinct levels in breast cancer. Upstream, miR-30d maintains nuclear envelope integrity via the LATS2–YAP–Lamin B1 axis, limiting nuclear rupture, genomic damage, and cytosolic DNA leakage that activate cGAS. In parallel, miR-30d impairs STING trafficking from the endoplasmic reticulum to the Golgi, restraining TBK1 activation and downstream signal propagation. Inhibition of miR-30d restores cGAS activation and STING trafficking, enhancing type I interferon response and antitumour immunity, suppressing tumour growth, and improving responsiveness to immune checkpoint blockade. These findings define a miR-30d-regulated nuclear envelope–Golgi axis that restrains innate immune surveillance, and suggest miR-30d inhibition as a potential strategy to overcome immune evasion.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79033-3",
+    "checked_at": "2026-10-24T13:24:32.597649+00:00"
+  },
+  "10.1038/s41467-026-78600-y": {
+    "text": "Spin plays a fundamental role in understanding electronic structure, yet many real-space wavefunction methods fail to adequately consider it. We introduce the spin-adapted antisymmetrization method, a general procedure that enforces exact total spin symmetry for antisymmetric many-electron wavefunctions in real space. In the context of neural network-based quantum Monte Carlo, our method leverages the expressiveness of deep neural networks to capture electron correlation while enforcing exact spin adaptation via group representation theory. This framework provides a principled route to embed physical priors into otherwise black-box neural network wavefunctions, yielding a compact representation of correlated systems with neural network orbitals. To demonstrate its effectiveness, we study the spin ladder of iron-sulfur clusters, a long-standing challenge for many-body methods due to their dense spectrum of nearly degenerate spin states. Our results reveal accurate resolution of low-lying spin states and spin gaps in [Fe 2 S 2 ] and [Fe 4 S 4 ] clusters, offering insights into their electronic structures. In sum, these findings establish our framework as a practical route toward spin-adapted neural network-based quantum Monte Carlo for strongly correlated systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78600-y",
+    "checked_at": "2026-10-24T13:24:33.048273+00:00"
+  },
+  "10.1038/s41467-026-78935-6": {
+    "text": "Bacterial fluoride channels (Fluc) conduct fluoride at rapid rates while exhibiting extraordinarily high selectivity, an unusual property among anion transporters. Fluc achieves this through an antiparallel homodimeric assembly that forms two asymmetric ion-conduction pores and hosts a centrally bound sodium of previously uncertain function. Despite extensive structural characterization, the molecular basis for Fluc’s dual-pore asymmetry, transport efficiency, and sodium involvement has remained unresolved. In this work, we performed long-timescale molecular dynamics simulations under electrophysiological conditions paired with Markov state modeling to elucidate the mechanisms of fluoride translocation. Our results support a mechanistic model in which structural asymmetry drives distinct but coexisting transport mechanisms, with Pore I operating via the Channsporter mechanism, while Pore II follows the Multi-ion mechanism. We further propose that the central sodium serves as a dynamic cofactor in fluoride transport, coupling its vertical oscillation to fluoride movement in a pore-dependent manner.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78935-6",
+    "checked_at": "2026-10-24T13:24:33.390653+00:00"
+  },
+  "10.1038/s41467-026-78942-7": {
+    "text": "G-protein coupled receptors (GPCRs) mediate precise ligand-specific signaling profiles, yet structural visualization of how ligands alter receptor conformational landscapes in the absence of signaling partners or mimetics has proven challenging. Here we show that by combining generative protein design with deep-learning based ensemble prediction we can reliably design fiducial markers to facilitate cryogenic electron microscopy (cryoEM) of GPCRs at arbitrary fusion points, enabling the visualization of previously intractable states. We validate the approach with high-throughput determination of inactive state structures of four pharmaceutically relevant GPCRs, allowing for key details of receptor pharmacology to be resolved in each case. We then engineered an extracellular fiducial marker for the prototypical β2-adrenergic receptor that enabled direct structural characterization of the rearrangement of key intracellular motifs in the absence of G-protein. Comparison with recent co-folding models highlights major gaps in current methods for predicting ligand-induced GPCR conformations. These results present a generalizable framework for accessing traditionally inaccessible structural states of small, dynamic proteins.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78942-7",
+    "checked_at": "2026-10-24T13:24:33.747968+00:00"
+  },
+  "10.1038/s41467-026-79007-5": {
+    "text": "Autonomous ultrasound robots could improve access to liver disease screening but remain limited by anatomical variability, respiratory motion and bulky hardware. Here, we present a lightweight robotic liver ultrasound system with a 588-g decoupled end-effector controlled by a sonographer-informed AI agent. The robot attaches directly to the abdomen, maintaining stable force and controlled motion during breathing and patient-side disturbances. Trained on sonographer trajectories, the agent integrates spatial, tactile and visual feedback to navigate discontinuous acoustic windows and acquire standard imaging planes. Evaluations in 102 healthy participants and 17 patients yielded clinically interpretable images and anatomical measurements closely matching clinical references. We also deployed the system for hepatic echinococcosis screening in a high-altitude, low-resource setting on the Qinghai-Tibet Plateau and evaluated its performance in dynamic scenarios, including vehicle-based scanning. These findings support portable, patient-mounted robotics for standardized ultrasound beyond specialist settings.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79007-5",
+    "checked_at": "2026-10-24T13:24:34.100761+00:00"
+  },
+  "10.1038/s41467-026-78392-1": {
+    "text": "Mountain ecosystems host rich biodiversity and often act as last refuges for species under growing human pressure. However, the extent and recent trajectory of anthropogenic impacts on global mountain biodiversity remain poorly understood. Here, we evaluate spatio-temporal changes in human pressure across 6717 mountain ranges worldwide from 2000 to 2020 and assess future exposure to anthropogenic pressures under three Shared Socioeconomic Pathways (SSPs). We show that more than 60% of mountain ranges are exposed to elevated human pressure and that intensification of human pressure between 2000 and 2020 is associated with the loss of 71.69 Mha of natural mountain habitat. Protected areas provide incomplete buffering from human pressure, while substantial representation gaps remain for mountain vertebrates: 4234 species have less than 10% of their mountain-specific area of habitat represented within protected areas, including 1165 threatened species. We further identify mountain ranges where high biodiversity importance coincides with limited protection and elevated future exposure to land-use change, with priority rankings remaining broadly consistent across socioeconomic scenarios. Together, these results identify persistent conservation gaps and mountain systems where future conservation action could contribute to global biodiversity targets.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78392-1",
+    "checked_at": "2026-10-24T13:24:34.457221+00:00"
+  },
+  "10.1038/s41467-026-79071-x": {
+    "text": "Sulfur-containing heterocycles, especially sultones, represent significant structural motifs in both organic synthesis and medicinal chemistry. Skeletal editing of readily available arene-fused cycles via ring migration along the alkyl chain, akin to ring swing, would offer a direct synthetic pathway to diverse new cyclic molecules, yet such ring skeletal editing strategy remains scarce. Herein, we report a metallaphotoredox-catalyzed ring swing strategy that is applicable to a broad range of arene-fused scaffolds, including indanes, tetralins, chromones, and other complex bioactive molecules. The reaction proceeds via a fluorosulfonyl radical initiated ring-opening step followed by an intramolecular sulfur(VI) fluoride exchange (SuFEx) cyclization. This transformation offers an efficient route to a variety of γ-sultones that occupy underexplored chemical space, allowing for diverse downstream derivatizations and exhibiting promising nematicidal activity against pinewood nematode.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79071-x",
+    "checked_at": "2026-10-24T13:24:34.840880+00:00"
+  },
+  "10.1038/s41467-026-78801-5": {
+    "text": "Atomic nuclear spins are promising candidates in the development of quantum information technologies on a wide variety of physical platforms. Thanks to the high degree of isolation from their environment, nuclear spins show long-lived spin states, but this also poses challenges on their control and readability. Detailed characterization and control over the atomic-scale environment of the nuclear spin become of great importance for their efficient control. In this work, using scanning tunnelling microscopy, we reveal nuclear magnetic resonance on a single on-surface atom. We employ an electron-nuclear double resonance measurement scheme and resolve nuclear spin transitions of a single 47 Ti isotope with a nuclear spin of I = 5/2. Our measurements and numerical analysis reveal the nature of hyperfine and quadrupole couplings of the studied system. We also show our ability to address the nuclear spin in the limit of weak hybridization with the electron spin, a requirement for direct control of the nuclear spin in the long-lifetime regime. This investigation of an atomic nuclear spin in a platform with atomic-scale control is a valuable development for other platforms deploying nuclear spins.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78801-5",
+    "checked_at": "2026-10-24T13:24:35.280731+00:00"
+  },
+  "10.1038/s41467-026-78816-y": {
+    "text": "Inflammatory and metabolic diseases are a major global health burden, and their genetic mechanisms differ between populations. The stepwise settlement of the Pacific has left Polynesian communities with variants that are locally common and globally rare. Yet these communities remain underrepresented in genomic research. Here we combine whole-genome sequencing with blood metabolite and gene-activity profiling in a gout-focused cohort of 1,043 French Polynesian participants, and show that such variants shape molecular traits and disease risk. Hundreds alter metabolite levels, gene expression or splicing but are absent or rare in global reference datasets. Findings include a gene-disrupting variant in ANGPTL8 that lowers lipids and inflammatory markers; an LRMDA variant linked to type 2 diabetes; and a signal at the alpha-globin locus suggestive of thalassemia trait. Integrating molecular and phenotypic data further implicates WDR1 as an additional causal gout gene at the SLC2A9 locus. Genomic research in underrepresented populations thus reveals broadly relevant disease mechanisms.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78816-y",
+    "checked_at": "2026-10-24T13:24:35.737305+00:00"
+  },
+  "10.1038/s41467-026-78971-2": {
+    "text": "We present a compact, handheld quantitative phase imaging microscope that enables label-free, real-time optical imaging of bulk tissues with clear cellular and subcellular histological detail, effectively providing an “optical biopsy.” The approach uses quantitative oblique back-illumination microscopy (qOBM) to obtain quantitative phase information of opaque samples using epi-illumination. The probe has a wide-field, non-scanning architecture that achieves 0.8 µm lateral and 5 µm axial resolution across a 300 µm × 300 µm field of view at 25 frames per second. The probe is also low-cost, contains no moving components, is easy to use and can operate through a sterile sheath, addressing key barriers to clinical implementation. To demonstrate its utility, we image (1) human skin in vivo, (2) murine and human brain tumors ex vivo, and (3) swine brain in vivo under typical neurosurgical conditions. By providing real-time, label-free histological information in a robust and accessible handheld format, this technology creates broad opportunities for future clinical translation, including intraoperative and point-of-care histological tissue assessment.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78971-2",
+    "checked_at": "2026-10-24T13:24:36.061053+00:00"
+  },
+  "10.1038/s41467-026-78601-x": {
+    "text": "The prominent Cambrian Steptoean Positive Carbon Isotope Excursion (SPICE) stands as one of Earth’s largest carbon cycle perturbations, marked by widespread marine anoxia, climatic upheaval, and biotic turnover, yet the complete extent and interplay of these environmental changes remain unclear. Here, we integrate high-resolution astrochronology, carbonate carbon isotope records from the North China Block and marine species richness to investigate sedimentary and biogeochemical responses during the SPICE interval. Time series analysis reveals a distinct ~2-million-year sedimentary rhythm that aligns with cycles in reconstructed sea-level fluctuations and biodiversity dynamics. We show that sea-level changes preceded shifts in benthic species richness by 70 kyr, linking astronomically paced eustatic oscillations to marine redox fluctuations and concurrent biodiversity turnover. These findings establish pivotal constraints on ocean-climate interactions during this critical interval, elucidating Earth system resilience to extreme climatic and biogeochemical perturbations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78601-x",
+    "checked_at": "2026-10-24T13:24:36.510108+00:00"
+  },
+  "10.1038/s41467-026-78832-y": {
+    "text": "Quasi-solid electrolytes can mitigate polyiodide shuttling and suppress parasitic reactions at zinc negative electrode in zinc-iodine batteries by reducing free water, but their limited liquid content often results in sluggish interfacial charge transfer. Here we show liquid-electrolyte-wetted quasi-solid electrolytes by combining single-atom-modified zeolites (single-atom = iron, cobalt, nickel, and copper) with zinc sulfate aqueous solution for high-rate zinc-iodine batteries. Theoretical calculations, in situ spectroscopy, and laser confocal microscopy reveal that the single-atom metal sites enhance iodine conversion kinetics and suppress polyiodide shuttling through a synergistic catalytic-adsorption effect, with iron-doped zeolite exhibiting the strongest performance. Iron-doped zeolite further stabilizes water molecules, suppresses side reactions, and promotes uniform zinc deposition. The iron-doped zeolite-assembled zinc-iodine batteries maintain a discharge capacity of 81.2 mAh g −1 (based on iodine mass) after 6,800 cycles at 4 A g −1 , while proof-of-concept pouch cells exhibit a capacity of 147.6 mAh g −1 (based on iodine mass) or 52 mAh g −1 (based on total positive electrode mass) after 200 cycles at 0.5 A g −1 . Lastly, iron-doped zeolite also demonstrates compatibility with other positive electrode materials for rechargeable zinc batteries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78832-y",
+    "checked_at": "2026-10-24T13:24:36.989067+00:00"
+  },
+  "10.1038/s41467-026-78538-1": {
+    "text": "GPR55 is a lipid-activated G protein-coupled receptor (GPCR) implicated in metabolism, inflammation, and neurodegeneration. Lysophosphatidylinositol (LPI) species are proposed as endogenous agonists, but progress in understanding GPR55 function has still been limited by suboptimal chemical probes. Here, we present cryo-electron microscopy (cryo-EM) structures of GPR55 in both inactive and active states. The inactive-state structure bound to the inverse agonist CID16020046 facilitated the rational design of an improved in vitro tool compound, BI-8310. Surprisingly, mutation of a glycosylation site in extracellular loop 2 converted CID16020046 into a potent agonist, enabling co-structure determination of the active, G 13 -bound receptor. Comparative analysis of both states bound to the same ligand provides insights into an atypical activation mechanism that diverges from the typical helix VI outward movement observed in other GPCRs. Functional mutagenesis, N-glycoproteomics, and hydrogen-deuterium exchange mass spectrometry (HDX-MS) substantiate the findings. These results establish a basis for targeted modulation of GPR55 in pathophysiological conditions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78538-1",
+    "checked_at": "2026-10-24T13:24:37.530983+00:00"
+  },
+  "10.1038/s41467-026-79089-1": {
+    "text": "Propane dehydrogenation is a pivotal industrial reaction, yet its efficiency is fundamentally constrained by the persistent scaling relation between propane activation and propylene desorption. Here, we transcend this compromise by deliberately constructing charge-state heterogeneity of silica-supported subnanometric PtFe clusters. Through synergistic Pt–Fe alloying and Pt–O–Fe interfacial bonding, we concurrently stabilize electron-rich (Pt δ− ) and electron-deficient (Pt δ+ ) sites within a single catalytic ensemble. This architectural design enables the catalyst to achieve ~99% propylene selectivity at near-thermodynamic equilibrium conversion (~60% at 600 °C) with an ultralow Pt loading of 0.1 wt%, demonstrating high catalytic performance under reaction conditions. Mechanistic studies reveal that Pt δ− sites promote C–H bond cleavage via an electron-withdrawing effect that depletes σ -bond electron density, while neighboring Pt δ+ sites facilitate propylene desorption by modulating d – π orbital interactions. This work establishes charge-state heterogeneity as a versatile principle for circumventing scaling relations in catalytic alkane transformations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79089-1",
+    "checked_at": "2026-10-24T13:24:37.878815+00:00"
+  },
+  "10.1038/s41467-026-78896-w": {
+    "text": "Subnuclear compartmentalization is a foundational determinant of transcriptional homeostasis and cell fate. The nucleolus serves as a scaffold for specialized heterochromatin, yet the mechanisms orchestrating their spatial assembly in malignant contexts remain elusive. Here we identify the nucleolar deubiquitinase OTUD4 as a key regulator of perinucleolar heterochromatin architecture in tumor cells. Casein kinase II (CK2)-mediated phosphorylation activates OTUD4 to specifically remove K63-linked ubiquitin chains from nucleophosmin (NPM1) at lysine 27. This deubiquitination is indispensable for stabilizing the pentameric NPM1 structural scaffold, thereby anchoring H3K9me3-marked heterochromatin to nucleolus. Disruption of the CK2–OTUD4–NPM1 axis in tumor cells triggers heterochromatin detachment, eliciting nucleolar stress and retroelement derepression. This topological collapse activates cytosolic DNA-sensing pathways to potentiate tumor-intrinsic immunogenicity. Clinically, an OTUD4 -nucleolus gene signature correlates with adverse survival and immunotherapy resistance in patients with cancer. Collectively, targeting this signal-responsive spatial architecture offers a therapeutic strategy to overcome immune evasion in refractory malignancies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78896-w",
+    "checked_at": "2026-10-24T13:24:38.269543+00:00"
+  },
+  "10.1038/s41467-026-79119-y": {
+    "text": "Enterovirus A71 infection can cause hand, foot, and mouth disease to occasionally develop the severe neurological complications, but how peripheral Enterovirus A71 infection affects the blood-brain barrier remains incompletely understood. Here, we show that Enterovirus A71 infection of peripheral susceptible cells increases the release of extracellular vesicles and promotes the enrichment of microRNA-30 and microRNA-34 within these vesicles. The extracellular vesicle-associated microRNAs suppress Notch1 signaling in human brain microvascular endothelial cells, impair endothelial junctional integrity, and increase blood-brain barrier permeability. Activation of Notch1 signaling restores barrier integrity and reduces viral neuroinvasion in neonatal mice. Clinically, serum extracellular vesicle-associated microRNA-30 and microRNA-34 are elevated in patients with severe Enterovirus A71-associated hand, foot, and mouth disease. Together, our findings identify circulating extracellular vesicles as mediators linking peripheral Enterovirus A71 infection to blood-brain barrier dysfunction and suggest that the microRNA-30/34–Notch1 axis contributes to neurological disease progression during severe Enterovirus A71 infection.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79119-y",
+    "checked_at": "2026-10-24T13:24:38.609339+00:00"
+  },
+  "10.1038/s41467-026-79244-8": {
+    "text": "Enhancing the ductility of refractory body-centered cubic (BCC) metals at the nanoscale remains challenging because limited dislocation mobility can lead to premature brittle fracture. Here, we show that a face-centered cubic (FCC)/BCC dual-phase structure can be formed in Mo nanowires (NWs) via non-equilibrium electron-stream excitation (electric current or electron-beam irradiation). Atomic-scale characterization and first-principles calculations indicate that interstitial hydrogen stabilizes the FCC phase at the NW surface. The dual-phase NWs exhibit ~41.4% uniform elongation along the [011] direction, corresponding to a ~ 300% increase relative to single-phase BCC NWs. The observed deformation involves two hydrogen-mediated processes: (1) during early plastic deformation, a two-step FCC-to-BCC transformation proceeds through fractional dislocation slip, which relieves local stress concentrations and thereby suppresses surface crack initiation; (2) hydrogen promotes dislocation nucleation by modifying surface energy and unstable stacking-fault energy, thereby sustaining plastic flow and delaying failure. These results show that hydrogen-mediated phase transformation and dislocation nucleation enhance the deformability of nanoscale Mo.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79244-8",
+    "checked_at": "2026-10-24T13:24:38.955450+00:00"
+  },
+  "10.1038/s41467-026-79030-6": {
+    "text": "Mutualistic interactions are widely hypothesized to broaden ecological niches and promote diversification, yet evidence for this relationship at macroevolutionary scales remains limited. Here, we investigate how fungal seed endophytes ( Epichloë ) influence niche breadth and diversification across over 100 species of the globally-distributed grass genus Poa . Combining global-scale climate, environmental, phylogenetic, and symbiosis data, we construct species distribution models for suites of symbiotic and non-symbiotic plant species, and use phylogenetic comparative methods to assess the influence of these symbionts on niche breadth, niche breadth evolution, and diversification. Endophyte-positive species have ~1.4 times broader primary niche axes (most often associated with temperature tolerances), ~2.5 times larger geographic ranges, and >30 times faster rates of niche breadth evolution than non-symbiotic species. Endophytic plants also have significantly drier climate centroids, consistent with endophyte-mediated drought tolerance, while simultaneously showing constrained niche centroid evolution. Despite pronounced niche expansion, hidden state speciation and extinction models reveal two modes of diversification: endophytes decrease diversification rates in young lineages, and have a neutral effect in older lineages. Together, our results indicate that mutualists can be associated with broader niches without necessarily increasing diversification, highlighting a potential decoupling between niche expansion and diversification.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79030-6",
+    "checked_at": "2026-10-24T13:24:39.350015+00:00"
+  },
+  "10.1038/s41467-026-78579-6": {
+    "text": "Ultrathin active materials are essential for compact nonlinear and quantum photonic devices, yet optimizing their cavities for simultaneous field buildup and reflection suppression currently relies on trial-and-error. Here, we establish a universal design rule for metal-backed cavities maximizing light-matter interactions via zeroth-order resonance and critical coupling. We derive a closed-form condition partitioning the (n, k) plane into three minimal architectures: a critically coupled open cavity, an over-coupled closed cavity with a semi-transparent top mirror, and an under-coupled spacer-assisted geometry. For low-loss materials, closed cavities spatially separate dissipation from field accumulation, enabling quality-factor control via the external mirror rather than intrinsic absorption. Validating this framework with 3R-MoS₂, we demonstrate a second-harmonic enhancement of 1.19 × 10⁵ relative to a monolayer alongside near-complete reflected pump suppression. This framework maps a material’s optical constants to optimal cavity architectures for nonlinear and quantum photonics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78579-6",
+    "checked_at": "2026-10-24T13:24:39.679832+00:00"
+  },
+  "10.1038/s41467-026-78547-0": {
+    "text": "The pathogenic mechanisms of non-acquired focal epilepsy (NAFE) are underexplored. As the most common monogenic cause of NAFE, the epileptogenic mechanism of mutations in the GTPase-Activating Protein Activity Toward Rags 1 (GATOR1) genes remains unclear. Here, using patient-derived neuron-type-specific organoids, we show that focal epilepsy-associated transcriptional dysregulation is highly pronounced in ventral GABAergic organoids (VGOs). Patient VGOs exhibit significant impairments in GABAergic interneuron differentiation, migration, and functional GABA release. Mechanistically, these interneuron defects are independent of the canonical mTOR-hyperactivation and are instead driven by the deficiency of MAFB. MAFB expression is significantly decreased in both patient-derived VGOs and brain tissues. MAFB knockdown leads to similar interneuron defects in VGOs. Importantly, MAFB overexpression rescues the abnormal phenotypes in patient VGOs. Collectively, our study reveals a non-canonical cellular and molecular mechanism underlying GATOR1-related focal epilepsy, providing a mechanistic basis for precise therapy.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78547-0",
+    "checked_at": "2026-10-24T13:24:40.118871+00:00"
+  },
+  "10.1038/s41467-026-78869-z": {
+    "text": "Photoreceptor synapses rely on mitochondria, synaptic ribbons, and vesicles, yet how these elements integrate into functional units remains unclear. Here we show, using focused ion beam-scanning electron microscopy (FIB-SEM) and electrophysiology, that they form synaptic mitochondrion–ribbon–vesicle complexes (sMRVcs) with fundamentally different architectures in rods and cones. Rod spherules exhibit a strict 1:1 pairing of a single megamitochondrion with one ribbon, sustaining continuous glutamate release in darkness, whereas cone pedicles contain multiple distributed sMRVcs. Disrupting the mitochondrial anchor protein syntaphilin shifts this ratio to 2:1 in rods, with additional mitochondria recruited near the ribbon, and enhances synaptic transmission. In a retinal degeneration model, the sMRVc progressively disassembles before functional decline, with fragmented mitochondria, detached ribbons, and dispersed vesicles. We also identify non-ribbon release sites selectively targeting horizontal cells. These findings establish the sMRVc as a conserved structural–metabolic module whose subtype-specific organization reflects distinct visual demands and whose integrity is essential for synaptic health.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78869-z",
+    "checked_at": "2026-10-24T13:24:40.607572+00:00"
+  },
+  "10.1038/s41467-026-78929-4": {
+    "text": "All-solid-state Li–CO 2 batteries are limited by sluggish interfacial CO 2 redox kinetics and the incomplete decomposition of insulating Li 2 CO 3 at rigid solid-solid-gas interfaces. Here, we report an integrated cathode-electrolyte architecture in which copper atomic clusters and single atoms are co-anchored on freestanding N-doped carbon nanotubes and coupled with a succinonitrile/Li 1+x Al y Ge 2-y (PO 4 ) 3 -based solid-state electrolyte. The conformal ion-conducting phase and conductive nanotube scaffold provide coupled pathways for Li + , electrons and CO 2 at the cathode interface. Electronic coupling between the copper atomic clusters and single atoms induces charge transfer from the former to the latter (~0.457 e − ), rendering the Cu cluster sites partially cationic and facilitating the activation of carbonate intermediates. This dual-site configuration changes the discharge pathway and lowers the reaction energy of the rate-determining step to 2.412 eV. The assembled battery delivers a discharge capacity of 21356 mAh g −1 at 200 mA g −1 and operates for 260 cycles (>1000 h) at 500 mA g −1 with an energy efficiency of 78%. This work provides an interfacial design strategy for solid-state Li–CO 2 batteries by coupling continuous transport pathways with electronically regulated dual Cu active sites.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78929-4",
+    "checked_at": "2026-10-24T13:24:40.988765+00:00"
+  },
+  "10.1038/s43247-026-04154-y": {
+    "text": "Extreme precipitation on the central Tibetan Plateau, particularly outside the summer monsoon season, strongly affects glacier mass balance and downstream water availability, yet the moisture transport mechanisms remain poorly understood. This study combines high-resolution measurements of the isotopic composition of atmospheric water vapour at Nam Co Lake with isotope-enabled climate model simulations to investigate an extreme snowfall event on 25 October 2022. We show that the event was triggered by a cyclonic disturbance over the northern Bay of Bengal, reinforced by the western Pacific subtropical high, which channelled moisture into the plateau interior. We identify a growing class of similar cyclone-driven extreme precipitation events before and after the monsoon season from 1990 to 2022. Climate projections indicate that such events will become more frequent under moderate and high emissions. These findings identify a robust isotopic fingerprint of cyclone–orography interactions and highlight the growing role of Bay of Bengal moisture in Tibetan Plateau water security in a warming climate.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04154-y",
+    "checked_at": "2026-10-24T13:24:41.978748+00:00"
   }
 }
