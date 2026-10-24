@@ -1496,5 +1496,12 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-78800-6",
     "checked_at": "2026-10-24T14:12:20.501909+00:00"
+  },
+  "10.1038/s41467-026-78185-6": {
+    "text": "The mechanisms by which humans arbitrate between reinforcement-learning strategies remain poorly understood, and the nature of these strategies has come under recent debate. Using a modified two-step decision task in two independent samples ( N = 452 and N = 226), here we show that humans integrate three forms of reliability information when arbitrating control: transition reliability, model-free reward-prediction reliability, and model-based reward-prediction reliability. These mechanisms are deployed differently across individuals, revealing predominantly model-free, model-based, mixed, and non-reinforcement learning behavioral profiles that are associated with distinct compulsivity and impulsivity profiles. Critically, individuals also differ in what they arbitrate over: some switch between model-based and model-free control, whereas others maintain model-based control while arbitrating between alternative task representations. Together, these findings reveal broad heterogeneity in human reinforcement learning and provide deeper insight into individual differences in cognition and neuropsychiatric vulnerability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78185-6",
+    "checked_at": "2026-10-24T23:40:41.502938+00:00"
   }
 }
