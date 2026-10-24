@@ -1489,5 +1489,12 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04154-y",
     "checked_at": "2026-10-24T13:24:41.978748+00:00"
+  },
+  "10.1038/s41467-026-78800-6": {
+    "text": "Fungal and bacterial dysbiosis are linked to asthma disease severity, yet how overgrowth of the commensal fungus Candida albicans contributes to disease progression is not fully understood. Here, we show that intestinal aryl hydrocarbon receptor (AhR) deficiency exacerbates house dust mite (HDM)-induced allergic airway disease (AAD) during oral Candida albicans colonization through enhanced IL-17 responsiveness and lung structural cell fucosylation. Intestinal AhR deficiency promotes exaggerated IL-17 responses that promotes neutrophil migration and accumulation in the lung and reshapes the gut microbiota, particularly reducing the abundance of Akkermansia muciniphila . Concurrently, increased fucosylation of lung structural cells enhances L-selectin glycan ligand biosynthesis, thereby promoting neutrophil adhesion and retention within inflamed lung tissue. These adherent neutrophils lead to mitochondrial dysfunction, oxidative stress, and tissue injury in epithelial and endothelial compartments. Administration of A. muciniphila or its derived outer membrane vesicles (OMVs), as well as genetic deletion of Fut2, reduces lung fucosylation, suppresses neutrophil adhesion and NET formation, and attenuates Candida albicans –exacerbated AAD. Together, these findings show that intestinal AhR signaling remotely regulates an IL-17- gut microbiota-fucosylation axis that promotes neutrophil adhesion, mitochondrial dysfunction of lung structure cell, and neutrophilic airway inflammation during Candida albicans –associated asthma.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78800-6",
+    "checked_at": "2026-10-24T14:12:20.501909+00:00"
   }
 }
