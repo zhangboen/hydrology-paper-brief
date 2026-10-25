@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-26",
+  "number": 19,
+  "status": "prepared",
+  "lesson": {
+    "title": "Inviting Someone to Lunch: Using 'Would You Like to...' for Polite Invitations",
+    "concept": {
+      "key": "polite_invitations",
+      "name_en": "Polite Invitations with 'Would You Like to...'",
+      "name_zh": "用“Would You Like to...”表达礼貌邀请",
+      "explanation_zh": "“Would you like to...”是一种非常礼貌和自然的邀请表达方式，适合在日常生活和工作中邀请别人做某事，比如共进午餐。它比直接用“Do you want to...”更委婉，更有礼貌。",
+      "examples": [
+        "Would you like to join us for lunch?（你想和我们一起吃午饭吗？）",
+        "Would you like to try the new restaurant downtown?（你想去市中心的新餐厅试试吗？）",
+        "Would you like to come to the meeting after lunch?（午饭后你想来开会吗？）"
+      ],
+      "common_mistake_zh": "错误用法：用'You want to go to lunch?' 这种直接的句子听起来不够礼貌。正确用法是：'Would you like to go to lunch?'，这样更礼貌和自然。"
+    },
+    "vocabulary": [
+      {
+        "term": "Would you like to",
+        "ipa_us": "/wʊd juː laɪk tuː/",
+        "pronunciation_tip_zh": "注意“Would”中的/wʊd/，元音是短促的/u/音，连读时“you like”可以快速连成 /juː laɪk/。",
+        "meaning_zh": "你想要……吗？（礼貌邀请）",
+        "explain_in_english": "I say 'Would you like to...' when I want to politely invite someone to do something.",
+        "usage_note_zh": "正式和非正式场合都可以用，非常适合工作和日常生活中的礼貌邀请。适合初次见面或关系不太亲密的人。",
+        "examples": [
+          "Would you like to have lunch together?",
+          "Would you like to see a movie tonight?"
+        ]
+      },
+      {
+        "term": "Join us",
+        "ipa_us": "/dʒɔɪn ʌs/",
+        "pronunciation_tip_zh": "“Join”中的/dʒ/类似中文“j”音，注意连读，“join us”中“join”和“us”快速连读成/dʒɔɪnʌs/。",
+        "meaning_zh": "加入我们，一起参加",
+        "explain_in_english": "I say 'join us' when I invite someone to be part of a group or activity.",
+        "usage_note_zh": "口语和书面语中都常用，适合邀请朋友、同事一起参加活动。",
+        "examples": [
+          "Would you like to join us for lunch?",
+          "She joined us at the party last night."
+        ]
+      },
+      {
+        "term": "How about",
+        "ipa_us": "/haʊ əˈbaʊt/",
+        "pronunciation_tip_zh": "“How”发音为/haʊ/，是一个双元音，“about”重音在第二个音节，连读时常听成/haʊ əˈbaʊt/。",
+        "meaning_zh": "……怎么样？（提建议或邀请）",
+        "explain_in_english": "I say 'How about...' when I suggest doing something or invite someone politely.",
+        "usage_note_zh": "非正式和半正式场合常用，适合朋友、同事间提建议或邀请。",
+        "examples": [
+          "How about going out for lunch?",
+          "How about we meet at 1 PM?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Inviting a New Colleague to Lunch",
+      "context_zh": "在办公室，刚入职的新同事和你初次见面，你想邀请他/她一起去吃午饭。",
+      "script_en": "Anna: Hi, I don't think we've met yet. I'm Anna from Marketing.\nTom: Hi Anna, nice to meet you. I'm Tom, the new analyst from Finance.\nAnna: Welcome to the team, Tom! Would you like to join us for lunch today? There's a really good cafe just around the corner.\nTom: That sounds great, thanks! I was actually thinking about grabbing a quick bite.\nAnna: Perfect! How about we meet in the lobby at 12:15? That way we can all go together.\nTom: That works perfectly for me. It'll be nice to get to know everyone.\nAnna: Absolutely. We usually chat about work and sometimes share funny stories from the office.\nTom: I look forward to it. Thanks for inviting me, Anna.\nAnna: You're welcome! It's a good way to settle in and feel part of the group.\nTom: Definitely. I appreciate you reaching out. See you at 12:15!",
+      "translation_zh": "安娜：你好，我想我们还没见过面。我是市场部的安娜。\n汤姆：你好，安娜，很高兴认识你。我是汤姆，财务部的新分析师。\n安娜：欢迎加入团队，汤姆！你今天想和我们一起去吃午饭吗？附近有家很棒的咖啡馆。\n汤姆：听起来不错，谢谢！我正好也想去吃点东西。\n安娜：太好了！我们12:15在大厅见面怎么样？这样我们可以一起过去。\n汤姆：对我来说很合适。很高兴能认识大家。\n安娜：当然。我们通常会聊工作，有时也分享办公室的趣事。\n汤姆：我很期待。谢谢你的邀请，安娜。\n安娜：不客气！这也是适应环境、融入团队的好方法。\n汤姆：绝对是。我很感激你主动联系我。12:15见！",
+      "practice_tip_zh": "练习时，想象你在办公室遇到新同事，练习用“Would you like to...”邀请他们去午饭。注意语调保持友好和自然，表达你的诚意和热情。"
+    },
+    "reading": {
+      "title": "The Simple Act of Inviting Someone to Lunch",
+      "genre": "original short speech",
+      "text_en": "Inviting someone to lunch might seem like a small thing, but it can make a big difference in building relationships at work or in social settings. When you ask politely, for example by saying, \"Would you like to join me for lunch?\" you show respect and friendliness. This simple phrase opens the door to conversation and helps both people feel comfortable. \nSometimes, people hesitate to invite others because they worry about being rejected or seeming too forward. However, most people appreciate the gesture, especially if the invitation is casual and not too formal. You can also use phrases like \"How about lunch together today?\" or \"Do you want to grab a bite?\" depending on how well you know the person.\nIn a professional environment, invitations to lunch help new employees settle in and learn about company culture. It is also a chance to talk about work in a relaxed atmosphere. Being clear about the time and place is important so the other person can plan accordingly.\nNext time you want to build a connection, try inviting someone to lunch. It’s a simple, friendly way to show interest and make new friends or colleagues. Don’t be afraid to use polite phrases like \"Would you like to...\" and watch how it can positively change your relationships.",
+      "summary_zh": "邀请别人共进午餐看似简单，但在建立工作和社交关系中非常重要。用“Would you like to join me for lunch?”这样的礼貌表达，可以让对方感觉被尊重和欢迎，有助于轻松交流。",
+      "questions": [
+        {
+          "question": "What is one polite phrase to invite someone to lunch mentioned in the speech?",
+          "answer": "\"Would you like to join me for lunch?\""
+        },
+        {
+          "question": "Why is inviting someone to lunch important in a professional environment?",
+          "answer": "It helps new employees settle in and learn about company culture while providing a relaxed chance to talk about work."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 5813,
+    "completion_tokens": 3263,
+    "total_tokens": 9076,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
