@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "number": 19,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Inviting Someone to Lunch: Using 'Would You Like to...' for Polite Invitations",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 9076,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-26T07:43:12.611870+08:00"
 }
