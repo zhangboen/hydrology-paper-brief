@@ -1503,5 +1503,89 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-78185-6",
     "checked_at": "2026-10-24T23:40:41.502938+00:00"
+  },
+  "10.1038/s41586-026-11328-3": {
+    "text": "Patients with resectable non-small cell lung cancer (NSCLC) remain at high risk of relapse despite perioperative treatment 1-3 . NeoCOAST-2 ( NCT05061550 ), a phase 2, randomised platform trial, tested novel perioperative treatments in patients with stage IIA–IIIB NSCLC. At primary analysis, combining standard chemotherapy plus durvalumab (anti-PD-L1 antibody) with oleclumab (Arm 1, n = 76), monalizumab (Arm 2, n = 72) or datopotamab deruxtecan (Dato-DXd; Arm 4, n = 54) resulted in pathological complete response (pCR) rates of 20.3%, 25.7%, and 35.2%, respectively 4 . Here, we present the first report of prespecified secondary endpoints of event-free survival (EFS) and circulating tumour DNA (ctDNA) clearance, and exploratory analyses of associations between ctDNA dynamics and clinical outcomes. The 24-month EFS rates were 70.5%, 75.7% and 77.9% in Arms 1, 2 and 4, respectively. Using a tumour-agnostic assay, ctDNA clearance at neoadjuvant Cycle 3 Day 1 was highest in Arm 4 (50.9%, 54.5%, and 72.5% in each arm, respectively). ctDNA clearance correlated with prolonged EFS versus non-clearance (pooled hazard ratio (HR) 0.22; 95% CI = 0.11–0.45, P = 0.0000443). Patients with both ctDNA clearance and pCR had favourable EFS outcomes versus those with neither (EFS HR 0.10, 95% CI = 0.02–0.42, P = 0.002). These findings suggest combined assessment of ctDNA clearance and pCR may improve risk stratification, and that the numerically highest pCR 4 and EFS rates with the Dato-DXd combination warrant further evaluation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11328-3",
+    "checked_at": "2026-10-25T23:31:13.000135+00:00"
+  },
+  "10.1073/pnas.2630924123": {
+    "text": "Vermeij, Grosberg, and Roopnarine (VGR) argue that evolution is best understood through a \"power-centered model\" (PCM) in which natural selection favors increasing power to acquire and expend energy (1).In contrast, the Equal Fitness Paradigm (EFP), grounded in first principles of energetics and demography, predicts nearly equal fitness across species (2-6).",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-25T23:31:17.839795+00:00"
+  },
+  "10.1038/s41467-026-78953-4": {
+    "text": "High-Q resonances based on bound states in the continuum provide a central route of enhancing light-matter interactions. Here, we present a dual-point group framework of constructing multiple ultrahigh-Q resonances within tetramer metasurfaces with a C 4v symmetry via Brillouin zone folding. By selectively preserving or reducing the O- and S-group symmetries of super lattice, guided modes below light cone can be converted into guided resonances or bound states in the continuum with controlled degeneracy lifting, Q-factor scaling, eigenfield profiles, and mode splitting. Besides, applying rectangular lattice provides an alternative way of tuning the Q-factors and mode splitting. Finally, we experimentally demonstrate such two types of high-Q resonances in the tetramer metasurfaces. Measurement results show that the mode splitting can be tuned from 0 nm to 70 nm while the Q-factors are modulated from 300 to 20,000 by varying the asymmetry parameters. This work establishes a symmetry-addressed route for programmable multi-resonant high-Q metasurfaces.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78953-4",
+    "checked_at": "2026-10-25T23:31:20.325112+00:00"
+  },
+  "10.1038/s41467-026-79018-2": {
+    "text": "Focal epilepsy affects distributed brain systems, yet characterizations of patient-specific network organization that are clinically meaningful remain limited. Using resting-state functional MRI, we estimated overlapping individualized networks and derived two complementary axes (1) network correspondence, indexing system integrity through canonical system expression, and (2) k-hubness, indexing cross-system integration through multi-network participation. We studied a presurgical cohort of 305 patients with focal epilepsy and 224 healthy participants and an independent validation cohort of 903 patients spanning focal and common generalized and childhood epilepsy syndromes and 666 healthy participants. Correspondence disruption was broadly shared across focal epilepsies, whereas k-hubness alterations showed lateralized and syndrome-dependent redistributions of cross-system integration. The axes shared variance but showed modest preferential associations, with correspondence relating to cognition and k-hubness to epilepsy clinical features. Together, these measures characterize common and heterogeneous alterations in individualized brain system organization, linking complementary aspects of network topology to cognitive and clinical variation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79018-2",
+    "checked_at": "2026-10-25T23:31:20.765126+00:00"
+  },
+  "10.1038/s41467-026-78983-y": {
+    "text": "Despite the discovery of a rich Palaeolithic archaeological record in Arabia over the last decade, the environmental context of hominin occupations and dispersals remains poorly understood owing to the paucity of Pleistocene palaeoenvironmental records. Here we show a multi-proxy, high-resolution dust record from the western equatorial Indian Ocean spanning the last 500,000 years, which enables evaluation of the influence of orbital-scale hydrological variations on hominin populations in Arabia. The dust evidence reinforces the view that hominin presence in Arabia was driven by enhanced monsoon precipitation during so-called Green Arabia periods. These results, coupled with hunter-gatherer demographic data, point to marked hominin population expansions during prolonged wetter periods. Hominin occupation, however, was not linked exclusively to traditional humid periods. Brief phases of high-intensity rainfall within some glacial periods, manifested by transient high dust contents associated with enhanced terrestrial moisture availability and increased supply of wind-erodible particles, also favoured hominin expansions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78983-y",
+    "checked_at": "2026-10-25T23:31:21.183600+00:00"
+  },
+  "10.1038/s41467-026-79047-x": {
+    "text": "Multilayer ceramic capacitors are essential components in modern electronic devices. However, achieving superior performance under high-temperature and high-electric-field remains a huge challenge due to the increased leakage current and limited breakdown strength. Herein, a high-entropy driven multiscale optimization strategy is proposed for lead-free multilayer ceramic capacitors. This approach integrates multiple elements into both A- and B-sites at the atomic scale, engineers polymorphic domain coexistence at the phase scale, and introduces a uniform SiO 2 coating layer on grain surfaces to form a core–shell structure while refining grain size at the grain scale. Furthermore, a SiO 2 barrier layer is constructed between the electrodes and ceramics at the device scale. Remarkably, high-entropy BaTiO 3 -based Multilayer ceramic capacitors achieve an ultra-high energy density of 19.8 J·cm −3 and a high efficiency of 89.3% at 1421 kV·cm −1 , along with an outstanding high-temperature energy storage performance. The high-entropy driven multiscale optimization strategy offers a universal approach to enhancing the overall energy storage performance of advanced dielectric capacitors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79047-x",
+    "checked_at": "2026-10-25T23:31:21.585783+00:00"
+  },
+  "10.1038/s41467-026-79271-5": {
+    "text": "Understanding the physics of high-frequency magnetic response is essential for advancing electromagnetic materials. Here, a general strategy is presented for visualizing magnetic permeability as a spatially distributed, frequency-dependent field, instead of a uniform bulk parameter. Our framework reveals that high-frequency magnetic loss arises from coherent spin-wave propagation and interference, leading to spatially selective energy absorption and localized regions of negative imaginary permeability. Tailoring geometric connectivity to suppress spin-wave propagation enables the selective enhancement of localized resonances. Such resonance enables deterministic control over high-frequency response through structural design. The principle is further examined in nanoscale iron spheres. Their surface morphology plays a decisive role in reorganizing the internal resonance domains. This structural reconfiguration, in turn, reshapes the broadband magnetic permeability spectra. To navigate the high-dimensional space of surface defect configurations, machine learning models are integrated with micromagnetic simulations, allowing rapid prediction of magnetic performance across microwave bands. Computational modeling provides an ideal platform to complement experimental exploration. The physic-data framework reveals geometry-to-spectra design rules, validated on iron nanoparticles. This framework uniquely bridges the microscopic spin dynamics with electromagnetic response, enabling tunable high-frequency materials for communication and sensing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79271-5",
+    "checked_at": "2026-10-25T23:31:21.948891+00:00"
+  },
+  "10.1038/s41467-026-78847-5": {
+    "text": "Noninvasive multitarget delivery of size-diverse therapeutics, including extracellular vesicles (EVs) and mesenchymal stromal cells (MSCs), to peri-infarct zones is hindered by the blood-brain barrier (BBB) and heterogeneous infarct topographies. Here, we developed a hologram-assisted multitarget BBB opening (HaMBO) platform combining low-cost 3D-printed holograms with a single-element ultrasound transducer. Spatially tailored acoustic fields enabled localized BBB opening along infarct borders. In male mice with transient focal cerebral ischemia, a single two-minute HaMBO treatment safely enhanced the peri-infarct delivery of EVs and MSCs, reduced brain atrophy by ~56%, increased angiogenesis by ~2-fold and neural progenitor proliferation by ~4-fold, and improved long-term behavioral recovery. Spatial transcriptomic analysis associated HaMBO-assisted EV therapy with reduced macrophage infiltration and enhanced pro-angiogenic and neurogenic signaling. Human skull-based simulations further demonstrated HaMBO’s clinical adaptability across diverse stroke scenarios. Thus, HaMBO provides a safe, low-cost, and customizable platform for noninvasive multitarget delivery in ischemic stroke and other neurological disorders.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78847-5",
+    "checked_at": "2026-10-25T23:31:22.369855+00:00"
+  },
+  "10.1038/s41467-026-78678-4": {
+    "text": "Leukemia stem cells (LSCs) primarily rely on mitochondrial oxidative phosphorylation (OXPHOS) for energy production, a metabolic feature that inevitably generates excessive reactive oxygen species (ROS). NYNRIN (NYN domain and retroviral integrase containing) is highly expressed in LSC-like cells and is associated with poor prognosis in patients with acute myeloid leukemia (AML). Genetic targeting of NYNRIN impairs LSC-like cell maintenance and in vivo leukemogenic capacity in MLL-AF9- and HOXA9/MEIS1-driven AML models, and compromises the in vivo pathogenicity of patient-derived LSC-like cells. Mechanistically, NYNRIN sustains thioredoxin (Trx) activity by functioning as an RNA-binding protein that directly binds and degrades TXNIP mRNA via its NYN domain. Loss of NYNRIN stabilizes TXNIP mRNA, leading to TXNIP accumulation, which disrupts Trx-mediated redox buffering, induces ROS overproduction and mitochondrial dysfunction, and triggers LSC apoptosis. Notably, NYNRIN inhibition potentiates venetoclax efficacy by compromising Trx-mediated ROS clearance, lowering the apoptotic threshold of LSCs. Collectively, our findings reveal a critical NYNRIN-TXNIP-Trx axis that safeguards LSCs by enabling efficient ROS clearance.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78678-4",
+    "checked_at": "2026-10-25T23:31:22.708671+00:00"
+  },
+  "10.1038/s41467-026-79017-3": {
+    "text": "Chemoselective hydrogenation of nitroarenes containing multiple reducible groups remains challenging due to the intrinsic activity–selectivity trade-off of conventional metal catalysts. Here we report a multi-functional Pt-based catalyst, modularly integrating molecular-sieving feedstock separation, hydrogen activation, intermediate transport and surface reaction like a nanofactory. Structurally, ~3 nm Pt nanoparticles supported on sodium titanate are encapsulated by oxygen vacancies-enriched TiO x overlayers that only permit hydrogen to adsorb on Pt particles for dissociation while preventing substrate contact. The generated active hydrogen species subsequently migrate to the catalyst surface and hydrogenate nitro groups adsorbed on surface Lewis basic oxygen vacancies, enabling an efficient condensation pathway while avoiding the use of corrosive and environmentally unfriendly alkaline solvents. The spatially decoupled yet functionally synergistic catalytic design achieves 90% 3-vinylaniline yield from 3-nitrostyrene under mild conditions with an unprecedented turnover frequency of 83,200 h −1 , exceeding all previously reported metal catalysts, and exhibits broad generality toward diverse substituted nitroarenes. Collectively, these findings provide a powerful catalyst design strategy for steering complex reaction networks via spatially modular catalysis.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79017-3",
+    "checked_at": "2026-10-25T23:31:23.263288+00:00"
+  },
+  "10.1038/s41467-026-78967-y": {
+    "text": "Chloroplast protein-import channel Toc75 evolved from a cyanobacterial outer-membrane Omp85 protein, despite all known Omp85 proteins functioning in export. Chlamydomonas Toc75 assembles with Toc90M, the membrane-spanning domain of Toc90 (equivalent of higher-plant Toc159) into a binocular-shaped complex, but how this architecture arose and functions in import remain unknown. Here, cryo-electron microscopy and mutational analysis of a cyanobacterial Omp85 reveal a lidded 16-β-strand barrel and three POTRA-domains involved in assembling outer-membrane proteins. Structural comparisons show that the Toc75–Toc90M complex mirrors an Omp85–substrate assembly intermediate, and Toc90M can indeed serve as a bacterial Omp85 substrate. While canonical Omp85 systems release substrates after assembly, Toc75 evolved a basic patch in its barrel to anchor Toc90M as a stable lateral pore through which precursor proteins are imported. Our findings indicate that a bacterial export system was converted into a chloroplast import channel by locking a substrate in place to provide an import conduit. This requirement for a stable assembly also supports that additional parts of the ancestral complex, including Omp85 POTRA-domains and Tic236 orthologs, were recruited to facilitate chloroplast protein import.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78967-y",
+    "checked_at": "2026-10-25T23:31:23.657087+00:00"
+  },
+  "10.1038/s41467-026-79084-6": {
+    "text": "CRISPR-Cas adaptive immune systems are powerful and versatile tools for genome engineering. CRISPR-Casδ−1 is a recently discovered, evolutionarily distinct endonuclease that enables versatile cross-kingdom genome editing under miniature RNA-guiding. In this study, we present a comprehensive biochemical and structural characterization of CRISPR-Casδ−1. Biochemical analysis not only verifies that Casδ−1 exhibits robust double-stranded DNA cleavage activity and target-dependent trans-cleavage activity, but also explores in depth its precise cleavage sites and substrate saturation. Furthermore, we determine a 3.04 Å resolution cryo-EM structure of the Casδ−1-crRNA-dsDNA ternary complex, which reveals the molecular basis of protospacer-adjacent motif (PAM) recognition, crRNA-DNA heteroduplex assembly, and RuvC domain-mediated DNA cleavage. Collectively, our study reveals the structural basis and evolutionary insights into Casδ−1, advances the mechanistic understanding of type V CRISPR-Cas effectors, and offers opportunities for the rational design of CRISPR-Casδ−1 as a versatile genome-editing tool.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79084-6",
+    "checked_at": "2026-10-25T23:31:24.249451+00:00"
   }
 }
