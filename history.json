@@ -226,5 +226,17 @@
     ],
     "scene": "Inviting a New Colleague to Lunch",
     "reading": "The Simple Act of Inviting Someone to Lunch"
+  },
+  {
+    "date": "2026-10-27",
+    "concept_key": "indirect_politeness_in_complaints",
+    "concept_name": "Indirect Politeness in Complaints",
+    "terms": [
+      "address an issue",
+      "appreciate your understanding",
+      "follow up on"
+    ],
+    "scene": "Politely Reporting a Noisy Neighbor in a Hotel",
+    "reading": "Learning to Raise Hotel Problems Politely"
   }
 ]

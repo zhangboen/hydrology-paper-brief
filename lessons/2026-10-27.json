@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-27",
+  "number": 20,
+  "status": "prepared",
+  "lesson": {
+    "title": "Politely Raising a Problem at a Hotel",
+    "concept": {
+      "key": "indirect_politeness_in_complaints",
+      "name_en": "Indirect Politeness in Complaints",
+      "name_zh": "投诉中的间接礼貌表达",
+      "explanation_zh": "在酒店等服务场所提出问题时，直接抱怨可能让对方感到防御或不舒服。使用间接的礼貌表达能让沟通更顺畅，比如用“我想知道是否可以…”、“我注意到…”等表达方式，既表达了问题，也显示尊重和理解。",
+      "examples": [
+        "I was wondering if you could help me with the air conditioning?",
+        "I noticed the bathroom light isn't working properly.",
+        "Would it be possible to get a different room?"
+      ],
+      "common_mistake_zh": "很多人直接说问题，比如“空调坏了”，这可能听起来不礼貌。应该使用间接表达，比如“我想知道空调是否能检查一下”，这样更符合英语中礼貌投诉的习惯。"
+    },
+    "vocabulary": [
+      {
+        "term": "address an issue",
+        "ipa_us": "/əˈdrɛs ən ˈɪʃu/",
+        "pronunciation_tip_zh": "重音在'address'的第二个音节和'issue'的第一个音节，连读自然",
+        "meaning_zh": "处理问题",
+        "explain_in_english": "I say 'address an issue' when I want to talk about dealing with or solving a problem.",
+        "usage_note_zh": "正式和半正式场合都适合，特别用于工作和服务环境。",
+        "examples": [
+          "The hotel staff quickly addressed the issue with the noisy air conditioner.",
+          "We need to address the issue before it gets worse."
+        ]
+      },
+      {
+        "term": "appreciate your understanding",
+        "ipa_us": "/əˈpriʃiˌeɪt jʊər ˌʌndərˈstændɪŋ/",
+        "pronunciation_tip_zh": "连读时'you are'合并成/jʊər/，重音在'appreciate'的第二个音节",
+        "meaning_zh": "感谢你的理解",
+        "explain_in_english": "I say this to politely thank someone for being patient or considerate about a problem.",
+        "usage_note_zh": "适用于正式或礼貌的书面和口语交流，在投诉或解释时常用。",
+        "examples": [
+          "We appreciate your understanding while we fix the issue.",
+          "I appreciate your understanding regarding the delay."
+        ]
+      },
+      {
+        "term": "follow up on",
+        "ipa_us": "/ˈfɑloʊ ʌp ɑn/",
+        "pronunciation_tip_zh": "'follow'重音在第一个音节，'up'短促，连接自然",
+        "meaning_zh": "跟进，继续处理",
+        "explain_in_english": "I use 'follow up on' when I want to check or continue dealing with something.",
+        "usage_note_zh": "广泛用于工作和日常对话，适合谈论后续行动。",
+        "examples": [
+          "The manager will follow up on your complaint.",
+          "I’ll follow up on the cleaning request tomorrow."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Politely Reporting a Noisy Neighbor in a Hotel",
+      "context_zh": "客人在酒店房间遇到隔壁房间噪音问题，礼貌地向前台反映。",
+      "script_en": "Guest: Hello, I hope you can assist me. I was wondering if there’s a way to address an issue with noise coming from the next room. It’s been quite loud for a while.\nReceptionist: I’m sorry to hear that. Could you describe the noise?\nGuest: Mostly loud talking and some banging sounds, like furniture moving or something similar.\nReceptionist: Thank you for letting us know. We will follow up on this immediately and ask them to reduce the noise.\nGuest: I appreciate your understanding. If the noise doesn’t stop, would it be possible to move to a quieter room?\nReceptionist: Absolutely. We can arrange that if necessary.\nGuest: That would be great. Thank you very much for your help.\nReceptionist: You’re welcome. Please don’t hesitate to contact us if you need anything else.",
+      "translation_zh": "客人：您好，希望您能帮忙。我想知道是否可以处理隔壁房间的噪音问题，声音已经很大一段时间了。\n前台：很抱歉听到这个。您能描述一下噪音吗？\n客人：主要是大声说话和敲打声，像是在搬家具之类的。\n前台：谢谢您告知。我们会立即跟进，并要求他们降低噪音。\n客人：感谢您的理解。如果噪音不停，能否换到一个安静的房间？\n前台：当然，如果需要我们可以安排。\n客人：那太好了，非常感谢您的帮助。\n前台：不客气。如果您需要其他帮助，请随时联系我们。",
+      "practice_tip_zh": "练习时，注意用间接和礼貌的表达方式提出问题，避免直接抱怨。使用“I was wondering if…”和“appreciate your understanding”让表达更自然得体。"
+    },
+    "reading": {
+      "title": "Learning to Raise Hotel Problems Politely",
+      "genre": "first-person monologue",
+      "text_en": "During a recent business trip, I stayed at a hotel where I encountered an issue with the room’s air conditioning. At first, I didn’t want to complain because I thought it might be inconvenient for the staff or make me seem difficult. However, after a few hours of discomfort, I realized I needed to say something. I called the front desk and started by saying, “I was wondering if you could assist me with an issue in my room.” Using polite, indirect language helped set a positive tone. The receptionist was very helpful and promised to send someone to check the air conditioner.\nWhen the technician arrived, I explained the problem carefully. I said, “I noticed the air conditioner isn’t cooling properly, and it’s making some noise.” I avoided sounding demanding and instead focused on describing the situation clearly.\nThe technician fixed the problem quickly, and I felt comfortable again. This experience taught me the importance of addressing issues politely. Saying things like “I was wondering if” and “appreciate your understanding” not only shows respect but also helps solve problems more smoothly. After the repair, I made sure to follow up on the room’s condition the next day to confirm everything was working well.\nNow, I feel more confident raising issues politely when staying at hotels. It’s better to communicate concerns clearly and courteously than to suffer in silence. This approach helps maintain a good relationship with hotel staff and often leads to faster solutions. I encourage others to try polite language when they face problems during their travels because it really makes a difference in how the problem gets handled.",
+      "summary_zh": "作者分享了自己在酒店遇到空调问题时，如何用礼貌和间接的表达方式提出问题，并成功解决问题的经历。作者强调礼貌沟通有助于更快解决问题和保持良好关系。",
+      "questions": [
+        {
+          "question": "Why did the author hesitate to complain at first?",
+          "answer": "Because they didn’t want to inconvenience the staff or seem difficult."
+        },
+        {
+          "question": "What phrases did the author use to keep the complaint polite?",
+          "answer": "Phrases like \"I was wondering if you could assist me\" and \"appreciate your understanding\"."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 9708,
+    "completion_tokens": 4650,
+    "total_tokens": 14358,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
