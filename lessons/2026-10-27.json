@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "number": 20,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Politely Raising a Problem at a Hotel",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 14358,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-27T09:03:37.837698+08:00"
 }
