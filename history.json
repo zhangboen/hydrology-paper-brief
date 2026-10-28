@@ -238,5 +238,17 @@
     ],
     "scene": "Politely Reporting a Noisy Neighbor in a Hotel",
     "reading": "Learning to Raise Hotel Problems Politely"
+  },
+  {
+    "date": "2026-10-28",
+    "concept_key": "polite_availability_questions",
+    "concept_name": "Polite Availability Questions",
+    "terms": [
+      "ticket counter",
+      "last-minute",
+      "window seat"
+    ],
+    "scene": "Buying a Last-Minute Train Ticket",
+    "reading": "A Chance Encounter on the Train"
   }
 ]

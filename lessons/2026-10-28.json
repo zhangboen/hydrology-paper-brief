@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-28",
+  "number": 21,
+  "status": "prepared",
+  "lesson": {
+    "title": "Buying Train Tickets: Polite Questions About Availability",
+    "concept": {
+      "key": "polite_availability_questions",
+      "name_en": "Polite Availability Questions",
+      "name_zh": "礼貌询问可用性的问题",
+      "explanation_zh": "在购买火车票时，礼貌地询问座位或票的可用性非常重要。使用间接疑问句或加上礼貌用语能让对话更自然、友好。比如说“Do you happen to have any seats available?”比直接问“Are there seats?”更礼貌。",
+      "examples": [
+        "Do you happen to have any seats available on the 10 AM train?",
+        "I was wondering if there are tickets left for tomorrow's train.",
+        "Could you please tell me if there are any seats still available?"
+      ],
+      "common_mistake_zh": "有些学习者直接问“Are there seats?”，听起来太直接、不礼貌。正确的做法是用更自然的疑问形式，如“Do you happen to have...”或“Could you please tell me...”，显得更客气。"
+    },
+    "vocabulary": [
+      {
+        "term": "ticket counter",
+        "ipa_us": "/ˈtɪk.ɪt ˈkaʊn.tɚ/",
+        "pronunciation_tip_zh": "‘ticket’重音在第一个音节，‘counter’连读时注意/t/音",
+        "meaning_zh": "售票处，售票窗口",
+        "explain_in_english": "It's the place where you buy tickets, like at a train station or theater.",
+        "usage_note_zh": "日常生活常用，尤其在车站、机场等场所。",
+        "examples": [
+          "I bought my train ticket at the ticket counter.",
+          "There was a long line at the ticket counter this morning."
+        ]
+      },
+      {
+        "term": "last-minute",
+        "ipa_us": "/ˌlæstˈmɪn.ɪt/",
+        "pronunciation_tip_zh": "两个单词连读，重音在第二个单词‘minute’",
+        "meaning_zh": "最后一刻的，临时的",
+        "explain_in_english": "It means doing something very close to the time it needs to happen.",
+        "usage_note_zh": "常用来描述临时计划或购买，口语和书面语均适用。",
+        "examples": [
+          "I made a last-minute decision to take the train.",
+          "They sold me a last-minute ticket at a discount."
+        ]
+      },
+      {
+        "term": "window seat",
+        "ipa_us": "/ˈwɪn.doʊ siːt/",
+        "pronunciation_tip_zh": "‘window’重音在第一个音节，‘seat’发长音/iː/",
+        "meaning_zh": "靠窗的座位",
+        "explain_in_english": "A seat next to the window, often preferred for the view.",
+        "usage_note_zh": "在交通工具（飞机、火车、汽车）购票时常用，非正式和正式场合均适用。",
+        "examples": [
+          "I always try to get a window seat on the plane.",
+          "Do you have any window seats left for the evening train?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Buying a Last-Minute Train Ticket",
+      "context_zh": "这是一个人在火车站售票窗口买临时车票的情景。学会如何用礼貌的方式询问票的可用性和座位情况。",
+      "script_en": "Customer: Hi, I’m looking for a last-minute ticket to Boston. Do you have any tickets left for the 5 PM train?\nTicket Agent: Let me check that for you. Yes, there are still a few seats available. Would you like a one-way or round-trip ticket?\nCustomer: Just one way, please. How much is it?\nTicket Agent: That would be $50.\nCustomer: Great. Do you happen to have any window seats available?\nTicket Agent: Yes, there are a couple of window seats left. I can reserve one for you.\nCustomer: Thank you! Also, does this train have power outlets?\nTicket Agent: Yes, each seat has a power outlet.\nCustomer: Perfect. Here is my credit card.\nTicket Agent: Thank you. Your ticket is printed. Have a pleasant trip!\nCustomer: Thanks so much!\nTicket Agent: If you need any help at the station, feel free to ask.\nCustomer: I appreciate that. I’m a bit nervous because it’s my first time taking this route.\nTicket Agent: Don’t worry, the train is usually very comfortable and on time.\nCustomer: That’s good to hear. Thanks again!",
+      "translation_zh": "顾客：你好，我想买一张去波士顿的临时车票。5点的火车还有票吗？\n售票员：我帮您查一下。是的，还有几个座位。您要单程票还是往返票？\n顾客：单程票，谢谢。多少钱？\n售票员：50美元。\n顾客：太好了。请问还有靠窗的座位吗？\n售票员：有的，还有几个靠窗的座位。我帮您预订一个。\n顾客：谢谢！另外，这趟火车有电源插座吗？\n售票员：有的，每个座位都有电源插座。\n顾客：太好了。这是我的信用卡。\n售票员：谢谢。您的车票打印好了。祝您旅途愉快！\n顾客：非常感谢！\n售票员：如果您在车站需要帮助，随时问我。\n顾客：感谢，我有点紧张，因为这是我第一次坐这条路线的火车。\n售票员：别担心，火车通常很舒适，而且准时。\n顾客：听到这些我放心了。再次感谢！",
+      "practice_tip_zh": "模拟火车站买票对话，重点练习礼貌询问票的可用性和座位类型，如“Do you have any tickets left?”和“Do you happen to have any window seats?”，帮助你在真实场合自信表达。"
+    },
+    "reading": {
+      "title": "A Chance Encounter on the Train",
+      "genre": "short story",
+      "text_en": "Last summer, I had to catch a last-minute train to visit my family in another city. I arrived at the train station just 20 minutes before departure, feeling worried that tickets might be sold out. At the ticket counter, I politely asked, “I was wondering if there are any tickets left for the 3 PM train to Springfield.” The agent smiled and said, “Yes, there are still some seats available. Would you prefer a window seat or an aisle seat?” I chose a window seat, hoping to enjoy the view during the trip. While waiting in the seating area, I noticed a man sitting near me who looked a bit nervous. I asked him, “Do you happen to know if this train is often crowded?” He replied, “Sometimes it is, but today it seems manageable.” We started chatting and soon found out we were both headed to Springfield for a conference. We shared stories about our work and our reasons for attending the event. The conversation helped ease my nervousness about the trip. When the train arrived, we boarded together and found our seats. The man thanked me for starting the conversation, saying it made his journey more enjoyable as well. As the train moved along, I looked out the window and felt grateful for the small moments of kindness that can turn a stressful experience into a pleasant one. This trip reminded me how simple politeness and a friendly question can create new connections, even in unexpected places.",
+      "summary_zh": "本文讲述了作者因临时买票搭乘火车的经历，以及与一位陌生乘客的友好交谈，体现了礼貌交流带来的积极影响。",
+      "questions": [
+        {
+          "question": "What question did the author use to politely ask about ticket availability?",
+          "answer": "The author said, “I was wondering if there are any tickets left for the 3 PM train to Springfield.”"
+        },
+        {
+          "question": "How did the conversation with the other passenger affect the author's trip?",
+          "answer": "It made the trip more enjoyable by easing nervousness and creating a friendly connection."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 9850,
+    "completion_tokens": 4731,
+    "total_tokens": 14581,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
