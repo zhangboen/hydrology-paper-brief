@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "number": 21,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Buying Train Tickets: Polite Questions About Availability",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 14581,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-28T08:54:20.940289+08:00"
 }
