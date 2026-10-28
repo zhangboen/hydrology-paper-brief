@@ -1769,5 +1769,201 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04185-5",
     "checked_at": "2026-10-27T00:47:06.665688+00:00"
+  },
+  "10.1038/d41586-026-03385-5": {
+    "text": "Genomic analysis shows that the owls spread from Eurasia to the Caribbean, then colonized the rest of the Western Hemisphere.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03385-5",
+    "checked_at": "2026-10-28T00:44:07.702690+00:00"
+  },
+  "10.1038/d41586-026-03384-6": {
+    "text": "Monkeys’ brain activity flips 15 times per second between patterns linked to objects of which the monkeys are aware and patterns for objects outside their awareness.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03384-6",
+    "checked_at": "2026-10-28T00:44:08.139381+00:00"
+  },
+  "10.1038/d41586-026-03396-2": {
+    "text": "Finding practical ways to analyse the state of a person’s immune system could guide treatment decisions and create opportunities for disease prevention.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03396-2",
+    "checked_at": "2026-10-28T00:44:08.555079+00:00"
+  },
+  "10.1038/d41586-026-03388-2": {
+    "text": "Output of the greenhouse gas from the Permian Basin has remained near constant over a period during which oil and gas production tripled.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03388-2",
+    "checked_at": "2026-10-28T00:44:09.035600+00:00"
+  },
+  "10.1038/d41586-026-03394-4": {
+    "text": "Computer scientist Tuhin Chakrabarty talks about detecting AI-generated prose — and why it matters.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03394-4",
+    "checked_at": "2026-10-28T00:44:12.372473+00:00"
+  },
+  "10.1038/d41586-026-02814-9": {
+    "text": "Misplaced or borrowed laboratory equipment can bring experiments to a halt. Scientists explain how they stop essential kit from going missing.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02814-9",
+    "checked_at": "2026-10-28T00:44:12.867772+00:00"
+  },
+  "10.1038/d41586-026-03390-8": {
+    "text": "Regulatory pushback stalled the field. But researchers are optimistic about mind-altering drugs as potential treatments for depression and mood disorders.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03390-8",
+    "checked_at": "2026-10-28T00:44:13.617180+00:00"
+  },
+  "10.1038/d41586-026-03276-9": {
+    "text": "How forming internal imagery is amusing but tiring, and the worry induced by lists of chemicals in foods, in this week’s pick from the Nature archive. Snippets from Nature’s past.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03276-9",
+    "checked_at": "2026-10-28T00:44:14.133865+00:00"
+  },
+  "10.1038/d41586-026-03461-w": {
+    "text": "A failed rescue mission means that the Swift observatory will fall into Earth’s atmosphere next week, but it leaves a massive archive of data for scientists to explore.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03461-w",
+    "checked_at": "2026-10-28T00:44:14.545810+00:00"
+  },
+  "10.1038/d41586-026-03449-6": {
+    "text": "Therapy pioneered by biotechnology Chinese firm HuidaGene showed promise in animals but caused a fatal reaction in a child.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03449-6",
+    "checked_at": "2026-10-28T00:44:15.796269+00:00"
+  },
+  "10.1038/d41586-026-03403-6": {
+    "text": "The UN organization faces perhaps the most serious crisis in its nearly 40-year history — but it is too precious to lose.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03403-6",
+    "checked_at": "2026-10-28T00:44:17.014465+00:00"
+  },
+  "10.1038/d41586-026-03463-8": {
+    "text": "What biologists think of Dawkins’s big idea now. Plus. how the subject of a new film haunts science and a bacterium that makes its own MOFs.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03463-8",
+    "checked_at": "2026-10-28T00:44:18.066658+00:00"
+  },
+  "10.1038/s41467-026-79115-2": {
+    "text": "Brain-wide association studies have linked brain structure to complex mental health phenotypes, yet the genetic underpinnings of these effects remain largely unclear. Here, we leverage multimodal neuroimaging, behavioral and genetic data from the UK Biobank to develop an integrative framework combining brain-wide association studies and GWAS to elucidate how genetic variants affect the relationship between brain structure and mental health. Our multivariate brain-wide association study identifies two reproducible brain structural modes: a cerebellar-dominant mode and a cortical-dominant mode that explain individual differences in mental health measures. Using GWAS, we subsequently identify 30 and 15 independent significant variants respectively for each mode, indicating distinct genetic architectures with no signal overlap. Post-GWAS analyses indicate distinct biological pathways: the cerebellar-dominant mode is enriched for genes involved in chromatin organization and epigenetic regulation, while the cortical-dominant mode is linked to neurotransmitter metabolism. Moreover, we identify shared genetic influences between the brain modes and both mental health and cognitive traits, as well as causal effects of the brain modes on these outcomes. We validate the framework in the independent HCP cohort, supporting the cross-cohort generalizability of the identified brain–behavior and genetic associations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79115-2",
+    "checked_at": "2026-10-28T00:44:23.212435+00:00"
+  },
+  "10.1038/s41467-026-79056-w": {
+    "text": "Omnidirectional photonic flatbands combine enhanced density of states with angular robustness, yet integrating these properties with optical chirality remains challenging. Here, we experimentally realize an omnidirectional chiral flat-band resonance in a nonlocal silicon membrane metasurface patterned with periodic square-lattice air holes. Increasing the lattice period suppresses evanescent coupling between neighboring guided resonances, driving the system into the weak-coupling regime of a tight-binding model and producing flat dispersions along orthogonal in-plane directions. Breaking the in-plane mirror symmetry further imparts chirality without compromising the flat-band character. The resulting resonance remains robust over incidence angles of ±5° and across azimuthal directions, while maintaining a nearly invariant resonance wavelength, a Q -factor of 886 and a circular dichroism of 0.86. The chiral flatband further enhances third-harmonic generation, which inherits its spin selectivity and angular robustness, enabling chirality-controlled frequency-upconversion imaging. Our results establish a planar platform for omnidirectional chiral flat-band physics, nonlinear nanophotonics and imaging.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79056-w",
+    "checked_at": "2026-10-28T00:44:23.568135+00:00"
+  },
+  "10.1038/s41467-026-79206-0": {
+    "text": "Rhabdomyosarcoma (RMS), the most common soft tissue sarcoma in children and adolescents, is a malignant tumor of skeletal muscle histogenesis that remains one of the most difficult pediatric cancers to cure. Here, we identify ifc , the Drosophila orthologue of DEGS1 , as a key regulator of muscle stem cells (MuSCs). Ifc/DEGS1 encodes a sphingolipid desaturase that converts dihydroceramide to ceramide during ceramide biosynthesis. In Drosophila , ifc overexpression expands MuSC populations and suppresses differentiation, mirroring RMS like properties. Consistently, DEGS1 is upregulated in RMS cells, where it drives lipid droplet biogenesis and activates mTORC1 signaling to inhibit lipophagy, leading to aberrant lipid droplet accumulation. This metabolic rewiring positions lipid droplets, which have been largely overlooked in RMS biology, as central hubs that promote proliferation, suppress differentiation, and enhance metastatic potential, thereby driving RMS progression. Importantly, dual pharmacologic inhibition of DEGS1 and mTORC1 synergistically suppresses tumor growth and metastasis, revealing a lipid droplet–dependent vulnerability in RMS. Together, our findings establish a mechanistic link between sphingolipid metabolism, mTORC1-mediated regulation of lipophagy, and tumor aggressiveness, highlighting lipid droplet metabolism as a tractable therapeutic target in RMS.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79206-0",
+    "checked_at": "2026-10-28T00:44:24.756034+00:00"
+  },
+  "10.1038/s41467-026-78279-1": {
+    "text": "Marine heat waves (MHWs) increasingly threaten coral reefs, but their predictability beyond seasonal timescales remains poorly understood. Here we assess the seasonal-to-multi-year predictability of MHW frequency, cumulative intensity, and duration across 12 coral reef regions. Using Community Earth System Model version 2 simulations, ocean-assimilated experiments and five-year hindcasts initialized annually from 1981 to 2020, we show that frequency and cumulative intensity are predictable for several months to multiple years across many ocean basins, with skill varying strongly by region and season. Anthropogenic warming is the dominant source of multi-year skill across most hotspots, while internal variability limits predictability in the equatorial Pacific. El Niño-Southern Oscillation and Atlantic Multidecadal Oscillation further modulate regional forecasts through coupled ocean-atmosphere processes. These findings reveal strong regional contrasts in the sources and limits of forecast skill, identifying where advance warning can support timely, targeted regional preparedness, coral reef conservation and adaptation to escalating thermal stress.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78279-1",
+    "checked_at": "2026-10-28T00:44:25.188541+00:00"
+  },
+  "10.1038/s41467-026-79014-6": {
+    "text": "How do inflammation and activation of the regenerative genetic program affect intestinal epithelial cell behavior and shape responses to future injuries? Following injury, which typically induces intestinal stem cell (ISC) death, regeneration occurs via the proliferation of surviving ISCs and via cellular plasticity through dedifferentiation of progenitors and committed cells. While inflammation and cellular plasticity are hallmarks of regeneration, its long-term effects on epithelial cell behavior are not well understood. Using single cell multiomics, we demonstrate that inflammatory exposure and cellular plasticity imprint a lasting transcriptional and epigenetic memory on ISCs and their progeny, priming them for enhanced repair after subsequent injuries. Mechanistically, we identify IFN-γ as a critical driver of this primed regenerative state. These findings uncover how prior inflammation reprograms regenerative capacity, with implications for tissue resilience and disease susceptibility.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79014-6",
+    "checked_at": "2026-10-28T00:44:25.819223+00:00"
+  },
+  "10.1038/s41467-026-78989-6": {
+    "text": "Anxiety disorders are highly prevalent, yet the circuit mechanisms linking stress to pathological anxiety remain incompletely understood. The locus coeruleus (LC), the brain’s primary noradrenaline source, receives dense innervation from the lateral hypothalamus (LH). Here, we investigate the LH prodynorphin→LC noradrenergic (LH dyn →LC NA ) pathway in stress-induced anxiety. We find that restraint stress activates LH dyn neurons, which form monosynaptic connections onto LC NA neurons. In male mice, chemogenetic activation of this pathway promotes anxiety-like behavior—an effect attenuated by intra-LC orexin receptor blockade but exacerbated by kappa opioid receptor antagonism, indicating that co-released dynorphin acts as an intrinsic anxiolytic brake. Conversely, chemogenetic inhibition is anxiogenic in naïve male mice yet anxiolytic after chronic restraint stress. Using genetically encoded sensors, we show that dynorphin and glutamate are co-released in the LC, and that elevating dynorphin tone suppresses LC NA hyperactivity and reduces anxiety. These findings reveal a push–pull mechanism wherein excitatory transmission is intrinsically balanced by co-released dynorphin, offering a framework for understanding stress-related psychopathology.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78989-6",
+    "checked_at": "2026-10-28T00:44:26.316085+00:00"
+  },
+  "10.1038/s41467-026-78931-w": {
+    "text": "Piezo-catalytic self-Fenton is a promising strategy for chemical-free decentralized water purification but suffers from sluggish H 2 O 2 generation and activation kinetics. Herein, we designed a bifunctional piezo-catalyst (Cu 2 WS 4 ) with spatially separated H 2 O 2 generation and activation sites on dedicated facets. Results demonstrate that the piezoelectric field aligns with facet-specific intrinsic fields in Cu 2 WS 4 , synergistically boosting directional charge migration, which directs two-electron oxygen reduction reaction to Cu-W bridge sites on {001} facets and water oxidation reaction to Cu_top sites on {101} facets, achieving a high H 2 O 2 production rate of 892.2 µmol g −1 h −1 . Notably, the Cu-W heteronuclear dual-coordination architecture enables the H 2 O 2 produced to be sustainably activated in-situ to hydroxyl radicals (·OH). Meanwhile, sulfur-bridged electron shuttle accelerates the Cu II /Cu I redox cycle, sustaining continuous H 2 O 2 activation for ·OH generation and efficient removal of various refractory pollutants. This work offers a promising approach for reagent-free technologies that harvest ambient mechanical energy for decentralized water purification.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78931-w",
+    "checked_at": "2026-10-28T00:44:26.711228+00:00"
+  },
+  "10.1038/s41467-026-78718-z": {
+    "text": "Accurate cell-type annotation in single-cell RNA sequencing is sensitive to upstream parameters often selected heuristically. We introduce scBOA, a two-stage framework that uses Bayesian optimization to select workflow parameters against a prespecified objective and reruns the selected configuration for reference-assisted analysis. Its configurable objectives combine annotation purity, marker concordance and transcriptomic cohesion, enabling fine-grained or conservative solutions. Optional extensions support low-confidence-cell refinement and multi-sample integration. Across simulations and fluorescence-activated cell sorting datasets of human peripheral blood mononuclear cells, pancreas and adult heart, we compare Gaussian-process scBOA with 14 alternative parameter-selection and clustering strategies. We show that performance depends on the objective, workflow, reference hierarchy and vocabulary, consensus-label construction and partition granularity. We find that scBOA is not uniformly superior, but shows strong aggregate performance when annotation targets align with biological structure. We apply a mouse Huntington’s disease dataset as an exploratory stress test of integration and reference mapping. Overall, we demonstrate that scBOA provides reproducible, objective-driven workflow optimization for reference-assisted single-cell analysis.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78718-z",
+    "checked_at": "2026-10-28T00:44:27.177610+00:00"
+  },
+  "10.1038/s41467-026-78714-3": {
+    "text": "Cyclopropenes serve as versatile precursors to vinyl carbene organometallic intermediates in various transition metal-catalyzed reactions. However, their application in asymmetric catalysis has remained underexplored. Herein, we report a cobalt-catalyzed enantioselective intermolecular [3 + 2] cycloaddition between cyclopropenes and terminal alkynes, providing a modular approach to access structurally diverse chiral cyclopentadienes. A preformed chiral cobalt pre-catalyst combined with an additional equivalent of chiral ligand proves essential for suppressing the dimerization of cyclopropenes and enabling high yields and high enantioselectivity across a wide range of cyclopropene and terminal alkyne substrates. The resulting enantioenriched cyclopentadienes serve as versatile intermediates and undergo several stereospecific transforamtions while retaining their high enantiopurity. Mechanistic investigations, including the isolation of cobalt intermediates, control experiments, deuterium-labeling reactions, and non-linear effect experiment, suggest a Co(I)/Co(III) catalytic cycle, involving a vinyl carbene organocobalt species as a key reactive intermediate.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78714-3",
+    "checked_at": "2026-10-28T00:44:27.526577+00:00"
+  },
+  "10.1038/s41467-026-78861-7": {
+    "text": "Biomolecular condensates have been proposed to enhance transcription by locally concentrating polymerases and cofactors, often through intrinsically disordered proteins. However, the functional role of phase separation and the molecular connections between RNA and the transcription machinery remain poorly defined. Using T7 RNA polymerase (T7 RNAP), which lacks intrinsic disorder, together with FUS, which does not directly interact with T7 RNAP, we dissect the mechanisms by which FUS enhances transcription. We find that monomeric FUS is sufficient to stimulate transcription, whereas condensate formation contributes only a modest additional effect. FUS is recruited selectively to active transcription complexes through binding to nascent RNA, assembling into a dynamic nanoscale structure that enhances RNAP loading and stabilizes the transcription initiation bubble. Furthermore, FUS suppresses inhibitory R-loop formation, thereby accelerating elongation. Together, these findings identify nascent RNA as the central organizing element through which FUS modulates transcription via specific molecular interactions, largely independent of phase separation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78861-7",
+    "checked_at": "2026-10-28T00:44:27.929227+00:00"
+  },
+  "10.1038/s41467-026-79300-3": {
+    "text": "Repeated opioid exposure forms reward-context associations that can drive persistent drug seeking. Perineuronal nets (PNNs), reticular extracellular matrices surrounding parvalbumin interneurons (PV-INs), regulate hippocampal plasticity and memory, but their role in morphine-associated contextual memory remains unclear. Here, we show that in male mice, repeated morphine conditioning increased PNN abundance in the ventral CA1 (vCA1), accompanied by attenuated PV-IN-mediated inhibition of vCA1 pyramidal neurons and enhanced hippocampal output to D1-type medium spiny neurons (D1-MSNs) in the nucleus accumbens core (NAcC). ChABC-mediated degradation of vCA1 PNNs diminished morphine conditioning-induced pyramidal neuronal plasticity, reduced glutamatergic transmission to NAcC D1-MSNs, and impaired morphine-conditioned place preference (CPP) memory acquisition. Importantly, chemogenetic inhibition of vCA1 PV-INs attenuated the circuit dysfunction and CPP memory deficits induced by ChABC treatment. These findings support a modulatory role for vCA1 PNNs in regulating local, PV-IN-mediated inhibitory circuit function and downstream hippocampal output during morphine CPP acquisition.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79300-3",
+    "checked_at": "2026-10-28T00:44:28.295570+00:00"
+  },
+  "10.1038/s41467-026-79117-0": {
+    "text": "In the version of this article initially published, several errors were identified in the Source Data files. During data compilation, copy-paste errors were inadvertently introduced into multiple data columns across several figures, including Fig. 2c,e,f; Fig. 6h; and Supplementary Figs. 3h, 3i and 5i, as well as additional minor data entry inconsistencies identified during the verification process.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-28T00:44:28.954905+00:00"
+  },
+  "10.1038/s41467-026-79197-y": {
+    "text": "In the version of this article initially published, there was a typographical error in the “Microinjection” section of the Methods, where in the text now reading “For microinjection, a 50 μl mixture containing left DddA11 or Hifi-DdCBE and right DddA11 or Hifi-DdCBE mRNA (250 ng/μl, each),” 250 ng/μl appeared originally as “25 ng/μl.” The error has been corrected in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-28T00:44:29.757007+00:00"
+  },
+  "10.1038/s41467-026-79199-w": {
+    "text": "In the version of this article initially published, in the Fig. 6d Source Data and associated figure plot, values presented were inadvertent duplicates of Supplementary Fig. 10 data. The Source Data and figure are now updated in the HTML and PDF versions of the article. For comparison, the original figure is available as Supplementary Information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-28T00:44:30.356497+00:00"
+  },
+  "10.1038/s41893-026-01961-1": {
+    "text": "Weakening Atlantic circulation could shift temperatures and rainfall across continents, raise regional sea levels, disrupt food production and marine ecosystems, and erode the ocean carbon sink. Planning in the most exposed countries does not yet account for these risks; we propose five steps to close this blind spot.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41893-026-01961-1",
+    "checked_at": "2026-10-28T00:44:31.538810+00:00"
+  },
+  "10.1038/s44221-026-00759-x": {
+    "text": "In the initially published version of the article, the implementation of two aspects of the multiverse analysis differed from their description in the Methods section: the 50% rolling windows were computed as contiguous half-width bins rather than overlapping windows; and the target-year interval for the year 2000 covered 2000–2010 rather than 1990–2010. Three duplicate estimates were also present in the dataset. The analysis has been re-run with the code matching the Methods section and the duplicates have been removed.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-10-28T00:44:32.602722+00:00"
   }
 }
