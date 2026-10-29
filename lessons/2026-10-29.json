@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "number": 22,
+  "status": "prepared",
+  "lesson": {
+    "title": "Joining a Conversation at a Conference: Smooth Interjections",
+    "concept": {
+      "key": "smooth_interjections",
+      "name_en": "Smooth Interjections in Conversation",
+      "name_zh": "对话中的自然插入语",
+      "explanation_zh": "在会议或社交场合中，当你想加入正在进行的对话时，使用顺畅自然的插入语非常重要。它可以帮助你礼貌地打断或加入对话，而不显得唐突或粗鲁。常用的表达包括“Excuse me for interrupting,” “May I add something?” 或 “If I could just jump in here...” 这些短语让你显得尊重别人，同时表达自己的想法。",
+      "examples": [
+        "Excuse me for interrupting, but could I share a thought?",
+        "May I add something to that point?",
+        "If I could just jump in here, I think we should consider..."
+      ],
+      "common_mistake_zh": "常见错误是直接插话或打断，没有使用任何礼貌短语。例如，直接说“Wait, I want to say something”会让人感到不礼貌。正确的做法是说：“Excuse me for interrupting, may I add something?”"
+    },
+    "vocabulary": [
+      {
+        "term": "jump in",
+        "ipa_us": "/dʒʌmp ɪn/",
+        "pronunciation_tip_zh": "jump 的结尾音 /p/ 与 in 的开头音 /ɪ/ 连读，听起来像 'jumpin'",
+        "meaning_zh": "突然插话，加入谈话",
+        "explain_in_english": "I say 'jump in' when I want to join a conversation quickly.",
+        "usage_note_zh": "口语中常用，适合正式或非正式场合。用来表示突然或主动加入对话。",
+        "examples": [
+          "Can I jump in with a question?",
+          "Feel free to jump in if you have anything to add."
+        ]
+      },
+      {
+        "term": "excuse me for interrupting",
+        "ipa_us": "/ɪkˈskjuz mi fɔr ˌɪntəˈrʌptɪŋ/",
+        "pronunciation_tip_zh": "注意 interrupting 的重音在第三个音节，/ʌ/ 发短音，连读时 /t/ 常弱化",
+        "meaning_zh": "抱歉打断一下",
+        "explain_in_english": "I say this phrase to politely stop someone to say something.",
+        "usage_note_zh": "正式或半正式场合常用，表达尊重和礼貌。",
+        "examples": [
+          "Excuse me for interrupting, but I think we need to clarify that.",
+          "Excuse me for interrupting, but could I ask a quick question?"
+        ]
+      },
+      {
+        "term": "may I add something",
+        "ipa_us": "/meɪ aɪ æd ˈsʌmθɪŋ/",
+        "pronunciation_tip_zh": "may 和 I 连读时听起来像 /meɪ aɪ/，add 重音在第一个音节",
+        "meaning_zh": "我可以补充一点吗？",
+        "explain_in_english": "I say this when I want to politely add my opinion in a conversation.",
+        "usage_note_zh": "适用于较正式或会议场合，显示尊重他人发言。",
+        "examples": [
+          "May I add something to your point?",
+          "May I add something before we finish?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Joining a Discussion at a Conference Networking Break",
+      "context_zh": "在会议的茶歇时间，你听到两位同事在讨论一个项目，想礼貌地加入他们的对话。",
+      "script_en": "Anna: This new marketing strategy seems promising, but I wonder about the budget implications.\nBen: I agree, Anna. We should definitely review the numbers carefully before moving forward.\nYou: Excuse me for interrupting, but may I add something? I recently read a report that might help us with the budget projections.\nAnna: Of course, please go ahead.\nYou: The report suggests focusing on digital channels, which can reduce costs significantly compared to traditional advertising.\nBen: That’s interesting. Do you have the details?\nYou: Yes, I can share the summary after this break.\nAnna: Thanks for jumping in. It adds a valuable perspective.\nBen: Absolutely, it’s great to have your input.\nYou: I’m glad to contribute. May I ask, how long have you been working on this project?\nAnna: We started about three months ago.\nBen: Yeah, it’s been a busy period, but the team is really motivated.\nYou: That’s good to hear. I’m looking forward to collaborating more with you both.\nAnna: Same here! Let’s catch up again after the next session.\nBen: Definitely. Thanks for joining our conversation!",
+      "translation_zh": "安娜：这个新的营销策略看起来很有前景，但我担心预算方面的问题。\n本：我同意，安娜。我们在推进之前一定要仔细审查数字。\n你：抱歉打断一下，我可以补充一点吗？我最近读了一份报告，可能对预算预测有帮助。\n安娜：当然，请说。\n你：报告建议重点放在数字渠道，这可以显著降低传统广告的成本。\n本：这很有趣。你有具体内容吗？\n你：有的，休息后我可以分享摘要。\n安娜：谢谢你插话，这带来了宝贵的观点。\n本：确实，有你的意见真好。\n你：很高兴能贡献一点。请问你们做这个项目多久了？\n安娜：我们大约三个月前开始的。\n本：是啊，这段时间很忙，但团队很有干劲。\n你：听到这个很高兴。期待和你们更多合作。\n安娜：我也是！下一场会议后再聊。\n本：一定。谢谢你加入我们的谈话！",
+      "practice_tip_zh": "练习时，先在脑中模拟插话时机，练习用礼貌短语自然进入对话，避免突然打断。可以录音自听，调整语气更自然。"
+    },
+    "reading": {
+      "title": "A Quick Note After the Conference",
+      "genre": "informal letter",
+      "text_en": "Dear Jamie,\n\nI hope this note finds you well. I wanted to thank you again for the great conversation we shared during the conference lunch break yesterday. It was really nice to finally put a face to the name after all the emails we exchanged over the past months. I truly appreciated your insights about the industry trends and the challenges your company is facing.\n\nAfter our talk, I took some time to read more about the digital marketing strategies we discussed. I found several interesting reports suggesting that focusing more on targeted social media campaigns can improve customer engagement without increasing the budget significantly. The reports also highlight the importance of personalized content to attract specific audience segments.\n\nI thought you might find this information useful, so I’m attaching a few links to the most relevant articles in this email. If you have time, maybe we could jump in on a quick video call next week to explore some ideas further. I believe there’s real potential for collaboration between our teams, especially if we combine our strengths.\n\nThanks again for being so open and generous with your advice. I’m looking forward to staying in touch and hopefully working together soon. Please let me know if you have any questions or if there’s anything else I can assist with.\n\nBest regards,\n\n[Your Name]",
+      "summary_zh": "这是一封写给会议上新认识的同事的非正式信，感谢交流，分享与数字营销相关的资料，并提议进一步通过视频电话合作。",
+      "questions": [
+        {
+          "question": "What follow-up does the writer suggest after the conference?",
+          "answer": "The writer suggests having a quick video call next week to discuss ideas and potential collaboration."
+        },
+        {
+          "question": "How does the writer describe their initial meeting with Jamie?",
+          "answer": "The writer says it was nice to finally meet in person after exchanging emails and appreciated Jamie’s insights about industry trends and challenges."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 10324,
+    "completion_tokens": 5015,
+    "total_tokens": 15339,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}

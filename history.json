@@ -250,5 +250,17 @@
     ],
     "scene": "Buying a Last-Minute Train Ticket",
     "reading": "A Chance Encounter on the Train"
+  },
+  {
+    "date": "2026-10-29",
+    "concept_key": "smooth_interjections",
+    "concept_name": "Smooth Interjections in Conversation",
+    "terms": [
+      "jump in",
+      "excuse me for interrupting",
+      "may I add something"
+    ],
+    "scene": "Joining a Discussion at a Conference Networking Break",
+    "reading": "A Quick Note After the Conference"
   }
 ]
