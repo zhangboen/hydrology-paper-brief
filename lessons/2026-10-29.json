@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "number": 22,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Joining a Conversation at a Conference: Smooth Interjections",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 15339,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-29T09:29:36.533769+08:00"
 }
