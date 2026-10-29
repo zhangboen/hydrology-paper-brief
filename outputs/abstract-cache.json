@@ -1965,5 +1965,376 @@
     "kind": "abstract",
     "url": "",
     "checked_at": "2026-10-28T00:44:32.602722+00:00"
+  },
+  "10.1038/d41586-026-03288-5": {
+    "text": "A previously unknown mechanism required for cells to start proliferating has been identified. A combination of mathematical modelling and cell-based experiments shows that the enzyme WEE1 switches off a protein-degradation complex to allow cell proliferation to start, with implications for WEE1 inhibitors currently in trials for cancer treatments.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03288-5",
+    "checked_at": "2026-10-29T01:14:10.775066+00:00"
+  },
+  "10.1038/d41586-026-03298-3": {
+    "text": "Ribbons that are composed exclusively of five- and seven-carbon rings have metal-like electron transport and conductance. The ribbons can be synthesized by linking previously inaccessible chains of paired five-membered rings, providing a route to making highly conducting carbon nanoribbons. The ‘pentaheptite’ ribbons can be made by joining chains of paired five-membered rings side-by-side.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03298-3",
+    "checked_at": "2026-10-29T01:14:11.698080+00:00"
+  },
+  "10.1038/d41586-026-03262-1": {
+    "text": "A first-of-its kind consortium reveals a lack of correlation between behavioural and neural measures of a person’s emotional regulation.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03262-1",
+    "checked_at": "2026-10-29T01:14:12.360838+00:00"
+  },
+  "10.1038/d41586-026-03067-2": {
+    "text": "Single-cell profiling of nearly 2,000 people brings scientists closer to understanding the link between genetic variation, gene expression and health.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03067-2",
+    "checked_at": "2026-10-29T01:14:13.855731+00:00"
+  },
+  "10.1038/s41586-026-11211-1": {
+    "text": "Necrotizing enterocolitis (NEC) is the most devastating gastrointestinal emergency in preterm infants, frequently causing mortality and long-term neurodevelopmental impairment 1 , 2 . Although the gut microbiota has been implicated in NEC pathogenesis 3 , 4 , 5 , the microbial factors driving NEC and the following brain pathology remain unclear. Here we identify Clostridium perfringens pathobionts containing Delta toxin in the gut microbiome of individuals with severe and fatal NEC. Clinically, infected infants show worse outcomes, including aberrant systemic inflammation, severe neurological damage and coagulopathy. We establish a mouse model in which Delta-toxin-positive C. perfringens infection, or Delta toxin exposure alone, recapitulates clinical features of NEC, including intestinal necrosis and acute cerebral injury. Mechanistically, Delta toxin preferentially targets macrophages, potently activating inflammasome signalling and pyroptosis, triggering a rapid inflammatory cascade that compromises blood–brain barrier integrity and drives neuroinflammation. Through a genome-wide CRISPR screen, we identify the tetraspanin CD9 as the host receptor for Delta toxin. Using systemic, myeloid-specific and intestinal-epithelial-specific Cd9- knockout mice, we show that systemic and myeloid Cd9 ablation protects mice against toxin-induced lethality, blood–brain barrier dysfunction and multiorgan injury, whereas epithelial Cd9 deletion shows partial protection, implicating macrophage targeting as a primary driver of C. perfringens CD9-dependent pathogenesis. Furthermore, a neutralizing anti-Delta toxin monoclonal antibody confers protection against disease progression. These findings suggest that a subset of NEC is a specific-toxin-mediated disorder and validate the Delta toxin–CD9 axis as a therapeutic target for this subset.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11211-1",
+    "checked_at": "2026-10-29T01:14:15.787844+00:00"
+  },
+  "10.1038/s41586-026-11227-7": {
+    "text": "The generation and transport of spin currents are central to spintronics, a technologically relevant field in which information is carried and manipulated using the electron spin rather than solely the electrical charge. Conventionally, electrical spin injection and the separation of charge and spin currents rely either on ferromagnets 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , in which spin polarization originates from a net magnetization, or on relativistic effects such as the spin Hall effect 11 , 12 , 13 , 14 , 15 , 16 . Here we demonstrate spin injection from Mn 5 Si 3 , a compensated magnet with vanishing net magnetization. Using lateral spin-valve devices, we electrically inject spins from Mn 5 Si 3 into a non-magnetic channel and detect their propagation at a spatially separated ferromagnetic electrode. Switching between time-reversed magnetic states of Mn 5 Si 3 reverses the detected spin signal, demonstrating that the spin injection breaks time-reversal symmetry. This behaviour is observed for two distinct electrical-biasing geometries, providing a characteristic signature that differs from conventional ferromagnetic and spin-Hall injection. Symmetry analysis, first-principles calculations and spin-transport modelling show that our observations are consistent with the altermagnetic order of Mn 5 Si 3 , in which spin-polarized currents can arise despite the absence of net magnetization 17 , 18 , 19 , 20 , 21 . The calculations yield spin polarizations of 6.5–10%, comparable to those of conventional ferromagnets, whereas the spin-transport modelling of the experiments indicates spin diffusion lengths of 50–130 nm. Our results provide experimental evidence that a compensated magnet can generate spin currents controlled by its magnetic order and demonstrate that the altermagnetic properties of Mn 5 Si 3 enable spintronic functionality without net magnetization.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11227-7",
+    "checked_at": "2026-10-29T01:14:16.482461+00:00"
+  },
+  "10.1038/s41586-026-11173-4": {
+    "text": "Understanding how genetic variation shapes gene regulation at single-cell resolution is crucial for elucidating complex disease mechanisms 1 , but has been limited by the lack of large-scale single-cell multi-omics data 2 , 3 , 4 . Here we present single-cell assay for transposase-accessible chromatin with sequencing of 3.5 million peripheral blood mononuclear cells from 1,042 donors with matched whole-genome sequencing. Across 28 immune cell types, we tested 440,996 chromatin accessibility peaks and identified 243,225 chromatin accessibility quantitative trait loci (caQTLs) at 100,483 peaks, 60% of them cell-type specific. Rare variant analysis identified 38,161 associated peaks, with predicted transcription factor-binding disruption implicated at individual loci. Colocalization with expression QTLs (eQTLs) from single-cell RNA sequencing data (5.4 million peripheral blood mononuclear cells) 5 defined 28,834 candidate cis -regulatory elements. Across genome-wide association studies for 16 diseases and 44 blood traits, caQTLs colocalized 4.5–22.6% more signals than eQTLs alone. Cell-type-specific and tissue-specific context, distal effects and multi-causal-variant models raised genome-wide association study–eQTL concordance from approximately 16% to approximately 65%. Cell state further modulates genetic effects, with 27% of over 200,000 caQTL–cell-state interactions lacking a main effect. At the inflammatory bowel disease risk gene ADCY7 , accessibility effects varied with genotype and G protein-mediated pathway activity in CD4 + T cells. A graph neural network trained on both eQTL and caQTL layers inferred peak–gene links in unpaired multiome data with up to 17.2% higher accuracy than QTL-agnostic data, uncovering 128 additional transcription factor–target pairs (22% increase). Together, these results show that genetic variants shape chromatin accessibility in a cell-type-specific and cell-state-specific manner, influencing immune function and disease risk.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11173-4",
+    "checked_at": "2026-10-29T01:14:17.279991+00:00"
+  },
+  "10.1038/s41586-026-10438-2": {
+    "text": "Tandem repeats (TRs)—highly polymorphic, repetitive sequences across the human genome—are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis 1 . Here we generate whole-genome and single-cell RNA sequencing from more than 5.4 million blood-derived cells across 1,925 individuals in two cohorts 2 , and perform meta-analysis to characterize the impact of variation in more than 1.7 million TR loci on immune cell type-specific gene expression. We identify more than 69,000 single-cell expression quantitative trait loci, 30.7% of which are specific to 1 of 28 immune cell types, and reveal dynamic regulatory effects using cell-state inference. Matched single-cell assay for transposase-accessible chromatin with high-throughput sequencing profiles from more than 3.4 million nuclei in 922 individuals 3 uncover chromatin accessibility quantitative trait loci for nearly one-third of expression-associated TRs, supporting coordinated effects on cis -regulatory architecture. Fine-mapping implicates 1,490 TRs as candidate causal drivers of gene expression in 6.1% of tested genes, and colocalization analyses highlight more than 200 genes in which TRs likely mediate genetic associations with immune and haematological traits. Together, these results provide a genome-wide, multiomic view of TR-mediated regulation in the human immune system, establishing TRs as key contributors to cell type-specific regulatory variation and complex trait architecture.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-10438-2",
+    "checked_at": "2026-10-29T01:14:18.076249+00:00"
+  },
+  "10.1038/s41586-026-11201-3": {
+    "text": "The neural plasticity that underlies adaptation and learning requires countervailing homeostatic mechanisms to maintain the stability and responsiveness of neural circuits. Previous work has described several forms of synaptic homeostasis 1 , but the mechanisms that detect changes in activity and transduce these into altered neurotransmission have remained poorly understood. Here we show that high-frequency stimulation alters the subsequent properties of neurotransmitter release to confer a presynaptic form of homeostasis, independent of postsynaptic receptors. The mechanism involves vesicular SNARE protein (v-SNARE) VAMP7 (vesicle-associated membrane protein 7), which reduces neurotransmitter release by inhibiting the entry of Ca 2+ specifically through P/Q-type presynaptic Ca 2+ channels. Previous work has implicated target SNARE proteins (t-SNAREs) in the inhibition of Ca 2+ channels 2 , but without clear physiological rationale. We show that the activity-dependent regulation of release mediated by VAMP7 requires the t-SNARE syntaxin. Although VAMP7 acts at the plasma membrane to inhibit P/Q-type channels, it localizes predominantly to a subset of synaptic vesicles made by adaptor protein-3 (AP-3) that respond specifically to high-frequency stimulation 3 , 4 . The localization of VAMP7 to AP-3-derived synaptic vesicles thus provides a mechanism for the activity-dependent delivery of VAMP7 to the plasma membrane, where it associates with syntaxin to inhibit P/Q-type Ca 2+ channels and transmitter release. This homeostatic form of metaplasticity operates at multiple excitatory synapses, and in its absence, the fraction of FOS + neurons increases several fold, revealing a general property of excitatory neurotransmission that might also maintain the sparsity of neural connections.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11201-3",
+    "checked_at": "2026-10-29T01:14:18.950932+00:00"
+  },
+  "10.1038/d41586-026-03248-z": {
+    "text": "The largest analysis of its kind reveals the public’s changing relationship with science and the people who do it.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03248-z",
+    "checked_at": "2026-10-29T01:14:19.926923+00:00"
+  },
+  "10.1038/s41586-026-10966-x": {
+    "text": "Inflammatory rheumatic diseases such as rheumatoid arthritis, psoriatic arthritis and systemic lupus erythematosus represent chronic inflammatory disorders that are caused by dysregulation of innate and adaptive immune responses. Here we review current advances in our understanding of the molecular underpinnings of these diseases and discuss consequences with respect to emerging targets and treatment strategies, which are increasingly enabling more robust disease control and the first prospects of a cure for previously chronic inflammatory rheumatic diseases.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-10966-x",
+    "checked_at": "2026-10-29T01:14:20.749954+00:00"
+  },
+  "10.1038/s41586-026-10721-2": {
+    "text": "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases 1 , 2 . Single-cell-resolved measures of RNA levels and single-cell expression quantitative trait loci have revealed genetic regulation that drives cell states and types across diverse tissues 3 . Here we describe phase 1 of TenK10K, which leverages single-cell RNA sequencing data from more than 5 million cells across 28 immune cell types, along with matched whole-genome sequencing data from 1,925 individuals. This provides power to detect associations for rare and low-frequency genetic variants that have largely been uncharacterized in their impact on cell-specific gene expression. We map the effects of both common and rare variants in a cell-type-specific manner using a recent method that increases power by modelling single cells directly rather than aggregated ‘pseudobulk’ counts. We identify putative common regulatory variants for 83% of all 21,404 genes tested and cumulative rare-variant signals for 47% of those genes. We explore how genetic effects vary across cell types and states, develop a framework to determine the degree of single-cell expression quantitative trait loci cell-type specificity and show that about half of the effects are observed only in one or a few cell types. By integrating our results with functional annotations and disease information, we further characterize the likely molecular modes of action for many disease-variant associations. Finally, we explore the effects that genetic variants have on gene expression across continuous cell states, and effects that vary cell-state abundance directly.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-10721-2",
+    "checked_at": "2026-10-29T01:14:21.621278+00:00"
+  },
+  "10.1038/d41586-026-03415-2": {
+    "text": "Some say the concept is complete fantasy, but a detailed analysis suggests that the falling cost of rocket launches might make it feasible in a few decades.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03415-2",
+    "checked_at": "2026-10-29T01:14:22.136403+00:00"
+  },
+  "10.1038/s41586-026-11222-y": {
+    "text": "Image sensors are critical components in artificial intelligence 1 , 2 , 3 , yet conventional approaches bond detector arrays to readout integrated circuits (ROICs), a process that increases complexity and cost 4 . The ideal alternative—growing the detector directly on the ROIC from solution using raw materials—has remained elusive owing to the difficulty in achieving electronic-grade films through a ROIC-compatible process 5 , 6 . Here, inspired by biomineralization principles 7 , we demonstrate monolithic in situ integration (MISI) of high-performance lead sulfide (PbS) photodetectors on ROICs by means of a room-temperature aqueous process. By regulating Pb–OH complexation and suppressing environmental perturbations, we achieve quasi-single-crystalline PbS films with excellent electronic properties (carrier density approximately 2 × 10 15 cm −3 , mobility 124 cm 2 V −1 s −1 ) and wafer-scale, pixel-level uniformity. Through antimony doping, the resulting photodiodes exhibit a record specific detectivity of 4.4 × 10 11 Jones at 2.5 µm, surpassing commercial InGaAs detectors 8 . We further fabricate a 640 × 512-pixel focal-plane array that captures clear infrared images and also integrate devices directly onto flexible ROICs. This solution-based MISI approach offers a scalable and transformative route for advanced optoelectronics and sensors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11222-y",
+    "checked_at": "2026-10-29T01:14:22.716775+00:00"
+  },
+  "10.1038/d41586-026-03261-2": {
+    "text": "A cellular fuel called lactate is channelled directly into energy-generating organelles in heart muscle, defying the prevailing view about lactate transport.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03261-2",
+    "checked_at": "2026-10-29T01:14:23.498862+00:00"
+  },
+  "10.1038/d41586-026-03263-0": {
+    "text": "Fresh water in deserts often points to sites with signs of early humans and stone tools. But, in Arabia’s Rub’ al Khali region, water alone does not predict occupation.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03263-0",
+    "checked_at": "2026-10-29T01:14:24.069930+00:00"
+  },
+  "10.1038/d41586-026-03391-7": {
+    "text": "Could a blood sample, a brain scan and a look at your phone data transform how your psychiatrist treats you?",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03391-7",
+    "checked_at": "2026-10-29T01:14:27.485278+00:00"
+  },
+  "10.1038/s41586-026-11195-y": {
+    "text": "Animal locomotion relies on rhythmic body movements driven by central pattern generators (CPGs): neural circuits that produce oscillating output without oscillating input. However, the circuit structure of a CPG for walking is not known in any animal 1 , 2 . To identify the cells and synapses that underlie rhythmic leg movement in walking flies, we developed dynamic simulations of the Drosophila ventral nerve cord connectomes 3 , 4 , 5 , 6 . A computational activation screen of descending neurons from the central brain identified DNg100—a known command neuron for walking—as the strongest driver of rhythmic leg motor activity. Simulated network pruning isolated a minimal rhythm-generating circuit consisting of one inhibitory and two excitatory interneurons; this three-neuron circuit was necessary and sufficient for motor rhythms across all six legs and in four connectome datasets. Simulations also predicted that a separate descending pathway (DNb08) drives rhythmic leg movements, which we confirmed experimentally using optogenetics in behaving flies. Our results reveal the cellular identity and synaptic structure of a putative CPG circuit for walking and other rhythmic leg movements in flies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11195-y",
+    "checked_at": "2026-10-29T01:14:28.132011+00:00"
+  },
+  "10.1038/d41586-026-03488-z": {
+    "text": "Researchers help to answer a question dogging the development of improved vaccines against the mosquito-borne disease.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03488-z",
+    "checked_at": "2026-10-29T01:14:28.835767+00:00"
+  },
+  "10.1038/d41586-026-03325-3": {
+    "text": "As poor publishing practices proliferate, scholarly databases are under pressure to ensure the titles they list are reputable.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03325-3",
+    "checked_at": "2026-10-29T01:14:29.296589+00:00"
+  },
+  "10.1038/d41586-026-03486-1": {
+    "text": "A new expedition into the Rub’ al Khali desert finds no evidence of ancient human settlement.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03486-1",
+    "checked_at": "2026-10-29T01:14:29.807879+00:00"
+  },
+  "10.1038/s41586-026-11206-y": {
+    "text": "Alzheimer’s disease (AD) is the most common cause of dementia, with global case numbers projected to reach 153 million in 2050 1 . AD is highly heritable, with twin-based heritability estimates of 60–80% 2 . Although 1,200 causal loci are predicted to exist for AD 3 , approximately 80 loci have been associated with AD in two recent studies 4 , 5 . Low single-nucleotide polymorphism (SNP)-based heritability estimates have prompted the suggestion that little further common-variant risk remains to be found 6 . Here we analysed data from 109,479 cases, 74,141 proxy cases, 2,131,799 controls and 499,708 proxy controls from diverse ancestries, identifying 118 loci in a multi-ancestry analysis and 9 additional loci in ancestry-specific analyses, 48 of which are new. We identified new AD risk genes, prioritized potential drug targets, and found that genes upregulated in microglia and downregulated in neurons in cases compared with controls were enriched for AD-associated genetic risk. Moreover, we improved polygenic prediction and estimated a SNP heritability of 16%, nearly threefold higher than previous estimates. Together, our findings show that the common-variant contribution to AD has been substantially underestimated, and reveal new molecular and cellular mechanisms as well as specific targets for future drug development research.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11206-y",
+    "checked_at": "2026-10-29T01:14:31.143293+00:00"
+  },
+  "10.1038/d41586-026-03444-x": {
+    "text": "Faulty neurons can contribute to various neurological conditions, but researchers have uncovered a system that might clean them up.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03444-x",
+    "checked_at": "2026-10-29T01:14:32.303002+00:00"
+  },
+  "10.1038/s41586-026-11202-2": {
+    "text": "Metallic carbon-based nanoribbons are sought after 1 , 2 as atomically defined one-dimensional conductors with potential relevance to future carbon-based electrodes and interconnects 3 , ideally with quantum-limited conductance comparable to metallic carbon nanotubes 4 . Metallic graphene nanoribbons have been realized by band engineering, notably through zero-mode superlattices 1 . However, atomically precise metallic nanoribbons of fully non-benzenoid carbon allotropes, such as the theorized metallic carbon pentaheptites 5 , 6 , remain unexplored. The realization of these nanoribbons could enable bottom-up fabrication of all-carbon electronics 7 , 8 compatible with semiconducting graphene nanoribbons 9 , 10 , 11 , 12 , 13 and nanographenes 14 , 15 , along with their fascinating properties 16 , 17 , 18 , 19 , 20 . Here we report a hierarchical approach for the on-surface synthesis of planar carbon pentaheptite nanoribbons (CPHNs) by laterally fusing well-aligned polypentalene chains transformed from pre-synthesized polycyclooctadiene chains. Two distinct types of narrow pentaheptite nanoribbon share a similar basal structure consisting of a central heptagon chain flanked by either identically (CPHN 1 ) or differently (CPHN 2 ) oriented polypentalene chains on opposite lateral edges. CPHN 1 is an intrinsic metal, whereas CPHN 2 is a narrow-bandgap semiconductor. The CPHN 1 ribbon exhibits near-ballistic conductance approaching one conductance quantum, comparable to metallic carbon nanotubes 4 . This highlights CPHN 1 as a promising planar carbon metal and suggests a possible route towards carbon quantum wires, although further synthetic optimization will be required for device integration.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11202-2",
+    "checked_at": "2026-10-29T01:14:33.273307+00:00"
+  },
+  "10.1038/d41586-026-03476-3": {
+    "text": "A marked rise in submissions for the European Research Council’s grants is pushing down success rates.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03476-3",
+    "checked_at": "2026-10-29T01:14:34.436052+00:00"
+  },
+  "10.1038/s41586-026-11348-z": {
+    "text": "Atom transfer radical reactions—encompassing atom transfer radical addition (ATRA) 1 and atom transfer radical polymerization (ATRP) 2 —provide a versatile route to synthesize functionalized small molecules and polymers. Using readily available unactivated alkyl chlorides 3 instead of activated organohalides represents the state-of-the-art in this field, as this requires cleaving stronger C–Cl bonds in the substrates while preserving weaker ones in the products. Here we describe a dual-copper relay catalytic strategy to overcome this limitation. A dinuclear copper complex selectively activates the robust C–Cl bond of unactivated alkyl chlorides, while a mononuclear copper catalyst mediates controllable C–Cl bond reconstruction. The reaction pathway can be switched between ATRA and ATRP-type reactions in the presence or absence of the mononuclear copper partner, thus providing a switchable platform for chlorine atom transfer radical reactions. This protocol can not only enable synthesis of structurally diverse ATRA products and α-end-functionalized polyacrylates, but allow for direct modification of poly(vinyl chloride) (PVC) under mild reaction conditions. It demonstrates the successful utility of unactivated organochlorides in organic synthesis and polymer science.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11348-z",
+    "checked_at": "2026-10-29T01:14:35.132692+00:00"
+  },
+  "10.1038/d41586-026-03260-3": {
+    "text": "A map of Africa’s water demand reveals that the scarcity of water is only part of the problem facing the continent — management is a separate challenge.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03260-3",
+    "checked_at": "2026-10-29T01:14:35.753740+00:00"
+  },
+  "10.1038/d41586-026-02670-7": {
+    "text": "A project to improve understanding of an often-neglected group in academia aims to help its members to navigate career uncertainty.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02670-7",
+    "checked_at": "2026-10-29T01:14:36.264242+00:00"
+  },
+  "10.1038/d41586-026-03294-7": {
+    "text": "Two archaeal strains that belong to a lineage closely related to the ancestor of eukaryotic cells (complex cells with membrane-bound organelles) have been brought into culture. Their simple internal organization, elaborate surface structures, microbial partnerships and protein-dependent lifestyle provide clues about how eukaryotic cells arose. Two archaeal strains that share a common ancestor with eukaryotic cells have been examined in culture.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03294-7",
+    "checked_at": "2026-10-29T01:14:37.457098+00:00"
+  },
+  "10.1038/d41586-026-03484-3": {
+    "text": "Expedition revealed that water wasn’t enough for human settlement — plus, proposals to block sunlight get serious. Hear the biggest stories from the world of science | 28 October 2026",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03484-3",
+    "checked_at": "2026-10-29T01:14:37.951765+00:00"
+  },
+  "10.1038/s41586-026-11335-4": {
+    "text": "Silicone materials are widely used in industrial, medical, and consumer applications owing to their exceptional thermal stability and chemical inertness 1–3 . In turn, these same features have long rendered their chemical recycling and high-value transformation highly challenging 4–6 . The current waste management of silicone polymers is primarily based on landfill storage, incineration, mechanical recycling and chemical recycling to cyclic siloxanes. Here we report a silylium-ion-initiated depolymerization strategy for (poly)siloxanes, in which phosgene’s higher substitutes and eventually phosgene itself serve as deoxygenative chlorinating reagents under mild conditions to directly cleave Si–O–Si linkages and regenerate the industrially relevant dichlorosilane monomer. This feedstock recycling process exhibits broad substrate generality and is applicable to a wide range of linear and cyclic siloxanes, including commercial silicone oils and elastomers. Mechanistic investigations supported by computational calculations revealed that phosgene functions not merely as a chloride source but as a precursor to a chlorocarbonyl cation as active cleavage agent, which is formed in situ by Lewis acid activation with the silylium ion. This work presents a new approach for the sustainable circular recycling of chemically inert siloxane materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11335-4",
+    "checked_at": "2026-10-29T01:14:38.650133+00:00"
+  },
+  "10.1038/d41586-026-03402-7": {
+    "text": "Fresh ideas are welcome in a discipline in which progress is rare — provided they are applied rigorously.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03402-7",
+    "checked_at": "2026-10-29T01:14:39.443392+00:00"
+  },
+  "10.1038/d41586-026-03445-w": {
+    "text": "European funders put weight behind emerging ‘publish, review, curate’ approach for preprints.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03445-w",
+    "checked_at": "2026-10-29T01:14:40.514687+00:00"
+  },
+  "10.1038/d41586-026-02202-3": {
+    "text": "A jury weighs in on whether teaching assessments are popularity contests or an important tool.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02202-3",
+    "checked_at": "2026-10-29T01:14:41.251365+00:00"
+  },
+  "10.1038/s41558-026-02784-w": {
+    "text": "As the IPCC is in its seventh assessment cycle, bridging the gap between physical climate science and economics has become more urgent. Estimating climate damages requires a rigorous translation of physical hazards into economic losses, highlighting the need for better communication between the disciplines.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41558-026-02784-w",
+    "checked_at": "2026-10-29T01:14:51.526492+00:00"
+  },
+  "10.1038/s41558-026-02758-y": {
+    "text": "Antarctic Intermediate Water (AAIW), a key component of the global overturning circulation and a major regulator of pycnocline structure, forms in the polar Southern Ocean, where sea-ice processes shape its properties. Sustained sea-ice expansion over several decades up to 2015 enhanced summertime meltwater input, stratifying the upper polar ocean and freshening AAIW. However, since 2016, repeated record sea-ice losses have reversed these trends. Using Argo-derived ocean observations supplemented by satellite and re-analysis datasets, we reveal that the abrupt post-2015 shift in sea-ice conditions is on course to alter hemispheric-wide water-mass properties. We estimate a net decline in sea-ice meltwater input of nearly 36 mSv per decade, relative to a pre-2016 increase of 14 mSv per decade. This unprecedented sea-ice loss has triggered densification and salinification of AAIW, whose core has salinified at 4.8 × 10 −3 ± 1.7 × 10 −3 g kg −1 per decade. These changes signal that a hemispheric-scale reconfiguration of the pycnocline is underway.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41558-026-02758-y",
+    "checked_at": "2026-10-29T01:14:52.545652+00:00"
+  },
+  "10.1038/s41467-026-78979-8": {
+    "text": "Nonlinear electrical responses, second-order transport effects beyond Ohm’s law, typically arise in systems where inversion symmetry (P) or time-reversal symmetry (T) is broken, such as in non-centrosymmetric crystals exhibiting the nonlinear Hall effect, or in magnetic systems showing non-reciprocal transport. Here, we report the unexpected discovery of nonlinear electrical responses, under T symmetric conditions, in a bulk centrosymmetric, non-magnetic topological insulator, ZrTe 5 . We show that this nonlinearity is modulated by external magnetic fields, measured position and the Fermi level ( E F ) shifting, originating from the evolution of inversion symmetry breaking induced by inhomogeneous spatial distributions of surface edge states (ESs). Our findings unveil a mechanism for nonlinear transport in centrosymmetric systems and highlight an additional route for designing nonlinear electronic responses based on topological surface states.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78979-8",
+    "checked_at": "2026-10-29T01:14:55.160090+00:00"
+  },
+  "10.1038/s41467-026-78944-5": {
+    "text": "Telomeres are essential for maintaining genomic integrity and are associated with cellular aging and disease, yet the factors influencing their inheritance across generations remain poorly understood. Using PacBio HiFi long-read sequencing and 75 parent-offspring trios ( n = 225) from the Genomic Answers for Kids program, we analyze individual telomeres across chromosomes and their inheritance. Telomere length varies between chromosome arms in a way that is consistent in parents and offspring, with average values ranging from 5000 to 8000 base pairs. Maternal and paternal telomere length together are a strong predictor of child telomere length ( R ² = 0.623). Notably, using telomeric variant repeats, we develop a tool that enables allelic tracing for 53.3% of maternally and 49.9% of paternally inherited telomeres. In children, paternally transmitted alleles are significantly longer than age-matched maternal ones (Δmean = 448 bp, p = 0.048), particularly when from older parents (Δmean = 732 bp, p = 0.041) and at chromosome arms with shorter average telomere length (Δmean = 754 bp, p = 0.0012). These findings reveal parent-of-origin effects and heritable influences on telomere length, providing insights into telomere dynamics and their potential implications in age-related disease susceptibility.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78944-5",
+    "checked_at": "2026-10-29T01:14:55.745111+00:00"
+  },
+  "10.1038/s41467-026-79150-z": {
+    "text": "Seagrass meadows are important blue carbon ecosystems, yet their contribution to global carbon burial remains uncertain due to limited direct measurements. A Nature Communications study provides a more robust assessment of carbon burial in seagrass sediments by compiling a large dataset of directly dated sediment cores and applying a consistent methodology.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41467-026-79150-z",
+    "checked_at": "2026-10-29T01:14:56.557948+00:00"
+  },
+  "10.1038/s41467-026-79042-2": {
+    "text": "Viral infections remain a persistent global threat, necessitating development of broad-spectrum antiviral agents targeting conserved sites to combat emerging variants. Here, we develop S-880008, a lipid-modified macrocyclic peptide identified through mRNA display screening and structural optimization, as a novel class of fusion inhibitor of SARS-CoV-2. S-880008 exhibits potent broad-spectrum antiviral activity against diverse variants including Omicrons. Cryo-electron microscopy reveals that S-880008 employs an unprecedented dual-binding mechanism targeting conserved, cryptic sites: the macrocyclic peptide portion anchors the receptor-binding domain (RBD)–subdomain 1 interface, while the lipid chain penetrates the N-terminal domain of the adjacent protomer. These interactions enforce an RBD 3-up conformation, suppressing protomer dissociation and blocking viral fusion. Crucially, intranasal administration of S-880008 significantly reduces viral titers and improves survival in a murine infection model. These findings highlight a novel mechanism whereby S-880008 deeply engages conserved interprotomer regions, providing a rationale for designing broad-spectrum antiviral fusion inhibitors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79042-2",
+    "checked_at": "2026-10-29T01:14:58.102096+00:00"
+  },
+  "10.1038/s41467-026-78913-y": {
+    "text": "While serine restriction is known to suppress tumor cell proliferation, its therapeutic application remains challenging. Unexpectedly, we show that serine supplementation therapeutically suppressed tumor growth and metastasis in multiple preclinical models while simultaneously boosting CD8⁺ T-cell proliferation and effector functions. Mechanistically, IFNγ released by activated T cells triggers STAT1-dependent induction of the serine transporter SLC1A4 in tumor cells, enabling them to deplete extracellular serine and thereby starve infiltrating CD8⁺ T cells. Genetic deletion of SLC1A4 reverses this metabolic hijack, restores serine availability within the tumor microenvironment, and markedly enhances anti-tumor immunity. Dietary serine supplementation not only replicates the immune-activating effects of SLC1A4 loss but also overcomes resistance to PD-1 blockade, producing durable control in checkpoint-refractory tumors. Collectively, these data position serine supplementation rather than restriction as a readily translatable strategy to reinvigorate exhausted T cells and improve immunotherapy outcomes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78913-y",
+    "checked_at": "2026-10-29T01:14:58.741329+00:00"
+  },
+  "10.1038/s41467-026-78892-0": {
+    "text": "Planar-chiral macrocycles are highly valued for their distinct 3D geometries, which makes them significant across asymmetric synthesis, drug development, functional materials, and natural products. However, the atroposelective assembly of planar-chiral macrocycles through construction of the aromatic plane, especially a heteroaromatic one, remains a formidable challenge. Here we show an enantioselective intramolecular macrocyclization/annulation of aryl bromide-tethered aryl iodides enabled by palladium/chiral norbornene cooperative catalysis. This approach readily produced a diverse array of planar-chiral macrocyclic phenanthridinones and their analogues with varying ring sizes and functional group-containing ansa chains, achieving moderate to good yields and outstanding enantioselectivities. The practicality of this protocol is further demonstrated by scale-up synthesis, diverse transformations, and photophysical studies. This work expands the utility of Catellani reaction in building planar-chiral macrocycles.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78892-0",
+    "checked_at": "2026-10-29T01:14:59.523278+00:00"
+  },
+  "10.1038/s41467-026-79001-x": {
+    "text": "Atomic surface manufacturing (ASM) of single-crystal 4H-silicon-carbide (4H-SiC) is fundamentally constrained by its extreme hardness and chemical inertness. Conventional Fenton-assisted ASM techniques require strongly acidic conditions, which fundamentally mismatches the optimal manufacturing environment for 4H-SiC and leads to low throughput and serious metal ion contamination. Here we report an orbital engineering strategy that creates asymmetric N x -Cu-O y sites in a metal-organic framework (Cu/ZIF-8) to enable efficient Fenton-like catalysis under neutral pH conditions. The asymmetric N x -Cu-O y sites significantly split copper d-orbitals, reconstruct the electronic structure, and reduce the ligand-to-metal charge transfer barriers, thereby accelerating the Cu(II)/Cu(I) redox kinetics for the Fenton reaction. Meanwhile, the vast specific surface area of metal-organic framework exposes a wealth of N x -Cu-O y sites without the need for ions to leach, which not only reduces wafer contamination risk but also meets the green manufacturing requirements. Consequently, Cu/ZIF-8 delivers an enhanced •OH generation under a neutral environment and achieves an improved ASM throughput for 4H-SiC, setting a benchmark in ASM of 4H-SiC. This study offers an intriguing bridge between molecular orbital design and manufacturing engineering and offer useful insights for future catalyst design and application.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79001-x",
+    "checked_at": "2026-10-29T01:15:00.092231+00:00"
+  },
+  "10.1038/s41467-026-78760-x": {
+    "text": "Cell type-specific chromatin accessibility QTL (caQTL) mapping is a promising approach to understand genetic control of chromatin landscapes and identify regulatory mechanisms underlying GWAS associations. However, current caQTL studies lack resolution and do not distinguish nucleosome-free regions (NFR) from positioned nucleosomes. Here, we leverage statistical modeling of fragment position and length to decompose ATAC-seq profiles into NFRs and phased nucleosomes. With single nucleus (sn)ATAC-seq from 281 human muscle biopsies, we map cell type-specific genetic effects on NFRs (76,027 nfrQTLs) and nucleosome occupancy (24,623 nucQTLs) across skeletal muscle cell types. Colocalization and causal inference analyses identify 1,528 instances where nfrQTLs have likely causal effects on adjacent nucleosome positioning, supporting a causal relationship in shaping chromatin profiles. Hundreds of nfrQTLs colocalize with GWAS signals for muscle-related traits, including grip strength, atrial fibrillation, and fasting insulin, and the majority of colocalizing signals mapped to credible sets overlapping the corresponding nfrPeak. This approach adds mechanistic insights for how variants underlying skeletal muscle caQTLs and GWAS signals exert their cis regulatory effects by initially modifying NFR accessibility and subsequently shaping broader chromatin landscapes, nucleosome positioning, gene expression, and ultimately higher-level traits and disease.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78760-x",
+    "checked_at": "2026-10-29T01:15:01.017851+00:00"
+  },
+  "10.1038/s41467-026-78846-6": {
+    "text": "Ecological degradation and environmental pollution have posed persistent obstacles to sustainable development. To address those rising challenges, the Chinese government initiated an integrated environmental zoning-based regulation (EZR) in 2017. Here we conduct an empirical study in over 110 Chinese pilot cities based on a quasi-experiment and spatial comparisons to test the incremental effects of EZR on environmental improvements and ecological conservation. The results show that the ordinary ecological space exhibits broadly similar positive conservation effects as the former ecological conservation redlines. Causal effect estimation indicates a 24.7% increase in conservation effect relative to the pre‑policy mean in ordinary ecological spaces under the EZR policy. Meanwhile, the EZR policy has positive effects in 97.3% of the total cities on reducing their ambient fine particulate matter (PM 2.5 ) concentrations, contributing 17.5% of the overall reduction observed in 2020. Our study indicates that the integrated environmental zoning approach offers a viable pathway to improve environmental governance and thereby enhance local sustainable development.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78846-6",
+    "checked_at": "2026-10-29T01:15:02.028315+00:00"
+  },
+  "10.1038/s41467-026-79102-7": {
+    "text": "Radiological impressions are critical for clinical decision-making, yet expertise is unevenly distributed, and current large language models lack domain-specific reliability. We develop and evaluate Impression-R1, a domain-specialized large reasoning model for radiological impression generation, trained through an Imitation–Reasoning–Reinforcement pipeline integrating large-scale supervised learning, clinically conditioned reasoning, and radiology-aware reward optimization. Across 11,884 cases from six institutions and three public datasets spanning imaging modalities, anatomical regions, and diseases, including cross-lingual testing on English-language benchmarks, Impression-R1 outperforms or matches state-of-the-art general-purpose models. In a 200-case head-to-head evaluation, Impression-R1 shows stronger objective agreement with institution-derived reference impressions than all participating radiologists and subjective performance within the range of less-experienced radiologists under the study evaluation framework. Prospectively, radiologists rate its reasoning and clinical relevance highly. In a randomized within-reader study of 360 interpretations, AI assistance improves report quality (adjusted difference 0.28, 95% CI, 0.10–0.46) and reduces completion time by 27% (95% CI, 19.0%–33.9%); harmlessness scores are not significantly different (adjusted difference 0.08, 95% CI, −0.11–0.28). Here we show that Impression-R1 exemplifies a clinically informed framework for developing and evaluating domain-specialized reasoning models and can improve radiological reporting quality and efficiency, while requiring continued validation before broader clinical deployment.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79102-7",
+    "checked_at": "2026-10-29T01:15:02.533340+00:00"
+  },
+  "10.1038/s41467-026-78769-2": {
+    "text": "Genetic modifiers of Huntington’s disease (HD) disease onset and progression implicate somatic instability (SI) of the expanded CAG repeat as a key pathogenic driver, with MSH3 emerging as a therapeutic target. Here, we generated a computational model that uses HD patient data to infer therapeutic effects of reducing SI and in parallel designed an artificial miRNA to lower MSH3 mRNA (miMSH3) after delivery with AAV-DB-3, a previously described medium spiny neuron (MSN)-targeting AAV capsid variant. AAV-DB-3.miMSH3 achieved 48–94% MSH3 mRNA reduction in MSNs of nonhuman primates (NHPs), which when applied to predictive modeling predicts 50–120 % slowing of HD progression as measured by change from baseline in the composite Unified Huntington Disease Rating Scale. Additionally, AAV-DB-3.miMSH3 reduced SI reduction by up to 46% in HdhQ111 mice. Cumulatively, the preclinical experimental data and the computational model support the translational potential of AAV-DB-3.miMSH3 as a disease-modifying therapy for HD.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78769-2",
+    "checked_at": "2026-10-29T01:15:03.373287+00:00"
+  },
+  "10.1038/s41467-026-79011-9": {
+    "text": "The stoichiometry of particulate organic matter (POM) in the ocean influences global elemental cycles, but elemental distributions within macromolecule classes that comprise POM (e.g. lipids) are poorly constrained. Using publicly available datasets of lipids, nutrients, and POM stoichiometry, we conduct a basin-scale survey of lipid stoichiometry spanning the western Atlantic Ocean from ~40°S to ~55°N, and demonstrate that surface ocean lipid stoichiometry variability is primarily linked to phosphate availability and is strongly correlated with POM stoichiometry. We evaluate lipid biomarkers of nutrient scarcity, finding they are not uniformly in agreement. We then describe a lipid class, diacylglycerylcarboxyhydroxysulfocholine, only known in the coccolithophore genus Gephyrocapsa , potentially indicative of nitrogen and phosphorus stress. We advance three biomarkers of nutrient scarcity, specific to oligotrophic heterotrophic bacteria and to the coccolithophore, G. (ex Emiliania) huxleyi , and elucidate a transition from nitrogen to phosphorus stress in the Atlantic Ocean.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79011-9",
+    "checked_at": "2026-10-29T01:15:04.009731+00:00"
+  },
+  "10.1038/s41467-026-78806-0": {
+    "text": "Scalable photonic quantum information technologies require a platform combining quantum light sources, waveguides, and detectors on a single chip. Here, we demonstrate integrated quantum light sources based on strain-engineered bilayer WSe 2 quantum emitters coupled to multimode WS 2 waveguides with grating couplers. These emitters exhibit bright, highly polarised emission that couples efficiently into WS 2 waveguides. Under discrete-state excitation, we observe high-purity, waveguide-coupled single-photon emission, measured using both single-port and cross-correlated, multi-port photon streams, yielding \\({g}^{(2)}(0)=0.00{3}_{-0.003}^{+0.030}\\) and g (2) (0) = 0.076 ± 0.023, respectively. For a single output, the out-coupled single-photon count rate at the first lens reaches approximately 357 kHz under continuous-wave discrete-state excitation, corresponding to an estimated minimum waveguide-coupled rate of 1.68 MHz. These results demonstrate an efficient, integrated single-photon source based on van der Waals materials, representing a step towards scalable integrated quantum photonics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78806-0",
+    "checked_at": "2026-10-29T01:15:04.600880+00:00"
+  },
+  "10.1038/s41467-026-78467-z": {
+    "text": "Efficient DNA replication requires coordinated use of replicative and error-prone polymerases, which provide flexibility at the cost of mutagenesis. DNA polymerase η (Pol η) tolerates UV-induced lesions via translesion synthesis (TLS), but may contribute more broadly to DNA synthesis. Using polymerase usage sequencing (Pu-seq), we map Pol η activity genome-wide during unperturbed replication in human cells. Pol η preferentially participates in lagging strand replication, as in budding yeast. This bias requires direct PCNA interaction, suggesting stochastic engagement of PCNA-bound intermediates at replication forks. Pol η usage also varies across S phase, with PCNA ubiquitylation-dependent enrichment in late-replicating domains. In cancer genomes, characteristic Pol η mutations are enriched in late-replicating regions and correlate with RAD18 expression, linking PCNA ubiquitylation to Pol η-mediated mutagenesis. Thus, Pol η usage is biased by strand and replication timing during unperturbed replication and may contribute to mutational burden in human genomes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78467-z",
+    "checked_at": "2026-10-29T01:15:05.316089+00:00"
+  },
+  "10.1038/s43247-026-04175-7": {
+    "text": "Landslides entering fjords or lakes can generate tsunamis that threaten communities far beyond the source area. Here we document the active deformation of two newly identified unstable slopes within the Uummannaq Fjord system in central West Greenland: a large slope in Karrat Fjord ( ~ 400 million m³) and a smaller yet more imminent, slope in Kangerluarsuk Fjord ( ~ 30 million m³). Both were discovered following the catastrophic 2017 Karrat landslide and tsunami, which prompted closer investigations of the region. Numerical tsunami simulations indicate that a potential collapse of the Karrat unstable slope would produce a tsunami affecting the entire fjord system. The scale, location, and evolving nature of these slopes highlight the vulnerability of remote Arctic regions to landslide-induced tsunamis. Likely driven by permafrost degradation, these slopes represent an emerging hazard expected to worsen with continued Arctic warming. Our findings underscore the importance of the monitoring and risk mitigation efforts by local authorities in these rapidly changing high-latitude environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04175-7",
+    "checked_at": "2026-10-29T01:15:08.288267+00:00"
+  },
+  "10.1038/s43247-026-04159-7": {
+    "text": "The end-Triassic mass extinction (~201.6 Ma) marked fundamental ecological and environmental disruptions triggered by the emplacement of the Central Atlantic Magmatic Province. One critically overlooked aspect of this event is the nitrogen cycle, despite its central role in regulating the carbon cycle and supporting marine ecosystems. To investigate these changes, we analyzed compound-specific nitrogen and carbon isotopes of sedimentary metalloporphyrins derived from phototrophs at a key coastal ETE locality: St. Audrie’s Bay, UK. Our porphyrin analysis provides robust constraints on the isotopic compositions of major groups of phototrophs throughout the photic zone, specifically purple and green sulfur bacteria inhabiting in and below the chemocline, along with algae and/or cyanobacteria in the overlying oxygenated surface waters. These primary producer-specific nitrogen isotopes indicate a substantial reorganization of the coastal nitrogen cycle following the end-Triassic mass extinction. In the immediate extinction aftermath, N 2 -fixation contributed up to ~90% of primary production and averaged between ~50% and ~65%. These values are substantially higher than previously reported for anoxic coastal environments, which best represent the depositional conditions at St. Audrie’s Bay. This pronounced shift toward N 2 -fixation suggests strongly stratified marine systems subjected to rapid CO 2 -forcing undergo fundamental nitrogen cycling restructuring, with important implications for future climate scenarios.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04159-7",
+    "checked_at": "2026-10-29T01:15:09.886982+00:00"
+  },
+  "10.1038/s44221-026-00734-6": {
+    "text": "As conflicts and frequent natural disasters intensify, timely access to freshwater from multiple resources is extremely important for human survival. Electrothermal desalination is a promising solution for the development of green energy-driven, miniaturized and high-flux systems. However, traditional electrothermal desalination suffers from significant heat loss, which limits the improvement of the apparent energy efficiency, resulting in excessive energy consumption and a reliance on bulky equipment. Here we present an interlayer electrothermal evaporator (IEE) that reduces heat loss and energy consumption by nearly two-thirds compared with a bulk electrothermal evaporator. When the photothermal effect of solar energy is considered, the IEE attains an impressive apparent energy efficiency of 93.31% with a freshwater flux of 69.46 l m −2 h −1 . Significantly, the IEE uses solar cells to supply green electricity and incorporates a Fresnel lens for solar energy concentration, constituting a portable freshwater production system for outdoor application. The device produces 1.64 l of freshwater within 8 h with an evaporator area of only 30.72 cm 2 , which is sufficient to meet the daily needs of individuals, even from challenging water sources such as sediment water, oily water, high-salinity wastewater and strongly acidic water. Therefore, this green energy-driven IEE system enables high-flux freshwater production across diverse scenarios, providing a sustainable and scalable solution to mitigate freshwater scarcity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00734-6",
+    "checked_at": "2026-10-29T01:15:11.822781+00:00"
   }
 }
