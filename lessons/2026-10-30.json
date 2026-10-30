@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "number": 23,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Talking About Weekend Plans Naturally",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 9268,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-10-30T09:30:20.228134+08:00"
 }
