@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-30",
+  "number": 23,
+  "status": "prepared",
+  "lesson": {
+    "title": "Talking About Weekend Plans Naturally",
+    "concept": {
+      "key": "future_plans_with_gonna",
+      "name_en": "Using 'gonna' for Future Plans",
+      "name_zh": "用'gonna'表达未来计划",
+      "explanation_zh": "在日常口语中，我们常用'gonna'（是'going to'的缩写）来表示已经计划好的未来动作或安排。它比正式的'going to'更口语化，更自然。比如说“I’m gonna visit my parents this weekend.”意思是“我计划这个周末去看望父母。”这种表达让对话听起来更轻松、自然。",
+      "examples": [
+        "I’m gonna watch a movie tonight.",
+        "She’s gonna meet her friends for lunch.",
+        "We’re gonna go hiking on Saturday."
+      ],
+      "common_mistake_zh": "很多学习者写作或正式场合错误地使用'gonna'，这是口语缩写，书面语中应使用'going to'。例如：错误：I’m gonna finish the report tomorrow.（正式写作中不合适）正确：I’m going to finish the report tomorrow."
+    },
+    "vocabulary": [
+      {
+        "term": "hang out",
+        "ipa_us": "/hæŋ aʊt/",
+        "pronunciation_tip_zh": "重音在第一个音节'hang'，两个词连读时第二个词的'h'音轻微",
+        "meaning_zh": "和朋友一起闲逛、聚会",
+        "explain_in_english": "It means spending relaxed time with friends, like chatting or doing fun things together.",
+        "usage_note_zh": "口语中常用，朋友之间非正式场合适用。",
+        "examples": [
+          "Do you want to hang out this weekend?",
+          "We usually hang out at the park on Sundays."
+        ]
+      },
+      {
+        "term": "catch up",
+        "ipa_us": "/kætʃ ʌp/",
+        "pronunciation_tip_zh": "重音在第一个词'catch'，两个词紧密连读",
+        "meaning_zh": "叙旧，赶上最新情况",
+        "explain_in_english": "It means to talk with someone to share news and updates you missed.",
+        "usage_note_zh": "常用于朋友久未见面后聊天的场合。",
+        "examples": [
+          "Let’s catch up over coffee tomorrow.",
+          "I need to catch up with my cousin this weekend."
+        ]
+      },
+      {
+        "term": "free up",
+        "ipa_us": "/fri ʌp/",
+        "pronunciation_tip_zh": "重音在第一个词'free'，两个词连读，'up'发短元音",
+        "meaning_zh": "腾出时间或空间",
+        "explain_in_english": "It means to make time or space available by finishing or canceling something else.",
+        "usage_note_zh": "适用于正式或非正式场合谈论调整时间或计划。",
+        "examples": [
+          "I’ll free up some time on Saturday afternoon.",
+          "Can you free up your schedule to join us?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Planning Weekend Activities with a Friend",
+      "context_zh": "两个朋友讨论周末的计划，想安排一起活动。",
+      "script_en": "Anna: Hey, do you have any plans for the weekend?\nBen: Not really, I’m pretty free. Why?\nAnna: I was thinking maybe we could hang out. It’s been a while since we caught up.\nBen: That sounds great! What do you want to do?\nAnna: How about going to that new cafe downtown? I’ve heard it’s really nice.\nBen: Perfect! I’ll free up my Saturday afternoon then.\nAnna: Awesome! Let’s meet there around 2 PM?\nBen: Works for me. Should I bring anyone else?\nAnna: Just us this time. It’ll be nice to chat one-on-one and relax.\nBen: Cool. I’m gonna look up the address and send it to you.\nAnna: Thanks! I’m really looking forward to it.\nBen: Me too. It’s good to have something fun planned for the weekend.\nAnna: Definitely. It helps me recharge for the next week.\nBen: Same here. Let’s make it a regular thing!",
+      "translation_zh": "安娜：嘿，你周末有计划吗？\n本：没有特别的，挺空的。怎么了？\n安娜：我在想我们可以一起出去玩。好久没叙旧了。\n本：听起来不错！你想做什么？\n安娜：去市中心那个新开的咖啡馆怎么样？听说那儿很不错。\n本：太好了！那我周六下午腾出时间。\n安娜：太棒了！我们下午两点在那里见？\n本：行。我需要带别人吗？\n安娜：这次就我们俩。好好聊聊，放松一下。\n本：好。我去查一下地址，发给你。\n安娜：谢谢！我很期待。\n本：我也是。周末有计划真好。\n安娜：的确，这能帮我为下周充电。\n本：我也是。我们以后常这样吧！",
+      "practice_tip_zh": "多模仿对话中的自然表达，尤其是用'gonna'和短语'free up'，然后试着用类似句子谈论自己的周末计划。"
+    },
+    "reading": {
+      "title": "How Our Weekend Plans Shape Our Happiness",
+      "genre": "popular-science vignette",
+      "text_en": "Weekends are special because they offer a break from our busy workweeks and a chance to recharge. Scientists have found that the way people plan their weekends can actually affect their happiness levels. When we actively decide to hang out with friends or engage in hobbies, we tend to feel more satisfied and less stressed. For example, catching up with a close friend can boost our mood by providing social support and a sense of connection.\nInterestingly, unplanned weekends don’t always lead to relaxation. Without clear plans, some people feel restless or bored, which can increase anxiety. Therefore, freeing up time intentionally for enjoyable activities is important. That doesn’t mean scheduling every minute, but having flexible plans helps balance rest and engagement.\nExperts also emphasize that the quality of weekend activities matters more than quantity. Doing something meaningful, like learning a new skill or helping others, can improve long-term well-being. On the other hand, simply watching TV all day might not have the same positive effect.\nIn short, planning weekends thoughtfully—whether it’s a quiet day at home or an active outing—can improve our mental health. So next time you think about your weekend, try to make plans that help you relax and connect with others. Your happiness might just depend on it!",
+      "summary_zh": "这篇文章讲述了周末计划如何影响我们的幸福感。积极安排与朋友相聚或做爱好能提升心情，而无计划则可能导致焦虑。合理腾出时间进行有意义的活动，有助于长期幸福。",
+      "questions": [
+        {
+          "question": "Why do scientists believe planning weekends can affect happiness?",
+          "answer": "Because actively planning activities like hanging out with friends provides social support and satisfaction, reducing stress."
+        },
+        {
+          "question": "What do experts say is more important than the number of weekend activities?",
+          "answer": "The quality or meaningfulness of the activities is more important than the quantity."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 6263,
+    "completion_tokens": 3005,
+    "total_tokens": 9268,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
