@@ -274,5 +274,17 @@
     ],
     "scene": "Planning Weekend Activities with a Friend",
     "reading": "How Our Weekend Plans Shape Our Happiness"
+  },
+  {
+    "date": "2026-10-31",
+    "concept_key": "clarify_unfamiliar_expression",
+    "concept_name": "Clarifying Unfamiliar Expressions",
+    "terms": [
+      "What do you mean by...?",
+      "Could you explain that?",
+      "I'm not sure I understand"
+    ],
+    "scene": "Clarifying a Confusing Phrase at Work",
+    "reading": "A Surprising Phrase on My Trip to New York"
   }
 ]

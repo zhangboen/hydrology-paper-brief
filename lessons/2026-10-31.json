@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-31",
+  "number": 24,
+  "status": "prepared",
+  "lesson": {
+    "title": "Clarifying Unfamiliar Expressions in Conversation",
+    "concept": {
+      "key": "clarify_unfamiliar_expression",
+      "name_en": "Clarifying Unfamiliar Expressions",
+      "name_zh": "澄清不熟悉的表达",
+      "explanation_zh": "当你在对话中遇到不熟悉或不理解的词语或表达时，学会如何礼貌地请求对方解释或澄清。这可以避免误解，保持交流顺畅。常用表达包括：\"What do you mean by...?\" \"Could you explain that?\" 或 \"I'm not sure I understand, could you say that differently?\"。",
+      "examples": [
+        "A: The project deadline is tight. B: What do you mean by 'tight'?",
+        "A: We'll have a 'kickoff' meeting tomorrow. B: Could you explain that?",
+        "A: She's very 'detail-oriented'. B: I'm not sure I understand, could you say that differently?"
+      ],
+      "common_mistake_zh": "常见错误是直接说\"I don't understand\"，这可能让对方觉得不好。更礼貌的说法是用\"Could you explain...?\" 或 \"What do you mean...?\"来请求澄清。"
+    },
+    "vocabulary": [
+      {
+        "term": "What do you mean by...?",
+        "ipa_us": "/wʌt du jʊ min baɪ/",
+        "pronunciation_tip_zh": "注意连读，'do you'快速连读成/du/；重读在'mean'上。",
+        "meaning_zh": "你说的……是什么意思？",
+        "explain_in_english": "I say this when I want someone to explain a word or idea they used.",
+        "usage_note_zh": "常用于正式或非正式对话中请求解释。非常礼貌。",
+        "examples": [
+          "What do you mean by 'deadline'?",
+          "What do you mean by 'budget constraints'?"
+        ]
+      },
+      {
+        "term": "Could you explain that?",
+        "ipa_us": "/kəd ju ɪkˈspleɪn ðæt/",
+        "pronunciation_tip_zh": "'Could you'连读成/kəd ju/，'explain'重音在第二个音节。",
+        "meaning_zh": "你能解释一下吗？",
+        "explain_in_english": "I use this to ask politely for more information about something I don't understand.",
+        "usage_note_zh": "适合正式和日常对话中请求对方详细说明。",
+        "examples": [
+          "Could you explain that part again?",
+          "Could you explain that term in simple words?"
+        ]
+      },
+      {
+        "term": "I'm not sure I understand",
+        "ipa_us": "/aɪm nɑt ʃʊr aɪ ˌʌndərˈstænd/",
+        "pronunciation_tip_zh": "注意连读，'I'm not'快速连成/aɪm nɑt/，重音在'understand'的第二个音节。",
+        "meaning_zh": "我不太确定我理解了。",
+        "explain_in_english": "I say this when I want to politely say I don't fully get what was said.",
+        "usage_note_zh": "用来表达需要对方用不同方式说明，礼貌且常用。",
+        "examples": [
+          "I'm not sure I understand what you mean by 'strategy'.",
+          "I'm not sure I understand the instructions."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Clarifying a Confusing Phrase at Work",
+      "context_zh": "在工作会议上，一个同事用了一句你不熟悉的表达，你想礼貌地请求他解释。",
+      "script_en": "Alex: So, we need to 'circle back' on the report by Friday.  \nYou: Sorry, Alex, could you explain what you mean by 'circle back'?  \nAlex: Sure! It means we need to review or discuss it again later.  \nYou: Thanks, that helps. Also, when you say 'by Friday', do you mean end of day or before lunch?  \nAlex: Good question. I mean before the end of the workday on Friday.  \nYou: Got it. I'll make sure the team knows.  \nAlex: Perfect! Let me know if you have any other questions.  \nYou: Actually, there’s one more thing. When you said to 'touch base' with the client, could you explain that phrase too?  \nAlex: Of course! 'Touch base' means to briefly talk or check in with someone.  \nYou: Thanks for explaining. That makes it clear.  \nAlex: No problem. It's important we all understand these terms.  \nYou: Absolutely! It helps avoid confusion and keeps us on track.",
+      "translation_zh": "Alex：所以，我们需要在周五之前‘circle back’这份报告。  \n你：抱歉，Alex，你能解释一下‘circle back’是什么意思吗？  \nAlex：当然！意思是我们需要稍后再回过头来审查或讨论它。  \n你：谢谢，这样我明白了。还有，当你说‘by Friday’时，是指当天结束前还是午饭前？  \nAlex：好问题。我是指周五工作日结束之前。  \n你：明白了。我会让团队知道的。  \nAlex：太好了！如果还有其他问题，告诉我。  \n你：其实还有一件事。当你说‘touch base’客户时，能否也解释一下这个短语？  \nAlex：当然！‘touch base’意思是简短联系或沟通。  \n你：谢谢你的解释。这样就清楚了。  \nAlex：没问题。确保我们都理解这些术语很重要。  \n你：完全同意！这有助于避免误会，让我们保持进度。",
+      "practice_tip_zh": "遇到不懂的表达时，记得用礼貌的句式请求解释，比如“Could you explain what you mean by…?”，这样既显得专业又不会尴尬。"
+    },
+    "reading": {
+      "title": "A Surprising Phrase on My Trip to New York",
+      "genre": "Travel Journal",
+      "text_en": "When I first arrived in New York City, I was excited but also a bit overwhelmed by the city’s fast pace and endless energy. On my very first day, I met a friendly local who suggested we should \"grab a slice\" sometime. At first, I wasn’t sure what that meant. I politely asked, \"What do you mean by 'grab a slice'?\" He laughed and explained it simply: \"It means having a slice of New York-style pizza together.\" That made me smile because I love pizza! Later, I learned that \"grab a slice\" is a casual way to invite someone to eat pizza, often quickly and informally. During my stay, I tried different pizzerias, each with its own style and atmosphere. I realized that learning such expressions helped me connect better with locals and enjoy the city more. Understanding small phrases like this is important for travelers, as it opens doors to local culture and friendships. I even started to listen more carefully to other expressions people used, like \"catch up\" or \"hit the road.\" Next time, I plan to learn more local expressions and not hesitate to ask for clarification when I’m unsure. This experience taught me that asking questions politely is a great way to learn and make new friends while traveling. It’s also a reminder that language is full of little surprises waiting to be discovered.",
+      "summary_zh": "作者描述了在纽约旅行时遇到一个不熟悉的表达“grab a slice”，通过询问了解其含义，并体会到学会澄清表达能帮助更好地融入当地文化。",
+      "questions": [
+        {
+          "question": "What does the phrase \"grab a slice\" mean?",
+          "answer": "It means to have a slice of New York-style pizza together."
+        },
+        {
+          "question": "Why did the writer find it helpful to ask about unfamiliar expressions?",
+          "answer": "Because it helped them connect better with locals and enjoy the city more."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 10509,
+    "completion_tokens": 4780,
+    "total_tokens": 15289,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
