@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "number": 24,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Clarifying Unfamiliar Expressions in Conversation",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 15289,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-10-31T09:22:32.647141+08:00"
 }
