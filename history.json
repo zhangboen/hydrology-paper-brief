@@ -286,5 +286,17 @@
     ],
     "scene": "Clarifying a Confusing Phrase at Work",
     "reading": "A Surprising Phrase on My Trip to New York"
+  },
+  {
+    "date": "2026-11-01",
+    "concept_key": "deadline_negotiation",
+    "concept_name": "Deadline Negotiation",
+    "terms": [
+      "realistic",
+      "negotiate",
+      "tight deadline"
+    ],
+    "scene": "Negotiating a Deadline Extension with Your Manager",
+    "reading": "My Experience Negotiating a Project Deadline"
   }
 ]

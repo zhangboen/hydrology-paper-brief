@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-01",
+  "number": 25,
+  "status": "prepared",
+  "lesson": {
+    "title": "Negotiating a Realistic Deadline with Confidence",
+    "concept": {
+      "key": "deadline_negotiation",
+      "name_en": "Deadline Negotiation",
+      "name_zh": "截止日期谈判",
+      "explanation_zh": "截止日期谈判是指在工作或项目中，与对方讨论并达成一个双方都觉得合理的完成时间。掌握这种技巧可以避免误解和压力，保证任务按时高质量完成。有效的谈判包括表达自己的时间需求、聆听对方的限制，并提出可行的替代方案。",
+      "examples": [
+        "Can we negotiate the deadline to next Friday?",
+        "I understand the urgency, but can we discuss a more realistic timeline?",
+        "Let's find a deadline that works for both of us."
+      ],
+      "common_mistake_zh": "常见错误是直接拒绝对方的截止日期，比如说“那个时间不行”，而没有解释原因或提出替代方案。正确做法是说“那个时间可能有点紧张，我们能不能考虑延期到……？”"
+    },
+    "vocabulary": [
+      {
+        "term": "realistic",
+        "ipa_us": "/ˌriːəˈlɪstɪk/",
+        "pronunciation_tip_zh": "重音在第三个音节 -lis-，注意连读",
+        "meaning_zh": "现实的；切合实际的",
+        "explain_in_english": "It means something that can actually happen or is practical.",
+        "usage_note_zh": "正式和非正式场合都可以用，常用来形容计划、目标、期望等。",
+        "examples": [
+          "We need a realistic plan to finish this project.",
+          "It’s realistic to expect some delays in this process."
+        ]
+      },
+      {
+        "term": "negotiate",
+        "ipa_us": "/nɪˈɡoʊʃieɪt/",
+        "pronunciation_tip_zh": "重音在第二个音节 -go-，注意g发软音/ɡ/，末尾发/eɪt/",
+        "meaning_zh": "谈判，协商",
+        "explain_in_english": "It means to discuss something in order to reach an agreement.",
+        "usage_note_zh": "职场和生活中广泛使用，特别是讨论条件、价格、时间等。",
+        "examples": [
+          "We need to negotiate the contract terms.",
+          "She negotiated a better salary with her employer."
+        ]
+      },
+      {
+        "term": "tight deadline",
+        "ipa_us": "/taɪt ˈdɛdˌlaɪn/",
+        "pronunciation_tip_zh": "注意'tight'中/t/发音清晰，'deadline'重音在第一音节",
+        "meaning_zh": "紧迫的截止日期",
+        "explain_in_english": "It means there is very little time left to finish a task.",
+        "usage_note_zh": "多用于工作、学习场景，表达时间压力。",
+        "examples": [
+          "We’re working hard to meet the tight deadline.",
+          "I’m stressed because of the tight deadline."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Negotiating a Deadline Extension with Your Manager",
+      "context_zh": "你完成一个项目的截止日期快到了，但你觉得需要更多时间。你和经理进行一次关于延期的谈判。",
+      "script_en": "Employee: Hi, I wanted to talk about the project deadline coming up next week.\nManager: Sure, what’s on your mind?\nEmployee: I’ve been making good progress, but I’m concerned that the current deadline is a bit tight.\nManager: I see. Can you explain why?\nEmployee: Some unexpected issues came up, and I want to make sure the final product meets our quality standards.\nManager: That’s understandable. How much more time do you think you’ll need?\nEmployee: I believe an extra week would be realistic to complete everything properly.\nManager: Okay, I appreciate you letting me know early. I’ll check with the client and see if we can extend the deadline.\nEmployee: Thank you. I’ll continue working hard to keep things on track.\nManager: Great. Keep me updated on your progress.\nEmployee: Will do! Thanks for your understanding.",
+      "translation_zh": "员工：你好，我想谈谈下周即将到来的项目截止日期。\n经理：当然，有什么事吗？\n员工：我进展不错，但我担心现在的截止日期有点紧。\n经理：我明白，能具体说说原因吗？\n员工：出现了一些意外问题，我想确保最终产品的质量。\n经理：这可以理解。你觉得还需要多长时间？\n员工：我认为多一周时间比较现实，能把工作做好。\n经理：好的，感谢你提前告诉我。我会和客户沟通，看看能否延长截止日期。\n员工：谢谢。我会继续努力，保持进度。\n经理：很好。请随时给我进展更新。\n员工：一定，谢谢你的理解。",
+      "practice_tip_zh": "练习时，可以尝试用自己的项目或工作经历替换对话内容，练习表达担忧和提出合理延期的方式。"
+    },
+    "reading": {
+      "title": "My Experience Negotiating a Project Deadline",
+      "genre": "Personal Diary",
+      "text_en": "Last month, I faced a challenging situation at work. I was assigned a project with a deadline that felt very tight. At first, I tried to push myself to finish everything on time, but soon realized that rushing would affect the quality of my work. I decided to be honest with my manager and explain the situation clearly. I told her about unexpected complications that had come up and how an extension would help me deliver better results. To my relief, she was understanding and promised to discuss the deadline with the client. After a few days, we agreed on a new deadline that gave me an extra week to complete the project. This extra time made a big difference. I could carefully check all the details and improve the final product, which gave me a lot of satisfaction. From this experience, I learned the importance of negotiating deadlines instead of silently struggling. It’s better to communicate early and clearly when challenges arise. Being honest builds trust and helps the whole team succeed together. Now, I feel more confident about talking openly when deadlines are difficult, knowing it can lead to better outcomes for everyone involved. I also realized that a realistic deadline is not just about more time, but about quality and balance. This experience has changed the way I handle work pressure and deadlines in my career.",
+      "summary_zh": "上个月，我遇到了一个工作上的挑战——项目截止日期很紧。我尝试赶工，但发现这会影响质量。于是我诚实地和经理说明情况，经理理解并帮我和客户协商延期。延期后，我有更多时间完善工作，体验到了提前沟通谈判截止日期的重要性。",
+      "questions": [
+        {
+          "question": "Why did the writer decide to talk to their manager about the deadline?",
+          "answer": "Because the original deadline was too tight and rushing would affect the quality of their work."
+        },
+        {
+          "question": "What was the result of negotiating the deadline?",
+          "answer": "They got an extra week to complete the project, which helped improve the final product."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 6487,
+    "completion_tokens": 2902,
+    "total_tokens": 9389,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
