@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-02",
+  "number": 26,
+  "status": "prepared",
+  "lesson": {
+    "title": "Giving and Receiving Constructive Feedback: Using 'I' Statements",
+    "concept": {
+      "key": "i_statements_feedback",
+      "name_en": "Using 'I' Statements in Feedback",
+      "name_zh": "反馈中使用“I”陈述句",
+      "explanation_zh": "在提供建设性反馈时，使用“I”陈述句（例如：I think, I feel）能够表达个人感受和看法，避免责备对方，从而减少防御心理，使交流更有效。",
+      "examples": [
+        "I think the report could be clearer in the introduction.",
+        "I feel that the presentation was a bit rushed.",
+        "I believe we can improve the project timeline by adding more checkpoints."
+      ],
+      "common_mistake_zh": "常见错误是直接用“You”开头，比如“You didn’t do this correctly.”，这可能让听者觉得被指责。正确说法是：“I noticed that this part could be improved.”"
+    },
+    "vocabulary": [
+      {
+        "term": "constructive feedback",
+        "ipa_us": "/kənˈstrʌktɪv ˈfidˌbæk/",
+        "pronunciation_tip_zh": "注意constructive重音在第二个音节，feedback连读时发/ˈfidˌbæk/，中间的d略带轻声。",
+        "meaning_zh": "建设性的反馈",
+        "explain_in_english": "It means helpful advice that aims to improve something.",
+        "usage_note_zh": "在职场和学习环境中常用，正式或半正式场合均适合。",
+        "examples": [
+          "She gave me constructive feedback on my presentation.",
+          "Constructive feedback helps you grow at work."
+        ]
+      },
+      {
+        "term": "defensive",
+        "ipa_us": "/dɪˈfɛnsɪv/",
+        "pronunciation_tip_zh": "defensive重音在第二个音节，注意v发/ˈv/音，s发/ˈs/音。",
+        "meaning_zh": "防御的，防备的",
+        "explain_in_english": "It means reacting in a way that protects yourself from criticism.",
+        "usage_note_zh": "描述人们在受到批评时的态度，常用于职场或人际交往。",
+        "examples": [
+          "He became defensive when I pointed out the mistake.",
+          "Try not to be defensive when receiving feedback."
+        ]
+      },
+      {
+        "term": "phrase",
+        "ipa_us": "/freɪz/",
+        "pronunciation_tip_zh": "注意短元音/eɪ/，连读时注意z发/ˈz/音。",
+        "meaning_zh": "短语，表达",
+        "explain_in_english": "It's a group of words used together to express an idea.",
+        "usage_note_zh": "常用于解释语言中的表达方式，适合教学和日常对话。",
+        "examples": [
+          "The phrase 'I feel' is useful in giving feedback.",
+          "Can you explain that phrase?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Giving Feedback to a Team Member After a Presentation",
+      "context_zh": "在工作场合，向团队成员提供建设性反馈。",
+      "script_en": "Manager: Hi, Alex. Do you have a moment to talk about your presentation?\nAlex: Sure, I’m happy to hear your thoughts.\nManager: Great. First, I want to say I appreciate your effort. I think your slides were clear, but I felt the explanation was a bit fast in some parts.\nAlex: Oh, I see. Thanks for telling me.\nManager: I believe if you slow down a little and maybe add some examples, the audience will understand better.\nAlex: That makes sense. I’ll work on that.\nManager: Also, I noticed the conclusion could be stronger. I feel a brief summary would help.\nAlex: Good point. I’ll add that next time.\nManager: Thanks for being open to feedback. It’s all about improving together.\nAlex: I appreciate your support. It really helps me get better.",
+      "translation_zh": "经理：你好，Alex。你有时间聊聊你的演讲吗？\nAlex：当然，我很乐意听你的意见。\n经理：太好了。首先，我想说我很感谢你的努力。我觉得你的幻灯片很清晰，但有些部分的讲解有点快。\nAlex：哦，我明白了。谢谢你告诉我。\n经理：我觉得如果你稍微放慢速度，也许加一些例子，听众会理解得更好。\nAlex：有道理。我会改进。\n经理：另外，我注意到结尾可以更有力。我觉得简短的总结会有帮助。\nAlex：好意见。下次我会加上。\n经理：谢谢你愿意接受反馈。这都是为了共同进步。\nAlex：感谢你的支持，这真的帮助我进步了。",
+      "practice_tip_zh": "练习时，尝试用“I”陈述句表达你的意见，避免用“You”指责他人。这样更自然，也更容易被接受。"
+    },
+    "reading": {
+      "title": "The Art of Giving Constructive Feedback",
+      "genre": "short reflective essay",
+      "text_en": "Giving constructive feedback is an essential skill in both personal and professional life. It allows us to help others improve without making them feel attacked or demoralized. One key technique is to use \"I\" statements rather than \"you\" statements. For example, instead of saying, \"You didn’t prepare well,\" saying, \"I think the preparation could be stronger\" focuses on your perspective and reduces defensiveness.\n\nI remember a time when I received feedback that felt harsh because the person said, \"You always make mistakes.\" Instead, if they had said, \"I noticed a few mistakes and thought we could work on them,\" I would have felt more open to improving. This experience taught me to be mindful of how I phrase feedback because words can affect how people receive it.\n\nAnother useful tip is to balance negative points with positive ones. This approach, often called the \"feedback sandwich,\" starts with praise, then the constructive feedback, and ends with encouragement. It helps the person feel valued and motivated to improve rather than discouraged.\n\nFinally, timing and setting matter a lot when giving feedback. Providing feedback in private and at an appropriate time shows respect and consideration. Feedback is not just about pointing out problems but supporting growth and teamwork. When done well, it can strengthen relationships and lead to better results for everyone involved.",
+      "summary_zh": "这篇短文反思了提供建设性反馈的艺术，包括使用“I”陈述句减少防御心理，反馈时结合正面评价，选择合适的时机和场合，从而促进成长和合作。",
+      "questions": [
+        {
+          "question": "Why is it better to use \"I\" statements instead of \"you\" statements in feedback?",
+          "answer": "Because \"I\" statements express personal views and reduce the chance the listener feels attacked or defensive."
+        },
+        {
+          "question": "What is the \"feedback sandwich\" technique?",
+          "answer": "It is a method of giving feedback by starting with praise, then providing constructive criticism, and ending with encouragement."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 6635,
+    "completion_tokens": 2898,
+    "total_tokens": 9533,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
