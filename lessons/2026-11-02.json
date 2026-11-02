@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "number": 26,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Giving and Receiving Constructive Feedback: Using 'I' Statements",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 9533,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-11-02T09:11:20.830511+08:00"
 }
