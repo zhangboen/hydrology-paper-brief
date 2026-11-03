@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-03",
+  "number": 27,
+  "status": "prepared",
+  "lesson": {
+    "title": "Ordering Food for Delivery: Polite Clarifications",
+    "concept": {
+      "key": "polite_clarifications",
+      "name_en": "Polite Clarifications",
+      "name_zh": "礼貌澄清",
+      "explanation_zh": "礼貌澄清是指在日常交流中，当我们不确定对方的意思或者需要更多细节时，用一种友好且尊重的方式提出问题或确认信息，避免误解。特别是在订餐时，这能确保我们得到正确的食物和服务。",
+      "examples": [
+        "Could you please clarify if the dish contains nuts?",
+        "Just to confirm, you said the delivery will arrive by 7 pm, right?",
+        "I'm sorry, could you repeat the special instructions for my order?"
+      ],
+      "common_mistake_zh": "许多人在需要澄清时，直接用命令句或生硬的表达，比如说“Repeat that”而不是更礼貌的“Could you please repeat that?”。正确的表达更有助于保持良好沟通氛围。"
+    },
+    "vocabulary": [
+      {
+        "term": "clarify",
+        "ipa_us": "/ˈklærəˌfaɪ/",
+        "pronunciation_tip_zh": "重音在第一个音节，注意发出清晰的/klær/音。",
+        "meaning_zh": "澄清，弄清楚",
+        "explain_in_english": "I use this word when I want to make something clearer or easier to understand.",
+        "usage_note_zh": "常用于正式和非正式场合，特别是在讨论或交流时。",
+        "examples": [
+          "Could you clarify the delivery time?",
+          "I want to clarify my order details before you prepare it."
+        ]
+      },
+      {
+        "term": "delivery window",
+        "ipa_us": "/dɪˈlɪvəri ˈwɪndoʊ/",
+        "pronunciation_tip_zh": "注意连读，'delivery'重音在第一个音节，'window'重音在第一个音节。",
+        "meaning_zh": "送餐时间段",
+        "explain_in_english": "This phrase means the time period when the delivery is expected to arrive.",
+        "usage_note_zh": "常用于订餐或快递服务中，表达预计送达时间。",
+        "examples": [
+          "What is the delivery window for my order?",
+          "The delivery window is between 6 and 7 pm."
+        ]
+      },
+      {
+        "term": "payment option",
+        "ipa_us": "/ˈpeɪmənt ˈɑpʃən/",
+        "pronunciation_tip_zh": "'payment'重音在第一个音节，'option'重音在第一个音节。",
+        "meaning_zh": "付款方式",
+        "explain_in_english": "This means the method you choose to pay for something, like cash or card.",
+        "usage_note_zh": "在购物或订餐时常用，确认如何付款。",
+        "examples": [
+          "Can I choose the payment option when I order?",
+          "Cash on delivery is a popular payment option."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Ordering Delivery and Asking for Clarifications",
+      "context_zh": "在家通过电话订餐，想确认食物中的成分和送餐时间。",
+      "script_en": "Customer: Hello, I'd like to order a large pepperoni pizza.\nRestaurant: Certainly! Would you like to add any sides or drinks?\nCustomer: Yes, before I order, could you clarify if the pizza contains any nuts?\nRestaurant: No, our pepperoni pizza is nut-free.\nCustomer: Thanks! Also, what is the delivery window for my order?\nRestaurant: We usually deliver between 6:30 and 7:00 pm.\nCustomer: Just to confirm, that means my pizza should arrive by 7 pm, right?\nRestaurant: Exactly. We aim to arrive before 7.\nCustomer: Great. What payment options do you accept?\nRestaurant: We accept cash, credit cards, and mobile payments.\nCustomer: I'll pay cash on delivery. Could you please note that?\nRestaurant: Absolutely. Anything else I can help you with?\nCustomer: No, that’s all. Thank you for clarifying the details.\nRestaurant: You're welcome! Enjoy your meal!",
+      "translation_zh": "顾客：您好，我想订一份大号意大利辣香肠披萨。\n餐厅：好的！您想加些小吃或饮料吗？\n顾客：是的，订餐前，您能澄清一下披萨里有没有坚果吗？\n餐厅：没有，我们的意大利辣香肠披萨不含坚果。\n顾客：谢谢！另外，我的订单送餐时间段是几点到几点？\n餐厅：我们通常在下午6:30到7:00之间送达。\n顾客：只是确认一下，披萨应该在7点前送到，对吗？\n餐厅：没错，我们的目标是7点前送到。\n顾客：太好了。你们接受哪些付款方式？\n餐厅：我们接受现金、信用卡和手机支付。\n顾客：我选择货到付款。请帮我备注一下。\n餐厅：当然。还有其他需要帮忙的吗？\n顾客：没有了，谢谢你帮我澄清这些细节。\n餐厅：不客气！祝您用餐愉快！",
+      "practice_tip_zh": "练习时注意用礼貌语气提问，特别是用“Could you clarify”、“Just to confirm”和“Could you please”让表达更自然和友好。"
+    },
+    "reading": {
+      "title": "Why Polite Clarifications Matter in Food Delivery",
+      "genre": "original short speech",
+      "text_en": "Ordering food delivery is convenient and popular, but it can sometimes lead to confusion or mistakes if the details aren’t clear. Polite clarifications play an important role in making sure both the customer and the restaurant understand each other well. When you ask questions respectfully, you reduce the chance of errors, such as receiving the wrong dish or having an unexpected delivery time.\n\nUsing polite phrases like “Could you clarify...” or “Just to confirm...” helps you get exact information without sounding demanding or rude. This keeps the conversation friendly and professional, which is important for good communication. For example, confirming the delivery window or payment options can avoid surprises and make the experience smooth for everyone involved.\n\nIf you don’t understand something, saying “I’m sorry, could you repeat that?” shows respect and patience. It encourages clear communication, which is especially important when ordering food remotely. Being polite when you ask for information makes the process easier and more pleasant for both sides.\n\nIn summary, polite clarifications help build trust and ensure your order matches your expectations. They are simple but powerful tools to improve communication and make food delivery a positive experience. Next time you order food, try using polite clarifications—you’ll notice the difference in how smoothly it goes and how happy you are with your order.",
+      "summary_zh": "这篇演讲说明了礼貌澄清在订餐过程中的重要性，帮助避免误会，确保订单准确，提高双方沟通体验。",
+      "questions": [
+        {
+          "question": "What are two polite phrases that help avoid misunderstandings when ordering food?",
+          "answer": "“Could you clarify...” and “Just to confirm...”"
+        },
+        {
+          "question": "Why is saying “I’m sorry, could you repeat that?” helpful in food delivery orders?",
+          "answer": "Because it shows respect and patience, encouraging clear communication when something is unclear."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 11068,
+    "completion_tokens": 4628,
+    "total_tokens": 15696,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}

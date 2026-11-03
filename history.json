@@ -310,5 +310,17 @@
     ],
     "scene": "Giving Feedback to a Team Member After a Presentation",
     "reading": "The Art of Giving Constructive Feedback"
+  },
+  {
+    "date": "2026-11-03",
+    "concept_key": "polite_clarifications",
+    "concept_name": "Polite Clarifications",
+    "terms": [
+      "clarify",
+      "delivery window",
+      "payment option"
+    ],
+    "scene": "Ordering Delivery and Asking for Clarifications",
+    "reading": "Why Polite Clarifications Matter in Food Delivery"
   }
 ]
