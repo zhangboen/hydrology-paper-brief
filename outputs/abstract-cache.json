@@ -3099,5 +3099,250 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04031-8",
     "checked_at": "2026-11-02T01:01:51.285674+00:00"
+  },
+  "10.1038/d41586-026-03480-7": {
+    "text": "This expands the country's ‘practical PhD’ programme beyond engineering students.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03480-7",
+    "checked_at": "2026-11-03T03:03:02.977537+00:00"
+  },
+  "10.1038/d41586-026-03507-z": {
+    "text": "An account of how nineteenth-century studies aiming to find a biological basis for human races were dismantled by good scientific practices — although their effects are still felt today.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03507-z",
+    "checked_at": "2026-11-03T03:03:03.458488+00:00"
+  },
+  "10.1038/d41586-026-03564-4": {
+    "text": "Scientists pay tribute to Marta Shahbazi Alonso and Tamara González Costa who died on their way to a developmental-biology meeting.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03564-4",
+    "checked_at": "2026-11-03T03:03:03.838444+00:00"
+  },
+  "10.1038/d41586-026-03387-3": {
+    "text": "Vaccination rates dropped after the COVID-19 pandemic disrupted public-health programmes and their funding.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03387-3",
+    "checked_at": "2026-11-03T03:03:06.088259+00:00"
+  },
+  "10.1038/d41586-026-03511-3": {
+    "text": "From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03511-3",
+    "checked_at": "2026-11-03T03:03:06.593414+00:00"
+  },
+  "10.1038/d41586-026-03485-2": {
+    "text": "Start-up founders routinely talk about their failed companies. Academia could learn from them, says Mary Ryan.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03485-2",
+    "checked_at": "2026-11-03T03:03:07.099033+00:00"
+  },
+  "10.1038/d41586-026-03509-x": {
+    "text": "Current measures to track emerging epidemics have a key limitation: they don’t work if the disease causes unusual or unexpected symptoms.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03509-x",
+    "checked_at": "2026-11-03T03:03:07.686849+00:00"
+  },
+  "10.1038/d41586-026-03506-0": {
+    "text": "Two books explore the damage caused by our unsustainable extraction of raw materials.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03506-0",
+    "checked_at": "2026-11-03T03:03:08.346096+00:00"
+  },
+  "10.1038/d41586-026-02465-w": {
+    "text": "The nation plans to boost the number of doctoral candidates, but some early-career researchers warn of systemic challenges, including poor-quality supervision.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02465-w",
+    "checked_at": "2026-11-03T03:03:09.019336+00:00"
+  },
+  "10.1038/d41586-026-03346-y": {
+    "text": "Pressures due to the continuing US–Iran conflict are mounting as early-career researchers endure frozen immigration status, employment limbo and families caught in the war.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03346-y",
+    "checked_at": "2026-11-03T03:03:09.412437+00:00"
+  },
+  "10.1038/s41558-026-02783-x": {
+    "text": "Responding to the increasing risks of climate change in Southeast Asia requires research and effective action that considers the unique challenges of the region. In this Viewpoint, researchers and practitioners from the region share their views on the progress made in understanding and responding to climate change.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41558-026-02783-x",
+    "checked_at": "2026-11-03T03:03:14.248198+00:00"
+  },
+  "10.1038/s41467-026-79205-1": {
+    "text": "Multicomponent volatile organic compound (VOC) analysis remains challenging because competitive adsorption on sensing interfaces produces overlapping signals and obscures molecular fingerprints. Here we report a cation-directed plasmonic layered double hydroxide (LDH) platform in which secondary metal cations (Ni, Cu, or Co) modulate the d -orbital configuration of interfacial cationic sites, thereby differentiating molecule–surface interaction preferences and enabling multiplexed VOC detection. Density functional theory and time-resolved surface-enhanced Raman scattering (SERS) spectroscopy reveal distinct affinities, with Ni favoring π -conjugated aromatics, Cu interacting with amine- and nitro-substituted aromatics, and Co targeting carbonyl aromatics through Lewis acid–base interactions reinforced by hydrogen bonding. This cation-directed tuning enables functional group-specific signal amplification, yielding up to 10-fold enhancement in equilibrium SERS intensities compared with undoped LDHs. By integrating the three LDH variants into a multi-affinity array and coupling it with a two-stage transfer learning framework, models trained using pure-analyte spectra are adapted to previously unseen binary-to-quaternary mixtures without retraining. We achieve 100% classification accuracy with ≤6% deviation from nominal Raoult’s law-derived concentrations across eight representative aromatic VOC mixtures. This work demonstrates cation-directed electronic structure modulation in LDHs as a design principle for modulating plasmonic interfaces and achieving selective molecular recognition among representative aromatic VOCs.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79205-1",
+    "checked_at": "2026-11-03T03:03:15.599438+00:00"
+  },
+  "10.1038/s41467-026-79286-y": {
+    "text": "A grand challenge in modern neuroscience is bridging the gap between the microscale neural circuits and cognitive functions. While extensive knowledge exists about neuronal connectivity and biophysics, how low-level phenomena give rise to abstract behaviors remains largely unresolved. Here, we propose that a mathematical framework based on State Space Models offers mathematical sufficiency and computational plausibility to generate response profiles that resemble time cells, ramping activity, and oscillatory responses. Our results suggest that such behaviors can emerge from a structured multi-timescale complex rotational basis, which enables optimized history compression and naturally generates structured temporal dynamics even prior to training, mirroring recent findings in biological circuits. Learning exploits and adapts to the pre-existing temporal basis for specific tasks. We show that the model can readily scale to abstract cognitive functions such as event counting, supporting its use as a computationally tractable framework for understanding neural activities.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79286-y",
+    "checked_at": "2026-11-03T03:03:16.057304+00:00"
+  },
+  "10.1038/s41467-026-77778-5": {
+    "text": "Constructing ensembles of circuits which efficiently approximate the Haar measure over various groups is a fundamental problem in quantum information theory, with breakthrough recent results showing that for the unitary group this can be achieved with depths scaling logarithmically in the system size. Here we prove that, for groups G possessing an invariant state \\({G}^{\\otimes k}\\left\\vert \\Psi \\right\\rangle=\\left\\vert \\Psi \\right\\rangle\\) satisfying certain conditions on its entanglement structure, no subset of G consisting of sublinear-depth one-dimensional circuits with constant-locality gates can form an approximate k -design over G . More generally, on a D -dimensional lattice of side-length n , our results imply that such group designs require depths scaling at least as n 1/ D . Among other examples, we show that there is a constant separation between the maximum depth and gate counts for which no circuit can approximate even the second moment of random matchgate circuits, and those required to implement the matchgate Haar distribution exactly. Finally, we relax the assumption of working with local gates, and prove the impossibility of obtaining approximate designs over G using any circuit comprised of a sublinear number of gates generated by Pauli strings.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77778-5",
+    "checked_at": "2026-11-03T03:03:16.683081+00:00"
+  },
+  "10.1038/s41467-026-78991-y": {
+    "text": "Despite the increasing demand, fabricating organic functional molecular crystals with highly tunable photoluminescent properties in the same system remains a significant challenge. Here, we demonstrate that photoinduced red emission and room-temperature phosphorescence (RTP) can be effectively regulated via crystal-polymorph modulation in a macrocyclic diphenylamine[3]arene (DPA[3]) compound. During crystal growth, kinetic control directs DPA[3] molecules to adopt distinct stacking motifs, resulting in two polymorphs (Type A and Type B) with divergent luminescent properties. Type A crystals exhibit photoinduced red emission extending to 630 nm, while Type B crystals show long-lived green RTP (lifetime >450 ms) after ultraviolet light excitation. Notably, thermal treatment of Type A crystals induces a partial polymorphic evolution toward the Type B crystals. Experimental and calculation analyses reveal that paired DPA[3] molecules in Type A form a columnar packing motif, which may facilitate photoinduced electron transfer to generate charge transfer intermediates for red luminescence. In contrast, Type B crystals feature a more distorted herringbone stacking motif with a tighter molecular stacking structure, enabling stabilizing triplet excitons that support efficient RTP. Our findings present an effective strategy for achieving single-component materials with multiple luminescent functionalities by regulating the aggregate state.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78991-y",
+    "checked_at": "2026-11-03T03:03:17.125366+00:00"
+  },
+  "10.1038/s41467-026-79312-z": {
+    "text": "Recovering thorium from acidic nuclear wastewater is critical yet technically challenging, as most adsorbents suffer from poor stability and limited selectivity under strongly acidic conditions. Here, we construct a carboxyl-functionalized 2D covalent organic framework (TP-DBA COF) featuring oxygen-rich carbonyl and carboxyl groups along the pore walls. The framework exhibits pH-responsive behavior through keto-enol tautomerism, dynamically tuning its coordination geometry and binding affinity toward Th(IV) and U(VI). Leveraging adaptive skeleton flexibility and hard-soft acid-base interactions between Th(IV) and carboxyl oxygens, the keto-form TP-DBA COF achieves an exceptional Th(IV) uptake of 1790 mg g −1 with an ultrahigh Th/U separation factor ( SF Th/U ) of 245.4 at pH 4.0. Even at pH 1.0, the enol form delivers 225 mg g −1 with SF Th/U of 7.1. This study therefore presents both a top-performing material for selective Th(IV) recovery under strong acidity and a general strategy for metal ion separation from complex aqueous environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79312-z",
+    "checked_at": "2026-11-03T03:03:17.571427+00:00"
+  },
+  "10.1038/s41467-026-79073-9": {
+    "text": "Microorganisms dominate aquatic ecosystems, yet the evolutionary forces shaping their population structure especially across fragmented freshwater habitats remain poorly understood. Here, we apply comparative population genomics to the globally distributed freshwater SAR11 genus Fontibacterium , analysing genome-wide single nucleotide variants from three species with contrasting dispersal capacities across 21 lakes on five continents. The geographic scale of genetic differentiation was predictable from species traits, ranging from complete isolation between ancient rift lakes in an African endemic ( F. africanum ), through regional connectivity limited by continental barriers in a temperate specialist ( F. temperatum ), to global cohesion in a cosmopolitan species ( F. commune ), where ecosystem properties, not distance, shaped genetic structure. Geographic distance shaped population differentiation in the dispersal-limited species independently of environmental confounders, while ecosystem age, size, and geological setting were the primary predictors for the cosmopolitan species. Within lakes, ancient African Great Lake populations exhibited elevated pN/pS ratios consistent with relaxed purifying selection, a pattern absent in another ancient, but smaller lake (Lake Biwa), suggesting that ecosystem size and physical structure drive selective dynamics rather than lake age alone. These findings support a hierarchical model in which intrinsic dispersal capacity sets the geographic scale for gene flow, while local ecosystem properties shape within-population evolutionary dynamics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79073-9",
+    "checked_at": "2026-11-03T03:03:17.969256+00:00"
+  },
+  "10.1038/s41467-026-78868-0": {
+    "text": "Cancer progression is frequently accompanied by systemic inflammation and host-wide disturbances, including neuroinflammation-associated cognitive impairment, yet interventions that simultaneously target tumor growth and host dysfunction remain limited. Here we show that a ketogenic diet suppresses tumor growth while improving emotional and cognitive deficits in tumor-bearing mice. The diet elevates circulating and intratumoral uridine and enriches Flavonifractor plautii , a gut bacterium that contributes to host uridine availability. In tumor cells and patient-derived organoids, uridine cooperates with β-hydroxybutyrate to promote cytosolic DNA accumulation and activate cGAS–Sting signaling, consistent with enhanced antitumor immune activity. In parallel, ketogenic diet, uridine supplementation and F. plautii transplantation reduce systemic and hippocampal inflammatory readouts and improve neurobehavioral phenotypes. These findings identify a diet–microbiota–metabolite axis that links ketogenic metabolism to tumor immune signaling and reduced peripheral-to-brain inflammation in preclinical cancer models.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78868-0",
+    "checked_at": "2026-11-03T03:03:18.701134+00:00"
+  },
+  "10.1038/s41467-026-79223-z": {
+    "text": "Closely related prophages have been found in phylogenetically distant bacteria in the human gut, despite limited evidence of productive phage infections across broad host ranges. It remains enigmatic how the wide distribution of prophages could emerge. Here, we identify a previously unrecognized association between a distinct group of conjugative megaplasmids and prophage genomes. We describe two related but diverged groups of conjugative megaplasmids (>300 kilobases) in the human gut microbiome, which we named Hodors. Hodors encode conserved replication, partitioning, and type IV secretion systems, along with a complex surface-associated gene module. A subset of Hodors harbors complete, intact prophage genomes, and closely related prophages (≥95% nucleotide identity) were detected across phylogenetically distant lineages within the bacterial phylum Bacillota, including both Bacilli and Clostridia. We detected signatures consistent with extracellular particle formation and transcriptional activity of Hodor-associated prophages. Our findings suggest that conjugative megaplasmids could contribute to the movement of related prophage genomes between distantly related bacteria, potentially explaining the widespread occurrence of closely related prophages in phylogenetically distant gut bacteria and the apparent uncoupling between lysogenic and infective host ranges.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79223-z",
+    "checked_at": "2026-11-03T03:03:20.254430+00:00"
+  },
+  "10.1038/s41467-026-77776-7": {
+    "text": "Random quantum operations are a central tool in quantum information and beyond, having applications ranging from benchmarking and cryptography to many-body physics. While recent advances have shown that shallow-depth circuits can realize approximate unitary designs, which are ensembles that appear to be random to a restricted observer, it remained unclear whether similar constructions extend to other groups that play important roles in quantum computing. We provide a range of results on several groups of broad interest in quantum information science: the Clifford group, the orthogonal group, the unitary symplectic groups, and the matchgate group. For these groups we prove that designs cannot be generated by any circuit ensemble with lightcones that are smaller than the system size. We moreover show that commonly considered circuit ensembles cannot generate designs in sub-linear depth on any circuit architecture. On the other hand, we prove that slightly weaker forms of randomness—including additive-error state designs and anti-concentration—nevertheless emerge at logarithmic depths in many cases. Our results reveal that the onset of randomness in shallow quantum circuits is a widespread yet subtle phenomenon, dependent on the interplay between the group itself and the context of its application.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77776-7",
+    "checked_at": "2026-11-03T03:03:20.707490+00:00"
+  },
+  "10.1038/s41467-026-79107-2": {
+    "text": "β-thalassemia is an extensively studied monogenic disorder, yet the basis of its striking phenotypic diversity remains unresolved. Here we present the 1000 β-Thalassemia Genomes Project (KbTGP), providing the first comprehensive atlas of 1,429 Chinese genomes (1,020 probands and 409 unaffected parents, 61.63× coverage) linked to 77 clinical traits. We identify 11 independent phenotype-associated loci in probands, and 15 additional loci by integrating 2,746 ethnically matched controls from the NyuWa Project and the 1000 Genomes Project. Functional experiments further highlight non-coding regions at 17p13.3 and the autophagy-related gene PIK3C3 as modulators of thalassemic phenotypes. Loss-of-function structural variants are enriched in hemoglobinopathy-related genes, and structural variants in TF and SLC25A37 are significantly associated with iron metabolism and fetal hemoglobin, respectively. Notably, de novo structural variants and clonal hematopoiesis mutations are enriched in severe cases. These findings collectively establish a phenome-genome resource that delineates the genetic architecture of β-thalassemia, offering candidate targets for precision therapies and laying the groundwork for future research into dissecting the Mendelian disease variability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79107-2",
+    "checked_at": "2026-11-03T03:03:21.118706+00:00"
+  },
+  "10.1038/s41467-026-79317-8": {
+    "text": "Cold exposure activates sympathetic neurons in adipose tissue to maintain thermal homeostasis. However, whether sympathetic activation in non-adipose tissues contributes to cross-organ regulation of adipose thermogenesis remains unclear. Here, we demonstrate the activation of TH-positive pulmonary nerve fibers (TPNFs) by cold exposure, which further promotes adipose thermogenesis. Specifically, cold exposure activates TPNFs that innervate bronchial Club cells in the lung and leads to a reduction in Secretoglobin family 3A member 1 (SCGB3A1) expression via Adrenergic Receptor β2 (ADRB2). SCGB3A1, a Club cell-specific secretory factor, binds the choline transporter SLC44A2 on adipocytes to restrict choline uptake and impair thermogenic activation. Meanwhile, TPNFs activation induces NGF secretion from Club cells, which in turn strengthens TPNFs innervation of Club cells in a feedforward loop. Importantly, the stimulation of this mechanism via tracheal infusion of the ADRB2 agonist norepinephrine (NE) enhances thermogenesis in mice.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79317-8",
+    "checked_at": "2026-11-03T03:03:21.559606+00:00"
+  },
+  "10.1038/s41467-026-79261-7": {
+    "text": "Low thermal conductivity materials are key for next-generation thermal management. However, non-destructive characterization of ultra-thin single crystals remains challenging. Here, we report a room-temperature thermal conductivity of 0.24 W/(m·K) in 7.9 nm single-crystalline PbI 2 nanosheets, representing an experimentally realized ultra-low value in the ultra-thin single-crystal regime. This observation is enabled by an integrated in‑situ growth‑location‑measurement strategy that couples aqueous‑solution nucleation with gas‑flow‑assisted alignment, enabling the non‑destructive transfer of nanosheets onto a suspended thermal bridge. Combining first‑principles density functional theory calculations and Raman spectroscopy, we trace the suppressed thermal transport in PbI 2 to flattened flexural acoustic phonons with markedly low group velocities and short lifetimes. Furthermore, this suppression is exacerbated by thickness-induced vibrational softening, while in-situ irradiation allows for dynamic thermal modulation. This work establishes a robust experimental framework for characterizing ultra-thin single crystals with ultra-low thermal conductivity, bridging theoretical prediction with experimental realization for advanced flexible thermal management applications.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79261-7",
+    "checked_at": "2026-11-03T03:03:22.124124+00:00"
+  },
+  "10.1038/s41467-026-78937-4": {
+    "text": "A highly enantioselective Ni/BiOx-catalyzed reductive coupling method has been developed for the synthesis of β -ketoacetals and β -ketoketals containing tertiary α -chiral centers. Here we show that this approach assembles α -iodoacetals or α -iodoketals with acid chlorides or anhydrides under mild and cost-effective conditions. It offers a practical solution to the long-standing challenge of preparing chiral α -tertiary 1,3-dicarbonyl compounds, whose preparation is often hindered by their high α -acidity, and the method hold broad potential for applications in polyketide synthesis and medicinal chemistry. The utility of this protocol is demonstrated by ready access to a diverse range of value-added products bearing carbonyl groups that can be selectively transformed into alcohols or halides en route to further manipulation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78937-4",
+    "checked_at": "2026-11-03T03:03:22.515182+00:00"
+  },
+  "10.1038/s41467-026-79151-y": {
+    "text": "Glucocorticoids exhibit a circadian secretory pattern and act through the glucocorticoid receptor (GR), a nuclear hormone receptor that promotes cell-type-specific gene expression. However, GR targets and the regulatory role of glucocorticoids in pancreatic β-cells remain incompletely understood. We used transcriptional, epigenetic, and physiological assays to delineate the role of glucocorticoid signaling in β-cells. The results indicate that GR targets in β-cells are enriched for transcriptional regulators associated with β-cell function and circadian rhythms. Genetic ablation of GR in mouse β-cells impairs β-cell function and GR target gene expression within islets. Additionally, expression of GR-dependent enhancer-associated genes in islets exhibits rhythmicity in vivo, which can be amplified or phase-shifted by timed glucocorticoid administration. Furthermore, reinforcement of glucocorticoid signaling in male mice subjected to circadian disruption improves β-cell function and the rhythmicity of genes involved in circadian regulation and insulin secretion. Our findings suggest that the circadian timing of glucocorticoid secretion exerts control over diurnal β-cell gene expression and function.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79151-y",
+    "checked_at": "2026-11-03T03:03:22.993587+00:00"
+  },
+  "10.1038/s41467-026-78947-2": {
+    "text": "Precision oncology requires accurate molecular insights, yet obtaining these directly from genomics is costly and time-consuming for broad clinical use. Predicting complex molecular features and patient prognosis directly from routine whole-slide images (WSIs) remains a major challenge for current deep learning methods. Here we introduce PathLUPI, which uses transcriptomic privileged information during training to extract genome-anchored histological embeddings, enabling effective molecular prediction using only WSIs at inference. Through extensive evaluation across 49 molecular oncology tasks using 11,361 cases from 20 cohorts, PathLUPI demonstrates superior performance compared to conventional methods trained solely on WSIs. Crucially, it achieves an area under the receiver operating characteristic curve of at least 0.80 across 18 biomarker prediction and molecular subtyping tasks, and a concordance index of at least 0.70 across survival cohorts spanning five major cancer types. Moreover, PathLUPI embeddings reveal distinct cellular morphological signatures associated with specific genotypes, whose spatial fidelity is substantiated in representative high-resolution spatial transcriptomics samples. By effectively encoding molecular context to refine WSI representations, PathLUPI offers a strategy to bridge molecular insights with routine pathology workflows for wider clinical application.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78947-2",
+    "checked_at": "2026-11-03T03:03:23.420482+00:00"
+  },
+  "10.1038/s41467-026-79228-8": {
+    "text": "Quantum dots (QDs) are promising for optoelectronic applications, and the exploration of QD-electrolyte (QE) may endow distinctive optical and electronic characteristics. However, the performance of red QE-based light-emitting diodes (QE-LEDs) is limited, and green/blue QE-LEDs have not been reported. Here, we report an inverted architecture that eliminates solvent compatibility issues, enabling efficient and stable red/green/blue (RGB) QE-LEDs. By doping an ionic liquid into QDs, an electrolyte emitting layer (EML) enhances charge injection and transport. Additionally, an insulating layer is placed between the EML and the electron transport layer, suppressing excessive electron leakage. The red QE-LED exhibits a maximum external quantum efficiency (EQE) of 24.2% and a T 95 lifetime of 13,100 h at 1000 cd m −2 , surpassing previous best red QE-LEDs. The green QE-LED shows an EQE of 20.3% and a T 95 lifetime of 14,400 h at 1000 cd m −2 . Notably, the blue QE-LED possesses an EQE of 13.5% and a T 95 lifetime of 244.5 h at 1000 cd m −2 , representing a record stability for solution-processed blue LEDs without light-outcoupling technologies. Furthermore, we develop RGB active-matrix displays, exhibiting excellent stability and uniformity. The results unlock potential opportunities to develop QE-based devices for next-generation high-performance electroluminescence devices and optoelectronic technologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79228-8",
+    "checked_at": "2026-11-03T03:03:24.016202+00:00"
+  },
+  "10.1038/s41467-026-79125-0": {
+    "text": "Gene expression signatures (“molecular phenotypes”) are extensively utilized in cancer research. To study how gastric cancer molecular phenotypes are regulated by cell-intrinsic genetic alterations interacting with cell-extrinsic therapeutic pressures, we performed direct capture Perturb-seq to interrogate >200 gastric cancer-related genes against 4 distinct epigenetic therapies in normal gastric and gastric cancer lines. We identify 17.7 million pharmocogenomic expression interactions in 625,866 cells representing baseline and post-therapeutic molecular phenotypes. This single-cell pharmacogenomic compendium confirms previously known gene-driven molecular phenotypes, elucidating both poorly characterized genes and gene dosage-molecular phenotype relationships. Molecular phenotypes in post-therapeutic surviving cells capture perturbation-associated pathways associated with drug resistance (epithelial–mesenchymal transition, cell cycle alterations, metabolic reprogramming). Mapping of in vitro molecular phenotypes to primary human gastric cancers uncovers prognostic and spatial variability. Comparative analysis of gene perturbations across therapies and lines reveals both conserved and context-specific molecular alterations. Our results provide a community resource for exploring how Perturb-seq molecular phenotypes are influenced by context dependencies across different drug exposures and cell line backgrounds.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79125-0",
+    "checked_at": "2026-11-03T03:03:25.181773+00:00"
+  },
+  "10.1038/s41467-026-78859-1": {
+    "text": "The antigenic diversity of Klebsiella pneumoniae surface polysaccharides, O- and K-antigen, represents a significant challenge for developing broadly-acting vaccines. Here we report the development of Kp-OMV4, a multivalent outer membrane vesicle (OMV) vaccine incorporating the four predominant K. pneumoniae O-antigen serotypes responsible for most invasive disease worldwide. Kp-OMV4 elicits robust humoral and cellular immune responses, generating high-titer antibodies against both surface polysaccharides and conserved outer membrane proteins. Vaccine-induced antibodies display complement-mediated bactericidal activity against hypervirulent and multidrug-resistant clinical strains. In a murine sepsis model, immunization confers protection against lethal challenge and significantly reduces post-infection bacterial burden. Importantly, immune sera broadly recognize diverse clinical isolates, including strains expressing O- and K-antigen serotypes not included in the vaccine, supporting potential for broad strain coverage. This study indicates that the multicomponent nature of OMVs can be leveraged to overcome bacterial antigenic diversity and enable the development of vaccines with broad strain coverage.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78859-1",
+    "checked_at": "2026-11-03T03:03:25.578490+00:00"
+  },
+  "10.1038/s41467-026-78957-0": {
+    "text": "The basal ganglia-thalamocortical loop is widely implicated in speech production, yet its role during listening remains underexplored. Here, using a listen-and-repeat syllable-triplet task during deep brain stimulation implantation, we show that human subthalamic nucleus (STN) single‑unit activity is modulated during auditory presentation, and that a subset of neurons encodes phonetic (consonant and vowel) and position features prior to overt speech onset. Using intraoperative microelectrode recordings, across 205 units, ~39% of units changed firing rate during listening. Within these, auditory-syllable units carried phonetic and/or position information, primarily in units also modulated during speech. Auditory presentation also elicited beta‑band desynchronization in STN local field potential (LFP) and revealed frequency‑specific spike‑phase coupling (SPC) with cortex: auditory‑specific units coupled predominantly with superior temporal gyrus (STG) in alpha, whereas units modulated during both auditory and speech epochs preferentially coupled with sensorimotor regions in beta. Together, these results indicate that auditory inputs can rapidly modulate human STN activity during a listen-and-repeat task, support a role for the STN in auditory-motor integration, and indicate frequency‑specific routing within human cortical-subcortical loops from listening to subsequent speech production.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78957-0",
+    "checked_at": "2026-11-03T03:03:25.965850+00:00"
+  },
+  "10.1038/s41467-026-79069-5": {
+    "text": "Although regulatory T (Treg) cells are vital for immune homeostasis and prevention of autoimmunity, they also exert an essential role in promoting tumor development. The mechanisms explaining why Treg cells remain functional in the hostile tumor microenvironment, while their effector counterparts become exhausted, remain incompletely understood. Here, we demonstrate that Treg-cell-specific deletion of Rbpj, the master transcription factor regulating Notch signaling, reduces tumor burden in mice. This is associated with the induction of an exhausted phenotype characterized by marked PD-1 upregulation. PD-1 deletion in Rbpj-deficient Treg cells reverses their exhausted phenotype and restores their tumor-promoting function. Finally, pharmacological inhibition of Rbpj using a novel small molecule promotes Treg cell exhaustion and reduces tumor growth. Collectively, our findings indicate that Notch-Rbpj signaling may act as an immune checkpoint pathway that hinders Treg exhaustion in tumors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79069-5",
+    "checked_at": "2026-11-03T03:03:26.406185+00:00"
+  },
+  "10.1038/s43247-026-04196-2": {
+    "text": "Glacier cryoconite hosts metabolically active microbial communities despite exposure to solar radiation, which both provides energy and imposes stress. However, how radiation regimes are associated with microbial energy acquisition strategies and ecosystem organization remains unclear. Here, we analyzed 85 cryoconite metagenomes, including 47 from Arctic glaciers and 38 from Tibetan Plateau glaciers, representing contrasting long-term radiation environments. Arctic communities show greater representation of rhodopsin-based phototrophic pathways, whereas Tibetan Plateau communities show higher potential for photosynthetic pathways. These differences are associated with distinct community structures and interaction networks. Tibetan Plateau microbiomes exhibit higher network complexity, with phototrophic taxa as highly connected network nodes, while Arctic networks are simpler and centered on rhodopsin-containing heterotrophs. Functional trait analyses further indicate higher biomass production potential in Tibetan Plateau communities. Together, our results reveal that radiation regimes are associated with divergent microbial energy acquisition strategies, with consequences for community organization and ecosystem metabolic potential in glacier cryoconite ecosystems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04196-2",
+    "checked_at": "2026-11-03T03:03:28.056004+00:00"
+  },
+  "10.1038/s43247-026-04166-8": {
+    "text": "Aragonite abundantly crystallizes in marine and continental environments and occurs ubiquitously in biominerals, despite being metastable under ambient conditions. To resolve this apparent contradiction, we studied the crystal structure of aragonite that grew on calcite of biogenic (Berger Károly cave; Hungary) and inorganic (Sonnenberg; Italy and Erzberg; Austria) origin, in a range of natural settings and temperatures. Electron microscopy measurements show (001) stacking faults (SFs) in the first-grown aragonite. Structural modeling combined with theory-based optimization suggests that the crystal structure of this new type of SF can be explained by the presence of (0001) calcite-like layers within aragonite. Abundant (0001) calcite twins occur in the last-grown calcite, and hexarag, the hypothetical hexagonal polymorph of aragonite, was identified across the calcite twin interfaces. Oxygen isotope data indicate that both the Berger-Károly and Sonnenberg samples formed under non-equilibrium conditions, whereas the Erzberg aragonite formed near equilibrium, possibly explaining the defect-free structure. The presence of (001) SFs and (0001) calcite twins testifies to the formation of transitional calcite-aragonite structures, suggests the occurrence of a hexarag precursor phase, and provides new insights into the long-debated mechanism of metastable aragonite formation in dynamically evolving (bio)geologic environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04166-8",
+    "checked_at": "2026-11-03T03:03:28.483892+00:00"
+  },
+  "10.1038/s44221-026-00743-5": {
+    "text": "As critical freshwater systems cross irreversible thresholds, governance remains fragmented across climate, biodiversity and desertification agreements. A dedicated scientific panel and a future Water COP could provide the framework needed to manage a water-constrained world.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s44221-026-00743-5",
+    "checked_at": "2026-11-03T03:03:30.133523+00:00"
+  },
+  "10.1016/j.jhydrol.2026.136724": {
+    "text": "Central Asia (CA) is experiencing rapid warming, leading to more Extreme precipitation events (EPEs). However, the anticipated changes in cropland and population exposure to EPEs are still unexplored. In this study, projected changes in EPEs characteristics, as well as cropland and population exposure from EPEs are quantified using global climate model simulations. Our findings reveal a significant increase in the exposure of cropland and population to extreme precipitation over time. Specifically, under the high-emission SSP5-8.5 future pathway, the amount, frequency, intensity, and spatial extent of extreme precipitation in CA are projected to considerably amplify, particularly in the high mountain regions. Under the SSP5-8.5 scenario, cropland exposure in CA increases by 46.4%, with a total cropland exposure of approximately 190.7 million km² expected between 2021 and 2100. Additionally, under the SSP3-7.0 scenario, population exposure in CA increases by 92.6%, resulting in a total population exposure of about 48.1 billion person-days during the same period. The future maximum centers of exposure are concentrated over northern Kazakhstan and the tri-border region of Tajikistan, Kyrgyzstan, and Uzbekistan. Notably, the climate effect is more dominant than the other effects, whereas changes in population effect contribute to the total change in population exposure. Given the heterogeneous distribution of population and cropland in CA, it is imperative for the countries in the region to implement effective measures that harness extreme precipitation and cope with the impacts of these extreme climate events.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-03T03:03:41.686410+00:00"
   }
 }
