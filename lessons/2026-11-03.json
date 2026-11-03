@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "number": 27,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Ordering Food for Delivery: Polite Clarifications",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 15696,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-03T11:15:52.991656+08:00"
 }
