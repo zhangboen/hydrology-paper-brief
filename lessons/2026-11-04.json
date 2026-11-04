@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-04",
+  "number": 28,
+  "status": "prepared",
+  "lesson": {
+    "title": "Introducing a Visiting Scholar: Warm Welcomes and Helpful Expressions",
+    "concept": {
+      "key": "welcoming_phrases",
+      "name_en": "Welcoming Phrases",
+      "name_zh": "欢迎用语",
+      "explanation_zh": "欢迎用语是在正式或非正式场合中用来表达欢迎他人到访或加入的自然表达。这些短语能够让对方感到受重视和受欢迎。常用的表达包括：\"Welcome aboard!\"（欢迎加入！）、\"It's great to have you here.\"（很高兴你能来）和\"Feel free to ask if you need anything.\"（如果需要帮助请随时告诉我）。这些表达通常用在介绍访问学者、新同事或客人时。",
+      "examples": [
+        "Welcome aboard! We're excited to have you join our team.",
+        "It's great to have you here for the seminar.",
+        "Feel free to ask if you need anything during your stay."
+      ],
+      "common_mistake_zh": "常见错误是直接使用\"Hello\"或\"Hi\"作为欢迎语，但这可能显得不够热情。更自然的表达是使用专门的欢迎短语，如\"Welcome aboard!\"。正确示范：不要说\"Hello, you are here.\"，而应该说\"Welcome aboard! We're glad you're here.\"。"
+    },
+    "vocabulary": [
+      {
+        "term": "Welcome aboard",
+        "ipa_us": "/ˈwɛlkəm əˈbɔrd/",
+        "pronunciation_tip_zh": "重音在第一个单词的首音节'wɛl'和第二个单词的第二音节'bɔrd'。连读自然。",
+        "meaning_zh": "欢迎加入（团队、组织等）",
+        "explain_in_english": "I say this when someone joins a group or team to show I'm happy they are here.",
+        "usage_note_zh": "常用于职场或团队中正式而友好的欢迎。适合介绍访问学者或新同事。",
+        "examples": [
+          "Welcome aboard! We're happy to have you on the research project.",
+          "Welcome aboard the team! Let me know if you have any questions."
+        ]
+      },
+      {
+        "term": "Feel free to",
+        "ipa_us": "/fil fri tə/",
+        "pronunciation_tip_zh": "'feel' 的'l'音清晰，'free'重音，后面连读 'to'，发/tə/轻音。",
+        "meaning_zh": "请随意（做某事）",
+        "explain_in_english": "I say this to let someone know they can do something without worry or asking permission.",
+        "usage_note_zh": "用于表示对方有自由去做某事，语气友好，适合正式或非正式场合。",
+        "examples": [
+          "Feel free to ask me if you need help.",
+          "Feel free to take a break whenever you like."
+        ]
+      },
+      {
+        "term": "It's great to have you here",
+        "ipa_us": "/ɪts greɪt tə hæv ju hɪər/",
+        "pronunciation_tip_zh": "'great'重音，连读自然，'have'轻读为/hæv/，'you here'连读为/ju hɪər/。",
+        "meaning_zh": "很高兴你在这里",
+        "explain_in_english": "I say this to express happiness that someone has arrived or joined us.",
+        "usage_note_zh": "常用于欢迎客人、访问学者或新成员，语气热情而正式。",
+        "examples": [
+          "It's great to have you here for the conference.",
+          "It's great to have you here as our guest speaker."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Welcoming a Visiting Scholar to Your Department",
+      "context_zh": "你是大学系里的工作人员，今天迎接一位刚到访的访问学者。你们在办公室见面，进行第一次面对面交流。",
+      "script_en": "Anna: Hi Dr. Lee, welcome aboard! We're excited to have you join our department.\nDr. Lee: Thank you, Anna. It's great to be here.\nAnna: If you need anything or have questions, feel free to ask.\nDr. Lee: I appreciate that. The campus is big; I might need some help finding places.\nAnna: Absolutely, I can show you around later this afternoon.\nDr. Lee: That would be wonderful. Also, could you recommend a good place for lunch nearby?\nAnna: Sure! There's a nice café just around the corner. They have great sandwiches.\nDr. Lee: Sounds perfect. Thank you for your warm welcome.\nAnna: It's great to have you here, Dr. Lee. We're looking forward to working with you.\nDr. Lee: Likewise. I'm eager to get started on the research collaboration.\nAnna: By the way, the weekly seminar is on Thursdays. I'll send you the schedule.\nDr. Lee: Thanks, Anna. I'm glad to be part of the team.",
+      "translation_zh": "安娜：李博士，欢迎加入！我们很高兴你来到我们系里。\n李博士：谢谢你，安娜。很高兴来到这里。\n安娜：如果你需要什么或有问题，请随时告诉我。\n李博士：谢谢你的关心。校园很大，我可能需要帮忙找地方。\n安娜：当然，我今天下午可以带你参观。\n李博士：那太好了。你能推荐附近吃午饭的好地方吗？\n安娜：当然！拐角处有一家很不错的咖啡馆，他们的三明治很棒。\n李博士：听起来很完美。谢谢你的热情欢迎。\n安娜：很高兴你在这里，李博士。我们期待与你合作。\n李博士：我也是。我很期待开始我们的研究合作。\n安娜：顺便说一下，周四有每周的研讨会，我会把时间表发给你。\n李博士：谢谢你，安娜。我很高兴成为团队一员。",
+      "practice_tip_zh": "多模仿欢迎用语的语调和节奏，练习时想象你在迎接一个重要的访问学者，保持语气热情自然，这样更容易记住表达。"
+    },
+    "reading": {
+      "title": "My First Week as a Visiting Scholar",
+      "genre": "First-Person Monologue",
+      "text_en": "When I first arrived at the university as a visiting scholar, I was both excited and a little nervous. The campus was much larger than I expected, and at first, it was easy to feel a bit lost. However, from the moment I met Anna, the department staff member, I felt welcomed and supported. She greeted me warmly, saying, \"Welcome aboard! We're excited to have you join our department.\" This simple phrase made me feel immediately part of the team.\nAnna also told me to \"feel free to ask if I needed anything,\" which helped me relax because I knew I could reach out without hesitation. During my first week, she showed me around the campus, introducing me to colleagues and pointing out useful places like the library and cafeteria. It was great to have someone to guide me through the new environment.\nI also appreciated how Anna shared important information, like the weekly seminar schedule and local lunch spots, which made settling in easier. I quickly realized that these welcoming phrases and the friendly attitude of the staff made a big difference in how comfortable I felt. It’s amazing how a few kind words can change your whole experience in a new place.\nNow, I feel more confident and ready to focus on my research collaboration. I hope to return the warm welcome I received by supporting future visiting scholars when they arrive.",
+      "summary_zh": "这是一位访问学者第一周在大学的自述。他描述了刚到时的紧张和不适，但因部门工作人员的热情欢迎和帮助，很快适应了新环境，并感受到团队的支持。",
+      "questions": [
+        {
+          "question": "What welcoming phrase did Anna use to make Dr. Lee feel part of the team?",
+          "answer": "Anna said, \"Welcome aboard! We're excited to have you join our department.\""
+        },
+        {
+          "question": "How did Anna help Dr. Lee settle into the new environment?",
+          "answer": "Anna showed Dr. Lee around the campus, introduced him to colleagues, shared the seminar schedule, and recommended lunch spots."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 2682,
+    "completion_tokens": 1729,
+    "total_tokens": 4411,
+    "reasoning_tokens": 0,
+    "attempts": 1
+  }
+}

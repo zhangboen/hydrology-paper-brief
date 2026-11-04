@@ -322,5 +322,17 @@
     ],
     "scene": "Ordering Delivery and Asking for Clarifications",
     "reading": "Why Polite Clarifications Matter in Food Delivery"
+  },
+  {
+    "date": "2026-11-04",
+    "concept_key": "welcoming_phrases",
+    "concept_name": "Welcoming Phrases",
+    "terms": [
+      "Welcome aboard",
+      "Feel free to",
+      "It's great to have you here"
+    ],
+    "scene": "Welcoming a Visiting Scholar to Your Department",
+    "reading": "My First Week as a Visiting Scholar"
   }
 ]
