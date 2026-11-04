@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "number": 28,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Introducing a Visiting Scholar: Warm Welcomes and Helpful Expressions",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 4411,
     "reasoning_tokens": 0,
     "attempts": 1
-  }
+  },
+  "accepted_at": "2026-11-04T09:49:48.318817+08:00"
 }
