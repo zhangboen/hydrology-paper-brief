@@ -3575,5 +3575,502 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04198-0",
     "checked_at": "2026-11-04T01:40:35.705558+00:00"
+  },
+  "10.1038/s41586-026-11200-4": {
+    "text": "Ribosomal frameshifting, an uncommon translational recoding event, is best known for its regulatory roles in viral gene expression 1 , 2 , whereas its physiological relevance in mammals remains poorly understood. Here we show that specific codon pairs trigger efficient −1 frameshifting preferentially in cancer cells. Mechanistically, this recoding arises from ribosomal pausing associated with tRNA and amino acid availability, and is amplified by impaired ribosome quality control and sustained phosphorylation of ribosomal protein S6. We found that this codon-pair-specific frameshifting represents an intrinsic state of translational dysregulation, which is prevalent across cancer cells and reshapes protein synthesis. Taking advantage of this frameshifting-permissive state in cancer cells, we engineered a frameshifting-activated synthetic therapeutic circuit (FAST) that conditionally expresses the pyroptotic effector gasdermin D. FAST is activated across diverse cancer cell types, inducing potent and selective pyroptosis, while sparing normal tissues from detectable toxicity. As a proof of concept, systemic AAV9-mediated delivery of FAST in mouse models of colorectal and pancreatic cancer elicited pronounced tumour regression, robust immune activation and synergistic effects with immune checkpoint blockade. Collectively, these findings reveal codon-pair-dependent ribosomal frameshifting as a feature of translational dysregulation in cancer cells and establish translation-coupled gene circuits as a strategy for cancer-selective therapy.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11200-4",
+    "checked_at": "2026-11-05T01:47:13.656368+00:00"
+  },
+  "10.1038/s41586-026-11218-8": {
+    "text": "Inspired by macroscopic weaving techniques 1 , 2 , 3 , 4 , molecular weaving, which interlaces molecular strands into ordered networks, has emerged as a powerful strategy for designing functional materials with emergent properties 5 , 6 . However, so far, molecular weaving has relied mainly on linear building blocks and biaxial structures. Higher-order weaving (≥3 axes) of nonlinear building blocks is expected to produce intriguing architectures and bring new and unforeseen functions to the resulting materials; however, their construction and property investigation remain underexplored. Here we report a two-dimensional reticular triaxial woven polymer network constructed by incorporating C 3 -symmetric macrocycles into the woven structure through dative B–N polymerization. The resulting material not only exhibits unique topological chirality and robust mechanical properties but it also serves as a porous material that permits the separation of representative aromatic/aliphatic compounds. This functional utility highlights how higher-order triaxial woven topologies can provide unique advantages in terms of regulating material properties and introduces an extra topological dimension for the construction of functional materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11218-8",
+    "checked_at": "2026-11-05T01:47:14.533117+00:00"
+  },
+  "10.1038/d41586-026-03165-1": {
+    "text": "Researchers are reporting encouraging results for a disease that affects millions of people worldwide.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03165-1",
+    "checked_at": "2026-11-05T01:47:15.561231+00:00"
+  },
+  "10.1038/d41586-026-03579-x": {
+    "text": "Researchers hope that US lawmakers will push back against the Trump administration’s science policies — but there are limits to what Congress can do.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03579-x",
+    "checked_at": "2026-11-05T01:47:16.006289+00:00"
+  },
+  "10.1038/d41586-026-03505-1": {
+    "text": "For decades, conservation has worried about the risks of too many people. In some places, depopulation is the real threat.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03505-1",
+    "checked_at": "2026-11-05T01:47:16.462411+00:00"
+  },
+  "10.1038/d41586-026-03552-8": {
+    "text": "Self-driving lab in China requires only a simple prompt to encode messages in DNA and read them out.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03552-8",
+    "checked_at": "2026-11-05T01:47:17.391161+00:00"
+  },
+  "10.1038/d41586-026-03170-4": {
+    "text": "Researchers and advocates point to pollutants as a trigger for the neurodegenerative condition.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03170-4",
+    "checked_at": "2026-11-05T01:47:18.354331+00:00"
+  },
+  "10.1038/d41586-026-03169-x": {
+    "text": "The disease is thought to be divided into two subtypes, depending on where it originates in the body — the gut or the brain.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03169-x",
+    "checked_at": "2026-11-05T01:47:18.835854+00:00"
+  },
+  "10.1038/s41586-026-11245-5": {
+    "text": "Sub-ångström spatial resolution combined with attosecond temporal resolution enables direct observation of electron motion in matter 1 . Attosecond hard X-ray pulses generated at X-ray free-electron laser sources provide the requisite spatiotemporal sensitivity, yet their application has been limited by the absence of precise pulse metrology and control. Here, building on a broadband X-ray split-delay line, we establish metrology of attosecond hard X-ray pulses. Field-correlation measurements provide the first time-domain characterization of the pulse coherence time and demonstrate attosecond synchronization between the generated pulse pairs. By exploiting non-sequential two-photon absorption as a nonlinear probe, intensity autocorrelation quantifies the average pulse duration directly in the time domain to be 170 as. The demonstrated experimental tools and techniques enable systematic attosecond time-resolved experiments, including X-ray pump–X-ray probe spectroscopy and diffraction, and open a pathway to probing electronic phenomena with unprecedented spatial-temporal resolution.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11245-5",
+    "checked_at": "2026-11-05T01:47:21.014251+00:00"
+  },
+  "10.1038/s41586-026-11226-8": {
+    "text": "Perovskite/silicon tandem solar cells on rough textured substrates are at present limited by a critical trade-off in self-assembled monolayer (SAM) design because increasing molecular conjugation enhances conductivity but often leads to unfavourable aggregation that impairs conformal coverage 1 , 2 . Here we overcome this challenge using a rationally engineered molecular spatial conjugation that incorporates tailored intramolecular distortion to suppress excess π–π stacking without sacrificing charge-transport efficiency. This steric regulation facilitates the formation of a highly ordered, conformal SAM across rough pyramidal textures. By reconciling molecular packing with interfacial coverage, the tailored interface provides optimized energy-level alignment for ultrafast charge extraction, enables improved defect passivation through adaptive conformational adjustment and acts as a robust template for high-quality perovskite film growth. Making use of this interface, the optimized tandem device achieves a notable fill factor (FF) of 85%, yielding a certified stabilized power conversion efficiency (PCE) of 35.1%. Furthermore, the device demonstrates outstanding stability, retaining more than 94% of its initial performance after 1,500 h of ageing under the ISOS-L-1 protocol. Our findings provide a clear molecular engineering route to reconcile conductivity and film uniformity while maximizing the performance of tandem photovoltaics on textured silicon substrates.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11226-8",
+    "checked_at": "2026-11-05T01:47:21.711041+00:00"
+  },
+  "10.1038/s41586-026-11217-9": {
+    "text": "The ability to observe the social behaviour of others and use observed information to bias future action is a fundamental building block of social cognition 1 , 2 , 3 . Aggression observation activates hypothalamic neurons relevant for aggression control 4 , 5 , but whether observation and experience engage common circuit mechanisms that promote a new shared behavioural policy is unclear. Here we develop a strategy to perform large-scale cell-type-specific recordings across subcortical networks for social behaviour generation and learning. We record longitudinally while animals train through direct aggression experience or observation, then probe shared differences in behaviour and neural activity in a novel aggression context. After training, we detect unique signatures of a shared adaptive behavioural strategy that is absent in animals without training. During aggression observation, observed behaviour recruits widespread activation across subcortical networks for behavioural generation and mimics activity evoked by experienced behaviour, and shared neural changes persist into the novel aggression context. Multiregion modelling reveals shared changes to a core aggression network across both experience and observation, including a widespread reduction in inhibition, which we find is necessary for adaptive behavioural change. Together, this demonstrates that experience-like activity during aggression observation can recruit a shared inhibitory plasticity mechanism that biases behaviour toward adaptive proactive behavioural strategies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11217-9",
+    "checked_at": "2026-11-05T01:47:22.426577+00:00"
+  },
+  "10.1038/d41586-026-03344-0": {
+    "text": "Information on the methodology used in the ranking for the 2026 Nature Spotlight: Neuroscience.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03344-0",
+    "checked_at": "2026-11-05T01:47:22.873898+00:00"
+  },
+  "10.1038/d41586-026-03264-z": {
+    "text": "An exciting imaging approach reveals how discs of soft tissue in the spine respond to compressive force at the micrometre and nanometre scales.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03264-z",
+    "checked_at": "2026-11-05T01:47:23.483276+00:00"
+  },
+  "10.1038/d41586-026-03295-6": {
+    "text": "An image-processing framework for detecting exoplanets directly has been developed. The technique overcomes the telescope-stability barrier that has limited previous methods, reveals fainter exoplanets than other approaches can detect and could make imaging exo-Earths easier for future observatories. A physics-based model enables the observation of exoplanets that were undetectable using standard techniques.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03295-6",
+    "checked_at": "2026-11-05T01:47:23.978837+00:00"
+  },
+  "10.1038/s41586-026-11210-2": {
+    "text": "RNA language models have achieved strong performance across diverse downstream tasks by leveraging large-scale sequence data. However, RNA function is fundamentally shaped by hierarchical structure, making structural information important for pre-training. Existing approaches often depend on noisy annotations or task-specific objectives that can limit generalizability. Here we present structRFM, a structure-guided RNA foundation model trained on 21 million RNA sequence–structure pairs by integrating base-pairing interactions into masked language modelling through a pair-matching operation. We also introduce MUSES, a multi-source ensemble of secondary structures designed to mitigate predictor bias, and a dynamic masking ratio that balances structure-guided and nucleotide-level masking. structRFM learns joint sequence and structure representations as sequence-level, nucleotide-level and pairwise features for broad downstream adaptation. It ranks highly in zero-shot homology classification and establishes new benchmarks for secondary-structure prediction. Its tertiary-structure adaptation, Zfold, consistently improves both three-dimensional predictions and their extracted secondary structures, with performance comparable to AlphaFold3 1 across CASP15-natural, CASP16 and RNA-Puzzles. structRFM also improves performance on function-prediction tasks and generalizes to newly released RNA families and long non-coding RNAs. Together, these results demonstrate the effectiveness of structure-guided pre-training and highlight multimodal RNA language models for robust structural and functional inference. The complete 21-million-pair dataset, model weights and source code are openly available to support multimodal RNA foundation-model development.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11210-2",
+    "checked_at": "2026-11-05T01:47:24.460384+00:00"
+  },
+  "10.1038/d41586-026-03267-w": {
+    "text": "A re-examination of a randomized controlled trial for a health-advice intervention reveals ripple effects and altered relationships in communities in rural Honduras.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03267-w",
+    "checked_at": "2026-11-05T01:47:25.129816+00:00"
+  },
+  "10.1038/d41586-026-03580-4": {
+    "text": "The latest cases, in the Democratic Republic of the Congo, come as the country grapples with ongoing Ebola and cholera outbreaks.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03580-4",
+    "checked_at": "2026-11-05T01:47:25.617712+00:00"
+  },
+  "10.1038/d41586-026-03544-8": {
+    "text": "It might seem counterproductive to put more people in nature, but sometimes human activity nurtures biodiversity.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03544-8",
+    "checked_at": "2026-11-05T01:47:26.137981+00:00"
+  },
+  "10.1038/d41586-026-03166-0": {
+    "text": "After decades of work, researchers have begun trialling transplants of dopamine neurons into people with the neurodegenerative disease — with early signs of success.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03166-0",
+    "checked_at": "2026-11-05T01:47:26.634744+00:00"
+  },
+  "10.1038/s41586-026-11229-5": {
+    "text": "Animals learn about the external world in part through interoceptive signals 1 , 2 . For example, the nutrient content of food is first estimated in the mouth, in the form of flavour, and then it is measured again through slower signals from the gut. How these signals from the mouth and gut are integrated to drive learning is unclear. Here we identify a dopamine (DA) pathway that enables learning about the nutrient content of food. We show that DA neurons in the ventral tegmental area are necessary for associating nutrients with flavours, and that post-ingestive nutrients trigger DA release selectively in a small region of the anterior basolateral amygdala (BLA) but not in canonical DA targets in striatum. This nutrient-triggered DA release occurs preferentially in the left BLA in mice, and this same structure is preferentially activated by post-ingestive nutrients in humans. We identify the gut sensors that are responsible for nutrient-triggered DA release; show that they activate BLA-projecting DA neurons defined by expression of cholecystokinin; and demonstrate that stimulation of DA axon terminals in the anterior BLA drives flavour–nutrient learning but not other aspects of feeding behaviour. Two-photon imaging of neurons in the left anterior BLA reveals that they integrate gustatory and post-ingestive cues, and silencing these neurons prevents flavour–nutrient learning. These findings establish a neural basis for how animals learn about the nutrient content of their food.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11229-5",
+    "checked_at": "2026-11-05T01:47:27.233974+00:00"
+  },
+  "10.1038/s41586-026-11368-9": {
+    "text": "Metal-to-ligand charge transfer (MLCT) is a fundamental photoinduced process that underpins a broad range of energy- or electron-transfer events 1,2 . In the absence of productive substrate engagement, the MLCT excited state typically relaxes to the ground state via photophysical deactivation, reflecting its largely reversible character 3,4 . Here we report a class of isolable copper–heteroaryl sulfone complexes that, upon visible light irradiation, undergo an irreversible MLCT-driven fragmentation through C–S bond cleavage within the coordinated sulfone ligand, generating carbon-centered radicals. Spectroscopic and computational studies support the formation of MLCT-derived excited states and a low-barrier pathway for C–S bond cleavage. This reactivity is largely independent of the reduction potentials of the corresponding free sulfones, enabling the generation of fluoroalkyl and non-fluorinated tertiary, secondary, and primary (even methyl) alkyl radicals. We demonstrate the utility of this platform in copper-catalyzed C–H fluoroalkylation of arenes and terminal alkynes. Leveraging these MLCT-generated trifluoromethyl radicals to initiate halogen-atom transfer (XAT) from perfluorocyclobutyl iodide (I-FCB), we also achieve radical perfluorocyclobutylation–iodination of alkenes, addressing a longstanding challenge in the incorporation of perfluorocyclobutyl motifs.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11368-9",
+    "checked_at": "2026-11-05T01:47:27.793748+00:00"
+  },
+  "10.1038/s41586-026-11225-9": {
+    "text": "The dynamics of isolated quantum systems following a sudden quench has a central role in many areas of material science, high-energy physics and quantum chemistry 1 , 2 , 3 , 4 . Such far-from-equilibrium quantum dynamics—which features complex phenomena with implications for thermalization, non-equilibrium phase transitions and Floquet phase engineering 5 , 6 , 7 , 8 —is challenging to study numerically, in particular, in high-dimensional systems 9 , 10 . Here we use a programmable neutral-atom quantum simulator 11 to systematically explore quench dynamics in spin models with up to 180 qubits. By initializing the system in a product state and performing quenches across a broad parameter space, we discover several stable, qualitatively distinct dynamical regimes. We trace their robustness to Floquet-like prethermal steady states 8 that are stabilized over exponentially long emergent timescales by strong dynamical constraints. We further observe sharp peaks in the dynamical response that are quantitatively explained by the structured melting of prethermalization through resonances. In two dimensions, we uncover a prethermally driven, first-order dynamical phase transition linked to the proliferation of Néel-order defects 6 , 12 , and probe it quantitatively using a generalized Clausius–Clapeyron test. Together, these results establish a programmable route to high-energy prethermal phase structure: long-lived dynamical phases, their resonant breakdown and a first-order dynamical phase transition that is not inherited from the equilibrium phase boundaries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11225-9",
+    "checked_at": "2026-11-05T01:47:28.512188+00:00"
+  },
+  "10.1038/d41586-026-03581-3": {
+    "text": "Thousands of genome sequences identify human migrations that might have spread early forms of these tongues around Europe.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03581-3",
+    "checked_at": "2026-11-05T01:47:28.935113+00:00"
+  },
+  "10.1038/s41586-026-11274-0": {
+    "text": "Two-dimensional semiconducting moiré superlattices provide a highly tunable platform for investigating strongly correlated and topological quantum phases 1 , 2 , 3 , 4 , 5 . As a prototypical example, twisted bilayer MoTe 2 (tMoTe 2 ) has been shown to host fractional topological phases at zero magnetic field 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 . However, their evolution with twist angle and competition with other correlated quantum states remain largely unexplored. Here we report a systematic transport study of twist-angle-dependent phase diagrams in tMoTe 2 across a range of 3.79°–5.76°, revealing an evolution from valley-polarized, fractional topological states to valley-degenerate correlated states and superconductivity. At relatively small twist angles, partially filled Chern bands of tMoTe 2 host fractional quantum anomalous Hall states following the Jain sequence, together with signatures of an anomalous composite Fermi liquid at moiré hole filling factor ν h = 1/2. Increasing twist angle progressively suppresses fractional topological phases and reconstructs the half-filled Chern band into symmetry-breaking integer Chern insulating states. At ν h = 1, we observe a transition from robust integer quantum anomalous Hall insulators at small angles to displacement-field-tuned, topologically trivial correlated insulators at larger angles. At twist angles above approximately 5.6°, superconductivity emerges adjacent to the ν h = 1 correlated insulator, with a phase diagram closely resembling that recently reported in twisted bilayer WSe 2 (refs. 21 , 22 , 23 , 24 ). Our results indicate a unified twist-angle-driven phase evolution linking fractional topology, symmetry breaking, magnetic order and superconductivity, providing new insight into the emergent quantum phenomena in moiré systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11274-0",
+    "checked_at": "2026-11-05T01:47:29.778308+00:00"
+  },
+  "10.1038/d41586-026-03271-0": {
+    "text": "Males of a Drosophila species that thrives on a particular fruit need the smell of food to begin courtship. This environmental cue acts on defined mating circuits in the brain.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03271-0",
+    "checked_at": "2026-11-05T01:47:30.606133+00:00"
+  },
+  "10.1038/d41586-026-03171-3": {
+    "text": "Brains are resilient. Harnessing their self-protective mechanisms might help to prevent or slow the progression of this neurodegenerative condition.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03171-3",
+    "checked_at": "2026-11-05T01:47:31.161527+00:00"
+  },
+  "10.1038/d41586-026-03423-2": {
+    "text": "The duration of short ångström-wavelength X-ray pulses, which lasted merely 170 attoseconds, has finally been measured accurately. The optical system designed for precision pulse duration metrology can be used as a ‘stopwatch’ to measure the rapid motion of electrons inside atoms and molecules, too. Short pulses generated by the system could be used to observe electrons moving around atomic nuclei.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03423-2",
+    "checked_at": "2026-11-05T01:47:31.848230+00:00"
+  },
+  "10.1038/d41586-026-03539-5": {
+    "text": "Simulation shows that hesitating can be the difference between making it to safety and not.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03539-5",
+    "checked_at": "2026-11-05T01:47:32.340205+00:00"
+  },
+  "10.1038/d41586-026-03270-1": {
+    "text": "An AI system coordinates laboratory instruments to conduct multi-step molecular-biology experiments with limited human intervention.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03270-1",
+    "checked_at": "2026-11-05T01:47:33.231418+00:00"
+  },
+  "10.1038/d41586-026-03420-5": {
+    "text": "A film of lead sulfide — an infrared-sensitive semiconductor — has been grown directly on a circuit that can read out the material’s electrical signal through an approach called monolithic in situ integration. This brings material growth and electronic integration together into a single step. The resulting image sensor shows high sensitivity for infrared wavelengths. A new approach brings synthesis and integration into one step to make sensitive sensors.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03420-5",
+    "checked_at": "2026-11-05T01:47:33.778372+00:00"
+  },
+  "10.1038/d41586-026-03167-z": {
+    "text": "Most Parkinson’s therapies aim to reduce the motor-control symptoms that the disease triggers. But stem-cell transplants in the brain could alter the disease at a more fundamental level.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03167-z",
+    "checked_at": "2026-11-05T01:47:34.346379+00:00"
+  },
+  "10.1038/s41586-026-11248-2": {
+    "text": "Rubella virus (RuV) causes rubella and, when acquired during pregnancy, congenital rubella syndrome 1 . Despite its clinical significance, the cellular entry mechanism of RuV remains poorly characterized, owing to limited identification of host receptors 2 , which hinders pathogenesis research and therapeutic development. Here, using proximity biotin labelling-based proteomics coupled with CRISPR–Cas9 validation, we identify nectin-4 as a functional RuV entry receptor. Ectopic expression of nectin-4 conferred susceptibility to RuV in non-permissive cells, whereas blocking or genetic ablation of nectin-4 reduced infection, results that demonstrate that nectin-4 is a major entry factor. Mechanistically, nectin-4 directly interacts with the RuV envelope glycoprotein heterodimer and facilitates receptor-mediated endocytosis following initial calcium-dependent viral attachment to cellular lipids. In polarized airway epithelial models, nectin-4 mediates basolateral entry of RuV and supports apical progeny release, a finding that provides a molecular mechanism for respiratory transmission. In placental models, nectin-4 is highly expressed on syncytiotrophoblasts and facilitates infection at the maternal–fetal interface, although additional nectin-4-independent pathways contribute to infection of other trophoblast populations. Together, these data establish nectin-4 as a key factor for respiratory transmission and early placental infection of RuV and highlight it as a promising therapeutic target for the prevention of rubella and related diseases.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11248-2",
+    "checked_at": "2026-11-05T01:47:37.494833+00:00"
+  },
+  "10.1038/d41586-026-03168-y": {
+    "text": "Neuroscientists are developing a new type of brain implant that will decode every movement and symptom of people with this neurodegenerative condition, seeking better ways to ease symptoms.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03168-y",
+    "checked_at": "2026-11-05T01:47:37.989378+00:00"
+  },
+  "10.1038/s41586-026-11243-7": {
+    "text": "Algal bloom demise, often caused by viruses, is a major driver of carbon cycling in the surface ocean 1 , 2 . However, although blooms collapse synchronously, fewer than 30% of algal cells are actively infected by viruses 3 , indicating the involvement of additional mortality agents. Here we quantified tripartite interactions within a synthetic community composed of the abundant coccolithophore Gephyrocapsa huxleyi , bacteria and viruses isolated during a bloom. We found that bacteria significantly enhanced virus-induced algal mortality in G. huxleyi as well as in three other globally widespread microalgae. We quantified this interaction using two new metrics: the synergy index, which measures viral–bacterial interaction strength, and the benefit index, which assesses changes in bacterial fitness. We identified Alteromonas bacteria as drivers of viral–bacterial co-infection, with consistently high synergy index and benefit index. We found that during algal blooms, Alteromonas displayed high chemoattraction towards infected cell extracts, accumulated in aggregates derived from bloom demise, and increased in abundance during oceanic bloom collapse. Viral–bacterial synergy represents a previously unrecognized mortality agent that controls bloom termination, modulating the balance between the carbon-recycling viral shunt and the carbon-exporting viral shuttle pathways, which influence global carbon cycling 4 , 5 , 6 .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11243-7",
+    "checked_at": "2026-11-05T01:47:38.778418+00:00"
+  },
+  "10.1038/d41586-026-03413-4": {
+    "text": "Scientists have yet to reveal how the human brain produces the subjective experience we perceive as consciousness, but research has pushed the field in exciting directions.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03413-4",
+    "checked_at": "2026-11-05T01:47:39.328736+00:00"
+  },
+  "10.1038/d41586-026-03487-0": {
+    "text": "How similar are vertebrate and invertebrate sleeping behaviours? An analysis of spiders offers insights about how sleep evolved.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03487-0",
+    "checked_at": "2026-11-05T01:47:39.767070+00:00"
+  },
+  "10.1038/d41586-026-03343-1": {
+    "text": "Some countries are introducing sweeping social-media bans for young people, but the impact of screen time is still under investigation.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03343-1",
+    "checked_at": "2026-11-05T01:47:40.251682+00:00"
+  },
+  "10.1038/d41586-026-03269-8": {
+    "text": "The process of making protein from RNA can go awry in cancer cells. This malfunction might be harnessed to create an effective gene-therapy tool that targets tumours.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03269-8",
+    "checked_at": "2026-11-05T01:47:40.726093+00:00"
+  },
+  "10.1038/d41586-026-03172-2": {
+    "text": "Targeting a new network, addressing gait issues and other advances from recent studies.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03172-2",
+    "checked_at": "2026-11-05T01:47:41.863724+00:00"
+  },
+  "10.1038/s41586-026-11228-6": {
+    "text": "Developing artificial intelligence (AI)-native experimental laboratories for autonomous scientific exploration with minimal human intervention represents a long-standing goal. Although autonomous experimental systems are emerging 1 , 2 , 3 , 4 , especially in chemical and materials science, they remain largely confined to domains with singular objectives, well-defined workflows and simple instrumentation. This limitation may reflect an ‘add-on’ architecture that uses AI as a task-specific tool rather than providing it with a global understanding of experiments, especially under engineering-oriented circumstances. Here we present AutoDNA, an AI-native autonomous biomolecular engineering laboratory targeting multi-objective experiments across diverse instruments. Through the co-design of models, experiments and instruments, AutoDNA realizes the co-evolution of AI and the automation system within an end-to-end multi-user framework. The system autonomously orchestrates over 20 types of instruments across more than 11,000 steps to execute core nucleic acid operations including synthesis, transcription, amplification and sequencing, while human intervention is limited to hardware maintenance tasks, such as reagent and labware replenishment. Across four representative applications, AutoDNA matched expert-optimized enzymatic DNA synthesis yields, accelerated concurrent protocol execution by 3.2-fold, completed an end-to-end DNA data storage cycle with exact recovery of the original digital content, and identified and validated a clinically detected KRAS G13D mutation. AutoDNA establishes a blueprint towards science-as-a-service, accelerating biological discovery and advancing various applications in synthetic biology and information storage.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11228-6",
+    "checked_at": "2026-11-05T01:47:43.557943+00:00"
+  },
+  "10.1038/d41586-026-03173-1": {
+    "text": "Parkinson’s disease might develop in the gut before reaching the brain, and the environment could have a crucial role in triggering the disease.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03173-1",
+    "checked_at": "2026-11-05T01:47:44.028203+00:00"
+  },
+  "10.1038/s41586-026-11187-y": {
+    "text": "Adapting crops to intensive cultivation systems under climate change requires varieties that combine yield potential with optimized flowering and maturation 1 , 2 . In central and eastern China, barley has long been cultivated in a double-season cropping system, in which early flowering and maturation are critical for escaping presummer terminal heat stress and enabling flexible rotation with summer crops 3 , 4 . Here we trace the genomic footprints of 80 years of modern breeding in China using 505 representative cultivars and identify a flowering-time module defined by a single amino acid substitution in PHYTOCHROME C in combination with a winter-type VERNALIZATION 1 haplotype that underpins this adaptation. The derived allele accelerates heading and maturity, and its frequency has risen sharply in modern autumn-sown varieties. Using base editing in barley and wheat, we confirm causality and demonstrate that this flowering-time combination module, PhyC – VRN1 , is functionally conserved across Triticeae. Our results identify and experimentally validate a breeding-relevant flowering-time module that has been selected during modern breeding to enable intensive crop rotations, as well as demonstrate how precision genome editing can be used to reconstruct such adaptive modules for climate-resilient crop design.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11187-y",
+    "checked_at": "2026-11-05T01:47:44.770409+00:00"
+  },
+  "10.1038/s41586-026-11133-y": {
+    "text": "The growing reliance on distributed electronics, such as Internet of Things (IoT) nodes, smart-home devices and portable consumer products, has intensified demand for indoor energy-harvesting technologies that reduce battery replacement and servicing. Consequently, indoor photovoltaics (PVs) have advanced rapidly; however, translating state-of-the-art cells into deployable products requires design principles that reflect real indoor conditions. Here recent progress in perovskite (bulk and quantum dot), organic, amorphous-silicon, III–V and dye-sensitized PVs is examined to identify bottlenecks that arise under low-light conditions and during scale-up. This Review highlights how low-light operation favours wide-bandgap absorbers and reduced non-radiative voltage losses while reshaping module design: lower series-resistance ( R S ) penalties permit wider subcells and fewer interconnections, increasing geometric fill factor, whereas shunt and leakage pathways consume more of the weak photocurrent. Measurement practices for credible cross-technology benchmarking are discussed, emphasizing the transparent reporting of spectra, illuminance/irradiance, stabilization and uncertainty. Finally, the relationship between device performance and manufacturability and product integration is considered, including power-management requirements and chemical/regulatory constraints (for example, restricted substances and end-of-life handling). These guidelines provide a practical framework for evaluating indoor PVs on the basis of delivered and retained power and for accelerating the transition from laboratory-scale demonstrations to reliable, visually adaptable products for the built environment.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11133-y",
+    "checked_at": "2026-11-05T01:47:45.348226+00:00"
+  },
+  "10.1038/s41586-026-11220-0": {
+    "text": "Alterations in the microbial composition of the human gut have been associated with a wide range of chronic diseases 1 , 2 . Yet species-level composition alone can obscure extensive within-species genetic diversity and functional variation. This has driven a shift towards strain-resolved, genetic-level analysis of the microbiome, leveraging microbial genetic variation to identify disease-relevant genes and pathways 3 , 4 , 5 , 6 . Here we conducted a phenome-wide association study (PheWAS) analysing 12.8 million gut microbial single-nucleotide variants (SNVs) with 244 host health phenotypes and environmental exposures in 10,781 individuals from 6 independent cohorts. We identify 940 independent associations across 69 host factors, including age, sex and cardiovascular and metabolic parameters. Structural analyses identified host-phenotype-associated SNVs in functionally important regions of proteins, findings that inform mechanistic hypotheses about how microbial genetic changes relate to environmental and host physiological factors. For example, we identified an age-associated SNV in Faecalibacterium prausnitzii that affects an amino acid within the protein pocket that binds glutathione. To support future efforts, all study summary statistics are provided in an online catalogue ( https://fulab.web.rug.nl/SNV-MWAS/ ). Together, these results identify new biological connections between the human host and microbial genetic variants at base pair resolution and provide a resource for hypothesis generation that will aid future understanding of the strain-level functionality of the gut microbiota.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11220-0",
+    "checked_at": "2026-11-05T01:47:46.217250+00:00"
+  },
+  "10.1038/s41586-026-10956-z": {
+    "text": "Chimeric antigen receptor (CAR)-T cell therapy has transformed the treatment of haematological malignancies, but its efficacy remains limited by multiple negative regulatory mechanisms intrinsic to T cells 1 , 2 , 3 , 4 . Here we perform a high-throughput in vivo CAR-T double-knockout (DKO) CRISPR screen, and identify multiple DKO gene pairs that are both effective and synergistic. The top pair, NR4A1 – SOCS3 DKO, has multiple favourable immunological features. Whole-transcriptome profiling and in vivo single-cell RNA sequencing reveal that NR4A1 – SOCS3 DKO specifically upregulates metabolic pathways in CAR-T cells, which show significantly higher metabolic fitness and mitochondrial activity. NR4A1 – SOCS3 DKO CAR-T cells and T cells exhibit exceptionally potent antitumour efficacy and long-term tumour control across different tumour models without compromising safety features. NR4A1 – SOCS3 DKO outperforms several benchmark single-gene and dual-gene modifications in T cells and CAR-T cells 5 , 6 , 7 , 8 , 9 . These data demonstrate high-throughput in vivo CAR-T DKO screening for rapid discovery of combination targets, and establish NR4A1 – SOCS3 as a promising pair of intracellular checkpoints to engineer high-performance CAR-T therapies against cancer.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-10956-z",
+    "checked_at": "2026-11-05T01:47:48.527329+00:00"
+  },
+  "10.1038/s41561-026-02129-4": {
+    "text": "The transition from oceanic subduction to continental collision is a key stage in the Wilson Cycle. Yet, key processes governing this transition remain unclear owing to sparse observations of structure at depth. One such process is detachment of the subducting slab, which influences both deformation and magmatism in the overriding plate. Here we present seismic tomographic images that we interpret as evidence for two slab tears beneath southeastern Iran, where the Neo-Tethys Ocean is closing. Specifically, we show that in the Makran subduction zone, the oceanic lithosphere has continuously subducted to depths of at least 450 km, whereas in the Zagros collision zone to the west, the continental lithosphere has subducted no deeper than 300 km, resulting in east–southward slab tearing and detachment. We further identify another slab tear that probably initiated at the junction between the Makran Trench and the transform boundary and has propagated southward as the continental plate advances northward. The coexistence of these two tearing modes provides a rare snapshot of the short-lived early transition from oceanic subduction to continental collision.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41561-026-02129-4",
+    "checked_at": "2026-11-05T01:47:54.284619+00:00"
+  },
+  "10.1038/s41467-026-79085-5": {
+    "text": "Pd-catalyzed Suzuki–Miyaura coupling is indispensable in modern organic synthesis, yet extending its modularity beyond two coupling partners remains challenging. Here we report a triply convergent cross-coupling that integrates aryl halides, aryl boronic acids, and N -tosylhydrazones through a Pd/Cu co-catalyzed process. By embedding a carbene insertion step into the Suzuki–Miyaura manifold and overcoming the longstanding chemoselectivity challenge between carbene insertion and direct cross-coupling, this strategy enables the construction of two C–C bonds at a central methine and grants access to three-dimensional chemical space with broad substrate scope and excellent functional-group tolerance. DFT studies indicate that the Cu co-catalyst governs the relative timing of transmetalation versus carbene insertion at two key junctures in the Pd catalytic cycle, thereby enforcing the desired reaction order. The utility of this method is demonstrated through streamlined syntheses of pharmaceutically relevant scaffolds and analogues, alongside diverse downstream derivatizations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79085-5",
+    "checked_at": "2026-11-05T01:47:55.419403+00:00"
+  },
+  "10.1038/s41467-026-78920-z": {
+    "text": "Inflammatory bowel disease (IBD) is a chronic inflammatory disorder driven by dysregulated immune responses. Macrophage-mediated inflammation is central to the pathology, and it is important to understand the epigenetic mechanisms involved. By screening epigenetic molecules that are differentially expressed in published human IBD datasets, we find Protein Arginine Methyltransferase 6 (PRMT6) consistently downregulated in IBD samples compared to healthy controls. Co-occurrence of Prmt6 suppression and Il1b induction within the myeloid compartment in colon biopsy samples indicates that PRMT6 limits macrophage-driven inflammation. Concordantly, Prmt6 -deficient mice exhibit increased susceptibility to both DSS- and TNBS-induced colitis, characterized by exacerbated tissue damage and systemic elevation of IL-1β. Transcriptomic profiling confirms that PRMT6 deficiency selectively upregulates Il1b among inflammatory mediators. Mechanistically, PRMT6 suppresses Il1b transcription by interacting with RBBP5 and disrupting SET1A complex assembly, thereby reducing H3K4me3 enrichment at the Il1b promoter, independently of its canonical H3R2me2a catalytic activity. Furthermore, PRMT6 is transcriptionally silenced by the NF-κB subunit p50 during inflammation. Pharmacological inhibition of p50 restores PRMT6 expression, thus protecting mice from DSS-induced colitis in a PRMT6-dependent manner. Our findings highlight PRMT6 as a pivotal epigenetic regulator of the inflammatory response and provide proof of principle for targeting the p50–PRMT6–IL-1β axis in IBD.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78920-z",
+    "checked_at": "2026-11-05T01:47:56.394434+00:00"
+  },
+  "10.1038/s41467-026-78849-3": {
+    "text": "Magnetic tweezers are a popular biophysical instrument for manipulating and measuring single molecules. Most groups rely on custom-built setups tailored to specific experiments, making it challenging to implement and share software. Typically, image acquisition and hardware control are automated via LabVIEW, while real-time video processing is implemented in C + + /CUDA libraries. Live processing can eliminate the need to store raw video, enabling high throughput, fast acquisition rates, and simplified experimental workflows. However, no open-source general-purpose software framework currently unifies these capabilities for magnetic tweezers experiments. Here, we introduce MagTrack and MagScope open-source Python-based tools designed to fill this gap. MagTrack is an image-processing library that efficiently determines bead positions from magnetic-tweezers videos using CPU or GPU computation. MagScope is a comprehensive software framework offering a graphical user interface, real-time hardware control, data acquisition, and video processing. It is built on a multiprocessing architecture for responsive, high-throughput computation. Together, MagTrack and MagScope offer a fully customizable, end-to-end, open-source Python alternative to proprietary or fragmented systems, enabling laboratories to adapt and extend the framework according to their experimental needs.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78849-3",
+    "checked_at": "2026-11-05T01:47:56.765947+00:00"
+  },
+  "10.1038/s41467-026-79164-7": {
+    "text": "The intestinal mucosa functions alongside trillions of commensal microbes, with immune and epithelial responses contributing to microbiota homeostasis. Both immune and nerve cells are implicated in this microbial balance, but the regulatory functions of epithelial enteroendocrine cells (EEC) are not understood well. Here we show that EEC depletion in mouse colons via Satb2-mediated Neurog3 deficiency enhances goblet cell expression of prominent antimicrobial peptides, with stronger effects in female than in male mice. Mechanistically, serotonin (5-hydroxytryptamine; 5-HT) derived from enterochromaffin (EC) cells, an EEC-subtype, acts on sensory neurons to suppress the mucosal levels of calcitonin gene-related peptide (CGRP) under physiological conditions. In the absence of local serotonin, elevated CGRP levels promote mast cell infiltration and interleukin-13 (IL-13) secretion in EEC-depleted mice and enhance antimicrobial gene expression in goblet cells. Our findings thus delineate an epithelial–neuronal–immune axis, wherein EC cells fine-tune goblet cell antimicrobial output to preserve gut microbial equilibrium.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79164-7",
+    "checked_at": "2026-11-05T01:47:57.134511+00:00"
+  },
+  "10.1038/s41467-026-79099-z": {
+    "text": "Quantum nonlocality, typically revealed through entanglement distribution across quantum networks, is a cornerstone of quantum information science. Long-distance distribution of entanglement requires the information carrier, i.e., flying photons, to operate in the minimum-loss telecom band of optical fiber. While extensive efforts have been devoted to the direct generation of entanglement between C-band telecom photons and various stationary spins, the verification of quantum nonlocality remains an outstanding challenge. Here, utilizing a dipole transition in rubidium atoms with a wavelength of 1530 nm and a cavity-assisted protocol, we achieve resonant excitation and direct emission of C-band telecom photons from a single atom, generating spin–photon entanglement with a measured Bell state fidelity exceeding 91.4%. We then verify Bell nonlocality by observing a Bell inequality violation of 2.455(77) > 2 using this high-quality entangled pair. These results extend the wavelength of a single-atom quantum emitter to the telecom C-band, achieving sufficiently high-fidelity spin–photon entanglement to finally verify Bell nonlocality.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79099-z",
+    "checked_at": "2026-11-05T01:47:57.889268+00:00"
+  },
+  "10.1038/s41467-026-79302-1": {
+    "text": "To advance genetic understanding of inflammatory bowel disease (IBD), we conduct multi-ancestry genome-wide association studies (GWAS) meta-analyses of 63,415 cases of Europeans and East Asians, and identified 60 previously unreported susceptibility loci. Integrating multi-ancestry transcriptome-wide association studies (TWAS), cell type-specific TWAS, alternative splicing, and alternative polyadenylation analyses using RNA-sequencing data from normal colon tissues of 707 Europeans and 364 East Asians, we identify 441 candidate risk genes, including 324 not previously implicated by GWAS or TWAS, of which 291 were further supported by colocalization or summary-data-based Mendelian randomization analyses. These genes converge on pathways central to IBD pathogenesis (e.g., immune regulation), with over half showing transcriptional dysregulation supported by single-cell and spatial omics analyses. We further identify 44 druggable genes linked to 221 approved drugs or Phase II/III clinical-stage compounds. Our findings deepen the understanding of IBD genetics and provide insights for future research relevant to precision medicine for IBD.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79302-1",
+    "checked_at": "2026-11-05T01:47:59.052323+00:00"
+  },
+  "10.1038/s41467-026-79188-z": {
+    "text": "High-affinity O -linked β - N -acetylglucosamine ( O -GlcNAc)-specific antibodies are crucial for the sensitive detection and functional study of O- GlcNAcylation. Here, we report the development of a nanomolar-affinity O- GlcNAc antibody named EPR19847 by using a degenerate O- GlcNAcylated peptide as the immunogen. The EPR19847 antibody can be used for O- GlcNAc detection, imaging, isolation, and chromatin immunoprecipitation. Using this antibody, O- GlcNAcylated proteins are enriched and identified in mouse embryonic stem cells (mESCs). Chromatin immunoprecipitation followed by next-generation sequencing demonstrates that O- GlcNAc is enriched around the promoters of highly expressed genes, and that its genomic distribution is positively correlated with transcription-activating marks including H3K4me3, H3K9ac, and RNA polymerase II in mESCs. Further analysis suggests a high occupancy of O- GlcNAcylation within super-enhancers. We anticipate that EPR19847 will serve as a powerful tool for the highly sensitive detection and systematic functional dissection of O- GlcNAc.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79188-z",
+    "checked_at": "2026-11-05T01:48:00.432060+00:00"
+  },
+  "10.1038/s41467-026-79256-4": {
+    "text": "Loss of proteostasis can cause protein aggregation and trigger aggrephagy, yet how these biological processes are coordinated remains unclear. Here, we showed that p62 condensates transit from a gel-like to a more liquid-like state in response to proteotoxic stress. VHL was recruited to aggresomes and colocalizes with p62, which is crucial for p62 to perform its distinct functions in aggresome formation and autophagic degradation. Mechanistically, VHL binds to p62 through its IDR1 region and increases the liquid-like properties via IDR2 region. VHL depletion or disease-associated IDR2 mutations impair p62 condensate dynamics, leading to excessive accumulation of aggregated proteins and concomitant KEAP1 sequestration/NRF2 stabilization. A chimeric peptide linking the p62 PB1 domain to VHL IDR2 recapitulates VHL’s fluidity-promoting activity and suppresses tumorigenesis and protein aggregation. Overall, our findings reveal an HIF-independent tumor-suppressive role of VHL in regulating proteostasis and suggest a new treatment for cancer through the targeting of condensate dynamics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79256-4",
+    "checked_at": "2026-11-05T01:48:00.868148+00:00"
+  },
+  "10.1038/s41467-026-79220-2": {
+    "text": "Magnetic reconnection is a universal process that rapidly releases magnetic energy in plasmas, driving explosive phenomena in both space and laboratory environments. Yet a complete understanding of how reconnection proceeds in large-scale plasmas remains elusive. Here we show that expanding bifurcated current sheets (EBCS) are a recurring structure of quasi-steady reconnection. EBCS are double-peaked current layers that expand along the boundaries of the reconnection outflow, accompanied by localized electric fields and strong ion acceleration. We identify this structure consistently in laboratory experiments, spacecraft observations near Earth and the Sun, and large-scale kinetic simulations. Our results indicate that EBCS arise from two-fluid plasma dynamics and occur during quasi-steady antiparallel reconnection, particularly for plasmas with moderate plasma beta (0.1 < β ≲ 1, where β is the ratio of plasma thermal pressure to magnetic pressure). These findings link laboratory and space observations to the classical Petschek model and show how two-fluid dynamics can produce open reconnection outflows across widely different system sizes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79220-2",
+    "checked_at": "2026-11-05T01:48:01.738993+00:00"
+  },
+  "10.1038/s41467-026-78355-6": {
+    "text": "Computational and mathematical models are frequently used in the design of appropriate experimental protocols for in vitro cell differentiation assays. However, models are limited by typical monotonic dose-responses, preventing them from being used for cytokine effects that are largely non-monotonic. To address this shortcoming, we developed Uncovering Non-Monotonic Antagonistic and Synergistic Combinations (UNMASC), a mathematical model describing non-monotonic dose-response surfaces of cytokine interactions that distinguishes synergy of efficacy and potency. We demonstrate that our approach successfully recapitulates non-monotonic observed dose-response surfaces characterizing in vitro T cell progenitor differentiation. Our results show that interleukin (IL)3 and IL7 have antagonistic effects alone but are synergistic in combination. Altogether, UNMASC can aid in the efficient design of cell generation assays and extends drug interaction surfaces to a broader range of dose-responses.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78355-6",
+    "checked_at": "2026-11-05T01:48:03.320707+00:00"
+  },
+  "10.1038/s41467-026-79246-6": {
+    "text": "The fate of organic carbon at convergent margins depends in part on its transformation into relatively inert graphite, yet the influence of precursor composition remains poorly constrained. Here we show that two organic precursors, vitrinite and liptinite, follow distinct graphitization pathways under high-pressure and high-temperature conditions. Vitrinite undergoes progressive structural ordering, whereas liptinite transforms more slowly at intermediate pressures owing to inherited defects and inhibited structural coalescence. Although both precursors respond strongly to pressure, their chemistry governs transitions between the processes that ultimately limit transformation rates. In this work, we develop a precursor-specific kinetic framework that integrates graphitization along geological pressure-temperature histories. Applications to representative Alpine tectonic units indicate that graphitization can continue during post-peak decompression or reheating. Precursor-dependent path integration further influences the modeled partitioning between graphite-like carbon and low-order reactive carbon fluxes. These results highlight how precursor chemistry and geological history jointly control carbon ordering, retention potential, and flux partitioning at convergent margins.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79246-6",
+    "checked_at": "2026-11-05T01:48:04.213907+00:00"
+  },
+  "10.1038/s41467-026-77614-w": {
+    "text": "Translatable circular RNAs (circRNAs) have emerged as a promising alternative to conventional mRNA therapy due to their improved stability that results in a prolonged expression window. The translation of circRNAs is mainly driven by internal ribosome entry site (IRES) or IRES-like elements, which is tightly regulated by various trans -acting RNA binding proteins (RBPs). Here we develop a cell-based system to systematically screen RBPs that enhance translation of circRNAs, identifying 68 proteins as putative activators of noncanonical translation. These translation activators are involved in a broad range of biological processes including RNA processing, ribosomal biogenesis, and translation initiation. We further design a machine learning algorithm to extract common sequence features of these activators and predict more potential RBPs with translation activator activities. The newly identified and predicted activators are subsequently validated to promote the IRES-mediated circRNA translation in a context-dependent fashion. Overall, this study provides new insights into IRES-related trans -acting factors and expands the toolbox for engineered RBPs in RNA synthetic biology.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77614-w",
+    "checked_at": "2026-11-05T01:48:06.415909+00:00"
+  },
+  "10.1038/s41467-026-79158-5": {
+    "text": "Ambient instability in formamidinium-caesium mixed-cation perovskites limits the efficiency and long-term durability of solar cells, yet its nanoscopic origin remains unclear. Using quasi- in situ scanning transmission electron microscopy, we identify Cs-enriched grain triple junctions as intrinsic weak points under ambient exposure, where Cs⁺ segregation and phase separation initiate. This localized instability induces structural disordering and δ -CsPbI 3 crystallization, which propagates into neighboring grains, progressively degrading the perovskite matrix and interfacial optoelectronic properties. To suppress cation heterogeneity, we introduce N-Octylsulfobetaine, which regulates crystallization kinetics, promotes homogeneous cation distribution, and passivates grain boundaries, thereby enhancing resistance to water and oxygen intrusion. The resulting n - i - p perovskite solar cells achieve a champion power conversion efficiency of 26.37% and retain 96.47% of initial performance after 2,200 h under ISOS-L-1l protocol. Our findings elucidate the nanoscopic ambient degradation pathways in FA-Cs perovskites, establishing a promising strategy for achieving robust perovskite photovoltaics combining high efficiency with long-term durability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79158-5",
+    "checked_at": "2026-11-05T01:48:06.844501+00:00"
+  },
+  "10.1038/s41467-026-79268-0": {
+    "text": "Optimizing the photothermal conversion (maximized solar absorption, minimized mid-infrared emissivity) and catalytic activity is essential for constructing highly efficient photothermal catalysts. However, most catalysts lack intrinsic optical selectivity (i.e., high α solar and low ε MIR ) and fail to suppress ε MIR , which significantly compromises their catalytic performance. Herein, we propose an optical depth strategy to drive catalysts to their intrinsic optical selectivity limit. Demonstrated in metal oxides, this approach simultaneously maximizes α solar and minimizes ε MIR without compromising intrinsic catalytic activity. Demonstrated in the photothermal Sabatier and Bosch processes, our strategy increases methane production by ~590% and carbon nanotube yield by ~200%. Notably, the optimized Co 2.85 Ru 0.15 O 4 optically selective catalyst exhibits a ~ 26.7% increase in photothermal conversion efficiency. This enhancement leads to a record CH 4 production rate of 3375.5 mmol g cat −1 h −1 at a light intensity of 2.8 W cm −2 . This innovative strategy highlights the prospects for achieving intrinsic optical selectivity in photothermal catalysts.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79268-0",
+    "checked_at": "2026-11-05T01:48:08.692977+00:00"
+  },
+  "10.1038/s41467-026-78893-z": {
+    "text": "Increased B cell receptor signaling pathways in patients with melanoma correlates with a favorable clinical response to a cancer vaccine expressing multiple tumor-associated antigens. Here, we utilize phage immunoprecipitation sequencing (PhIP-seq) and Rapid Extracellular Antigen Profiling (REAP) assays to analyze the autoantibody profiles of patients with melanoma from a dendritic cell vaccine trial (NCT01622933), before and after vaccination. Patients have significantly elevated breadth and titer of autoantibodies compared to healthy donors. Vaccination results in the induction of de novo autoantibodies, particularly those with a favorable clinical outcome. Reduced serum SDF1-alpha, MIP-1ß, MCP1 and increased circulating monocytes are associated with development of autoantibodies. We identify plasma autoantibody signatures separating melanoma from healthy subjects as well as clinical responders vs non-responders to vaccination treatment. These findings demonstrate the potential for autoantibodies as diagnostic and prognostic biomarkers that predict clinical outcomes in cancer.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78893-z",
+    "checked_at": "2026-11-05T01:48:09.070699+00:00"
+  },
+  "10.1038/s41467-026-78322-1": {
+    "text": "Measuring the electronic structure of crystalline materials is key in advancing our understanding of their physical properties. While techniques such as angle-resolved photoemission spectroscopy have provided unprecedented insights into electronic orbitals of natural crystals, an equivalent tool to characterize photonic lattices is still lacking. Here, we introduce a sublattice polarimeter that enables full reconstruction of the Bloch wavefunctions in bipartite photonic lattices. Using a spatial light modulator to apply controlled phase shifts and attenuations to each sublattice, we extract the amplitude and phase of the crystal orbitals across the Brillouin zone, including close to band degeneracies. This allows experimentally accessing the Bloch Hamiltonian, thereby determining the quantum geometric tensor and the band Chern numbers. Beyond bipartite lattices, the method can be generalized to address multiple internal degrees of freedom, opening routes to experimentally probe complex topological structures such as trigonal warping, Chern insulators and Euler curvature in multiband settings.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78322-1",
+    "checked_at": "2026-11-05T01:48:10.316893+00:00"
+  },
+  "10.1038/s41467-026-78934-7": {
+    "text": "Ammonia is a promising hydrogen carrier for producing CO x -free hydrogen. However, its decomposition suffers from high reaction temperatures. This study reveals that trace Ga doping markedly boosts the low-temperature activity of Ni/Al 2 O 3 catalyst for ammonia decomposition. The Ga-doped Ni/Al 2 O 3 catalyst achieves 92.0% ammonia conversion at 500 o C and weight hourly space velocity (WHSV) = 30,000 mL g cat −1 h −1 . Kinetic experiments demonstrate that the introduction of Ga species alleviates catalyst hydrogen poisoning. Further studies confirm that Ga preferentially segregates on the catalyst surface and disperses around Ni nanoparticles. Interfacial Ga species facilitate hydrogen spillover from Ni to the Al 2 O 3 support, which promotes the enrichment of adsorbed N* species and reduces their recombination temperature on the Ni surface. This work develops an efficient and stable Ni-based catalyst for low-temperature ammonia decomposition and provides a strategy for optimizing catalytic performance via the regulation of interfacial hydrogen transfer.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78934-7",
+    "checked_at": "2026-11-05T01:48:10.976596+00:00"
+  },
+  "10.1038/s41467-026-78887-x": {
+    "text": "Artificial intelligence is reshaping scientific discovery across diverse fields. Yet scientific AI remains constrained by data curation, which demands substantial manual effort and deep domain expertise, creating major cost and scalability barriers. Here we present the Agentic Intelligent Data Engine (AIDE), a multi-agent framework that automates data curation for scientific AI. AIDE collects, selects, and organizes data in three stages, providing an end-to-end pipeline that turns a data request into training-ready datasets. We benchmarked AIDE on 14 tasks across biomedical and chemical domains. Scientific AI models built with AIDE-curated datasets matched or outperformed those built with manually curated data, and AIDE’s fully automated preparation delivered significant gains in efficiency and data utilization without compromising quality. These findings provide consistent evidence of AIDE’s applicability across scientific domains and usage paradigms and demonstrate its potential to accelerate scientific AI development and democratize access to scientific AI.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78887-x",
+    "checked_at": "2026-11-05T01:48:12.086966+00:00"
+  },
+  "10.1038/s41467-026-79310-1": {
+    "text": "Earth’s mantle temperature controls melting, crust formation and planetary cooling, but its present-day ambient value remains debated. Most geodynamic models assume ~1350 ± 50 °C, calibrated indirectly from experiments and the 6–7 km thickness of oceanic crust. Here we show, using primary-magma thermobarometry on >16,000 mid-ocean ridge basalts—seafloor lavas erupted where tectonic plates diverge—that only ~1% preserve primitive compositions that constrain mantle temperature. Under reduced redox conditions, these melts imply ~1421 °C, a value that would generate crust much thicker than seismic observations unless part of the melt is retained or crystallizes below the seafloor. More oxidized conditions lower estimates to ~1390 °C, reconciling basalt chemistry, crustal thickness and thermobarometers. Comparison with Palaeoproterozoic basalts suggests <150 °C of mantle cooling over 2 billion years. Present-day mantle is therefore modestly warmer than the canonical assumption and is better described by a dominant temperature range, with variability, than by a single value.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79310-1",
+    "checked_at": "2026-11-05T01:48:13.908934+00:00"
+  },
+  "10.1038/s41467-026-79270-6": {
+    "text": "Polar vortices in ferroelectric heterostructures exhibit rich physical phenomena, but controlling their number and stability remains challenging. We investigate polar vortices in laterally confined lead titanate slabs embedded in a strontium titanate matrix on a dysprosium scandate substrate. Phase-field simulations and transmission electron microscopy show that lateral confinement favors discrete, even numbers of vortices. Energy analysis attributes this preference to competition among Landau, elastic, electrostatic and gradient contributions. Simulations and in situ electrical biasing observations further reveal that polar vortices near slab edges remain stable while interior regions switch under applied field, and vortex configurations recover after the applied voltage is removed. Here, we show that lateral confinement and edge pinning provide a route to controlling the number and switching behavior of polar vortices in ferroelectric heterostructures.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79270-6",
+    "checked_at": "2026-11-05T01:48:14.429229+00:00"
+  },
+  "10.1038/s41467-026-78409-9": {
+    "text": "Microproteins (typically <100 amino acids) regulate diverse cellular processes, yet their small size and low abundance make interactome mapping challenging and particularly sensitive to perturbation by conventional enzyme-based proximity-labeling tags. Here, we developed FlashID, an ultra-compact genetically encoded proximity labeling (PL) system that combines a six-amino-acid tetracysteine tag (CCXXCC, <700 Da) with the turn-on biarsenical photocatalyst FlAsH. Upon tag binding and visible-light irradiation, FlAsH generates singlet oxygen to enable spatially and temporally controlled oxidative labeling of proximal proteins. In side-by-side analyses of the bacterial microprotein AzuC, FlashID recovered the validated interactor GlpD and identified additional physiologically relevant partners that were not captured by TurboID or IP-MS under the conditions tested. FlashID also resolved compartment-specific interactomes of diverse microproteins, including RP11-469A, which we identified as a mitochondrial intermembrane protein that interacts with PHB2 to regulate proliferation. Finally, the extension of FlashID to E. coli , mammalian cells, C. elegans and Arabidopsis thaliana establishes FlashID as a complementary, minimally perturbative platform for decoding microprotein interaction networks in vivo and advancing photocatalytic proximity labeling technologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78409-9",
+    "checked_at": "2026-11-05T01:48:15.202243+00:00"
+  },
+  "10.1038/s43247-026-04130-6": {
+    "text": "As Earth’s surface temperature continues to warm, the Atlantic meridional overturning circulation risks crossing a tipping point. Then, multiple Earth system components may be irreversibly altered. Here, we use the NASA-GISS Earth System Model to investigate the responses of ocean carbon uptake, net primary productivity, oxygen concentration, and carbon storage to a collapse of the overturning circulation under a moderate forcing scenario. We find that the sign of the impact in different systems is regionally-dependent, and the magnitude is generally larger in the Northern Hemisphere. We use a Least-Absolute Shrinkage and Selection Operator regression to provide estimates of the timescales over which these impacts begin to occur (lags) and are fully realized (latencies). Timescales are generally found to increase southward from the Northern high latitudes to the Southern Ocean, but are remarkably similar between different basins at similar latitudes. Tipping of the overturning circulation will lock-in committed changes to the Earth system that will take 2-3 centuries to fully unfold.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04130-6",
+    "checked_at": "2026-11-05T01:48:16.793419+00:00"
+  },
+  "10.1038/s43247-026-04199-z": {
+    "text": "Mantle redox conditions and halogen budgets influence crustal ore formation, yet mantle domains beneath intraplate magmatic provinces remain poorly understood. Here we combine zircon oxybarometry and apatite halogen data from 1,515 zircon and 309 apatite grains in Mesozoic mafic rocks across South China to investigate the underlying mantle. We identify a previously unrecognized domain that produced reduced, fluorine-enriched mafic magmas. This domain lies distal to the Paleo-Pacific subduction front and coincides with the world-class South China tin province, contrasting with the more oxidized, less fluorine-enriched magmas of the continental-margin arc. We attribute this signature to metasomatic enrichment involving phlogopite-bearing assemblages. Such a mantle reservoir may precondition tin-fertile transcrustal magmatic systems by stabilizing divalent tin, suppressing tetravalent tin incorporation into early titanium-bearing minerals, and promoting tin enrichment in highly differentiated, fluorine-rich melts. These findings highlight the redox and halogen architecture of the mantle as a key deep-seated control on continental-scale tin metallogeny.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04199-z",
+    "checked_at": "2026-11-05T01:48:17.266422+00:00"
+  },
+  "10.1038/s43247-026-04211-6": {
+    "text": "Fast-evolving weather events develop on 5–15-min timescales and can influence human activities and planning. However, most atmospheric reanalyses provide data every 1–3 h, making rapid changes difficult to capture. Traditional machine-learning approaches require high-frequency supervision labels, which limits their use when such data are unavailable. Here we present a token-guided self-supervised framework that learns temporal relationships directly from coarse archives and reconstructs subhourly fields without subhourly labels. Temporal context and the requested output time are encoded as discrete tokens and incorporated through cross-attention, enabling the model to generate intermediate states consistent with the surrounding coarse fields. Across the evaluated settings, the framework yields lower reconstruction errors than recurrent and attention-based baselines. Applied to the 1806–1900 subset of the NOAA Twentieth Century Reanalysis version 3, the framework produces 15-min ensembles of near-surface relative humidity and 2-m temperature. These reconstructions support analyses of short-term variability in historical weather records and extend event-scale analysis to periods with sparse observations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04211-6",
+    "checked_at": "2026-11-05T01:48:17.660347+00:00"
+  },
+  "10.1038/s44221-026-00735-5": {
+    "text": "Young people frequently experience academic stress that may affect mental health and coping behaviours, yet population-level monitoring relies on self-reports or prescription data with limited temporal resolution. Here we use wastewater surveillance to assess short-term, multi-system stress dynamics in a university population. Wastewater samples collected in 2022 from an Australian campus (~30,000 people) were analysed for oxidative stress biomarkers, antidepressants, attention deficit hyperactivity disorder medication and behavioural indicators including alcohol, nicotine and tobacco biomarkers, paraxanthine (caffeine biomarker) and acesulfame. Temporal patterns during examination period were compared with teaching periods and a contemporaneous general-population catchment (~120,000 residents). Difference-in-differences analysis showed a marked university-specific increase in 8-hydroxyguanine (8-OHG), weaker evidence for 8-hydroxy-2′-deoxyguanosine (8-OHdG) and consistent but non-significant positive antidepressant consumption trends during examination period. Ritalinic acid and amphetamine, total nicotine and tobacco-derived nicotine, and alcohol remained relatively stable, whereas paraxanthine and acesulfame significantly decreased. By integrating multiple biomarkers, wastewater surveillance provides a non-invasive and complementary tool for identifying periods of increased mental health burden and informing timely public health interventions in university populations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00735-5",
+    "checked_at": "2026-11-05T01:48:19.099206+00:00"
   }
 }
