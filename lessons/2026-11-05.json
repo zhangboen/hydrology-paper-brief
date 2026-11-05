@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "number": 29,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Explaining a Minor Problem at a Repair Shop",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 10731,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-11-05T09:57:20.781214+08:00"
 }
