@@ -334,5 +334,17 @@
     ],
     "scene": "Welcoming a Visiting Scholar to Your Department",
     "reading": "My First Week as a Visiting Scholar"
+  },
+  {
+    "date": "2026-11-05",
+    "concept_key": "softening_statements",
+    "concept_name": "Softening Statements",
+    "terms": [
+      "a bit",
+      "seem to be",
+      "kind of"
+    ],
+    "scene": "Explaining a Small Issue with a Phone Battery at a Repair Shop",
+    "reading": "The Unexpected Phone Fix"
   }
 ]

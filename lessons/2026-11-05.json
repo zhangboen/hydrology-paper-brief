@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-05",
+  "number": 29,
+  "status": "prepared",
+  "lesson": {
+    "title": "Explaining a Minor Problem at a Repair Shop",
+    "concept": {
+      "key": "softening_statements",
+      "name_en": "Softening Statements",
+      "name_zh": "软化语气表达",
+      "explanation_zh": "软化语气表达是指在英语对话中使用一些词语或短语，使请求、抱怨或表达问题听起来更礼貌和委婉，避免让对方感到被冒犯或压力。常见的软化表达包括使用“a bit”、“kind of”、“maybe”等词来弱化语气。",
+      "examples": [
+        "My phone is having a bit of trouble charging.",
+        "There seems to be a kind of noise coming from the engine.",
+        "Maybe the screen is a little cracked, but it still works."
+      ],
+      "common_mistake_zh": "很多学习者直接用很强烈、绝对的表达方式说明问题，比如说“它坏了”或者“完全不能用了”，这会让听者觉得太生硬或不礼貌。建议用软化语气的表达，比如“有点问题”或“好像有点不太对”。"
+    },
+    "vocabulary": [
+      {
+        "term": "a bit",
+        "ipa_us": "/ə bɪt/",
+        "pronunciation_tip_zh": "连读时‘a’读成弱音/ə/，‘bit’发短元音/ɪ/，注意快速连接。",
+        "meaning_zh": "有点，稍微",
+        "explain_in_english": "I say 'a bit' to mean a small amount or degree of something.",
+        "usage_note_zh": "常用于口语中，表达轻微的程度，比正式的‘somewhat’更自然。适合日常和工作场合。",
+        "examples": [
+          "The machine is a bit noisy today.",
+          "I'm feeling a bit tired after work."
+        ]
+      },
+      {
+        "term": "seem to be",
+        "ipa_us": "/siːm tə bi/",
+        "pronunciation_tip_zh": "‘seem’中的‘ee’发长元音/iː/，‘to’通常弱读为/tə/，‘be’发清晰的/bi/。",
+        "meaning_zh": "似乎，好像",
+        "explain_in_english": "I use 'seem to be' when I want to say something looks or sounds a certain way but I’m not 100% sure.",
+        "usage_note_zh": "这是表达不确定或委婉陈述的常用短语，适合正式和非正式场合。",
+        "examples": [
+          "It seems to be broken.",
+          "There seems to be a problem with the screen."
+        ]
+      },
+      {
+        "term": "kind of",
+        "ipa_us": "/kaɪnd əv/",
+        "pronunciation_tip_zh": "‘kind’发/kaɪnd/，‘of’在口语中常弱读成/əv/，注意连读。",
+        "meaning_zh": "有点，稍微（用于软化语气）",
+        "explain_in_english": "I say 'kind of' to make a statement less direct or strong, softening what I say.",
+        "usage_note_zh": "口语中非常常见，用来表达轻微的程度或不确定，适合日常对话。",
+        "examples": [
+          "The screen is kind of cracked.",
+          "I’m kind of worried about the repair cost."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Explaining a Small Issue with a Phone Battery at a Repair Shop",
+      "context_zh": "在手机维修店向店员解释手机电池有小问题。",
+      "script_en": "Customer: Hi, I brought my phone here yesterday, and I think there's a bit of an issue with the battery.\nTechnician: Oh, can you tell me what seems to be the problem?\nCustomer: Well, it seems to be draining kind of quickly, even when I’m not using it much.\nTechnician: I see. Has it been like this for a while?\nCustomer: Yeah, maybe for the last few days. It’s not completely dead or anything, but it’s a bit frustrating.\nTechnician: Got it. Did you notice if it gets hot at all?\nCustomer: Not really hot, just a little warm sometimes.\nTechnician: Thanks for explaining. We’ll check the battery and let you know what’s going on.\nCustomer: That would be great. I hope it’s a quick fix.\nTechnician: We’ll do our best. If it needs replacing, I’ll give you the options.\nCustomer: Sounds good. Thanks for your help.\nTechnician: No problem. We appreciate your patience.",
+      "translation_zh": "顾客：您好，我昨天把手机带来了，我觉得电池好像有点问题。\n维修员：哦，能告诉我是什么问题吗？\n顾客：嗯，电池似乎消耗得挺快的，即使我没怎么用手机。\n维修员：明白了。这种情况有一段时间了吗？\n顾客：是的，可能是最近几天。电池没完全没电，但有点让人烦。\n维修员：知道了。你注意到手机有没有发热吗？\n顾客：不是很热，只是有时候有点温。\n维修员：谢谢你的说明。我们会检查电池，告诉你具体情况。\n顾客：那太好了。希望能快点修好。\n维修员：我们会尽力的。如果需要换电池，我会告诉你选择。\n顾客：听起来不错。谢谢你的帮助。\n维修员：没问题。感谢你的耐心。",
+      "practice_tip_zh": "练习时注意用软化语气表达问题，避免直接说坏了。模仿对话中使用的‘a bit of an issue’, ‘seems to be’, ‘kind of quickly’等表达。"
+    },
+    "reading": {
+      "title": "The Unexpected Phone Fix",
+      "genre": "short story",
+      "text_en": "Last month, I noticed my phone’s battery wasn’t lasting as long as usual. At first, it was just a bit frustrating, but then it started draining kind of quickly, even when I wasn’t using it much. I decided to take it to the local repair shop to see if they could figure out what was wrong. When I explained the problem, I made sure to soften my words, saying things like ‘it seems to be a bit off’ instead of declaring it broken. The technician was very understanding and checked the battery carefully. It turned out that the battery was old and needed to be replaced. The repair was quick, and I appreciated how the staff explained everything clearly and politely. This experience taught me the importance of softening statements when explaining minor problems – it helps keep the conversation friendly and productive.\n\nOne day, after the repair, I noticed a tiny crack on the phone’s screen. I was worried it might get worse, but I didn’t want to make a big deal out of it. Instead, I told the technician, ‘It’s kind of small, but I thought I should mention it.’ They appreciated my honesty and checked it for free. It was a small fix, but the polite communication made the whole process smooth and stress-free.\n\nThis experience showed me that when you soften your language, people are more willing to help, and problems get solved more easily. Whether it’s a minor phone issue or something bigger, being polite and gentle in how you explain things really makes a difference. Since then, my phone has been working perfectly, and I feel more confident asking for help without sounding too demanding.",
+      "summary_zh": "短文讲述了作者手机电池出现小问题后，如何用软化语气向维修店说明情况，获得顺利修理的经历。强调了委婉表达的重要性，让交流更顺畅。",
+      "questions": [
+        {
+          "question": "Why did the author use softening statements when explaining the phone problem?",
+          "answer": "To keep the conversation friendly and not sound too demanding or harsh."
+        },
+        {
+          "question": "What happened when the author mentioned the small crack on the phone screen?",
+          "answer": "The technician appreciated the honesty and checked it for free, making the repair smooth and stress-free."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 7302,
+    "completion_tokens": 3429,
+    "total_tokens": 10731,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
