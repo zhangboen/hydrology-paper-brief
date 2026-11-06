@@ -4072,5 +4072,222 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s44221-026-00735-5",
     "checked_at": "2026-11-05T01:48:19.099206+00:00"
+  },
+  "10.1038/s41586-026-11336-3": {
+    "text": "Hypertension is a silent killer, with over half of affected adults unaware of their condition 1,2 . This lack of awareness is a major concern, as early intervention is critical for preventing major adverse cardiovascular events 3,4 . Here we show that applying artificial intelligence (AI) to multimodal waveforms (photoplethysmography and accelerometry) recorded using a widely available consumer smartwatch (AI-PPG-ACC-HTN), without any cuff calibration, can detect hypertension with accuracy levels comparable to traditional cuffed blood pressure (BP) devices in the existing clinical framework. We validated AI-PPG-ACC-HTN in a prospective, multicenter study of 196 diverse participants free from known cardiovascular disease and antihypertensive medication against gold-standard 24-hour ambulatory BP monitoring. Over seven days of real-world monitoring, AI-PPG-ACC-HTN detected hypertension with a sensitivity of 65.8% (95% CI, 54.0%-76.3%), specificity of 90.0% (95% CI, 83.2%-94.7%), and positive predictive value (PPV) of 80.6% (95% CI, 68.6%-89.6%). In comparison, initial office BP screening achieved a sensitivity of 55.3% (95% CI, 43.4%-66.7%), specificity of 90.0% (95% CI, 83.2%-94.7%) and PPV of 77.8% (95% CI, 64.4%-88.0%). These results highlight an opportunity for consumer smartwatches to facilitate population-level opportunistic hypertension screening by prompting at-risk individuals toward clinical assessment and confirmatory diagnosis using established cuff-based methodologies, offering an accessible tool to address this major public health challenge.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11336-3",
+    "checked_at": "2026-11-06T01:48:37.346121+00:00"
+  },
+  "10.1038/s41586-026-11351-4": {
+    "text": "The Intergovernmental Panel on Climate Change recommended 1.5°C carbon reduction target, requiring powerful enforcement from major economies. China, the largest CO 2 emitter, is facing severe difficulties for both variable renewable accommodation and decarbonization of hard-to-abate sectors. Hydrogen, as a critical green energy carrier bridging renewable to end-users, faces significant obstacles in real-world deployment such as costly transportation, storage and fuel-cell adoption. Affordable and coordinated hydrogen deployment plan to accelerate the carbon-neutral transition remains ambiguous. Here, we present cost-effective carbon-neutral transition pathways for entire energy economy of China emphasizing the significant role of hydrogen and derivatives as green energy carriers, considering high-resolution renewable deployments, hourly power system operations in 29 provincial regions, over 46,000 rail/road/marine/pipeline transfer routing of hydrogen derivatives, process-level fuel adoption strategies in all end-use sectors. Results show that incorporating hydrogen and derivatives can reduce the overall transition cost by $ 10.7 trillion compared with renewable and electrification pathways, achieving negative carbon abatement costs ($-6.15/ton), eliminating external oil import expenses, equivalent to over 50% of China trade surplus (2023 level) 1 , significantly boosting employment and economic growth. Hydrogen derivative based transition pathway offers a vital direction for affordable and secure decarbonization for China and beyond under volatile international energy markets.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11351-4",
+    "checked_at": "2026-11-06T01:48:37.841337+00:00"
+  },
+  "10.1038/d41586-026-03568-0": {
+    "text": "Policies designed to keep women in the workforce could be entrenching gendered parenting roles.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03568-0",
+    "checked_at": "2026-11-06T01:48:38.373895+00:00"
+  },
+  "10.1038/d41586-026-03586-y": {
+    "text": "Innovative polymer could give the manual toothbrush its first radical redesign in more than 1,000 years.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03586-y",
+    "checked_at": "2026-11-06T01:48:38.825465+00:00"
+  },
+  "10.1038/d41586-026-03566-2": {
+    "text": "A clinical trial in three people tested a combination of gene-laden viruses and a drug.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03566-2",
+    "checked_at": "2026-11-06T01:48:41.764331+00:00"
+  },
+  "10.1038/d41586-026-03582-2": {
+    "text": "Genomes from thousands of ancient individuals show how migrations helped shape Celtic and Germanic languages — plus, how the brain may regulate emotions differently than we thought. Hear the biggest stories from the world of science | 4 November 2026",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03582-2",
+    "checked_at": "2026-11-06T01:48:42.246864+00:00"
+  },
+  "10.1038/d41586-026-03593-z": {
+    "text": "Enjoy the month’s best science images. Plus, an outbreak of anthrax in African hippos and the places where biodiversity drops after humans leave.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03593-z",
+    "checked_at": "2026-11-06T01:48:43.478951+00:00"
+  },
+  "10.1038/s41467-026-78946-3": {
+    "text": "Affinity maturation is an essential process in antibody engineering. Although powerful, it is iterative, time-consuming, and can result in trade-offs, where affinity is gained at the cost of important properties, such as specificity and stability. We present a scalable strategy, called LAffAb, that starts from a crystallographic structure of the antibody-antigen complex and introduces combinations of mutations to the antibody to optimize the energy of the complex. A combinatorial library comprising 7000 variants with up to nine mutations results in gains of up to 30-fold in affinity while co-optimizing stability. Surprisingly, the library does not converge on a single solution, instead favoring diverse variants with a high mutational load. Small-scale screening of 10 designs against a potential drug target improves affinity by an order-of-magnitude while maintaining high developability. We also apply LAffAb to improve the developability of a therapeutic antibody while maintaining affinity. We envision that LAffAb can be used to design stable, specific, and high-affinity binders and to improve our understanding of sequence, structure, and function relationships in antibodies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78946-3",
+    "checked_at": "2026-11-06T01:49:00.250539+00:00"
+  },
+  "10.1038/s41467-026-79287-x": {
+    "text": "Quantifying enzyme kinetic parameter changes upon mutations is essential for accelerating enzyme evolution. Current methods focus on predicting absolute values of kinetic parameters (turnover numbers k cat and Michaelis constants K m ), yet they fail to accurately capture mutation effects. To our knowledge, no method directly models mutation effects (Δ k cat and Δ K m ) due to the scarcity of such training data. Moreover, these methods haven’t fully exploited protein structural geometry. Here, we establish a high-quality enzyme mutation effect dataset by pairing wild-type and mutant kinetic parameters measured under identical experimental conditions via a semi-automatic procedure combining language model-assisted parsing and manual verification. Leveraging this dataset, we develop DeltaCata, a Siamese geometric graph neural network to directly predict the changes in kinetic parameters induced by residue substitutions. DeltaCata demonstrates substantial performance improvements over existing methods, especially for enzymes unseen in the training sets. Its utility is further validated through in silico beneficial mutation screening experiments using deep mutational scanning datasets. Finally, we apply DeltaCata to engineer the methyltransferase sGmOMT2, achieving up to a 7.0-fold improvement in catalytic efficiency for in vitro icaritin synthesis. These results suggest the high potential of DeltaCata for industrial enzyme engineering.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79287-x",
+    "checked_at": "2026-11-06T01:49:00.671176+00:00"
+  },
+  "10.1038/s41467-026-79328-5": {
+    "text": "Bidirectional promoters (BDPs), intergenic regions that coordinate transcription of oppositely oriented genes, pervade eukaryotic genomes, yet sequence signatures remain poorly defined. Existing approaches to BDP identification rely on distance thresholds and cannot infer activity from DNA. Here, we use Evo2, a genomic language model, to predict BDP activity and uncover sequence-encoded regulatory principles across four plant species ( Arabidopsis , maize, rice, and wheat). We stratify BDPs by co-expression strength and compare Evo2-derived embeddings against k -mer profiles, transcription factor binding site matrices, and convolutional neural networks trained on sequence. Evo2 embeddings outperform all baselines, demonstrating that genomic language models capture regulatory information underlying BDP activity. Models trained on one or multiple species transfer to held-out species, and in planta validation in Spartina alterniflora confirms predicted high-activity BDPs. Sparse autoencoder analysis links Evo2 embeddings to nucleosome positioning and species-specific transcription factor landscapes, providing insight into sequence determinants underlying BDP activity . This work establishes how genomic language models can extract bidirectional promoter logic from sequence and identify conserved regulatory rules across plants.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79328-5",
+    "checked_at": "2026-11-06T01:49:01.088695+00:00"
+  },
+  "10.1038/s41467-026-79320-z": {
+    "text": "Glucocorticoid-induced bone loss (GIBL) remains a major clinical challenge, manifested by both systemic osteopenia and osteonecrosis of the femoral head under chronic glucocorticoid exposure, yet current therapies are limited in coordinately addressing bone deterioration and vascular impairment. With advances in precision medicine, oligonucleotide therapeutics offer opportunities for pathophysiology-informed intervention. Here, we report a pathology-adapted peptide-oligonucleotide nanohybrid (PON) developed for targeted miR-26a-5p delivery to glucocorticoid-injured bone. By integrating self-assembly, bone targeting, enzyme responsiveness, cell penetration, and lysosomal escape, PONs were designed to incorporate pathology-responsive delivery features and address key barriers to oligonucleotide delivery. Mechanistically, PON-mediated miR-26a-5p delivery reduced GSK-3β expression and promoted HIF-1α stabilization, thereby preserving osteogenesis-angiogenesis coupling and attenuating apoptosis. In a rat model of GIBL, systemic PON administration protects against early skeletal and vascular injury and limits progression after disease establishment. These findings identify the therapeutic relevance of miR-26a-5p in GIBL, and support the potential of PON system for bone-targeted oligonucleotide therapy.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79320-z",
+    "checked_at": "2026-11-06T01:49:01.683285+00:00"
+  },
+  "10.1038/s41467-026-78828-8": {
+    "text": "Understanding the behaviors of contractile actomyosin systems requires precise spatiotemporal control of filamentous myosin activity. Here, we develop a tool for optical control of contractility by extending the MyLOV family of gearshifting motors to create engineered filamentous myosins that change velocity in response to blue light. We characterize these minifilaments using in vitro single-molecule tracking assays, contractility assays in reconstituted actin networks, and imaging of contractile phenotypes in live cells. In vitro, gearshifting minifilaments change speed and/or direction when illuminated, and contraction rates of minifilaments in actin networks can be modulated using blue light. In cells, gearshifting minifilaments enable optical control of protrusion retraction, cortical flow, and cell migration. Finally, we develop an alternative design for minifilaments that only interact processively with actin in blue light. Engineered minifilaments could be used to dissect behaviors such as self-organization and mechanotransduction in contractile systems both in vitro and in cells and tissues.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78828-8",
+    "checked_at": "2026-11-06T01:49:02.205198+00:00"
+  },
+  "10.1038/s41467-026-79026-2": {
+    "text": "Optical links underpin global communications from chip-to-chip interconnects to transoceanic fibre networks. Conventional architectures remain distance-dependent: long-haul systems rely on coherent transmission for high spectral efficiency and capacity, while short-reach links favour intensity modulation due to hardware complexity and power constraints. This divide impedes scalability for AI-driven intra-data-centre traffic and low-latency, flexible cloud-to-edge connectivity. Here we demonstrate a unified silicon photonic coherent solution for all-distance optical communications. By employing an ultralow-loss silicon nitride external cavity, we achieve 70 mW of direct laser output with a sub-kHz linewidth and 13.7% wall-plug efficiency. Paired with silicon photonic transceivers, this platform enables short-distance transmission without optical amplification across 256 wavelength channels, corresponding to an aggregate data rate of 81.92 Tb/s, as well as transmission exceeding 4400 km. It also supports wavelength switching and transmission re-establishment at tens-of-microseconds timescales. These results indicate the potential to simplify optical interfaces and enable flexible wavelength-routed connectivity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79026-2",
+    "checked_at": "2026-11-06T01:49:02.640490+00:00"
+  },
+  "10.1038/s41467-026-79157-6": {
+    "text": "Resident cardiac macrophages (RCM) are essential for myocardial repair following acute myocardial infarction (AMI); however, their therapeutic application is hindered by limited availability. Here, we show that RCM transplantation from healthy mice markedly attenuates cardiac injury in mice. Importantly, we identify a pro-reparative CD301b⁺ RCM population profoundly depleted after AMI and show that adoptive transfer of this subset alone mitigates cardiac injury following myocardial infarction. To overcome the scarcity of native RCMs and favour their replenishment, we expand ex vivo a CD301b + macrophage-like population (RCML) by polarizing bone marrow-derived macrophages with an ILC2-derived cytokine cocktail, and show that RCML transplantation confers robust post-AMI cardioprotection. Mechanistically, CD301b promotes efferocytosis by enhancing TFEB-mediated lysosomal function via a GATM-AMPK-mTOR axis, a pathway conserved in human macrophages. Thus, our findings identify a key pro-reparative macrophage subset and establish a feasible cell-based strategy for cardiac repair.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79157-6",
+    "checked_at": "2026-11-06T01:49:03.082313+00:00"
+  },
+  "10.1038/s41467-026-79305-y": {
+    "text": "Musculoskeletal infections (MSIs), including fracture-related infections (FRIs) and periprosthetic joint infections (PJIs), remain difficult to treat because of biofilm formation and increasing antimicrobial resistance. Bacteriophage therapy (PT) has re-emerged as a promising adjunctive strategy, although prospective clinical evidence remains scarce. Here, we prospectively evaluated adjunctive local PT in 13 patients with refractory MSIs treated within the multidisciplinary PHAGEFORCE framework at University Hospitals Leuven (BE). Following surgery, personalized phage preparations were administered through a closed drain system for 8–10 days alongside systemic antibiotics. Clinical, microbiological, immunological, and genomic data were collected. Four patients with refractory MSIs lacking suitable phages served as a control cohort. Clinical remission was observed in nine of eleven evaluable phage-treated patients (82%), whereas all control patients experienced infection recurrence during follow-up. PT was well tolerated, with no serious adverse reactions or clinically meaningful toxicity. Local phage titers remained detectable throughout therapy despite interpatient variability. Serum-mediated phage neutralization was observed during and after PT, and longitudinal genomic monitoring revealed patient-specific phage dynamics, neither of which was clearly associated with clinical outcome. These findings demonstrate the feasibility and safety of standardized local PT and support further evaluation of this approach in controlled clinical trials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79305-y",
+    "checked_at": "2026-11-06T01:49:04.323523+00:00"
+  },
+  "10.1038/s41467-026-79381-0": {
+    "text": "Conventional strategies for assembling macroscopic MXene films require excessive binders, such as polymer chains or cellulose, to bridge adjacent nanosheets, which undermine intrinsic functionalities and reduce MXenes to mere conductive fillers. Here, we present a strategy that leverages the intrinsic structural evolution of MXenes to achieve non-van der Waals superlattice roll-ups, simultaneously enhancing interlayer stress transfer and establishing efficient conductive pathways, thereby overcoming the traditional trade-off between mechanical and electrical performance in MXene films. The resulting scalable high-performance MXene films exhibit remarkable tensile strength (598 MPa) and electrical conductivity (13682 S/cm), while also demonstrating excellent electromagnetic interference shielding. However, a systematic understanding on the reinforcement mechanisms across multiple scales is lacking which limits the rational design of high-performance MXene films. To address this, we systematically elucidate the complex reinforcement mechanisms across multiple scales, from crack deflection at the microscopic level, to dynamic slip and energy dissipation at the nanoscale, and local charge rearrangement through molecular interactions. This work establishes a multiscale blueprint for mechanical enhancement spanning microscopic, nanoscopic, and molecular regimes, representing a significant advance in the development of high-performance films.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79381-0",
+    "checked_at": "2026-11-06T01:49:04.730780+00:00"
+  },
+  "10.1038/s41467-026-79128-x": {
+    "text": "Climate adaptation reduces losses, but successful risk reduction often leaves no claim or expenditure that records the benefit. Avoided-loss accounts would preserve intervention-specific estimates and evidence across insurance, lending and public finance, without recognizing counterfactual losses as assets.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41467-026-79128-x",
+    "checked_at": "2026-11-06T01:49:05.243953+00:00"
+  },
+  "10.1038/s41467-026-79278-y": {
+    "text": "Organic ultralong room-temperature phosphorescence (RTP) enables time-gated optical readout by separating long-lived triplet emission from short-lived autofluorescence. However, coupling RTP with biochemical responsiveness at both the molecular and materials levels remains a fundamental challenge due to the lack of a luminophore-intrinsic design principle for linking chemical responsiveness to triplet-state photophysics and the conflict between rigid, shielded microenvironments and deformable polymer matrices. Here we present an ArKMK design paradigm that electronically couples an aromatic ketone to a pH-responsive α-methyleneketone within a carbonyl-rich framework, yielding homophthalic anhydride (HA) and homophthalimides as a family of luminophores that integrate pH responsiveness with RTP. To preserve long-lived emission in elastomeric matrices, we further develop a two-pots-in-one (TPiO) strategy that separately preforms hydrophilic and hydrophobic segments and then co-reacts them to generate phase-separated microenvironments in biodegradable polyesters. The resulting materials reconcile mechanical compliance with triplet-state stabilization, while covalently integrating ArKMK luminophores through the same esterification chemistry. These biodegradable polyesters enable time-gated subcutaneous imaging, gastrointestinal tracking and wound-status reporting through coupled RTP and pH-indicating fluorescence. This work establishes a molecular-to-polymer framework for integrating pH responsiveness with long-lived triplet emission in soft, biodegradable materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79278-y",
+    "checked_at": "2026-11-06T01:49:05.644218+00:00"
+  },
+  "10.1038/s41467-026-78912-z": {
+    "text": "Hierarchical biopolymer interactions in nature yield intricate architectures, while synthetic biomimetics adopt a reductionist approach to create scalable and tunable systems. Inspired by intracellular liquid-liquid phase separation into membraneless, vesicle-like condensates, synthetic coacervate vesicles (CVs) have emerged for drug delivery, protocell design, and catalysis. However, a general reductionist framework for rationally constructing CVs remains challenging due to insufficient understanding of the minimal motifs required to drive coacervates into stable vesicular topologies. Here, we present a protein language model-informed design of such minimal systems, where arginine-rich oligopeptides and competing anionic oligomers self-assemble into oligo-coacervate vesicles (OCVs) without any chemical modifications or external fuels. Combining experiments and molecular dynamics simulations, we demonstrate an assembly mechanism governed by an electrostatic-hydrophobic balance, which enables vesiculation across a broad range of oligomer pairs. This principle further permits de novo functionalization, exemplified by OCVs engineered to selectively recognize and encapsulate DNA G-quadruplex structures. Together, these findings establish sequence-encoded design rules for the predictable construction of vesicle-like compartments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78912-z",
+    "checked_at": "2026-11-06T01:49:06.084160+00:00"
+  },
+  "10.1038/s41467-026-78543-4": {
+    "text": "Non-human primates like rhesus macaques are pivotal models for decoding human visual cortex physiology and disorders. However, there is a lack of high-resolution transcriptomic atlases comparing distinct areas of the visual cortex in macaque. Here, we developed BrainSPACE, an innovative pipeline for rapid and precise brain tissue banking, to sample visual cortex areas: V1, V2, V4, MT, and TEO. We applied single-nucleus RNA-sequencing (snRNA-seq) to unravel neuronal diversity in BrainSPACE-banked V1 and V4 areas ( ~ 100,000 nuclei). We uncovered conserved GABAergic neuron profiles but stark area-specific diversity in principal neurons, featuring seven unique layer 4 subtypes in V1 and one in V4. Complementary smFISH validated transcriptional gradients across these areas, aligning with ventral and dorsal stream hierarchies. Gene ontology analyses highlighted plasticity-related pathways in unique layer 4 subtypes, with genes like NTNG1 and NLGN1 linked to neurodevelopmental disorders such as autism and schizophrenia. Our insights bridge molecular architecture to visual processing, offering an interactive atlas for community use. By revealing how layer 4 heterogeneity drives hierarchical specialization, our work advances primate brain mapping and informs therapeutic strategies for vision-related pathologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78543-4",
+    "checked_at": "2026-11-06T01:49:06.602576+00:00"
+  },
+  "10.1038/s41467-026-79250-w": {
+    "text": "Metal-organic covalent organic frameworks (MOCOFs) combine the advantages of covalent and metal-organic frameworks, but research remains sparse due to characterization difficulties, leaving unclear whether their formation is covalent- or coordination-directed. To date, only a few three-dimensional MOCOFs have been reported, while two-dimensional (2D) MOCOFs remain unexplored. Here, we strategically synthesize two single-crystal 2D MOCOFs with high porosity, denoted as PUMC-1 and PUMC-2. Leveraging three-dimensional electron diffraction, we are able to elucidate their formation process in detail. First, one-dimensional coordination polymers (1D CPs) are constructed from two sub-building units: tetrakis(4-aminophenyl) porphyrin and cobalt(II) trans-A₂B₂ porphyrin. Second, 1D CPs with covalent extension sites are used to construct two distinct 2D MOCOF conformations via covalent self-assembly under different conditions. Notably, the same 2D MOCOFs can also be directly obtained via one-pot synthesis with the same monomers, providing experimental evidence for a coordination-directed covalent assembly mechanism. This work not only expands the dimensionality of MOCOFs but also opens new avenues in reticular chemistry.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79250-w",
+    "checked_at": "2026-11-06T01:49:07.009527+00:00"
+  },
+  "10.1038/s41467-026-78784-3": {
+    "text": "The tube model, which reduces the interaction of many-chain entanglement to a single-chain picture, has enabled quantitative descriptions of the mechanical behaviors of polymeric materials and underpins applications from polymer processing to life sciences. In strong extensional flows, however, this theory systematically fails. Herein, through molecular dynamics simulations of entangled polymers, we reveal a strain-induced crossover from the entangled state to a packed state in the inter-chain configuration. Following the saturation of primitive chain stretch, convective disentanglement and chain alignment reorganize the system into a packed configuration of aligned segments. This crossover makes an explicit inter-chain contribution necessary for describing tensile stress beyond the intra-chain conformational stress, explaining the breakdown of tube-based descriptions and quantitatively capturing the mechanical response at large extensional strains. These findings clearly show how the inter-chain reorganization governs the nonlinear extensional behaviors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78784-3",
+    "checked_at": "2026-11-06T01:49:07.447456+00:00"
+  },
+  "10.1038/s41467-026-79265-3": {
+    "text": "Abstract Human adults exhibit remarkable individual differences in the brain’s functional topography, yet how such individualized topography emerges and shapes long-term cognition remains unknown. Using multimodal neuroimaging data of 419 infants (367 term-born; 52 preterm-born) from the Developing Human Connectome Project, we characterize personalized functional topographies in the neonate brain and evaluate their ability to predict 18-month neurocognitive outcomes. We find that typical functional topographies are present at birth, with interindividual variability organized along a sensorimotor-to-association hierarchy. These individualized maps encode early brain maturity and predict cognitive, language, and motor outcomes in early childhood, with the most predictive features localized to sensorimotor network boundaries. This functional refinement is structurally anchored by concurrent maturation in cortical myelination and sulcal depth. Preterm birth is associated with topographic alterations featuring atypical association network maturation. Our findings establish a foundational framework for precision modelling of early brain development and its influences on long-term cognitive trajectories.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:08.960425+00:00"
+  },
+  "10.1038/s41467-026-78966-z": {
+    "text": "In the version of this article initially published, there were errors in the values presented in the upper panel of Fig. 4 and associated text. In the fifth paragraph of the “Disentangling each driver’s impacts on Monsoon Variability” section, in the text now reading “For precipitation, both greenhouse gas and ice-sheet forcing produce a drying tendency relative to the Orb simulation, although to a lesser magnitude of drying and does not reach the mean precipitation level of the All_forcings simulations (5.4 mm/day for Orb, 5.1 mm/day for Orb_Ice, 5.0 mm/day for Orb_Ghg). The forcing set that most closely matches the mean monsoon period precipitation in All_forcing (4.8 mm/day for All) is Orb_Ghg,” the values 5.4, 5.1, 5.0 and 4.8 mm/day replace the original 28.9, 28.7, 28.0 and 27.9, respectively. The figure and text are amended in the HTML and PDF versions of the article. For comparison, the original figure is available as Supplementary Information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:09.704229+00:00"
+  },
+  "10.1038/s41467-026-79109-0": {
+    "text": "In the version of this article initially published, in the Fig. 3g and Supplementary Fig. 2d Source Data and associated figure plots, the data blocks F/N (Fig. 3g) and block D (Supplementary Fig. 2d) were inadvertently copied and pasted into columns G/O (Fig. 3g) and block E (Supplementary Fig. 2d). Due to the age of the article, the Source Data and figure cannot be updated directly. The revised files are available as Supplementary Information accompanying this amendment. This notice serves to correct the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:10.601509+00:00"
+  },
+  "10.1038/s41467-026-78674-8": {
+    "text": "In the version of this article initially published, in the text directly above Eq. (1), there was a typographical error where the “similar to” symbol was missing from the text now reading “Equating these two energy scales ( E kin ∼ E surf ).” The change has been made in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:11.968369+00:00"
+  },
+  "10.1038/s41467-026-79112-5": {
+    "text": "In the original version of this article, the right panel of Fig. 1c, showing recurrence-free survival according to LIF expression, was incorrectly labeled “LIFR Score.” The correct label is “LIF Score.” Figure 1c presents Kaplan–Meier analyses based on tumor LIF expression, whereas the corresponding survival analyses based on LIFR expression are shown separately in Fig. 1e. This labeling error does not affect the underlying data, statistical analyses, results, or conclusions of the article. Due to the age of the article, the figure cannot be updated directly. The revised figure is available as Supplementary Information accompanying this amendment. This notice serves to correct the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:12.824903+00:00"
+  },
+  "10.1038/s41467-026-78874-2": {
+    "text": "Author notes These authors contributed equally: Bang Zheng, Amanj Kurdi, Alain Amstutz. Authors and Affiliations Department of Epidemiology & Biostatistics, School of Public Health, Peking University, Beijing, China Bang Zheng Key Laboratory of Epidemiology of Major Diseases (Peking University), Ministry of Education, Beijing, China Bang Zheng Department of Non-communicable Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, UK Bang Zheng, Emily Herrett, Qing Wen, Viyaasan Mahalingasivam & Laurie Tomlinson Peking University Center for Public Health and Epidemic Preparedness & Response, Beijing, China Bang Zheng Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, Glasgow, UK Amanj Kurdi Public Health Scotland, Edinburgh, UK Amanj Kurdi College of Pharmacy, Hawler Medical University, Erbil, Iraq Amanj Kurdi Al-Kitab University, Kirkuk, Iraq Amanj Kurdi Department of Public Health Pharmacy and Management, School of Pharmacy, Sefako Makgatho Health Sciences University, Pretoria, South Africa Amanj Kurdi Electronic Health Records Group, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK Alain Amstutz Oslo Center for Biostatistics and Epidemiology, Oslo University Hospital, Oslo, Norway Alain Amstutz Division Clinical Epidemiology, Department of Clinical Research, University Hospital Basel and University of Basel, Basel, Switzerland Alain Amstutz Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, UK Amelia Green, Rebecca Smith, Brian MacKenna, Amir Mehrkar, Seb Bacon, Ben Goldacre & Aziz Sheikh Department of Medical Statistics, London School of Hygiene and Tropical Medicine, London, UK John Tazare Centre for Public Health, School of Medicine, Dentistry and Biomedical Sciences, Queen’s University Belfast, Belfast, UK Qing Wen Department of Mathematics and Statistics, University of Strathclyde, Glasgow, UK Chris Robertson Usher Institute, University of Edinburgh, Edinburgh, UK Aziz Sheikh Authors Bang Zheng View author publications Search author on: PubMed Google Scholar Amanj Kurdi View author publications Search author on: PubMed Google Scholar Alain Amstutz View author publications Search author on: PubMed Google Scholar Amelia Green View author publications Search author on: PubMed Google Scholar Emily Herrett View author publications Search author on: PubMed Google Scholar John Tazare View author publications Search author on: PubMed Google Scholar Qing Wen View author publications Search author on: PubMed Google Scholar Viyaasan Mahalingasivam View author publications Search author on: PubMed Google Scholar Rebecca Smith View author publications Search author on: PubMed Google Scholar Brian MacKenna View author publications Search author on: PubMed Google Scholar Amir Mehrkar View author publications Search author on: PubMed Google Scholar Seb Bacon View author publications Search author on: PubMed Google Scholar Ben Goldacre View author publications Search author on: PubMed Google Scholar Chris Robertson View author publications Search author on: PubMed Google Scholar Aziz Sheikh View author publications Search author on: PubMed Google Scholar Laurie Tomlinson View author publications Search author on: PubMed Google Scholar Consortia On behalf of The OpenSAFELY Collaborative Bang Zheng , Amelia Green , Emily Herrett , John Tazare , Viyaasan Mahalingasivam , Rebecca Smith , Brian MacKenna , Amir Mehrkar , Seb Bacon , Ben Goldacre & Laurie Tomlinson Corresponding authors Correspondence to Aziz Sheikh or Laurie Tomlinson .",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-06T01:49:17.040512+00:00"
+  },
+  "10.1038/s43247-026-04156-w": {
+    "text": "Northeast China lies on a mid-latitude boundary where small warming can shift snowfall to rain and shorten the snow season, but climate models often simulate snow fields with large regional biases. Here we show that satellite-constrained, 1-km machine-learning emulators project snow-cover duration without directly using modeled snow variables. They relate observed daily snow cover during 2001–2020 to temperature, precipitation, snowfall fraction and terrain, and are driven by bias-corrected climate projections. Snow seasons shorten almost everywhere, with more than 98% of land grid cells agreeing on the sign of change. By 2081–2100, domain-mean snow-cover duration decreases by 42, 64, and 85 days under low-, intermediate- and high-emission pathways, respectively, and areas with fewer than 50 snow days expand from 19% to 99% under high emissions. Snow-season shortening is dominated by loss of late-winter and spring snow persistence, especially at low–middle elevations and along the present rain–snow transition zone.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04156-w",
+    "checked_at": "2026-11-06T01:49:18.267407+00:00"
+  },
+  "10.1038/s43247-026-04171-x": {
+    "text": "The discovery of olivine cumulate at the Séítah Formation within Jezero Crater was one of the most unexpected findings of the Mars2020 Perseverance rover mission thus far. We use rover geochemistry data to calculate the viscosity and relative flow distance of the Séítah unit and its parental lava. Compared to Earth, Mars has lower gravity, current atmosphere and crustal volatile content. These factors imply commensurate changes in lava flow dynamics that need to be better understood. We suggest the Séítah olivine cumulate discovered by the rover was related to a ponded lava flow, based on the low viscosity and distribution of the unit. We estimate an approximate relative depth for the cumulate layer of the lava pond using a convective lava magma model. We also compare the Noachian Jezero olivine rich viscosities to Hesperian basalts analysed by Spirit, and find the Noachian samples to have a greater propensity to flow than their younger cousins. Future observations of the olivine rich unit and laboratory studies of the samples collected by Mars2020 will provide a key window into the flow dynamics and evolution of Martian lava flows.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04171-x",
+    "checked_at": "2026-11-06T01:49:18.719520+00:00"
+  },
+  "10.1038/s43247-026-04099-2": {
+    "text": "Earthquakes can alter fluid flow far from a rupture, but the processes that sustain such changes for months remain uncertain. Here we report a sustained increase in gas-phase helium concentration at a thermal spring on the Red River Fault, about 600 kilometres from the 2025 magnitude 7.7 Myanmar earthquake. Minute-scale monitoring recorded intermittent fluctuations before the earthquake and a progressive concentration increase afterwards. Groundwater level, rainfall, atmospheric pressure and conservative estimates of instrumental drift do not reproduce this evolution. He–Ne isotope measurements from a nearby spring indicate that the added helium was predominantly radiogenic and crustal, with no resolvable increase in mantle contribution. Regional seismicity and stress calculations are consistent with time-dependent postseismic Coulomb stress loading of the Red River Fault, involving positive shear and extensional normal-stress changes. In the model, time-dependent lower-crustal relaxation produces postseismic stress changes comparable to the coseismic change within about a decade. Together, these observations suggest that prolonged crustal deformation, potentially reinforced by local earthquakes, contributed to the sustained far-field helium-concentration anomaly.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04099-2",
+    "checked_at": "2026-11-06T01:49:19.423913+00:00"
   }
 }
