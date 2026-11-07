@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
   "number": 30,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Thanking Someone and Saying Goodbye Naturally",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 16103,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-07T09:31:16.646148+08:00"
 }
