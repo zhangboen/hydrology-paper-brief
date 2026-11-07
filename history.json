@@ -346,5 +346,17 @@
     ],
     "scene": "Explaining a Small Issue with a Phone Battery at a Repair Shop",
     "reading": "The Unexpected Phone Fix"
+  },
+  {
+    "date": "2026-11-07",
+    "concept_key": "natural_thank_you_goodbye",
+    "concept_name": "Natural Ways to Thank and Say Goodbye",
+    "terms": [
+      "Take care",
+      "I appreciate it",
+      "See you soon"
+    ],
+    "scene": "Thanking a Colleague After a Helpful Meeting",
+    "reading": "A Thank-You Note to a Helpful Neighbor"
   }
 ]
