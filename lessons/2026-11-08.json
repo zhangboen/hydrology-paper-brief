@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-08",
+  "number": 31,
+  "status": "prepared",
+  "lesson": {
+    "title": "Using 'So' to Summarize and Emphasize in Conversation",
+    "concept": {
+      "key": "using_so_for_summary",
+      "name_en": "Using 'So' for Summary and Emphasis",
+      "name_zh": "使用“So”进行总结和强调",
+      "explanation_zh": "在日常英语对话中，'so'可以用来总结前面说过的话，或者强调某个重要的结论。这使得对话更加连贯，也帮助听者更好地理解说话者的意图。举例：\n1. I’ve finished all my reports, so I’m ready for the meeting.\n2. She didn’t like the movie, so we left early.\n3. The project is delayed, so we need to work overtime.\n常见错误是把so用在不合适的地方，比如在两个独立句之间直接用so而不加逗号或连接词，正确的用法是用逗号或分号连接。比如错误：I’m tired so I’m going home. 正确：I’m tired, so I’m going home。",
+      "examples": [
+        "I’ve checked the schedule, so we can start on time.",
+        "He’s new here, so let’s introduce ourselves.",
+        "The weather is nice today, so we could have lunch outside."
+      ],
+      "common_mistake_zh": "有人会直接用so连接两个完整句子而不加逗号，导致语法错误。例如：I’m busy so I can’t come. 正确用法是：I’m busy, so I can’t come。"
+    },
+    "vocabulary": [
+      {
+        "term": "get settled",
+        "ipa_us": "/ɡɛt ˈsɛtlɪd/",
+        "pronunciation_tip_zh": "‘get’ 中 ‘t’ 清晰发音，‘settled’ 重音在第一个音节，‘tle’ 要轻轻发出 /tl/。",
+        "meaning_zh": "安顿下来，适应新环境",
+        "explain_in_english": "I say 'get settled' when someone becomes comfortable in a new place or situation.",
+        "usage_note_zh": "常用于新环境或新工作，口语和书面语都合适。",
+        "examples": [
+          "How are you getting settled in your new apartment?",
+          "It takes time to get settled at a new job."
+        ]
+      },
+      {
+        "term": "reach out",
+        "ipa_us": "/riʧ aʊt/",
+        "pronunciation_tip_zh": "‘reach’ 中 ‘ch’ 发清辅音 /ʧ/，‘out’ 是双元音 /aʊ/。",
+        "meaning_zh": "联系，主动寻求帮助或交流",
+        "explain_in_english": "I use 'reach out' when I want to contact or offer help to someone.",
+        "usage_note_zh": "用于正式或非正式场合，表达主动联系的意思。",
+        "examples": [
+          "Feel free to reach out if you need anything.",
+          "I’ll reach out to the new team member tomorrow."
+        ]
+      },
+      {
+        "term": "get the hang of",
+        "ipa_us": "/ɡɛt ðə hæŋ ʌv/",
+        "pronunciation_tip_zh": "‘get’ 中 ‘t’ 清晰发音，‘the’ 中 ‘th’ 是浊音 /ð/，‘hang’ 中 ‘ng’ 是鼻音 /ŋ/。",
+        "meaning_zh": "掌握（技能或方法）",
+        "explain_in_english": "I use 'get the hang of' when I learn how to do something well.",
+        "usage_note_zh": "多用于学习新技能或适应新情况，口语中很常见。",
+        "examples": [
+          "It took me a while to get the hang of the new software.",
+          "You’ll get the hang of the process soon enough."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Introducing Yourself to a New Colleague at the Office",
+      "context_zh": "在办公室遇到一位新同事，进行自我介绍和简短聊天。",
+      "script_en": "Linda: Hi, I don’t think we’ve met before. I’m Linda from marketing.\nJohn: Nice to meet you, Linda. I’m John, I just started in the IT department.\nLinda: Welcome to the company, John! How are you getting settled so far?\nJohn: Thanks! It’s going well. Everyone is very welcoming, so I’m getting the hang of things quickly.\nLinda: That’s great! If you ever want to reach out for help or someone to show you around, just let me know.\nJohn: I appreciate that. I might take you up on that sometime.\nLinda: So, what attracted you to this company?\nJohn: I wanted to join a team that values collaboration. So far, it feels like the right place.\nLinda: We also have a team lunch every Friday to help new people break the ice.\nJohn: That sounds nice! I’ll definitely join next week.\nLinda: Perfect! It’s a good way to get to know everyone. Well, I have to get back to work, but let’s catch up later.\nJohn: Sure, thanks for the warm welcome!",
+      "translation_zh": "琳达：你好，我想我们还没见过面。我是市场部的琳达。\n约翰：很高兴认识你，琳达。我是约翰，刚刚加入IT部门。\n琳达：欢迎来到公司，约翰！到目前为止你适应得怎么样？\n约翰：谢谢！挺好的。大家都很热情，所以我很快掌握了工作内容。\n琳达：太好了！如果你需要帮助或者有人带你转转，随时告诉我。\n约翰：谢谢你的好意。以后我可能会请教你。\n琳达：那么，是什么吸引你来这家公司的？\n约翰：我想加入一个重视合作的团队。到目前为止，这里感觉很合适。\n琳达：我们每周五都会有团队午餐，帮助新人打破僵局。\n约翰：听起来不错！下周我一定参加。\n琳达：太好了！这是认识大家的好机会。好了，我得回去工作了，改天聊。\n约翰：好的，谢谢你的热情欢迎！",
+      "practice_tip_zh": "练习用 'so' 总结或强调你的观点，让对话更自然流畅。尝试用新词表达适应新环境的过程。"
+    },
+    "reading": {
+      "title": "The Surprising Benefits of Small Talk at Work",
+      "genre": "popular-science vignette",
+      "text_en": "Many people think small talk at work is just meaningless chatter, but science says otherwise. Small talk helps build trust and friendly relationships, which are essential for a good work environment. When you meet a new colleague, a few minutes of light conversation can reduce tension and create a comfortable atmosphere. This connection makes it easier to work together later.\n\nResearchers have found that small talk activates social bonding in the brain. Even simple topics like the weather or weekend plans can release hormones that improve mood and cooperation. This means teams that engage in small talk often communicate better and solve problems more effectively.\n\nSmall talk is also a skill anyone can learn. Asking open questions such as 'How are you finding the office?' or 'What do you enjoy doing outside of work?' encourages others to share more. Showing genuine interest and following up with related questions helps conversations flow naturally instead of feeling forced.\n\nIn addition, small talk can help newcomers get settled more quickly. By sharing a little about yourself and listening carefully, you build trust and make others feel valued. This process helps reduce anxiety and increases confidence in new social or work environments.\n\nIn summary, small talk is more than just polite conversation. It plays a key role in easing new situations, building teamwork, and creating a positive workplace. Next time you meet someone new at work, remember that a little small talk can make a big difference in your relationships and success.",
+      "summary_zh": "很多人认为职场闲聊没意义，但科学证明它有助于建立信任和友好关系，改善工作环境。闲聊激活大脑社交机制，释放让人更开心和合作的激素。闲聊是一项可以学习的技能，开放式提问和真诚的关注让对话更自然。闲聊还能帮助新人更快适应环境，减少焦虑，增强自信。总的来说，闲聊对缓解新环境、团队合作和职场氛围非常重要。",
+      "questions": [
+        {
+          "question": "What does small talk help build at work?",
+          "answer": "It helps build trust and friendly relationships."
+        },
+        {
+          "question": "How can you make small talk feel natural?",
+          "answer": "By asking open questions and showing genuine interest with follow-up questions."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 12386,
+    "completion_tokens": 5439,
+    "total_tokens": 17825,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
