@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "number": 31,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Using 'So' to Summarize and Emphasize in Conversation",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 17825,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-08T09:00:54.803491+08:00"
 }
