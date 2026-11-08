@@ -4513,5 +4513,131 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s44221-026-00749-z",
     "checked_at": "2026-11-07T01:11:46.881831+00:00"
+  },
+  "10.1038/s41467-026-79045-z": {
+    "text": "Atrial fibrillation poses significant challenges because the complex geometry of the left atrial appendage complicates personalized interventions for stroke prevention. Current reliance on animals and cadavers raises reproducibility concerns, necessitating the development of high fidelity, physiologically relevant tools. To address this, we develop a multimodal framework including a soft robotic benchtop simulator and a lumped parameter computational model to replicate left atrial function. The system integrates patient-specific geometries with soft robotic actuators to reproduce realistic wall motion and hemodynamics. Complementary lumped parameter model provides mechanistic insights, quantifying systemic hemodynamic changes during disease and interventions. The models effectively replicate the clinical markers of atrial dysfunction and arrhythmia disorders, and their accuracy is demonstrated through validation against human imaging and porcine models. We show that this scalable, versatile experimental and computational framework advances cardiovascular biomechanics, enabling device development, clinical research and training, and personalized atrial fibrillation treatment to improve patient outcomes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79045-z",
+    "checked_at": "2026-11-08T00:53:49.294785+00:00"
+  },
+  "10.1038/s41467-026-79097-1": {
+    "text": "Insecticide resistance poses a growing threat to global human health and food security. Addressing this challenge requires a comprehensive understanding of the molecular determinants that govern insecticide action and insect sensitivity. However, identifying and functionally validating the specific genes - among the tens of thousands present in a typical insect genome - that contribute to insecticide mode of action and resistance remains a major challenge. Here, we present a genome-wide CRISPR knockout screening system in a cell line derived from Spodoptera frugiperda , a highly damaging insect pest, and demonstrate its utility for dissecting the molecular basis of insecticide activity and resistance. We construct a library of 90,759 single guide RNAs (sgRNAs) targeting 14,434 genes and conduct a three-round screen under successively increasing concentrations of the insecticide pyridalyl. This enriches for the cytochrome P450 gene CYP333B4 . Subsequent P450 inhibitor assays, gene knockout in S. frugiperda , and ectopic expression in Drosophila melanogaster confirm that members of the CYP333B subfamily are key mediators of pyridalyl activation and serve as potential resistance targets. Collectively, our findings establish a versatile and scalable platform for genome-wide interrogation of insecticide mode of action and resistance, while uncovering the long-elusive determinants of pyridalyl activity and sensitivity in insects.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79097-1",
+    "checked_at": "2026-11-08T00:53:49.853565+00:00"
+  },
+  "10.1038/s41467-026-78009-7": {
+    "text": "Earth’s deep ocean shapes global heat transport, carbon cycling and abyssal circulation, yet large regions remain undersampled. While conventional instruments provide precise single point measurements, their rigidity and weight limit deployment on emerging platforms that could extend observational reach. Here, we introduce the fully integrated, flexible temperature–depth sensor deployable on curved and mobile surfaces for deep-sea measurements. The compact, lightweight, stress-adaptive low-power electronics (average quiescent current: 24.63 µA) unit operates as a co-designed cyber–physical platform, where the porous laser-induced graphene–polydimethylsiloxane composite sensing element achieves a broad measurement range over 0–10 MPa hydrostatic pressure, while temperature–pressure compensation through a dual-hidden-layer neural network combined with polynomial fitting yields a depth error of ≤±0.91% full scale and temperature accuracy of ≤±0.29 °C. Deep-sea trials to 4812.2 m show structural integrity under ~50 MPa hydrostatic pressure, demonstrating durability in extreme environments and enabling sensing on platforms inaccessible to conventional instruments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78009-7",
+    "checked_at": "2026-11-08T00:53:50.332875+00:00"
+  },
+  "10.1038/s41467-026-79104-5": {
+    "text": "Retrospective reconstruction of cell lineages from somatic mutations holds substantial promise for understanding development, tissue homeostasis, and disease. Yet, current approaches are often constrained by low marker density, technical noise, and incomplete molecular readouts that limit the resolution and accuracy of inferred lineages. Here, we present RETrace2, a single-cell dual-omic method for simultaneous lineage tracing and cell-type identification. By identifying and targeting highly mutable homopolymers, which we show are approximately twice as informative as conventional microsatellite repeats, combined with technical improvements to increase marker coverage and reduce experimental errors of reading and amplifying homopolymers, RETrace2 can trace lineage continuously at an estimated resolution of fewer than five cell divisions in microsatellite-unstable organisms. Simultaneously, sparse methylation profiles are obtained from the same cells for cell-type identification. We validate the method using in vitro ground-truth models and demonstrate its utility in vivo by reconstructing multi-organ lineage trees from the brain, kidney and liver of Msh2 -deficient mice.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79104-5",
+    "checked_at": "2026-11-08T00:53:50.767155+00:00"
+  },
+  "10.1038/s41467-026-79118-z": {
+    "text": "Targeting the lateral habenula (LHb), a key brain region regulating alcohol consumption, presents a promising framework for reducing drinking. LHb neurons exhibit high sensitivity and responsiveness to the intravenous anesthetic propofol. However, whether and how propofol-activated habenular neurons regulate alcohol drinking remains unknown. Here, we show that a single dose of propofol rapidly and persistently reduces alcohol consumption in mice for approximately six days. This effect is mediated by sustained hyperactivity of the habenular ensemble activated by propofol. Furthermore, this ensemble is enriched in 5-HT2C receptors, and we identify the V209 site as the specific binding site through which propofol induces ensemble activation. Disrupting this binding abolishes both the propofol-induced activation of the habenular ensemble and the subsequent reduction in alcohol drinking. Our findings pinpoint a locus of 5-HT2C receptor action within the LHb through which propofol suppresses alcohol consumption, offering a mechanistic framework for understanding alcohol drinking behavior.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79118-z",
+    "checked_at": "2026-11-08T00:53:51.234193+00:00"
+  },
+  "10.1038/s41467-026-79325-8": {
+    "text": "Transposable elements (TEs) generate genomic variation, yet how TE polymorphisms reshape the epigenetic landscape and contribute to phenotypic diversification during domestication remains unclear. Here, we show that TE-associated genetic variants drive heritable epigenetic changes underlying key domestication traits in foxtail millet ( Setaria italica ), one of the oldest cereal crops domesticated in China. By analyzing DNA methylomes from 60 wild and domesticated accessions, we identify 76,815 differentially methylated regions associated with extensive polymorphic TE insertions. Epigenomic variation enables the identification of a TE inventory associated with seed shattering, branching, and growth habits. Functional analyses reveal that two DNA/ PIF-Harbinger element insertions in the 5′ UTR of the pleiotropic gene SiGW3 modulate its expression and affect plant architecture, panicle morphology, and grain size. Our findings demonstrate that naturally occurring TE polymorphisms generate heritable epigenetic variation and contribute to phenotypic evolution during crop domestication, with implications for crop improvement.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79325-8",
+    "checked_at": "2026-11-08T00:53:51.709420+00:00"
+  },
+  "10.1038/s41467-026-78713-4": {
+    "text": "Polyethylene terephthalate (PET) is the second largest source of plastic wastes. An ideal solution is to chemically convert PET back into its monomers. Although many strategies have been reported, their extension towards PET-containing waste textiles is economically prohibitive. This is because chemical depolymerization can degrade multiple components in mixed textiles, yielding complex mixtures that are cost-prohibitive to separate and purify. Here, we report highly efficient processes that overcome this bottleneck. We find that, for thermally treated mixed textiles, the depolymerization of PET via methanolysis can be achieved in a rapid yet highly selective manner under mild conditions. This greatly simplifies the chemical recycling process, yielding high-purity DMT monomer ( ≥ 99.92%) at a yield of 91%. Techno-economic analysis shows that our strategy is economically competitive, suggesting a feasible closed-loop option for this indispensable commodity polymer.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78713-4",
+    "checked_at": "2026-11-08T00:53:52.193280+00:00"
+  },
+  "10.1038/s41467-026-79393-w": {
+    "text": "All-solid-state lithium metal batteries offer the promise of higher energy density and improved safety compared with conventional lithium-ion batteries; however, their practical operation at room temperature and low stack pressures ( ~ 0.1 MPa) remains challenging due to lithium dendrite formation and stress-induced interfacial degradation. Herein, we demonstrate near-ambient operation ( ≤ 0.3 MPa, room temperature) of all-solid-state lithium metal batteries through a combined electrolyte–current collector design. A self-polymerizable thioctic acid-modified composite solid electrolyte suppresses internal lithium metal creep with high stress tolerance, while a porous carbon matrix current collector provides localized stress relaxation and accommodates lithium deposition within internal voids. As a result, stable long-term cycling is achieved under near-ambient conditions even at a high areal loading of 2.4 mAh cm −2 using a LiNi 0.8 Co 0.1 Mn 0.1 O 2 positive electrode operated at 0.1 C. These findings highlight the importance of controlling lithium deformation and stress relaxation for the development of practical all-solid-state lithium metal batteries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79393-w",
+    "checked_at": "2026-11-08T00:53:52.763090+00:00"
+  },
+  "10.1038/s41467-026-79149-6": {
+    "text": "The precise layer-number control in graphene provides valuable opportunities to explore the physics from the two-dimensional limit to the bulk crystalline regime. As the thickness increases, a fundamental question is how this increased dimensionality influences the integer and fractional quantum Hall states. Here, we perform magnetotransport measurements on high-quality Bernal tetralayer graphene and uncover a variety of fractional quantum Hall states at filling factors with both odd-denominator and even ones ( ν − 1/2 = 3, 5, 7, 8, 10), which may be non-Abelian states. Moreover, the fractional quantum Hall states exhibit a sawtooth pattern when an out-of-plane displacement field D is tuned. Theoretical calculations reveal that these patterns arise from oscillatory Landau charge squeezing effect caused by subtle competitions between Landau levels with vastly disparate spatial distributions. Our results establish Bernal tetralayer graphene as a promising platform, where the layer degree of freedom provides distinctive tunability to explore rich correlated phenomena.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79149-6",
+    "checked_at": "2026-11-08T00:53:53.155180+00:00"
+  },
+  "10.1038/s41467-026-79065-9": {
+    "text": "Neutrophil phagocytosis is crucial for combating infections, yet the actin-mediated regulation of vesicular trafficking during late phagosomal maturation remains obscure. Using neutrophils lacking the actin nucleation regulator Wiskott-Aldrich Syndrome Protein and Scar Homolog (WASH), we identify a mechanism linking actin remodeling, lysosomal fusion, and bacterial killing. Although WASH is dispensable for particle internalization, WASH deficiency impairs lysosome-phagosome fusion and intracellular bacterial killing. Lysosomes from WASH-deficient neutrophils show decreased association with actin comets and impaired dynamics. Rac1 activation rescues lysosomal trafficking but not phagosomal maturation. Mass spectrometry of phagolysosomes and TR-FRET identify atypical syntaxin 19 (STX19) as a WASH binding partner, and WASH recruits STX19 to phagosomes. Reconstituting WASH in primary neutrophils rescues phagocytosis, STX19 interference impairs phagosomal maturation, while STX19 overexpression enhances it. WASH is thus a central mediator of phagosomal maturation through STX19-mediated membrane fusion and actin-driven lysosomal dynamics, revealing how dysregulated trafficking contributes to immunodeficiency.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79065-9",
+    "checked_at": "2026-11-08T00:53:53.766616+00:00"
+  },
+  "10.1038/s41467-026-79309-8": {
+    "text": "Therapeutic strategies to inhibit the Wnt signaling pathway for cancer treatment have, so far, failed to advance to the clinic. Induced-proximity drugs are revolutionizing our ability to tackle targets previously considered undruggable. Here, we use an unbiased genome-scale approach to identify induced-proximity protein candidates that inhibit the central Wnt signaling effector β-catenin in colorectal cancer cells. While the identification of several E3 ubiquitin ligases validates our approach, we uncover that inducing proximity to members of the Casein kinase I (CSNK1) family leads to β-catenin degradation and inhibits the growth of colorectal cancer cells harboring Wnt pathway mutations. We show that β-catenin degradation induced by CSNK1 proximity is kinase activity- and proteasome-dependent. We propose that the formation of a neo-degron, through kinase recruitment, can expand induced-proximity drug targeting strategies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79309-8",
+    "checked_at": "2026-11-08T00:53:54.119309+00:00"
+  },
+  "10.1038/s41467-026-79006-6": {
+    "text": "Stimuli such as pH, light, and electromagnetic fields have enabled precise control over nanoscale interactions, yet gases remain relatively unexplored as regulators of material behavior despite their central roles in biology, energy, and climate. Here, we introduce carbon dioxide (CO 2 ) as a dynamic and reversible stimulus for controlling nanoscale and macroscale matter using sequence-specific peptide design. Peptide-functionalized nanoparticles exhibit pronounced and tunable responses to CO 2 across orders of magnitude changes in gas flow rate, with sensitivity governed by site- and sequence-specific changes in peptide structure. The aggregation sequence-dependence is described by six design principles while quantitative modeling show that aggregation rate scales with flow rate rather than cumulative CO 2 dose. This gas-controlled response translates from colloidal nanoparticles to cm-scale biocompatible hydrogels that reversibly and colorimetrically respond to CO 2 . Leveraging this responsiveness, we further demonstrate spatial patterning of a hydrogel through a gas-permeable mask using CO 2 as a lithographic stimulus. Consequently, this work establishes gas-mediated control as a general and scalable strategy for programming responsive materials across length scales.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79006-6",
+    "checked_at": "2026-11-08T00:53:54.556487+00:00"
+  },
+  "10.1038/s41467-026-79405-9": {
+    "text": "In the version of this article initially published, there were typographical errors in the ninth paragraph of the Results, where in the text now reading “There are three possible dissociation pathways that can contribute to this channel, including \\(\\,{{C}_{1}}^{+}+\\,{{C}_{2}}^{+}+\\,{{C}_{3}}^{+}\\) , \\({{C}_{1}}^{+}+\\,{{C}_{2}}^{+}+\\,{{C}_{4}}^{+}\\) and \\({{C}_{1}}^{+}+\\,{{C}_{3}}^{+}+\\,{{C}_{5}}^{+}\\) ,” \\({{C}_{3}}^{+}\\) appeared originally as “ \\({{C}_{2}}^{+}\\) ” and where in the text now reading “The KER spectra of other pathways including \\({{C}_{1}}^{+}+\\,{{C}_{2}}^{+}+\\,{{C}_{4}}^{+}\\) and \\({{C}_{1}}^{+}+\\,{{C}_{3}}^{+}+\\,{{C}_{5}}^{+}\\) ,” \\({{C}_{3}}^{+}\\) appeared originally as “ \\({{C}_{2}}^{+}\\) .” The errors have been corrected in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-08T00:53:55.597848+00:00"
+  },
+  "10.1038/s41467-026-79623-1": {
+    "text": "In the originally published version of this article, errors introduced during preparation of the Source Data file affected that file and the legend to Fig. 1. The experiments shown in Fig. 1e, f and h were performed with two independent biological replicates per condition, and the mean values were correctly used for plotting. However, the corresponding Source Data worksheets incorrectly presented three entries per condition: the two measured values and their calculated mean. The calculated means have now been removed. The legend to Fig. 1, which originally stated n = 3 for panels e–h, has been corrected to specify n = 2 for panels e, f and h and n = 3 for panel g.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-08T00:53:56.240871+00:00"
+  },
+  "10.1038/s41467-026-79464-y": {
+    "text": "In the version of the article initially published, the surname of Maria Sekutowicz appeared incorrectly (as Sekutowitcz) and has now been corrected in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-08T00:53:57.163230+00:00"
+  },
+  "10.1038/s43247-026-04192-6": {
+    "text": "Urban air quality assessments typically focus on populations within municipal boundaries, despite atmospheric transport allowing pollution to affect large populations well beyond city limits. Here we develop a data-driven, reduced-complexity airshed framework to delineate the spatial domain relevant to fine particulate matter (particles no larger than 2.5 micrometers in diameter) exposure for 53 global megacities. The airshed definition combines satellite-derived pollution estimates, meteorological data, and geographic information. We find that megacity airsheds frequently extend beyond municipal boundaries and have a median area five times that of the corresponding municipal regions. Across the 53 megacities, approximately 44% of the exposed population resides outside municipal boundaries, corresponding to roughly 400 million people. Our results reveal a potential mismatch between administrative definitions and the extended population exposure footprint. By accounting for transboundary exposure, the airshed framework may improve the spatial interpretation of urban air pollution exposure and highlight the need for cross-jurisdictional pollution management.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04192-6",
+    "checked_at": "2026-11-08T00:53:58.023756+00:00"
+  },
+  "10.1038/s43247-026-04204-5": {
+    "text": "The relative influence of tectonics and climate on the long-term evolution of Himalayan river systems remains debated. We investigated the Sutlej River, a major snow-fed tributary of the Indus River at its exit from the Himalayan Front. Using an integrated dataset of geomorphic mapping, subsurface stratigraphy, and Optically Stimulated Luminescence geochronology, we identify a previously misidentified uplifted surface (the Ropar Surface), abandoned paleovalleys and fluvial terraces. Our results show that the Sutlej River on long-timescales occupied multiple flow strands, including a west and a south-flowing strand. This drainage configuration was forced by tectonic uplift along a transverse structural zone linking segments of the Main Frontal Thrust. Notably, this drainage reorganization occurred through river bifurcation and avulsion between >60 and 15 ka—significantly predating the mid-Holocene collapse of the Harappan Civilization. These findings indicate that abandonment of the paleo-Sutlej was a prolonged tectonically controlled process rather than a short-lived climate-driven event, thereby querying existing models of Himalayan river network reorganization in the mountain to foreland transition zone that emphasised climate driven processes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04204-5",
+    "checked_at": "2026-11-08T00:53:58.449115+00:00"
+  },
+  "10.1038/s43247-026-04201-8": {
+    "text": "The filling of the Grand Ethiopian Renaissance Dam remains highly contentious despite reaching 95% of storage capacity by the end of hydrological year 2024–2025, without major downstream impacts. This study assesses the first filling (2020–2024) by comparing the planned and actual filling trajectories. In the absence of data exchange, river inflows were estimated using a hydrological model, reservoir filling was reconstructed from satellite observations, and impacts were evaluated using a River Basin Simulation model. Actual (total) hydropower generation (2020–2024) is 3,000 GWh, compared with 12,000 GWh under the planned scenario, mainly due to delayed turbine commissioning. Exceptionally wet years and mitigation measures, largely avoided downstream impacts. Hydropower generation at Roseires slightly increased, Merowe remained largely unchanged, and floodplain agriculture in Sudan declined by 4 to 50%. High inflows and mitigation measures maintained high levels at High Aswan Dam, and comparable hydropower generation. The integrated modelling framework demonstrates how transboundary reservoir operation can be reconstructed and evaluated using independent public-domain data where formal data exchange is lacking.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04201-8",
+    "checked_at": "2026-11-08T00:53:58.838819+00:00"
   }
 }
