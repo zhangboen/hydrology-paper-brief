@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-09",
+  "number": 32,
+  "status": "prepared",
+  "lesson": {
+    "title": "Ordering Coffee and Making Small Changes with Politeness",
+    "concept": {
+      "key": "polite_modifications",
+      "name_en": "Polite Modifications in Requests",
+      "name_zh": "请求中的礼貌修改",
+      "explanation_zh": "在日常对话中，当你想对对方的服务或商品做小的调整时，使用礼貌的表达可以让请求听起来更友好、更容易被接受。比如说在咖啡店点单时，想更改饮料的某个细节。常用的表达有“Could I possibly…?”, “Would it be okay if…?”, 这些表达比直接说“Change it”更礼貌。",
+      "examples": [
+        "Could I possibly have my coffee with almond milk instead of regular milk?",
+        "Would it be okay if I add an extra shot of espresso?",
+        "I was wondering if you could make my latte a little less sweet."
+      ],
+      "common_mistake_zh": "错误用法是直接命令式说“Change it to soy milk”，这听起来不礼貌。正确说法是“Could I change it to soy milk, please?”。"
+    },
+    "vocabulary": [
+      {
+        "term": "modification",
+        "ipa_us": "/ˌmɑːdəfəˈkeɪʃən/",
+        "pronunciation_tip_zh": "重音在第三个音节 'keɪ'，注意连读 'mə-də-fi-ˈkeɪ-ʃən'",
+        "meaning_zh": "修改，调整",
+        "explain_in_english": "A change or adjustment made to something.",
+        "usage_note_zh": "常用于正式和日常场合，特别是在谈论对计划、订单或规则的调整时。",
+        "examples": [
+          "The café accepted my modification to the order.",
+          "She requested a modification in the contract terms."
+        ]
+      },
+      {
+        "term": "possibly",
+        "ipa_us": "/ˈpɑːsəbli/",
+        "pronunciation_tip_zh": "重音在第一个音节 'pɑː'，注意 's' 发浊音，连读时 'pos-sib-ly'",
+        "meaning_zh": "可能地，礼貌地表达请求时用",
+        "explain_in_english": "Used to politely ask if something can be done or is possible.",
+        "usage_note_zh": "常用在请求或询问中，使语气更客气。",
+        "examples": [
+          "Could you possibly help me with this?",
+          "Is it possibly to get a refund?"
+        ]
+      },
+      {
+        "term": "would it be okay if",
+        "ipa_us": "/wʊd ɪt bi oʊˈkeɪ ɪf/",
+        "pronunciation_tip_zh": "连读 'would it be' 听起来像 'wud-id-bi'，注意 'okay' 的重音在第二个音节",
+        "meaning_zh": "用于礼貌地提出请求",
+        "explain_in_english": "A polite way to ask for permission to do something.",
+        "usage_note_zh": "在正式和非正式场合都适用，表达尊重和礼貌。",
+        "examples": [
+          "Would it be okay if I changed my order?",
+          "Would it be okay if we start the meeting a bit later?"
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Ordering Coffee and Asking to Change a Drink",
+      "context_zh": "在咖啡店，顾客想要点咖啡并礼貌地请求小的调整。",
+      "script_en": "Barista: Hi! What can I get for you today?\nCustomer: Hi, could I have a medium latte, please?\nBarista: Sure! Would you like it hot or iced?\nCustomer: Hot, please. Actually, would it be okay if I could have almond milk instead of regular milk?\nBarista: Absolutely, no problem. Anything else?\nCustomer: Yes, could you possibly make it a little less sweet?\nBarista: Of course. So, a medium hot latte with almond milk and less sugar. Would you like any flavor syrup with that?\nCustomer: No, thank you. Also, could you please make sure it’s not too hot? I prefer it warm but not boiling.\nBarista: No problem at all. Anything to eat with your drink today?\nCustomer: No, just the latte. How much do I owe you?\nBarista: That will be $4.50.\nCustomer: Here you go. Thanks so much for your help!\nBarista: You're very welcome! Enjoy your latte and have a great day!",
+      "translation_zh": "咖啡师：您好！今天想喝点什么？\n顾客：您好，我想要一杯中杯拿铁，谢谢。\n咖啡师：好的！您想要热的还是冰的？\n顾客：热的，谢谢。其实，您介意我用杏仁奶代替普通牛奶吗？\n咖啡师：当然可以，没问题。还要别的吗？\n顾客：是的，您能帮我少放点糖吗？\n咖啡师：当然。那是一杯中杯热拿铁，杏仁奶，少糖。要加什么口味糖浆吗？\n顾客：不用，谢谢。另外，您能帮我不要弄得太烫吗？我喜欢温热的，但不要烫口。\n咖啡师：没问题。今天要不要配点吃的？\n顾客：不用，就拿铁。多少钱？\n咖啡师：4.5美元。\n顾客：给您。非常感谢您的帮助！\n咖啡师：非常欢迎！祝您享用拿铁，生活愉快！",
+      "practice_tip_zh": "练习时，可以先尝试用‘Would it be okay if...’和‘Could you possibly...’来提出小的请求，感受语气的礼貌变化。录音后听自己说得是否自然。"
+    },
+    "reading": {
+      "title": "A Day of Small Changes at the Coffee Shop",
+      "genre": "travel journal",
+      "text_en": "I always enjoy visiting local coffee shops when I travel. Today, I stopped by a small café in a charming neighborhood where the atmosphere was cozy and inviting. The barista greeted me warmly and asked what I wanted to drink. I ordered my usual medium latte but decided to try something different this time. I politely asked if it would be possible to substitute almond milk instead of regular milk. The barista smiled and said it was no problem at all. I also requested to have it less sweet, explaining that I prefer a lighter taste. It felt good to speak so politely; the barista seemed happy to help. \n\nWhile waiting, I noticed the attention the café paid to small modifications to meet customers’ preferences. They even offered me some recommendations for desserts that paired well with my latte. This attention to detail made me appreciate the place even more. After enjoying my drink, I chatted briefly with the barista about the neighborhood and their favorite coffee beans. Before I left, I said thank you and left a positive review on their website. \n\nThis simple experience reminded me of the importance of polite communication when asking for modifications. Using friendly language and clear requests can make everyday interactions more pleasant and successful. If you travel or live abroad, learning these polite phrases can help you feel more confident and respected. \n\nI plan to visit this café again on my next trip. Small changes and kindness can turn a simple coffee run into a memorable experience. Politeness really opens doors, even in quick daily moments.",
+      "summary_zh": "作者记录了一次在咖啡店点单并礼貌请求修改饮料的小经历，强调了礼貌沟通的重要性和细节对体验的影响。",
+      "questions": [
+        {
+          "question": "What polite phrases did the author use to ask for changes in the coffee order?",
+          "answer": "The author used phrases like 'would it be possible to substitute almond milk' and 'I also requested to have it less sweet.'"
+        },
+        {
+          "question": "How did the barista respond to the author’s polite requests?",
+          "answer": "The barista smiled and said it was no problem, showing willingness to help."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 7505,
+    "completion_tokens": 3216,
+    "total_tokens": 10721,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}
