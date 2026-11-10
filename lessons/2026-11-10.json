@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-10",
+  "number": 33,
+  "status": "prepared",
+  "lesson": {
+    "title": "Expressing Preferences Politely When Checking Into a Hotel",
+    "concept": {
+      "key": "expressing_preferences_politely",
+      "name_en": "Expressing Preferences Politely",
+      "name_zh": "礼貌表达偏好",
+      "explanation_zh": "在酒店办理入住时，表达个人偏好（如房间类型、楼层、是否吸烟等）时，使用礼貌且自然的表达方式非常重要。这可以帮助工作人员更好地满足你的需求，同时保持良好的沟通氛围。常用表达包括“I would prefer...”，“If possible, could I...”，“Is it possible to...”，这些表达既表达了请求也体现了礼貌。",
+      "examples": [
+        "I would prefer a room on a higher floor, please.",
+        "If possible, could I have a non-smoking room?",
+        "Is it possible to get a room with a nice view?"
+      ],
+      "common_mistake_zh": "有些学习者直接用命令句，如“Give me a non-smoking room.”这听起来不礼貌。正确表达应加上礼貌用语，比如“I would like...”或“Could I please...”来请求。"
+    },
+    "vocabulary": [
+      {
+        "term": "prefer",
+        "ipa_us": "/prɪˈfɜr/",
+        "pronunciation_tip_zh": "重音在第二个音节，发音时注意清晰的‘fɜr’音",
+        "meaning_zh": "更喜欢",
+        "explain_in_english": "I say this when I like one thing more than another.",
+        "usage_note_zh": "正式和非正式场合均可使用，表达个人喜好。",
+        "examples": [
+          "I prefer a room with a view.",
+          "She prefers tea over coffee."
+        ]
+      },
+      {
+        "term": "non-smoking room",
+        "ipa_us": "/nɑnˈsmoʊkɪŋ rum/",
+        "pronunciation_tip_zh": "注意‘non’中n和o连读，‘smoking’中的‘smo’重音明显",
+        "meaning_zh": "无烟房",
+        "explain_in_english": "This means a hotel room where smoking is not allowed.",
+        "usage_note_zh": "常用于酒店或公共场所，正式用语。",
+        "examples": [
+          "I'd like a non-smoking room, please.",
+          "Do you have any non-smoking rooms available?"
+        ]
+      },
+      {
+        "term": "if possible",
+        "ipa_us": "/ɪf ˈpɑsəbəl/",
+        "pronunciation_tip_zh": "‘if’和‘possible’连读，重音在‘pos’音节",
+        "meaning_zh": "如果可能的话",
+        "explain_in_english": "I say this to politely ask for something that might or might not happen.",
+        "usage_note_zh": "礼貌表达请求时常用，书面和口语皆适合。",
+        "examples": [
+          "If possible, could I check in early?",
+          "Please call me if possible."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Checking Into a Hotel and Expressing Room Preferences",
+      "context_zh": "在酒店前台办理入住时，客人想礼貌地表达自己对房间的偏好。",
+      "script_en": "Guest: Good afternoon. I have a reservation under the name [Your Name].\nReceptionist: Welcome! Let me check your booking. Yes, you're all set. Would you prefer a smoking or non-smoking room?\nGuest: If possible, could I have a non-smoking room on a higher floor? I usually sleep better when it's quiet.\nReceptionist: Absolutely. Let me see which rooms are available on the upper floors.\nGuest: Thank you. Also, I would prefer a room with a garden view if that's available.\nReceptionist: I found a room on the 7th floor with a nice view of the garden. Does that work for you?\nGuest: That sounds perfect. I really appreciate your help.\nReceptionist: You're very welcome. Here is your key card. If you need anything else, please feel free to ask.\nGuest: Thanks so much. I’m looking forward to my stay here.",
+      "translation_zh": "客人：下午好。我有一个以[您的名字]预订的房间。\n接待员：欢迎！让我查一下您的预订。是的，一切就绪。您想要吸烟房还是无烟房？\n客人：如果可能的话，我想要一间高层的无烟房。我通常在安静的环境下睡得更好。\n接待员：当然。我看看高层有哪些空房。\n客人：谢谢。另外，如果有的话，我更喜欢一个能看到花园景观的房间。\n接待员：我找到了一个7楼的房间，可以看到漂亮的花园。这样可以吗？\n客人：听起来很完美。非常感谢您的帮助。\n接待员：不客气。这是您的房卡。如果您需要其他帮助，请随时告诉我们。\n客人：非常感谢。我很期待这次入住。",
+      "practice_tip_zh": "练习时，尝试用不同的偏好词汇（如房间位置、设施等）替换对话中的内容，保持礼貌表达的结构，能帮助你更自然地表达个人需求。"
+    },
+    "reading": {
+      "title": "A Night at the Cozy Inn",
+      "genre": "personal diary",
+      "text_en": "Last weekend, I stayed at a small hotel called the Cozy Inn during a short trip. When I arrived, the receptionist greeted me warmly and asked if I had any room preferences. I politely requested a non-smoking room on a higher floor because I sleep better without noise or cigarette smoke. The receptionist quickly checked availability and offered me a quiet room overlooking the garden. I was very happy with the choice and thanked her.\nThat evening, I settled into the room and noticed how peaceful it was. The quiet view of the green garden helped me relax after a busy day. The hotel also provided a small welcome gift, which made me feel appreciated. I realized that expressing my preferences clearly and politely made the whole check-in process smooth and pleasant.\nThe next morning, I enjoyed breakfast in the hotel’s dining area. I chatted with other guests and shared my positive experience. One guest even asked how I managed to get such a nice room, and I explained that simply asking politely and being clear about my preferences went a long way.\nThis stay reminded me that good communication, especially when traveling, can make a big difference. Being polite and specific about what you want helps others help you better. I will definitely remember this for my future trips and recommend it to friends who travel often.",
+      "summary_zh": "作者记录了在一家名为Cozy Inn的小酒店入住的经历，强调了礼貌表达个人偏好（如无烟房、高楼层、安静景观）如何让入住过程顺利且愉快。",
+      "questions": [
+        {
+          "question": "What kind of room did the author request at the hotel?",
+          "answer": "The author requested a non-smoking room on a higher floor with a garden view."
+        },
+        {
+          "question": "Why does the author think polite communication is important when traveling?",
+          "answer": "Because being polite and clear about preferences helps make the check-in process smooth and helps staff provide better service."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 7532,
+    "completion_tokens": 2917,
+    "total_tokens": 10449,
+    "reasoning_tokens": 0,
+    "attempts": 2
+  }
+}

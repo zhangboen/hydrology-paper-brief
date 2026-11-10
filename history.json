@@ -382,5 +382,17 @@
     ],
     "scene": "Ordering Coffee and Asking to Change a Drink",
     "reading": "A Day of Small Changes at the Coffee Shop"
+  },
+  {
+    "date": "2026-11-10",
+    "concept_key": "expressing_preferences_politely",
+    "concept_name": "Expressing Preferences Politely",
+    "terms": [
+      "prefer",
+      "non-smoking room",
+      "if possible"
+    ],
+    "scene": "Checking Into a Hotel and Expressing Room Preferences",
+    "reading": "A Night at the Cozy Inn"
   }
 ]
