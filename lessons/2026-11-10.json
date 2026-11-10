@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "number": 33,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Expressing Preferences Politely When Checking Into a Hotel",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 10449,
     "reasoning_tokens": 0,
     "attempts": 2
-  }
+  },
+  "accepted_at": "2026-11-10T12:12:08.039859+08:00"
 }
