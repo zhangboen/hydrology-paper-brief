@@ -4639,5 +4639,117 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04201-8",
     "checked_at": "2026-11-08T00:53:58.838819+00:00"
+  },
+  "10.1038/d41586-026-03627-6": {
+    "text": "The story of how maths came to run the world, and created the artificial-intelligence models that might surpass human mathematicians.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03627-6",
+    "checked_at": "2026-11-10T03:47:22.031335+00:00"
+  },
+  "10.1038/d41586-026-03628-5": {
+    "text": "Food shortages and disease outbreaks are to be expected and need to be addressed together.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03628-5",
+    "checked_at": "2026-11-10T03:47:22.711361+00:00"
+  },
+  "10.1038/d41586-026-03626-7": {
+    "text": "The theoretical physicist unpacks the need for more humility in science and whether artificial intelligence could ever become conscious.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03626-7",
+    "checked_at": "2026-11-10T03:47:23.200218+00:00"
+  },
+  "10.1038/d41586-026-03631-w": {
+    "text": "Scientists say governments must commit to carbon dioxide removal if world is to bring temperatures back down to safer limits.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03631-w",
+    "checked_at": "2026-11-10T03:47:23.678000+00:00"
+  },
+  "10.1038/d41586-026-02903-9": {
+    "text": "Looking for a postdoc while raising four children made one thing clear to Wenhuan Xu: many adverts describe the ideal applicant much more clearly than they describe the job itself.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02903-9",
+    "checked_at": "2026-11-10T03:47:24.142889+00:00"
+  },
+  "10.1038/d41586-026-03588-w": {
+    "text": "Engineer Matthew Montgomery, who just finished a 378-day simulated Mars mission, talks about what it was like to be out of contact with the rest of humanity for a two-week blackout.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03588-w",
+    "checked_at": "2026-11-10T03:47:24.626051+00:00"
+  },
+  "10.1038/d41586-026-02998-0": {
+    "text": "Nature reports on five countries where academic freedom has either plummeted or soared in recent years.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02998-0",
+    "checked_at": "2026-11-10T03:47:25.116296+00:00"
+  },
+  "10.1038/s41558-026-02797-5": {
+    "text": "It has been surprisingly difficult to calculate how much warming different regions of the Earth have experienced since pre-industrial times. Now, research shows that in most land regions, the temperature thresholds that governments agreed to in Paris to keep below are already dangerously close.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41558-026-02797-5",
+    "checked_at": "2026-11-10T03:48:15.061470+00:00"
+  },
+  "10.1038/s41558-026-02790-y": {
+    "text": "Global temperatures have averaged 1.2 °C above pre-industrial levels over the past decade, yet regional warming patterns and remaining warming budgets under Paris Agreement limits remain uncertain owing to insufficient historical observations. Here we quantify and attribute warming across all IPCC Sixth Assessment Report (AR6) regions since pre-industrial times using a Bayesian framework combining multi-model simulations with observations, enabling robust estimates in data-sparse regions. Regional warming is already pronounced. By 2025, attributed regional warming had reached about 90–94% of the levels expected at 1.5 °C global warming and 65–76% of those expected at 2 °C. Attribution confidence is the highest in tropical regions, including much of Africa, where low internal variability enables robust results. Attributed warming is the greatest in northern high-latitude regions, exceeding 2.5 °C. Greenhouse gases dominate, partially offset by aerosol cooling. These results reveal that current warming is already indistinguishable from a 1.5 °C world, highlighting the shared urgency of adaptation across all regions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41558-026-02790-y",
+    "checked_at": "2026-11-10T03:48:15.847798+00:00"
+  },
+  "10.1038/s41561-026-02041-x": {
+    "text": "Efforts to better recognize technical staff within academia are gaining momentum, but further changes — such as clearer career pathways, stable funding, and greater inclusion in research leadership — are needed to future-proof their role in advancing geosciences.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41561-026-02041-x",
+    "checked_at": "2026-11-10T03:48:19.899335+00:00"
+  },
+  "10.1038/s41467-026-79106-3": {
+    "text": "Cancer-associated fibroblasts (CAFs) shape how immune cells are organized within tumors and either support or hinder the formation of immune niches associated with clinical outcomes and treatment response known as tertiary lymphoid structures (TLSs). Some CAF states support immune-cell recruitment and TLS establishment, whereas others create dense, fibrotic environments that restrict immune organization. Importantly, the presence of TLSs does not by itself indicate antitumor immunity. Their function depends on surrounding CAFs, extracellular matrix, and blood and lymphatic vessels. In this Review, we argue that the TLS-CAF axis is a key determinant of antitumor immunity, highlighting a potential therapeutic opportunity for selective stromal reprogramming.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79106-3",
+    "checked_at": "2026-11-10T03:48:24.538448+00:00"
+  },
+  "10.1038/s41467-026-78563-0": {
+    "text": "Transfer RNAs (tRNAs) link mRNA codons to amino acids during translation. Their abundance and modification states are dynamically regulated and influence translation efficiency, mRNA stability, and proteostasis. Accurate profiling of tRNAs is essential, but deep sequencing suffers from modification-induced biases during cDNA synthesis, while nanopore direct RNA sequencing (DRS) still faces challenges in accurate tRNA profiling. Here, we develop an end-to-end deep learning model, termed nano tRNA classifier, that directly uses nanopore-DRS ionic current signals to classify tRNAs without basecalling. The model achieves 98.2% classification accuracy with high read retention across all Escherichia coli tRNA species. Using an equimolar mixture of native tRNAs as a ground-truth reference, we correct read-count bias, enabling absolute quantification and profiling under diverse culture conditions. We further develop binary classifiers that detect specific tRNA modifications at the single-molecule level with high accuracy. This nanopore-based platform integrates accurate tRNA classification, absolute quantification, and single-molecule modification detection.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78563-0",
+    "checked_at": "2026-11-10T03:48:25.245797+00:00"
+  },
+  "10.1038/s41467-026-78736-x": {
+    "text": "Polymers are a versatile class of materials with widespread industrial applications. Advanced computational tools could revolutionize their design, but the complex, multi-scale nature of polymers poses significant modeling challenges. Classical force fields often lack the accuracy and transferability that polymers demand, while quantum-chemical methods are prohibitively expensive for the large systems and long timescales involved. Here we develop a fast, scalable machine learning force field and show that, trained on quantum-chemical calculations alone, without any experimental data, it predicts measured bulk properties across a broad range of polymers. It reproduces polymer densities as accurately as, or better than, established classical force fields and captures the glass transition signature in the density-temperature curve, enabling the prediction of glass transition temperatures. To accelerate progress in this domain, we release a benchmark of experimental bulk properties for 130 polymers and an accompanying quantum-chemical dataset, laying the foundation for a fully in silico design pipeline for next-generation polymeric materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78736-x",
+    "checked_at": "2026-11-10T03:48:25.812546+00:00"
+  },
+  "10.1038/s41467-026-78768-3": {
+    "text": "Post-traumatic stress disorder affects numerous trauma survivors following emergency department discharge, making this encounter vital for early risk stratification. Yet emergency clinicians face severe time constraints, making existing screening tools impractical. We introduce PREVIA, a clinically-informed large language model ensemble, that predicts post-traumatic stress disorder risk from unstructured patient trauma narratives, collected in response to a routine-care question asked in the emergency department, by extracting early post-traumatic stress symptoms, peri-traumatic symptoms, risk, and protective factors. Within an ongoing longitudinal study, we included N = 145 patients across two New York City level-1 trauma centers within 24 hours of trauma and assessed post-traumatic stress disorder 1-month post-trauma. In this work, PREVIA accurately forecasts post-traumatic stress disorder (AUROC = 78.49% ± 5.75%, sensitivity=95.4% ± 3.99%, precision=46.76% ± 8.66%), performs comparably to an emergency clinician specialized in post-traumatic stress disorder on 30 randomly selected patients (PREVIA: AUROC = 84.39%, sensitivity=100.00%, precision=50.00%; clinician: AUROC = 83.86%, sensitivity=88.89%, precision=50.00%), and generates interpretable explanations without additional clinical burden. These initial findings support PREVIA’s potential as a scalable emergency department screener for timely, targeted interventions, and warrant validation in larger, independent cohorts.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78768-3",
+    "checked_at": "2026-11-10T03:48:28.037128+00:00"
+  },
+  "10.1038/s41467-026-78799-w": {
+    "text": "Elastin endows arteries, skin and lungs with elasticity, yet the molecular origin of its entropic recoil remains debated. Using multi-microsecond all-atom simulations of a representative elastomeric region of human tropoelastin, the monomeric precursor of elastin, we quantify protein conformational entropy, hydration-water entropy, and protein- and water-mediated interaction enthalpies during stretching. Protein conformational entropy decreases modestly overall, with heterogeneous local entropic responses governed by secondary structure and sequence context. In contrast, hydration water provides the dominant unfavorable entropic contribution because stretching recruits many water molecules from bulk into a persistently low-entropy first hydration layer. Stretching also disrupts favorable intra-protein interactions while strengthening protein–water interactions, producing opposing enthalpic contributions that largely compensate the entropic penalty. Together, these results support a hydration-coupled thermodynamic mechanism in which water is the dominant entropic contributor to elastin recoil within a strongly compensating enthalpy–entropy balance.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78799-w",
+    "checked_at": "2026-11-10T03:48:28.766152+00:00"
+  },
+  "10.1038/s43247-026-04027-4": {
+    "text": "Interactions with iron (oxyhydr)oxides govern the mobility and fate of nanoplastics in freshwater systems, yet the mechanisms underlying mineral-phase-dependent binding remain unclear. Here, we investigated the binding processes and mechanisms of representative iron oxides (ferrihydrite, lepidocrocite, and goethite) toward nanoplastics with varied sizes, surface functionalities, and aging states. Binding rates and capacities differ by up to 15.9- and 43.6-fold, respectively. Ferrihydrite achieves the fastest kinetics through surface attachment facilitated by its rough, heterogeneous interface and binding-induced interfacial restructuring. In contrast, goethite maintains higher, less condition-sensitive binding capacities because its macropores promote pore entrapment. Nanoplastic aging involving size reduction and surface functionalization inhibits mineral-nanoplastic interactions by enhancing post-binding charge reversal, thereby weakening subsequent electrostatic attraction. These findings highlight interfacial interactions and pore entrapment as key mechanisms driving divergent nanoplastic binding by iron oxides, providing a mechanistic framework for predicting nanoplastic immobilization and transport in freshwater sediments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04027-4",
+    "checked_at": "2026-11-10T03:48:46.317693+00:00"
   }
 }
