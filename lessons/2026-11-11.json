@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "number": 34,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "How to Use 'Set Up' When Opening a Bank Account",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 17169,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-11T09:40:34.682599+08:00"
 }
