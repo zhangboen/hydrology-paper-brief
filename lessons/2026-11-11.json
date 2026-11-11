@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-11",
+  "number": 34,
+  "status": "prepared",
+  "lesson": {
+    "title": "How to Use 'Set Up' When Opening a Bank Account",
+    "concept": {
+      "key": "phrasal_verbs_set_up",
+      "name_en": "Phrasal Verb 'Set Up'",
+      "name_zh": "短语动词 'Set Up'",
+      "explanation_zh": "‘Set up’ 是一个常用的短语动词，意思是安排或建立某事，比如建立账户、安排会议或设置设备。在银行开户时，我们经常使用 'set up an account' 来表示开立账户。它比简单说 'open an account' 更自然，特别是在口语中。",
+      "examples": [
+        "I need to set up a new savings account at the bank.",
+        "Can you help me set up online banking?",
+        "They set up a direct deposit for my paycheck."
+      ],
+      "common_mistake_zh": "有些学习者会错误地说 'make up an account'，其实正确表达应该是 'set up an account'，因为 'make up' 在这里不合适。"
+    },
+    "vocabulary": [
+      {
+        "term": "account statement",
+        "ipa_us": "/əˈkaʊnt ˈsteɪtmənt/",
+        "pronunciation_tip_zh": "‘account’ 重音在第二个音节，‘statement’ 重音在第一个音节，注意连读。",
+        "meaning_zh": "账户对账单",
+        "explain_in_english": "An account statement shows your bank activity and balance over a period of time.",
+        "usage_note_zh": "正式场合常用，银行业务中查看账户详情时使用。",
+        "examples": [
+          "I received my monthly account statement by email.",
+          "The account statement shows all transactions for the last month."
+        ]
+      },
+      {
+        "term": "minimum balance",
+        "ipa_us": "/ˈmɪnəməm ˈbæləns/",
+        "pronunciation_tip_zh": "‘minimum’ 三个音节，重音在第一个音节，‘balance’ 重音在第一个音节。",
+        "meaning_zh": "最低余额",
+        "explain_in_english": "Minimum balance is the smallest amount of money you need to keep in your account to avoid fees.",
+        "usage_note_zh": "银行账户常见术语，重要于账户管理。",
+        "examples": [
+          "You must keep a minimum balance to avoid monthly fees.",
+          "My savings account requires a minimum balance of $500."
+        ]
+      },
+      {
+        "term": "bank teller",
+        "ipa_us": "/bæŋk ˈtɛlər/",
+        "pronunciation_tip_zh": "‘bank’ 结尾的 /k/ 与 ‘teller’ 开头的 /t/ 清晰分开，‘teller’ 重音在第一个音节。",
+        "meaning_zh": "银行柜员",
+        "explain_in_english": "A bank teller is a person who helps customers with transactions at the bank counter.",
+        "usage_note_zh": "正式和日常口语都常用，指银行工作人员。",
+        "examples": [
+          "The bank teller helped me deposit my check.",
+          "I asked the bank teller about opening a new account."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Opening Your First Bank Account",
+      "context_zh": "情境：你第一次去银行开账户，与银行柜员的对话。",
+      "script_en": "Customer: Hello, I’d like to set up a new bank account. Can you help me with that?\nBank Teller: Of course! Are you interested in a checking account or a savings account?\nCustomer: I’m thinking a checking account would work best for me.\nBank Teller: Good choice. Would you like to set up direct deposit for your paycheck?\nCustomer: Yes, that sounds very convenient. What documents do I need to bring?\nBank Teller: We’ll need your ID and a proof of address to start the process.\nCustomer: Here’s my driver's license and a recent utility bill.\nBank Teller: Perfect. Once you’re the account holder, you’ll get online access and can request an account statement anytime.\nCustomer: That’s really helpful. Is there a minimum balance I have to keep?\nBank Teller: Yes, a minimum balance of $100 is required to avoid monthly fees.\nCustomer: Got it. Can I also order checks for the account?\nBank Teller: Absolutely, I can set that up for you right now.\nCustomer: Thank you for making this easy!\nBank Teller: You’re welcome! Feel free to ask if you have any other questions.",
+      "translation_zh": "客户：您好，我想开一个新的银行账户。您能帮我吗？\n银行柜员：当然！您想开支票账户还是储蓄账户？\n客户：我想支票账户更适合我。\n银行柜员：很好。您想设置工资的直接存款吗？\n客户：是的，这听起来很方便。我需要带什么文件？\n银行柜员：我们需要您的身份证和地址证明来开始办理。\n客户：这是我的驾驶执照和最近的水电费账单。\n银行柜员：很好。一旦您成为账户持有人，您将可以在线访问账户，并随时请求账户对账单。\n客户：这真有帮助。这个账户有最低余额要求吗？\n银行柜员：有，最低余额是100美元，以避免月费。\n客户：明白了。我也可以订支票吗？\n银行柜员：当然，我现在就帮您设置。\n客户：谢谢您让这过程这么简单！\n银行柜员：不客气！如果有其他问题，请随时问我。",
+      "practice_tip_zh": "多练习用‘set up’和‘minimum balance’等词汇表达，模仿银行柜员和客户的自然对话，增强自信。"
+    },
+    "reading": {
+      "title": "Starting Fresh: What Opening a Bank Account Means to Me",
+      "genre": "short reflective essay",
+      "text_en": "Opening a bank account felt like a big step in my life. It was not just about managing money but about starting a new chapter in my personal growth. When I walked into the bank, I was nervous but eager to learn. The bank teller was friendly and took time to explain different types of accounts clearly.\n\nI chose to set up a checking account because it offered flexibility for daily expenses and easy access to my money. The teller introduced me to terms like 'direct deposit' and 'minimum balance,' which were new concepts to me. I learned that keeping a minimum balance could help me avoid monthly fees and keep my account in good standing.\n\nAfter completing the paperwork and providing my ID and proof of address, I officially became the account holder. This simple process gave me a sense of control and belonging. Now I could pay bills online, receive my salary directly through direct deposit, and track my spending easily with monthly account statements.\n\nLooking back, opening that account wasn’t just about money management. It was about gaining independence and responsibility. Every time I check my balance or use my debit card, I remember the moment I set up my account—the start of managing my own finances and a new phase in my life. This experience helped me feel more confident about handling money and planning for my future.",
+      "summary_zh": "作者分享开设银行账户的经历，觉得这不仅是理财，更是生活新阶段的开始。通过开户，作者学到了银行术语，体验了独立和责任感。",
+      "questions": [
+        {
+          "question": "Why did the author decide to open a checking account?",
+          "answer": "Because it offered flexibility for daily expenses and easy access to money."
+        },
+        {
+          "question": "What benefits did the author mention about having a bank account?",
+          "answer": "Being able to pay bills online, receive salary directly through direct deposit, and track spending with account statements."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 12480,
+    "completion_tokens": 4689,
+    "total_tokens": 17169,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}

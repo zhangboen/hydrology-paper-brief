@@ -394,5 +394,17 @@
     ],
     "scene": "Checking Into a Hotel and Expressing Room Preferences",
     "reading": "A Night at the Cozy Inn"
+  },
+  {
+    "date": "2026-11-11",
+    "concept_key": "phrasal_verbs_set_up",
+    "concept_name": "Phrasal Verb 'Set Up'",
+    "terms": [
+      "account statement",
+      "minimum balance",
+      "bank teller"
+    ],
+    "scene": "Opening Your First Bank Account",
+    "reading": "Starting Fresh: What Opening a Bank Account Means to Me"
   }
 ]
