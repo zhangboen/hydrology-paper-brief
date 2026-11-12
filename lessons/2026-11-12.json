@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "number": 35,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Inquiring About Gym Membership Details Smoothly",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 17364,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-12T10:40:31.510627+08:00"
 }
