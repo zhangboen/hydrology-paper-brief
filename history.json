@@ -406,5 +406,17 @@
     ],
     "scene": "Opening Your First Bank Account",
     "reading": "Starting Fresh: What Opening a Bank Account Means to Me"
+  },
+  {
+    "date": "2026-11-12",
+    "concept_key": "membership_inquiry_phrases",
+    "concept_name": "Membership Inquiry Phrases",
+    "terms": [
+      "enroll",
+      "facility",
+      "commitment"
+    ],
+    "scene": "Discussing Gym Membership Plans and Trial Periods",
+    "reading": "How to Choose a Gym Membership That Fits You"
   }
 ]

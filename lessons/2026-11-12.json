@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-12",
+  "number": 35,
+  "status": "prepared",
+  "lesson": {
+    "title": "Inquiring About Gym Membership Details Smoothly",
+    "concept": {
+      "key": "membership_inquiry_phrases",
+      "name_en": "Membership Inquiry Phrases",
+      "name_zh": "会员咨询表达",
+      "explanation_zh": "会员咨询表达是指在询问健身房或俱乐部会员资格时，常用的自然且礼貌的英语表达方式。它们帮助你清楚地了解不同的会员类型、价格、优惠和条款，从而做出明智的选择。",
+      "examples": [
+        "Could you tell me about your membership plans?",
+        "What are the benefits of the premium membership?",
+        "Are there any discounts for students or long-term memberships?"
+      ],
+      "common_mistake_zh": "错误：直接问“Do you have a membership?”，听起来不自然。正确说法是“Could you tell me about your membership options?”，更礼貌且具体。"
+    },
+    "vocabulary": [
+      {
+        "term": "enroll",
+        "ipa_us": "/ɛnˈroʊl/",
+        "pronunciation_tip_zh": "重音在第二个音节'rol'，注意'r'发音接近卷舌。",
+        "meaning_zh": "注册，报名参加",
+        "explain_in_english": "To officially join a class, program, or membership.",
+        "usage_note_zh": "较正式，常用于学校、课程或服务报名。",
+        "examples": [
+          "I want to enroll in the yoga class starting next week.",
+          "You can enroll online or at the gym reception."
+        ]
+      },
+      {
+        "term": "facility",
+        "ipa_us": "/fəˈsɪlɪti/",
+        "pronunciation_tip_zh": "重音在第二个音节'sil'，注意'i'发短元音。",
+        "meaning_zh": "设施，设备",
+        "explain_in_english": "A place or equipment provided for a particular purpose, like a gym’s workout machines or pool.",
+        "usage_note_zh": "正式和日常均可，用于描述场所或设备。",
+        "examples": [
+          "The gym has excellent facilities including a swimming pool.",
+          "Are the facilities accessible on weekends?"
+        ]
+      },
+      {
+        "term": "commitment",
+        "ipa_us": "/kəˈmɪtmənt/",
+        "pronunciation_tip_zh": "重音在第二个音节'mit'，注意't'发音轻柔。",
+        "meaning_zh": "承诺，投入",
+        "explain_in_english": "A promise or decision to be involved in something for a period of time.",
+        "usage_note_zh": "正式用语，多用于谈论合同或长期计划。",
+        "examples": [
+          "The annual membership requires a one-year commitment.",
+          "I’m not ready to make a long-term commitment yet."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Discussing Gym Membership Plans and Trial Periods",
+      "context_zh": "在健身房前台咨询会员计划和试用期的真实对话。",
+      "script_en": "Customer: Hi, I’m thinking about enrolling at this gym. Can you explain your membership options?\nStaff: Sure! We have monthly, quarterly, and yearly memberships. Monthly is $60, quarterly is $170, and yearly is $600.\nCustomer: What benefits come with the yearly plan?\nStaff: The yearly membership includes unlimited classes and two free personal training sessions.\nCustomer: That sounds appealing. Is there a trial period so I can try the facilities first?\nStaff: Yes, we offer a 5-day trial period for new members.\nCustomer: Great! Can I enroll online, or do I need to come here?\nStaff: You can do either. If you want, I can help you enroll now.\nCustomer: I prefer enrolling today. Do you accept credit cards?\nStaff: Absolutely, all major credit cards are accepted.\nCustomer: Are there any discounts for students or seniors?\nStaff: Yes, both get a 15% discount on all memberships.\nCustomer: That’s very helpful. Thanks for your assistance!\nStaff: You’re welcome! Let me know if you have any questions later.",
+      "translation_zh": "顾客：您好，我想在这里报名。您能介绍一下你们的会员选项吗？\n工作人员：当然！我们有月度、季度和年度会员。月度60美元，季度170美元，年度600美元。\n顾客：年度计划有哪些好处？\n工作人员：年度会员包括无限制课程和两次免费私人训练。\n顾客：听起来不错。有没有试用期让我先体验一下设施？\n工作人员：有的，我们为新会员提供5天的试用期。\n顾客：太好了！我可以在线报名，还是必须来这里？\n工作人员：两种都可以。如果您愿意，我现在可以帮您报名。\n顾客：我今天想亲自报名。你们收信用卡吗？\n工作人员：当然，所有主要信用卡都收。\n顾客：学生和老人有折扣吗？\n工作人员：有的，两者都享有15%的折扣。\n顾客：这非常有帮助。谢谢您的帮助！\n工作人员：不客气！如果以后有问题，随时告诉我。",
+      "practice_tip_zh": "练习时，模拟顾客和工作人员的对话，注意用礼貌的表达询问会员计划和试用期，语调自然，语速适中。"
+    },
+    "reading": {
+      "title": "How to Choose a Gym Membership That Fits You",
+      "genre": "original short speech",
+      "text_en": "When I decided to join a gym last year, I was confused by all the membership options available. Some plans were monthly, others quarterly or yearly, each with different prices and benefits. To make the right choice, I asked the staff detailed questions about what each membership included. For example, some plans offered unlimited access to classes like yoga or spinning, while others included personal training sessions or guest passes. I learned that it’s important to consider your lifestyle and fitness goals when choosing a membership. If you enjoy group activities, a plan with many classes is ideal. But if you prefer working out alone, a basic monthly membership might be enough. Another factor I found helpful was the trial period. Many gyms offer a few days free so you can try the facilities before committing. This gave me a chance to see if the equipment and atmosphere felt right. Also, don’t forget to ask about discounts. Students, seniors, and employees often get special offers. It’s smart to compare prices and benefits carefully before deciding. Finally, I chose a plan that balanced cost with the benefits that suited me best. Having the right membership made it easier to stay motivated and keep up with my fitness routine. Choosing carefully can make your gym experience much more enjoyable and successful.",
+      "summary_zh": "演讲者分享了如何选择适合自己的健身房会员计划，强调考虑生活方式、目标、试用期和折扣，正确选择有助于保持锻炼动力。",
+      "questions": [
+        {
+          "question": "What should you ask the gym staff to help choose the right membership?",
+          "answer": "You should ask about the benefits included, such as classes, personal training, and guest passes."
+        },
+        {
+          "question": "Why is it useful to have a trial period before committing to a gym membership?",
+          "answer": "A trial period lets you try the gym’s facilities and see if you like the equipment and atmosphere before making a commitment."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 12719,
+    "completion_tokens": 4645,
+    "total_tokens": 17364,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
