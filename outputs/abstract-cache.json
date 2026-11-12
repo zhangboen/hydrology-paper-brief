@@ -4954,5 +4954,376 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s44221-026-00739-1",
     "checked_at": "2026-11-11T01:30:53.741773+00:00"
+  },
+  "10.1038/d41586-026-03448-7": {
+    "text": "An analysis of who is more likely to get authorship than acknowledgement highlights the influence of a researcher’s gender and status.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03448-7",
+    "checked_at": "2026-11-12T02:30:46.621724+00:00"
+  },
+  "10.1038/s41586-026-11240-w": {
+    "text": "Nuclei in early mammalian embryos undergo epigenetic reprogramming that enables the zygote to develop into a complete organism. Whereas changes in chromatin state during this critical transition period have been extensively studied 1 , 2 , 3 , changes in the nucleus that houses chromatin remain poorly understood. Here, using direct organelle capture and biophysical manipulation methods, we find that nuclei attain profound softness and plasticity during the two-cell embryonic stage in mice, facilitating major zygotic gene activation. The prominent nuclear deformability is attributable to the rapid clearance of lamin B1 from the nuclear envelope by the autophagy factor LC3. Nuclear stiffening by lamin B1 retention or its overloading results in incomplete activation of zygotic genes and impaired development. However, embryos that maintain nuclear deformability escape from this transcriptional interference. High-resolution microscopy and sequential three-dimensional fluorescence in situ hybridization analyses revealed an accumulation of active RNA polymerase II and coordinated positioning of key genomic loci near the deformable nuclear envelope. An engineered molecular tether that stiffens the nuclei restricts these nuclear activities and suppresses expression of key zygotic gene activation genes. Together, our study identifies a distinct physical nuclear state that embryos acquire at the beginning of life that supports the initiation of the zygotic transcription program.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11240-w",
+    "checked_at": "2026-11-12T02:30:50.182457+00:00"
+  },
+  "10.1038/d41586-026-03499-w": {
+    "text": "Ancient rocks in northern China reveal that by 3.95 billion years ago, surface-altered oceanic crust had been buried rapidly to depths greater than 50 kilometres and partly melted. This crust was derived from a mantle reservoir that had been left behind when the crust separated from the early mantle as early as 4.3 billion years ago. Zircon crystals found in some of Earth’s oldest rocks suggest that the source rock was once buried about 50 kilometres into the mantle.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03499-w",
+    "checked_at": "2026-11-12T02:30:50.906673+00:00"
+  },
+  "10.1038/d41586-026-03621-y": {
+    "text": "Agricultural biotechnology once found itself in opposition to environmental science. Now it could reduce the impact of food systems on global warming and biodiversity loss.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03621-y",
+    "checked_at": "2026-11-12T02:30:53.639715+00:00"
+  },
+  "10.1038/d41586-026-03409-0": {
+    "text": "As global energy markets grapple with a period of sustained political volatility, researchers are digging deep for solutions.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03409-0",
+    "checked_at": "2026-11-12T02:30:54.399724+00:00"
+  },
+  "10.1038/s41586-026-11391-w": {
+    "text": "Direct arylation of C–H bonds in arenes offers a streamlined alternative to widely used cross-coupling reactions. 1 However, native substrates lack the preinstalled functional handles that ordinarily provide both reactivity and control over the site of reaction. Consequently, despite long-standing interest in directly engaging C–H bonds as reactive sites, 2–4 the design of general catalysts that deliver high yields across diverse substrate classes while controlling site selectivity remains a challenge. 5–12 Here we show that a microenvironment around a prototypical palladium dicarboxylate catalytic site can provide high selectivity for direct arylation of sterically exposed C–H sites, while high efficiency is achieved using an advanced palladium(II) precatalyst and tailored diaryliodonium reagents for selective aryl transfer. The applicability of this system spans from electron-rich to electron-deficient arenes, while electron-neutral benzene, which is often a challenge for C–H arylation, undergoes successive sterically controlled arylations, delivering functionalized polyaryl compounds. In addition to removing the necessity for pre-functionalized substrates, the mild conditions enable direct late-stage C–H arylation and the installation of aryl groups equipped with functionalities that are typically either reactive in traditional cross-coupling catalysis, such as triflates, iodides, and boronate esters, or sensitive to the basic conditions, such as N -hydroxysuccinimide esters. The results emphasize the distinct synthetic value of palladium-catalyzed direct C–H arylation reactions and showcase a catalyst platform that facilitates high yields and control over site-selectivity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11391-w",
+    "checked_at": "2026-11-12T02:30:55.001711+00:00"
+  },
+  "10.1038/s41586-026-11277-x": {
+    "text": "Augmented reality (AR) displays, originating from early optical see-through head-mounted systems 1 , have evolved towards lightweight glasses that seamlessly integrate digital information with the physical world 2 , 3 . However, their widespread adoption requires compact optical systems that enable bright, wide-field and comfortable viewing. Diffractive waveguides (WGs) offer a promising approach towards lightweight AR displays yet face inherent trade-offs among field of view (FoV), optical efficiency and eyebox size owing to limited degrees of freedom in light control. Here we show an all-day-wearable AR glass prototype based on spatially varying, interwoven metasurfaces that provide several grating vectors for multidirectional light control. The resulting dual-layer metasurface-based waveguide (meta-WG) achieves a 30° FoV and an 8 × 8-mm 2 two-dimensional (2D) eyebox while maintaining an average luminance efficiency of 1,938 nits lm −1 (up to 4,225 nits lm −1 ) within a 1.5-mm-thick form factor. The prototype produces bright and stable virtual images under outdoor ambient illumination, demonstrating the compatibility of meta-WGs with practical wearable display requirements. By expanding the degrees of freedom for light routing beyond conventional diffractive WGs, our approach provides a scalable framework for balancing efficiency, viewing range and form factor, bringing high-performance AR glasses closer to practical consumer applications.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11277-x",
+    "checked_at": "2026-11-12T02:30:55.965766+00:00"
+  },
+  "10.1038/d41586-026-03669-w": {
+    "text": "Technology is making biological studies more powerful than ever. But people are the real force behind discovery.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03669-w",
+    "checked_at": "2026-11-12T02:30:56.648722+00:00"
+  },
+  "10.1038/d41586-026-03624-9": {
+    "text": "Decades-old papers are increasingly being pulled from the literature, bringing a host of challenges.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03624-9",
+    "checked_at": "2026-11-12T02:30:57.479627+00:00"
+  },
+  "10.1038/s41586-026-11232-w": {
+    "text": "Empirical research so far largely suggests that population policies around the world do not explain a majority of the global fertility decline 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 . Notably, even China’s total fertility rate declined little after implementation of the one-child policy in 1979 and 1980, but fertility then fell sharply by more than one-third during the early 1990s. Here we show that strengthening bureaucratic incentives under China’s one vote veto policy, which strictly prohibited career advancement for adherence failure, was instrumental in more effective implementation of the one-child policy, and in its delayed impact on fertility. Using provincial variation in implementation timing, we find that the one vote veto explains nearly half of China’s total fertility rate decline during the 1990s, driving fertility below the replacement rate. Increases in use of intrauterine devices (the most prevalent form of modern contraception in China) that were recommended by local officials were particularly salient. Overall, our findings suggest that population policy, when more strictly enforced due to stronger bureaucratic incentives, made a greater contribution to low fertility in China than suggested by past research.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11232-w",
+    "checked_at": "2026-11-12T02:30:59.494047+00:00"
+  },
+  "10.1038/d41586-026-03633-8": {
+    "text": "Nobel prizewinner’s accidental discovery led to new forms of materials, light-emitting diodes and solar cells.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03633-8",
+    "checked_at": "2026-11-12T02:31:00.259101+00:00"
+  },
+  "10.1038/d41586-026-03441-0": {
+    "text": "Information on the methodology used in the ranking for the 2026 Nature Spotlight: Energy.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03441-0",
+    "checked_at": "2026-11-12T02:31:01.317583+00:00"
+  },
+  "10.1038/s41586-026-11259-z": {
+    "text": "RNA-derived 2′,3′-cyclophosphate-terminated nucleotides act as immune signalling molecules in prokaryotes and eukaryotes 1 , 2 , 3 , but how plants perceive them remains unknown. Sucking insects inject digestive enzymes including RNases into the host plant to acquire nutrients. Here we demonstrate that NIB1, a glycine-rich RNA-binding protein in rice, senses 2′,3′-cyclic nucleotide monophosphates (2′,3′-cNMPs; 2′,3′-cAMP and 2′,3′-cGMP) and adenylyl-(3′→5′)-guanosine 2′,3′-cyclic phosphate (ApG>p) produced by a salivary T2 ribonuclease of green stink bug during feeding. Binding of the RNase products promotes formation of nuclear condensates containing NIB1, which recruit the core immune regulator Enhanced Disease Susceptibility 1 (EDS1) and activate defence, potentially contributing to the immune signalling of Toll/interleukin-1 receptor (TIR) proteins that also produce the nuclease products. Exogenous application of 2′,3′-cAMP, 2′,3′-cGMP or ApG>p elicits NIB1 and EDS1-mediated immune responses. Our findings unveil a conserved pathway in plants, in which glycine-rich RNA-binding proteins perceive the nuclease-generated second messengers to launch defence and point to a potential link between plant TIR nuclease activity and EDS1 signalling.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11259-z",
+    "checked_at": "2026-11-12T02:31:03.178254+00:00"
+  },
+  "10.1038/d41586-026-03536-8": {
+    "text": "A snake’s defensiveness might affect how much venom it produces in a laboratory test.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03536-8",
+    "checked_at": "2026-11-12T02:31:03.945113+00:00"
+  },
+  "10.1038/d41586-026-03428-x": {
+    "text": "Nuclear pores control molecular traffic into and out of the cell nucleus. Measurements in living cells, together with molecular-dynamics simulations, show that flexible protein chains that form the selectivity barriers of nuclear pores are highly mobile, and that a sugar modification and the carrier protein importin-β help to preserve this dynamic state. The motion of the nuclear pore protein NUP98 is regulated by a transport receptor and a sugar modification.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03428-x",
+    "checked_at": "2026-11-12T02:31:04.551515+00:00"
+  },
+  "10.1038/d41586-026-03425-0": {
+    "text": "A framework for diagnosing obesity that was proposed in 2025 incorporates waist circumference and related measures and distinguishes clinical from preclinical obesity on the basis of obesity-induced organ dysfunction. In an international multi-cohort study of 844,108 adults, this framework outperformed conventional body-mass-index-based criteria in diagnosing obesity and stratifying mortality risk. A combination of body and organ-function metrics does better at classifying obesity than does body mass index.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03425-0",
+    "checked_at": "2026-11-12T02:31:10.946253+00:00"
+  },
+  "10.1038/d41586-026-03412-5": {
+    "text": "Ginelle Greene-Dewasmes is leading a community of interdisciplinary specialists exploring how to make the energy use of artificial intelligence net-positive.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03412-5",
+    "checked_at": "2026-11-12T02:31:12.420976+00:00"
+  },
+  "10.1038/d41586-026-03489-y": {
+    "text": "One of Saturn’s rings consists of a diverse population of icy and rocky grains, each with a distinct composition. How this came about might now have an explanation.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03489-y",
+    "checked_at": "2026-11-12T02:31:14.441694+00:00"
+  },
+  "10.1038/d41586-026-03272-z": {
+    "text": "Network science has inspired the design of materials that spread out their deformation when a force is applied, have tunable stiffness and can control vibrational waves.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03272-z",
+    "checked_at": "2026-11-12T02:31:15.333774+00:00"
+  },
+  "10.1038/d41586-026-03183-z": {
+    "text": "Cliff Kapono shares his advice on ways to navigate and grow two different careers.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03183-z",
+    "checked_at": "2026-11-12T02:31:16.320252+00:00"
+  },
+  "10.1038/d41586-026-03496-z": {
+    "text": "Forecasts of the effects that climate change will have on biodiversity typically rely on long-term climate averages while excluding extreme events. Projections that include severe drought predict that a majority of the 993 cactus species assessed will see large losses of suitable climatic area: more than 25% of species could lose at least 80% of it by 2100. Models that ignore extreme events might underestimate the dangers of climate change for this plant family.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03496-z",
+    "checked_at": "2026-11-12T02:31:17.082261+00:00"
+  },
+  "10.1038/s41586-026-11191-2": {
+    "text": "Materials, at their essence, are networks defined by homogeneity: uniform bonds, fixed thicknesses and discrete length scales. Mechanical metamaterials, while representing structurally more diverse microstructures, remain defined by the homogeneity of their unit cells, pore sizes or repeating features 1 , 2 . In contrast, as network science has revealed, real-world and biological systems—from the Internet to the brain—derive their function from broad, multiscale variability in connectivity and link length 3 , 4 , 5 , 6 . Here we introduce scale-rich metamaterials, a design framework that embeds network heterogeneity into mechanical metamaterials, achieving orders-of-magnitude heterogeneity in ligament lengths, thicknesses and connectivity. Governed by only two parameters, scale-rich networks span orders of magnitude in structural features, overcoming previous constraints in metamaterial design. Translating these network models into physically realizable materials, we use simulations and experiments to show that scale-rich metamaterials exhibit properties inaccessible to traditional single-scale systems, including highly tunable elastic anisotropy, delocalized nonlinear deformation with high energy absorption, enhanced energy dissipation under dynamic loading and programmable elastic-wave control. This network-based framework establishes a minimal and universal model for engineering multifunctional materials whose mechanical behaviour emerges directly from scale diversity, and also opens avenues of enquiry for network science itself.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11191-2",
+    "checked_at": "2026-11-12T02:31:18.072563+00:00"
+  },
+  "10.1038/s41586-026-11265-1": {
+    "text": "Extreme climatic events are increasing in frequency and intensity with climate change 1 . Their effects on species’ distributions and extinction risk remain poorly understood 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 . Most species distribution models rely on long-term mean climate, overlooking potentially important nonlinear effects of extremes. Here we integrate new spatial data on severe drought 10 , including compounding effects of warmer temperatures, with a comprehensive curated dataset of cactus occurrences (648,316 records) and species distribution models to assess how severe drought alters projected suitable climatic area for 993 species of Cactaceae, a highly threatened family 11 that is commonly considered drought tolerant. In 91% of cases, models including severe drought were better supported than mean-climate models. Across emissions scenarios (Shared Socioeconomic Pathways (SSPs) SSP1-2.6 to SSP5-8.5) with 100-km dispersal, including severe drought increased the share of species losing suitable climatic area from 58–61% to 69–72%. The proportion of species projected to lose over a quarter of suitable area increased from 26–43% to 55–58%, and the proportion projected to lose over four-fifths increased from 1–15% to 25–35%. With severe drought, restricting dispersal from 100 to 0 km increased the share losing suitable area from 69–72% to 84–85% across SSPs. These declines reduced regional richness, with five bioregions potentially losing over 25% of species. These findings demonstrate that accounting for climatic extremes can alter assessments of biodiversity vulnerability under climate change. Integrating climatic extremes into ecological forecasting will be critical for assessing biodiversity loss and designing effective conservation strategies across taxa and ecosystems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11265-1",
+    "checked_at": "2026-11-12T02:31:19.414428+00:00"
+  },
+  "10.1038/s41586-026-11324-7": {
+    "text": "Disconnects between in vitro and in vivo results in experimental biology have long been recognized as potential hurdles to understanding health and disease. A prototypical example of such a disconnect is the NLRP3 inflammasome, which mediates inflammation in diverse settings of disease and protective immunity 1 , 2 . Activation of the NLRP3 inflammasome in vitro requires two signals: (1) priming by pathogen-associated molecular patterns such as bacterial lipopolysaccharides and (2) activation by molecules that disrupt cellular homeostasis 1 , 3 . By contrast, the NLRP3 inflammasome in vivo is activated by lipopolysaccharide alone. The mechanisms that underlie the difference between in vitro and in vivo activation of the NLRP3 inflammasome are undefined. Here we report that extracellular matrix (ECM) stiffness is a determinant of NLRP3 activities and that in vitro systems using physiological ECM stiffness enable one-signal in vivo-like NLRP3 activities to occur in human and mouse phagocytes. Physiological ECM stiffness induced expression of the transcription factor NRF2, which was found to be necessary for one-signal NLRP3 activation. Mechanistically, we identify Panx1 as an NRF2-regulated gene that promotes NLRP3 activity. Macrophages derived from the stiff matrix of the bone—osteoclasts—had reduced NRF2 levels and impaired NLRP3 activity. Moreover, alveolar macrophages from patients with pulmonary fibrosis displayed reduced NRF2 activity. Finally, NRF2 was required for antitumour immunity induced by cancer vaccines consisting of NLRP3 agonistic adjuvants. These findings indicate that NRF2 may be a transcriptional checkpoint that controls NLRP3 inflammasome activity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11324-7",
+    "checked_at": "2026-11-12T02:31:20.948409+00:00"
+  },
+  "10.1038/s41586-026-11249-1": {
+    "text": "Tumour cells evade detection and elimination by the immune system through a suite of adaptations 1 , including the repression of antigen presentation, which is required for the recognition of tumour cells by CD8 + T cells. Mitochondria have emerged as targets for enhancing antitumour immunity; however, the extensive mitochondrial proteome has remained largely unstudied for its ability to modulate immune responses. Here we show that defects in the mitochondrial protein import machinery promote tumour immunogenicity and synergize with immune checkpoint blockade treatment in melanoma models. Mitochondrial protein import perturbation, specifically through depletion of the TIM23 import complex subunit TIMM50, enhances tumour immunogenicity through a pathway involving mitochondrial DNA escape, cGAS–STING pathway activation and interferon-β (IFNβ) secretion. Secreted IFNβ signals through the type I IFN receptor to activate the JAK–STAT pathway, resulting in increased antigen presentation on MHC class I complexes. Mitochondrial DNA escape in Timm50 -depleted cells is linked to the formation of mitochondrial-derived vesicles. Depletion of SNX9 and RAB9, involved in mitochondrial-derived vesicle formation 2 , suppresses mitochondrial DNA-dependent type I IFN production and signalling. By disrupting mitochondrial proteostasis and membrane architecture, defective protein import in Timm50 -depleted cells drives the immune phenotype. This study shows that mitochondrial protein import inhibition causes tumour immunogenicity, including sensitization to immune checkpoint blockade, by promoting mitochondrial DNA escape and IFNβ-driven MHC class I antigen presentation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11249-1",
+    "checked_at": "2026-11-12T02:31:24.881019+00:00"
+  },
+  "10.1038/d41586-026-03274-x": {
+    "text": "Once the promotion prospects of bureaucrats became tied to birth targets, the country’s one-child policy became more effective. Can the state now reverse this effect?",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03274-x",
+    "checked_at": "2026-11-12T02:31:27.036800+00:00"
+  },
+  "10.1038/s41586-026-11276-y": {
+    "text": "Eukaryotic genomes are exposed to numerous sources of DNA damage that impede replication. Only a decade ago, repriming by the primase–polymerase PRIMPOL was identified as a pathway that enables cells to tolerate DNA damage 1 , 2 , 3 , 4 . However, the molecular mechanism that underlies repriming remains poorly understood, and it is unclear how PRIMPOL is precisely targeted to stalled forks, where along single-stranded DNA PRIMPOL binds and how PRIMPOL is regulated to minimize error-prone DNA synthesis. Here, to dissect the molecular basis of repriming, we perform real-time single-molecule imaging in nuclear extracts that recapitulate genome maintenance. We directly visualize how stalled forks restart through repriming. We show that PRIMPOL is recruited to stalled forks through an interaction with the replicative helicase CDC45–MCM2–7–GINS (CMG). This facilitates primer handover from PRIMPOL to the high-fidelity polymerase ε, minimizing mutagenic DNA synthesis. At near-physiological concentrations, PRIMPOL reprimes leading strands in a CMG-dependent manner and polymerase ε extends those primers. This primary mode of repriming does not require DNA damage checkpoint signalling. PRIMPOL overexpression and checkpoint activation promote a secondary mode of repriming, whereby PRIMPOL restarts DNA synthesis far from CMG and polymerase δ extends those primers. Our data reveal a simple yet effective mechanism that directs PRIMPOL’s activity to stalled forks awaiting restart, and suggest a strategy to inhibit the repriming pathway.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11276-y",
+    "checked_at": "2026-11-12T02:31:27.794196+00:00"
+  },
+  "10.1038/d41586-026-03673-0": {
+    "text": "AlphaGenome 2 can predict the types of cells where a DNA variant is likely to act.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03673-0",
+    "checked_at": "2026-11-12T02:31:28.562554+00:00"
+  },
+  "10.1038/d41586-026-03655-2": {
+    "text": "The brain relies on crucial proteins to maintain neurons. This system is disrupted in mice with neurological disease.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03655-2",
+    "checked_at": "2026-11-12T02:31:29.349405+00:00"
+  },
+  "10.1038/s41586-026-11230-y": {
+    "text": "Breast cancer, the most diagnosed cancer among women, is stratified by gene expression patterns into luminal and basal-like subtypes, and the latter is associated with worse prognosis 1 , 2 , 3 . Recent advances in single-cell technologies have underscored the presence of intratumour heterogeneity, which poses substantial challenges in cancer treatment and achieving long-term disease-free survival 4 , 5 , 6 , 7 . Here we extensively profile epigenetic heterogeneity in a cohort of treatment-naive human luminal tumours, which were obtained directly after surgical resection. By applying a single-cell epigenetic approach based on cytometry by time-of-flight, we identify a recurrent subpopulation of basal-like cells in luminal tumours with a conserved epigenetic signature across patients. These basal-like cells, also identified by deconvolution of whole-genome DNA methylation patterns, are characterized by high expression of aggressive oncogenic traits and downregulation of hormone receptor signalling. Direct comparison of single-cell proteomic and genomic profiling of monomethylation and trimethylation of histone 3 on lysine 4 revealed that these marks are key features associated with loss of luminal identity. Finally, we highlight the potential of concomitant single-molecule profiling of histone modifications on cell-free nucleosomes in blood as an epigenetic liquid biopsy approach for early diagnosis of breast cancer. Moreover, the epigenetic basal signature measured in blood is linked to prognosis, which enables the identification of patients at increased risk for disease relapse.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11230-y",
+    "checked_at": "2026-11-12T02:31:31.696788+00:00"
+  },
+  "10.1038/s41586-026-11280-2": {
+    "text": "The scarcity of terrestrial rocks older than 3.9 billion years (Gyr) has hindered our understanding of Earth’s early evolution, fuelling persistent debates on how and when the first continental crust formed and plate tectonics started. At present, the only unequivocally documented >3.9-Gyr-old rocks are from the Acasta Gneiss Complex, Canada 1 , 2 , 3 . Here we report a 3.95-Gyr-old trondhjemitic gneiss from eastern Hebei, North China Craton, in which primary magmatic zircon records elevated δ 18 O values (average +6.77 ± 0.23‰) and positive ε Hf ( t ) values (weighted mean +1.45 ± 0.27). This suggests a low-temperature altered basaltic source that originated from a mantle depleted in the Hadean. In contrast to the low-pressure origin inferred for the roughly 4.0-Gyr-old Idiwhaa unit in Acasta 2 , the 3.95-Gyr-old trondhjemitic gneiss reported here exhibits geochemical signatures attributed to a high-pressure origin 4 . Thermodynamic and trace element modelling demonstrate that its parental magma formed by means of low-degree (8–16%) melting of basaltic crust at >1.6 GPa and 740–820 °C, suggesting rapid burial of (near-)surface-altered oceanic crust to mantle depths along a cool thermal gradient. We propose that this rapid burial was most likely achieved through a transient subduction event.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11280-2",
+    "checked_at": "2026-11-12T02:31:32.419187+00:00"
+  },
+  "10.1038/d41586-026-03640-9": {
+    "text": "A promising biotechnology company developed a new approach that might treat a rare disease — but its sole employee didn’t do all the work.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03640-9",
+    "checked_at": "2026-11-12T02:31:34.273768+00:00"
+  },
+  "10.1038/s41586-026-11264-2": {
+    "text": "Immunoglobulin A (IgA) is the most abundant antibody isotype produced by mammals, and has a specialized role in mucosal homeostasis 1 . IgA is constantly secreted into the intestinal lumen and binds to commensal microorganisms to regulate their colonization and function 2 , 3 , with unclear implications for health. IgA deficiency is common in humans, but difficult to study, because of its complex aetiology and comorbidities 4 , 5 , 6 , 7 , 8 . Here we use genetically and environmentally controlled mice to show that various models of IgA deficiency result in increased susceptibility to several models of endogenous colorectal cancer. Cellular and molecular analyses revealed that, in the absence of IgA, colonic epithelial cells induce antibacterial factors and accelerate cell cycling in response to the microbiota. Oral treatment with IgA was sufficient to reduce steady-state proliferation and protect mice from tumours; however, this function was due to the structure of the antibody rather than to binding specificity. In a reductionist culture system, IgA directly suppressed epithelial growth. Co-immunoprecipitation mass spectrometry and targeted CRISPR screening identified DMBT1 as an IgA-binding epithelial surface protein that is required for IgA-mediated suppression of proliferation. Together, IgA and DMBT1 tune the normal cycling of absorptive colonocyte progenitors. In IgA-knockout mice, deleting the transmembrane and cytoplasmic signalling portions of DMBT1 was sufficient to reverse both the increased epithelial cell proliferation and the increased tumour susceptibility seen in these mice. These experiments establish a homeostatic function for IgA in tempering physiological epithelial responses to the microbiota to maintain mucosal health.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11264-2",
+    "checked_at": "2026-11-12T02:31:35.734990+00:00"
+  },
+  "10.1038/d41586-026-03591-1": {
+    "text": "A study reports that about 107,000 species are traded worldwide, legally or illegally — more than double a previous estimate.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03591-1",
+    "checked_at": "2026-11-12T02:31:37.267467+00:00"
+  },
+  "10.1038/d41586-026-03660-5": {
+    "text": "Mapping the movements of wildlife across the Amazon and other regions to their exposure to human activities can inform protection initiatives.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03660-5",
+    "checked_at": "2026-11-12T02:31:38.175595+00:00"
+  },
+  "10.1038/d41586-026-03664-1": {
+    "text": "Academic freedom is deteriorating globally, but has soared in a few countries in recent years. Plus, testimony from a member of a year-long simulated Mars mission and how key fungal networks could save Mongolia’s iconic grasslands.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03664-1",
+    "checked_at": "2026-11-12T02:31:40.859627+00:00"
+  },
+  "10.1038/s41467-026-79636-w": {
+    "text": "Bacterial pangenomes provide a shared reservoir of antiphage defenses, yet the ecological and functional constraints shaping this reservoir remain unclear. Here, we combine comparative genomics of 206 Xanthomonas oryzae pv. oryzae ( Xoo ) genomes with cross-infection assays of 50 strains against 36 phages and heterologous expression of 24 defense systems in a phage-sensitive Xoo chassis. The Xoo pan-defensome comprises a conserved core of 9 subtypes and a variable layer of 35 accessory and cloud subtypes structured by host phylogeography. Phages are more infectious on sympatric than allopatric hosts, consistent with local adaptation. Variable systems show stronger apparent activity than core systems, whereas resistance breadth is not predicted by defense system number. Co-expression of representative co-occurring and mutually exclusive system pairs reveals synergistic and antagonistic interactions underlying non-random repertoire assembly. Together, these findings extend the pan-immunity framework by showing that population-level immune reservoirs are shaped by both ecological structure and functional compatibility.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79636-w",
+    "checked_at": "2026-11-12T02:32:00.842907+00:00"
+  },
+  "10.1038/s41467-026-79212-2": {
+    "text": "DNA has emerged as a promising self-assembling material for molecular electronics. Here, we investigate the electrical response of double-stranded DNA (dsDNA) modified with a ferrocene-functionalised psoralen that forms a covalent cross-link at TA–AT sites. A thiol-modified 10-mer DNA conjugate self-assembles on Au substrates, enabling simultaneous mapping of surface topography and current distribution by conductive atomic force microscopy. Under the present experimental conditions, native dsDNA remained close to the current detection limit, whereas incorporation of ferrocene resulted in a measurable increase. Analysis of the current–voltage characteristics did not reveal a clear signature of a single dominant transport mechanism. At higher fields, the response was consistent with field-assisted charge injection across the molecular junction. These results indicate that ferrocene incorporation modifies the electronic response of the DNA assembly and influences charge transport across the molecular layer. This approach requires no pre-derivatisation of the DNA backbone and provides a versatile strategy for post-synthetic functionalisation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79212-2",
+    "checked_at": "2026-11-12T02:32:01.696445+00:00"
+  },
+  "10.1038/s41467-026-79532-3": {
+    "text": "Optical skyrmions, known as topological quasiparticles, have emerged as a distinct photonic degree of freedom with great potential and promising prospects for broad applications. Prior studies have predominantly focused on skyrmions in fully coherent light fields. In this paper, we show that incoherent optical skyrmions can arise from an ensemble of random modes whose statistical correlations are deliberately engineered. Under external obstacles, the engineered statistical correlations enable reconstruction of the focal field, while the skyrmion topology provides a quantized global measure of the structural robustness. Beyond enabling programmable control over skyrmion topology by tailoring these correlations, the statistical construction suppresses the fixed-phase interference between neighboring skyrmion units inherent in coherent superpositions. The demonstrated robustness under obstacles, enhanced skyrmion density resolution, and flexible generation of programmable arrays extensively expand the skyrmion family and offer insights into optical quasiparticles, with potential applications in photonics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79532-3",
+    "checked_at": "2026-11-12T02:32:02.561387+00:00"
+  },
+  "10.1038/s41467-026-79446-0": {
+    "text": "Fungal pathogens must adapt to host-derived stresses to establish infection, yet how secondary metabolite regulation contributes to this process remains poorly understood. Here, we show that Fusarium graminearum , a major cereal pathogen, suppresses the pigment aurofusarin biosynthetic gene cluster in response to host-derived iron excess, thereby preventing rubrofusarin-mediated ferroptosis and promoting invasive growth within wheat tissues. Rubrofusarin directly reacts with Fe²⁺ to form iron oxide complexes, resulting in intracellular iron accumulation, lipid peroxidation, and ferroptosis. Mechanistically, host-derived iron stress activates the HOG-MAPK pathway, leading to Hog1-dependent phosphorylation of the transcription factor FgSR. Phosphorylated FgSR recruits the histone deacetylase FgRpd3 to the aurofusarin biosynthetic gene cluster, establishing a repressive chromatin state that limits rubrofusarin production. Our findings reveal epigenetic repression of secondary metabolism as an adaptive strategy that enables fungal pathogens to withstand host-imposed iron stress, evade ferroptosis, and maintain virulence.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79446-0",
+    "checked_at": "2026-11-12T02:32:03.215014+00:00"
+  },
+  "10.1038/s41467-026-79517-2": {
+    "text": "DNA damage in interphase leads to genome instability in part by promoting missegregation of chromosomes lacking centromeres. Yet the complete molecular mechanisms linking DNA damage to centromere dysfunction remain incompletely understood. Here, we show that prolonged exposure to genotoxic stress induces eviction of the histone H3 variant CENP-A. Displaced CENP-A relocalizes to nucleoli. This process depends on the DNA damage response kinase ATR and occurs in both human and mouse cells. We show that ATR promotes CENP-A eviction by promoting the nuclear localization of the AAA+ ATPase VCP through phosphorylation of Ser784, thereby destabilizing CENP-A-containing nucleosomes. Moreover, CENP-A localization to nucleoli relies on the nucleolar protein NPM1 and the canonical CENP-A chaperone HJURP, but not the H3 histone chaperones DAXX or ATRX. Importantly, ATR-dependent CENP-A eviction persists after cell-cycle re-entry and correlates with the emergence of CENP-A-deficient chromosomes, thereby linking DNA damage directly to segregation defects. Our findings identify a role for ATR in regulating centromere identity under stress and describe a mechanistic pathway that contributes to genome instability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79517-2",
+    "checked_at": "2026-11-12T02:32:03.939214+00:00"
+  },
+  "10.1038/s41467-026-79340-9": {
+    "text": "Numerous viruses have evolved diverse strategies to counteract host antiviral responses. African swine fever virus (ASFV), a large double-stranded DNA virus that threatens the global swine industry and food security, is thought to employ highly complex yet poorly understood mechanisms to facilitate infection. Here, we identify a previously uncharacterized strategy by which ASFV evades host antiviral defenses and maintains virulence. We show that ASFV infection progressively impairs the assembly of ubiquitin conjugates in host cells and that the ASFV-encoded Nudix protein D250R acts as a potent suppressor of cellular ubiquitination. Expression of D250R disrupts the host ubiquitination machinery in a manner dependent on its intact structure. Mechanistically, D250R directly binds ATP via its Nudix domain and inhibits ATP-dependent, E1-mediated ubiquitin activation, thereby suppressing ubiquitination-driven antiviral immune responses and promoting viral replication. Genetic deletion of the D250R gene markedly attenuates ASFV virulence while eliciting robust immune responses in pigs. Notably, immunization with the D250R -deficient virus confers complete protection against lethal challenge with a virulent ASFV strain. Collectively, these findings reveal a previously unrecognized viral strategy to subvert host immunity and establish the D250R -deleted ASFV as a promising live-attenuated vaccine candidate for African swine fever control.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79340-9",
+    "checked_at": "2026-11-12T02:32:05.468453+00:00"
+  },
+  "10.1038/s41467-026-79383-y": {
+    "text": "Sustainable uranium supply is critical for nuclear energy, yet its practical recovery is severely hindered by the chemical complexity of uranium in natural waters. In dynamic aqueous environments, uranium continuously shifts between large, cationic hydrolyzed clusters (acidic/neutral) and compact, anionic carbonate complexes (alkaline). Conventional static adsorbents fail to accommodate these contrasting charges and geometries. Here, we report a geometrically and chemically dual-adaptive three-dimensional covalent organic framework (COF), TAM-DTDA-AMM, to overcome this speciation barrier. Featuring a three-fold interpenetrated dia topology, the functional COF enables environment-driven reversible −COO − ···NH 4 + ion-pair reconfiguration, coupling adaptive pore-surface chemistry with dynamic spatial confinement. Under alkaline environments, cationic microdomains stabilize [UO 2 (CO 3 ) 3 ] 4− via electrostatic and hydrogen-bonding interactions, whereas under near-neutral to acidic conditions, protonated carboxyl groups directly coordinate hydrolyzed uranyl clusters. This dual-adaptive mechanism enables rapid, selective, and high-capacity uranium extraction across diverse aqueous chemistries and offers a general strategy for recognizing multiple metal species in complex environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79383-y",
+    "checked_at": "2026-11-12T02:32:06.043509+00:00"
+  },
+  "10.1038/s41467-026-78755-8": {
+    "text": "Sustaining open microchannels within living soft tissue has remained a problem of mechanics: implants rigid enough to maintain patent channels inflict inflammation, while implants compliant enough to avoid it are sealed within minutes by viscoelastic recoil. Here, we resolve this conflict through topographical mismatch—a deliberate geometric non-conformity between an ultrathin multi-lobed implant and the surrounding tissue. Engineered to exceed the conformability limit of skin, these conduits sustain patency for over 42 hours of sustained physiological deformation and for at least 7 days in living skin without triggering the mechanotransductive signalling that initiates fibrotic encapsulation, and transmit macromolecules of up to 70 kilodaltons through intact skin—surpassing the molecular weight ceiling of transdermal iontophoresis. In vivo, this access reveals that interstitial fluid concentration of a model protein peaks 4.7-fold higher than serum at 2 hours, inverts at 8 hours and rebounds by 24 hours, uncovering tissue-level pharmacokinetics inaccessible to blood sampling. Topographical mismatch establishes a generalisable design principle for sustained, biocompatible interfaces between soft devices and living tissue.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78755-8",
+    "checked_at": "2026-11-12T02:32:06.561677+00:00"
+  },
+  "10.1038/s41467-026-79260-8": {
+    "text": "RHOA, a RAS superfamily member, is frequently mutated in peripheral T-cell lymphoma (PTCL). These mutations are puzzling because variants have opposite effects on conventional RHOA signaling: some (e.g., RHOA G17V ) inhibit normal RHOA function, whereas others (e.g., RHOA C16R ) are constitutively active. Here we show that all PTCL-associated RHOA mutants acquire a non-canonical VAV1-like activity that activates the transcription factor NFAT. This activity is mediated by complexes between mutant RHOA and the RAP1GDS1 607 isoform, is enhanced by T-cell receptor stimulation, and requires components of the T-cell receptor–VAV1 pathway, including PLCγ1 and calcineurin. Unlike canonical RAS superfamily signaling, this neomorphic activity does not require prenylation, the lipid modification anchoring RHOA to membranes. Genetic or pharmacological disruption of this pathway impairs RHOA-mutant PTCL in mouse models and patient-derived cells. These findings explain how mutations with opposing canonical effects converge on a shared oncogenic mechanism and reveal a potential therapeutic vulnerability in RHOA-mutant PTCL.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79260-8",
+    "checked_at": "2026-11-12T02:32:07.101355+00:00"
+  },
+  "10.1038/s41467-026-79667-3": {
+    "text": "Structural materials are commonly designed to bear loads passively, whereas sensing and energy-harvesting functions are typically implemented using externally attached devices that are vulnerable to damage and interfacial failure. Here we report a processing-induced strategy for forming self-organised triboelectric interfaces directly within fibre-reinforced cementitious composites during vibration-assisted casting. Through fresh-state flow, fibre migration, and grid-assisted interception, conductive and dielectric constituents assemble into local fibre-enriched contact regions, enabling intrinsic electromechanical transduction without post-fabrication assembly. Microstructural characterisation reveals local fibre enrichment and fibre-grid interweaving around the embedded coated grid, while first-principles calculations support the interfacial charge redistribution between polyvinyl alcohol and polytetrafluoroethylene. The composites retain high mechanical toughness while exhibiting stable electrical responses under low-frequency mechanical excitation, with signal amplitude scaling with load and contact configuration. After cracking, newly created internal interfaces continue to provide functional output, demonstrating damage-tolerant electromechanical activity. We further demonstrate an event-triggered sensing system in which the embedded interfaces serve as self-powered signal sources for wake-up and alert operations. This work establishes a processing-driven route for programming functional interfaces within structural materials and provides a basis for intrinsically responsive infrastructure components.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79667-3",
+    "checked_at": "2026-11-12T02:32:07.912909+00:00"
+  },
+  "10.1038/s41467-026-79329-4": {
+    "text": "Selective attention biases competition between concurrent visual inputs, yet its computational implementation in the human cortex remains unclear. Using frequency-tagged fMRI (ft-fMRI), we resolve how attention shapes the spatiotemporal dynamics of competing stimulus-driven responses at fine spatial scales. Distinct cortical populations exhibit either in-phase synchronization (target enhancement) or anti-phase synchronization (surround suppression) with attended stimuli. Population receptive field mapping reveals a target–surround organization, with in-phase populations biased toward the attended target and anti-phase populations biased toward the surrounding visual field. Directed attention uniformly amplifies surround suppression across the visual hierarchy, consistent with a distributed suppressive field, whereas modulation of target-related activity increases hierarchically from V1 to hV4. Critically, modulation of surround suppression, but not target enhancement, predicts behavioral performance. These findings dissociate the mechanisms of target enhancement and surround suppression and reveal the computational architecture underlying biased competition in the human cortex, converging with recent primate electrophysiology research.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79329-4",
+    "checked_at": "2026-11-12T02:32:08.592743+00:00"
+  },
+  "10.1038/s41467-026-79259-1": {
+    "text": "Lanthanide-doped upconversion nanoparticles exhibit multicolor emission through discrete, narrowband transitions, enabling applications in bioimaging, lasers, and displays. However, the trade-off between leveraging abundant energy levels for multicolor output and mitigating rapid deactivation of high-lying states remains a fundamental challenge for achieving balanced white-light emission under moderate excitation power. This is particularly true for emitters such as Ho 3+ , which are highly susceptible to severe multiphonon relaxation and back energy transfer. Here, we address this by introducing a core@shell cascaded transition strategy that selectively populates Ho 3+ high-lying states via engineered energy relays at a key intermediate level, Ce 3+ -mediated cross-relaxation control, and precise spatial ion arrangement. Our design achieves a ∼1500-fold boost in blue emission versus conventional architectures, enabling balanced red, green and blue output at 10 W/cm 2 (10 mg/mL suspension). This white-light system surpasses mixed-nanoparticle media in stability, producing white lasers for photonics. Our approach provides a versatile route to high-lying states activation in lanthanide systems, with potential implications for multicolor imaging, displays, and anti-counterfeiting.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79259-1",
+    "checked_at": "2026-11-12T02:32:09.586325+00:00"
+  },
+  "10.1038/s41467-026-78808-y": {
+    "text": "Single-photon sources operating at telecom wavelengths are fundamental components for long-distance optical quantum communication and information processing. Two-dimensional transition-metal dichalcogenides offer a promising platform for such sources, but their development has been hindered by limited spectral range and poor single-photon indistinguishability. Here, we demonstrate a reproducible approach for generating near-infrared (1090–1200 nm) quantum emitters in bilayer MoTe 2 using deterministic strain and defect engineering. These emitters exhibit strong linear polarization, sub-nanosecond lifetimes, high single-photon purity (triggered g (2) (0) as low as ~0.01 under p-shell excitation), and resolution-limited emission. Electrostatic biasing enables spectral tuning, suppresses photon bunching, and shortens radiative lifetimes. Most notably, two-photon interference measurements reveal a Hong-Ou-Mandel visibility of ~7.1%, and up to ~60% with post-selection under p-shell excitation, which represents state-of-the-art performance for quantum emitters in the transition-metal dichalcogenide platform. These results establish MoTe 2 as a viable platform for tunable, low-noise, high-purity single-photon sources for quantum photonics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78808-y",
+    "checked_at": "2026-11-12T02:32:10.341625+00:00"
+  },
+  "10.1038/s41467-026-79063-x": {
+    "text": "Numerous E3 ubiquitin ligases regulate plant immunity through mediating protein homeostasis, yet how homeostasis of E3 ligases is finely regulated per se remains poorly understood. Here, we reveal that the ubiquitin E3 ligase plant U-box 2 (OsPUB2) specifically interacts with OsPUB12 and targets it for ubiquitin-mediated degradation. In contrast to the immunity-suppressing role of OsPUB12, OsPUB2 positively regulates resistance to rice bacterial diseases and contributes to pathogen-associated molecular pattern-induced reactive oxygen burst and defense gene expression. Upon pathogen challenge, the calcium-dependent kinase OsCPK17 and mitogen-activated protein kinase OsMPK6 phosphorylate OsPUB12 at Thr154 and Ser460 in a temporally sequential manner. These two phosphorylation events oppositely regulate OsPUB12’s interaction with OsPUB2 and its subsequent ubiquitination, leading to divergent regulation of OsPUB12 stability and rice immunity. Our findings indicate that distinct phosphorylation of OsPUB12 by immune-related kinases OsCPK17 and OsMPK6 synergistically maintains OsPUB2-mediated OsPUB12 homeostasis, serving as a core mechanism to fine-tune rice immunity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79063-x",
+    "checked_at": "2026-11-12T02:32:11.977031+00:00"
+  },
+  "10.1038/s44221-026-00733-7": {
+    "text": "The ongoing conflict between India and Pakistan, heightened by the April 2025 terrorist attack in Pahalgam, Kashmir, has led to an unprecedented abeyance of India’s participation in the Indus Waters Treaty (IWT). Although this treaty has often been described as an example of hydrological cooperation despite regional conflict, it has systemic problems from the perspective of long-term environmental, political and social sustainability. We identify several factors that justify renegotiating and revising the IWT, leveraging multilateral and domestic policy frameworks to formulate a more effective and comprehensive agreement. This includes metrics set forth on transboundary water cooperation under the Sustainable Development Goals (Indicator 6.5.2) as well as a range of international legal guidelines for drafting ecologically viable treaties. We explore the role that nascent regional organizations could play in reducing tensions over the Indus Basin and facilitating new discussions. Ultimately, a reset in the IWT could catalyse broader confidence-building and a lasting peace in a region where two nuclear rivals share a 3,200-km-long contiguous border.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00733-7",
+    "checked_at": "2026-11-12T02:32:18.447303+00:00"
+  },
+  "10.1038/s44221-026-00736-4": {
+    "text": "Methane accumulation in oxygenated freshwaters, known as the methane paradox, remains a poorly constrained component of aquatic methane cycling. Although methylphosphonate (MPn) hydrolysis is considered an important pathway for oxic methane production in marine systems, its relevance to freshwaters remains uncertain. Here we identify a rapid oxic methane production process in a seasonally stratified reservoir that occurs within hours and is stimulated by locally derived dissolved organic phosphorus (DOP). Cross-depth incubations showed that DOP-enriched filtrates enhanced methane accumulation, whereas inorganic phosphorus suppressed this response. In contrast, MPn amendments enhanced methane accumulation relative to unamended controls only after a pronounced lag, whereas phosphorus-31 nuclear magnetic resonance ( 31 P-NMR) spectroscopy and metagenomic analyses provided no evidence for abundant MPn or canonical MPn biosynthesis. Together, these results indicate that rapid freshwater oxic methane production is associated with a labile, non-MPn DOP pool, expanding the prevailing MPn-centred view of oxic methane production.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00736-4",
+    "checked_at": "2026-11-12T02:32:19.126190+00:00"
+  },
+  "10.1038/s44221-026-00725-7": {
+    "text": "The long-term value of artificial intelligence (AI) for water sciences remains the subject of debate. Here we argue that the core ideas underlying AI (rather than specific algorithms) can be integrated with domain knowledge to open new modes of scientific inquiry. We identify eight such core ideas, each offering capabilities difficult to achieve within traditional frameworks. Among these, expressive inductive bias allows architectures to declare what matters most while retaining capacity to learn the unexpected; differentiable programming enables constrained learning of partially known relationships; generative models capture joint distributions supporting conditional inference from fragmented observations; functional mapping learns solution operators providing orders-of-magnitude speedups for simulations; and inference-time computation enables AI to decompose complex problems. These ideas build on AI’s ability to learn useful representations of complex systems. Across many of them, a central mode of inquiry is ‘constrained learning’: posing unknown relationships as learnable components within known physical or conceptual frameworks. Tools built on these ideas can broaden access to reliable water predictions and support important open questions such as land–atmosphere interactions, organizing principles of the waterscape, groundwater sustainability, and human water-use behaviours. Domain insights can also feed back to advance general AI, benefiting the broader sciences.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00725-7",
+    "checked_at": "2026-11-12T02:32:23.401484+00:00"
   }
 }
