@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-13",
+  "number": 36,
+  "status": "prepared",
+  "lesson": {
+    "title": "Finding Items and Checking Out Smoothly at the Supermarket",
+    "concept": {
+      "key": "polite_aisle_requests",
+      "name_en": "Polite Requests for Help in Aisles",
+      "name_zh": "在超市货架请求帮助的礼貌表达",
+      "explanation_zh": "在超市购物时，如果找不到某件商品，礼貌地向工作人员请求帮助非常重要。使用委婉的表达方式，比如“Could you please tell me where...?”或者“Would you mind showing me where...?”，能让沟通更顺畅，也显示尊重对方。避免直接命令式的语气，这样更容易得到积极的回应。",
+      "examples": [
+        "Could you please tell me where the gluten-free bread is?",
+        "Would you mind showing me where the organic vegetables are?",
+        "Excuse me, do you know which aisle has the almond milk?"
+      ],
+      "common_mistake_zh": "很多学习者直接说“Where is the...?”，这听起来不够礼貌。更好的是说“Could you please tell me where...?”，这样更自然也更礼貌。"
+    },
+    "vocabulary": [
+      {
+        "term": "refrigerated section",
+        "ipa_us": "/rɪˈfrɪʤəˌreɪtɪd ˈsɛkʃən/",
+        "pronunciation_tip_zh": "‘refrigerated’重音在第二个音节，‘section’重音在第一个音节，连读自然",
+        "meaning_zh": "冷藏区",
+        "explain_in_english": "The refrigerated section is where cold items like milk and cheese are kept in a store.",
+        "usage_note_zh": "常用于超市环境，正式和非正式都适用。",
+        "examples": [
+          "The milk is in the refrigerated section.",
+          "Please check the refrigerated section for fresh salads."
+        ]
+      },
+      {
+        "term": "stock up on",
+        "ipa_us": "/stɑk ʌp ɑn/",
+        "pronunciation_tip_zh": "‘stock’发/ɑ/音，‘up’和‘on’之间连读自然",
+        "meaning_zh": "大量购买，囤积",
+        "explain_in_english": "To stock up on something means to buy a large amount to have enough for a while.",
+        "usage_note_zh": "购物或准备时常用，适合口语和书面语。",
+        "examples": [
+          "I need to stock up on snacks for the party.",
+          "People often stock up on supplies before a storm."
+        ]
+      },
+      {
+        "term": "bagging area",
+        "ipa_us": "/ˈbægɪŋ ˈɛriə/",
+        "pronunciation_tip_zh": "‘bagging’重音在第一个音节，‘area’重音在第一个音节，连读自然",
+        "meaning_zh": "装袋区，结账后装购物袋的地方",
+        "explain_in_english": "The bagging area is where customers put their items into bags after paying.",
+        "usage_note_zh": "购物结账时常用，适合所有购物环境。",
+        "examples": [
+          "Please place your items in the bagging area.",
+          "The bagging area is right next to the checkout counter."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Asking for a Hard-to-Find Item and Checking Out",
+      "context_zh": "在超市里找一个难找的商品，并顺利完成结账。",
+      "script_en": "Customer: Excuse me, could you please tell me where the gluten-free pasta is? I’ve looked everywhere but can’t find it.\nEmployee: Of course! You’ll find it in aisle 7, just next to the organic sauces.\nCustomer: Thank you so much! Also, do you happen to have almond milk? I don’t see it in the dairy section.\nEmployee: Yes, almond milk is in the refrigerated section, aisle 4. I can show you if you want.\nCustomer: That would be great, thanks for your help!\nEmployee: No problem at all. If you need assistance with anything else, just let me know.\n\nCustomer (at checkout): Hi, just these items today.\nCashier: Did you find everything you were looking for?\nCustomer: Yes, thank you! By the way, I saw a sign about a discount on cereals. Is it still available?\nCashier: Yes, if you buy two boxes, you get 10% off the total price.\nCustomer: Perfect! I’ll take one more box then.\nCashier: Your total comes to $23.45.\nCustomer: Here you go. Thanks for your help!\nCashier: You’re welcome! Have a great day and thanks for shopping with us.",
+      "translation_zh": "顾客：打扰一下，请问无麸质意大利面在哪里？我找遍了都没找到。\n店员：当然！在7号货架，就在有机酱料旁边。\n顾客：非常感谢！还有，你们有杏仁奶吗？我在乳制品区没看到。\n店员：有的，杏仁奶在冷藏区，4号货架。如果你愿意，我可以带你去。\n顾客：太好了，谢谢你的帮助！\n店员：一点问题都没有。如果你还需要帮助，随时告诉我。\n\n顾客（结账时）：您好，今天就买这些。\n收银员：您找到所有想买的东西了吗？\n顾客：找到了，谢谢！顺便问一下，我看到麦片有折扣，还有效吗？\n收银员：有效，买两盒能打九折。\n顾客：太好了，那我再买一盒。\n收银员：总共是23.45美元。\n顾客：给您，谢谢你的帮助！\n收银员：不客气！祝您有美好的一天，谢谢光临。",
+      "practice_tip_zh": "练习用礼貌句型询问货架位置，多记购物相关词汇和短语，这会让你在超市购物时更自信。"
+    },
+    "reading": {
+      "title": "How Politeness Made My Supermarket Trip Easier",
+      "genre": "first-person monologue",
+      "text_en": "Last weekend, I went to the supermarket with a short list: pasta, milk, and fresh vegetables. While walking through the aisles, I remembered my friend needs gluten-free pasta. I wasn’t sure where to find it, so I politely asked a store employee, \"Could you please tell me where the gluten-free pasta is?\" She kindly pointed me to aisle 7, right next to the organic sauces. I was relieved to find it quickly.\n\nThen, I wanted to get almond milk for my friend. I looked in the dairy aisle but didn’t see any almond milk. I asked another staff member, \"Would you mind showing me where the almond milk is?\" She smiled and led me to the refrigerated section in aisle 4. I appreciated how easy it was to get help when I asked politely.\n\nAt the checkout counter, I noticed a sign about a discount on cereal. I asked the cashier, \"Is there a discount on this cereal?\" He said yes, if I bought two boxes. That was a nice surprise! I decided to buy an extra box. The cashier was friendly and thanked me warmly as I paid.\n\nThis trip reminded me how important polite communication is. Asking for help with respect makes shopping easier and creates a pleasant atmosphere. Next time, I will remember to use polite phrases and check price tags carefully to avoid surprises. I also plan to stock up on some favorite snacks for future visits and hope to explore new items in the refrigerated section. Shopping feels less stressful when I know I can ask for help politely and get good advice.",
+      "summary_zh": "作者讲述了在超市购物时，如何通过礼貌地向店员询问商品位置和折扣，顺利买到需要的东西，强调了礼貌沟通的重要性。还提到计划囤积零食，享受购物过程。",
+      "questions": [
+        {
+          "question": "What two items did the author ask store employees about?",
+          "answer": "Gluten-free pasta and almond milk."
+        },
+        {
+          "question": "Why did the author buy an extra box of cereal?",
+          "answer": "Because there was a discount if they bought two boxes."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 12992,
+    "completion_tokens": 4934,
+    "total_tokens": 17926,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
