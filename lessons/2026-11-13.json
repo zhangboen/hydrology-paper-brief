@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "number": 36,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Finding Items and Checking Out Smoothly at the Supermarket",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 17926,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-13T10:43:00.253583+08:00"
 }
