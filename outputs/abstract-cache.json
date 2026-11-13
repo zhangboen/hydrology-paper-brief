@@ -5325,5 +5325,236 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s44221-026-00725-7",
     "checked_at": "2026-11-12T02:32:23.401484+00:00"
+  },
+  "10.1038/d41586-026-03639-2": {
+    "text": "A Florida fungus might combine the psychedelic compound psilocybin with deadly chemicals to defend itself against hungry animals.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03639-2",
+    "checked_at": "2026-11-13T02:07:37.725021+00:00"
+  },
+  "10.1038/d41586-026-03666-z": {
+    "text": "The Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and funding cuts, researchers say.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03666-z",
+    "checked_at": "2026-11-13T02:07:48.448574+00:00"
+  },
+  "10.1038/d41586-026-03665-0": {
+    "text": "Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03665-0",
+    "checked_at": "2026-11-13T02:07:48.943256+00:00"
+  },
+  "10.1038/d41586-026-03573-3": {
+    "text": "Vaccines and monoclonal-antibody injections are cutting hospitalizations linked to the respiratory virus.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03573-3",
+    "checked_at": "2026-11-13T02:07:49.409634+00:00"
+  },
+  "10.1038/d41586-026-03705-9": {
+    "text": "Earlier CRISPR treatments require removal of a participant’s cells, a complex and costly approach.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03705-9",
+    "checked_at": "2026-11-13T02:07:50.131638+00:00"
+  },
+  "10.1038/d41586-026-03565-3": {
+    "text": "A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03565-3",
+    "checked_at": "2026-11-13T02:07:50.610148+00:00"
+  },
+  "10.1038/d41586-026-03675-y": {
+    "text": "AI tools that summarize scientific literature are picking up decades-old flawed papers — should they be retracted? Plus, the first image of a black hole holds up to scrutiny and how the Artemis II mission might have disrupted GPS.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03675-y",
+    "checked_at": "2026-11-13T02:07:51.178760+00:00"
+  },
+  "10.1038/d41586-026-03671-2": {
+    "text": "Analysis reveals these plants face severe habitat loss across the Americas — plus, researchers test a new way to diagnose obesity. Hear the biggest stories from the world of science | 11 Novemeber 2026",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03671-2",
+    "checked_at": "2026-11-13T02:07:52.578137+00:00"
+  },
+  "10.1038/d41586-026-03642-7": {
+    "text": "Picture produced by fresh analysis of the data that yielded the first-ever image of a black hole outputs the same, ring-like shape.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03642-7",
+    "checked_at": "2026-11-13T02:07:53.369460+00:00"
+  },
+  "10.1038/d41586-026-03637-4": {
+    "text": "The waters around the zone of floating debris appear greener and bluer on account of high levels of tiny bits of plastic.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03637-4",
+    "checked_at": "2026-11-13T02:07:54.767581+00:00"
+  },
+  "10.1038/d41586-026-03636-5": {
+    "text": "A fresh approach considers waist circumference, rather than just weight and height, providing a more accurate classification.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03636-5",
+    "checked_at": "2026-11-13T02:07:55.206324+00:00"
+  },
+  "10.1038/s41561-026-02101-2": {
+    "text": "A machine-learning model leverages 1,017 toxicity assays in three species and 24 geospatial predictors to generate high-resolution maps of toxicity from pharmaceutical mixtures in rivers worldwide. Analyses reveal that targeted management of six key sources of pharmaceuticals might substantially reduce the river areas at risk.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41561-026-02101-2",
+    "checked_at": "2026-11-13T02:08:31.571419+00:00"
+  },
+  "10.1038/s41561-026-02096-w": {
+    "text": "Active pharmaceutical ingredients are used worldwide to improve health outcomes but are also ubiquitous environmental contaminants. However, a detailed picture of pharmaceutical risk in global surface waters is largely missing owing to inherent challenge in monitoring pharmaceuticals across all surface waters and assessing mixture effects. Here we generated a 2-km snapshot map of acute mixture toxicity for 53 pharmaceuticals to an invertebrate, alga and bacterium in global rivers, using a machine learning model trained on 1,017 laboratory toxicity assays and 24 geospatial predictors. We predicted pharmaceutical exceedance (mixture toxicity ≥5% regulatory threshold) in 13% of riverine grid cells, with hotspots in Southern China, Northern India, Central and Western Europe and the Southeastern USA. Source proximity and hydrochemistry directly drove pharmaceutical exceedance, while socioeconomic and climatic factors exerted cascading effects by shaping source distribution, hydrochemistry and topography. Encouragingly, counterfactual scenarios indicated that targeted management of six key sources could reduce the river exceedance area by 54–92%, with the greatest benefits from livestock, aquaculture operations and wastewater treatment plants. Moreover, we identified nine priority pharmaceuticals, contributing 54–90% of mixture toxicity. Our work provides a policy atlas for monitoring, intervention and regulation and offers a transferable framework to address other contaminants and endpoints.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41561-026-02096-w",
+    "checked_at": "2026-11-13T02:08:32.135271+00:00"
+  },
+  "10.1038/s41467-026-79156-7": {
+    "text": "Aluminium-graphite batteries offer low cost and intrinsic high safety. However, the voltage window mostly remains limited because conventional chloroaluminate ionic-liquid electrolytes with Lewis-acidic Al 2 Cl 7 − ([AlCl 3 –AlCl 4 ] − ) anions are intrinsically moisture-sensitive and unstable beyond 2.5 V. To extend the voltage window, a polytetrafluoroethylene/AlF 3 framework‑confined, fluorine-rich chloroaluminate ionic-liquid composite quasi-solid-state electrolyte cosolvated with 1,1,2,2-tetrafluoroethyl 2,2,2-trifluoroethyl ether is designed for constructing stable aluminium-graphite batteries with a cut-off voltage of 3.0 V. With the presence of AlF 3 , the Al 2 Cl 7 − is regulated through AlF 3 -associated chloroaluminate interactions, which reduces its activity and suppresses its electrochemical decomposition in the range of 2.5–3.0 V. Meanwhile, the fluorinated ether coordinates with the AlCl 3 units in Al 2 Cl 7 − and promotes the formation of a fluorine-rich artificial interface on the graphite, essentially improving the electrochemical stability via alleviating electrochemical decomposition of AlCl 4 − up to 3.0 V. Furthermore, ion transport channels could be well maintained during large mechanical deformation induced by anion-intercalation/deintercalation of graphite interlayer. Therefore, the Al|electrolyte|graphite cells deliver discharge capacity beyond 137 mAh g −1 up to 3.0 V (specific current: 5.0 A g −1 ) (compared to 64 mAh g −1 , charged up to 2.5 V at 5.0 A g −1 ) along with stable cycles beyond 35,000, demonstrating long-term high-voltage operation in rechargeable aluminium–graphite batteries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79156-7",
+    "checked_at": "2026-11-13T02:08:33.167765+00:00"
+  },
+  "10.1038/s41467-026-79098-0": {
+    "text": "As the global biodiversity crisis accelerates across terrestrial and shallow marine systems, the extent of this collapse remains unknown within the deep sea. Despite encompassing most of the ocean, deep-sea ecosystems remain the planet’s final frontier. Within this vast realm, the mesopelagic zone represents a critical yet poorly understood habitat, particularly in terms of its conservation status. Here, we integrate genomic data with ecological niche modeling to assess and forecast the conservation status of five mesopelagic species in the Gulf of Mexico. Samples were collected from 2011 to 2023, representing one of the longest time-series datasets for mesopelagic fauna in oceanographic history. All species exhibit current effective population sizes below the minimum thresholds for long-term viability. Genomic diversity declined over a decade in some species at rates comparable to or exceeding those reported for threatened and endangered species. Demographic modeling indicates historical population declines across all species. Ecological niche models predict declining Gulf habitat suitability for most species under future climate change scenarios. Together, our results identify indicators associated with elevated extinction risk in Gulf mesopelagic species and raise the possibility of a broader, unnoticed crisis, challenging assumptions of stability and resilience in mesopelagic ecosystems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79098-0",
+    "checked_at": "2026-11-13T02:08:33.863210+00:00"
+  },
+  "10.1038/s41467-026-79171-8": {
+    "text": "Biological nitrogen (N 2 ) fixation is crucial for incorporating atmospheric N 2 into the biosphere. However, its evolutionary trajectory remains enigmatic, particularly given the presumed scarcity of molybdenum (Mo) in Archean seawater prior to oxidative weathering and the apparent early emergence of Mo-based nitrogenase over its vanadium (V)-based alternatives. Here, we integrate partitioning experiments with an extensive analysis of iron-rich sediments through time to investigate the behavior of Mo and V in ancient seawater. Our results suggest that, during the Archean to Paleoproterozoic, dissolved V was removed from seawater more efficiently than Mo, primarily through preferential incorporation into banded iron formations (BIF). Consequently, Mo was likely more available in seawater than commonly assumed, with Archean seawater characterized by higher Mo/V ratios than today. Greater Mo availability relative to V provides a compelling explanation for the earlier evolution of Mo-based nitrogenase despite the absence of widespread oxidative weathering, and helps resolve the apparent paradox surrounding the early evolution of biological N 2 fixation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79171-8",
+    "checked_at": "2026-11-13T02:08:34.390748+00:00"
+  },
+  "10.1038/s41467-026-79264-4": {
+    "text": "Physical adsorption on ligand-protected colloidal nanoparticles is central to their properties and applications, yet adsorption events on dynamic ligand shells are rarely defined, counted, or quantified with molecular precision. Here we show that on a native ligand shell without pre-designed receptor-like motifs, molecular adsorption can trigger stoichiometric host-guest recognition through dynamic ligand reorientation. In aqueous dispersion, atomically precise [Au 25 ( p -MBA) 18 ] − ( p -MBA = para -mercaptobenzoic acid) nanoclusters accommodate tetraalkylammonium ions within transient aromatic pockets formed by three to four neighboring p -MBA ligands. NMR titration and diffusion-ordered spectroscopy reveal an apparent saturated binding number of six guests per nanocluster, with an apparent association constant of ~3.5 × 10 4 M −1 and ΔG of ~−25 kJ•mol −1 for tetrapropylammonium binding. Molecular simulations and free-energy analysis rationalize this stoichiometry through a cooperative yet self-limiting mechanism, in which ligand reorientation creates bowl-like pockets stabilized by multiple CH···π interactions while steric constraints limit further guest accommodation. The guest-size- and surface-dependent binding behaviors further reveal the adaptive nature of emergent pockets. These findings change the role of the ligand shell from a stabilizing layer or diffuse adsorption medium to an active supramolecular interface capable of producing molecularly defined recognition, paving the way for adaptive nanomaterials, selective sensing, and stimuli-responsive colloidal systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79264-4",
+    "checked_at": "2026-11-13T02:08:34.839415+00:00"
+  },
+  "10.1038/s41467-026-79474-w": {
+    "text": "Soil microbial activity, and the balance of anabolic (carbon assimilating) and catabolic (CO 2 -releasing) processes, control the magnitude and direction of soil carbon fluxes. Soil hydration controls this activity, and with hydroclimate volatility increasing across many regions, microbial responses to drought-rewetting cycles urgently require quantification. We conducted rainfall exclusion experiments at two Mediterranean-type field sites, coupling isotope labeling with multi-omics, to link microbial growth, greenhouse gas fluxes, and the carbon sources driving both. Rehydration shortened apparent cell generation times from years to days within minutes. High-intensity drought lengthened the lag before growth resumed, yet metagenomic inference indicated post-drought enrichment of rapid-growth phenotypes. Drought and rehydration shifted the soil metabolome, implicating specific osmolytes in the microbial response and suggesting metabolite diversity modulates microbial function. These results constrain soil microbial activity rates and mechanisms underlying drought-rewetting responses and motivate further study of carbon cycling under increasingly volatile hydroclimates.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79474-w",
+    "checked_at": "2026-11-13T02:08:36.605020+00:00"
+  },
+  "10.1038/s41467-026-79254-6": {
+    "text": "Threat learning requires rapid adaptation, but how the brain weights successive aversive experiences remains unclear. Here we show that many male mice exhibit delayed freezing acquisition during auditory fear conditioning. A trial-wise discount reinforcement learning model captured these dynamics through transient attenuation of early associative updating. Medial prefrontal neurons projecting to the periaqueductal gray constrained acquisition and subsequent cue-evoked freezing: inhibition increased freezing, whereas activation reduced it. Calcium imaging of individual neurons identified a subpopulation with delayed post-shock responses that declined during learning and predicted the model-derived discount-like variable. Temporally restricted inhibition implicated activity extending beyond the shock in constraining early acquisition. Local somatostatin interneurons showed increasing shock-evoked activity and provided inhibitory input to these projection neurons, suggesting a mechanism for relaxing this constraint. These findings link the trial-wise weighting of aversive experience to a prefrontal inhibitory microcircuit and provide a framework for understanding individual differences in threat memory formation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79254-6",
+    "checked_at": "2026-11-13T02:08:37.025554+00:00"
+  },
+  "10.1038/s41467-026-79537-y": {
+    "text": "Alkaline water electrolysis is the most established route to electrochemical hydrogen production, but the limited lifetime of anode catalysts makes long-term equipment investment costly and hinders miniaturization. Here we show that, unlike the extensively investigated nickel- and nickel–iron-based hydroxides, the long-neglected cobalt–nickel hydroxides are promising anode catalysts whose stability exceeds current industrial requirements. A cobalt–nickel layered double hydroxide anode enables stable alkaline water electrolysis for more than 8,000 hours at 1 A cm –2 in 6 M sodium hydroxide at 80 °C. This stability arises from the strengthened metal–oxygen bonding of the in-situ-formed cobalt–nickel oxyhydroxide, which raises the energy barrier for lattice-oxygen loss during the oxygen evolution reaction. In a practical electrolyzer, the anode achieves an energy consumption of ~4.2 kWh per normal cubic metre of hydrogen at 1 A cm –2 and operates stably for thousands of hours. The design of high-current-density alkaline electrolyzers should therefore prioritize robust anode stability under industrial conditions in addition to activity optimization.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79537-y",
+    "checked_at": "2026-11-13T02:08:37.699117+00:00"
+  },
+  "10.1038/s41467-026-79175-4": {
+    "text": "Small RNAs (sRNAs) regulate plant development, stress responses and genome stability by guiding ARGONAUTE (AGO) proteins to their targets. AGO1 is the major effector of microRNA (miRNA) and 21/22-nucleotide (nt) secondary small interfering RNA (siRNA) pathways in Arabidopsis thaliana . However, how AGO1 subcellular dynamics shape sRNA loading and silencing remained unclear. Here, we validate a functional nuclear localization signal (NLS) in the N-terminal extension of AGO1 and identify IMPORTIN α2 (IMPα2) as a nuclear import factor acting within a larger importin α network. Using engineered nuclear-only and cytoplasmic-only AGO1 variants, we show that exclusive cytoplasmic AGO1 allows full miRNA target repression and secondary siRNA production in ago1 mutants, whereas nuclear-retained AGO1 only partially rescues miRNA function and exerts a dominant-negative effect on secondary siRNA biogenesis. sRNA immunoprecipitation assay reveals that miRNAs are preferentially loaded into AGO1 in the nucleus, while tasiRNA loading predominantly occurs in the cytoplasm. Collectively, our findings demonstrate that AGO1 spatial partitioning itself quantitatively shapes the efficiency and specificity of sRNA loading and the silencing outputs.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79175-4",
+    "checked_at": "2026-11-13T02:08:38.207153+00:00"
+  },
+  "10.1038/s41467-026-78811-3": {
+    "text": "High-quality cellular representations are important for understanding complex biological systems. However, due to limitations in both data availability and practical utility, most existing computational methods are designed for a single modality (e.g., scRNA-seq or scATAC-seq), restricting their ability to capture cellular heterogeneity. Here, we propose scMomer, a multistage pretraining framework designed to infer robust cellular representations by integrating multimodal knowledge into scRNA-seq-only inputs. The framework progressively learns through three stages. Firstly, it pretrains unimodal encoders on single-modality datasets to obtain modality-specific representations. Secondly, it aligns these modalities using paired data to learn joint representations. Thirdly, it applies knowledge distillation to transfer knowledge of the missing modality (scATAC-seq) into a cross-modal student encoder, enabling the inference of multimodal-aware representations from scRNA-seq-only inputs. We perform extensive experiments show that the representations learned by scMomer achieve superior performance compared with state-of-the-art methods across diverse tasks, including cross-modality translation, cell annotation, drug response prediction, perturbation prediction, and gene property prediction, demonstrating its robustness and versatility. Overall, we demonstrate that scMomer enables unimodal data to yield robust cellular representations, providing an effective solution to missing-modality modeling.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78811-3",
+    "checked_at": "2026-11-13T02:08:38.672631+00:00"
+  },
+  "10.1038/s41467-026-79789-8": {
+    "text": "Precisely constructing exclusive metal-oxide interfacial active sites while eliminating non-interfacial species represents a longstanding challenge in heterogeneous catalysis. Here we construct catalysts featuring exclusively isolated Pt@WO x interfacial sites via a controlled electrostatic adsorption strategy, thereby eliminating non-interfacial Pt species, enabling controlled reaction pathways. We identify that selective C–O bond activation is governed by the availability of interfacial reactive hydrogen, where isolated Pt sites drive deep hydrogenolysis, while Pt@WO x interfacial sites control reaction pathways by constrained hydrogen availability. This principle is validated in glycerol hydrogenolysis, achieving a high 1,3-PDO selectivity of 73.5% at a low temperature of 130 °C. Experiments reveal that 1,3-PDO selectivity is not enhanced by increasing active site density, but by eliminating intrinsically unselective sites, thereby reshaping the reaction energy landscape to suppress thermodynamically driven over-hydrogenolysis. This architecture provides an ideal platform for disentangling interface effects from contributions arising from non-interfacial metal species.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79789-8",
+    "checked_at": "2026-11-13T02:08:39.257958+00:00"
+  },
+  "10.1038/s41467-026-78753-w": {
+    "text": "Horizontal gene transfer drives rapid evolutionary innovation, yet well-substantiated cases are largely confined to prokaryotes. Eukaryote-to-eukaryote transfer remains exceptionally rare, and direct genome-scale demonstrations are absent. Here, inspired by endosymbiotic genome acquisition, we show that mammalian cells can initiate genome-scale horizontal gene transfer through phagocytic uptake of intact algal cells, albeit at a much lower frequency than cell fusion. Live-cell imaging captures the early nuclear appearance of transferred algal DNA after fusion, while genome sequencing and cytogenetic analyses reveal stable retention of chromosome-scale algal DNA in mammalian cells. Hybrid cells maintain more than 16 Mb of algal DNA, including intact chromosomes, as telomere-linked structures that persist for 95 generations without selection. Transferred algal DNA shows a progressive increase in DNA methylation together with enrichment of repressive histone modifications, forming heterochromatic domains that physically associate with host chromosomes. Notably, mammalian cells deficient in a de novo DNA methyltransferase show reduced stable establishment and retention of transferred algal DNA, supporting a gatekeeping role for DNA methylation in the stable accommodation of foreign genomes. Our findings reveal an epigenetic mechanism that contributes to the stable accommodation of large-scale foreign DNA between distantly related eukaryotes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78753-w",
+    "checked_at": "2026-11-13T02:08:40.019781+00:00"
+  },
+  "10.1038/s41467-026-79155-8": {
+    "text": "Chimeric antigen receptor (CAR)-modified Vδ2 T cells are an attractive therapeutic cell platform for cancer immunotherapy. However, their clinical efficacy is limited by short in vivo persistence due to insufficient cytokine support and high susceptibility to activation-induced cell death (AICD). Through comparison of membrane-bound (mb) cytokines, we identified mbIL-18 to support superior anti-tumor activity of CAR-Vδ2 T cells in vitro and in vivo. To reduce constitutive surface exposure of IL-18 and enable antigen-driven signal 3, we fused MyD88 - the key IL-18R signaling mediator - to an extracellular domain of Fas (Fas88). Antigen stimulation-induced FasL engagement of Fas88 triggered IL-18 signaling while simultaneously protecting Vδ2 T cells from AICD. Fas88-armed human CAR-Vδ2 T cells produced superior yet stimulation-dependent in vivo expansion and functional persistence in xenograft models of hematologic and solid malignancies. Together, these findings highlight the importance of IL-18 signaling and AICD resistance for CAR-Vδ2 T cell activity, enabling a single-transgene modification to limit inflammatory risk and facilitate clinical translation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79155-8",
+    "checked_at": "2026-11-13T02:08:40.518504+00:00"
+  },
+  "10.1038/s43247-026-04189-1": {
+    "text": "The understanding of the seafloor tidal response in deep-sea environments remains sparse due to the logistical challenges associated with long-term deployment of sensors in such extreme environments. Here, we demonstrate the capability of Distributed Acoustic Sensing technology to monitor tidal deformation in the deep sea. Leveraging the thermal stability of the deep Mediterranean Sea and a signal processing approach for low-frequency noise suppression, we achieve a sensitivity on the order of picostrain per second. Although common-mode noise removal, a pivotal stage in data preprocessing, attenuates part of the tidal deformation signals, it effectively enhances the continuous monitoring of part of the Earth tides over tens of kilometers with kilometer-scale spatial resolution. This result is supported by agreement with theoretical predictions. These findings support the use of Distributed Acoustic Sensing for extracting sub-nanostrain signals at periods exceeding several hours, with potential applications to constraining the elastic and mechanical properties of the upper crust in offshore regions and calibrating ocean tide models.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04189-1",
+    "checked_at": "2026-11-13T02:08:43.442585+00:00"
+  },
+  "10.1038/s43247-026-04158-8": {
+    "text": "Treasure Island, a century-old artificial landmass in San Francisco Bay, exemplifies the long-term climate vulnerabilities of reclaimed coastal lands under accelerating sea-level rise. Here we show, using historical records, multi-decadal satellite interferometric synthetic aperture radar, three-dimensional geomechanical modeling, and deep learning projections, that the island is undergoing persistent subsidence (5–11 mm yr −1 ) and lateral sliding (up to 6 mm yr −1 ) at its northwest corner. These patterns reflect the complex deformation within a compressible and heterogeneous foundation. Our analysis of land-water interactions projects that sea-level rise is likely to surpass subsidence as the dominant contributor to flood exposure by 2030, with high-emission scenarios indicating significant inland inundation risk by 2050. These findings reveal acute sustainability challenges for Treasure Island’s planned redevelopment and highlight the hidden risks inherent in aging artificial coastlines. While site-specific, this century-scale diagnostics provide a transferable framework for assessing relative sea-level rise and guiding adaptation on reclaimed coasts with similar geotechnical and climatic conditions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04158-8",
+    "checked_at": "2026-11-13T02:08:43.999088+00:00"
+  },
+  "10.1038/s43247-026-04184-6": {
+    "text": "Climate change reshapes forest ecosystems from individual trees to regional landscapes, yet adaptive forest management often overlooks mismatches between ecological function and spatial connectivity. We construct a network framework integrating functional diversity and landscape structure to simulate forest dynamics across the Pearl River Delta urban agglomeration from 2010 to 2100 under three climate pathways. The results show that the moderate-emission scenario (SSP245) can enhance functional performance predominantly within natural forests, whereas the high-emission scenario (SSP585) may yield short-term functional benefits for peri‑urban forests that cannot translate into improved landscape connectivity. While the regional forest network appears broadly stable, local forest patches exhibit highly divergent trajectories: some improve, others degrade, and many display uncoordinated shifts between function and structure. We categorize subnets into four climate response types, each requiring distinct management priorities. This transferable diagnostic framework pinpoints climate-vulnerable forest areas and enables planners to move beyond connectivity-centric strategies toward targeted, function-oriented climate adaptation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04184-6",
+    "checked_at": "2026-11-13T02:08:44.950143+00:00"
+  },
+  "10.1038/s43247-026-04153-z": {
+    "text": "Tea plantations are an important source of income across Asia and Africa, yet their land requirements may create trade-offs with food security and biodiversity conservation. Using satellite observations and cloud computing, we developed GlobalTea10m and assessed a composite score integrating yield and quality to represent potential economic benefits (SEconomic), food security, and ecological security across nine tea-producing countries. Here we show that five countries achieved relatively high performance in at least two dimensions. China showed the strongest overall balance, whereas India combined favorable food- and ecological-security profiles with weaker SEconomic. Sri Lanka had the highest SEconomic but lower food- and ecological-security scores. Rwanda and Tanzania showed contrasting imbalances, and Kenya underperformed in all three dimensions. Spatial overlaps with productive cropland and conservation-priority areas indicate potential land-use trade-offs but do not by themselves demonstrate reduced food production or ecological degradation. These results support spatial planning, improved plantation management, and value-chain development tailored to national conditions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04153-z",
+    "checked_at": "2026-11-13T02:08:46.389915+00:00"
+  },
+  "10.1038/s43247-026-04209-0": {
+    "text": "Atmospheric organic carbon deposition acts as both a critical terminal sink for air pollutants and a substantial nutrient subsidy to terrestrial ecosystems. A substantial fraction of deposited atmospheric organic carbon reaches terrestrial ecosystems as dissolved organic carbon through precipitation and canopy throughfall. However, this atmospheric dissolved organic carbon subsidy remains missing from current global carbon budgets. Here, we reconstruct global dissolved organic carbon deposition (1980–2020) by integrating machine learning with stable and radiocarbon isotope constraints. We estimate a global deposition flux of 612 Tg C yr⁻¹, rivaling global land-to-ocean export. Crucially, canopy interception dominates ( ~ 52% of the global flux) yet is systematically underestimated by chemical transport models. We further demonstrate that deposition has decoupled from rising precursor emissions, governed instead by shifting meteorological regimes. This persistent atmospheric input partially offsets lateral hydrological carbon losses, highlighting the atmosphere as an active conveyor linking atmospheric processes and terrestrial carbon cycling.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04209-0",
+    "checked_at": "2026-11-13T02:08:46.926720+00:00"
+  },
+  "10.1038/s41893-026-01984-8": {
+    "text": "The transition to a sustainable future has intensified interest in technologies that can convert sunlight into useful fuels and chemicals. Photosynthetic biohybrid systems combine light-harvesting materials with biological catalysts, bringing together the strengths of both abiotic and biological approaches to solar-to-chemical conversion. Although they offer several advantages, their performance remains limited by challenges in charge transfer, mass transport, stability and system integration. Here we examine the working principles governing photosynthetic biohybrid systems, analyse the sources of energy loss and discuss the design strategies and sustainability considerations needed to advance the field towards practical solar-driven chemical manufacturing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01984-8",
+    "checked_at": "2026-11-13T02:08:47.991804+00:00"
+  },
+  "10.1038/s41893-026-01954-0": {
+    "text": "Harvesting blue energy from salinity gradients offers a sustainable route to reducing fossil fuel use and expanding clean energy supplies. However, current nanofluidic membranes struggle to balance strength, self-repair and high efficiency simultaneously. Here we report ultratough, self-healing hydrogel ionic channels (HICs) engineered through multicomponent synergy to address these limitations. Featuring continuous nanofluidic networks with over 60% water content, these HICs facilitate rapid ion transport while suppressing concentration polarization. Consequently, they achieve a record power density of 48.57 W m −2 under a standard 0.5 M/0.01 M NaCl gradient—the highest reported for homogeneous membranes—and up to 54.62 W m −2 in natural seawater. The HICs exhibit high mechanical robustness (6.18 MPa tensile strength and 545% elongation) and intrinsic self-healing, enabling >91% recovery of energy efficiency and structural integrity after severe mechanical damage. By integrating HICs into self-powered environmental monitors for real-time air quality and climate tracking, this work provides a battery-free platform that aligns renewable power generation with sustainable ionic technologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01954-0",
+    "checked_at": "2026-11-13T02:08:48.694729+00:00"
+  },
+  "10.1038/s44221-026-00751-5": {
+    "text": "The next frontier in climate risk management is not just better hazard detection, but better impact prediction. A five-layer framework could help transform physical observations into forecasts of real-world consequences and more effective responses.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s44221-026-00751-5",
+    "checked_at": "2026-11-13T02:08:49.640052+00:00"
   }
 }
