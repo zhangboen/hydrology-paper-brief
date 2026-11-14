@@ -5556,5 +5556,152 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s44221-026-00751-5",
     "checked_at": "2026-11-13T02:08:49.640052+00:00"
+  },
+  "10.1038/d41586-026-03679-8": {
+    "text": "Being able to target and debug systems could improve artificial-intelligence safety and utility.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03679-8",
+    "checked_at": "2026-11-14T01:45:02.514992+00:00"
+  },
+  "10.1038/d41586-026-03716-6": {
+    "text": "In the first of our new podcast series, a Nature reporter looks for reasons for hope in the face of overwhelming climate anxiety. In episode one of Cooked? we investigate reasons for optimism in climate data.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03716-6",
+    "checked_at": "2026-11-14T01:45:03.135684+00:00"
+  },
+  "10.1038/d41586-026-03638-3": {
+    "text": "Aged mice engineered to lack granzyme K have improved heart and liver function and less kidney damage.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03638-3",
+    "checked_at": "2026-11-14T01:45:04.534404+00:00"
+  },
+  "10.1038/s41558-026-02795-7": {
+    "text": "Seasonal breeders often depend on predictable resource pulses, yet climate change may alter reliability without shifting average timing. Here, using satellite chlorophyll records and two decades of individual breeding data for a tropical seabird, we show that weakened breeding synchrony and declining and less consistent reproductive success were associated with increasingly variable bloom timing without a consistent directional shift. Focusing on average timing alone could mean that climate impacts on species are overlooked.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41558-026-02795-7",
+    "checked_at": "2026-11-14T01:45:11.301996+00:00"
+  },
+  "10.1038/s41467-026-79068-6": {
+    "text": "Mechanisms interlinking metabolic cues with cell cycle programs remain unknown. We show that an oscillating cytosolic redox critically governs cell cycle transitions in Caulobacter crescentus . By integrating evolutionary genetics with metabolic flux tracing, we uncover temporally orchestrated shifts in core metabolic pathways that remodel cytosolic redox across the cell cycle. Early stages channel carbon flux toward unsaturated fatty-acid synthesis and a reverse-TCA to drive cytosolic oxidation-coupled G1-to-S transition. The later stages depend on an enhanced forward-TCA cycle that promote cytosolic reduction-driven proliferation. Strikingly, perturbing fatty-acid synthesis or reverse/forward-TCA cycle uncouples growth from proliferation. Intriguingly, a biphasic glucose uptake program dictates the cell cycle-stage-specific metabolism. These findings reveal a previously unrecognized metabolic-redox circuitry that coordinates cell cycle progression in bacteria. They further unveil several metabolic branchpoints as promising targets for chemical intervention to disrupt critical and conserved cell cycle events, with potential applicability to bacterial pathogens.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79068-6",
+    "checked_at": "2026-11-14T01:45:14.121082+00:00"
+  },
+  "10.1038/s41467-026-79422-8": {
+    "text": "The development of high-performance frequency-agile microwave signal generators has long been constrained by the inherent limitations of electronic technology. To overcome this challenge, researchers have increasingly turned to photonics, leveraging its high-frequency and broad-bandwidth capabilities. Here, we introduce and demonstrate a Photonic-assisted Ingenious Agile Non-periodic Oscillator (PIANO), which enables high-performance frequency-agile microwave signal generation with flexible frequency agility, ultra-low phase noise, rapid switching speed, and large time-bandwidth product (TBWP). The key innovation of PIANO lies in incorporating a dynamic frequency-shifting module into an optoelectronic oscillator (OEO) cavity, thereby extending the conventional delay-based OEO framework by decoupling frequency-agility behavior from the cavity-delay constraint. During experiments, PIANO successfully generated various flexible frequency-agile waveforms, with a frequency-switching time of 27 ns, phase noise as low as −134 dBc/Hz@10 kHz, and TBWP up to 1,440,000. This work offers a promising approach to high-performance frequency-agile microwave signal generation for applications such as radar and communication systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79422-8",
+    "checked_at": "2026-11-14T01:45:15.684151+00:00"
+  },
+  "10.1038/s41467-026-79411-x": {
+    "text": "Despite advances in assisted reproductive technology, success rates remain modest, largely due to implantation failure and inadequate support of early pregnancy. Corpus luteum function and consequent progesterone secretion are essential for these processes. Large luteal cells are the primary source of progesterone production, yet the transcriptional programs that define their identity remain unclear. Here, we identify the nuclear receptor Liver receptor homolog-1 as a key regulator of large luteal cell function. Loss of Liver receptor homolog-1 disrupts lipid droplet accumulation and downregulates key steroidogenic genes. Mechanistically, Liver receptor homolog-1 undergoes chromatin-binding reprogramming during luteinization, establishing regulatory regions that couple lipid metabolism to steroidogenesis. Large luteal cells integrate energy metabolism with steroid hormone production and promote nuclear acetyl-coenzyme A synthesis via Acyl-CoA synthetase short-chain family member 2, linking metabolic reprogramming to epigenetic control. These findings establish Liver receptor homolog-1 and Acyl-CoA synthetase short-chain family member 2 as key regulators coordinating lipid homeostasis, chromatin regulation and fertility.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79411-x",
+    "checked_at": "2026-11-14T01:45:16.260415+00:00"
+  },
+  "10.1038/s41467-026-78505-w": {
+    "text": "The genetic and developmental basis for the gain and loss of complex traits remains a central question in evolutionary biology. We investigate the loss of the adult light organ (LO) in the diurnal non-luminous firefly Pristolycus diversecostatus as a natural case of lineage-specific gene loss. A high-quality genome assembly of Pri. diversecostatus , combined with comparative multi-omics and functional analyses with its luminous relative Aquatica leii , reveals that LO loss correlates with large-scale gene family contraction and transcriptional rewiring of three core metabolic modules. RNAi experiments in Aqu. leii show that Laccase2 is required for LO integrity and bioluminescence. Key regulators of LO-specific cuticle transparency are identified, and a homeobox centered gene regulatory network is uncovered. This multi-omics study provides a genome-wide perspective on the regulatory modules underlying a complex organ and offers a framework based on regulatory network simplification for understanding the formation and loss of complex traits in evolution.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78505-w",
+    "checked_at": "2026-11-14T01:45:16.878871+00:00"
+  },
+  "10.1038/s41467-026-78900-3": {
+    "text": "The mammalian sensory cortex (S1) has a well-characterized body part-specific topography. However, most motor cortex atlases to date are only coarsely defined. Here, we demonstrate that optical mapping of neuronal activity in awake mice reveals a distinct, body-part specific organization of mouse secondary motor cortex (M2). This M2 topography was identified by recognizing that intrinsic neuronal fluctuations are selectively synchronized between homologous sub-regions of S1 and M2. These fluctuations were strongest during rest and quenched during movement, and were not prominent in corticospinal neurons (CSNs), indicating that they do not represent motor output. Functional characterization of M2 sub-regions during spontaneous movements confirms body-part specificity, and stronger engagement during multi-effector coordinated actions. Structural connectivity atlas tracings from S1 regions confirm projections to homologous M2 sub-regions. These results reveal an important underlying topography within M2, and demonstrate intrinsic neuronal dynamics as a window into the functional architecture of the motor cortex.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78900-3",
+    "checked_at": "2026-11-14T01:45:17.483806+00:00"
+  },
+  "10.1038/s41467-026-79262-6": {
+    "text": "Molecular spin systems are promising platforms for spin-based technologies because their electronic structures can be synthetically tailored and integrated into higher-order assemblies. Photogenerated radical pairs can exhibit spin hyperpolarization under ambient conditions, yet extending such spin dynamics from isolated molecules to structurally organized materials remains challenging. Here, we report a metal–organic framework that regulates the generation of spin-polarized radical pairs within locally well-defined donor–acceptor arrangements. N , N ’-di(4-pyridyl)−1,4,5,8-naphthalenetetracarboxdiimide is introduced into a zinc tetrakis(4-carboxyphenyl)porphyrin-based framework. Dense donor–acceptor packing promotes efficient quenching of the porphyrin singlet excited state and selectively forms strongly coupled triplet radical pairs polarized in the zero-spin projection sublevel. These radical pairs exhibit narrow electron paramagnetic resonance signals and long spin-lattice relaxation times. Their spin-lattice relaxation dynamics persist in various guest solvents and vary with guest identity, demonstrating a route to chemically responsive spin materials based on porous, locally organized donor–acceptor frameworks.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79262-6",
+    "checked_at": "2026-11-14T01:45:18.205808+00:00"
+  },
+  "10.1038/s41467-026-79525-2": {
+    "text": "Afterglow luminescence in inorganic materials is conventionally attributed to pre-existing static defects that trap and gradually release charge carriers. However, the observation of afterglow activated only by specific types of excitation sources, such as X-ray-specific afterglow in certain phosphors, highlights an opportunity to move beyond this static trap model. Here we show that Bi 3+ doped Cs 2 ZrCl 6 crystals exhibit afterglow exclusively under X-ray excitation, with no such effect under ultraviolet illumination. We demonstrate that this behavior arises from the in-situ generation and self-healing of metastable chlorine vacancies (V Cl ) specifically driven by X-ray irradiation, directly correlating with afterglow kinetics. Advancing beyond previous vague attributions to Frenkel defects, our multimodal evidence unambiguously pinpoints V Cl as the operative defect species. This discovery challenges the paradigm that afterglow requires static pre-existing traps, establishing a dynamic mechanism where metastable defects are created by the probing radiation and gradually disappear when radiation is removed. We further manipulate the afterglow kinetic through Sn 4+ induced modulation of vacancy formation energy, extending the afterglow duration to multiple hours while maintaining a high light yield of 55670 photons MeV −1 and a low detection limit of 30.81 nGy air s −1 . Finally, we integrate these crystals into a flexible PDMS composite film for X-ray imaging, achieving a high spatial resolution of 23.6 lp mm −1 that enables high-fidelity imaging of curved objects via time-resolved readout. Our findings open an avenue for designing smart scintillators with programmable, radiation-specific responses, with implications for flexible radiography and beyond.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79525-2",
+    "checked_at": "2026-11-14T01:45:18.817887+00:00"
+  },
+  "10.1038/s41467-026-79608-0": {
+    "text": "Two-dimensional (2D) chiral superlattices of plasmonic nanoparticles have attracted considerable interest due to their broad potential across various fields. However, achieving facile control over their handedness without compromising structural integrity remains a persistent challenge. Here, we report a distinct class of 2D superlattices, 4-arm pinwheel arrays with tunable configurations, through defined patch size mismatch in DNA origami-templated assembly. A superlattice framework possessing preconfigured mirror-image units is created and utilized as a platform for DNA programming of chirality. We demonstrate a single-degree-of-freedom strategy that controls the handedness of the entire superlattice through DNA-enabled site-selective and asymmetric binding of a single gold nanoparticle into the mirror-image units. These local minimal perturbations preserve long-range crystalline order while generating opposite chiroptical responses via altered plasmonic near-field coupling. Our work expands the design scope of programmable materials toward chiral functional metasurfaces, and establishes a chirality-engineering approach that circumvents global structural reconstruction.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79608-0",
+    "checked_at": "2026-11-14T01:45:19.589069+00:00"
+  },
+  "10.1038/s41467-026-79301-2": {
+    "text": "Nature-based solutions should better redistribute benefits and reduce climate risks for vulnerable groups in urban informal settlements. To enable this, we argue for power-sensitive partnerships and a deep commitment to pluralism in values, ways of knowing, and understandings of nature.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41467-026-79301-2",
+    "checked_at": "2026-11-14T01:45:20.032969+00:00"
+  },
+  "10.1038/s41467-026-79341-8": {
+    "text": "Despite advances in immunotherapy (IO) and radiation therapy (RT), anti-PD-1 (aPD-1) therapy has provided only modest benefit in head and neck squamous cell carcinoma (HNSCC) for reasons that remain poorly understood. CCR8 is a chemokine receptor selectively enriched on tumor infiltrating regulatory T cells (Tregs), making it an attractive candidate for therapeutic targeting. Given our knowledge that immunosuppressive T-regulatory cells are associated with resistance to RT and IO, but have no effective targeting strategy in HNSCC, we investigate the depletion of tumor specific Treg subsets on tumor growth in female mice. In human and murine HNSCC, we characterize a subset of CCR8+ Tregs that are an immunosuppressive cell population associated with incomplete response to RT and IO. In preclinical models of HNSCC, we find that RT drives CCR8+ Treg infiltration into the primary tumor to promote tumor growth and recurrence, which can be reversed with administration of CCR8-depleting antibodies (aCCR8). Finally, we show that resistance to RT+aPD1 combination therapy is mediated by aPD1 activation of CCR8+ Tregs to facilitate tumor growth, which can be reversed with aCCR8. These findings reveal the immunosuppressive profile of CCR8+ Tregs in HNSCC and pave the way for novel combination strategies of IO in HNSCC.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79341-8",
+    "checked_at": "2026-11-14T01:45:20.758324+00:00"
+  },
+  "10.1038/s41467-026-79091-7": {
+    "text": "Systematic and precise regulation of coordination environments in single-atom catalysts (SACs) remains challenging due to thermodynamic constraints and kinetic traps. Herein, we report a thermodynamic-guided strategy to tailor the local coordination of Fe single atoms on CoWO 4 support by regulating oxygen chemical potential. Via fine-tuning hydrogen partial pressure during pyrolysis, a series of Fe 1 O x SACs is synthesized with well-defined Fe-O coordination numbers ranging from 3 to 6. Combining operando characterizations and density functional theory calculations, Fe 1 O 4 is identified as the optimal configuration for hexamethylenetetramine (HMTA) electrosynthesis, which delivers balanced kinetics by moderating free water dissociation for *NH 3 generation and strengthening HCHO chemisorption via pronounced Fe 3d-O 2p orbital hybridization near the Fermi level. As a result, the Fe 1 O 4 SAC achieves a HMTA yield of 0.21 mmol h −1 cm −2 with 83.04% Faradaic efficiency at 1.75 V and stability over 200 h in a flow cell. This work establishes a universal thermodynamic approach for precise coordination engineering of single-atom electrocatalysts and provides a general paradigm for kinetically balancing complex multi-intermediate electrocatalytic systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79091-7",
+    "checked_at": "2026-11-14T01:45:21.258815+00:00"
+  },
+  "10.1038/s41467-026-78362-7": {
+    "text": "Notable differences between histamine-dependent and histamine-independent itch have been extensively researched at peripheral and spinal levels. However, the way in which the brain processes histamine-dependent and histamine-independent itch remains unknown. We discovered that the posterior paraventricular nucleus of the thalamus (pPVT)→the nucleus accumbens medial shell (NAcMed) circuit exhibits reverse response patterns to histamine-dependent or histamine-independent itch and serves as a central anti-pruritic role. Mechanistically, histamine-dependent itch activates excitatory inputs from the lateral hypothalamus (LH) to mobilise the anti-pruritic centre, thereby buffering its intensity. In cases of chronic itch, however, there is a decrease in the efficiency of the anti-pruritic circuit’s postsynaptic transmission, thereby promoting itch sensitisation. Our research reveals that histamine-dependent and histamine-independent itch are processed differently in the mouse brain, offering insights into the neural mechanisms underlying chronic itch sensitization.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78362-7",
+    "checked_at": "2026-11-14T01:45:21.880643+00:00"
+  },
+  "10.1038/s41467-026-78871-5": {
+    "text": "Meiotic recombination drives genetic diversity and chromosome segregation, yet the genetic factors governing variation in human recombination rates across studies remain poorly understood. Here, we analyze 112,144 maternal and 78,653 paternal meiosis events across four countries and identify 58 independent genomic regions (24 unique across phenotypes) associated with recombination frequency and location. These include six novel female-specific regions harboring genes linked to ovarian function and a seventh novel region linked to male recombination, with many loci demonstrating sex-dependent effects. The between-sex genetic correlation is 0.374 (0.072 SD). While DNA markers account for 30-40% of individual-level variation in recombination rate, previously known global modulators explain only 37.7% (2.7% SD) of this variation in females and 47.1% (3.8% SD) in males. We create a polygenic predictor that significantly predicts recombination rates in women and men after adjusting for age and birth year. Furthermore, female recombination correlates significantly with reproductive outcomes and aging, after adjusting for study ascertainment. In the largest meta-analysis to date of human meiotic recombination, these findings uncover novel sex-specific loci and clarify the polygenic architecture underlying meiotic variation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78871-5",
+    "checked_at": "2026-11-14T01:45:22.514740+00:00"
+  },
+  "10.1038/s41467-026-79441-5": {
+    "text": "Cracking of polyolefins is a prerequisite for their selective conversion over microporous zeolites to value-added small molecules such as monocyclic aromatics. However, cracking and aromatization often proceed concurrently, creating an intrinsic accessibility-selectivity conflict that limits aromatic yield and productivity. This paper describes a strategy that temporally decouples polyolefin cracking from selective aromatization in one-pot with tandem catalysts. This strategy delivers an aromatic yield of ca. 60.3 wt% within 0.5 h at 380 °C from postconsumer polyolefins over 40 consecutive cycles, corresponding to an aromatic space-time yield of 11 g gcat −1 h −1 , more than twofold higher than reported values of ≤ 5 g gcat −1 h −1 . Kinetic and mechanistic studies reveal that self-pillared pentasil zeolite rapidly and processively cracks polyolefins to small olefinic intermediates below 320 °C, enabling temporal decoupling of low-temperature cracking from higher-temperature aromatization through distinct dominant kinetic windows. Process modeling further suggests favorable economic potential and life-cycle greenhouse-gas emissions 26% lower than fossil-based aromatics production and 66% lower than incineration. This work establishes temporal decoupling as a reaction-engineering strategy for reconciling polymer accessibility with micropore-controlled selectivity in plastic upcycling.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79441-5",
+    "checked_at": "2026-11-14T01:45:23.703671+00:00"
+  },
+  "10.1038/s41467-026-79455-z": {
+    "text": "Microbial peptides represent a vast yet largely underexplored component of microbial dark matter, offering a valuable reservoir of bioactive molecules. Artificial Intelligence (AI) has revolutionized peptide mining, demonstrating high-throughput screening capabilities in tasks such as functional prediction and de novo design. To fully unlock the potential of microbial resource, we present miProbe ( https://www.biosino.org/iMAC/miProbe) , an integrative platform hosting 1.08 × 10 9 microbial peptides from disparate habitats. Uniquely, miProbe bridges the gap between raw sequences and AI applications by providing 8 TB of precomputed protein language model embeddings (e.g., ESM2-650M and ProtT5-XL-U50). Our analysis reveals substantial variation in peptide diversity and functional properties across habitats and microbial taxonomic groups, and highlights the utility of large-scale embedding resources in functional peptide mining. Equipped with robust APIs for seamless model integration, miProbe establishes a diverse and scalable data resource to accelerate AI-driven exploration of microbial dark matter and the rational design of novel therapeutics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79455-z",
+    "checked_at": "2026-11-14T01:45:24.358917+00:00"
+  },
+  "10.1038/s41467-026-79600-8": {
+    "text": "Relaxation of COVID-19 non-pharmaceutical interventions was followed by a global resurgence of respiratory infections, yet how accumulated population susceptibility interacts with environmental forcing and human mobility remains unclear. Here we analyse ~1.88 million clinical influenza tests from Macau (2010-2025) alongside meteorology, air quality, digital information-seeking, and independent surveillance and time-resolved viral genomes from Hong Kong, benchmarked against global surveillance data. Counterfactual inference indicates a post-pandemic excess in influenza activity consistent with immunity debt, mirroring global resurgence patterns, and an independently parameterised susceptible–exposed–infectious–recovered–susceptible model reproduces this excess (best-fit debt fraction 42%; approximate Bayesian computation posterior 58%, 95% uncertainty interval 32-77%). Susceptibility rises disproportionately in adults rather than children, whereas vaccination coverage in high-risk groups does not decline, arguing against reduced uptake as the driver. Time-varying models and convergent cross mapping reveal environmental decoupling, whereby high susceptibility weakens meteorological constraints and sustains influenza A transmission, and asymmetric suppression of influenza B. Spatiotemporal and phylogenetic evidence supports travel-linked reintroduction from ports of entry into dense neighbourhoods, and digital information-seeking shifts from lagging to leading clinical burden. These findings indicate a post-pandemic regime shift in influenza dynamics rather than a return to historical baselines, motivating adaptive, multi-source surveillance in high-density cities.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79600-8",
+    "checked_at": "2026-11-14T01:45:24.773864+00:00"
+  },
+  "10.1038/s43247-026-04214-3": {
+    "text": "Vegetation photosynthesis exhibits pronounced diurnal variations that reflect rapid physiological responses to environmental change. However, a global understanding of these diurnal dynamics and their biophysical controls remains elusive. Here we use emerging global hourly gross primary production (GPP) datasets to characterize the asymmetry, magnitude, and midday depression of the diurnal GPP cycle. These complementary characteristics exhibit distinct global patterns and seasonal dynamics. Vapor pressure deficit (VPD) primarily regulates diurnal asymmetry, vegetation greenness and temperature dominate the magnitude, while VPD together with temperature controls midday depression, with these biophysical controls varying substantially across seasons. Current Earth system models generally capture the magnitude of diurnal GPP cycle and its biophysical controls but fail to reproduce its asymmetry and midday depression. Our study advances the understanding of vegetation photosynthetic dynamics at the sub-daily scale, laying the foundation for subsequent efforts to unravel plant adaptive strategies and refine next-generation ecosystem models.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04214-3",
+    "checked_at": "2026-11-14T01:45:26.151447+00:00"
   }
 }
