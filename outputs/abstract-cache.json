@@ -5927,5 +5927,159 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-79620-4",
     "checked_at": "2026-11-16T01:21:39.734909+00:00"
+  },
+  "10.1038/s41586-026-11399-2": {
+    "text": "Gene transcription within the viral core is a distinctive feature of poxvirus replication. Following entry into the cytoplasm, the poxvirus core dissociates from the lateral bodies and undergoes expansion, functioning as a compartment for early transcription 1 . However, how molecules are exchanged between the viral core and the host cytoplasm remains poorly understood. Here, using cryo-electron tomography and sub-tomogram averaging, we determine the structures of the portal complex and its central pore on the vaccinia virus core at 6.7 Å and 4.4 Å resolution, respectively. Guided by structural predictions and experimental density, we identify three viral proteins, E8, E6 and L3, as the principal components of the pore and construct a structural model of their organization. The pore contains a narrow, positively charged constriction formed by conserved lysine residues in L3, substitutions of which impair viral gene expression and propagation. The dimensions and electrostatic properties of the channel are consistent with a potential role in molecular exchange across the core wall. Together, our findings establish a structural framework for understanding the organization and potential function of the poxvirus portal complex.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11399-2",
+    "checked_at": "2026-11-17T04:09:49.811627+00:00"
+  },
+  "10.1038/d41586-026-03713-9": {
+    "text": "Children often conjure up invisible pals to keep them company. A psychologist delves into the reasons why.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03713-9",
+    "checked_at": "2026-11-17T04:09:50.865948+00:00"
+  },
+  "10.1038/d41586-026-03760-2": {
+    "text": "More needs to be done to combat climate change, but what? We discuss some big ideas to rein in emissions. In episode two of Cooked? we learn about some of the big ideas to tackle the climate crisis.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03760-2",
+    "checked_at": "2026-11-17T04:09:52.695935+00:00"
+  },
+  "10.1038/d41586-026-03715-7": {
+    "text": "Researchers must track warming oceans and use the knowledge gained to inform strategies for sustaining fisheries and communities that depend on them.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03715-7",
+    "checked_at": "2026-11-17T04:09:58.289290+00:00"
+  },
+  "10.1038/d41586-026-03712-w": {
+    "text": "A lack of crosstalk between research disciplines is hampering scholars’ ability to fully examine how people have altered Earth’s biodiversity.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03712-w",
+    "checked_at": "2026-11-17T04:09:59.505069+00:00"
+  },
+  "10.1038/d41586-026-03762-0": {
+    "text": "DNA derived from the ancient hominin might make parts of our brains smaller — and protect against schizophrenia.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03762-0",
+    "checked_at": "2026-11-17T04:10:00.415078+00:00"
+  },
+  "10.1038/d41586-026-03706-8": {
+    "text": "Expandable stomachs allow these flying mammals to gulp large amounts of blood, and fluid-handling genes help them to fly home after all that liquid.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03706-8",
+    "checked_at": "2026-11-17T04:10:01.715003+00:00"
+  },
+  "10.1038/d41586-026-03763-z": {
+    "text": "Countries pledge to use artificial-intelligence tools to accelerate the adoption of clean energy — but that potential is unproven.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03763-z",
+    "checked_at": "2026-11-17T04:10:02.343463+00:00"
+  },
+  "10.1038/s41558-026-02796-6": {
+    "text": "Climate warming is expanding thousands of glacial lakes with unstable natural dams, yet high-risk lakes remain outside formal safety oversight despite their potential for downstream harm. These lakes need consequence-based governance analogous to engineered dams and reservoirs, beginning with risk-tiered monitoring and clearer protection during conflict.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41558-026-02796-6",
+    "checked_at": "2026-11-17T04:10:18.477005+00:00"
+  },
+  "10.1038/s41467-026-78924-9": {
+    "text": "Despite substantial recent advances in query mapping and cell type or cell state discovery tools, their application to single-cell assay for transposase-accessible chromatin using sequencing (scATAC-seq) data remains challenging. The heterogeneous nature of peak feature spaces across samples hinders the effectiveness of existing methods, while the absence of dedicated tools for detecting perturbed cell types and states in scATAC-seq data further limits the depth of downstream analyses. To address these limitations, we present EpiPack, an integrative computational toolkit that leverages heterogeneous transfer learning and graph-based modeling strategies to advance scATAC-seq analysis. At its core, the Peak Embedding Informed Variational Inference (PEIVI) framework within EpiPack enhances mappable reference construction, query mapping, and label transfer, demonstrating that leveraging heterogeneous features in scATAC-seq data outperforms methods relying solely on conventional homogeneous features. In addition, EpiPack’s global-local out-of-reference (OOR) detection framework achieves robust and efficient detection of perturbed cell types and states, extending the utility of scATAC-seq to disease and perturbation contexts. With its modular design and transferable pre-trained references, EpiPack can be readily applied to diverse analytical tasks and is available as a Python package at https://github.com/ZhangLabGT/EpiPack .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78924-9",
+    "checked_at": "2026-11-17T04:10:20.633971+00:00"
+  },
+  "10.1038/s41467-026-79386-9": {
+    "text": "Halide-based Na-ion conductors have attracted intense attention due to their favorable (electro)chemical compatibility with oxide positive electrodes. Among these, zirconium (Zr)-based halide solid electrolytes (SEs) offer a cost advantage over halide SEs based on rare metals, but the relatively low ionic conductivity has limited their application in all-solid-state batteries (ASSBs). Here, we report employing soda ash (Na 2 CO 3 ) as a low-cost precursor to introduce an aliovalent carbonate polyanion and produce a family of Na-Zr-Cl-CO 3 conductors with nominal compositions of (2- x )NaCl- x Na 2 CO 3 -ZrCl 4. This substitution increases structural disorder and amorphization, creating structural environments that facilitate Na + transport. At the optimal composition, its ionic conductivity reaches 1.02 mS cm −1 at 25 °C. The optimized Na-Zr-Cl-CO 3 SE also exhibits stable electrochemical behavior and favorable mechanical properties. When paired with NaCrO 2 positive electrode, the assembled ASSBs deliver an initial discharge capacity of 117 mAh g −1 at 0.1 C and demonstrate a long-term cycling stability at 0.3 C for 850 cycles. This work highlights carbonate polyanion substitution as a practical strategy for improving low-cost Zr-based halide SEs, offering a promising route toward ASSBs with high performance.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79386-9",
+    "checked_at": "2026-11-17T04:10:21.867968+00:00"
+  },
+  "10.1038/s41467-026-78982-z": {
+    "text": "Agitation combines motor restlessness with negative affect, yet the neural circuits coordinating these features remain unclear. We establish a chronic conditioned stress paradigm in mice that evokes a context-dependent agitation-like state marked by increased walking, reduced digging, altered bout kinematics and aversion, distinct from escape-like flight. Conditioned stress recruits predominantly glutamatergic cholecystokinin (CCK)-expressing neurons in the precommissural nucleus (Prc) and enhances their responses to conditioned cues. Projection screening identifies cingulate cortex area 2 (Cg2) as a behaviorally enriched output. Bidirectional manipulations show that Prc-CCK neurons and their Cg2 terminals are both sufficient for and required for key motor and avoidance-related components of this state. Local CCK-B receptor signaling contributes to pathway-evoked behavior. Selected recruitment and activation effects extend to female mice, whereas chronic unpredictable stress and remote retrieval delineate behavioral and temporal boundaries. Here, we show that a diencephalic-cingulate pathway coordinates stress-associated motor restlessness with negative valence.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78982-z",
+    "checked_at": "2026-11-17T04:10:25.346254+00:00"
+  },
+  "10.1038/s41467-026-79524-3": {
+    "text": "The allosteric effect in proteins controls biological function omnipotently, but simulating both the regulatory functions and catalytic processes of analogues faces marked challenges. By encapsulating a non-heme Fe III -complex into the cavity of an anthraquinone and heme co-decorated coordination capsule, herein we report a light-responsive allosteric catalysis for activating O 2 and metabolizing C( sp 3 )−H bonds. Light irradiation initially triggers the bridged Fe III -porphyrins switching into unbridged Fe II /O=Fe IV -porphyrin pair for substrate oxygenation. Parallelly exciting the anthraquinone groups sensitizes O 2 to 1 O 2 via energy transfer, meanwhile exciting the non-heme Fe III -complexes generates the chlorine radicals via ligand-to-metal charge transfer. The capsules enforce heme and non-heme Fe II fragments into proximity, forming an Fe−O − O−Fe intermediate with the reactive 1 O 2 species for O − O bond cleavage. Synergistic hydrogen abstraction by chlorine radicals and O=Fe IV -porphyrin by combining multiple photons selectively and fleetly oxygenates thioxanthene to thioxanthen-9-one within the capsule pocket, therefore reshaping oxygenase for selective metabolism in a supramolecular approach.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79524-3",
+    "checked_at": "2026-11-17T04:10:27.417599+00:00"
+  },
+  "10.1038/s41467-026-79334-7": {
+    "text": "Disturbed balance between lipid anabolism and catabolism drives hepatic steatosis. Mitochondria play a central role in lipid clearance through free fatty acid (FFA) oxidation, yet the molecular mechanisms governing this metabolic process remain incompletely understood. Here, we establish ROMO1, a recently identified mitochondrial thiol-protector, as a critical regulator of mitochondrial FFA oxidation through the LONP1–SIRT3 signaling axis. Hepatocyte-specific ablation of ROMO1 impairs mitochondrial FFA oxidation and causes hepatic lipid accumulation. Mechanistically, ROMO1 loss induces sulfenylation of the mitochondrial protease LONP1, resulting in excessive degradation of SIRT3 and consequent hyperacetylation of mitochondrial proteins involved in FFA oxidation. Importantly, ROMO1 overexpression protects against hepatic steatosis and liver injury by suppressing LONP1 sulfenylation and preserving SIRT3 protein stability in multiple mouse models of steatotic liver disease, whereas ROMO1 deficiency exacerbates disease progression. Moreover, spontaneous fatty liver in aged rhesus macaques is associated with reduced ROMO1 expression and concomitant loss of SIRT3 protein. Collectively, our findings establish the ROMO1–LONP1–SIRT3 axis as a redox-coupled signaling cascade that links mitochondrial redox regulation to hepatic lipid catabolism, providing potential therapeutic targets for steatotic liver diseases.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79334-7",
+    "checked_at": "2026-11-17T04:10:28.681602+00:00"
+  },
+  "10.1038/s41467-026-79322-x": {
+    "text": "Shortened internode length is a key agronomic trait that optimizes crop architecture and promotes adaptability to high-density planting. Loci that confer short internodes while increasing yield remain scarce in soybean. Here, using chromosome segment-substitution lines, we identify the REDUCED INTERNODE 2 ( RIN2 ) locus, which encodes the basic leucine zipper (bZIP) transcription factor FDc1 that exerts a negative regulatory effect on internode length. The RIN2 ZYD06 allele from wild soybean has a strong ability to suppress internode elongation compared to RIN2 SN14 allele from cultivated soybean. The RIN2 SN14 promoter exhibits lower expression than that of RIN2 ZYD06 , thereby fostering internode elongation. RIN2 binds to and activates the STF1 and STF2 promoters, the proteins of which in turn promote gibberellin catabolism in the shoot apex to reduce internode elongation. Dt1, which confers stem-growth habit, physically interacts with RIN2, attenuating RIN2-mediated transcriptional regulation. STF1 / 2 act downstream of Dt1 and RIN2 . At field locations, RIN2 ZYD06 confers increased yield per plant and per plot at high planting densities. Taken together, we elucidate the molecular mechanism of RIN2 regulating internode length and identify a wild allele that optimizes soybean architecture for high-density planting.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79322-x",
+    "checked_at": "2026-11-17T04:10:31.329612+00:00"
+  },
+  "10.1038/s41467-026-78720-5": {
+    "text": "Intracellular antibody delivery enables modulation of challenging intracellular targets, including intrinsically disordered proteins, and holds considerable promise for biomedical applications. Here we show that microcondensates composed of engineered IgGs bearing glutamic acid– and tyrosine-containing tag sequences together with a trimeric membrane-permeabilizing L17E peptide [FcB(L17E) 3 ] enable burst-like, rapid intracellular infusion of IgG antibodies under physiological salt and serum conditions. Dynamic membrane remodeling, including filopodia-like protrusions that internalize microcondensates, is visualized by lattice light-sheet and electron microscopy. The recruitment of the intrinsically disordered protein TDP-43 to stress granules is markedly inhibited by treatment with a TDP-43-targeting IgG. Physicochemical factors governing the ability of microcondensates to mediate intracellular IgG infusion are also investigated.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78720-5",
+    "checked_at": "2026-11-17T04:10:32.939069+00:00"
+  },
+  "10.1038/s41467-026-79505-6": {
+    "text": "Eburnane and aspidofractinine alkaloids are two types of biogenetically related polycyclic monoterpenoid alkaloids with distinct structural features. Reported synthetic strategies typically construct the core architectures of eburnane and aspidofractinine alkaloids independently, and no protocol enabling their simultaneous synthesis has yet been developed. Herein, we describe the assembly of both eburnane and aspidofractinine alkaloid skeletons from a common alkoxyallene precursor, a characteristic that aligns with their inherent biogenetic connection. Our investigations reveal that upon Prins-type spirocyclization of the alkoxyallene under Brønsted or Lewis acid catalysis, the intermediate undergoes two discrete tandem reaction pathways: Mannich-like cyclization/migration to construct the skeleton of eburnane alkaloids under Brønsted acid catalysis, whereas nucleophilic addition to the indole iminium assembles the aspidofractinine alkaloids framework under Lewis acid catalysis. The developed divergent cascade cyclization strategy has been successfully applied to the total synthesis of eburnane and aspidofractinine alkaloids including (−)-eburnamonine, (−)-eburnamenine, (+)-eburnamine, and (±)-aspidofractinine.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79505-6",
+    "checked_at": "2026-11-17T04:10:34.729253+00:00"
+  },
+  "10.1038/s41467-026-79078-4": {
+    "text": "Characterizing the spatiotemporal dynamics of complex chemical reactors, especially localized engineering-critical points or regions, remains challenging in process engineering. Although data-driven methods offer computational advantages, the incorporation of domain-specific physical knowledge can further enhance their predictive performance. Here, we present a physics-informed machine learning framework that systematically embeds coking mechanisms and heat transfer principles into neural network architecture and training constraints. Using a coke-accumulating cracking reactor as a prototypical case, the proposed approach reproduces the spatiotemporal distributions of key operational parameters obtained from conventional simulations with high fidelity and achieves a 10 5 -fold computational acceleration. Crucially, the incorporation of mechanistic knowledge enhances prediction fidelity for critical safety indicators, particularly the maximum external wall temperature (error < 0.5%), enabling precise identification of optimal decoking intervals. This paradigm bridges data efficiency with domain-informed modeling, providing a useful reference for developing real-time monitoring and optimization models for complex industrial systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79078-4",
+    "checked_at": "2026-11-17T04:10:41.416305+00:00"
+  },
+  "10.1038/s41467-026-79805-x": {
+    "text": "Recent advances in soft electronics have enabled the conformal integration of epidermal sensors on skin, significantly improving performance, long-term stability, and user comfort. However, achieving perfect conformability between conventional planar devices and three-dimensional skin surfaces remains a major challenge due to possible Gaussian curvature mismatch. In this study, we propose in situ fabrication of conductive nanofibres to achieve conformal epidermal sensors on arbitrary surfaces. We develop a stable and uniform carbon nanotube-based hybrid precursor for the fabrication of sub-1-μm intrinsically conductive nanofibres directly on skin, achieving conformability on both developable surfaces and non-developable surfaces. The porous nanomesh exhibits excellent gas-permeability, radiative heat dissipation efficiency, biocompatibility, and long-term stability, making it suitable for user-friendly epidermal electronics. We leverage this strategy to design and fabricate various conformal epidermal sensors, including electrophysiological sensor, electrodermal activity sensor, pressure sensor, and multi-channel sensor array for hand gesture recognition using deep learning algorithm, demonstrating its broad applicability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79805-x",
+    "checked_at": "2026-11-17T04:10:42.893831+00:00"
+  },
+  "10.1038/s41893-026-01985-7": {
+    "text": "The rapid proliferation of hyperscale data centres (HDCs) in the USA—mainly driven by the adoption of artificial intelligence—has raised concerns about this industry’s carbon footprint. We compiled facility-level information on 403 US hyperscale data centres operating between May 2024 and April 2025 and estimated their electricity consumption, electricity sources and attributable CO 2 emissions. Across facility-load scenarios, these HDCs consumed approximately 68–99 TWh of electricity and were associated with approximately 21–31 million metric tons of CO 2 under a location-based, total-output balancing-authority attribution method. Under the central scenario, HDC electricity demand was approximately 82 TWh, corresponding to about 1.8% of total US electricity consumption, and attributable CO 2 emissions were approximately 25.7 Mt. Roughly 54% of attributed generation was supplied by fossil-fuel sources. The HDC electricity-weighted total-output carbon intensity was approximately 314 gCO 2 kWh −1 , compared with a US total-output average of approximately 348 gCO 2 kWh −1 . Our approach provides a facility-resolved attributional framework for assessing the carbon footprint of hyperscale data centres using plant-level electricity-generation and emissions data.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01985-7",
+    "checked_at": "2026-11-17T04:10:46.479648+00:00"
+  },
+  "10.1038/s41893-026-01986-6": {
+    "text": "Thermoelectric technologies offer a compelling path to sustainable waste-heat recovery, yet their widespread deployment is constrained by the reliance of many high-performing materials on scarce, environmentally problematic, or expensive elements. Beyond maximizing conversion efficiency ( η ), practical thermoelectrics must reconcile performance with resource availability, environmental impact and economic cost. Here we establish zinc antimonide (ZnSb) as a cost-effective and sustainable thermoelectric material by benchmarking elemental abundance, raw-material cost and device efficiency. By leveraging dynamically activated carrier modulation and intrinsically low thermal conductivity, ZnSb achieves impressive material performance while avoiding reliance on scarce, costly, or environmentally problematic elements. Furthermore, we demonstrate a ZnSb-Mg 3 Sb 1.5 Bi 0.5 device yielding a maximum η of 8% at Δ T = 400 K. This translates to a high efficiency-to-cost ratio of ~0.2% US$ −1 kg, highlighting the unusual combination of performance and resource compatibility. Our findings provide a framework for evaluating thermoelectric materials beyond isolated record efficiencies towards scalable and sustainable energy harvesting.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01986-6",
+    "checked_at": "2026-11-17T04:10:50.186594+00:00"
+  },
+  "10.1038/s41893-026-01968-8": {
+    "text": "Thermoelectric technologies can convert waste heat directly into clean electricity, but high laboratory efficiency does not necessarily translate into practical deployment. By revisiting the long-neglected material zinc antimonide, researchers now show that strong thermoelectric performance can go hand in hand with affordability and sustainability.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41893-026-01968-8",
+    "checked_at": "2026-11-17T04:10:51.171058+00:00"
   }
 }
