@@ -430,5 +430,17 @@
     ],
     "scene": "Asking for a Hard-to-Find Item and Checking Out",
     "reading": "How Politeness Made My Supermarket Trip Easier"
+  },
+  {
+    "date": "2026-11-17",
+    "concept_key": "polite_ordering_phrases",
+    "concept_name": "Polite Ordering Phrases",
+    "terms": [
+      "side dish",
+      "special of the day",
+      "make a substitution"
+    ],
+    "scene": "Changing a Dish After Ordering at a Restaurant",
+    "reading": "A Dinner to Remember"
   }
 ]

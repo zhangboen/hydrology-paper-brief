@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-17",
+  "number": 37,
+  "status": "prepared",
+  "lesson": {
+    "title": "Polite Ways to Order and Make Requests at a Restaurant",
+    "concept": {
+      "key": "polite_ordering_phrases",
+      "name_en": "Polite Ordering Phrases",
+      "name_zh": "礼貌点餐表达",
+      "explanation_zh": "礼貌点餐表达是指在餐厅点餐时使用的礼貌语言和句型，能让交流更自然且让服务员感到尊重。比如用“Could I please have...”或“Would you mind if I...”等表达方式。这些短语既能表达请求，又不会显得强硬。",
+      "examples": [
+        "Could I please have the grilled chicken with a side salad?",
+        "Would you mind if I change my order to the vegetarian pasta?",
+        "May I add an extra drink to my order, please?"
+      ],
+      "common_mistake_zh": "很多人直接说“I want...”或“Give me...”，这在正式或服务场合中显得不够礼貌。正确的表达是使用‘Could I please have...’替代‘I want...’，使语气更委婉和尊重。"
+    },
+    "vocabulary": [
+      {
+        "term": "side dish",
+        "ipa_us": "/ˈsaɪd dɪʃ/",
+        "pronunciation_tip_zh": "注意连读，‘side’重音，‘dish’轻读",
+        "meaning_zh": "配菜",
+        "explain_in_english": "A small food item served with the main dish",
+        "usage_note_zh": "餐厅点餐时常用，属于口语和正式场合都适合的表达。",
+        "examples": [
+          "I’d like a steak with mashed potatoes as a side dish.",
+          "Can I get a side dish of steamed vegetables?"
+        ]
+      },
+      {
+        "term": "special of the day",
+        "ipa_us": "/ˈspɛʃəl əv ðə deɪ/",
+        "pronunciation_tip_zh": "重音在‘special’和‘day’，‘of the’连读成/əv ðə/",
+        "meaning_zh": "当日特色菜",
+        "explain_in_english": "A dish that the restaurant recommends for that day",
+        "usage_note_zh": "常见于餐厅服务对话，正式和非正式场合均可。",
+        "examples": [
+          "What is the special of the day today?",
+          "I’ll have the special of the day, please."
+        ]
+      },
+      {
+        "term": "make a substitution",
+        "ipa_us": "/meɪk ə ˌsʌbstɪˈtjuʃən/",
+        "pronunciation_tip_zh": "‘make’重音，‘substitution’三个音节，重音在第三节",
+        "meaning_zh": "替换食材",
+        "explain_in_english": "To change one item in a dish for another",
+        "usage_note_zh": "常用于点餐时请求换菜或食材，语气礼貌，适用于正式场合。",
+        "examples": [
+          "Can I make a substitution and have fries instead of rice?",
+          "They allowed me to make a substitution on my order without extra charge."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Changing a Dish After Ordering at a Restaurant",
+      "context_zh": "在餐厅点完菜后，发现想换一道菜，如何礼貌地向服务员提出请求。",
+      "script_en": "Customer: Excuse me, I just ordered the grilled salmon, but after thinking about it, I realized I’d prefer something else. Would it be possible to substitute the salmon for the grilled chicken instead? Waiter: Of course! No problem at all. Would you like to keep the same side dishes, or would you prefer to make a change? Customer: Actually, I’d like to change the side dish as well. Could I have steamed vegetables instead of the fries, please? Waiter: Absolutely, that’s a great choice. And would you like anything to drink with your meal? Customer: Just water for now, thank you. Waiter: Perfect. I’ll update your order and make sure everything is ready as soon as possible. Customer: Thank you very much for being so helpful. I really appreciate it. Waiter: You’re very welcome! If there’s anything else you need, just let me know.",
+      "translation_zh": "顾客：打扰一下，我刚点了烤三文鱼，但想了想，发现我更想吃别的。能不能把三文鱼换成烤鸡肉？服务员：当然可以，完全没问题。您想保持配菜不变，还是想换一下？顾客：实际上，我也想换配菜。请问可以把薯条换成蒸蔬菜吗？服务员：没问题，这个选择很好。您用餐时想喝点什么吗？顾客：先来杯水，谢谢。服务员：好的。我会更新您的订单，尽快为您准备。顾客：非常感谢您的帮助，我很感激。服务员：不客气！如果您还需要什么，请告诉我。",
+      "practice_tip_zh": "练习使用‘Would it be possible to...’和‘substitute’这些礼貌表达，帮助你在餐厅需要更改订单时说得自然且尊重对方。"
+    },
+    "reading": {
+      "title": "A Dinner to Remember",
+      "genre": "short story",
+      "text_en": "Last Saturday evening, I decided to try a new restaurant in town that had received excellent online reviews. The menu looked tempting, and I was eager to taste something different. When the waiter came to take my order, I politely asked about the special of the day. He described a fish dish that sounded delicious, so I chose it. After a few bites, I found that the fish’s flavor was a bit too strong for my liking. I didn’t want to be rude, so I waited patiently until the waiter passed by again. Then I said, “Excuse me, could I please make a substitution? I’d prefer the chicken instead, if that’s okay.” The waiter smiled warmly and assured me that it was no problem at all. He even suggested adding a side dish of mashed potatoes to complement the chicken, which sounded perfect. I agreed happily, and shortly after, my new dish arrived. The chicken was tender and flavorful, and the mashed potatoes were creamy and delicious. I was truly glad that I had politely asked to change my order rather than just eating something I didn’t enjoy. This experience taught me how important polite language is in creating a positive atmosphere between customers and staff. After finishing my meal, I thanked the waiter for his excellent service. It was definitely a dinner to remember—not just because of the food, but because of the friendly and respectful interaction that made the evening special.",
+      "summary_zh": "故事讲述作者在一家新餐厅点餐时因为口味不合，礼貌地请求更换菜品，最终享受美味晚餐的经历。故事强调礼貌用语对服务体验的重要性。",
+      "questions": [
+        {
+          "question": "Why did the author decide to change the dish?",
+          "answer": "Because the fish dish was too strong in flavor for the author."
+        },
+        {
+          "question": "What did the waiter suggest to go with the chicken?",
+          "answer": "He suggested adding a side dish of mashed potatoes."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 12752,
+    "completion_tokens": 4213,
+    "total_tokens": 16965,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}
