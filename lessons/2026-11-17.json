@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "number": 37,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Polite Ways to Order and Make Requests at a Restaurant",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 16965,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-17T12:18:07.111047+08:00"
 }
