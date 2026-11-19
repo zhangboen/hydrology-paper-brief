@@ -6368,5 +6368,404 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s44221-026-00762-2",
     "checked_at": "2026-11-18T03:10:42.154007+00:00"
+  },
+  "10.1038/d41586-026-03040-z": {
+    "text": "Sleuths and publishers seize on ‘tortured phrases’ to detect research fraud. Sometimes they can raise a smile.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03040-z",
+    "checked_at": "2026-11-19T02:48:03.976543+00:00"
+  },
+  "10.1038/d41586-026-03273-y": {
+    "text": "Long-term monitoring of a giant star in the Andromeda galaxy reveals, for the first time, the decay of the orbit of another star inside the giant’s envelope.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03273-y",
+    "checked_at": "2026-11-19T02:48:04.421371+00:00"
+  },
+  "10.1038/d41586-026-03599-7": {
+    "text": "When migratory locusts are injured, an odorous chemical produced by bacteria living in or on their bodies activates the immune system, helping them to fight disease-causing agents. However, when a wound is large and the chemical becomes too concentrated, it attracts cannibalistic locusts. At low levels, guaiacol promotes immune function; at high levels, it prompts other locusts to eat their swarm-mate.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03599-7",
+    "checked_at": "2026-11-19T02:48:05.121646+00:00"
+  },
+  "10.1038/s41586-026-11271-3": {
+    "text": "Hominin fossils and genetic evidence indicate that several hominin populations occupied East and Southeast Asia during the Middle and Late Pleistocene epoch 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 . Homo erectus fossils remain scarce in southern China and mainland Southeast Asia 4 , 8 , 11 . Here we report nine newly discovered late Middle Pleistocene hominin teeth from the Naxian and Baxian caves at the Chongzuo study area, Guangxi Zhuang Autonomous Region, southern China, dated to around 324–184 thousand years ago 12 . Palaeoproteomics reveals the presence of an endogenous dental proteome in all five hominin teeth studied molecularly. Four teeth contain a derived H. erectus substitution in ameloblastin that to date has been observed only in older Middle Pleistocene H. erectus specimens from China 13 . The proteomes of these four teeth differ from the previous H. erectus proteomes from China at another ameloblastin position, suggesting that these specimens represent a previously unsampled H. erectus population. Morphometric and geometric morphometric methods support an attribution of these teeth to H. erectus , as well as four additional teeth. This fills a gap in the geographical and chronological distribution of H. erectus in East Asia. The fifth tooth studied proteomically, PA1796, is morphologically distinct from H. erectus , Neanderthals ( Homo neanderthalensis ) and modern humans ( Homo sapiens ), and does not contain the H. erectus -derived amino acid sequence. The late survival of H. erectus on mainland East Asia suggests that at least two hominin lineages, H. erectus and Homo longi (Denisovans) 6 , 7 , possibly represented by PA1796, were present in the region towards the end of the Middle Pleistocene, with the first documented occurrence of H. sapiens not much later 5 .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11271-3",
+    "checked_at": "2026-11-19T02:48:05.899078+00:00"
+  },
+  "10.1038/s41586-026-11284-y": {
+    "text": "The Amazon rainforest is a cornerstone of regional and global carbon cycling 1 and is widely regarded and modelled as a perennially evergreen ecosystem 2 , 3 . This prevailing view, however, masks substantial fine-scale variation in leaf phenology, limiting our capacity to predict ecosystem responses to climate change. Here by combining 10-m Sentinel-2 observations with machine learning, we uncover pervasive, spatially structured seasonal deciduousness across the basin. In 70.0% of the Amazon, leaf shedding precedes leaf flushing by at least 3 months, creating pronounced asynchrony between deciduousness and greenness seasonality, whereas the remainder shows near-synchronous phenology. Hydroclimate emerges as the dominant factor associated with this asynchrony across 51.6% of the area, followed by soil properties (33.2%) and light availability (15.2%). Motivated by this widespread decoupling between deciduousness and canopy greenness, we incorporated deciduousness-constrained leaf turnover and the resulting leaf-age demography into ecophysiological models, yielding spatially widespread improvements in the seasonal agreement between simulated gross primary productivity and satellite-derived photosynthetic seasonality across 79.9% of the basin. These findings challenge the conventional view of Amazonian phenology, demonstrating that previously overlooked deciduousness influences Amazonian carbon dynamics. Incorporating these insights into process-based models is essential for refining projections of climate–forest feedbacks in the Amazon and for understanding its ecological functions under accelerating global change.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11284-y",
+    "checked_at": "2026-11-19T02:48:06.428295+00:00"
+  },
+  "10.1038/s41586-026-11221-z": {
+    "text": "The formation of compact stellar binaries requires rapid orbital tightening of their progenitor binary stars 1 , 2 . This is theorized to happen through common envelope evolution (CEE) 3 , when the stars orbit in a loosely bound, shared convective envelope, triggering an inspiral due to frictional drag 4 , 5 . However, this inspiral in such a system has never been observed directly. Here we present observations of AT 2025abao, a transient eruption in the Andromeda Galaxy, which originates from the CEE of an approximately 7 M ⊙ asymptotic giant branch (AGB) star with its companion. Extensive pre- and post-eruption spectroscopy is best explained as an approximately 0.7 M ⊙ companion inspiralling within the convective AGB envelope that powers a seven-year period of gradual brighteningone of the first direct observations of frictional drag energy dissipation induced by CEE. This phase is radiatively efficient, consistent with predictions for convective transport in CEE 5 , 6 , 7 , 8 . The subsequent merger of the companion with the primary core powers the ejection of the outermost 10% of the stellar envelope at speeds about 10× the primary escape speed, and empirically constrains the fraction of dissipated orbital energy available to unbind the convective common envelope 4 , 9 , 10 , 11 , 0.01 ≲ α ≲ 0.4. This end-to-end characterization using multi-survey observations demonstrates a path towards mapping the landscape of CEE outcomes with upcoming surveys.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11221-z",
+    "checked_at": "2026-11-19T02:48:07.201758+00:00"
+  },
+  "10.1038/d41586-026-03708-6": {
+    "text": "Tech companies and governments face opposition over data centres’ expansion, in part because of their huge power requirements. They must not be powered with fossil fuels.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03708-6",
+    "checked_at": "2026-11-19T02:48:07.684656+00:00"
+  },
+  "10.1038/s41586-026-11270-4": {
+    "text": "Current understanding of the host tissue response to solid tumours is largely based on investigations of tumour types in isolation 1 . Given the breadth and diversity of human tumour pathology and contributions of tumour microenvironment (TME) cells to disease progression, pan-cancer analysis is needed to bridge major themes of stromal and immune cell evolution. To date, however, efforts to compare the TME response across cancers have been limited in scope 2 , 3 . Here we conduct a comprehensive pan-cancer analysis by algorithmically screening thousands of publicly available single-cell transcriptomic datasets for stromal and immune signatures across species and tissue types. We demonstrate conserved hallmarks of host cell transcriptional programming in response to malignancy across 42 cancer types in more than 2,000 human and mouse tumour samples. These findings are codified as an interactive web atlas ( tmeatlas.stanford.edu ) and software package (scTME) that will serve as practical resources for the systematic interrogation of the TME in tumours.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11270-4",
+    "checked_at": "2026-11-19T02:48:14.484614+00:00"
+  },
+  "10.1038/s41586-026-11300-1": {
+    "text": "Cells dynamically assemble actin into branched networks to push on their environment during cell migration, endocytosis or the maintenance of cell–cell contact 1 . These networks are among the stiffest found in the cytoskeleton and can generate large pushing stresses against stationary obstacles 2 , 3 , 4 , 5 . When grown against a controlled opposing stress in an atomic force microscope 6 or inside the cell 7 , branched networks alter their own architecture to adapt their compressional stiffness to their environment, but the underpinnings of their mechanics and adaptability are unclear. Here we show that their high density and low connectivity place them outside the scope of standard elastic network models for actin. We show that they are instead dominated by the proliferation of interfilament contacts under compression. This places branched actin in the same category as undercoordinated fibrous materials such as sheep’s wool. When the network is grown under force, filaments entangle as if knitted together and trap contacts in their structure. Trapped contacts have a similar role as crosslinkers in rigidifying the network and are thus key to its active adaptive mechanics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11300-1",
+    "checked_at": "2026-11-19T02:48:15.151531+00:00"
+  },
+  "10.1038/s41586-026-11100-7": {
+    "text": "Corporate greenhouse gas reduction targets are central to climate action, but they often fall short of driving meaningful business transformation. Despite progress in standardization, current target-setting approaches remain weakened by methodological problems, including inaccurate emissions accounting, excluded emissions sources and limited comparability across companies. More importantly, many corporate targets are disconnected from the real-world sectoral transitions required to meet the Paris Agreement’s temperature goal. Drawing on evidence from four editions of the Corporate Climate Responsibility Monitor and recent literature, we argue that target-setting frameworks should place greater emphasis on systemic changes in business models, technologies and value chains. We propose transition targets as a practical complement to traditional greenhouse gas reduction targets. These targets would incentivize, guide and measure progress towards sector-specific milestones, such as electrification, low-carbon material uptake and the phase-out of emissions-intensive technologies. Embedding transition targets in accountability standards, and eventually in regulation, could help close the gap between corporate climate commitments and real-world action. It would also align corporate target-setting with the physical transition benchmarks introduced by the Paris Agreement’s Global Stocktake. The scientific community has a key role in developing robust, actionable frameworks for corporate decarbonization.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11100-7",
+    "checked_at": "2026-11-19T02:48:15.734623+00:00"
+  },
+  "10.1038/s41586-026-11235-7": {
+    "text": "A major goal in neuroscience is to map the transformation of information as it flows through the brain. For example, neurons at many levels of the visual hierarchy are attuned to motion direction 1 , 2 , 3 , 4 , 5 . However, links between motion-selective computations and cell types at various stages of the visual hierarchy remain unidentified. A key first step in delineating these relationships is to map the wiring diagrams that connect different motion-selective cell types. Here we establish a systematic, cell-type-specific circuit-mapping method, combining an anterograde trans -neuronal fluorescent tracer (mWGA–mCherry) 6 with spatial transcriptomics (multiplexed error-robust fluorescence in situ hybridization (MERFISH)) 7 , 8 to establish TransA-MERFISH. We used TransA-MERFISH to comprehensively map the synaptic target cell types of four retinal ganglion cell subclasses in superior colliculus (SC) at cell-type resolution. These experiments unexpectedly revealed that retinal on–off direction-selective ganglion cells (ooDSGCs) innervate several direction-selective SC cell types, but do not innervate a SC cell type that was previously reported to display strong direction-selective responses. We validated these results using orthogonal approaches and demonstrated the sensitivity and specificity of TransA-MERFISH. Functional studies of SC activity before and after ablation of retinal direction-selective circuits confirmed that these computationally distinct, ooDSGC-dependent and -independent direction-selective cell types are commingled in SC. Together, our study establishes TransA-MERFISH as a robust framework for mapping wiring diagrams at the cell-type level and uncovers divergent computational mechanisms of motion detection in early visual processing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11235-7",
+    "checked_at": "2026-11-19T02:48:26.892562+00:00"
+  },
+  "10.1038/s41586-026-11330-9": {
+    "text": "Twisting two atomic layers produces a geometric moiré pattern but bonding-induced interfacial reconstruction fundamentally transforms this into an ordered dislocation network—a distinction obscured in weakly bonded van der Waals systems. Although in-plane topological vortex nanostructures arising from twisting-induced lateral strain modulation have been linked to periodic moiré patterns in freestanding perovskite layers 1 , 2 , 3 and 2D bilayers 4 , their coupling to the interfacial dislocation network in twisted layers remains unresolved. Here we demonstrate that twisted freestanding SrTiO 3 (STO) layers undergo interfacial reconstruction into a network of screw dislocations, accompanied by the emergence of in-plane topological vortices. Unlike in previous reports, these vortices are associated with the dislocation network rather than with geometric moiré patterns. Four-dimensional scanning transmission electron microscopy (4DSTEM) reveals a beam deflection texture in registry with the interfacial dislocation network. A machine learning interatomic potential, trained on first-principles calculations, together with phase-field modelling, confirms that competing strains within the dislocation network stabilize polar vortex–antivortex pairs; first-principles calculations further reveal the emergence of an electronic superlattice with a well-defined periodicity. Our results establish twist-controlled dislocation networks as a new and versatile route to designing local polar and electronic structures in oxide materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11330-9",
+    "checked_at": "2026-11-19T02:48:27.489439+00:00"
+  },
+  "10.1038/s41586-026-11247-3": {
+    "text": "Position information underpins many modern technologies, from navigation and timing to authentication and critical infrastructure 1 , 2 , 3 . However, classical methods of proving that information originates from a particular position are vulnerable to spoofing 4 , 5 , 6 . This limitation can be overcome with quantum technologies 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , but current protocols rely on trust in quantum hardware that can be undermined 17 , 18 , or require quantum computers and bounds on adversarial computation 19 . Nevertheless, there has been considerable interest in experimental demonstrations, and aspects of these protocols have been implemented 20 , 21 , 22 . Here we introduce and experimentally demonstrate the Bell-test quantum position verification protocol for device-independent quantum position verification that guarantees security with only observed correlations from a loophole-free Bell test 23 , 24 , 25 across a quantum network. In the experiment, we implement a version of this device-independent protocol against adversaries who, before each trial, are weakly entangled. Our demonstration achieves a one-dimensional localization 2.47(2) times smaller than the best, necessarily non-remote, classical localization protocol. Compared with classical protocols with identical latencies, the localization volume is 4.53(5) times smaller, representing a certifiable quantum advantage. The general Bell-test protocol is loss-tolerant and secure against adversaries with substantial quantum resources. This work allows digital security to be anchored to physically trusted locations, enabling new position-based authentication protocols for applications such as financial transactions, legal agreements and securing critical infrastructure 26 , 27 , 28 , 29 .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11247-3",
+    "checked_at": "2026-11-19T02:48:28.005141+00:00"
+  },
+  "10.1038/d41586-026-03378-4": {
+    "text": "Demonstrating your location to someone far away is surprisingly hard. Quantum correlations offer a way to do so without needing to trust any quantum hardware.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03378-4",
+    "checked_at": "2026-11-19T02:48:28.545279+00:00"
+  },
+  "10.1038/s41586-026-11325-6": {
+    "text": "Islands account for a disproportionate share of global biodiversity 1 , yet insects, including invaluable pollinators such as bees 2 , remain underrepresented in island biogeography research 3 . Here we present a global checklist of island bees, recording 4,147 species across 305 islands. Although islands comprise only about 6% of the Earth’s land area, they support around 20% of known global bee diversity, and 42% of insular species are endemic, making up around 8% of all known bee species. Island bee species richness peaks at mid-latitudes (at least in the Northern Hemisphere), mirroring continental trends 4 . Native richness increases with island area and declines with isolation, consistent with patterns in other taxa 5 . The strength of island species–area relationships varies among biomes and is steepest in Mediterranean-type systems, which also support disproportionately high bee richness relative to flowering plant diversity. The number of endemic species is highest on large tropical islands, reflecting extensive in situ diversification. Major centres of bee endemism include Madagascar, Malesia (the Greater Sundas and New Guinea) and the Hawaiian islands, where a single large radiation of Hylaeus ( Nesoprosopis ) dominates 6 . Among islands that are capable of supporting endemic species, endemism scales strongly with total richness. These findings highlight the need to integrate island bee diversity into global conservation planning and position bees as a model for understanding insect evolution and conservation on islands.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11325-6",
+    "checked_at": "2026-11-19T02:48:28.971466+00:00"
+  },
+  "10.1038/d41586-026-03766-w": {
+    "text": "Egoviruses could be the evolutionary missing link between giant viruses that infect single-celled organisms and those that can infect people.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03766-w",
+    "checked_at": "2026-11-19T02:48:29.369046+00:00"
+  },
+  "10.1038/s41586-026-11251-7": {
+    "text": "Metabolic disorders such as diabetes mellitus are global health crises driven by metabolic imbalance, chronic inflammation and dysfunction of the neuroimmune axis 1 , 2 , 3 . Electroceuticals targeting the autonomic nervous system have shown anti-inflammatory effects, yet existing systems lack the metabolic interoceptive feedback to fully restore immune–metabolic homeostasis 4 , 5 , 6 , 7 , 8 , 9 . Here we report an artificial neuroimmune axis (NeuroAxis) as a closed-loop immunomodulatory therapy for treating metabolic diseases. Analogous to its biological counterpart, NeuroAxis is solely powered by endogenous glucose, operating without batteries or wireless power transfer. It emulates the vagal reflex through closed-loop neuromodulation with metabolic interoceptive feedback. In a rat model of type 1 diabetes, NeuroAxis promotes the recovery of insulin-producing pancreatic β-cells and reduces inflammatory immune responses; in a rat model of type 2 diabetes, it drives macrophage remodelling and reduces systemic chronic inflammation. In both models, NeuroAxis restores glucose tolerance, improves insulin sensitivity and normalizes glycaemic control, with therapeutic effects persisting after treatment cessation. Our artificial neuroimmune axis promotes substantial advances in treating metabolic disorders and represents a general approach for autonomously regulating interorgan communication, central to homeostasis and pathophysiology.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11251-7",
+    "checked_at": "2026-11-19T02:48:29.915539+00:00"
+  },
+  "10.1038/s41586-026-11292-y": {
+    "text": "As a primary port of pathogen entry, the intestinal mucosa has developed a sophisticated set of defences to ward off infections. Investigating the human-specific intestinal barrier responses to pathogens is limited by the lack of models integrating the necessary architectural complexity with an autologous immune compartment 1 . Here we developed engineered barrier models of the human small intestine and colon combining a multilineage epithelium, mucus layer, accessible microbial compartment and autologous tissue-resident immune cells. These tissues recapitulate morphological and functional properties that are region specific and compare with those of the native organ. We use the model to characterize the human epithelial response to Salmonella enterica subsp. enterica serovar Typhimurium at the single-cell level, uncovering the distinct gene regulatory networks that underpin luminal versus intracellular pathogen presence. Invaded epithelial cells initiate an IL-18 signalling axis that triggers cytotoxic T cell activation, resulting in epithelial shedding and barrier disruption. Overall, this work allows for the modular integration of epithelial, microbial and immune compartments, providing a versatile system for studying human intestinal physiology and pathologies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11292-y",
+    "checked_at": "2026-11-19T02:48:30.540183+00:00"
+  },
+  "10.1038/s41586-026-11289-7": {
+    "text": "Cavity quantum electrodynamics 1 with quantum emitters coupled to resonators provides a powerful platform for engineering light–matter interactions 2 , 3 and exploring many-body phenomena 4 , 5 . In particular, superradiance 6 —arising from collective quantum interference among emitters—has been explored as a route to ultrastable continuous radiation 7 . However, engineering superradiance in the time domain to realize periodic pulsed sources or frequency combs remains largely unexplored. Here we investigate the non-equilibrium many-body dynamics of a driven spin ensemble coupled with an on-chip superconducting resonator and uncover a dynamical phase transition from continuous-wave to periodic pulsed superradiant emission. To quantitatively capture the observed dynamical phases, we introduce a driven-dissipative cavity-quantum electrodynamics model that elucidates how the periodic pulsed superradiant phase emerges from collective, periodically repeating spin dynamics stabilized by the interplay of coherence growth, disorder and dissipation. We also find that rare-earth ion spin systems with both optical and microwave transitions enable phase-synchronized, dual-rail superradiant frequency combs in both the microwave and the optical domains. Our results not only open new opportunities for atom-based frequency-comb sources and programmable superradiant generation, but establish a fundamental connection between periodic pulsed superradiance and the emergence of a continuous time crystal 8 , 9 , 10 as a new non-equilibrium phase in driven open systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11289-7",
+    "checked_at": "2026-11-19T02:48:31.041016+00:00"
+  },
+  "10.1038/d41586-026-03777-7": {
+    "text": "Teeth found in south China challenge the idea that Homo erectus was limited to woodlands and savannahs.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03777-7",
+    "checked_at": "2026-11-19T02:48:31.602980+00:00"
+  },
+  "10.1038/d41586-026-03717-5": {
+    "text": "Technology companies can’t be the judges of their own regulatory compliance. Centuries of history explain why.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03717-5",
+    "checked_at": "2026-11-19T02:48:32.292080+00:00"
+  },
+  "10.1038/s41586-026-11305-w": {
+    "text": "Alterations in metabolism, stress response, sleep, circadian rhythms and neuroendocrine processes are key features of ageing and neurodegeneration 1 , 2 . These fundamental processes are regulated by the hypothalamus, yet how its functionally distinct subregions and cell types change during human ageing and Alzheimer’s disease (AD) remains largely unexplored. Here we present HypoAD, an atlas of the human hypothalamus in ageing and AD, including high-resolution magnetic resonance imaging from 458 individuals and single-nucleus RNA sequencing of 614,403 nuclei from young participants, patients with AD and age-matched non-dementia control participants. We show that hypothalamic subregions governing metabolism, stress and circadian rhythms are particularly vulnerable, showing notable changes in both volumes and gene expression during ageing and AD. At the molecular level, machine learning models identified the inflammatory response and regulators of circadian rhythms as key cellular predictors of AD. These signatures were reflected in specific cell types: microglia transitioned to a pro-inflammatory state, whereas inhibitory neurons within sleep-regulating and circadian-regulating hypothalamic subregions showed the most profound transcriptional alterations, including disruptions in ligand–receptor interactions and G-protein-coupled receptor signalling. HypoAD provides a high-resolution volumetric map and a transcriptomic atlas of the human hypothalamus in ageing and AD, relating lifestyle and behavioural changes to the relevant volumetric and molecular pathways. In addition, HypoAD provides a framework to investigate hypothalamic dysfunction and establishes a roadmap for targeted interventions aimed at mitigating physiological disruptions to potentially slow disease progression.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11305-w",
+    "checked_at": "2026-11-19T02:48:33.024692+00:00"
+  },
+  "10.1038/d41586-026-03689-6": {
+    "text": "A rapid microgrants scheme called the Field Building Accelerator aims to launch new scientific fields.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03689-6",
+    "checked_at": "2026-11-19T02:48:33.777685+00:00"
+  },
+  "10.1038/s41586-026-11155-6": {
+    "text": "Homo erectus represents one of the longest-persisting hominin species, with a geographic range from Africa to eastern Eurasia from approximately 1.9 million years ago 1 to 108 thousand years ago (ka) 2 . Despite this, there are still large gaps in our understanding of the adaptation capabilities of this species and the extent of its persistence in China. Assumptions over ecological preferences based on the Trinil 3 , Sangiran 4 and Ngandong 2 (in Java) open woodland–grassland mosaics have persisted, combined with limited direct stable carbon isotope measurements in Asia. Here we present a rich temporal and environmental context for nine hominin teeth, eight of which were morphologically and genetically identified as H. erectus 5 , found in two sister caves in Guangxi province, southern China. We modelled 43 radiometric ages from five dating techniques to establish a timeline for H. erectus presence in this region. Stable and clumped isotopes and trace elements from teeth were used to establish the dominant environments and their behavioural responses. We show that H. erectus was present in southern China between 324 and 184 ka, which is substantially more recent than previously established in this region for unequivocally H. erectus fossils at approximately 400 ka. The evidence suggests that they were persisting in closed rainforest ecosystems, thought to be the domain of only Homo sapiens , and were demonstrating long-term mobility and ecological flexibility. This evidence challenges the assumptions over the ecological preferences and behavioural limitations of H. erectus .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11155-6",
+    "checked_at": "2026-11-19T02:48:34.575892+00:00"
+  },
+  "10.1038/s41586-026-11427-1": {
+    "text": "Perovskite solar cells (PSCs) have emerged as a promising photovoltaic technology, with efficiencies rapidly approaching those of established crystalline-silicon solar cells. Further efficiency gains, however, are increasingly limited by charge extraction and recombination at the interface between the perovskite absorber and the electron-transport layer. Interfacial modifiers are widely used to suppress these losses, yet many conventional ammonium-based modifiers are weakly electronically coupled to the perovskite surface and can introduce barriers to electron extraction 1-5 . Here we realize electronically coupled heterointerfaces by introducing a family of heteroatom-containing, fully conjugated formamidinium interfacial modulators, establishing band-edge-extending conjugated heterointerfaces that overcome the bottleneck of inefficient interfacial electron transfer. The resulting band-edge-extended heterointerface establishes delocalized electron connectivity at the perovskite/electron transporting layer (ETL) interface and suppresses interfacial non-radiative recombination. We report a certified power-conversion efficiency (PCE) of 27.96% and a stabilized power output (SPO) of 27.84% for inverted PSCs. The corresponding devices retained over 95% of their initial efficiency after 2000 h continuous maximum-power-point tracking under 1-sun irradiation (ISOS-L). Extending this strategy to monolithic perovskite–silicon tandems enables a certified SPO of 34.71%, establishing band-edge extension as a broadly applicable approach to overcoming the conventional trade-off between interfacial passivation and charge extraction.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11427-1",
+    "checked_at": "2026-11-19T02:48:35.019696+00:00"
+  },
+  "10.1038/d41586-026-03436-x": {
+    "text": "Large and giant DNA viruses that infect unicellular eukaryotes are abundant in the environment but have rarely been found in the gut microbiome. The discovery of such viruses that prevail in the digestive system of humans and animals exposes a long-overlooked facet of the gut microbiome that clarifies the origin of poxviruses. Newly discovered viruses distributed in animal digestive systems are the closest known relatives of the clade containing smallpox virus.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03436-x",
+    "checked_at": "2026-11-19T02:48:35.548218+00:00"
+  },
+  "10.1038/d41586-026-03710-y": {
+    "text": "Our reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03710-y",
+    "checked_at": "2026-11-19T02:48:36.056779+00:00"
+  },
+  "10.1038/d41586-026-03602-1": {
+    "text": "Global agricultural demand has increased over the past few decades, driving land-use intensification in some of the world’s most biodiverse regions. An assessment of some 40,000 species, from soil microorganisms to vertebrates, in Sumatra, Indonesia, reveals that agricultural intensification threatens biodiversity through species loss and changes in community composition across different spatial scales. A survey of 40,000 species in Sumatra, Indonesia, could inform conservation efforts.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03602-1",
+    "checked_at": "2026-11-19T02:48:36.619482+00:00"
+  },
+  "10.1038/d41586-026-03784-8": {
+    "text": "Finding provides new insights into what happens within stellar mergers — plus, using quantum physics to securely pinpoint someone’s location. Hear the biggest stories from the world of science | 18 November 2026",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03784-8",
+    "checked_at": "2026-11-19T02:48:36.973866+00:00"
+  },
+  "10.1038/d41586-026-03377-5": {
+    "text": "A device that stimulates the main nerve between the brain and the internal organs when blood sugar is high is an effective therapy in rat models of diabetes.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03377-5",
+    "checked_at": "2026-11-19T02:48:37.500298+00:00"
+  },
+  "10.1038/d41586-026-03490-5": {
+    "text": "Much of the Amazon rainforest was thought to be evergreen, but high-resolution satellite imagery reveals that many of its trees can remain leafless for longer than expected.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03490-5",
+    "checked_at": "2026-11-19T02:48:38.585807+00:00"
+  },
+  "10.1038/s41467-026-78926-7": {
+    "text": "The remediation of aggressive acidic wastewater is fundamentally hindered by the coupled proton-release/electron-transfer barrier that suppresses high-valent metal-oxo chemistry in conventional advanced oxidation processes. Here we report an interstitial proton-buffering strategy in which boron is incorporated into a cobalt-manganese phosphide lattice, guiding self-limited reconstruction into a stable oxyhydroxide interface. The interstitial B-regulated interface acts as a local Brønsted-base proton buffer, establishing a proton-acceptor–electron-donor mechanism that enables decoupled proton-electron transfer, as supported by a super-Nernstian E 1/2 -pH response. This pathway stabilizes Co IV -oxo formation and drives complete imidacloprid degradation within 3 min in simulated water. In 80 h continuous-flow treatment of electroplating acid-pickling wastewater at pH 0.85, the system retains 49.48% total organic carbon reduction. These results identify interstitial proton buffering as a route to sustain high-valent oxidation chemistry in strongly acidic water matrices.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78926-7",
+    "checked_at": "2026-11-19T02:48:57.304386+00:00"
+  },
+  "10.1038/s41467-026-79459-9": {
+    "text": "Henipaviruses (HNVs), including Nipah virus (NiV) and Hendra virus (HeV), are zoonotic paramyxoviruses with high case fatality rates and pandemic potential. Despite their threat, no licensed vaccines are currently available for human use. Here, we present a structure-guided mRNA vaccine strategy that overcomes key challenges in antigen stability, fusogenicity, and cross-protective efficacy. Using rationally engineered NiV F glycoproteins stabilized in the prefusion conformation, we identify a lead candidate (F-205) that abolishes syncytium formation and elicits high prefusion-specific antibody titers. Through systematic combinatorial screening, we determine that co-delivery of F-205 (NiV-M) and G (NiV-B) antigens via mRNA–lipid nanoparticles induces potent neutralizing and cellular immune responses. In stringent golden hamster challenge models, this vaccine confers complete survival against lethal NiV-M, NiV-B and HeV challenge, with viral RNA undetectable in lung, spleen and brain after NiV challenge and significantly reduced viral burden after HeV challenge. We also introduce surrogate assays to assess F conformation and fusion activity under standard biosafety conditions, enabling iterative antigen optimization without live-virus handling. This study defines a broadly protective, mechanistically informed vaccine platform for HNVs and provides a generalizable framework for rational design of mRNA vaccines targeting class I fusion viruses.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79459-9",
+    "checked_at": "2026-11-19T02:48:57.762303+00:00"
+  },
+  "10.1038/s41467-026-79513-6": {
+    "text": "Multidrug efflux pumps are major drivers of antimicrobial resistance, but overlapping resistance mechanisms mask the physiological limits of efflux alone. Bacterial genomes encode a large repertoire of multidrug efflux pumps, which could theoretically combine to achieve exceptionally high levels of resistance. To delineate the extent of resistance achievable through efflux driven adaptation, we performed adaptive laboratory evolution of Mycobacterium smegmatis mc²155 wild-type and efflux-deleted ( ΔlfrA , ΔefpA ) strains against ethidium bromide, a broad-spectrum efflux substrate. Despite prolonged selection, resistance reproducibly plateaued at 8-16 fold increase in MIC under the tested conditions. This plateau emerged through distinct evolutionary trajectories characterized by non-overlapping efflux pump sets: from overexpression of the well-characterized lfrA to upregulation of multiple uncharacterized pumps, all conferring cross-resistance. Genetic reconstruction of mutations in a transcriptional regulator and a membrane protein, together with overexpression of efflux pumps, recapitulated the resistance phenotypes of the evolved strains. Sustained pump overexpression depleted membrane potential and drove metabolic suppression, suggesting that energetic exhaustion may constrain further increase in efflux-mediated resistance. Similar constraints were observed in Mycobacterium tuberculosis , indicating that they may extend to other mycobacterial species. Efflux-metabolic integration thus affects resistance evolution, revealing therapeutic vulnerabilities to combat multidrug resistance.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79513-6",
+    "checked_at": "2026-11-19T02:48:58.216375+00:00"
+  },
+  "10.1038/s41467-026-79311-0": {
+    "text": "Aneuploidy and chromosomal instability are common characteristics of cancer but remain underexploited therapeutically. Chromosomally unstable cells are often selectively vulnerable to inhibition of the kinesin KIF18A, and this dependence is related to altered mitotic control. Here, we identify the spindle and kinetochore-associated (SKA) complex as a mitotic regulator that establishes a similar dependency. SKA complex loss is tolerated in cells with a defective mitotic checkpoint, but when mitosis is prolonged, it leads to mitotic errors and loss of viability. Genetic analysis reveals that the SKA complex and KIF18A are epistatic, although they function through mechanistically distinct mitotic pathways. SKA complex depletion selectively impacts chromosomally unstable cancer cells and mirrors the effects of KIF18A inhibition. We thus identify a cellular vulnerability associated with prolonged mitosis in chromosomally unstable cancers.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79311-0",
+    "checked_at": "2026-11-19T02:48:59.510963+00:00"
+  },
+  "10.1038/s41467-026-79248-4": {
+    "text": "A comprehensive understanding of the Ras self-inactivation mechanism at atomic resolution—specifically, intrinsic GTP hydrolysis converting the GTP-bound active form to the GDP-bound inactive form—is essential for designing therapies against Ras-driven cancers. Conventional models describe a biphasic GTP-bound state: Ras interconverts between inactive state 1 and active, catalytically competent state 2. However, the structural pathway leading to Ras/GDP via these states remains unclear. Here, we use time-resolved serial femtosecond and synchrotron crystallography to capture GTP hydrolysis in Ras crystals loaded with photoactivatable caged GTP, across timescales from milliseconds to hours. Photolysis yielded Ras in state 1—a conformation lacking a stabilized nucleophilic water characteristic of state 2. Remarkably, this state persists for hours and converts directly to Ras/GDP without passing through state 2. These findings challenge the prevailing view that state 2 is essential and suggest that state 1 can directly support catalysis, offering an alternative conceptual basis for targeting clinically relevant Ras mutants that preferentially adopt this conformation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79248-4",
+    "checked_at": "2026-11-19T02:49:00.267997+00:00"
+  },
+  "10.1038/s41467-026-79313-y": {
+    "text": "Mycobacteria survive inside the immune cells meant to destroy them. Toxin-antitoxin systems, gene pairs that help bacteria withstand stress, are abundant in the Mycobacterium tuberculosis complex, yet their role in infection remains unclear. Here we show that the Mycobacterium bovis toxin VapC40 disrupts host nitrogen metabolism. VapC40 redirects glutamine catabolism in infected macrophages, producing excess glutamate and ammonia. Ammonia is transported into lysosomes through the transporter RHCG, raising their pH and rupturing their membranes. Ammonia then enters mitochondria, collapsing membrane potential and triggering oxidative damage. VapC40 recruits NIX to the damaged mitochondria and activates TBK1 on their surface, inducing mitophagy. At the same time, autophagosome maturation is impaired and fewer bacteria reach lysosomes, so the pathogen escapes clearance. Mice infected with VapC40-deficient bacteria show less ammonia toxicity and lung necrosis. These findings show that mycobacteria manipulate host nitrogen metabolism, and identify ammonia-induced organelle damage as a potential therapeutic target.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79313-y",
+    "checked_at": "2026-11-19T02:49:00.678976+00:00"
+  },
+  "10.1038/s41467-026-79668-2": {
+    "text": "R -2-Hydroxyglutarate ( R 2HG), an oncometabolite predominantly produced by mutated isocitrate dehydrogenase 1/2 (IDH1/2) in various cancers, is known to drive cancer progression through noncovalent inhibition of α-ketoglutarate ( α KG)-dependent enzymes. In this work, we propose an alternative mechanism wherein R 2HG contributes to cancer development via covalent modification of biologically critical lysines, a process termed lysine- R 2HGylation (K R 2HG ). We designed and synthesized R 2HG-mimicking probes and demonstrated their effectiveness in facilitating K R 2HG target profiling and site mapping. We identified K R 2HG as a post-translational modification, confirmed its C5-linkage on GSTP1(K209), and demonstrated that SIRT5 functions as a deacylase for GSTP1-K R 2HG in vitro. Furthermore, we found that R 2HG slightly but significantly inhibits the enzymatic activity of GSTP1 through K R 2HG and dramatically suppresses monocyte differentiation via this catalytically important lysine modification. Our findings provide an alternative perspective on the role of R 2HG in leukemia progression and offer a practical tool for the clinical investigation of R 2HG-elevated cancers.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79668-2",
+    "checked_at": "2026-11-19T02:49:01.077607+00:00"
+  },
+  "10.1038/s41467-026-77386-3": {
+    "text": "Most studies measuring inequalities in exposure to climate disasters rely on aggregate income data and focus on residents. By omitting dwellings owned by nonresidents, this approach overlooks half of the housing stock exposed to flooding. Using dwelling-level data covering the entire French housing market, this paper examines how natural disaster risks are distributed across tenants, owner-occupants, and owners of rental, second, and vacant properties. The results highlight large differences with the standard approach that focuses on residents. Once properties owned by nonresidents are included, flood risk disproportionately affects second homes, while subsidence mainly affects owner-occupied dwellings. These patterns have important policy implications. First, untargeted flood insurance subsidies tend to benefit second homes, whereas subsidence coverage mainly supports owner-occupied dwellings. Second, this study shows that natural disaster risks are not priced into rental, second, and vacant properties, driving at least 15% of the total overvaluation in flood-prone areas.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77386-3",
+    "checked_at": "2026-11-19T02:49:01.436730+00:00"
+  },
+  "10.1038/s41467-026-79347-2": {
+    "text": "Alcohol intoxication remains a pervasive driver of global mortality and multi-organ pathology, yet its clinical management is fundamentally limited by the saturation kinetics of hepatic enzymes and the rapid gastrointestinal absorption of ethanol. While ingestible bioelectronics have advanced physiological monitoring and neural modulation, autonomous systems that locally convert metabolically relevant toxins upon contact within the gastrointestinal tract remain underdeveloped. Here, we report a fully integrated, ingestible, and self-powered electrocapsule designed for localized intestinal ethanol interception. The device features a galvanic architecture utilizing biomimetically assembled manganese–ellagic acid (Mn–EA) mesocrystals. The device integrates a Zn-based galvanic component for self-powered operation with a Mn–EA/Au interface for contact-dependent ethanol conversion toward acetate, providing a host-independent auxiliary clearance pathway. In a rat model of acute intoxication, prophylactic administration reduced blood ethanol concentrations by ~58–68% across the 0.5–6 h observation window, shortened the duration of righting-reflex loss, and mitigated alcohol-induced neurobehavioral deficits and hepatic injury. This reduction in systemic ethanol exposure was achieved with minimal electrochemical interference from a representative biomolecule mixture in vitro. This work establishes a preclinical metabolic-bioelectronics platform for localized intestinal ethanol interception and motivates future scale-adjusted pharmacokinetic, gastrointestinal transit, and safety evaluations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79347-2",
+    "checked_at": "2026-11-19T02:49:01.923958+00:00"
+  },
+  "10.1038/s41467-026-77820-6": {
+    "text": "Neuropeptide signals such as BDNF secreted from dense-core vesicles (DCVs) are essential for neuronal development, maturation and survival. RAB3 GTPases are established regulators of DCV exocytosis, but their functional diversity remains poorly understood. Here, we use live-cell imaging and neuropeptidomics to show that distinct exocytic RABs control DCV exocytosis in a neuron type specific manner, whereas RIM1/2 is a universal effector. Striatal neurons express both RAB3A and RAB27B but, surprisingly, only the latter controls DCV exocytosis. This is explained by selective phosphorylation of RAB3A by LRRK2, preventing its recruitment to DCVs. Finally, a LRRK2 hyperactive mutation associated with Parkinson’s disease disrupts DCV exocytosis in both hippocampal and striatal neurons. These findings uncover an unexpected diversity in controlling neuropeptide secretion in different neurons and establish LRRK2-mediated inhibition of RAB recruitment to DCVs as a powerful inhibitory principle that may also contribute to neurodegeneration upon gain-of-function mutations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77820-6",
+    "checked_at": "2026-11-19T02:49:02.316453+00:00"
+  },
+  "10.1038/s41467-026-79267-1": {
+    "text": "Episodic memory is grounded upon a spatiotemporal framework that binds discrete event details into a coherent structure. However, the neural mechanisms that construct this scaffold and their potential for memory enhancement through cognitive training have yet to be investigated. Here, we show a common spatiotemporal basis for human episodic memory across distinct populations, using a task in which participants remembered a sequence of objects placed in different locations in a virtual environment. Ultra-high-resolution 7-Tesla fMRI revealed that, within the hippocampal formation, the subiculum exhibited selective responses to spatiotemporal binding across sequences of spatial locations, which we attributed to its compressed, high-dimensional neural representational capacity compared to other hippocampal subfields. We then targeted this spatiotemporal framework through a two-week multi-target navigation training paradigm in a subset of participants, which led to transferable improvements in episodic memory. Critically, these behavioral gains were accompanied by enhanced retrieval-related activation and neural pattern reinstatement in the subiculum, measured using 3-Tesla fMRI. Together, these findings establish the subiculum as a core neural substrate for spatiotemporal scaffolding in human episodic memory and highlight its potential as a target for cognitive interventions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79267-1",
+    "checked_at": "2026-11-19T02:49:02.742333+00:00"
+  },
+  "10.1038/s41467-026-79434-4": {
+    "text": "High-performance dielectric capacitors are indispensable for next-generation pulsed power systems. However, simultaneously achieving high recoverable energy density and efficiency remains challenging because of the intrinsic trade-off between polarization and breakdown strength. Here, we develop a dual-functional-unit modulation strategy to overcome this limitation in Bi 0.47 Na 0.47 Ba 0.06 TiO 3 -based ceramics through configurational-entropy engineering combined with microstructural optimization. Specifically, configurational entropy simultaneously tailors two key local functional units, namely local polarization configurations and oxygen octahedral tilt configurations. Multicomponent substitution at the A site (Ba 2+ ) and B site (Zn 2+ /Nb 5+ ) induces fragmented heterogeneous polarization configurations together with weakened and disordered oxygen octahedral tilt, enabling strong field-induced polarization, highly reversible polarization responses, and enhanced intrinsic breakdown strength. Combined with grain refinement and improved densification achieved by high-energy ball milling, which further enhances electrical homogeneity and suppresses interfacial polarization, the optimized ceramic exhibits a breakdown strength of 94 kV mm −1 , a large recoverable energy density of 16.19 J cm −3 and a high efficiency of 91.3%. This work establishes dual-functional-unit modulation as an effective design principle for high-entropy relaxor ferroelectrics and provides a general framework for overcoming the polarization-breakdown trade-off in dielectric energy storage materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79434-4",
+    "checked_at": "2026-11-19T02:49:03.159805+00:00"
+  },
+  "10.1038/s41467-026-79397-6": {
+    "text": "Hepatic lipid homeostasis is controlled by multiple processes, including VLDL-TG secretion. We have previously shown that the FLCN/TFE3 branch of mTORC1 signaling controls hepatic fatty acid oxidation and de novo lipogenesis to protect mice from MAFLD. We now show that the FLCN/TFE3 pathway also controls VLDL-TG secretion via direct transcriptional activation of a broad program of genes involved in VLDL-TG secretion, including PCYT1A, the rate-limiting step of phosphatidylcholine synthesis. Loss of hepatic FLCN upregulates VLDL-TG secretion and prevents MAFLD, and this protection requires TFE3 and PCYT1A. The data unveil a new pathway that orchestrates multiple steps of VLDL-TG synthesis and secretion. The data also highlight that suppressing the selective FLCN/TFE3 branch of mTORC1 signaling maximizes hepatic lipid clearance by coordinately promoting fatty acid oxidation, suppressing de novo lipogenesis, and boosting VLDL-TG secretion, providing an attractive therapeutic target for the treatment of MAFLD.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79397-6",
+    "checked_at": "2026-11-19T02:49:03.635267+00:00"
+  },
+  "10.1038/s41467-026-79460-2": {
+    "text": "Decades of studies have established that a terminal gene in the sex determination hierarchy, fruitless ( fru ), controls nearly all aspects of male courtship behaviors in Drosophila and many other insects. fru is transcribed in a sex-specific manner to produce male-specific Fru proteins (Fru M ) and was considered nonfunctional in females. In this study, we identify a female-specific truncated Fru protein (Fru F ) that is specifically expressed during the pupal stage and distributed in both cell bodies and neuronal projections, in contrast to Fru M , which is expressed from larval to adult stages and localized to nuclei. We discover that Fru F cooperates with another sex determination gene, doublesex ( dsx ), to prevent male-typical courtship in females. Knocking down fru F in dsx -expressing pC1 neurons induces courtship in females. These results reveal that the master gene for male courtship prevents this behavior in females via a truncated protein, thereby refining the canonical sex determination hierarchy that controls sexual development and behaviors.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79460-2",
+    "checked_at": "2026-11-19T02:49:04.077292+00:00"
+  },
+  "10.1038/s41467-026-78403-1": {
+    "text": "Cryo-Electron Microscopy (cryo-EM) is a pivotal tool for determining 3D structures of biological macromolecules. Current workflows are computationally demanding and require manual intervention, creating bottlenecks for high-throughput applications like structure-based drug discovery. In such contexts, where all protein samples can be assumed to be equivalent at resolutions relevant for image alignment, information about particle poses from previous refinements could be reused. Existing methods, however, ignore this prior knowledge, aligning each dataset from scratch. We present cryoPARES, a deep learning pose estimation method trained on pre-aligned datasets. Our method not only provides accurate angular predictions significantly faster than traditional approaches but also introduces automated particle pruning capabilities that eliminate manual intervention. Together with its single-pass operation, these features enable near real-time reconstructions that provide feedback during data acquisition. We demonstrate cryoPARES’s effectiveness through rapid structural determination of seven ligand-bound complexes across four distinct protein targets. We also release three fragment-bound cryo-EM datasets.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78403-1",
+    "checked_at": "2026-11-19T02:49:04.567714+00:00"
+  },
+  "10.1038/s41467-026-77755-y": {
+    "text": "Sp8 and Sp6 are closely related transcription factors expressed in the limb ectoderm, where they control proximo-distal and dorso-ventral patterning, yet their direct targets and molecular mechanisms have remained unclear. Combining genome-wide chromatin occupancy with transcriptomic profiling in vivo, we identify shared and specific targets and reconstruct the Sp8/Sp6 gene regulatory network, establishing Sp8 as its dominant, hierarchical node. Mechanistically, the two factors diverge: Sp8 binds DNA directly at canonical GC-rich Sp motifs, regulating targets including Fgf8 and Sp6 itself, whereas Sp6 acts as a transcriptional cofactor. Via indirect binding to AT-rich motifs through Dlx, both cooperatively regulate limb-patterning pathways, including Wnt, FGF, TGF-β/BMP, and Notch. Biochemical assays confirm that both form homo- and heterodimers and interact with Dlx5 through their zinc-finger domains. Together, these findings reveal how Sp8 and Sp6 orchestrate AER formation and dorso-ventral patterning, providing a mechanistic framework for congenital limb malformations such as split-hand/foot malformation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77755-y",
+    "checked_at": "2026-11-19T02:49:05.224578+00:00"
+  },
+  "10.1038/s41467-026-79803-z": {
+    "text": "Cardiometabolic diseases cause over 30% of global deaths, yet the prognostic value of depression and anxiety for individuals with cardiometabolic diseases and the modifying effects of socioeconomic environment have not been well-described. Here, among 376,713 participants from the United Kingdom and 3,973 participants from the United States, each additional cardiometabolic disease was significantly associated with a 28.5% and 33.4% higher risk of depression/anxiety, respectively. In the participants from the United Kingdom, compared with cardiometabolic disease-free individuals without depression/anxiety, the hazard ratio of all-cause mortality increased from 1.200 to 2.389 among individuals with a single cardiometabolic disease when mental disorders were identified during follow-up, and from 1.754 to 2.918 among those with two cardiometabolic diseases. Among individuals with cardiometabolic diseases, the association of depression/anxiety identified during follow-up with mortality was stronger in those with higher socioeconomic status. Replication analyses in the participants from the United States showed broadly similar patterns. These findings highlight the prognostic value of mental health in individuals with cardiometabolic diseases.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79803-z",
+    "checked_at": "2026-11-19T02:49:05.627336+00:00"
+  },
+  "10.1038/s41467-026-79624-0": {
+    "text": "In this article the author’s name Francesco Montorsi was incorrectly written as Fracnesco Montorsi. The original article has been corrected.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-19T02:49:19.008199+00:00"
+  },
+  "10.1038/s41467-026-79702-3": {
+    "text": "In the version of the article initially published, in “Step 3” of the NMT module in Fig. 4c, the enzyme label “RnCOMT” was incorrect and should have read “EcMAT”. In the Fig. 4 caption, “M1G supernatant, obtained by centrifugation, was used to resuspend strains S1–S6 and reacted for 6 h” should have read “…reacted for 8 h.” In the Fig. 6c source data, the 4 h data were inadvertently duplicated at 5 h, while the original measurements at 5 h and 6 h were plotted at 6 h and 7 h, respectively, and the original 7 h measurements were omitted. The figure and source data have now been corrected. In the Supplementary Fig. 2c source data, the labels “ Rn COMT” and “ Gs OMT1” were switched and have now been corrected. Also in the Source Data file, the Supplementary Fig. 17 SDS-PAGE source image was included in the Supplementary Fig. 15 worksheet and has now been moved. These errors have been corrected in the HTML and PDF versions of the article. The original figures are available for comparison in the Supplementary information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-19T02:49:37.442346+00:00"
+  },
+  "10.1038/s41467-026-79494-6": {
+    "text": "In the version of this article initially published, there was an error in the first paragraph of the “Cell behaviors regulated by YS in vitro” section, where in the text now reading “However, the DNA content of YS was significantly higher than that of MS on day 5,” day 5 replaces the original “days 3 and 5.” In the third paragraph of the “Performance of YS in vivo” section, in the text now reading “At 2 weeks, the number of CD68 + iNOS + macrophages in YS was significantly lower than in MS (Fig. 3o). By 4 weeks, CD68 + iNOS + macrophages counts decreased in both groups,” lower replaces “higher” in the first sentence, while the text “with no significant intergroup difference observed” is now removed from the second sentence. In the second paragraph of the “Single-nucleus RNA sequencing reveals muscle regeneration mechanisms” section, in the text now reading “Statistical analysis revealed that the proportion of Neu_ Il1β + neutrophils,” Neu_ Il1β + neutrophils replaces the original “Neu_ Spp1 + neutrophils.” In the second paragraph of the “Validating the clinical translational potential of YS implantation in a canine model of VML” section, in the text now reading “Next, we performed electrophysiological testing to determine the neural response functions of the neo muscle at the 16-week timepoint,” 16-week timepoint replaces the original “8-week timepoint.” In the third paragraph of the Discussion, in the text now reading “significantly upregulating the proportion of CD206 + IGF-1 + macrophages,” CD206 + appeared originally as “C206 + .” In the Fig. 6 Source Data file, rows 142–161 in columns X and Y were inadvertent duplicates of values in rows 122–141. The text and Source Data are now amended in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-19T02:49:38.075135+00:00"
+  },
+  "10.1038/s41467-026-79733-w": {
+    "text": "In the version of this article initially published, there was a coding error that originated in our single-cell RNA-seq cell-cell interaction tool, SOCIAL, in which cell-type-specific ligand-receptor interactions were not calculated correctly from the single-cell data. As SOCIAL is integrated into our spatial transcriptomics tool, SPECIAL (also introduced in this article), the downstream spatial transcriptomics analyses were also affected. We have corrected the error in SOCIAL and regenerated the affected single-cell and spatial transcriptomics results (Fig. 2I-J; Fig. 5; Supplementary Figs. 7–10 and associated figure legends and text). The conclusions are not affected. We have updated the SOCIAL code deposited in GitHub. The HTML and PDF versions of the article have been updated. For comparison, the original figures are available as Supplementary Information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-19T02:49:38.962219+00:00"
+  },
+  "10.1038/s41467-026-78722-3": {
+    "text": "Trilayer cuprates hold the record for the highest superconducting critical temperatures ( T c ), yet the underlying mechanism remains elusive. Using time- and angle-resolved photoemission spectroscopy (tr-ARPES), we uncover a striking interplay between charge order, superconducting gap magnitude, and quasiparticle coherence in Bi 2 Sr 2 Ca 2 Cu 3 O 10+ δ (Bi2223). We present ARPES-based evidence of charge order on the inner CuO 2 plane – as confirmed via resonant x-ray scattering (RXS) – and show that the same inner plane hosts a large superconducting gap matching its doping, firmly establishing it as underdoped. Despite its underdoped nature, the inner plane also exhibits an exceptional degree of quasiparticle coherence; suppressing charge-order fluctuations further enhances this, making it comparable to that of the overdoped outer planes at elevated electronic temperatures. At the same time, on the overdoped outer planes we find larger superconducting gaps than what is seen on comparably doped single and bilayer cuprates, indicating an unexpected and simultaneous enhancement of both coherence and pairing interactions in Bi2223. These findings, supported by complementary single- and three-layer Hubbard model calculations, reveal a unique interlayer mechanism in which both pairing strength and phase coherence are optimized when interfacing planes with distinct hole concentrations, providing new microscopic insight into the record T c of Bi2223.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78722-3",
+    "checked_at": "2026-11-19T02:49:39.382781+00:00"
+  },
+  "10.1038/s41467-026-79350-7": {
+    "text": "The mammalian heart is divided into four chambers by septa that isolate systemic and pulmonary circulation and are hotspots of congenital heart defects (CHD). The muscular ventricular septum develops between left and right ventricular cardiomyocytes derived from the first and second heart fields. Despite its clinical importance, mechanisms underlying development of the ventricular septum are poorly understood. Here we show that myocardial reception of retinoic acid (RA) signalling regulates formation of the compact septal core. Activation of a dominant negative RA receptor in second heart field-derived myocardium during septal morphogenesis results in a deep interventricular cleft and bifid cardiac apex. This phenotype is preceded by ectopic trabecular contributions to a RA-independent septal primordium. Molecular analysis identifies defective cardiomyocyte maturation and impaired RAC1 activation in mutant hearts. These results support an infolding and RA-dependent fusion model of septal morphogenesis, providing new insights into ventricular development and the origins of CHD.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79350-7",
+    "checked_at": "2026-11-19T02:49:39.825559+00:00"
+  },
+  "10.1038/s41467-026-79293-z": {
+    "text": "Understanding dynamic mechanisms underlying cognition remains a major challenge in human neuroscience. Here, we develop, validate, and apply Multivariate Dynamical Systems Identification with Amortized Variational Inference (MDSI-AVI), a computational framework designed to address critical challenges in capturing asymmetric, context-dependent, whole-brain directed interactions while accounting for regional hemodynamic response variability in fMRI data. MDSI-AVI leverages simulation-based inference through forward and reverse variational inference to address the limitations of conventional variational methods in high-dimensional settings. By averaging over uncertainty in hemodynamic response parameters using forward simulation, MDSI-AVI provides well-calibrated posteriors of directed connectivity that scale efficiently to networks with hundreds of nodes. Applied to Human Connectome Project data ( N = 728), MDSI-AVI provides insights into working memory mechanisms, identifying the dorsal anterior insula as a critical hub influencing activity at the whole-brain level. We demonstrate task-dependent modulation of causal influences, where the salience network drives frontoparietal network activity, which differentially influences the default mode and sensorimotor networks depending on working memory load. These whole-brain causal interactions distinguish task conditions with high accuracy and predict working memory performance. Our framework demonstrates reproducible results across whole-brain parcellations, establishing MDSI-AVI as a robust tool for advancing our understanding of circuit dynamics in cognition and disease.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79293-z",
+    "checked_at": "2026-11-19T02:49:40.319382+00:00"
+  },
+  "10.1038/s43247-026-04176-6": {
+    "text": "Growing lithium demand motivates understanding of the tectonic and magmatic processes that form giant pegmatite-type lithium deposits. We present three-dimensional magnetotelluric imaging across three districts of the ~2800-km-long West Kunlun-Songpan-Ganzi belt, revealing a consistent lithospheric-scale electrical structure underlying the mineralisation. Geophysical imaging combined with seismic data reveals thickened crust exceeding 70 km along Paleo-Tethys suture zones, dome-shaped high-conductivity anomalies in the middle to lower crust that may extend into the uppermost mantle, and upper-crustal zones that coincide with granitic plutons. The lithium deposits lie directly above the conductive anomalies within suture-bounded blocks. These features indicate that subduction and closure of the Paleo-Tethys Ocean were followed by post-collisional mantle-derived magmatism, with thickened crust promoting the protracted magmatic differentiation required for lithium enrichment while long-lived sutures served as trans-crustal conduits. Our results are consistent with the interpretation that crustal thickening and suture zones are the primary controls on giant pegmatite-type lithium deposits, providing a framework for exploration in orogenic belts worldwide.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04176-6",
+    "checked_at": "2026-11-19T02:49:41.001449+00:00"
+  },
+  "10.1038/s44221-026-00738-2": {
+    "text": "The sulfate-reducing ammonia oxidation (sulfammox) process describes a novel anaerobic nitrogen cycle in which sulfate serves as the direct electron acceptor. Integrating bioreactor studies, kinetic assays and multi-omics, this study demonstrates that ammonia oxidation proceeds independently of sulfate supply (ΔN/ΔS up to 12.4 versus theoretical 2:1). Mechanistically, cryptic oxygen permeation through silicone tubing creates micro‑oxic niches that enrich Nitrosomonas and Candidatus Brocadia, establishing a canonical partial nitritation–anammox cascade. Quantitative flux calculations suggest that this oxygen permeation could sustain the observed nitrification. Meta‑omics reveals that functional genes for ammonia oxidation and sulfate reduction were neither genomically co‑localized nor co‑expressed. Thus, the observed activity is driven by oxygen permeation‑induced nitrification–anammox, not by direct coupling to sulfate reduction, which redefines the coupling mechanism and proposes passive membrane aeration as an alternative route for sustainable, low‑carbon wastewater treatment.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s44221-026-00738-2",
+    "checked_at": "2026-11-19T02:49:42.293096+00:00"
   }
 }
