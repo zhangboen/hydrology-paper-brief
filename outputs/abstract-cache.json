@@ -6767,5 +6767,236 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s44221-026-00738-2",
     "checked_at": "2026-11-19T02:49:42.293096+00:00"
+  },
+  "10.1038/d41586-026-03379-3": {
+    "text": "An analysis of 42 cancer types reveals shared patterns of gene activity in the tumour microenvironment, which might point to treatments that work across a range of cancers.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03379-3",
+    "checked_at": "2026-11-20T02:35:15.636264+00:00"
+  },
+  "10.1038/d41586-026-03753-1": {
+    "text": "An analysis finds that many undesirable LLM behaviours dissipate after about 16 months.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03753-1",
+    "checked_at": "2026-11-20T02:35:16.172547+00:00"
+  },
+  "10.1038/d41586-026-03788-4": {
+    "text": "The firm aims to cure diseases, accelerate discovery and automate science — but many researchers are sceptical of its lofty ambitions.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03788-4",
+    "checked_at": "2026-11-20T02:35:16.685631+00:00"
+  },
+  "10.1038/s41586-026-11445-z": {
+    "text": "New catalytic manifolds that challenge existing boundaries for synthesis and sustainable manufacturing are notoriously difficult to implement 1 , particularly for catalytic paradigms based on metals which lack access to the fundamental processes that underpin many established d -block mechanistic pathways (e.g. oxidative addition and reductive elimination). The widespread exploitation of systems based on main-group elements therefore requires alternative elementary steps to effect turnover. Herein, we demonstrate a new catalytic platform for nucleophilic fluorination, which exploits a complex based on calcium (the fifth most Earth-abundant element) as the fluoride delivery vehicle. The key intermediate is a calcium-fluoride complex featuring a terminal Ca–F interaction, a unique structural geometry enabled by a highly sterically encumbered dianionic ligand-scaffold. This intermediate links reactants and products through F – capture and release steps, and thereby unlocks catalytic F – shuttling. Late Ca–F bond breaking in the rate-determining fluoride-delivery transition-state means that electronic and steric tuning of F – by calcium is chemically significant; proof-of-concept results show a hitherto unprecedented level of selectivity for substitution over elimination brought about by Ca-modulation. In a broader context, this work demonstrates how control over catalyst speciation and reagent binding affinity are key factors for the future development of sustainable non-transition metal paradigms in catalysis.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11445-z",
+    "checked_at": "2026-11-20T02:35:17.388173+00:00"
+  },
+  "10.1038/d41586-026-03774-w": {
+    "text": "The brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03774-w",
+    "checked_at": "2026-11-20T02:35:31.095472+00:00"
+  },
+  "10.1038/d41586-026-03746-0": {
+    "text": "Undergraduates were the first group to spread genetic variants of SARS-CoV-2 during the pandemic, mega-analysis finds.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03746-0",
+    "checked_at": "2026-11-20T02:35:36.032535+00:00"
+  },
+  "10.1038/d41586-026-03748-y": {
+    "text": "Climate change is creating conditions that pump up the intensity of hurricanes and typhoons just as the storms reach the coast.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03748-y",
+    "checked_at": "2026-11-20T02:35:36.828210+00:00"
+  },
+  "10.1038/d41586-026-03775-9": {
+    "text": "Cybersecurity researchers who don’t use the technology for spotting software bugs now 'risk falling behind'.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03775-9",
+    "checked_at": "2026-11-20T02:35:38.322929+00:00"
+  },
+  "10.1038/d41586-026-03783-9": {
+    "text": "Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03783-9",
+    "checked_at": "2026-11-20T02:35:38.885915+00:00"
+  },
+  "10.1038/d41586-026-03606-x": {
+    "text": "Algal blooms are important ecological phenomena that drive carbon fixation and fuel the marine food web. Viral infection often ends them abruptly. Some bacteria can sense infected algal cells and then act in synergy with viruses to expedite a bloom’s collapse.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03606-x",
+    "checked_at": "2026-11-20T02:35:40.244354+00:00"
+  },
+  "10.1038/d41586-026-03791-9": {
+    "text": "Take Nature’s quiz to test your skills as a research-integrity sleuth. Plus, a milestone for Voyager 1 and the United States has lost its measles elimination status.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03791-9",
+    "checked_at": "2026-11-20T02:36:45.066824+00:00"
+  },
+  "10.1038/s41558-026-02833-4": {
+    "text": "In the version of this article initially published, there was an incorrect label for the Extended Data Fig. 1b colour scale bar and associated Source Data file, where “Years with sufficient observation” now replaces “Years without sufficient observation.” The figure and Source Data are now amended in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-20T02:38:44.397000+00:00"
+  },
+  "10.1038/s41561-026-02143-6": {
+    "text": "The ocean’s oxygen-deficient zones are hotspots of biogeochemical reactions. An important example is water-column denitrification, a process that removes biologically available nitrogen from the ocean. Denitrification discriminates against the heavier nitrogen isotope ( 15 N) in favour of the lighter 14 N, leaving a signal of elevated 15 N/ 14 N ratio in the remaining nitrate. Bulk sediment nitrogen isotope records have been interpreted to indicate reduced water-column denitrification and oxygen-deficient zone contraction during the late Pleistocene ice ages. In contrast, we report that foraminifera-bound nitrogen isotopes from the southern margin of the eastern tropical North Pacific are not strongly correlated with global climate, indicating that the southward extent of the eastern tropical North Pacific oxygen-deficient zone was similar between ice ages and interglacials over the last ~265 thousand years. We interpret this disagreement between bulk sediment and foraminifera-bound nitrogen isotopes in the same tropical Pacific sediment cores to arise from effects on bulk sedimentary nitrogen from diagenesis or exogenous nitrogen sources. Rather than varying with global climate, the eastern tropical North Pacific oxygen-deficient zone expanded transiently during the last three deglaciations and other periods with orbital conditions that strengthen the intertropical convergence zone at its northern extreme. Under these conditions, enhanced wind-driven upwelling may have increased eastern tropical Pacific surface productivity and, thus, eastern tropical North Pacific oxygen-deficient zone extent. Our findings differ from foraminifera-bound nitrogen isotope results from the earlier Cenozoic, which associate global cooling with oxygen-deficient zone expansion. The insensitivity of the eastern tropical North Pacific oxygen-deficient zone to late Pleistocene ice ages may reflect thermocline-stabilizing feedbacks that became important once the tropical thermocline had strengthened to late Pleistocene levels. Alternatively, late Pleistocene iron fertilization of the Southern Ocean may have depleted the thermocline nutrient supply to the tropics, counteracting the processes that encourage oxygen-deficient zone expansion in response to cooling.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41561-026-02143-6",
+    "checked_at": "2026-11-20T02:38:45.578596+00:00"
+  },
+  "10.1038/s41467-026-79650-y": {
+    "text": "Twist-photonics offers a powerful route to engineer light-matter interactions beyond conventional planar architectures. Although twist-photonic platforms, including twist-stacked metasurfaces, van der Waals (vdW) materials and photonic crystals have successfully engineered chiral optical responses, anomalous dispersion and high- Q localized modes, most platforms remain passive. Their translation into on-chip optoelectronic sensing is hindered by an intrinsic trade-off: photosensitive absorbers can quench twist-engineered resonances, whereas passive twist-photonic modes often couple inefficiently to active photocarrier-generation regions. Here, we report an emerging twist-photonic paradigm that integrates anisotropic metasurfaces with anisotropic black phosphorus (BP). Coupled to a vectorial cavity, this twisted stack produces quasi-pure circular-polarization photoresponses and enables arbitrary polarization selectivity across the full Poincaré sphere at multiple wavelengths. Then, we establish an ultra-compact on-chip full-Stokes polarimeter using only two metasurface-BP twisted stacks, achieving high-accuracy full-Stokes reconstruction with a root-mean-square error below 1.3%, and the highest responsivity among reported vdW material-based full-Stokes polarimeters. We further implement an in-sensor kernel matrix that directly maps polarization states into synaptic weights for polarization-programmable multimodal convolutional image processing, reducing electrical switching energy by 1 to 3 orders of magnitude and reconfiguration latency by 2 to 4 orders of magnitude, as the array scales from the 10k-pixel to megapixel level.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79650-y",
+    "checked_at": "2026-11-20T02:38:46.846621+00:00"
+  },
+  "10.1038/s41467-026-79493-7": {
+    "text": "SMC5/6, a member of the Structural Maintenance of Chromosomes family, coordinates 3D genome organization, chromatin states, and transcriptional regulation, yet its role in higher-order chromatin architecture remains poorly defined. Here, we investigate the impact of conditional SMC5 depletion in human B lymphoblastoid cells. Hi-C analyses reveal global rewiring of chromatin interactions, with increased long-range and reduced short-range contacts, leading to altered large-scale chromosome organization. SMC5 loss induces changes in 3D genome compartmentalization affecting ~2% of the genome and is accompanied by transcriptional upregulation of inflammatory and cancer-associated gene programs. SMC5 depletion also promotes double-strand break accumulation, preferentially in active compartments and following gene expression levels. However, regions undergoing architectural reorganization display comparatively fewer breaks, indicating that chromatin changes are not driven by DNA damage. Together, our findings establish SMC5/6 as a key regulator of chromatin compartmentalization and TAD boundary integrity, linking 3D genome organization to transcriptional control and genome stability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79493-7",
+    "checked_at": "2026-11-20T02:38:47.583447+00:00"
+  },
+  "10.1038/s41467-026-79402-y": {
+    "text": "In 2019, we hypothesised that bicyclo[2.1.1]hexanes could mimic meta -benzenes in bioactive compounds. In this work, we have supported this hypothesis experimentally. Incorporation of the bicyclo[2.1.1]hexane fragment instead of meta -benzene into the drug Sonidegib preserves physico-chemical properties and membrane permeability. Incorporation of bicyclo[2.1.1]hexane instead of meta -benzene into the drug Meclizine improves its metabolic stability and preserves the anticancer activity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79402-y",
+    "checked_at": "2026-11-20T02:38:48.059784+00:00"
+  },
+  "10.1038/s41467-026-79617-z": {
+    "text": "Cryospheric risks unfold over decades to millennia, while climate governance remains tied to short political cycles. We argue that cryosphere science must be embedded in governance mechanisms that connect near-term decisions with long-term accountability for irreversible change.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s41467-026-79617-z",
+    "checked_at": "2026-11-20T02:38:49.049365+00:00"
+  },
+  "10.1038/s41467-026-79512-7": {
+    "text": "Two-dimensional transition metal borides (MBenes), boride analogues of MXenes, combine layered frameworks with tunable surface chemistry, yet high-quality MBenes remain difficult to access. Existing methods for preparing MBenes often suffer from incomplete dealumination, Mo 2 AlB 2 intermediate-phase formation, multilayer restacking, or Mo vacancies. Here, we report a Lewis-acid molten-salt route that converts MoAlB into few-layer MoB MBene nanosheets with an atomically ordered Mo−B framework and a low density of Mo vacancies. Comparative thermodynamic calculations and control experiments with ZnCl 2 , ZnBr 2 , ZnF 2 , and ZnS identify molten ZnBr 2 as the preferred etchant for redox-driven Al extraction and delamination. Temperature-dependent free-energy analysis and Mo−Al−B ternary isothermal sections further define 700 °C as a processing window that suppresses Mo 2 AlB 2 formation and promotes direct conversion from MoAlB to MoB MBene. Selective Al extraction from MoAlB produces few-layer MoB MBene, retaining an ordered Mo−B framework while inducing b -axis contraction, strengthened Mo−B covalency, and enhanced electron localization. Together with O/OH and Br surface terminations, these structural and electronic features promote multiple polarizations and enable an effective absorption bandwidth of 8.7 GHz at 2.1 mm. This theory-informed molten-salt etching strategy expands redox-mediated MBene synthesis and connects atomically ordered few-layer MoB MBene with electromagnetic functionality.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79512-7",
+    "checked_at": "2026-11-20T02:38:49.857043+00:00"
+  },
+  "10.1038/s41467-026-78758-5": {
+    "text": "Generative artificial intelligence can design biological sequences, from proteins to whole genomes, opening opportunities for medicine and biotechnology, but the same capability can be misused. The Wübben Sandpit conference brought together experts in biology, AI, biosecurity, ethics, medicine and policy to ask how the field can capture the benefits while managing the risks. Here we set out a defence-in-depth strategy that builds safeguards into every stage, from the data used to train models, to the models themselves, to the synthesis of physical DNA. We argue that responsible governance is not a brake on progress but a precondition for it.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78758-5",
+    "checked_at": "2026-11-20T02:38:50.534718+00:00"
+  },
+  "10.1038/s41467-026-79369-w": {
+    "text": "The construction of atomically precise heterogeneous catalysts that integrate multiple distinct active sites into a synergistic architecture is highly attractive but challenging. Here, we report an Au 39 (PPhpy 2 ) 2 (R 1 C ≡ C) 19 (PPhpy 2 = 2,2’-(phenylphosphanediyl) dipyridine, R 1 C ≡ CH = 4-ethynyl-α, α, α-trifluorotoluene) nanocluster. The heteroatoms (such as nitrogen) were introduced to modulate the local coordination environment and construct asymmetric coordination units on the surface of Au 39 nanoclusters. Single-crystal X-ray diffraction reveals that, in addition to the symmetric R 1 C ≡ C-Au-C ≡ CR 1 motif, Au 39 features two asymmetric pyN-Au-C ≡ CR 1 coordination motifs on the surface. Au 39 /XC-72 delivers 96.6% conversion of benzyl alcohol with 94.4% selectivity for benzaldehyde under mild conditions (40 °C, air). Mechanistic studies show that the pyN-Au-C ≡ CR 1 motif facilitates O 2 adsorption and activation, whereas the R 1 C ≡ C-Au-C ≡ CR 1 motif adsorbs benzyl alcohol. The exceptional catalytic performance stems from the synergy between adjacent, functionally distinct Au sites, enabled by the asymmetric coordination strategy. This study highlights the critical role of asymmetric coordination protocols in synergistic dual-site catalysis for aerobic oxidation, providing new ideas for the rational design of synergistic catalysts.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79369-w",
+    "checked_at": "2026-11-20T02:38:51.517883+00:00"
+  },
+  "10.1038/s41467-026-79222-0": {
+    "text": "Virus capsids are metastable assemblies with an exquisite balance between stability and flexibility, obligatory for entry, infectivity, and immune escape. Yet the extent to which human viruses exploit capsid plasticity and how that consequently shapes antigenic landscapes remains poorly understood. Human noroviruses (HuNoVs) are the leading cause of acute viral gastroenteritis worldwide. GII.4 HuNoVs have been evolving epochally, driving most global pandemics, and since 2012, GII.4 Sydney has been the dominant variant. The major capsid protein, VP1, is central to infectivity and immune recognition, and VP1-based virus-like particles (VLPs) are considered promising vaccine candidates. Yet, how the icosahedral HuNoV capsid responds to antibody pressure at the atomic level remains unclear. Here, we present the first atomic structure of GII.4 Sydney capsid determined by cryo-EM, revealing the structural features that likely contribute to its sustained dominance. Using focused refinement, we uncover the remarkable capsid plasticity in response to symmetry-breaking binding of neutralizing and non-neutralizing antibodies. VP1 adopts 11 distinct conformational modalities to accommodate asymmetric antibody binding, and antibody-disrupted VLPs reassemble into smaller particles with five additional VP1 states. This previously unrecognized extent of conformational adaptability provides key insights for designing next-generation VLP- or mRNA-based vaccines targeting HuNoV infections.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79222-0",
+    "checked_at": "2026-11-20T02:38:52.193572+00:00"
+  },
+  "10.1038/s41467-026-78715-2": {
+    "text": "Artificial intelligence for combinatorial optimization depends on high-quality, structured training data, yet transforming ambiguous natural-language descriptions into precise, executable formal models remains a major bottleneck, traditionally requiring extensive manual effort and domain expertise. We develop CPAM-LLM, an automated constraint-programming modeling framework based on large language models that converts unstructured problem specifications into validated and executable formal models. The framework integrates retrieval-augmented generation grounded in formal concept analysis for structural validation, chaos-mapping-based data augmentation to enhance cross-domain generalization, and dynamic constraint adaptation to accommodate evolving problem settings. We demonstrate its effectiveness across five scenarios, including DNA sequence design, reconfigurable energy storage systems, and unmanned vehicle logistics. The results show that the framework can automate the data-to-model pipeline while adapting reliably to changing requirements, providing a practical approach to automated data formalization and indicating the importance of accessible, high-quality structured data for reliable downstream artificial intelligence applications.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78715-2",
+    "checked_at": "2026-11-20T02:38:53.135357+00:00"
+  },
+  "10.1038/s41467-026-79342-7": {
+    "text": "T-cell therapies for solid tumors are restricted by abnormal tumor vasculature, which creates structural and immunological barriers to infiltration. Here we report a programmable mRNA lipid nanoparticle (LNP) platform that orchestrates a division-of-labor immune response in vivo. By modulating the LNP nano-bio interface through 10% 1,2-dioleoyl-sn-glycero-3-phospho-L-serine (DOPS) doping and indirect IgG-based anti-CD5 tethering, we achieve selective and efficient transfection of endogenous splenic T cells. This platform simultaneously generates two complementary chimeric antigen receptor (CAR)-T populations: a vascular endothelial growth factor receptor 2 (VEGFR2)-directed subset that transiently remodels the tumor endothelium, and a tumor-antigen-directed subset that executes cytotoxic clearance. Mechanistic analyses reveal that focal endothelial disruption creates a permissive window for the infiltration, expansion, and activation of tumor-directed CAR-T cells. In refractory melanoma and colorectal carcinoma models in female mice, this dual-programming strategy achieves superior tumor control and drives tumor regression while reducing systemic toxicity. By bypassing ex vivo manufacturing, this approach provides a scalable and host-directed strategy to breach infiltrative barriers in solid-tumor immunotherapy.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79342-7",
+    "checked_at": "2026-11-20T02:38:53.996172+00:00"
+  },
+  "10.1038/s41467-026-77853-x": {
+    "text": "The nanostructure of two-dimensional (2D) membranes is crucial for their separation performance. However, in conventional 2D membranes, guest species unavoidably permeate through tortuous pathways, resulting in effective transport lengths that are orders of magnitude greater than the membrane thickness. Here, we propose vertically aligned metal-organic framework (MOF) nanosheet membranes featuring bimodal porosity: intrinsic lateral pores within the MOF nanosheets and interlamellar pores between them, forming an ultralow-tortuosity, dual-sieving channel system for efficient gas separation. Despite their relatively large thickness, the resulting MOF nanosheet membranes exhibit a high H 2 permeance of 16673 GPU (up to an order of magnitude higher than the reported average) along with an H 2 /CO 2 separation selectivity of 325 under standardized atmospheric Wicke-Kallenbach conditions (zero transmembrane partial pressure difference). This work not only provides a promising membrane platform for H 2 /CO 2 separation but also offers an alternative strategy for constructing next-generation molecular sieve membranes.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-77853-x",
+    "checked_at": "2026-11-20T02:38:54.768953+00:00"
+  },
+  "10.1038/s41467-026-78889-9": {
+    "text": "Patients with influenza-induced lung injury exhibit disrupted lung tissue barrier and persistent viral load, accompanied by hyperinflammation, immune cell recruitment, and risk of bacterial superinfection. These complications are often exacerbated in patients undergoing mechanical ventilation. Leveraging an immune-competent human lung-on-a-chip (Lung Chip) lined by human lung epithelium co-cultured with monocyte-derived macrophages and interfaced with lung microvascular endothelium, we show that monocyte-derived macrophages play a central role in driving key features of severe influenza, including activated cell death programs. Physiological strain mimicking breathing motions supports lung homeostasis, whereas pathological strain analogous to mechanical ventilator-induced lung overdistension promotes secondary Pseudomonas aeruginosa infection. Computational gene network analysis combined with experimental validation identified SIRT1 as a candidate modulator of inflammation and susceptibility to bacterial superinfection, which can be mitigated using pharmacological SIRT1 activators. Together, these findings underscore the importance of incorporating macrophages into preclinical models of viral lung injury and establish an integrated workflow combining human Organ Chips and computational approaches for gaining insights into biophysical and molecular disease drivers while facilitating the identification of therapeutic targets and candidate countermeasures.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78889-9",
+    "checked_at": "2026-11-20T02:38:55.773916+00:00"
+  },
+  "10.1038/s41467-026-79435-3": {
+    "text": "In this work, we introduce a class of hybrid-parity sliding multiferroics in which the spontaneous ferroelectric polarization is coupled to certain nonrelativistic spin splitting components through interlayer sliding, allowing these components to be reversibly switched in an electrical way. Symmetry analysis identifies coplanar magnets as natural platforms for realizing this form of sliding multiferroicity. First-principles calculations establish bilayer VBr 2 as a representative example, demonstrating the coupled reversal of the out-of-plane ferroelectric polarization and the signs of both even- and odd-parity nonrelativistic spin splitting components via an interlayer-sliding pathway. The signs of these nonrelativistic spin splitting components are locked to the sliding-switchable ferroelectric polarization and encoded in the spin-current responses, providing a signature of the coupled ferroic switching. Our findings expand the scope of sliding multiferroics and the functionality of sliding ferroelectrics for low-energy, nonvolatile logic devices.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79435-3",
+    "checked_at": "2026-11-20T02:38:56.559296+00:00"
+  },
+  "10.1038/s41467-026-79417-5": {
+    "text": "Electrosynthesis of azo compounds via aniline oxidation represents a sustainable alternative to conventional methods, yet its efficiency is largely limited by sequential N–H dehydrogenation and N–N self-coupling steps. Herein, a single-atom Ba-doped nickel hydroxide (C-Ba 1 Ni 1-x (OH) 2 ) with an atom-level pinning effect is engineered to tailor a robust carbonate-functionalized interface and a spatially favorable Ni–O–Ni motif for N–H dehydrogenation and N–N coupling of aniline, respectively. The C-Ba 1 Ni 1-x (OH) 2 achieves electrooxidative coupling of various anilines, with up to 95.8% yield and 98.2% Faradaic efficiency for azos, along with good tolerance. Mechanistic investigations elucidate that carbonate bound on Ba single-atom weakens O/N–H interaction to increase their H removability that promotes adjacent Ni 2+ –OH reconstruction to generate active Ni 3+ –O species and bolsters N–H dehydrogenation of aniline (Ph-NH 2 ), favoring *Ph-N intermediate generation. Further, single-atom Ba compresses the neighboring Ni–O–Ni distance to spatially favor *Ph-N self-coupling, overall facilitating azo electrosynthesis. This atomic-level strain engineering delivers a generalizable paradigm to construct self-adaptive electrodes for multi-step electrochemical transformations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79417-5",
+    "checked_at": "2026-11-20T02:38:57.153919+00:00"
+  },
+  "10.1038/s41467-026-79096-2": {
+    "text": "Hydrogen peroxide (H 2 O 2 ) is a commodity chemical used broadly in the industrial sector that heavily relies on the 80+-year-old anthraquinone process, requiring significant energy input in combination with precious metal-catalyzed hydrogenation. We describe a metal-free molecular cyclopentadiene-iminium electrocatalyst for producing H 2 O 2 under ambient conditions with high Faradaic efficiency (> 99%) and turnover frequency up to 10 4 s −1 , surpassing some of the most active transition-metal-based molecular catalyst systems. One-electron reduction of the dication [Cp N3 H] 2+ generates a radical cation [Cp N3 H] +• that becomes a potent hydrogen atom (H•) donor to O 2 , operating through an unusual radical-rebound mechanism to form a key hydroperoxyl intermediate ([Cp N3 OOH] +• ). This proposed pathway is rigorously supported by cutting-edge computational and experimental mechanistic analyses. Overall, this work demonstrates an innovative and sustainable molecular approach to furnish a valuable commodity chemical through an electrically driven process without the need for transition metals.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79096-2",
+    "checked_at": "2026-11-20T02:38:58.605257+00:00"
+  },
+  "10.1038/s41467-026-79330-x": {
+    "text": "Humans can estimate the number of objects in a scene within a fraction of a second, suggesting that numerosity is encoded rapidly and directly by the visual system. Yet how this encoding unfolds over time and interacts with other visual features remains unclear. Here, we combined magnetoencephalography (MEG) with time-resolved representational similarity analysis (RSA) and MEG–fMRI fusion to track how numerosity is represented in the brain over time. We also used multidimensional scaling (MDS) to visualize the evolving patterns of neural activity. Two main findings emerged. First, numerosity exhibited the hallmarks of a primary perceptual attribute: its neural signature appeared very rapidly after stimulus onset, preceding the encoding of non-numeric features that could otherwise define number. Second, multidimensional scaling of the neural manifolds revealed a temporal shift in representational geometry: an early linear structure, consistent with a summation-based code and predominant in occipital regions, transitioned into a curvilinear structure characteristic of numerosity-tuned coding, emerging more prominently in associative areas along the dorsal stream. Together, these findings demonstrate that numerosity processing is encoded directly from the visual image and unfolds through a rapid hierarchical transformation, from a broad quantity signal to a finely tuned, number-specific code, linking perceptual encoding to higher-level numerical abstraction.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79330-x",
+    "checked_at": "2026-11-20T02:38:59.927028+00:00"
+  },
+  "10.1038/s41467-026-79522-5": {
+    "text": "Current acellular pertussis vaccines fail to control the burden of Bordetella pertussis ( Bp ) in the human nasopharynx, a reservoir for transmission. To better understand the unique host and bacterial signatures in the nasal microenvironment, we inoculated primary human nasal epithelial cultures (HNEC) with Bp . Bp adhered and replicated robustly on cilia forming structured and matrix-encased biofilms. HNEC-associated biofilms were more resistant to killing by the antimicrobial peptide, LL-37, compared to abiotic biofilms and planktonic cells. Profiling of the host and bacterial mRNA signatures during infection revealed the differential regulation of host genes encoding mucins and downregulation of those involved in mucociliary clearance, epithelial barrier integrity, and host immunity. Measurement of mucins revealed an initial reduction followed by a sharp increase in MUC5AC and MUC5B, and the presence of mucin-embedded Bp biofilms. A striking downregulation of Bp genes encoding virulence factors, including all the components of current acellular pertussis vaccines, metabolic pathways; and upregulation of genes encoding iron acquisition pathways and the Bps polysaccharide was uncovered. Bps was critical for Bp -HNEC interaction and biofilm formation. Our results reveal biofilms as a potential source of Bp carriage and transmission, the cascade of host-pathogen transcriptional events during nasal infection and targets for vaccine development.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79522-5",
+    "checked_at": "2026-11-20T02:39:00.553377+00:00"
+  },
+  "10.1038/s41467-026-79581-8": {
+    "text": "Rapid risk stratification is essential in the clinic, yet vital signs, laboratory tests, and triage scores often miss important risk at presentation. Here we show that a single facial photograph contains prognostic information about mortality risk. Using 27,660 smartphone facial photographs obtained from patients admitted to Danish emergency departments (median age 73 years; 52% male), we train deep neural networks to identify mortality risk. Face-derived scores show strong discrimination for mortality, with AUCs of 0.80 for 3-day mortality and 0.77 for 30-day mortality, outperforming triage level, early warning scores (EWS), vital signs, blood chemistry, and estimated face age. Patients with high EWS scores and the highest face score quartile have a thirty-fold increase in 30-day mortality compared to low-risk patients, and among low-EWS patients, the highest face score quartile identifies substantially elevated risk (OR of 13.39). These findings indicate that unstructured facial photographs encode clinically relevant prognostic information and may complement existing triage and monitoring strategies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79581-8",
+    "checked_at": "2026-11-20T02:39:01.305118+00:00"
+  },
+  "10.1038/s41467-026-79472-y": {
+    "text": "Friction at solid-liquid interfaces is typically interpreted through classical contact mechanics, but molecular origins of gas-bubble friction in aqueous environments remain elusive. Here we report the direct quantification of gas-bubble friction at solid surfaces using atomic force microscopy with nanonewton resolution. We show that bubbles enter a contact-line friction regime only after film-mediated attachment, with static and kinetic responses that reflect contact-line pinning and sliding. On octadecyltrichlorosilane-grafted substrates, friction varies non-monotonically with surface hydrophobicity, peaking at intermediate hydrophobicity due to enhanced chemical heterogeneity. Surface chemistry and nanostructure further regulate energy dissipation, with relatively low friction on uniformly rough polydimethylsiloxane-grafted surfaces. Oxygen bubbles generate higher friction than air, nitrogen and carbon dioxide bubbles, as supported by molecular dynamics simulations that implicate gas-specific intermolecular interactions in contact-line dissipation. These findings provide molecular-level insight into gas-bubble friction, with implications for friction-tunable interfaces in catalysis, microfluidics, and medical applications.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79472-y",
+    "checked_at": "2026-11-20T02:39:02.102863+00:00"
+  },
+  "10.1038/s41467-026-79613-3": {
+    "text": "Small extracellular vesicles hold immense diagnostic and therapeutic potential, yet clinical translation is hindered by inefficient separation and concentration. Current methods like ultracentrifugation and polymer-based precipitation suffer from low throughput or persistent contaminants. Here, we develop an optimized workflow that adapts the well-established binding between transition metal ions (copper(II), manganese(II), zinc(II)) and membrane phosphate groups to induce vesicle aggregation that facilitates small extracellular vesicle recovery from urine, blood and cell culture-conditioned medium using conventional centrifugation. We elucidate how buffer composition (albumin, phosphate, and hydron) and small extracellular vesicle surface properties (surface charge, phospholipid content) modulate these ion-vesicle interactions. By optimizing protocols using copper(II) for blood, zinc(II) for urine and cell culture-conditioned medium, we achieve higher yields than ultracentrifugation and polymer-based precipitation while preserving vesicle ultrastructure, molecular markers, biological function and safety. Thus, we establish a practical and scalable workflow that accelerates extracellular vesicle-based translational research.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79613-3",
+    "checked_at": "2026-11-20T02:39:02.697164+00:00"
   }
 }
