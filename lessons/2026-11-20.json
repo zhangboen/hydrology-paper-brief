@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-20",
+  "number": 38,
+  "status": "prepared",
+  "lesson": {
+    "title": "Making Small Talk with a Neighbor: Sharing Interests Naturally",
+    "concept": {
+      "key": "sharing_common_interests",
+      "name_en": "Sharing Common Interests",
+      "name_zh": "分享共同兴趣",
+      "explanation_zh": "当你和邻居聊天时，找到并分享你们的共同兴趣是建立友好关系的好方法。这让对话更自然，也能让对方感觉你们有联系。比如谈论喜欢的公园、宠物、附近的活动等。",
+      "examples": [
+        "I heard you like hiking too! Have you tried the trail in Pine Park?",
+        "Oh, you have a dog? Mine loves to play in the yard as well.",
+        "We both seem to enjoy gardening. Maybe we can exchange some tips sometime."
+      ],
+      "common_mistake_zh": "有些学习者在聊天时只讲自己的兴趣，没有问对方，导致对话不够互动。正确做法是先表达兴趣，然后问对方，比如：\"I love gardening. Do you have any plants at home?\""
+    },
+    "vocabulary": [
+      {
+        "term": "get along with",
+        "ipa_us": "/ɡɛt əˈlɔŋ wɪθ/",
+        "pronunciation_tip_zh": "‘get’ 和 ‘along’ 连接发音，注意‘along’重音在第二个音节，‘with’发轻音 /wɪθ/",
+        "meaning_zh": "与某人相处融洽",
+        "explain_in_english": "It means to have a friendly relationship with someone.",
+        "usage_note_zh": "常用于口语和书面语，适合描述人际关系。",
+        "examples": [
+          "I really get along with my new neighbor.",
+          "They’ve known each other for years and always get along well."
+        ]
+      },
+      {
+        "term": "pop over",
+        "ipa_us": "/pɑp ˈoʊvər/",
+        "pronunciation_tip_zh": "‘pop’发短元音/ɑ/，‘over’重音在第一个音节，注意连读",
+        "meaning_zh": "顺便拜访，短暂造访",
+        "explain_in_english": "It means to visit someone’s home briefly, usually informally.",
+        "usage_note_zh": "口语中很常用，适合熟悉的人之间。",
+        "examples": [
+          "If you have time, you can pop over for coffee.",
+          "She popped over to borrow some sugar."
+        ]
+      },
+      {
+        "term": "on the same page",
+        "ipa_us": "/ɑn ðə seɪm peɪdʒ/",
+        "pronunciation_tip_zh": "‘on the’连读，‘same’重音，‘page’结尾清晰发音",
+        "meaning_zh": "意见一致，理解相同",
+        "explain_in_english": "It means to agree or understand something in the same way.",
+        "usage_note_zh": "常用于工作或讨论场合，也适合日常对话。",
+        "examples": [
+          "Let’s make sure we’re on the same page before the meeting.",
+          "It’s important to be on the same page with your neighbors about community rules."
+        ]
+      }
+    ],
+    "scene": {
+      "title": "Chatting with Your Neighbor About Local Events",
+      "context_zh": "你在社区花园遇到邻居，想通过聊附近的活动来建立友谊。",
+      "script_en": "[You] Hi, I’m ____. I’ve seen you around but haven’t had a chance to chat. How’s your weekend so far?\n[Neighbor] Hey! Nice to meet you. It’s been relaxing, thanks. Just enjoying the nice weather. What about you?\n[You] Same here. I heard there’s a farmers’ market downtown this Saturday. Have you been before?\n[Neighbor] Not yet, but I love fresh local food. Sounds interesting.\n[You] Me too! Maybe we could pop over together and check it out?\n[Neighbor] That would be great! I’m still getting to know the area.\n[You] There’s also a community clean-up next weekend. It’s a good way to meet new people and help the neighborhood.\n[Neighbor] I didn’t know about that. Thanks for telling me! I’ll think about joining.\n[You] By the way, do you have any hobbies or favorite spots around here?\n[Neighbor] I like cycling and often visit the lakeside park. How about you?\n[You] I enjoy cycling as well! Maybe we could go for a ride sometime.\n[Neighbor] I’d like that. It’s nice to find someone we get along with.\n[You] Definitely. It was great talking with you. Let’s stay on the same page and keep in touch!\n[Neighbor] Absolutely. See you around!",
+      "translation_zh": "【你】你好，我是____。常见到你，但没机会聊聊天。你周末过得怎么样？\n【邻居】你好！很高兴认识你。挺轻松的，谢谢。只是享受好天气。你呢？\n【你】我也一样。听说这个星期六市中心有农贸市场。你去过吗？\n【邻居】还没去过，但我喜欢新鲜的本地食物。听起来不错。\n【你】我也是！也许我们可以一起去看看？\n【邻居】那太好了！我还在熟悉这里。\n【你】下周末还有社区清洁活动。既能认识新朋友，也能帮忙。\n【邻居】我不知道这个活动。谢谢告诉我！我会考虑参加的。\n【你】对了，你有什么爱好或喜欢去的地方吗？\n【邻居】我喜欢骑自行车，经常去湖边公园。你呢？\n【你】我也喜欢骑车！也许我们可以一起骑骑。\n【邻居】我很愿意。能找到合得来的人真好。\n【你】确实。聊得很开心。让我们保持一致，保持联系！\n【邻居】一定。回头见！",
+      "practice_tip_zh": "练习时，用自然友好的语气，注意短语‘pop over’和‘get along with’的发音。尝试在聊天时寻找共同兴趣，让对话更自然。"
+    },
+    "reading": {
+      "title": "A Letter to My Neighbor About the Community Garden",
+      "genre": "informal letter",
+      "text_en": "Hi there,\n\nI just wanted to say how nice it has been to meet you in the community garden these past few weeks. It’s great to share the space with someone who enjoys gardening as much as I do. It really makes relaxing after work more enjoyable and gives me a chance to get some fresh air and clear my mind.\n\nYou mentioned that you like growing tomatoes, and I tried a new kind this year. It’s been pretty successful! If you want, I’d be happy to share some seeds with you next time we meet. Also, there’s a garden club meeting next Thursday at the community center. They’re always happy to welcome new members, and I think you might really like it.\n\nThe garden club hosts various activities, like plant swaps where people exchange seeds and plants to try new varieties. They also organize workshops where local experts teach about composting, pest control, and seasonal planting tips. These events are a wonderful way to learn more and meet other neighbors who share our interests.\n\nIf you’re interested, maybe we could go together. I’ve found it’s a great way to get involved in the community and make friends. Gardening has become more than just a hobby for me—it’s a way to connect with nature and people around me. Looking forward to seeing you again soon!\n\nBest wishes,\n[Your Name]",
+      "summary_zh": "这是一封写给邻居的非正式信，表达了在社区花园认识邻居的愉快感受，分享了种植经验，并邀请邻居参加花园俱乐部的活动。信中详细介绍了俱乐部的各种活动和好处。",
+      "questions": [
+        {
+          "question": "What new gardening activity did the writer try this year?",
+          "answer": "The writer tried growing a new kind of tomato this year and it was successful."
+        },
+        {
+          "question": "What kinds of events does the garden club organize?",
+          "answer": "The garden club organizes plant swaps and workshops on topics like composting and pest control."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model": "gpt-4.1-mini",
+    "prompt_tokens": 13573,
+    "completion_tokens": 5112,
+    "total_tokens": 18685,
+    "reasoning_tokens": 0,
+    "attempts": 3
+  }
+}

@@ -442,5 +442,17 @@
     ],
     "scene": "Changing a Dish After Ordering at a Restaurant",
     "reading": "A Dinner to Remember"
+  },
+  {
+    "date": "2026-11-20",
+    "concept_key": "sharing_common_interests",
+    "concept_name": "Sharing Common Interests",
+    "terms": [
+      "get along with",
+      "pop over",
+      "on the same page"
+    ],
+    "scene": "Chatting with Your Neighbor About Local Events",
+    "reading": "A Letter to My Neighbor About the Community Garden"
   }
 ]
