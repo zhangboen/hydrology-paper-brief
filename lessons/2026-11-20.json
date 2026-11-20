@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "number": 38,
-  "status": "sending",
+  "status": "sent",
   "lesson": {
     "title": "Making Small Talk with a Neighbor: Sharing Interests Naturally",
     "concept": {
@@ -85,5 +85,6 @@
     "total_tokens": 18685,
     "reasoning_tokens": 0,
     "attempts": 3
-  }
+  },
+  "accepted_at": "2026-11-20T11:32:46.233606+08:00"
 }
