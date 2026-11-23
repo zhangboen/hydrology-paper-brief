@@ -7411,5 +7411,33 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-79577-4",
     "checked_at": "2026-11-22T01:33:57.310360+00:00"
+  },
+  "10.1038/s41467-026-79507-4": {
+    "text": "Changes in gene expression regulated by ligand-dependent transcription factors including estrogen receptor-α (ERα) involve coactivator recruitment and H3K27ac deposition. While H3K27ac marks active enhancers, the chromatin architecture of enhancers remains unclear. Using super-resolution microscopy, we reveal distinct H3K27ac-modified chromatin structures in response to ERα activation. Estradiol (E2) treatment promotes elongated H3K27ac structures, whereas ERα inhibition induces compact, spherical conformations. Larger H3K27ac structures show greater MED1 association than compact structures, indicating distinct spatial relationships with enhancer-associated transcriptional machinery. Spatial analyses revealed that estrogen signaling reorganizes H3K27ac into densely packed nanoscale territories enriched for larger domains. Complementary genomic and transcriptomic analyses showed that broader H3K27ac regulatory regions are associated with MED1 occupancy and increased transcriptional output. The endocrine therapy-resistant ERα Y537S mutation maintains elongated chromatin states independent of ligand. These findings uncover the -spatial dimension of H3K27ac chromatin organization in ERα-responsive and endocrine-resistant breast cancer.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79507-4",
+    "checked_at": "2026-11-23T01:57:28.192237+00:00"
+  },
+  "10.1038/s41467-026-79559-6": {
+    "text": "The glass transition induces pronounced changes in material properties, transforming a rigid glass into a soft rubber. Here, we demonstrate an electrically induced glass transition in a polyelectrolyte complex (PEC), sandwiched between two oppositely charged ionoelastomers (IEs). Under an external electric potential, the IEs reversibly inject and extract their counter-ions into and from the PECs, triggering a glass transition in accordance with the time-temperature-salt superposition (TTSS) principle. Reversible, real-time switching of the glass transition at voltages as low as 1 V induces changes in ionic conductivity of the PEC, enabling kinetically driven ionic current rectification.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79559-6",
+    "checked_at": "2026-11-23T01:57:30.303051+00:00"
+  },
+  "10.1038/s41467-026-79707-y": {
+    "text": "Radical glycosylation offers versatile strategies for carbohydrate synthesis, yet the development of accessible glycosyl radical precursors compatible with stereoselective coupling remains challenging. Here we report a nickel-catalysed stereoselective denitrogenative glycosylation of redox-neutral glycosyl sulfonohydrazides via anomeric C–N bond homolysis. Bench-stable (un)protected glycosyl sulfonohydrazides are concisely and catalytically synthesized via an open–closed ring equilibrium without stoichiometric reagents, and intrinsically generate glycosyl radicals without external redox additives, offering remarkable practical utility. This operationally simple, nickel-catalysed denitrogenative glycosylation platform, proceeding without photocatalysis, enables highly stereoselective formation of diverse C( sp ³)–C( sp ³), C( sp ³)–C( sp ²), C( sp ³)–C( sp ), C( sp ³)–S, C( sp ³)–Se, and C( sp ³)–Te bonds, with broad substrate scope and excellent functional group tolerance. Mechanistic studies support a radical pathway involving Ni(II)–isodiazene homolysis and thermal N₂ extrusion. This work establishes glycosyl sulfonohydrazides as an interesting class of N -based glycosyl radical precursors, expanding the “cap-and-glycosylate” strategy for glycomimetic synthesis and glycodiversification.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79707-y",
+    "checked_at": "2026-11-23T01:57:32.468113+00:00"
+  },
+  "10.1038/s41467-026-79404-w": {
+    "text": "The genome-wide binding patterns of many transcription factors (TFs) depend not only on the presence of their recognition motifs, but also on the surrounding chromatin context. This raises the question of how binding specificity, which is essential for the proper activation of regulatory regions during development and differentiation, is achieved. Two competing hypotheses have been proposed: either opening is a hierarchical process, whereby chromatin-insensitive TFs bind initially and render the DNA accessible for the subsequent binding of other TFs, or multiple chromatin-sensitive TFs bind cooperatively, enabling them to overcome the chromatin barrier. Here, we provide a quantitative framework to assess the chromatin sensitivity of individual TFs, and demonstrate that it generally depends on motif strength and is a continuum across TFs. This indicates that regulatory regions are activated by neither a purely hierarchical nor a purely cooperative mechanism, but rather by a mixture of both mechanisms, in a locus-specific manner.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79404-w",
+    "checked_at": "2026-11-23T01:57:34.655023+00:00"
   }
 }
