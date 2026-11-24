@@ -7439,5 +7439,208 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s41467-026-79404-w",
     "checked_at": "2026-11-23T01:57:34.655023+00:00"
+  },
+  "10.1038/d41586-026-03827-0": {
+    "text": "Nature reporter James Dinneen reflects on the first international climate summit to collapse since 2009.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03827-0",
+    "checked_at": "2026-11-24T05:31:09.183312+00:00"
+  },
+  "10.1038/d41586-026-03721-9": {
+    "text": "The researcher and educator explains why she’s optimistic about the future of work and what individuals can do to thrive alongside artificial intelligence.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03721-9",
+    "checked_at": "2026-11-24T05:31:09.824678+00:00"
+  },
+  "10.1038/d41586-026-03724-6": {
+    "text": "Half of the scientists who took Nature’s survey felt that trust in science has dropped. They are only partly right.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03724-6",
+    "checked_at": "2026-11-24T05:31:10.277769+00:00"
+  },
+  "10.1038/s41586-026-11458-8": {
+    "text": "Poxviruses enclose a complete viral transcription machinery alongside their dsDNA genome within the viral core, a transcription-competent compartment delimited by a permeable multi-layered protein shell. Upon infection of a cell and core release, this machinery almost immediately starts synthesizing early mRNAs, which are extruded across the core wall into the cytoplasm for translation. While in vitro structures of the isolated viral DNA-dependent RNA polymerase (vRNAP) have been described 1–3 , its native in virio architecture, spatial organization, and physical coupling to the genome remain unknown. Using cryo-electron tomography and sub-tomogram averaging on purified Vaccinia virus cores, we reveal that packaged vRNAP exists not as monomer, but as massive 1.8 MDa resting-state dimer bridged by fully ordered vaccinia virus early transcription factor (VETF). We also identify a subpopulation of these dimers bound to the essential kinase VPK2 and the core protein L4, which directly tether the transcribing engines to the packaged genome near the inner core wall. Furthermore, we determine a sub-nanometer structure of the putative poxvirus mRNA extrusion portal complex, revealing a rigid assembly integrated into the core wall comprising an E8 hexameric crown, an E6 hexameric central hub, and a basal L3 dodecameric channel suited for nucleic acid export. Together, these structures provide a comprehensive architectural blueprint of important components of the poxvirus core and open new structural and functional avenues for investigating poxvirus genome packaging, transcription activation, and mRNA extrusion.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11458-8",
+    "checked_at": "2026-11-24T05:31:12.453926+00:00"
+  },
+  "10.1038/d41586-026-03795-5": {
+    "text": "Students are markedly less optimistic about the technology than their professors, according to survey results.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03795-5",
+    "checked_at": "2026-11-24T05:31:12.908802+00:00"
+  },
+  "10.1038/d41586-026-03722-8": {
+    "text": "Development planning needs a permanent system that connects climate projections to the decisions that shape what infrastructure gets built.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03722-8",
+    "checked_at": "2026-11-24T05:31:13.535208+00:00"
+  },
+  "10.1038/d41586-026-02203-2": {
+    "text": "A jury weighs in on whether it’s a researcher’s responsibility to convince colleagues that their work matters — or whether others should come to them instead.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02203-2",
+    "checked_at": "2026-11-24T05:31:14.119640+00:00"
+  },
+  "10.1038/d41586-026-03808-3": {
+    "text": "Beloved intellectual mentored hundreds of scientists and switched fields many times to solve global challenges.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03808-3",
+    "checked_at": "2026-11-24T05:31:14.566542+00:00"
+  },
+  "10.1038/s41586-026-11448-w": {
+    "text": "Current state-of-the-art peptide synthesis faces a significant global challenge in efficiency and sustainability. 1 With demand for peptide therapeutics growing rapidly, 2,3 our ability to provide these important medicines is under increasing pressure. 4 Chemical synthesis typically proceeds C-to-N and requires protecting groups, whereas ribosomal synthesis proceeds N-to-C from unprotected amino acids (AAs). To improve efficiency and sustainability, we developed a continuous N-to-C Peptide Synthesis (NCPS) using N-/C-unprotected AAs or fragments without intermediate isolations, achieving ≥95% average yield per coupling and ≤1.0% epimerization. The method enabled seven consecutive couplings. Starting from N-/C-unprotected AAs, peptide assembly requires fewer isolations than those needed to prepare the corresponding Fmoc-AA building blocks before conventional synthesis can begin. This method accepts all 20 canonical AAs and a wide range of non-canonical AAs important for drug-like profiles. 5 Longer peptides can be readily assembled through continuous fragment coupling while maintaining chiral integrity. This approach reduces isolations by ~10-fold and waste generation by up to ~100-fold. We further developed a flow synthesizer that enhances speed and productivity while mitigating batch manufacturing risks. The method enabled the synthesis of a tirzepatide heptapeptide fragment, degarelix, a 14-mer engineered macrocyclic peptide, and semaglutide. Overall, continuous NCPS has the potential to transform peptide manufacturing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11448-w",
+    "checked_at": "2026-11-24T05:31:16.674620+00:00"
+  },
+  "10.1038/d41586-026-03818-1": {
+    "text": "Climate change can provoke anxiety in many. Here’s how one Nature reporter channelled his anxiety into action. In episode three of Cooked? we learn about the rise of climate anxiety, how individuals can make a difference and how we can create bigger changes.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03818-1",
+    "checked_at": "2026-11-24T05:31:17.163180+00:00"
+  },
+  "10.1038/d41586-026-03720-w": {
+    "text": "A Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03720-w",
+    "checked_at": "2026-11-24T05:31:17.765637+00:00"
+  },
+  "10.1038/s41586-026-11449-9": {
+    "text": "Benzene rings are the most frequently encountered ring system in small-molecule drugs 1 . However, benzenes with six substituents are notably absent from small molecule libraries, owing to challenges associated with their synthesis and the limited availability of commercially available aromatic building blocks 2 . Therefore, new chemical processes that enable their synthesis with predictable regiochemical control and broad substituent diversity could enable medicinal chemists to explore this uncharted aromatic chemical space in hit-to-lead and lead optimization campaigns. Herein, we describe a highly modular and programmable platform for accessing hexa-substituted benzene rings from aromatic cyclopropenium cations and (trialkylsilyl)allenes, with precise control over all six benzene positions encoded in the starting materials. The exceptional regioselectivity observed originates from the selective evolution of an unusual non-classical carbocation featuring four-centre four-electron bonding as revealed by density functional theory calculations. Our benzannulation enables the selective installation of synthetic handles that were exploited for the synthesis of previously inaccessible penta- and hexa-substituted analogues of the anticancer drug sonidegib and the antihypertensive drug telmisartan, as well as the polyaromatic hydrocarbon triphenylene. Notably, the use of enantiopure allenes unlocks a new route to enantioenriched multi-substituted biaryls through our benzannulation occurring with “memory of chirality”.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11449-9",
+    "checked_at": "2026-11-24T05:31:19.934585+00:00"
+  },
+  "10.1038/s41467-026-79294-y": {
+    "text": "The formation of 2D/3D perovskite heterojunctions often relies on spacer-induced ion-exchange, which is difficult to achieve graded distribution of 2D species for efficient charge transport. Here, we report a phase-regulation strategy for formamidinium-based perovskites guided by pre-adding a full-composition 2D perovskite (hereinafter denoted as Pre-2D) into the FA-based 3D perovskite precursor. This approach enables coordinated control of precursor organization and interfacial phase evolution, resulting in bottom-up growth of phase-stable α‑FAPbI 3 with vertically aligned 2D/3D heterostructures. The gradient architecture at the buried interface improves crystallographic orientation, suppresses defect-assisted recombination, and mitigates ion migration. The resulting inverted PSCs achieve a champion power conversion efficiency of 26.61% at room temperature with a high efficiency of 28.01% at 245 K, and 23.58% for mini-modules. Notably, devices retain over 95% of initial efficiency after 1100 hours of continuous MPP tracking and 1700 hours of damp-heat testing. These findings provide a scalable route to regulate phase competition and buried-interface energetics in FA-based perovskites, advancing the development of efficient and durable perovskite photovoltaics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79294-y",
+    "checked_at": "2026-11-24T05:33:01.416079+00:00"
+  },
+  "10.1038/s41467-026-78606-6": {
+    "text": "Single cell transcriptomic profiling of the retina provided important insights into the genetic signals in retinal cells that enable vision. However, conventional 3’ short-read sequencing method is not suitable to identify isoform variants. Here we utilized Iso-Seq with full-length sequencing to profile the human retina at single cell resolution for isoform discovery. We generated a retina transcriptome dataset consisting of 23,523 nuclei from three donor retina, and identified 15,967 known isoforms and 7,617 novel isoforms across 10 major cell types. We showed that up to 2.6% of genes utilized multiple promoters across major retinal cell types. Also, our results identified novel transcript variants for inherited retinal disease (IRD) genes and differential usage of exon splicing in major retinal cell types. Altogether, this study reported a detailed Human Retina Gene Atlas to study isoform diversity at single cell resolution, providing an expanded view of the complex transcriptomic landscape in the retina.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78606-6",
+    "checked_at": "2026-11-24T05:33:03.537953+00:00"
+  },
+  "10.1038/s41467-026-79800-2": {
+    "text": "The root nodules of leguminous plants contain rhizobia that proliferate and differentiate into bacteroids inside symbiosomes for nitrogen fixation. Hosts must tightly regulate rhizobial proliferation to optimize symbiotic benefits and avoid pathogenicity, yet the mechanisms governing this balancing act remain unknown for most legumes. Here, using in vitro assays and pectin-deficient mutants, we show that intracellular demethylesterified pectin (DMEP) directly constrains rhizobial growth in soybean nodules. Furthermore, we show that host factors HOF1 and HOF2 act as regulators of DMEP stability, binding DMEP to prevent its degradation via polygalacturonase. Genetically altered plants with modestly reduced rhizobial abundance exhibited significantly higher nitrogenase activity per gram of nodules, revealing the importance of host-mediated restriction of bacterial numbers in determining symbiotic efficiency. Our findings uncover an unanticipated role for cell wall components in controlling endosymbiont population size and provide insights into host–symbiont interactions, with potential implications for legume improvement and crop yields.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79800-2",
+    "checked_at": "2026-11-24T05:33:05.645571+00:00"
+  },
+  "10.1038/s41467-026-79556-9": {
+    "text": "Obesity is characterized by central leptin resistance, in which elevated circulating leptin fails to reach or activate its hypothalamic targets. Yet the mechanisms that mediate leptin transport into the brain remain incompletely understood. Here, we show that in the choroid plexus (ChP), leptin promotes the physical coupling of the leptin receptor (LepR) and low-density lipoprotein receptor-related protein-1 (LRP1) to form a functional LRP1–LepR complex. Deletion of LepR or LRP1 in Foxj1-expressing cells, which include ChP epithelial cells and hypothalamic tanycytes, disrupts leptin entry into the brain, impairs hypothalamic leptin signaling, and induces hyperphagia and obesity. Intracerebroventricular leptin restores the anorexigenic response, confirming that the defect is in transport rather than central signaling. In diet-induced obese mice, formation of the LRP1–LepR complex is impaired, contributing to leptin resistance. These findings identify the LRP1–LepR complex in the ChP and tanycytes as an essential gateway for leptin entry into the brain and a potential therapeutic target in obesity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79556-9",
+    "checked_at": "2026-11-24T05:33:07.822792+00:00"
+  },
+  "10.1038/s41467-026-79255-5": {
+    "text": "Vanadium-based positive electrodes for aqueous batteries offer high-capacity, low-cost energy storage but are limited by vanadium dissolution and sluggish kinetics. Amorphization alleviates kinetic limitations by creating open ion-transport pathways, yet vanadium dissolution remains unresolved. Here, we propose a coordination-engineering strategy that stabilizes amorphous vanadium oxides via fluorine incorporation, thereby suppressing vanadium dissolution without compromising fast ion-transport kinetics. Replacing O 2- with highly electronegative F - converts labile σ + π V-O coordination into robust σ-dominated V-F coordination. The resulting V-F bonding weakens interactions with H 2 O and suppresses water-induced degradation, whereas the comparable ionic radii of F - and O 2- allow substitution without perturbing amorphous framework, preserving fast ion transport. Consequently, aqueous zinc-ion batteries assembled with the fluorinated amorphous vanadium oxide positive electrode exhibit fast kinetics and long-term cycling stability, delivering a high specific capacity of 155.6 mAh g −1 at 200 A g −1 , stable cycling for up to 70,000 cycles at 100 A g −1 , and durable operation at 0.1 A g −1 (20 mg cm −2 ) for over six months. This work shows that fluorine-induced reconstruction of the local coordination environment can resolve the stability-kinetics trade-off in amorphous electrodes, providing a microscopic-to-macroscopic design principle for aqueous batteries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79255-5",
+    "checked_at": "2026-11-24T05:33:09.932651+00:00"
+  },
+  "10.1038/s41467-026-79690-4": {
+    "text": "Unexplained lymphadenopathy (ULA) leads to delayed diagnosis and increases the risk of disease progression due to the absence of specific clinical symptoms and indicative medical history during early stages, thereby increasing reliance on invasive biopsy. Existing ultrasound artificial intelligence approaches mainly use single-modality static images, limiting their generalizability and clinical applicability. Here, we develop and validate a multimodal model integrating B-mode ultrasound, color Doppler flow imaging, ultrasound elastography, contrast-enhanced ultrasound videos, and clinical data for benign-malignant differentiation, etiologic stratification, and metastatic-origin prediction. This observational study includes both retrospective and prospective cohorts and uses a total of 154,740 multimodal keyframe images from 6,549 patients with pathologically confirmed lymphadenopathy across seven Chinese centers and 11 scanner manufacturers. The model shows robust performance across internal, external, device-heterogeneity, and reader study cohorts, outperforms senior radiologists across hierarchical tasks, and improves radiologists’ diagnostic performance across experience levels with model assistance, supporting its potential for noninvasive, efficient, and clinically aligned diagnosis of ULA.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79690-4",
+    "checked_at": "2026-11-24T05:33:12.037050+00:00"
+  },
+  "10.1038/s41467-026-79534-1": {
+    "text": "Phase shifters are fundamental reconfigurable components in photonic circuits. In conjunction with passive elements, they control light flow and serve as foundational building blocks for diverse applications, including communication, sensing, analog signal processing, and quantum control. Conventional phase shifters achieve phase control by modulating the refractive index through various physical mechanisms such as thermo-optic or electro-optic effects. However, despite expectations that such index–based approaches would integrate seamlessly, they, in practice, restrict circuit size, bandwidth, and scalability and thus become bottlenecks to large–scale photonic integration. Here, we introduce an alternative phase–control approach based on optical loss modulation. We demonstrate a synthetic phase shifter that uses two independently controlled loss–modulation stages combined with multipath interference to achieve full–cycle phase tunability while maintaining constant amplitude. We develop a theoretical framework based on conserved topological charges to show how synthetic phase control can be achieved via non-Hermitian effects, enabling robust, topologically protected phase control. By shifting the paradigm from index control to loss modulation, the proposed synthetic phase shifter could pave the way for scalable integrated photonic systems that support applications from communications and sensing to photonic classical and quantum information processing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79534-1",
+    "checked_at": "2026-11-24T05:33:14.151258+00:00"
+  },
+  "10.1038/s41467-026-79687-z": {
+    "text": "Hybrid glasses of coordination polymers promise a fusion of processability and structural functionality, yet their formation is limited by poor thermal stability and high melting points. Here, we show mesophase-induced vitrification in a series of magnesium-based coordination polymers with aliphatic dicarboxylate linkers of varying chain length. Upon thermal desolvation, these frameworks transition into a mesomorphic state that retains the long-range order of the parent framework while disordering the organic substructure. This intermediate state enables a direct glass transition without melting. In contrast, only the longest-chain analogue melts, and its melt-quenched glass has lower stiffness owing to partial dissociation of the metal–organic backbone, indicating that mechanical properties are governed by the integrity of the coordination network. Spectroscopic and structural analyses show that vitrification proceeds through mobilisation of the aliphatic linker within an intact coordination network, paralleling semicrystalline polymers. These findings establish a design strategy for vitrifiable coordination networks that integrates principles from polymer dynamics and mesomorphism.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79687-z",
+    "checked_at": "2026-11-24T05:33:16.263763+00:00"
+  },
+  "10.1038/s41467-026-79693-1": {
+    "text": "Bats are widely studied as asymptomatic hosts of viruses that cause high case fatality rates in humans. Though prior research into bat infections has been traditionally virus-focused, there is growing interest to more holistically understand bat-microbe relationships. In July 2025 the fourth International Symposium on the Infectious Diseases of Bats (‘BatID 2025’) convened, synthesizing the current state of bat-microbe research from within-host to population-level processes. Here, we outline five questions that emerged from this meeting as priority future directions. We share this review with the aim of stimulating future research, emphasizing the need for data sharing and interdisciplinary collaboration.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79693-1",
+    "checked_at": "2026-11-24T05:33:18.554074+00:00"
+  },
+  "10.1038/s41467-026-79321-y": {
+    "text": "Recent nanopesticide formulations with strong adhesion enhance field efficacy by improving droplet retention on plant surfaces; however, their prolonged retention may increase postharvest residue risks, making it challenging to balance field performance with postharvest safety. Here we show a thermoresponsive adhesion switch inspired by biological adhesion mechanisms, employing lignin as a biomass-based platform to create a Pickering emulsion system (L g N-PE@EB) loaded with emamectin benzoate (EB). The system regulates its interfacial behavior with leaf surfaces through temperature-dependent phase transitions, achieving ~136% higher droplet retention than EB-EC under cultivation conditions and 114-275% increase in wash-off efficiency during postharvest cold-water washing. Additionally, lignin-derived UV shielding improves pesticide stability, while insecticidal activity (LC 50 ) and biological safety (by crop fresh weight) increase by 64.9% and 61.1-165.9%, respectively. Overall, L g N-PE@EB provides a solution to address the spatiotemporal requirements of cultivation and postharvest, enhancing harvest flexibility and export safety for raw and high-value crops.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79321-y",
+    "checked_at": "2026-11-24T05:33:20.664052+00:00"
+  },
+  "10.1038/s41467-026-79275-1": {
+    "text": "CARM1 is an arginine methyltransferase with a well-established role in regulating gene expression, but its cytoplasmic functions remain largely uncharacterized. Here, we identified ALIX, a cytoplasmic protein acting with the ESCRT-III machinery in numerous membrane remodeling events, as a partner and substrate of CARM1. We demonstrate that CARM1 methylates arginine residues within the proline-rich motif of ALIX. At the molecular level, ALIX methylation impairs SH3-dependent association with CD2AP, CIN85, and endophilin-A2 that are required for cytokinesis. Using a mutant of ALIX that is unable to bind these proteins, we further show that these interactions are essential for ALIX functions during cytokinesis. Mechanistically, ALIX methylation controls the levels of CD2AP at the cytokinetic midbody, which are known to be critical for successful cytokinesis. Altogether, this work highlights the significance of arginine methylation as a regulatory post-translational modification important for the final step of cell division, by modulating interactions between proline-rich domains and their SH3-containing partners.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79275-1",
+    "checked_at": "2026-11-24T05:33:22.616940+00:00"
+  },
+  "10.1038/s41467-026-79509-2": {
+    "text": "Cell-derived carriers are important excipients in drug delivery systems; however, most studies have focused on mammalian cells. Plant cells, by comparison, offer intrinsic therapeutic potential and feature a bilayer structure composed of cell wall and cell membrane. Here, we utilize the carrot plant cells as oral colon-targeting drug delivery vehicles leveraging their intrinsic therapeutic properties and the outer layer of cell wall. Utilizing ulcerative colitis and glucocorticoid budesonide as a disease and drug model, the drug loading strategy, colon microenvironment sensitivity, colon-specific drug release and anti-inflammation efficacies of the plant cell-based delivery system are evaluated. In particular, the budesonide-loaded liposomes are linked to carrot cells via click chemistry to achieve budesonide-loaded carrot cells, which are validated to maintain stable and decrease the drug distribution and absorption in stomach and small intestine, while disintegrated by local microbiota after reaching colon to allow colon-targeting release. The glucocorticoid drug, intrinsic anti-inflammation substances in plant cells and the short-chain fatty acids generated by cell wall enzymatic degradation work synergistically to strengthen the therapeutic efficacy in ulcerative colitis mice models. This work provides insights into the development of plant-based drug excipients and offers an alternative strategy for the targeted treatment of colonic diseases.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79509-2",
+    "checked_at": "2026-11-24T05:33:24.728762+00:00"
+  },
+  "10.1038/s41467-026-79802-0": {
+    "text": "Understanding how plants integrate developmental programs with temperature-responsive growth remains a central challenge in plant biology. Here, we uncover a mechanism by which a canonical leaf senescence regulator directly governs thermomorphogenesis in Arabidopsis. We show that ORESARA1 (ORE1), best known for orchestrating leaf senescence, promotes warm temperature-induced hypocotyl and petiole elongation and the expression of warmth-responsive genes IAA19 and YUC8 . Mechanistically, ORE1 acts upstream of PHYTOCHROME INTERACTING FACTOR 4 (PIF4), the central transcriptional hub for thermomorphogenesis. ORE1 does not alter PIF4 transcript abundance but specifically stabilizes PIF4 protein under warmth by physically interacting with PIF4 in the nucleus to enhance its deubiquitination. We identify the deubiquitinase UBP12/UBP13 as an essential component of this pathway; however, PIF4 does not bind UBP12/UBP13 directly. Biochemical and genetic analyses demonstrate that ORE1 functions as a molecular scaffold, recruiting PIF4 to an ORE1-UBP12/UBP13 complex to position UBP12/UBP13 for PIF4 deubiquitination. This UBP12/UBP13-ORE1-PIF4 module establishes a paradigm where a senescence factor regulates thermomorphogenesis by orchestrating deubiquitinase-mediated tuning of PIF4 proteostasis.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79802-0",
+    "checked_at": "2026-11-24T05:33:26.839277+00:00"
+  },
+  "10.1038/s41467-026-79437-1": {
+    "text": "Marine ecosystems influence atmospheric chemistry and climate by exchanging volatile organic compounds (VOCs) with the atmosphere, yet the chemical diversity and the environmental controls of the exchanged compounds remain poorly constrained. This gap persists because most marine observations are targeted, short-term, and narrow-suite measurements that seldom deliver chemically broad, continuous fluxes. Here we show that marine VOC exchange is chemically diverse and changes in magnitude and composition on event‑to‑season timescales. Using continuous flux measurements of 73 m/z features in the Baltic Sea, we observe a pronounced reorganization of net exchange: early organosulfur emissions diminish as cyanobacterial biomass declines (indicating water-side source limitation), while oxygenated and nitrogen-containing VOCs exhibit mixed behaviors ranging from deposition to episodic emissions (often dominated by wind-driven gas transfer kinetics). Together, these results demonstrate that chemically diverse marine VOC exchange is closely coupled to wind-induced mixing, water‑column structure, and phytoplankton community succession, highlighting the need to resolve these dynamic ecosystem states to predict future atmospheric composition.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79437-1",
+    "checked_at": "2026-11-24T05:33:28.982345+00:00"
+  },
+  "10.1038/s41467-026-79242-w": {
+    "text": "Metal–organic framework databases have grown rapidly through experimental deposition and large-scale literature extraction, yet recent analyses indicate that nearly half of their entries contain substantial structural errors. These errors propagate through high-throughput screening and machine-learning workflows, limiting the reliability of data-driven materials discovery. Repairing them is difficult because the necessary evidence is scattered across crystallographic files, synthesis descriptions, and the primary literature. Here we present LitMOF, a multi-agent framework driven by large language models that reads the original publication for each structure and cross-validates it against the deposited entry to repair errors. Applying LitMOF to the metal–organic framework subset of the Cambridge Structural Database, we assembled LitMOF-DB, a curated set of 189,567 computation-ready structures that includes 9,277 repaired entries, or 69.1% of the not-computation-ready structures in the latest CoRE MOF database. The system also recovered 8,771 synthesized but undeposited frameworks missing from existing resources. Using direct air capture screening as a case study, we show that structural errors distort predicted adsorption energies and CO 2 /H 2 O selectivity, which misranks materials, produces false positives, and omits high-performing candidates. This work offers a route toward self-correcting scientific databases and toward database curation driven by large language models.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79242-w",
+    "checked_at": "2026-11-24T05:33:31.089897+00:00"
+  },
+  "10.1038/s41467-026-79276-0": {
+    "text": "Maintaining the structural integrity of metallic materials under extreme localized shear poses a significant challenge for engineering reliability in the aerospace, automotive, and energy sectors, as such loading readily triggers catastrophic strain localization and surface delamination. Here, we report a nanoarchitecture-driven dynamic protection strategy to overcome this challenge. We engineer an FCC-dominant nanolamellar (FCC-NL) architecture in an AlCoCrFeNi 2.1 eutectic high-entropy alloy (EHEA) by combining additive manufacturing (AM) with metastability engineering. Rather than undergoing the structural degradation observed in conventional EHEAs, this AM-enabled FCC-NL architecture orchestrates a robust hierarchical protective structure under severe sliding. It concurrently drives the bottom-up mechanochemical assembly of a damage-tolerant amorphous-nanocrystalline γ -Fe 2 O 3 tribolayer and the top-down mechanical assembly of a strain-isolating nacre-like subsurface. This synergy yields a wear rate of 5.8 × 10 −6 mm 3 N −1 m −1 , achieving an order-of-magnitude enhancement in surface damage resistance that surpasses currently reported values for bulk HEAs. This dynamic protection concept provides a design framework for developing highly surface-damage-tolerant alloys, essential to the reliability of critical engineering systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79276-0",
+    "checked_at": "2026-11-24T05:33:33.198363+00:00"
+  },
+  "10.1038/s43247-026-04146-y": {
+    "text": "The ongoing reduction of Arctic sea ice enhances the development of extreme wave conditions, increasing the exposure of coastal communities to storm hazards. It is particularly prominent in Ausuittuq, Nunavut, the northernmost civilian community in Canada, which has experienced repeated coastal flooding over the past decade. Here we quantify the relative contribution of tides, storm surge, and wave runup to extreme total water levels and show that wave runup contributes ~ 30% of annual maximum total water levels over the historical period and directly drives 25% of extreme events. Using projections of wind and sea ice from the Coupled Model Intercomparison Project Phase 6 combined with a locally calibrated parametric wave model, we show that by mid-century, the projected lengthening of the ice-free season—particularly the delayed autumn freeze-up—substantially increases the frequency of extreme wave events by 41% under Shared Socio-economic Pathway 2 4.5 and 62% under Shared Socio-economic Pathway 5 8.5 relative to 1985–2000. In such fetch-limited, seasonally ice-covered Arctic regions, sea-ice loss amplifies hazard exposure primarily through more frequent wave extremes, signaling a shift toward more persistent wave-driven coastal hazards.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04146-y",
+    "checked_at": "2026-11-24T05:33:35.628614+00:00"
   }
 }
