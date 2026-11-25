@@ -7642,5 +7642,194 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04146-y",
     "checked_at": "2026-11-24T05:33:35.628614+00:00"
+  },
+  "10.1038/d41586-026-03836-z": {
+    "text": "Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03836-z",
+    "checked_at": "2026-11-25T04:34:36.304930+00:00"
+  },
+  "10.1038/d41586-026-03829-y": {
+    "text": "Muhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03829-y",
+    "checked_at": "2026-11-25T04:34:36.889978+00:00"
+  },
+  "10.1038/d41586-026-03380-w": {
+    "text": "A head-mounted device records neuronal activity as mice explore a naturalistic environment and interact with each other. Specialists discuss the technology and its applications.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03380-w",
+    "checked_at": "2026-11-25T04:34:37.783036+00:00"
+  },
+  "10.1038/d41586-026-03804-7": {
+    "text": "Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03804-7",
+    "checked_at": "2026-11-25T04:34:38.435448+00:00"
+  },
+  "10.1038/d41586-026-03719-3": {
+    "text": "Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03719-3",
+    "checked_at": "2026-11-25T04:34:38.950079+00:00"
+  },
+  "10.1038/d41586-026-03847-w": {
+    "text": "Far-sighted researcher who set out how economic growth depends on the environment and how innovation benefits people’s welfare.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03847-w",
+    "checked_at": "2026-11-25T04:34:39.556642+00:00"
+  },
+  "10.1038/d41586-026-03810-9": {
+    "text": "COP31 ended without agreement, but consensus-based approaches are essential to solve global issues, and ‘failures’ can lead to decisive action at future talks.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03810-9",
+    "checked_at": "2026-11-25T04:34:54.905295+00:00"
+  },
+  "10.1038/d41586-026-03821-6": {
+    "text": "Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03821-6",
+    "checked_at": "2026-11-25T04:35:36.457806+00:00"
+  },
+  "10.1038/d41586-026-03725-5": {
+    "text": "The life of the man who brought trigonometry to England, and experiments begin on a newly completed accelerator at CERN, in our weekly dip into Nature’s archive. Snippets from Nature’s past.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03725-5",
+    "checked_at": "2026-11-25T04:35:37.004442+00:00"
+  },
+  "10.1038/d41586-026-03667-y": {
+    "text": "Studies are revealing how menopause can also affect the progression of Alzheimer’s disease.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03667-y",
+    "checked_at": "2026-11-25T04:35:37.740487+00:00"
+  },
+  "10.1038/d41586-026-03723-7": {
+    "text": "Common health conditions lack medicines and treatments because industry finds them too risky to invest in. Here’s what would help.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03723-7",
+    "checked_at": "2026-11-25T04:35:38.299028+00:00"
+  },
+  "10.1038/d41586-026-03381-9": {
+    "text": "Structures of a mosquito receptor bound to acids from human skin could inspire tactics to stifle the attraction of malaria-carrying mosquitoes to humans.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03381-9",
+    "checked_at": "2026-11-25T04:35:38.885310+00:00"
+  },
+  "10.1038/d41586-026-03542-w": {
+    "text": "Research papers rarely make plain which authors performed which experiments. That’s a missed opportunity, says Tito Calì.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03542-w",
+    "checked_at": "2026-11-25T04:35:39.383547+00:00"
+  },
+  "10.1038/s41467-026-79582-7": {
+    "text": "Physical exercise promotes bone health. However, its underlying mechanisms remain incompletely elucidated. Here, we identified the hepatokine AGP2 as an osteoanabolic mediator of exercise. Exercise increases circulating AGP2 levels in mice and humans. Hepatocyte-specific Agp2 knockout substantially attenuates exercise-induced bone formation, whereas hepatic AGP2 overexpression prevents bone loss in ovariectomized mice. Mechanistically, exercise-induced lactate promotes hepatic Agp2 expression through histone H3K14 lactylation. Secreted AGP2 directly binds the Wnt co-receptor LRP5, activates Wnt/β-catenin signaling, promotes osteoblast differentiation, and suppresses osteoclast activity. Recombinant AGP2 administration also alleviates bone loss in mouse models of osteoporosis. Thus, these findings delineate a critical role of liver-bone crosstalk in mediating the beneficial effects of exercise on bone metabolism, highlighting AGP2 as a key mediator in exercise-induced bone anabolism and suggesting AGP2 as a potential therapeutic target for the treatment of metabolic bone disorders.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79582-7",
+    "checked_at": "2026-11-25T04:36:34.884083+00:00"
+  },
+  "10.1038/s41467-026-79720-1": {
+    "text": "Mutations in the force-generating motor protein myosin are common etiologic drivers of hypertrophic cardiomyopathy (HCM), a prevalent inherited cardiac disease. However, whether deregulation of myosin post-translational modifications also contributes to HCM remains unknown. Here we show that SMYD1 selectively catalyzes trimethylation of cardiac β-myosin heavy chain at lysine 129 (MyHC-K129me3), and that loss of this activity promotes cardiomyocyte hypercontractility and is linked to HCM pathogenesis. A biochemical-proteomic coupled strategy identifies MyHC-K129 as the principal physiological substrate of SMYD1 in human iPSC-derived cardiomyocytes (iPSC-CMs). The SMYD1-MyHC co-crystal structure reveals extensive interactions underlie K129 substrate specificity and shows that the HCM-associated SMYD1 F272L mutation disrupts S -adenosyl-L-methionine binding, thereby compromising catalytic activity. K129me3 loss alters the myosin motor domain intrinsic mechanical behavior, decreasing maximal ATP turnover rate and motility. Finally, eliminating K129 methylation enhances contractility and force generation in iPSC-CM monolayers and engineered cardiac tissues. Collectively, our results uncover a pivotal role for the SMYD1-MyHC-K129me3 axis in restraining cardiac contractility, providing insight into the pathogenic mechanism of an HCM-associated SMYD1 mutation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79720-1",
+    "checked_at": "2026-11-25T04:36:35.330851+00:00"
+  },
+  "10.1038/s41467-026-79818-6": {
+    "text": "Transforming planar two-dimensional (2D) materials into rolled-up nanoscrolls has attracted broad interest, owing to the introduction of new degrees of freedom for materials design and property modulation. As one of the most representative 2D materials, graphene is a promising candidate for nanoscroll fabrication. However, the practical exploitation of graphene nanoscrolls has been hindered by the lack of reliable methods for precise control over structure and orientation, limiting their integration into large-scale electronics and optoelectronics. Here we show the aligned fabrication of graphene nanoscrolls via deterministic rolling of wafer-scale single-crystal graphene films during post-growth cooling, driven by anisotropic interfacial thermal stress from unidirectional Cu steps on vicinal Cu(111). The receiving nanoscrolls exhibit tunable thicknesses from 2 to 40 nm, and an approximately one-order-of-magnitude enhancement in photocurrent over planar monolayer graphene, together with improved conductance and carrier mobility. This process also enables the formation of adjacent wrinkle-free graphene single crystals, providing a promising strategy for wrinkle control in 2D materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79818-6",
+    "checked_at": "2026-11-25T04:36:36.808140+00:00"
+  },
+  "10.1038/s41467-026-78734-z": {
+    "text": "Photonic computing offers high bandwidth, parallelism and energy efficiency for artificial intelligence (AI), yet its scalability remains limited by bulky optical components and immature optoelectronic integration. Here we present HyperON, a thin-film lithium niobate (TFLN) hyperdimensional optical network built around a passive spectral-spatial interweaver and broadband wavelength-parallel modulators. The interweaver combines wavelength multiplexing with spatial replication in a log 2 P -stage network, delivering the full wavelength set to every spatial output without beam-combination loss. By interweaving P spectral channels with K spatial units, HyperON forms a unified P × K parallel computing framework, supporting O ( N 2 ) operations with only O ( N ) modulators, improving hardware efficiency and scalability. A 16 × 16 interweaver shows low-loss, broadband and highly uniform operation across 1523.40-1568.85 nm, with 1.30 dB average loss, 0.196 dB output-port variation and 0.414 dB cross-wavelength variation. The integrated wavelength-parallel modulators retain system-level bandwidths of 53-67 GHz after large-scale routing, while standalone devices exhibit bandwidths beyond 67 GHz. Together, these features enable the fabricated HyperON chip to deliver a projected peak throughput of 32.8 TMAC/s, with estimated energy and area efficiencies of 7.04 TMAC/s/W and 0.163 TMAC/s/mm 2 , respectively. Experimental demonstrations in image convolution, handwritten digit recognition, and 64-mode parallel computing confirm its high speed operation, versatility, and scalability for large-scale AI workloads.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78734-z",
+    "checked_at": "2026-11-25T04:36:37.472077+00:00"
+  },
+  "10.1038/s41467-026-79791-0": {
+    "text": "Anthropogenic pressures on biodiversity necessitate efficient and scalable methods to predict global species distributions. Current species distribution models (SDMs) face challenges with large-scale datasets, complex species associations, and data quality. Here, we introduce EcoVAE, an autoencoder-based generative model that integrates bioclimatic variables with georeferenced occurrences. The model is trained separately for plants, butterflies, and mammals to predict global distributions at both genus and species levels. Through unsupervised learning, EcoVAE captures underlying distribution patterns from large-scale species occurrence data. It achieves high precision and speed, outperforming traditional SDMs in spatial block cross-validation. EcoVAE also reveals signatures of species associations that align with known prey-predator relationships. Taken together, these capacities enable the robust evaluation of global sampling efforts and interpolates distributions in data-limited regions, offering new applications for biodiversity exploration and monitoring.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79791-0",
+    "checked_at": "2026-11-25T04:36:38.071372+00:00"
+  },
+  "10.1038/s41467-026-79475-9": {
+    "text": "Mode waters strongly shape ocean heat storage and oxygen uptake, yet their persistence under continued warming remains unclear. Here we show a rapid decline in the North Pacific Central Mode Water (CMW) since the early 2020s, leading to a marked reduction in the subsurface oxygen maximum at Station ALOHA, the monitoring site for the Hawaii Ocean Time-series program, 50 km north of Oahu. In general, weakened westerlies over recent decades have intensified surface warming and stratification, suppressing CMW renewal, whereas strong El Niño typically strengthens the westerlies and promotes vigorous CMW formation. In contrast, we find that the strong 2023–2024 El Niño failed to reinvigorate the CMW because the El Niño–related atmospheric teleconnection pattern shifted unusually far east of the formation region. Similar atmospheric anomalies are projected under future warming scenarios, implying inhibited surface-thermocline exchanges due to failed mode water ventilation, with consequences for climate, biogeochemical cycles, and marine ecosystems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79475-9",
+    "checked_at": "2026-11-25T04:36:38.542269+00:00"
+  },
+  "10.1038/s41467-026-79701-4": {
+    "text": "Plant-fungal interactions in the rhizosphere influence plant health. Current understanding of these processes largely derives from in vitro flat plates, hydroponics and gnotobiotic platforms. However, fungal-plant interactions largely occur in soil – a disordered and granular 3D environment with heterogeneous elasto-viscoplastic properties – whose inherent opacity precludes direct visualisation of the infection. How the physical structure of such natural habitats influences interkingdom interactions remains unknown. Here, we introduce an optically transparent 3D jammed granular microgel matrix that mimics the mechanical properties of natural microenvironments. This platform supports long-term co-culture of plants and fungi, while being compatible with classical physiological assays. We accomplish a direct cellular-level visualisation of the plant-fungal interface. Specifically, host-derived signals prior to the physical contact trigger hyphal reorientation towards the root tips. Using spatiotemporally resolved transcriptomics we discover distinct pathogen-host ex- and in-planta signalling modules, which are associated with granular heterogeneous environments. Together, our findings establish an experimental platform for dissecting fungal development and pathogenesis with unprecedented microscopic and molecular resolution.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79701-4",
+    "checked_at": "2026-11-25T04:36:39.027550+00:00"
+  },
+  "10.1038/s41467-026-79568-5": {
+    "text": "Electrically programmable control over distinct memristive operation regimes remains largely unexplored in atomically thin materials. Here we demonstrate a monolayer hBN atomristor in which electrical stimuli reversibly switch the device between synaptic and stochastic regimes within the same atomic-scale platform. Electrical, thermal, and low-frequency noise measurements across the HRS–LRS transition reveal regime-dependent signatures of localized Ag configuration in the monolayer hBN device. In the stochastic regime, stochastic fluctuations and switching probability are electrically programmable, whereas the synaptic regime exhibits stable potentiation and depression characteristics. System-level studies further show that the regime tunability can be exploited for both neuromorphic and probabilistic computing. These results establish electrically programmable dynamic regime control as an operational framework for atomically thin memristive systems, providing pathways towards reconfigurable energy-efficient computing hardware.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79568-5",
+    "checked_at": "2026-11-25T04:36:39.491181+00:00"
+  },
+  "10.1038/s41467-026-79333-8": {
+    "text": "Human chromosome 15q13.3 is a hotspot for recurrent pathogenic copy number variants (CNVs) associated with schizophrenia, developmental delay and epilepsy. We generated long-read genome assemblies for 10 patient-parent trios and compared them to 581 population control haplotypes from diverse ancestry where this complex region is fully resolved. We find that both the long (“BP4-BP5”) and short (“ CHRNA7 ”) forms of 15q13.3 CNVs arise predominantly by non-allelic homologous recombination (NAHR) whose susceptibility has been promoted by large inversion polymorphisms. While three BP4-BP5 breakpoints cluster in a 2 kbp PRDM9-enriched recombination hotspot, most CNVs are structurally distinct and affect the disease-relevant genes ARHGAP11B and CHRFAM7A differentially. Population analyses reveal at least 18 distinct structural haplotypes in 15q13.3 and show that the risk for BP4-BP5 CNVs is stratified more than 10-fold depending on ancestry, with 68.4% of Europeans but only 5.1% of East Asians predisposed, establishing inversion polymorphisms as major determinants of population-specific recurrent CNV susceptibility. Comparison to six ape species indicates that the duplication architecture promoting instability expanded recently and is largely human-specific.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79333-8",
+    "checked_at": "2026-11-25T04:36:40.119150+00:00"
+  },
+  "10.1038/s41467-026-79540-3": {
+    "text": "CD 33 is associated with Alzheimer’s disease (AD) susceptibility. The AD-associated rs3865444 C risk variant reduces splicing of the sialic acid-binding domain, increasing the sialic acid-binding isoform seven-fold. Here we identify CD45, a GWAS-associated AD risk gene, as an immune cell-specific sialic acid-dependent cis CD33 binding partner, whose phosphatase activity CD33 inhibits. CD33 loss improved microglial amyloid beta clearance and protected against amyloid beta-induced dendritic spine loss in microglial-neuronal co-cultures, whereas CD45 loss impaired clearance, aligning with detrimental effects of CD33-mediated CD45 inhibition. CD33-CD45 interaction frequency was increased in monocytes from rs3865444 CC individuals versus rs3865444 AA , as well as in AD versus controls, independent of genotype. An interaction between CD33 and PTPRC (CD45) expression in human brain tissue was associated with a pathological AD diagnosis and global burden of AD pathology, consistent with the cellular findings above. Together, our results link CD33-mediated suppression of CD45 with AD genetic susceptibility and systemic myeloid dysfunction.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79540-3",
+    "checked_at": "2026-11-25T04:36:41.417850+00:00"
+  },
+  "10.1038/s41467-026-79642-y": {
+    "text": "Organic semiconductors such as polythiophenes (PThs) offer substantial potential for flexible optoelectronics. Incorporating silicon into the PTh backbone represents a promising strategy to enhance flexibility and tune electronic properties; however, conventional metal-catalyzed synthetic approaches lack precise control over polymer chain growth, yielding materials with poorly defined energy levels and relatively board dispersity. Here, we report a catalyst-free thermal dehydropolycondensation (TDP) strategy for the direct incorporation of silicon into PThs, producing a class of narrowly dispersed silicon-incorporated polymers. This thermally driven, radical-mediated mechanism circumvents the uncontrolled initiation and competitive pathways of conventional catalytic routes, enabling precise control over chain growth and yielding well-defined PThs with narrow dispersity ( Đ = 1.2 – 1.4). The dehydrogenatively coupled diphenylsilane- terthiophene polymer (PS-1) shows favorable energy-level alignment and a hole mobility of 9.2 × 10 −4 cm 2 V −1 s −1 . When employed as a hole-transport interlayer in inverted tin-lead (Sn-Pb) perovskite solar cells, PS-1 enables a champion power conversion efficiency of 23.3% with enhanced operational stability, surpassing the 20.8% efficiency of standard PEDOT:PSS-based devices. This work establishes a scalable synthetic route to advanced conjugated polymers, providing a versatile materials platform for optoelectronic applications.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79642-y",
+    "checked_at": "2026-11-25T04:36:42.074200+00:00"
+  },
+  "10.1038/s41467-026-79502-9": {
+    "text": "Sub-tomogram averaging of cryo-electron tomography maps often fails to reach the resolution required for atomic model building based on side-chain information, preventing accurate protein identification from the density alone. We develop DomainSeeker, which identifies protein domains by integrating AlphaFold2 models with experimental data. It partitions these models into domains by clique analysis of predicted aligned errors, fits them into segmented densities, and evaluates each fit globally and locally, deriving prior probabilities. Bayesian inference integrates the priors with cross-linking mass spectrometry, computing posterior probabilities. Applying prior probability analysis to mouse sperm microtubule doublet densities reveals higher recognition accuracy and resolution robustness than existing approaches. Incorporating cross-linking mass spectrometry for yeast nuclear pore complex densities further improves recognition performance and confidence. An interactive ChimeraX plugin facilitates user access. In this work, DomainSeeker addresses a bottleneck in in situ structural biology and supports visual proteomics in native cellular environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79502-9",
+    "checked_at": "2026-11-25T04:36:42.535768+00:00"
+  },
+  "10.1038/s43247-026-04246-9": {
+    "text": "Biological timing is a core organizing principle across life on Earth, aligning internal physiology with environmental cues. However, whereas animal chronobiology considers seasonal behavior rhythmically, plant phenological dynamics are commonly analyzed as transition dates. Here, we extend chronobiological concepts to plant phenology by applying actigraphic metrics to annual vegetation photothermal activity. Using satellite time series of beech forests, we quantify fragmentation, consolidation and amplitude of their seasonal rhythm across Europe, and how their annual rhythms are regionally organized. A marked spring–autumn asymmetry emerges: spring green-up is event-driven and decoupled from photothermal peak activity, whereas autumn decline is cumulative and tightly synchronized with the rest phase and the overall annual rhythm. Consistently, beech forests segregate into chronotypes differing in timing and consolidation of rest–activity phases. These findings reveal a previously hidden rhythmic dimension of intraspecific phenological strategies, providing an ecosystem-scale characterization of the emergent temporal organization of vegetation activity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04246-9",
+    "checked_at": "2026-11-25T04:36:43.771479+00:00"
+  },
+  "10.1038/s43247-026-04200-9": {
+    "text": "Induced seismicity challenges sustainable geothermal development. Complex rock and fluid interactions complicate numerical flow modeling and mechanical failure analysis and limit forecast accuracy. We introduce QuakeCastNet, an interpretable deep learning framework for probabilistic multi-horizon forecasts of seismicity rates and spatial distributions. It combines historical seismicity with past and scheduled operations. With known future operations, QuakeCastNet improves rate forecasts at two geothermal sites with contrasting operational timescales. The network provides the early forecast advantage, while empirical decay adaptation addresses shut-in behavior absent from network training and supplies most overall improvement in an evaluation set dominated by shut-in cases. Temporal diagnostics indicate longer predictive memory at one site and a more immediate relationship with operations at the other. The spatial branch improves probabilistic forecasts of event locations relative to the statistical baseline, capturing redistribution within a persistent reservoir footprint and rapid reorganization of a compact stimulation cloud. These contrasts suggest site-specific response timescales that could inform operational strategies for mitigating induced-seismicity hazards.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s43247-026-04200-9",
+    "checked_at": "2026-11-25T04:36:44.216787+00:00"
   }
 }
