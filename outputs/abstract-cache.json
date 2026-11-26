@@ -7831,5 +7831,481 @@
     "kind": "abstract",
     "url": "https://www.nature.com/articles/s43247-026-04200-9",
     "checked_at": "2026-11-25T04:36:44.216787+00:00"
+  },
+  "10.1038/d41586-026-03474-5": {
+    "text": "A description of the terminology and methodology used in this supplement, and a guide to the functionality that is available free online at natureindex.com.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03474-5",
+    "checked_at": "2026-11-26T03:46:26.339839+00:00"
+  },
+  "10.1038/d41586-026-03837-y": {
+    "text": "Researchers can face pressure from policymakers and politicians to provide single, definitive answers to complex challenges. They should resist, says Andy Stirling.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03837-y",
+    "checked_at": "2026-11-26T03:46:26.947888+00:00"
+  },
+  "10.1038/d41586-026-03494-1": {
+    "text": "Chromosome-scale genome sequences from across the barley genus Hordeum reveal large structural variation, evidence of ancient genetic exchange and extensive divergence of regulatory sequences. These evolutionary processes have generated diversity that could be used to improve cultivated barley. Genome sequences across Hordeum reveal conserved chromosome ends and coding genes, but divergent chromosome centres and regulatory DNA.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03494-1",
+    "checked_at": "2026-11-26T03:46:28.215660+00:00"
+  },
+  "10.1038/s41586-026-11287-9": {
+    "text": "Precise genomic integration of large DNA cargo remains a central challenge in genome engineering. CRISPR-associated transposases (CASTs) 1 , 2 offer a promising solution by coupling RNA-guided DNA recognition to transposon-mediated integration. Because of their exceptional targeting fidelity, type I-F3 CASTs have been a major research focus 1 , yet the structural basis of their RNA-guided DNA integration has remained unclear. Here, using cryo-electron microscopy, computational protein design and functional assays, we report the licensing mechanisms that control DNA integration activity of Vibrio cholerae CAST (VchCAST). Structural determination was enabled by zero-shot computational redesign of TnsA, which enhanced integration activity by nearly two orders of magnitude without compromising specificity. The structure of the holo integration complex reveals the conformational licensing events that govern activation of the integration machinery at the on-target site. Multiple components (Cascade–TniQ, TnsC and TnsA–TnsB) undergo conformational changes upon assembly into the holo integration complex, and the catalytically competent state is stabilized only within the full assembly. Comparison with existing CAST integration complex structures reveals conserved architectural features, suggesting a common molecular basis for RNA-guided transposition across CASTs. Our findings establish a general mechanistic framework for RNA-guided DNA integration and demonstrate that protein design is a powerful strategy for engineering highly active CAST systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11287-9",
+    "checked_at": "2026-11-26T03:46:28.935793+00:00"
+  },
+  "10.1038/s41586-026-11146-7": {
+    "text": "Augmented-reality (AR) glasses promise to transform how we interact with the world by seamlessly blending digital content with our physical surroundings. Yet making them viable for comfortable, all-day use remains deeply challenging, constrained by hard trade-offs of size, power and display performance. This calls for fundamentally new ways to generate and control light with high precision in an ultracompact form factor. Here we examine how integrated photonics can help bridge the technology gap in AR hardware. We review the basics of AR displays and recent advances in integrated photonics for new AR display components and architectures, then turn to key challenges and future directions, from component development to system innovation and scalable manufacturing, and highlight broader opportunities for synergy with fields such as quantum computing, bioimaging and optical sensing.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11146-7",
+    "checked_at": "2026-11-26T03:46:29.782816+00:00"
+  },
+  "10.1038/d41586-026-03470-9": {
+    "text": "The world’s leading science city is testing AI and intelligent transport at scale, but linking data across its innovation hubs remains a challenge.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03470-9",
+    "checked_at": "2026-11-26T03:46:30.539068+00:00"
+  },
+  "10.1038/d41586-026-03382-8": {
+    "text": "By tuning the binding between enzymes that chain sugars together and the molecules that initiate the reaction, precise chain lengths have been made for biological studies.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03382-8",
+    "checked_at": "2026-11-26T03:46:31.140026+00:00"
+  },
+  "10.1038/s41586-026-11338-1": {
+    "text": "Peptides capable of modulating two therapeutic targets offer opportunities for treating complex diseases 1 , 2 . However, the development of such peptides at both targets is challenging, limited primarily by low design success rates and weak bioactivity. Here we present ORIDTP, an artificial intelligence platform that integrates single-target knowledge transfer and dual-target reinforcement to enable the rational design of high-potency peptides. ORIDTP successfully designed dual-target co-agonists for the GLP-1R and glucagon receptor (GCGR, also known as GLR), six of which surpassed the strongest natural binders of each receptor in bioactivity. Notably, the lead peptide GA-Dual.R5.S3 induced substantial weight loss and glycaemic improvement in diet-induced obese mice, and exhibited pronounced antidiabetic effects in db/db mice, without inducing nausea or aversion. Furthermore, ORIDTP demonstrated generalizability through successful zero-shot design of dual-target co-inhibitors for structurally and mechanistically distinct immune checkpoints, PD-1 and CTLA-4. Out of 15 designed peptides, 8 blocked both checkpoint interactions and 3 further exhibited in vivo antitumour efficacy in human checkpoint knock-in tumour-bearing mice. The lead peptide IC-Dual.P3 achieved the strongest tumour growth suppression, reducing tumour volume by 94.2% relative to controls. Together, these findings establish ORIDTP as a powerful and generalizable platform for de novo dual-target peptide discovery.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11338-1",
+    "checked_at": "2026-11-26T03:46:31.821615+00:00"
+  },
+  "10.1038/s41586-026-11279-9": {
+    "text": "Colloidal quantum dot solids are promising for photoconversion and photochemistry, but their performance is fundamentally limited by rapid hot-carrier cooling, low carrier mobility and short transport ranges 1 . Here we demonstrate a spin-exchange-driven phototransport regime in manganese-doped quantum dot films that enables the generation, long-range transport and regeneration of hot carriers. Ultrafast spin-exchange-mediated Auger upconversion promotes electrons into high-energy, delocalized states before phonon cooling 2 , 3 , establishing a transient high-mobility conduction channel. Crucially, spin-exchange interactions not only generate hot carriers but also enable their repeated re-excitation, thereby sustaining long-range drift. This mechanism yields room-temperature mobilities of about 150 cm 2 V −1 s −1 and submillimetre drift lengths—far greater than those of conventional quantum dot solids and approaching values characteristic of crystalline semiconductors. Time-of-flight measurements confirm drift-dominated transport, with transit times scaling linearly with distance and inversely with electric field. These results establish a route to long-range energy transport in nanoscale materials and enable the use of hot carriers in photoconversion, photochemistry and transit-time-limited photodetection.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11279-9",
+    "checked_at": "2026-11-26T03:46:33.011374+00:00"
+  },
+  "10.1038/d41586-026-03853-y": {
+    "text": "Experts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference. Hear the biggest stories from the world of science | 25 November 2026",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03853-y",
+    "checked_at": "2026-11-26T03:46:33.719838+00:00"
+  },
+  "10.1038/d41586-026-03491-4": {
+    "text": "Why do cancer-associated mutations cause some blood vessels to develop abnormally, but not arteries? The answer lies in the identity and maturity of the affected cells.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03491-4",
+    "checked_at": "2026-11-26T03:46:36.600226+00:00"
+  },
+  "10.1038/d41586-026-03872-9": {
+    "text": "An analysis of 1.4 million people uncovered rare gene variants that are helping to unpick the genetic architecture behind the heritability of height.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03872-9",
+    "checked_at": "2026-11-26T03:46:37.298891+00:00"
+  },
+  "10.1038/d41586-026-03469-2": {
+    "text": "Open urban data, recycled data-centre heat and a public AI register are helping the Finnish capital develop responsible urban technology.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03469-2",
+    "checked_at": "2026-11-26T03:46:38.018648+00:00"
+  },
+  "10.1038/d41586-026-03268-9": {
+    "text": "A study of more than 10,000 individuals reveals specific mutations in gut bacteria that arise during human ageing, but few mutations associated with disease.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03268-9",
+    "checked_at": "2026-11-26T03:46:38.636308+00:00"
+  },
+  "10.1038/d41586-026-03854-x": {
+    "text": "The biggest problem in mathematics has to do with a statistical test familiar to scientists.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03854-x",
+    "checked_at": "2026-11-26T03:46:40.453143+00:00"
+  },
+  "10.1038/s41586-026-11353-2": {
+    "text": "Quantum metrology promises measurement precision beyond classical limits by exploiting large-scale quantum states 1 , 2 , 3 , 4 , 5 , 6 , 7 , yet realizing this advantage faces two fundamental challenges: the deterministic preparation of non-trivial quantum probes 8 , 9 and the efficient extraction of metrological information in high-dimensional Hilbert spaces 10 , 11 , 12 . Here, we introduce quantum confocal microscopy in Fock space that addresses these challenges for a Fock-like probe state with a tightly concentrated photon-number distribution. Drawing a direct analogy between classical wave optics and quantum state evolution in a bosonic mode 13 , 14 , we construct a confocal lens system with a quantum circuit of \\({\\mathcal{O}}(1)\\) operational depth, realizing a bidirectional transformation between a readily obtainable coherent state and this Fock-like probe state. Using a superconducting circuit quantum electrodynamics platform, we deterministically prepare focused probe states with mean photon numbers up to N = 500, achieving a 21.5 ± 1.1 dB reduction of the photon-number variance relative to a coherent state. Using the focused states for displacement sensing, we achieve a record metrological gain of 19.20 ± 0.20 dB beyond the standard quantum limit. This work establishes quantum confocal microscopy as a compact protocol that makes high-photon-number non-Gaussian Fock-like probes experimentally accessible and measurable, providing a viable route towards quantum-enhanced precision measurement, and is readily extendable to other bosonic platforms and high-dimensional quantum many-body systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11353-2",
+    "checked_at": "2026-11-26T03:46:56.523266+00:00"
+  },
+  "10.1038/s41586-026-11339-0": {
+    "text": "Over millennia, peatlands have removed hundreds of gigatonnes of carbon dioxide (CO 2 ) from the atmosphere but emitted a proportion back as methane (CH 4 ), exerting a slow net cooling effect 1 . Artificial drainage of these ecosystems—a centuries-old practice 2 , 3 —causes decomposition and the re-release of CO 2 but suppresses CH 4 emissions 4 , with a net climatic effect that is not well quantified at the global scale 5 . Here we reconstructed the radiative forcing from worldwide peatland drainage over 1800–2020 by combining a new flux dataset, hydrologically driven models of CO 2 and CH 4 fluxes and a hindcast of drainage extent and intensity. We found that drainage has produced a net heating effect of +73 (48–99) mW m −2 —equivalent to 2.7 (1.8–3.6)% of industrial-era radiative forcing—originating from 0.4–0.5% of global land area. The net heating results from the dominant forcing of drainage-induced CO 2 emissions (+83 (52–110) mW m −2 ) over that of avoided CH 4 emissions (−9 (−15–−2) mW m −2 ). Even without further expansion of drainage, maintaining currently drained areas could almost double the cumulative warming by 2100. Our reconstruction captures the opposing impacts of peatland drainage on global budgets of CO 2 and CH 4 and quantifies the strong legacy effects of historical drainage on present and possibly future climate.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11339-0",
+    "checked_at": "2026-11-26T03:46:57.283305+00:00"
+  },
+  "10.1038/s41586-026-11231-x": {
+    "text": "Heart failure with preserved ejection fraction (HFpEF) has emerged as the predominant form of heart failure worldwide and is increasingly associated with obesity, type 2 diabetes and systemic cardiometabolic dysfunction. This cardiometabolic HFpEF entity can be conceptualized as a mechanistically defined endotype marked by endothelial dysfunction, metabolic inflexibility and maladaptive inter-organ signalling involving the liver, kidney, adipose tissue and skeletal muscle. The cardiometabolic endotype often corresponds to a clinically recognizable adiposity-related clinical phenotype. Despite the growing prevalence of cardiometabolic HFpEF, therapeutic progress has lagged. This is mostly because the classification structure used is based on a commonly over-interpreted biomarker—ejection fraction—although inadequate trial end points and a lack of mechanism-guided precision also have a role. Here we review the evolving epidemiology, mechanistic underpinnings and emerging therapeutic landscape of cardiometabolic HFpEF. We highlight limitations in current diagnostic criteria, the role of extracardiac drivers and the need for soft end points and systems-based modelling. Advances in '-omics', phenotyping and cross-disciplinary frameworks now offer a pathway towards mechanistically targeted interventions that could enable symptomatic control by modifying validated disease mechanisms that culminate in this syndrome.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11231-x",
+    "checked_at": "2026-11-26T03:46:58.327370+00:00"
+  },
+  "10.1038/s41586-026-11341-6": {
+    "text": "Molecular and morphological evidence increasingly supports the view that most East Asian Middle to Late Pleistocene archaic Homo belong to Denisovans 1 , yet the presence of other contemporaneous lineages has remained unclear. Here we report a set of newly discovered hominin fossils (4 isolated teeth; more than 100.8 thousand years ago and 104.5–42.6 thousand years ago, respectively) from 2 cave sites (Chuanshandong and Longchuandong) in Guangxi, southern China. Integrated morphological and palaeoproteomic analyses reveal substantial phenotypic and molecular diversity consistent with at least two distinct lineages. One lineage (Longchuandong) is assigned to a Denisovan-affinity population, owing to its extreme similarity to Altai Denisovans with respect to dental morphology and single amino acid polymorphisms that match those of Denisovans from Harbin, Penghu, Bianfu Cave and Altai. The other lineage, represented by the Chuanshandong hominin, is an unresolved archaic Homo , as it carries an ancestral variant (AMELY 179M) shared with Homo antecessor and great apes and another variant (AMBN 253G) that is diagnostic of East Asian Middle Pleistocene Homo erectus but lacks the Denisovan-associated AMBN 273V variant (it being highly probable that this is inherited from H. erectus ). Dental morphology in this lineage exhibits a mosaic of plesiomorphic and derived traits but no clear Denisovan affinity. These findings indicate that diverse hominin populations may have inhabited subtropical China during the Middle and Late Pleistocene, including a Denisovan-affinity population and another unresolved archaic Homo .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11341-6",
+    "checked_at": "2026-11-26T03:46:58.950424+00:00"
+  },
+  "10.1038/d41586-026-03467-4": {
+    "text": "The challenges of high-tech cities in South Korea and China reveal what scientists really want.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03467-4",
+    "checked_at": "2026-11-26T03:46:59.500998+00:00"
+  },
+  "10.1038/d41586-026-03472-7": {
+    "text": "The city-state’s compact size and centralized governance allow digital infrastructure to be introduced with unusual speed and consistency.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03472-7",
+    "checked_at": "2026-11-26T03:47:00.163513+00:00"
+  },
+  "10.1038/d41586-026-03471-8": {
+    "text": "Digital twins and open-data platforms are part of London’s aim to innovate for citizens.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03471-8",
+    "checked_at": "2026-11-26T03:47:00.739666+00:00"
+  },
+  "10.1038/s41586-026-11151-w": {
+    "text": "Drought is a major environmental constraint limiting global crop production 1 , 2 . On average, crop productivity typically declines by 30–40% in moderate-drought years, whereas extreme droughts trigger far greater reductions 3 , 4 . As droughts become longer and more intense due to climate change, adverse effects on crop productivity are expected to escalate 5 . Breaking the trade-offs between stress resistance and yield is key to advancing crop genetic improvement as climate change sets in and the world population grows, but this is challenging for drought stress 6 . Here we show that heterologous expression of EpTFIIAγ , a gene encoding a transcription factor induced by osmotic stress in an extremophile lichen mycobiont, partially decouples trade-offs between stress resistance and grain production, enhancing plot yields of five wheat cultivars under water deficit by 19.4–32.8%, and per-plant yields of rice and maize by 19.7–42.4% in the greenhouse and multiple field environments. EpTFIIAγ physically interacts with endogenous transcriptional activators to synergistically enhance both stress-responsive and developmental transcriptional programs, simultaneously boosting photosynthetic capacity and water-use efficiency, while delaying senescence via multiple physiological and developmental enhancements, ultimately increasing grain yields. EpTFIIAγ uncouples antagonistic stress-response and biomass production pathways in multiple crops and delivers a straightforwards and broad-spectrum strategy for sustainably improving staple-crop yields regardless of water availability.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11151-w",
+    "checked_at": "2026-11-26T03:47:01.704115+00:00"
+  },
+  "10.1038/s41586-026-11465-9": {
+    "text": "All-perovskite tandem solar cells (TSCs) are gaining prominence due to their ability to surpass the efficiency limit of single-junction perovskite solar cells (PSCs) 1,2 . However, the efficiency and stability of all-perovskite TSCs are limited by chemical instability at the hole transport layer/perovskite interface in the tin-lead (Sn-Pb) narrow-bandgap subcell, which introduces deep trap states from tin cations and promotes non-radiative recombination 3-5 . Here we incorporate a redox-converted molecule of p -aminobenzohydrazide (ABH) into poly(3,4-ethylenedioxythiophene):polystyrene sulfonate (PEDOT:PSS) that neutralizes PSS acidity, heals Sn 4+ defects, and generates a dipole passivation effect upon oxidation. During the preparation of Sn-Pb perovskites, ABH suppresses interfacial oxidation by reducing Sn 4+ defects and converts to p -aminobenzaldehyde (ABD), which suppresses photogenerated hole-induced Sn 2+ oxidation, aligning energy levels for efficient hole extraction. The in situ redox-converted molecule stabilizes the buried interface during both device fabrication and operation, reduces non-radiative recombination and enhances stability. The resulting narrow-bandgap Sn-Pb PSC achieves a power conversion efficiency (PCE) of 25.4% (certified 25.2%) with an open-circuit voltage of 0.92 V and a fill factor of 83.4%. Integrated into monolithic all-perovskite TSCs, the device delivers a PCE of 31.1% (certified 30.8%) together with enhanced thermal (ISOS-D-2I, 85 °C) and operational stability (ISOS-L-1I) under inert conditions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11465-9",
+    "checked_at": "2026-11-26T03:47:02.326272+00:00"
+  },
+  "10.1038/d41586-026-03513-1": {
+    "text": "The use of generative AI is a practical way to translate hand-drawn scientific diagrams into digital formats without handing over total control, explains Ensar Aydemir.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03513-1",
+    "checked_at": "2026-11-26T03:47:03.190442+00:00"
+  },
+  "10.1038/s41586-026-11288-8": {
+    "text": "Modern and future electronics harbour a key challenge: as conventional metal wires shrink to nanoscale dimensions, their resistivity increases sharply 1 owing to surface and grain-boundary scattering. To circumvent this unwanted behaviour, here, we explore the fundamental limits of charge transport in topological semimetal niobium phosphide (NbP) nanoribbons down to approximately 6-nm widths, with industry-friendly top-down nanofabrication. The extracted NbP nanoribbon resistivity reaches 18 ± 4.1 μΩ cm at room temperature with an approximately 9-nm 2 cross-sectional area, lower than that of conventional metals and semimetals with comparable size. The NbP nanoribbon resistivity decreases with decreasing width, unlike the classical behaviour of metals such as copper. This trend suggests a growing relative contribution of surface and edge states as the nanoribbon cross-section is reduced, despite a certain amount of disorder, including edge roughness. Our findings advance the understanding of size-dependent transport and scaling in this class of semimetals, offering a platform for nanoscale wires and interconnects in future nanoelectronics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11288-8",
+    "checked_at": "2026-11-26T03:47:03.848505+00:00"
+  },
+  "10.1038/d41586-026-03333-3": {
+    "text": "Economics is the outlier — top prizes in science, engineering and other social sciences go to researchers at a greater variety of institutions.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03333-3",
+    "checked_at": "2026-11-26T03:47:04.996726+00:00"
+  },
+  "10.1038/s41586-026-11326-5": {
+    "text": "Vertebrate trunk development is orchestrated by endogenous signalling centres that generate gradients of signals such as WNT and BMP to pattern cell fates and drive morphogenesis 1 , 2 , 3 , 4 , 5 , 6 , 7 . Whether these cues alone can reconstitute human trunk-like morphogenesis in vitro remains unknown. Here we present a synthetic embryology platform for high-throughput, spatiotemporal delivery of morphogen signals to epithelial cysts derived from human pluripotent stem cells. Transient WNT and BMP gradients are sufficient to drive the generation of axially elongating trunk-like structures that contain a central neural tube flanked by axial, paraxial, intermediate and lateral mesoderm. The geometry of the transient BMP signal exerts lasting control over mediolateral patterning and bilateral symmetry. Patterning and morphogenesis are sustained by neuromesodermal and lateral plate mesoderm progenitors induced by the initial cues, which act as endogenous signalling centres. Together, these findings define a minimal spatial code sufficient to reconstitute trunk-like morphogenesis in a human stem-cell-based model and establish a scalable platform for studying early human development and congenital disorders.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11326-5",
+    "checked_at": "2026-11-26T03:47:06.028492+00:00"
+  },
+  "10.1038/d41586-026-03809-2": {
+    "text": "Generic versions of an effective HIV drug have been approved, and an HIV vaccine is on the horizon. Now is no time for funders to take their foot off the pedal.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03809-2",
+    "checked_at": "2026-11-26T03:47:07.247152+00:00"
+  },
+  "10.1038/d41586-026-03835-0": {
+    "text": "Awe, anxiety and opportunity: mathematics community shares mixed emotions following the solution of the field’s biggest unsolved problem.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03835-0",
+    "checked_at": "2026-11-26T03:47:07.908946+00:00"
+  },
+  "10.1038/s41586-026-11345-2": {
+    "text": "Highly heritable, polygenic and easily measured, adult height has long been the model trait in human genetics 1 , 2 . Although the landscape of height-associated common genetic variation has been studied extensively 2 , rare variation remains relatively unexplored 1 . Here, using rare protein-altering variants in a discovery set of 826,066 exomes, we identify 207 height-associated genes, 98% of which replicate in an additional 624,567 individuals. The rarest and most deleterious class of variation, singleton (frequency < 0.0001%) putative loss-of-function variants, implicated 17 genes with large effects on height ranging from −17cm ( ACAN ) to +11 cm ( FBN1 ) per allele, 52× larger than the average effect of common height-associated variants and comparable to the 1% tails of a common variant polygenic score. Several genes ( TET1 , DTL and IGF2BP2 ) have effect sizes that are at least as large as established Mendelian height genes, yet lack documented stature or skeletal growth syndromes, particularly for genes associated with increased height. Our large-scale sequencing study elucidates the genetic architecture and allelic heterogeneity of rare variants in height, providing unique insights into their large effects—often similar to or larger than recognized Mendelian syndromes—and their impact on trait prediction, clinical evaluation, and discovery power to facilitate drug target prioritization.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11345-2",
+    "checked_at": "2026-11-26T03:47:08.998319+00:00"
+  },
+  "10.1038/d41586-026-03718-4": {
+    "text": "Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03718-4",
+    "checked_at": "2026-11-26T03:47:09.877325+00:00"
+  },
+  "10.1038/d41586-026-03693-w": {
+    "text": "Australian migratory moths navigate long distances, in part owing to a stellar ‘compass’. It transpires that they have another compass that detects the inclination, or angle, of Earth’s magnetic field lines and that probably relies on a light-dependent quantum-mechanical mechanism similar to the one found in night-migratory songbirds. Migratory moths distinguish poleward from equatorward by sensing the inclination of magnetic field lines.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03693-w",
+    "checked_at": "2026-11-26T03:47:10.740168+00:00"
+  },
+  "10.1038/d41586-026-03466-5": {
+    "text": "Nature Index data reveal the cities that are gaining ground in research, as smart technologies transform how urban centres operate and compete for talent.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03466-5",
+    "checked_at": "2026-11-26T03:47:11.320860+00:00"
+  },
+  "10.1038/s41586-026-11313-w": {
+    "text": "Slowing climate change requires overcoming inertia in political, technological and geophysical systems 1 , 2 , 3 . Portland cement manufacturing is among the most challenging industrial processes to decarbonize, yet it remains indispensable for building the infrastructure underpinning the low-carbon transition 4 , 5 . Here, building beyond the two-century-old conventional cement process 6 , we report a route that creates sustainable cement, by accelerating its reaction kinetics through a microwave carbon-plasma method, reducing the standard processing time from hours to seconds. Our technique generates localized temperatures up to 2,400 °C, sufficient to liquefy the raw materials. These liquid-phase reactions promote elemental mixing and solidification, producing reactive clinker phases. Our in situ transmission electron microscopy captures the early-stage cement hydration process in real time, revealing that surface disorder accelerates clinker reactivity by facilitating the dynamic nucleation and growth of hydration clusters. Beyond typical limestone and clay feedstocks, we show that hydrated cement paste from waste concrete can also be processed into clinkers, meeting ordinary Portland cement specifications. By coupling circular resource use with ultrafast electrified processing, our approach enables sustainable, low-cost cement production at scale.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11313-w",
+    "checked_at": "2026-11-26T03:47:12.122886+00:00"
+  },
+  "10.1038/s41586-026-11318-5": {
+    "text": "Cancer-associated mutations in PIK3CA underlie congenital overgrowth disorders that frequently involve the vasculature 1 , 2 . Among the affected tissues, the endothelium commonly exhibits aberrant expansion, leading to vascular malformations 3 . Notably, these lesions arise predominantly in veins and capillaries, whereas arteries are largely spared, for reasons that remain unclear. Here, using genetic lineage tracing, we show that endothelial expression of PIK3CA H1047R drives profound clonal expansion of capillary and venous endothelial cells, whereas mature arterial endothelial cells are refractory to pathological PI3K activation. Expression of PIK3CA H1047R in arterial precursors disrupts arterial differentiation and promotes the acquisition of venous features, providing a mechanistic explanation for the paucity of arterial lesions after PIK3CA genetic perturbation. Mechanistically, these effects are mediated by two complementary downstream branches of PI3K signalling: increased proliferation, which drives vascular overgrowth, and upregulation of the venous-specifying transcription factor NR2F2 (also known as COUP-TFII), which suppresses arterial differentiation. Together, our findings reveal that pathogenic responses to PIK3CA H1047R are dictated by endothelial differentiation state and fate trajectory, and demonstrate that arterial endothelium is intrinsically resistant to oncogenic PI3K signalling. Arteries are therefore shielded from PIK3CA mutations, explaining the rarity of arterial malformations in PIK3CA -driven disease.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11318-5",
+    "checked_at": "2026-11-26T03:47:13.108672+00:00"
+  },
+  "10.1038/d41586-026-03473-6": {
+    "text": "China is using AI and big data to connect its cities and rural regions. Now, its smart-city technologies are attracting international interest.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03473-6",
+    "checked_at": "2026-11-26T03:47:13.705556+00:00"
+  },
+  "10.1038/s41586-026-11304-x": {
+    "text": "Polysaccharides have myriad functions throughout biological processes, yet synthetic access to well-defined analogues remains a challenge 1 , 2 . Achieving high molecular weight, controlled stereochemistry and sequence precision simultaneously has been elusive using conventional chemical methods that rely on protecting-group manipulations. Here we propose enzymatic living polymerization, which enables the precision preparation of natural polysaccharides with molecular weights up to 660 kg mol −1 but polydispersity from low to less than 1.05. Such a living behaviour originates from the initiator weakly binding with the polymerase, realizing fast equilibrium of the active (bound) and dormant (unbound) species, as demonstrated by mechanistic and computational studies. Our approach is generalizable to diverse polysaccharide types, including sequence-controlled block copolymers, and provides a modular route to explore molecular-weight-dependent biological functions of natural polysaccharides.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11304-x",
+    "checked_at": "2026-11-26T03:47:14.353465+00:00"
+  },
+  "10.1038/d41586-026-03813-6": {
+    "text": "The number of recorded cases of the mosquito-borne disease worldwide rose by a factor of 34 over 34 years.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03813-6",
+    "checked_at": "2026-11-26T03:47:15.194740+00:00"
+  },
+  "10.1038/s41586-026-11275-z": {
+    "text": "Although coronary artery disease (CAD) genome-wide association studies (GWAS) have identified hundreds of loci, most variants lie in non-coding regions, obscuring the causal gene programmes and cell types driving disease 1 , 2 . Here we performed single-nucleus multi-omic profiling of gene expression and chromatin accessibility in human coronary arteries from 44 people to construct a genome-wide single-cell variant-to-enhancer-to-gene map. We identified 11,269 chromatin accessibility quantitative trait loci (caQTLs) across principal vascular cell types, including CAD-associated caQTLs in smooth muscle cells (SMCs). Using dynamic single-cell caQTL modelling 3 , we show that variant effects on chromatin vary across SMC states. For example, rs658956 -mediated suppression of the FGGY-DT enhancer through disruption of an AP-1 motif is amplified as SMCs transition towards a fibromyocyte fate. We next performed genome-wide high-throughput chromosome conformation capture (Hi-C) in 15 human coronary arteries, showing that rs4887091 in the ADAMTS7 CAD locus has allele-dependent effects on CCCTC-binding factor occupancy and loop strength. Integrating Hi-C, Hi-C with chromatin immunoprecipitation and in vitro clustered regularly interspaced short palindromic repeats interference (CRISPRi) nominated AMOTL2 as a distal SMC-specific CAD gene whose loss promotes proliferation and suppresses contractile identity. Finally, arrayed Perturb–seq of GWAS-nominated enhancers converged on extracellular matrix remodelling as a core SMC disease programme. Together, these findings provide a framework for mapping non-coding GWAS variants to cell types, chromatin states and gene programmes in human disease.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11275-z",
+    "checked_at": "2026-11-26T03:47:16.182023+00:00"
+  },
+  "10.1038/s41586-026-11309-6": {
+    "text": "Majorana zero modes provide a route to fault-tolerant qubits by encoding information non-locally in fermion parity. Their noise sensitivity is expected to decrease exponentially with separation between Majorana zero modes, a suppression known as topological protection 1 . Kitaev chains in quantum-dot–superconductor arrays can host Majorana zero modes at their ends 1 , 2 , even in two-site chains 3 . These minimal-chain modes, known as poor man’s Majoranas, retain characteristic Majorana properties, including near-zero energy and equal electron–hole character, but lack topological protection 3 , 4 , 5 . A key challenge is moving from identifying these modes in electrical transport to coherent qubit control. Here we demonstrate coherent time-resolved rotations between parity states encoded by four poor man’s Majoranas in two coupled minimal Kitaev chains 3 , 6 , 7 , 8 . Total fermion parity conservation separates the system into global even- and odd-parity manifolds. We observe coherent parity oscillations in both, with frequencies matching within 5% at the poor man’s Majorana sweet spot, consistent with largely isolated Majoranas 6 . The oscillation frequency, rotation axis and coherence depend systematically on inter-chain coupling and quantum-dot detunings, in agreement with our model for short chains. Our results establish coherent control of a qubit encoded in the fermion parity of Majorana zero modes, realized using minimal Kitaev chains. They lay the groundwork for universal qubit operations, comprehensive coherence characterization and probing protection in longer chains.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11309-6",
+    "checked_at": "2026-11-26T03:47:16.827787+00:00"
+  },
+  "10.1038/d41586-026-03492-3": {
+    "text": "The stochastic activation of specific genes is needed for the proper formation of neuronal circuits. Opposing forces act on inactive DNA to balance this process.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03492-3",
+    "checked_at": "2026-11-26T03:47:17.801366+00:00"
+  },
+  "10.1038/s41586-026-11315-8": {
+    "text": "Bidirectional communication between the brain and digestive tract is critical for optimizing nutrient preference and food intake, yet the neural mechanisms that couple gut nutrient sensing with ingestive motor control remain poorly understood. Here we identify a gut–brain sensory-motor circuit that regulates sugar ingestion in flies. We show that the brain neurons that regulate food ingestion, IN1s 1 , receive excitatory input from enteric sensory neurons that penetrate the foregut epithelium and detect sugars in the gut lumen during ingestion. Functional imaging and connectome analyses reveal that IN1s integrate excitatory input from multiple sugar-sensing neurons, including enteric sensory neurons, and provide inhibitory output to enteric motor neurons that control the muscles at the entry of the crop—a stomach-like organ. During ingestion, IN1 activation suppresses these enteric motor neurons, relaxes the crop duct and promotes rapid transfer of food into the crop, thereby enabling sustained food intake. Together, our findings describe a gut–brain circuit that controls the motor activity of digestive tract muscles during feeding and suggest a circuit mechanism by which nutrient signals from the gut contribute to the dynamic regulation of food intake across metabolic states.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41586-026-11315-8",
+    "checked_at": "2026-11-26T03:47:18.672178+00:00"
+  },
+  "10.1038/s41586-026-11403-9": {
+    "text": "In the version of the article initially published, in the Abstract, “Biogeography” section and Conclusion, the epoch in which bats originated was given as the “late Palaeocene” but should have been “late Cretaceous/early Palaeocene”. This has now been corrected in the HTML and PDF versions of this article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-26T03:47:23.547960+00:00"
+  },
+  "10.1038/s41586-026-11474-8": {
+    "text": "In the version of the article initially published, the surname of Mariela Navarrete appeared incorrectly (as Navarette) and has now been corrected in the HTML and PDF versions of the article.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-26T03:47:25.637965+00:00"
+  },
+  "10.1038/s41558-026-02804-9": {
+    "text": "People living through climate change appraise and emotionally register its impacts, shaping how they adapt and fare. We consolidate the psychology of this lived adaptation, scattered across disaster, environmental, community, clinical and Indigenous research and neighbouring social sciences, into a coherent field. We establish a four-layer framework in which climate exposures act through psychological mediators (appraisals, emotions and attachments) to produce adaptive responses and plural outcomes for well-being and equity. Psychological processes moderate the material and institutional drivers of adaptation; they do not replace them. We synthesize evidence across the layers, outline clinical implications and call for an integrated adaptation psychology, built with relevant disciplines and judged by whether it improves well-being and equity for the most exposed populations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41558-026-02804-9",
+    "checked_at": "2026-11-26T03:48:39.949744+00:00"
+  },
+  "10.1038/s41558-026-02801-y": {
+    "text": "Mitigation scenarios underpin climate policy. The workflow that produces them faces bottlenecks in narrative breadth, outdated inputs, model structure, computational cost and ensemble interpretation. We set out a research agenda for integrating artificial intelligence and machine learning across the workflow’s three phases. In scenario specification, language models and automated data curation can widen storylines and keep inputs current. In modelling, process-based models can be complemented by hybrid models, emulators and reinforcement learning. In policy translation, machine learning can diagnose ensembles, fill reporting gaps and downscale outputs. An agentic architecture could orchestrate these components under expert oversight. We distinguish demonstrated methods from prospective designs, set out their limitations and identify barriers in socioeconomic data, model architecture, validation and global south representation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41558-026-02801-y",
+    "checked_at": "2026-11-26T03:48:40.598873+00:00"
+  },
+  "10.1038/s41561-026-02147-2": {
+    "text": "The Greenland Ice Sheet is rapidly losing mass due to climate warming, contributing substantially to global sea level rise and altering ocean circulation and ecosystems. Water exchange between the ocean and glacial fjords influences Greenland’s ice melt. However, the processes controlling this exchange are not fully understood, particularly the role of bathymetric troughs connecting the continental slope to glacial fjords. Here we present high-resolution shipboard, ocean reanalysis and numerical model data across several deep troughs in West Greenland. We identify a recurring anticyclonic recirculation of glacial meltwater within the inner Uummannaq trough, which isolates the glacial fjord from subsurface Atlantic Water inflow and thus limits oceanic heat penetration. This circulation—driven by melting-season discharge and modulated by wind forcing—contrasts with the adjacent Jakobshavn trough, where more efficient exchange prevents such retention of meltwater. Recirculating freshwater coincides with limited vertical nutrient replenishment, suggesting broader biogeochemical impacts. Analogous recirculation patterns also appear next to some East Greenland fjords where ice loss has been comparatively reduced. Our findings provide a framework for understanding how local topography and circulation drive regional differences in Greenland’s glacial melting, freshwater export and nutrient delivery, highlighting the need for improved representation of these processes in climate models.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41561-026-02147-2",
+    "checked_at": "2026-11-26T03:48:41.741368+00:00"
+  },
+  "10.1038/s41467-026-79611-5": {
+    "text": "Nerves reach deep into bone, where they influence how the skeleton grows, remodels, and repairs. Yet almost everything we know about neuroskeletal biology comes from mice and humans. The influence of nerves on bone is largely unknown in other vertebrates, whose physiology differs markedly from that of mammals: birds mobilize a fifth of their skeletal minerals to build each eggshell, some lizards regrow their tails, salamanders cannot regenerate after denervation, and fish maintain their skeleton without bone cells. In this Perspective, we outline a comparative framework for understanding bone innervation and detail what this framework can offer fields ranging from evolution and paleontology to medicine.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79611-5",
+    "checked_at": "2026-11-26T03:48:43.124378+00:00"
+  },
+  "10.1038/s41467-026-79379-8": {
+    "text": "All-solid-state batteries offer enhanced safety and high energy density. However, their practical application is challenged by the need for high external pressures, often tens of MPa, to maintain intimate solid–solid contact and preserve ion/electron percolation pathways during cycling. In this work, we demonstrate that low-modulus, low-hardness, creep-compliant, low-strain organic active materials that readily deform in response to external pressures and microstructural changes enable stable cell operation under low stack pressures. Using bis-tetraaminobenzoquinone (TAQ) as a model compound, we show its low modulus (8.4–15.3 GPa), low hardness (0.33–0.76 GPa), and moderate creep compliance ( m = 0.038–0.073), quantified by nanoindentation of both pristine and lithiated TAQ, enable adaptive deformability under low stack pressures. TAQ-based solid-state cells achieve stable cycling and promising rate performance at external pressures as low as 1 MPa, retaining 80.3% capacity after 100 cycles at 0.5C. Operando and post-mortem electron microscopy reveal that TAQ electrodes maintain high structural integrity at pressures as low as 0.2 MPa. These findings establish a materials design strategy centered on mechanically adaptive materials to enable solid-state battery operation under practically relevant pressure conditions.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79379-8",
+    "checked_at": "2026-11-26T03:48:43.653335+00:00"
+  },
+  "10.1038/s41467-026-79797-8": {
+    "text": "Northern Hemisphere snow cover retreat poses substantial climate risks, but large uncertainties in Coupled Model Intercomparison Project Phase 6 (CMIP6) hinder accurate projections of future evolution. We develop a monthly emergent constraint based on historical warming trends, which strongly correlate with ablation-season (May–October) snow cover loss. This constraint reduces inter-model variance by 17.0–58.4% under different emission scenarios and rectifies raw CMIP6 snow-loss biases. Constrained projections reveal that under the higher-emission scenario (SSP5-8.5), winter snow cover retreats in arid regions from the 2030 s, and Arctic summers become snow-free by the 2040 s. By mid-century, mid-latitude spring and autumn snow cover disappears, with arid and semi-arid regions approaching year-round snow-free conditions and humid regions losing 1–4 months of seasonal snow cover. Under the most sustainable scenario (SSP1-2.6) snow disappearance is delayed by 7.1–34 years relative to SSP5-8.5 across vulnerable regions and months. Overall, our constraint narrows projection uncertainty by 0.95–11.91 years, delaying projected disappearance by 0.01–2.65 years in transitional months while advancing it by 0.51–4.15 years in midsummer, providing refined month-specific baselines for climate risk assessments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79797-8",
+    "checked_at": "2026-11-26T03:48:44.410137+00:00"
+  },
+  "10.1038/s41467-026-79416-6": {
+    "text": "Lithium holds therapeutic promise for Alzheimer’s disease (AD), yet its clinical application is hindered by a narrow therapeutic range and nephrotoxicity. We rationally design a lithium coordination compound, BuLiPro, chelated with endogenous butyrate and proline. Single-crystal diffraction and mass-spectrometry confirm its crystal structure and solution-state coordination, while spectroscopic assays verify an identity distinct from free lithium. Compared with lithium carbonate, BuLiPro achieves improved plasma exposure, slower clearance, and 61.6%-higher brain lithium accumulation at 48 h in rats. It yields lower renal cytotoxicity and in vivo kidney injury, and inhibits glycogen synthase kinase-3β over three-fold more potently. In female AD model mice, BuLiPro attenuates tau and amyloid-β pathologies to a greater extent and rescues cognition. This coordination-based strategy enhances lithium’s central bioavailability and reduces systemic toxicity, offering a framework for the development of next-generation lithium therapeutics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79416-6",
+    "checked_at": "2026-11-26T03:48:44.850178+00:00"
+  },
+  "10.1038/s41467-026-79133-0": {
+    "text": "The photon avalanche effect exhibits a large optical nonlinear response, which is crucial for advancement in super-resolution imaging and optical sensing. However, photon avalanche systems with nonlinearity exceeding 100 remain confined to a single band in the near-infrared region, where standard detectors have low sensitivity. Here, we show that a cascade amplified photon avalanche strategy via lattice reconstruction to address these limitations. Introducing lutetium substitution into the host lattice enhances interionic energy exchange and cross-relaxation, activating multiple visible emission channels of holmium and erbium ions with amplified nonlinearities. A nonlinearity order of up to 560 is achieved in ~216 nm nanoparticles, while 43 nm nanoparticles retain a nonlinearity of 183 and enable super-resolution microscopy with 28 nm lateral resolution. We further demonstrate multi-color super-resolution microscopy and sub-cellular bioimaging. Benefiting from high detection efficiency and flexible wavelength selection, cascade amplified photon avalanche nanoprobes are promising for ultrasensitive sensing and super-resolution lithography beyond optical imaging.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79133-0",
+    "checked_at": "2026-11-26T03:48:45.568309+00:00"
+  },
+  "10.1038/s41467-026-79044-0": {
+    "text": "The exponential surge in artificial intelligence computing power demand is driving a transition from electrons to photons across the infrastructure. Although integrated photonics has revolutionized communications and computing, its scaling for large-scale information processing is constrained by monolithic scalability, modulation efficiency, and multi-chip integration. Here, we present HyPec, a hybrid photonic extensible chiplet architecture that synergizes thin-film lithium niobate modulation chiplets with femtosecond laser-written three-dimensional functional chiplets. Through function disaggregation, HyPec partitions high-performance active modulation from the 3D photonic routing network. This chiplet architecture facilitates seamless multi-chip connectivity across diverse material platforms to achieve aggregate performance beyond monolithic limits, thereby allowing the system to scale through the addition of functional chiplets. To validate the advantages of this architecture, we experimentally built a co-packaged photonic computing chiplet system that implements a scalable graph solver and further identifies critical protein residues in structural biology networks. This work establishes a scalable hardware path for integrated photonic computing, with broader implications for high-density optical interconnects and photonic quantum information systems.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79044-0",
+    "checked_at": "2026-11-26T03:48:46.145110+00:00"
+  },
+  "10.1038/s41467-026-79529-y": {
+    "text": "Since early 2024, highly pathogenic avian influenza H5N1 virus (clade 2.3.4.4b) has caused outbreaks in U.S. dairy cattle, infecting other mammals including humans. Here, we evaluate the protective efficacy of two commercially available seasonal influenza vaccines against a human-derived bovine H5N1 isolate, A/Texas/37/2024, in influenza-naïve female ferrets. All unvaccinated ferrets develop severe disease and succumb to infection or meet humane euthanasia criteria. Immunisation with an inactivated influenza vaccine reduces viral titres in multiple respiratory and extrapulmonary tissues and delays disease progression but does not prevent fatal outcomes. By contrast, five of six ferrets immunised with a live attenuated influenza vaccine survive challenge and show more effective control of viral replication in the nasal mucosa. Live attenuated vaccination induces stronger T-cell responses, while the absence of detectable neutralising activity against the challenge virus suggests that cellular immunity, rather than neutralising antibodies, may contribute to protection. These findings demonstrate that seasonal live attenuated influenza vaccination can provide cross-protection against lethal infection with an antigenically distinct bovine-derived H5N1 virus, potentially through cellular immune responses in the respiratory tract.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79529-y",
+    "checked_at": "2026-11-26T03:48:46.940183+00:00"
+  },
+  "10.1038/s41467-026-80080-z": {
+    "text": "ATP synthase and its dimerization are essential for cristae formation and mitochondrial biogenesis. In plants, the absence of canonical j and k subunits raises the question of how ATP synthase assembly and dimerization are supported in this lineage. We identify MTF5, a fast-turnover, seed plant-specific protein critical for embryogenesis and mitochondrial biogenesis. Loss of MTF5 causes embryo arrest and altered mitochondrial morphology. A conditional complementation line partially rescues the embryo-lethal phenotype but shows growth defects and mitochondrial morphology changes. MTF5 interacts with another fast-turnover protein, MTF5P, and co-migrates with ATP synthase dimerization-associated subunits, supporting a role in ATP synthase assembly and maintenance. Structural predictions reveal a helical architecture comprising a long central α-helix flanked by shorter helices, but do not establish direct correspondence with canonical j and k subunits. Our findings uncover an interaction module for ATP synthase assembly and maintenance that is essential for seed plant growth and development.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-80080-z",
+    "checked_at": "2026-11-26T03:48:47.469873+00:00"
+  },
+  "10.1038/s41467-026-79547-w": {
+    "text": "Intracellular nucleotide-binding leucine-rich repeat (NLR) receptors activate effector-triggered immunity (ETI), a key branch of plant immunity conferring robust resistance. The downstream signaling mechanisms of ETI receptors remain unclear. We characterize tomato NLR protein R1L that specifically recognizes the Phytophthora infestans effector AVR1. R1L is predominantly cytoplasmic and partially relocalizes into the nucleus upon infection. With helper SlNRC1, R1L and AVR1 trigger a hypersensitive response (HR). R1L positively regulates tomato immunity against P. infestans . Yeast two-hybrid screening identified SlSPL3, a positive regulator of growth and development, as a direct R1L interactor. SlSPL3 binds the GTAC-box motif in the SlLTP3 promoter and activates this negative immune regulator. R1L counteracts SlSPL3-mediated immune suppression by promoting the ubiquitin-mediated degradation of SlSPL3. Thus, the AVR1-R1L-SlSPL3-SlLTP3 module mediates a growth-immunity trade-off. In uninfected plants, SlSPL3 promotes growth and suppresses immunity via SlLTP3. Upon infection, R1L-mediated SlSPL3 degradation activates immunity and represses growth. This study elucidates a pathogen perception-transcriptional reprogramming-immunity axis, offering insights into plant defense and growth-immunity balance.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79547-w",
+    "checked_at": "2026-11-26T03:48:48.115865+00:00"
+  },
+  "10.1038/s41467-026-79796-9": {
+    "text": "Forests are natural coolers of Earth’s land surface temperatures. However, the local biophysical cooling provided by forest is often constrained by trade-off between expanding forest areas and competing land uses, which has challenged both policymakers and scientists for decades. Restoring forest canopy structural complexity has long been viewed as a promising nature-based strategy to alleviate this constrain, yet its effectiveness and underlying mechanisms remain poorly understood at the global scale. Using satellite-derived land surface temperature and LiDAR-based measurements of canopy structures, we show that increasing canopy structural complexity enhances local land surface cooling across most global forests (90.0%). The cooling potential of vertical canopy complexity consistently exceeds that of horizontal crown cover density, which has been long overlooked. By aligning canopy structure complexity of managed forests with that of nearby intact forests, we estimate a potential reduction of 0.25 ± 0.001 °C in local land surface temperature globally. Our findings provide insights into strengthening the climate regulation of existing forests through the ecological restoration of forest canopy structure complexity and suggest a space-efficient management strategy that complements, rather than substitutes for, forest conservation and afforestation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79796-9",
+    "checked_at": "2026-11-26T03:48:48.695310+00:00"
+  },
+  "10.1038/s41467-026-79387-8": {
+    "text": "Analysis of drug-resistant strains of M. tuberculosis identified a Gly334Ala mutation in the orphan CYP143 gene, located within the ESX-5 secretion cluster. Guided by this clinical association, we tested the frontline antitubercular agent rifampicin as a CYP143 ligand. Atomic-resolution structures reveal a closed binding mode of rifampicin above the heme, which we also observed for other natural and synthetic rifamycins. The high quality of crystallographic data for both the wild type and mutant structures allowed us to track ligand-induced changes from the active site to the meander, the binding site for the redox partner. Consistent with this, the structure of a CYP143–ligand–redox partner complex confirms that these conformational changes are directly coupled to ligand binding. The structure of CYP143 with a selective inhibitor provides a template for rational drug design. Together, these results advance the understanding of rifampicin resistance/tolerance and the role of the orphan CYPome of M. tuberculosis .",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79387-8",
+    "checked_at": "2026-11-26T03:48:49.265224+00:00"
+  },
+  "10.1038/s41467-026-79572-9": {
+    "text": "Utility-scale quantum computing requires quantum error correction to protect quantum information against noise. Superconducting hardware is a promising platform for fault-tolerant computation, but its typically two-dimensional nearest-neighbour connectivity restricts the variety of quantum low-density parity-check (qLDPC) codes that can be implemented efficiently. Here we introduce directional codes, a family of qLDPC codes compatible with square-grid and, in some cases, hexagonal-grid architectures. The key idea is to use the iSWAP gate to measure long range stabilisers using only local interactions, without requiring additional connectivity. We evaluate directional codes using a superconducting-inspired circuit-level Pauli noise model and compare them to the rotated toric code and bivariate bicycle codes. The best directional code family considered matches the logical error rate of the rotated toric code at physical error rate p = 10 −3 but requires only a quarter to a third of the number of physical qubits to encode a given number of logical qubits.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79572-9",
+    "checked_at": "2026-11-26T03:48:49.737501+00:00"
+  },
+  "10.1038/s41467-026-79718-9": {
+    "text": "Nanopesticides offer new opportunities to improve pesticide efficacy and utilization efficiency; however, they are often complex to produce and exhibit low cargo loading, except for those formed through molecular self-assembly. Currently, the formation of these self-assembly nanopesticides remains difficult to predict, heavily relying on serendipitous observation and trial-and-error screening. Here, we report that the widely used and environmentally benign biopesticide synergist fluorescent brightener FB-113 drives the self-assembly of various pesticides into nanoparticles with ultrahigh loadings exceeding 80%. We developed an interpretable Quantitative Pesticide Structure-Assembly Prediction model (QPSAP), which reveals hydrophobicity, halogenation, polarity, and topological structure of pesticide molecules as key descriptors associated with FB-113-mediated self-assembly propensity. QPSAP was applied to large-scale virtual screening of a pesticide library to identify novel candidates for FB-113-mediated self-assembly, demonstrating complete concordance between predictions and experimental outcomes in a prospectively tested validation subset. The resulting nanopesticides enhance foliar wetting, adhesion, photostability, and transcuticular penetration, thereby increasing insecticidal and acaricidal efficacy against multiple pests while exhibiting improved crop compatibility and a reduced acute toxicity profile under the tested conditions. This work advances self-assembly nanopesticides from empirical formulation toward predictive, computationally screenable design, representing a significant advancement in safe and efficient pesticide nanoformulations.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79718-9",
+    "checked_at": "2026-11-26T03:48:50.386612+00:00"
+  },
+  "10.1038/s41467-026-79504-7": {
+    "text": "Iron deficiency is common in early infancy, but whether supplementation improves vaccine immunogenicity is uncertain. In this randomised, double-blind trial in coastal Kenya (ClinicalTrials.gov NCT04744818), 288 breastfed, iron-deficient infants aged six weeks received daily oral iron (3 mg/kg/day; n = 143) or control (n = 145) until 24 weeks during routine immunisation; follow-up continued to 52 weeks. Primary outcomes were diphtheria and pertussis IgG responses during supplementation. Secondary outcomes were antibody responses to oral and inactivated poliovirus, Haemophilus influenzae type b, tetanus, hepatitis B, and 10-valent pneumococcal conjugate vaccine. Vaccines were given at 6, 10 and 14 weeks. Iron supplementation reduced iron deficiency (OR 0.49, 95% CI 0.34–0.71; p < 0.001) and iron deficiency anaemia (0.63, 0.42–0.96; p = 0.031). Adjusted geometric mean ratios (iron/control) for antibody concentrations were 0.82 (0.67–1.00) for diphtheria, 0.83 (0.64–1.07) for pertussis toxin, 0.82 (0.66–1.02) for filamentous haemagglutinin and 0.80 (0.59–1.10) for pertactin. Antibody responses to most other vaccines did not significantly differ. Seroprotection and adverse-event frequencies did not differ significantly between groups. Iron supplementation from 6 to 24 weeks safely reduced iron deficiency anaemia but was associated with modestly lower diphtheria and pertussis vaccine responses, while responses to other routine childhood vaccines were mostly unaffected.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79504-7",
+    "checked_at": "2026-11-26T03:48:50.936928+00:00"
+  },
+  "10.1038/s41467-026-80025-6": {
+    "text": "Peripheral nerves innervate lymphoid organs, yet how they decode immune signals and direct adaptive immunity remains unknown. Here we show, using three-dimensional tissue imaging, in vivo calcium recordings, single-cell transcriptomics, and chemogenetics in mice, that the mesenteric lymph node (mLN) harbours functionally antagonistic neural circuits that govern T cell fate. Vagal sensory neurons selectively detect IL-1β and TNF-α and release calcitonin gene-related peptide (CGRP), which suppresses Foxp3⁺ regulatory T (T reg ) cells and expands cytotoxic CD8⁺ effector T (T eff ) cells. Conversely, sympathetic neurons sense IL-6 and release norepinephrine (NE), promoting T reg accumulation while restraining effector responses. During Citrobacter rodentium infection, the sympathetic–NE–T reg axis is protective, whereas the vagal–CGRP axis drives immunopathology. T reg -specific deletion of the CGRP receptor or the β₂-adrenergic receptor confirms that these opposing signals converge on T reg cells to calibrate mucosal host defence. These findings establish the mLN as an autonomic rheostat for intestinal immunity.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-80025-6",
+    "checked_at": "2026-11-26T03:48:51.882636+00:00"
+  },
+  "10.1038/s41467-026-79407-7": {
+    "text": "In the version of this article initially published, in the Source Data for Figs. 6e, 7d and associated figure plots, a few individual measurements were incorrectly transcribed during file preparation. For the Figs. 2d, 3c Source Data, there were data transfer errors in the published file; the figures remain unaffected. The Source Data and Figs. 6e and 7d have been updated in the HTML and PDF versions of the file. For comparison, the original and corrected figure panels are available as Supplementary Information accompanying this amendment.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-26T03:49:15.191568+00:00"
+  },
+  "10.1038/s41467-026-80283-4": {
+    "text": "The authors have retracted this article. During an internal review following publication, the authors found that incorrect numerical entries had been inadvertently carried over into the published data, affecting Figs. 3c, 4d and 4f and Supplementary Figs. 10a, 10b and 14m, as well as the corresponding Source Data. The Source Data also contained a duplicated range of values underlying Supplementary Fig. 6c, and spelling and labelling errors in the column headers for Fig. 3 and Supplementary Figs. 1, 9 and 12. The authors reported these issues to the journal. The authors have since located the relevant original experimental records and state that their reanalysis supports the conclusions of the article. However, in view of the extent of the affected data, the authors and the journal agree that retraction is the appropriate course of action. All authors agree with this retraction and apologise to readers for these errors and any confusion they may have caused.",
+    "source": "OpenAlex",
+    "kind": "abstract",
+    "url": "",
+    "checked_at": "2026-11-26T03:49:35.646231+00:00"
+  },
+  "10.1038/s41893-026-01991-9": {
+    "text": "Transitioning perovskite solar cells from laboratory demonstrations to commercial production requires minimizing raw material waste while maximizing manufacturing throughput. Although drop-coating is a continuous, potentially waste-free manufacturing route, its sensitivity to substrate surfaces has limited its wider adoption. Here we describe an ink formulation containing driving solvents that amplify outward surface-tension gradients, forcing droplets to rapidly spread over a wide range of materials, including highly hydrophobic surfaces. This superspreading mechanism enables near-complete utilization of the precursor chemicals, while accelerating film-deposition rates by more than 30-fold. Fully drop-coated perovskite solar cells achieved a power conversion efficiency of 26.36% (certified 26.11%). The formulation also preserves the underlying crystallization pathway during scale-up, allowing direct translation to industrially relevant coating techniques. A large-area minimodule fabricated by blade-coating achieved an efficiency of 22.81% over a 54.8 cm 2 aperture. By decoupling droplet spreading from substrate surface chemistry, this strategy provides a broadly applicable route to high-throughput, material-efficient perovskite film manufacturing and advances the scalable production of high-efficiency photovoltaics.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01991-9",
+    "checked_at": "2026-11-26T03:49:37.257549+00:00"
+  },
+  "10.1038/s41893-026-01989-3": {
+    "text": "The production of cellulose nanocrystals conventionally relies on hazardous chemicals and energy-intensive purification, limiting their sustainable and scalable manufacture. Here we propose a hydrolytic quasi-solvent strategy that enables the rapid extraction of CNCs from microcrystalline cellulose within 15 min, and lignin-containing cellulose nanocrystals directly from untreated biomass within 1 h, with near-closed-loop solvent recycling. Composed entirely of the ionic liquids 1-butyl-3-methylimidazolium hydrogen sulfate and 1-butyl-3-methylimidazolium chloride, the quasi-solvent leverages synergistic ionic interactions to enhance cellulose accessibility, surface functionalization and crystallite dispersion. Meanwhile, the imidazolium cations facilitate lignin removal from raw biomass through localized π – π interactions. Life cycle assessment shows that the recyclable process substantially reduces environmental impacts relative to conventional sulfuric acid hydrolysis and 2,2,6,6-tetramethylpiperidine-1-oxyl-mediated oxidation, while lowering estimated production costs by 55% and 33%, respectively. By integrating rapid nanocellulose extraction, direct biomass processing and solvent circularity, the present strategy provides a scalable and economically viable route towards resource-efficient lignocellulosic biorefineries.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41893-026-01989-3",
+    "checked_at": "2026-11-26T03:49:38.145844+00:00"
+  },
+  "10.1038/s44221-026-00758-y": {
+    "text": "It is reasonable to ask how water research might matter in practice. It is less reasonable to expect every early-stage study to answer that question fully.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/s44221-026-00758-y",
+    "checked_at": "2026-11-26T03:49:39.147307+00:00"
   }
 }
