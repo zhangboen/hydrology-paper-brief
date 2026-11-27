@@ -8307,5 +8307,103 @@
     "kind": "publisher_summary",
     "url": "https://www.nature.com/articles/s44221-026-00758-y",
     "checked_at": "2026-11-26T03:49:39.147307+00:00"
+  },
+  "10.1038/d41586-026-03828-z": {
+    "text": "The super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03828-z",
+    "checked_at": "2026-11-27T03:47:27.259232+00:00"
+  },
+  "10.1038/d41586-026-03875-6": {
+    "text": "AI-generated algorithms could be about to break public-key cryptography, the technology central to commerce, banking and privacy.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-03875-6",
+    "checked_at": "2026-11-27T03:47:27.741071+00:00"
+  },
+  "10.1038/d41586-026-02752-6": {
+    "text": "Pamela Yeh found it hard to manage grief and the demands of her work. Here are some steps that helped her to ease the burden.",
+    "source": "Publisher",
+    "kind": "publisher_summary",
+    "url": "https://www.nature.com/articles/d41586-026-02752-6",
+    "checked_at": "2026-11-27T03:48:07.731390+00:00"
+  },
+  "10.1038/s41467-026-78497-7": {
+    "text": "Invariant natural killer T (iNKT) cells are thought to exit the thymus as terminally differentiated subsets that seed tissues with fixed effector biases. However, the composition, regulatory architecture and plasticity of tissue-resident iNKT cell compartments remain ill-defined. Here, we chart the cellular diversity and transcription-factor (TF) circuitry of mouse liver-resident iNKT (LiNKT) cells and delineate intrahepatic differentiation at steady state and following repeated intravascular αGalCer/CD1d stimulation. Single-cell profiling identifies eight subsets with distinct transcriptional signatures—LiNKT2 (IL-4/IL-13-biased), LiNKT17 (IL-17A-biased), LiNKTR1 (TR1-like, IL-10-biased), and five NKT1-like (IFNγ-biased) states including LiNKT1.1, LiNKT1.2, LiNKT1.3, Klrg1 low Cx3cr1 low Effector and Klrg1 high Cx3cr1 high Effector populations. Trajectory and compositional analyses reveal that iterative stimulation expands LiNKT2 and drives their conversion into LiNKTR1, while LiNKT1.1 seeds Effector and Klrg1⁺Cx3cr1⁺ Effector states, revealing local specification layered atop thymic priming. Conditional deletion across seven signature TFs associated with each subset maps subset dependencies and fate transitions: BCL-6 and TCF-1 sustain global iNKT output and, together with T-BET, license all NKT1-like states. BCL-6, ID3, and IRF4 drive Effector LiNKT1; BCL-6 and c-MAF specify LiNKT17; BLIMP-1 promotes LiNKT2 and, with c-MAF and IRF4, enforces LiNKTR1 specification. BLIMP-1 and ID3 oppose each other in LiNKTR1 versus Effector LiNKT1 differentiation. Thus, the hepatic iNKT compartment emerges as a TF-wired, plastic network in which local cues and subset-specific TF combinations govern lineage progression, nominating actionable nodes for tuning liver inflammation and repair.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78497-7",
+    "checked_at": "2026-11-27T03:51:57.355937+00:00"
+  },
+  "10.1038/s41467-026-79694-0": {
+    "text": "Diffuse intrinsic pontine glioma is a lethal pediatric brainstem cancer with few effective treatments. Here, we integrate metabolomic, transcriptomic, chromatin, genetic and in vivo analyses to identify a purine-metabolic dependency associated with the H3K27M histone mutation. The histone H3 lysine 27-to-methionine substitution increases Nuclear Factor I transcriptional activity, which promotes coordinated expression of enzymes involved in purine biosynthesis and degradation, including 5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/inosine monophosphate cyclohydrolase and purine nucleoside phosphorylase. Sustained purine degradation limits feedback inhibition of purine synthesis, enabling continued purine production, utilization and catabolism. Genetic or pharmacological inhibition of the terminal de novo purine biosynthesis enzyme reduces tumor-cell fitness, slows orthotopic tumor progression and extends survival in mice. These results connect histone-mutation-associated chromatin remodeling to a Nuclear Factor I-regulated, therapeutically targetable purine dependency in diffuse intrinsic pontine glioma.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79694-0",
+    "checked_at": "2026-11-27T03:51:57.944897+00:00"
+  },
+  "10.1038/s41467-026-79798-7": {
+    "text": "Remediating of flue gas pollutants and the mitigation of carbon emissions represent two interconnected yet often conflicting challenges in environmental management. Here we report a borane-assisted photocatalytic system that achieves synergistic co-conversion of CO 2 , NO x , and SO 2 from flue gas into valuable liquid products-formic, nitric, and sulfuric acids-with near-complete selectivity and high stability. Central to this process is the in situ generation of dynamic B-OH intermediates at the borane-catalyst interface, which serve as proton relays to activate water-derived protons for CO 2 reduction while promoting reactive oxygen species for pollutant oxidation. This mechanism enables approximately 77.02% of the hydrogen in formic acid to originate from water. The system demonstrates broad applicability across diverse photocatalysts and borane reagents, and exhibits sustained performance under simulated flue gas conditions. Our work establishes a sustainable and economically viable pathway for integrated carbon and pollutant valorization, offering a scalable strategy toward circular carbon economies.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79798-7",
+    "checked_at": "2026-11-27T03:51:58.392656+00:00"
+  },
+  "10.1038/s41467-026-79550-1": {
+    "text": "Plant cells are encased in cell walls and are usually thought to behave like stiff, pressurized vessels. When the cell wall is digested, plant protoplasts form spherical shapes, further consolidating this model. Here we show that plant protoplasts can form phytopodia. More precisely, using plasma membrane markers, we reveal that 27 ± 1% of protoplasts from Arabidopsis seedlings show dot-like protrusions and 16 ± 7% of protoplasts show long (typically 1-20 μm, up to 200 μm) protrusions, hence the name “phytopodia”. We demonstrate that this behavior is independent of the plant species, the membrane marker or the osmolyte. Phytopodia can host microtubule bundles, which in turn can impact their shape. Actin is not required for the presence of phytopodia, and consistently, the movement of phytopodia is passive. Phytopodia can form de novo when increasing osmolarity and they can attach to artificial surfaces. Altogether, this calls for revisiting the dynamics and probing ability of the plant cell cortex in different osmotic and mechanical environments.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79550-1",
+    "checked_at": "2026-11-27T03:51:58.842954+00:00"
+  },
+  "10.1038/s41467-026-79752-7": {
+    "text": "Tumor cells exhibit aberrantly upregulated glycolysis, in which glycolytic enzyme enolase 1 (ENO1) plays a critical role. However, how ENO1 activity is dynamically regulated in tumor cells remains elusive. Here, we demonstrate that hypoxic stimulation promotes the binding of p38 MAP kinase to choline kinase α (CHKα). p38 phosphorylates CHKα at S114, subsequently leading to CHKα to interact with ENO1. Importantly, CHKα functions as a protein kinase and phosphorylates ENO1 Y44 thereby enhancing the metabolic activity of ENO1 to increase glycolysis. Knock-in expression of CHKα S114A or ENO1 Y44F inhibits brain tumor cell glycolysis and proliferation, blunts brain tumor growth in mice with inhibited lactate production, and prolongs mouse survival. In addition, CHKα S114 and ENO1 Y44 phosphorylation levels are positively correlated with each other and associated with poor prognosis in glioblastoma patients. These findings highlight the critical regulation of glycolysis by the noncanonical function of CHKα and underscore the potential to target the moonlighting function of CHKα for cancer treatment.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79752-7",
+    "checked_at": "2026-11-27T03:52:07.977202+00:00"
+  },
+  "10.1038/s41467-026-78743-y": {
+    "text": "The development of high-performance impact-stiffening materials is critical for applications spanning personal protection to military defense. Conventional designs of such materials relying on strong noncovalent interactions often face a strength–toughness trade‑off. To overcome this limitation, we introduce a strategy that utilizes the dynamic threading–dethreading kinetics of host–guest complexes in polypseudorotaxanes to fabricate impact‑stiffening materials. Unlike binding‑strength‑governed designs, this approach is governed by kinetic mismatch between the dethreading time of the macrocycle and the external deformation time. This kinetic control decouples the static compliance from the dynamic stiffening threshold, enabling pronounced impact‑stiffening even with a modest solution‑phase binding constant. Under low shear rates, the macrocycles gradually slide from the polymer backbone, preserving flexibility. Upon high-speed impact, the dethreading of host–guest complexes cannot occur within the ultrashort loading window of deformation, kinetically freezing the network and increasing the storage modulus by 48‑fold (0.1–100 Hz, 25 °C). The material also exhibits self-healing, reprocessability, and strong adhesion. This work demonstrates rate-dependent host–guest disassembly as a design principle for adaptive impact-protective materials.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-78743-y",
+    "checked_at": "2026-11-27T03:52:08.615793+00:00"
+  },
+  "10.1038/s41467-026-79655-7": {
+    "text": "Immune checkpoint blockade has transformed cancer therapy, yet its efficacy is frequently undermined by an immunosuppressive tumor microenvironment. In addition, the immune-related toxicities restrict combination therapy targeting several immune checkpoints. Here, we identify chemotherapy-induced CD200 upregulation as a stress-adaptive resistance mechanism that reinforces tumor immune evasion under treatment pressure. Leveraging a tumor-restricted, nucleoside-enhanced nanocarrier, we achieve spatially selective silencing of tumor-intrinsic CD200, thereby reprogramming the tumor immune microenvironment, enhancing antitumor efficacy, and enabling effective combination with PD-1 blockade. Importantly, this strategy minimizes the colitis exacerbation associated with systemic CD200/PD-1 dual blockade in a DSS-induced susceptibility model, suggesting its potential to preserve immune homeostasis while reducing immune-related toxicity. Together, our findings establish CD200 as a context-dependent immune resistance node and demonstrate a nanotechnology-based framework for precise and safe immune checkpoint modulation.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79655-7",
+    "checked_at": "2026-11-27T03:52:09.242017+00:00"
+  },
+  "10.1038/s41467-026-79426-4": {
+    "text": "Architected materials derive unusual mechanical responses from geometry rather than mostly by their chemistry. Polycatenated architected materials (PAMs), composed of interlinked rigid units, have been shown to display hybrid solid–fluid behaviors. Frequency-sweep rheological experiments have revealed a transition from strong shear thinning at low frequencies to pronounced shear thickening above a critical frequency. Because neighboring PAM units are connected, rather than freely rearranging, conventional granular theories do not readily explain their behavior. Here, we develop a one-dimensional analytical model to capture the frequency-response of PAMs based on a quasi-particle description. Quasi-particles are defined as segments of PAMs that are either fully stretched or fully compressed. Modeling their interactions produces an effective viscosity that captures both asymptotic scaling laws and the critical frequency. These predictions agree quantitatively with simulations and experiments. Our results reveal that PAM’s frequency-dependent response arises from competing effects between dissipation and inertia. More broadly, our results establish an analytical foundation for understanding the dynamics of PAMs and provide design principles for tuning their responses.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79426-4",
+    "checked_at": "2026-11-27T03:52:09.678821+00:00"
+  },
+  "10.1038/s41467-026-79471-z": {
+    "text": "Haplotype reference panels are commonly used for genotype imputation in genome-wide association studies (GWAS). Although structural variants (SVs) are recognized as major contributors to human phenotypes, they are often excluded from GWAS analyses. Here, we integrate long-read-based and statistical methods to provide a comprehensive haplotype reference panel (Han-SV panel) incorporating 32,603,300 single nucleotide variants, 3,180,227 small deletions and insertions and 172,569 SVs derived from 943 Han Chinese individuals. Our hybrid phasing approach had a 2 to 5-fold reduction in phasing error for small variants and 2 to 9-fold for SVs compared to conventional statistical phasing. This Han-SV panel enabled a more than two-fold in amount and 9-22% in accuracy improvement of SV imputation compared to the expanded 1000 Genomes Project panel. Two GWASs using our panel-imputed variants identified 69 associated SVs and 101 previously unreported regions associated with skin-related and fingerprint phenotypes—substantially outperforming both short-read and array-based GWAS. This Han-SV panel offers a valuable resource for variant imputation and SV-included association studies to further uncover the novel phenotype associations and address critical gaps in missing heritability. An imputation server was provided for the use of the Han-SV panel ( https://www.biosino.org/svrp ).",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79471-z",
+    "checked_at": "2026-11-27T03:52:10.249962+00:00"
+  },
+  "10.1038/s41467-026-79443-3": {
+    "text": "The well-known metal-to-insulator transition in rutile/monoclinic VO 2 has been understood as a correlation-enhanced Peierls phenomenon. The lesser-known B-polymorph exhibits a similar resistivity jump, assumed to arise from an analogous transition. However, unlike rutile/monoclinic VO 2 , here the transition is isostructural, with dimers persisting both above and below the transition, challenging established interpretations. Here, we show that the phase transition in the B-polymorph is qualitatively different. Despite high conductivity and finite spectral weight at the chemical potential, the high-temperature phase lacks standard metallic screening and Drude peaks. Our theoretical analysis reveals that while the low-temperature insulating phase is driven by both Peierls and Mott physics, the high-temperature state is an anomalous insulator whose apparent metallicity arises from incoherent in-gap states that mimic a metal. We relate this unusual growth of incoherent states to temperature-dependent intra-dimer charge transfers. Finally, we propose a unified framework using an Einstein-Podolsky-Rosen-like quantum-entanglement measure to characterize and distinguish between different VO 2 phases hosting dimers.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79443-3",
+    "checked_at": "2026-11-27T03:52:11.041427+00:00"
+  },
+  "10.1038/s41467-026-79503-8": {
+    "text": "Colibactin is a microbiome-derived genotoxin that damages the genomes of intestinal epithelial cells and has been linked to colorectal cancer. Its biosynthesis is encoded by a large gene cluster ( pks / clb ) that functions as a hybrid nonribosomal peptide synthetase - polyketide synthase assembly line, yet the structural basis of its assembly remains poorly understood. Here we show cryo-electron microscopy structures of colibactin biosynthetic enzyme ClbB that uncover a noncanonical architecture for a fully-reducing polyketide synthase module. Unlike metazoan fatty acid synthases and iterative polyketide synthases, ClbB arranges its condensing and reducing regions in a crossed configuration. Within its reducing region, the enoylreductase forms an inverted dimer and the dehydratase is positioned peripherally as monomers. Moreover, the dehydratase-enoylreductase unit is embedded within the ketoreductase fold. Bioinformatic analyses combined with deep-learning-based structure prediction indicate that this domain-embedding logic is broadly distributed across diverse bacterial phyla. These findings define a structurally distinct class of reducing polyketide synthase modules and provide an expanded structural framework for understanding how modular polyketide synthases coordinate multi-step chemistry. The work also extends design principles for engineering megasynthases for chemical biosynthesis and synthetic biology.",
+    "source": "Publisher",
+    "kind": "abstract",
+    "url": "https://www.nature.com/articles/s41467-026-79503-8",
+    "checked_at": "2026-11-27T03:52:11.535623+00:00"
   }
 }
